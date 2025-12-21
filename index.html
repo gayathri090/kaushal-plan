@@ -29,7 +29,7 @@
 <div class="nav">
   <button onclick="show('kaushal')">👦 Kaushal</button>
   <button onclick="show('parnika')">👧 Parnika</button>
-  <button onclick="show('Gayathri')">🤱 Gayathri</button>
+  <button onclick="show('mom')">🤱 Mom</button>
   <button onclick="show('dad')">👨 Dad</button>
 </div>
 
@@ -45,10 +45,10 @@
   <div id="parnikaTasks"></div>
 </div>
 
-<!-- ================= Gayathri ================= -->
-<div id="Gayathri" class="schedule">
-  <h2>Gayathri’s Tasks (Danish + Diet + Vitamins)</h2>
-  <div id="GayathriTasks"></div>
+<!-- ================= MOM ================= -->
+<div id="mom" class="schedule">
+  <h2>Mom’s Tasks (Danish + Diet + Vitamins)</h2>
+  <div id="momTasks"></div>
 </div>
 
 <!-- ================= DAD ================= -->
@@ -108,7 +108,7 @@ const parnikaPlan = [
   {date:"Jan 04", studies:"Games review", food:"Healthy", exercise:"Family walk", sleep:"8:00 pm"},
 ];
 
-const GayathriPlan = [
+const momPlan = [
   {date:"Dec 22", task:"Danish Chapter 1 study", food:"High iron breakfast + veggies + vitamin C", vitamins:"Iron + D", exercise:"Walk 20 min"},
   {date:"Dec 23", task:"Danish Chapter 2", food:"Spinach + eggs + fruit", vitamins:"Iron + D", exercise:"Yoga 15 min"},
   {date:"Dec 24", task:"Danish Chapter 3", food:"Beans + fruit + vitamin C", vitamins:"Iron + D", exercise:"Walk 20"},
@@ -153,7 +153,7 @@ function renderSchedule(plans, containerId, type) {
       html += `<div class="task">🍎 Food: ${day.food}</div>`;
       html += `<div class="task">🏃 Exercise: ${day.exercise}</div>`;
       html += `<div class="task">😴 Sleep: ${day.sleep}</div>`;
-    } else if(type === "Gayathri") {
+    } else if(type === "mom") {
       html += `<div class="task">📘 Task: ${day.task}</div>`;
       html += `<div class="task">🍎 Food: ${day.food}</div>`;
       html += `<div class="task">💊 Vitamins: ${day.vitamins}</div>`;
@@ -178,7 +178,7 @@ function renderSchedule(plans, containerId, type) {
 
 renderSchedule(kaushalPlan, "kaushalTasks", "kid");
 renderSchedule(parnikaPlan, "parnikaTasks", "kid");
-renderSchedule(GayathriPlan, "GayathriTasks", "Gayathri");
+renderSchedule(momPlan, "momTasks", "mom");
 renderSchedule(dadPlan, "dadTasks", "dad");
 
 // ======== ADD EXTRA TASK ========
