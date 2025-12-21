@@ -1,42 +1,964 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Dad — Salesforce + Driving</title>
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Dad Plan</title>
+<style>
     :root{
-      --bg:#0b1220; --text:#e5e7eb; --muted:#9ca3af; --line:rgba(255,255,255,0.10);
+      --bg:#0b1220;
+      --panel:#101a2e;
+      --card:#0f172a;
+      --text:#e5e7eb;
+      --muted:#9ca3af;
+      --line:rgba(255,255,255,0.08);
+
+      --blue:#60a5fa;
+      --green:#34d399;
+      --purple:#a78bfa;
+      --orange:#fb923c;
+      --red:#f87171;
+      --white:#ffffff;
     }
+
     *{ box-sizing:border-box; }
     body{
       margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji";
       background: radial-gradient(1000px 600px at 10% 0%, #1e2a52 0%, var(--bg) 50%, #070b14 100%);
       color: var(--text);
     }
-    .wrap{ max-width: 900px; margin: 0 auto; padding: 18px; }
-    h1{ margin:0; font-size: 22px; font-weight: 900; }
-    .subtitle{ margin-top:6px; color: var(--muted); font-size: 13px; line-height: 1.4; }
-    a.btn{
-      display:inline-block;
-      margin-top: 12px;
+
+    .topbar{
+      padding:18px 18px 10px;
+      max-width: 1200px;
+      margin:0 auto;
+    }
+
+    .titleRow{
+      display:flex;
+      gap:12px;
+      align-items:flex-start;
+      justify-content:space-between;
+      flex-wrap:wrap;
+    }
+
+    .titleBlock h1{
+      margin:0;
+      font-size: 22px;
+      font-weight:800;
+      letter-spacing: 0.2px;
+    }
+    .subtitle{
+      margin-top:6px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.35;
+      max-width: 900px;
+    }
+
+    .clock{
+      display:flex;
+      flex-direction:column;
+      gap:4px;
+      align-items:flex-end;
+      padding:10px 12px;
       border: 1px solid var(--line);
-      background: rgba(15,23,42,0.45);
+      background: rgba(15, 23, 42, 0.55);
+      border-radius: 12px;
+      min-width: 190px;
+    }
+    .clockTime{
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: .3px;
+    }
+    .clockDate{
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .tabs{
+      margin-top: 14px;
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .tabBtn{
+      border: 1px solid var(--line);
+      background: rgba(15,23,42,0.35);
       color: var(--text);
       padding: 10px 12px;
       border-radius: 14px;
-      text-decoration:none;
-      font-weight: 800;
-      font-size: 13px;
+      cursor:pointer;
+      display:flex;
+      align-items:center;
+      gap:10px;
+      transition: .15s ease;
+      user-select:none;
     }
-  </style>
+    .tabBtn:hover{ transform: translateY(-1px); border-color: rgba(255,255,255,.18); }
+    .tabBtn.active{
+      background: rgba(96,165,250,0.18);
+      border-color: rgba(96,165,250,0.45);
+    }
+    .tabIcon{ font-size: 22px; line-height: 1; }
+    .tabText{ display:flex; flex-direction:column; line-height:1.05; }
+    .tabText strong{ font-size: 14px; }
+    .tabText span{ font-size: 12px; color: var(--muted); margin-top:2px; }
+
+    .layout{
+      max-width: 1200px;
+      margin: 12px auto 26px;
+      padding: 0 18px 18px;
+      display:grid;
+      grid-template-columns: 360px 1fr;
+      gap:16px;
+    }
+
+    @media (max-width: 980px){
+      .layout{ grid-template-columns: 1fr; }
+      .clock{ align-items:flex-start; }
+    }
+
+    .panel{
+      border: 1px solid var(--line);
+      background: rgba(16,26,46,0.55);
+      border-radius: 16px;
+      overflow:hidden;
+      box-shadow: 0 18px 60px rgba(0,0,0,0.35);
+    }
+
+    .panelHeader{
+      padding: 14px 14px;
+      border-bottom: 1px solid var(--line);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+    }
+    .panelHeader h2{
+      margin:0;
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .stats{
+      padding: 12px 14px 6px;
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:10px;
+    }
+    .statCard{
+      border: 1px solid var(--line);
+      background: rgba(15,23,42,0.55);
+      border-radius: 14px;
+      padding: 12px;
+    }
+    .statBig{
+      font-size: 26px;
+      font-weight: 900;
+      margin:0;
+    }
+    .statLabel{
+      margin-top:2px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .daysList{
+      padding: 8px 10px 14px;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      max-height: 62vh;
+      overflow:auto;
+    }
+    .dayItem{
+      border: 1px solid var(--line);
+      background: rgba(15,23,42,0.35);
+      border-radius: 14px;
+      padding: 12px;
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      cursor:pointer;
+      transition: .12s ease;
+    }
+    .dayItem:hover{ border-color: rgba(255,255,255,.16); transform: translateY(-1px); }
+    .dayItem.active{
+      background: rgba(96,165,250,0.14);
+      border-color: rgba(96,165,250,0.35);
+    }
+    .dayLeft{ display:flex; flex-direction:column; gap:4px; }
+    .dayDate{ font-weight: 800; font-size: 14px; color: var(--white); }
+    .dayTheme{ font-size: 12px; color: var(--muted); }
+
+    .badge{
+      align-self:center;
+      min-width: 58px;
+      text-align:center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(0,0,0,0.22);
+      font-weight: 900;
+      font-size: 12px;
+      color: var(--white);
+      white-space:nowrap;
+    }
+
+    .detail{ padding: 14px; }
+    .detailTitle{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+    .detailTitle h3{
+      margin:0;
+      font-size: 18px;
+      font-weight: 900;
+    }
+
+    .chips{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin-top:10px;
+    }
+    .chip{
+      border: 1px solid rgba(255,255,255,0.10);
+      background: rgba(11,16,32,0.55);
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      color: var(--text);
+    }
+
+    .section{
+      margin-top:14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
+    .sectionHead{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      margin-bottom: 8px;
+    }
+    .sectionHead h4{
+      margin:0;
+      font-size: 14px;
+      font-weight: 900;
+      letter-spacing:.2px;
+    }
+    .addBtn{
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
+      padding: 7px 10px;
+      border-radius: 12px;
+      cursor:pointer;
+      font-weight: 700;
+      font-size: 12px;
+    }
+    .addBtn:hover{ border-color: rgba(255,255,255,0.22); transform: translateY(-1px); }
+
+    .routineText{
+      color: var(--muted);
+      font-size: 13px;
+      line-height:1.4;
+      margin: 6px 0 0;
+    }
+
+    .taskCard{
+      border: 1px solid var(--line);
+      background: rgba(15,23,42,0.45);
+      border-radius: 14px;
+      padding: 12px;
+      display:flex;
+      gap:12px;
+      align-items:flex-start;
+      margin-top:10px;
+    }
+
+    .taskCard input[type="checkbox"]{
+      width: 18px;
+      height: 18px;
+      margin-top: 2px;
+      accent-color: #60a5fa;
+      cursor:pointer;
+    }
+
+    .taskMain{
+      flex:1;
+      display:flex;
+      flex-direction:column;
+      gap:3px;
+    }
+    .taskTitle{
+      font-weight: 900;
+      font-size: 13px;
+      margin:0;
+    }
+    .taskNote{
+      margin:0;
+      color: var(--muted);
+      font-size: 12.5px;
+      line-height: 1.35;
+    }
+
+    /* Category colors */
+    .pillStudy{ color: var(--blue); }
+    .pillFood{ color: var(--green); }
+    .pillMove{ color: var(--purple); }
+    .pillSleep{ color: var(--orange); }
+
+    .notesBox{
+      margin-top: 14px;
+      border: 1px solid var(--line);
+      background: rgba(15,23,42,0.40);
+      border-radius: 14px;
+      padding: 12px;
+    }
+    .notesBox label{
+      font-size: 12px;
+      color: var(--muted);
+      display:block;
+      margin-bottom: 6px;
+      font-weight: 700;
+    }
+    textarea{
+      width: 100%;
+      min-height: 90px;
+      resize: vertical;
+      border-radius: 12px;
+      padding: 10px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(0,0,0,0.22);
+      color: var(--text);
+      outline:none;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .smallHelp{
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .footerHint{
+      max-width: 1200px;
+      margin: 0 auto 22px;
+      padding: 0 18px;
+      color: rgba(255,255,255,0.55);
+      font-size: 12px;
+    }
+  
+/* --- Profile-specific page tweaks --- */
+.profiles{display:none !important;}
+</style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>Dad — Salesforce + Driving</h1>
-    <div class="subtitle">Tracker page (placeholder). You can paste your existing Dad tracker content here.</div>
-    <a class="btn" href="index.html">← Back to Family Plan</a>
+<div class="topbar">
+<div class="titleRow">
+<div class="titleBlock">
+<h1>Dad Plan</h1>
+<div class="subtitle" id="subtitle">
+          Kaushal routine: short blocks, clear steps, movement breaks, and simple tracking. Diet focus: GF/CF/Sugar-free/Low oil + high protein.
+        </div>
+</div>
+<div class="clock">
+<div class="clockTime" id="clockTime">--:--:--</div>
+<div class="clockDate" id="clockDate">---</div>
+</div>
+</div>
+<div class="tabs">
+<div class="tabBtn active" data-profile="kaushal">
+<div class="tabIcon">👦</div>
+<div class="tabText"><strong>Kaushal</strong><span>Holiday plan</span></div>
+</div>
+<div class="tabBtn" data-profile="parnika">
+<div class="tabIcon">👧</div>
+<div class="tabText"><strong>Parnika</strong><span>Holiday plan</span></div>
+</div>
+<div class="tabBtn" data-profile="mom">
+<div class="tabIcon">👩‍🎓</div>
+<div class="tabText"><strong>Mom</strong><span>AI + Citizenship</span></div>
+</div>
+<div class="tabBtn" data-profile="dad">
+<div class="tabIcon">👨‍💼</div>
+<div class="tabText"><strong>Dad</strong><span>Salesforce + Driving</span></div>
+</div>
+</div>
+</div>
+<div class="layout">
+<!-- LEFT: DAYS -->
+<div class="panel">
+<div class="panelHeader">
+<h2>Days</h2>
+</div>
+<div class="stats">
+<div class="statCard">
+<div class="statBig" id="todayCompletion">0%</div>
+<div class="statLabel">Today completion</div>
+</div>
+<div class="statCard">
+<div class="statBig" id="dailyStreak">0</div>
+<div class="statLabel">Daily streak (≥ 60%)</div>
+</div>
+</div>
+<div class="daysList" id="daysList"></div>
+</div>
+<!-- RIGHT: DETAILS -->
+<div class="panel">
+<div class="detail" id="detail"></div>
+</div>
+</div>
+<div class="footerHint">
+    Tip: Check tasks as you do them. % updates automatically. Notes + progress are saved in your browser (localStorage).
   </div>
-</body>
+<script>
+/** =========================
+ *  DATE HELPERS
+ *  ========================= */
+function iso(d){ return d.toISOString().slice(0,10); }
+function listDates(startISO, endISO){
+  const out = [];
+  const start = new Date(startISO + "T00:00:00");
+  const end = new Date(endISO + "T00:00:00");
+  for(let d = new Date(start); d <= end; d.setDate(d.getDate()+1)){
+    out.push(iso(d));
+  }
+  return out;
+}
+const PLAN_DATES = listDates("2025-12-22","2026-01-04");
+
+/** =========================
+ *  TASK TEMPLATES (easy + consistent)
+ *  ========================= */
+function kaushalTasksForDate(dateISO){
+  // small gentle variations by weekday
+  const d = new Date(dateISO + "T00:00:00");
+  const wd = d.getDay(); // 0 Sun ... 6 Sat
+
+  const math = (wd===0) ? "Math (20 min): Review + 5 easy questions"
+           : (wd===6) ? "Math (20 min): Number bonds to 10 (using objects)"
+           : "Math (20 min): Add/sub within 10 (10 questions only)";
+
+  const danish = (wd===0) ? "Danish (15–20 min): Flashcards (10 words)"
+              : (wd===3) ? "Danish (15–20 min): Simple Q&A (Hvad hedder du? Hvor bor du?)"
+              : "Danish (15–20 min): 5 words + write 2 words";
+
+  const english = (wd===5) ? "English (15–20 min): Sight words (5 words) + write once"
+               : "English (15–20 min): Read together + copy 1 short sentence";
+
+  const theme = (wd===0) ? "Sunday calm + review"
+              : (wd===6) ? "Weekend routine + fun"
+              : "Consistency + small progress";
+
+  return {
+    theme,
+    routine:
+      "Morning: breakfast → 10 min movement → Study Block 1 → break. " +
+      "Midday: lunch → outdoor play. " +
+      "Afternoon: Study Block 2 → break → calm activity. " +
+      "Evening: light walk/stretch → dinner → short story → sleep routine.",
+    sections:{
+      study:[
+        { t: math, n:"Keep it short. Stop early if tired. Use real items (beans/lego/cards)." },
+        { t: danish, n:"Say + point to picture + repeat 3 times. Celebrate effort." },
+        { t: english, n:"Keep reading positive. One neat sentence is enough." },
+      ],
+      meals:[
+        { t:"Breakfast", n:"Idli + sambar (extra lentils) OR oats porridge with unsweetened plant milk + seeds." },
+        { t:"Lunch", n:"Rice + dal + greens (spinach) + cucumber. Add boiled egg OR grilled chicken/fish." },
+        { t:"Snack", n:"Seasonal fruit + nuts OR roasted chana (small)." },
+        { t:"Dinner", n:"Millet dosa/roti + vegetable curry (light oil) + fish/chicken (as available)." },
+      ],
+      move:[
+        { t:"Movement (10 min)", n:"Animal walks / jumping / dance 2 songs." },
+        { t:"Outdoor play (20–30 min)", n:"Park time, ball throw/catch, simple chase game." },
+        { t:"Calm body (5–10 min)", n:"Stretch + deep breaths. Short walk after dinner." },
+      ],
+      sleep:[
+        { t:"Sleep routine", n:"Aim: wind down 7:30pm → story → sleep by 8:00pm." },
+      ]
+    }
+  };
+}
+
+function parnikaTasksForDate(dateISO){
+  const d = new Date(dateISO + "T00:00:00");
+  const wd = d.getDay();
+  const theme = "Play + healthy routine";
+  const play = (wd===0) ? "Play learning (10–15 min): Puzzles + matching"
+             : (wd===2) ? "Play learning (10–15 min): Counting toys 1–10"
+             : "Play learning (10–15 min): Colors + shapes";
+
+  return {
+    theme,
+    routine:
+      "Morning: breakfast → outdoor play. Midday: lunch → nap/quiet time. " +
+      "Afternoon: crafts + movement. 4:30pm–7:30pm: online school. " +
+      "Evening: dinner → story → sleep by 8:00pm.",
+    sections:{
+      study:[
+        { t: play, n:"Keep it fun and short. Stop while still happy." },
+        { t:"Story time (10 min)", n:"Read 1 small book. Ask 2 easy questions." },
+        { t:"Online school (4:30–7:30 pm)", n:"Support with water/snack breaks if allowed. Calm after class." },
+      ],
+      meals:[
+        { t:"Breakfast", n:"Egg/banana pancake (no sugar) OR oats + fruit." },
+        { t:"Lunch", n:"Rice + dal + veg OR small chicken/fish + veg." },
+        { t:"Snack", n:"Fruit + small nuts (if safe) OR roasted chana (small)." },
+        { t:"Dinner", n:"Light dinner: veg + protein (egg/chicken/fish)." },
+      ],
+      move:[
+        { t:"Outdoor play (30 min)", n:"Park, swing, running games with Kaushal." },
+        { t:"Music & movement (10 min)", n:"Dance to 2 songs." },
+        { t:"Calm-down (5 min)", n:"Stretch + deep breaths before sleep." },
+      ],
+      sleep:[
+        { t:"Sleep by 8:00pm", n:"Dim lights after 7:30pm. Same bedtime daily." }
+      ]
+    }
+  };
+}
+
+function momTasksForDate(dateISO){
+  const d = new Date(dateISO + "T00:00:00");
+  const wd = d.getDay();
+  const theme = (wd===0) ? "Review + lighter study" : "AI + Citizenship + Health";
+
+  // Vitamin “alternatives” reminder (safe, general)
+  const supplementsNote =
+    "✅ Iron + ✅ Vitamin D daily (set reminder). If iron upsets stomach, take with food. " +
+    "Common food sources of iron: spinach, lentils/beans, chickpeas, pumpkin seeds, eggs, fish, chicken. " +
+    "Use Vitamin C (orange/kiwi/lemon) with iron meals. Avoid tea/coffee right after iron meals.";
+
+  return {
+    theme,
+    routine:
+      "Blocks: (1) AI study (2) AI assignment (3) Citizenship reading + flashcards (4) Walk/stretch. " +
+      "Keep short blocks + breaks.",
+    sections:{
+      study:[
+        { t:"AI Study (60–90 min)", n:"Lecture/reading. Note key points + 3 questions." },
+        { t:"AI Assignment (45–60 min)", n:"Work on 1 small deliverable. Stop when done." },
+        { t:"Citizenship (45–60 min): Chapter reading", n:"Read 8–12 pages + 5 bullet summary + 10 flashcards." },
+        { t:"Practice quiz (10–15 min)", n:"Answer 10 questions from flashcards/notes." },
+      ],
+      meals:[
+        { t:"Iron + Protein Breakfast", n:"Eggs/tofu + spinach OR oats + pumpkin seeds + berries + Vitamin-C fruit." },
+        { t:"Iron-rich Lunch", n:"Lentils/beans + leafy greens + chicken/fish. Add lemon (Vitamin C)." },
+        { t:"Snack", n:"Nuts + fruit OR hummus + veggies (avoid tea/coffee right after iron meals)." },
+        { t:"High-protein Dinner", n:"Fish/chicken + vegetables + quinoa/rice. Add beetroot/greens sometimes." },
+        { t:"Daily vitamins", n: supplementsNote },
+      ],
+      move:[
+        { t:"Walk (20–30 min)", n:"Easy walk after lunch or dinner." },
+        { t:"Stretch (5–10 min)", n:"Neck/shoulders/back stretches." },
+      ],
+      sleep:[
+        { t:"Sleep routine", n:"Aim consistent bedtime. Reduce screen 30 min before sleep." }
+      ]
+    }
+  };
+}
+
+function dadTasksForDate(dateISO){
+  const d = new Date(dateISO + "T00:00:00");
+  const isBeforeExam = (dateISO <= "2026-01-04"); // exam Jan 4
+  const theme = isBeforeExam ? "Salesforce focus + Driving theory" : "Driving focus";
+
+  return {
+    theme,
+    routine:
+      "Until Jan 4: Salesforce daily + small driving theory block. " +
+      "Goal: Danish driving license completed by February (steady practice).",
+    sections:{
+      study:[
+        { t:"Salesforce (60–120 min)", n:"Revision + 30 practice questions. Review wrong answers." },
+        { t:"Salesforce mock (20–30 min)", n:"Timed mini test. Track score." },
+        { t:"Driving theory (30–45 min)", n:"Read 1 topic + 20 practice questions." },
+        { t:"Driving practical prep (10 min)", n:"Review mistakes list OR watch 1 short lesson video." },
+      ],
+      meals:[
+        { t:"Hydration", n:"Water. Keep caffeine moderate. Avoid heavy meals before long study blocks." },
+        { t:"Balanced meals", n:"Protein + veg + carbs (stable energy)." },
+      ],
+      move:[
+        { t:"Walk (15–20 min)", n:"Short walk to reset mind." },
+        { t:"Stretch (5 min)", n:"Back/neck stretches." },
+      ],
+      sleep:[
+        { t:"Sleep", n:"Try for 7 hours when possible." }
+      ]
+    }
+  };
+}
+
+/** =========================
+ *  BUILD DAYS FOR EACH PROFILE
+ *  ========================= */
+function buildDays(profile){
+  return PLAN_DATES.map(dateISO=>{
+    const d = new Date(dateISO + "T00:00:00");
+    const pretty = d.toLocaleDateString(undefined, { weekday:"short", month:"short", day:"numeric", year:"numeric" });
+
+    let pack;
+    if(profile==="kaushal") pack = kaushalTasksForDate(dateISO);
+    if(profile==="parnika") pack = parnikaTasksForDate(dateISO);
+    if(profile==="mom")     pack = momTasksForDate(dateISO);
+    if(profile==="dad")     pack = dadTasksForDate(dateISO);
+
+    return {
+      id: dateISO,
+      title: `${pretty} — ${profile.charAt(0).toUpperCase()+profile.slice(1)} routine`,
+      theme: pack.theme,
+      routine: pack.routine,
+      sections: pack.sections
+    };
+  });
+}
+
+/** =========================
+ *  DATA (Plans)
+ *  ========================= */
+const plans = {
+  kaushal: {
+    header: "Kaushal — Holiday Plan (Dec 22, 2025 → Jan 4, 2026)",
+    subtitle: "Kaushal routine: short blocks, clear steps, movement breaks, and simple tracking. Diet focus: gluten-free, casein-free, sugar-free, low oil, high protein.",
+    chips: ["GF", "Casein-free", "Sugar-free", "Low oil"],
+    days: buildDays("kaushal")
+  },
+  parnika: {
+    header: "Parnika — Holiday Plan (Dec 22, 2025 → Jan 4, 2026) + Online School (4:30pm–7:30pm)",
+    subtitle: "3.9 years: play-based learning, simple routines, healthy food, early sleep.",
+    chips: ["Play-based", "Healthy", "Early sleep"],
+    days: buildDays("parnika")
+  },
+  mom: {
+    header: "Mom — Masters AI + Danish Citizenship Exam (Goal: May 2026) + Health",
+    subtitle: "Daily focus: AI classes/assignments + citizenship chapters. Health: iron-rich + high protein + daily Iron & Vitamin D.",
+    chips: ["AI study", "Citizenship", "Iron", "Vitamin D"],
+    days: buildDays("mom")
+  },
+  dad: {
+    header: "Dad — Salesforce Exam (Jan 4) + Danish Driving License (Goal: Feb)",
+    subtitle: "Daily focus: Salesforce revision until Jan 4, plus driving theory. Goal: driving license completed by February.",
+    chips: ["Salesforce", "Driving Theory", "Driving Practice"],
+    days: buildDays("dad")
+  }
+};
+
+/** =========================
+ *  STATE + STORAGE
+ *  ========================= */
+let currentProfile = "dad";
+let currentDayId = plans[currentProfile].days[0].id;
+
+function storageKey(profile){ return `familyPlan_v3_${profile}`; }
+
+function loadProfileState(profile){
+  const raw = localStorage.getItem(storageKey(profile));
+  if(!raw) return {};
+  try { return JSON.parse(raw); } catch(e){ return {}; }
+}
+
+function saveProfileState(profile, state){
+  localStorage.setItem(storageKey(profile), JSON.stringify(state));
+}
+
+function getDayState(profile, dayId){
+  const state = loadProfileState(profile);
+  return state[dayId] || { checks:{}, notes:"" };
+}
+
+function setDayState(profile, dayId, dayState){
+  const state = loadProfileState(profile);
+  state[dayId] = dayState;
+  saveProfileState(profile, state);
+}
+
+/** =========================
+ *  COMPLETION
+ *  ========================= */
+function flattenTasks(day){
+  const out = [];
+  const sections = day.sections || {};
+  Object.keys(sections).forEach(sec=>{
+    sections[sec].forEach((task, idx)=>{
+      out.push({ sec, idx, t: task.t, n: task.n, key: `${sec}_${idx}` });
+    });
+  });
+  return out;
+}
+
+function computeCompletionForDay(profile, day){
+  const ds = getDayState(profile, day.id);
+  const allTasks = flattenTasks(day);
+  const total = allTasks.length;
+  if(total === 0) return 0;
+  const done = allTasks.filter(task => ds.checks[task.key] === true).length;
+  return Math.round((done/total) * 100);
+}
+
+function computeTodayCompletion(profile){
+  const todayId = new Date().toISOString().slice(0,10);
+  const day = plans[profile].days.find(d=>d.id === todayId);
+  if(!day) return null;
+  return computeCompletionForDay(profile, day);
+}
+
+function computeStreak(profile){
+  // streak: consecutive plan days (ending today) with >= 60%
+  const todayId = new Date().toISOString().slice(0,10);
+  const planDays = plans[profile].days.map(d=>d.id);
+  const todayIndex = planDays.indexOf(todayId);
+  if(todayIndex === -1) return 0;
+
+  let streak = 0;
+  for(let i=todayIndex; i>=0; i--){
+    const day = plans[profile].days[i];
+    const pct = computeCompletionForDay(profile, day);
+    if(pct >= 60) streak++;
+    else break;
+  }
+  return streak;
+}
+
+/** =========================
+ *  RENDER LEFT (Days)
+ *  ========================= */
+function renderDays(){
+  const list = document.getElementById("daysList");
+  list.innerHTML = "";
+
+  const profilePlan = plans[currentProfile];
+  profilePlan.days.forEach(day=>{
+    const pct = computeCompletionForDay(currentProfile, day);
+
+    const item = document.createElement("div");
+    item.className = "dayItem" + (day.id === currentDayId ? " active" : "");
+    item.onclick = () => { currentDayId = day.id; renderAll(); };
+
+    const left = document.createElement("div");
+    left.className = "dayLeft";
+
+    const date = document.createElement("div");
+    date.className = "dayDate";
+    // keep it short on left:
+    const d = new Date(day.id + "T00:00:00");
+    date.textContent = d.toLocaleDateString(undefined, { weekday:"short", month:"short", day:"numeric" });
+
+    const theme = document.createElement("div");
+    theme.className = "dayTheme";
+    theme.textContent = day.theme || "";
+
+    left.appendChild(date);
+    left.appendChild(theme);
+
+    const badge = document.createElement("div");
+    badge.className = "badge";
+    badge.textContent = `${pct}%`;
+
+    item.appendChild(left);
+    item.appendChild(badge);
+    list.appendChild(item);
+  });
+
+  const todayPct = computeTodayCompletion(currentProfile);
+  document.getElementById("todayCompletion").textContent = (todayPct === null ? "—" : `${todayPct}%`);
+  document.getElementById("dailyStreak").textContent = computeStreak(currentProfile).toString();
+}
+
+/** =========================
+ *  RENDER RIGHT (Details)
+ *  ========================= */
+function renderDetail(){
+  const detail = document.getElementById("detail");
+  const p = plans[currentProfile];
+  const day = p.days.find(d=>d.id === currentDayId) || p.days[0];
+  const ds = getDayState(currentProfile, day.id);
+
+  const chipsHTML = (p.chips || []).map(c=>`<span class="chip">${escapeHtml(c)}</span>`).join("");
+
+  function taskCard(sec, idx, task){
+    const key = `${sec}_${idx}`;
+    const checked = ds.checks[key] === true;
+
+    let pillClass = "";
+    let labelPrefix = "";
+    if(sec === "study"){ pillClass = "pillStudy"; labelPrefix = "📘 "; }
+    if(sec === "meals"){ pillClass = "pillFood";  labelPrefix = "🍽️ "; }
+    if(sec === "move"){  pillClass = "pillMove";  labelPrefix = "🏃 "; }
+    if(sec === "sleep"){ pillClass = "pillSleep"; labelPrefix = "😴 "; }
+
+    return `
+      <div class="taskCard">
+        <input type="checkbox" data-taskkey="${key}" ${checked ? "checked" : ""} />
+        <div class="taskMain">
+          <p class="taskTitle ${pillClass}">${labelPrefix}${escapeHtml(task.t)}</p>
+          <p class="taskNote">${escapeHtml(task.n || "")}</p>
+        </div>
+      </div>
+    `;
+  }
+
+  function sectionBlock(sec, title){
+    const tasks = (day.sections && day.sections[sec]) ? day.sections[sec] : [];
+    const cards = tasks.map((t, idx)=>taskCard(sec, idx, t)).join("");
+
+    return `
+      <div class="section" data-section="${sec}">
+        <div class="sectionHead">
+          <h4>${escapeHtml(title)}</h4>
+          <button class="addBtn" data-add="${sec}">＋ Add task</button>
+        </div>
+        ${cards || `<div class="routineText">No tasks yet. Click “Add task”.</div>`}
+      </div>
+    `;
+  }
+
+  const pct = computeCompletionForDay(currentProfile, day);
+
+  detail.innerHTML = `
+    <div class="detailTitle">
+      <div>
+        <h3>${escapeHtml(day.title)} <span style="color:var(--muted); font-weight:800;">• ${pct}% done</span></h3>
+        <div class="chips">${chipsHTML}</div>
+      </div>
+    </div>
+
+    <div class="section" style="border-top:none; padding-top:0;">
+      <div class="sectionHead" style="margin-bottom:6px;">
+        <h4>Visual Routine</h4>
+      </div>
+      <p class="routineText">${escapeHtml(day.routine || "")}</p>
+    </div>
+
+    ${sectionBlock("study", "Study Plan")}
+    ${sectionBlock("meals", "Meals")}
+    ${sectionBlock("move", "Exercise • Play • Running")}
+    ${sectionBlock("sleep", "Sleep")}
+
+    <div class="notesBox">
+      <label>What was done differently today?</label>
+      <textarea id="notes" placeholder="Write what actually happened today (different from planned).">${escapeHtml(ds.notes || "")}</textarea>
+      <div class="smallHelp">
+        Completion % is based on checkboxes. Notes are for real-life changes.
+      </div>
+    </div>
+  `;
+
+  // checkbox events
+  detail.querySelectorAll('input[type="checkbox"][data-taskkey]').forEach(cb=>{
+    cb.addEventListener("change", (e)=>{
+      const key = e.target.getAttribute("data-taskkey");
+      const dayState = getDayState(currentProfile, day.id);
+      dayState.checks[key] = e.target.checked;
+      setDayState(currentProfile, day.id, dayState);
+      renderAll();
+    });
+  });
+
+  // notes save
+  const notesEl = document.getElementById("notes");
+  notesEl.addEventListener("input", ()=>{
+    const dayState = getDayState(currentProfile, day.id);
+    dayState.notes = notesEl.value;
+    setDayState(currentProfile, day.id, dayState);
+  });
+
+  // add-task buttons
+  detail.querySelectorAll('[data-add]').forEach(btn=>{
+    btn.addEventListener("click", ()=>{
+      const sec = btn.getAttribute("data-add");
+      const t = prompt("Task title (example: Math 20 min: Add within 10)");
+      if(!t) return;
+      const n = prompt("Task details (example: 10 questions only. Stop at 10.)") || "";
+
+      const dayObj = plans[currentProfile].days.find(d=>d.id === day.id);
+      if(!dayObj.sections) dayObj.sections = {};
+      if(!dayObj.sections[sec]) dayObj.sections[sec] = [];
+      dayObj.sections[sec].push({ t, n });
+
+      renderAll();
+    });
+  });
+}
+
+/** =========================
+ *  MAIN RENDER
+ *  ========================= */
+function renderAll(){
+  const p = plans[currentProfile];
+
+  document.querySelectorAll(".tabBtn").forEach(x=>{
+    x.classList.toggle("active", x.getAttribute("data-profile") === currentProfile);
+  });
+
+  document.querySelector("#subtitle").textContent = p.subtitle;
+
+  if(!p.days.find(d=>d.id === currentDayId)){
+    currentDayId = p.days[0].id;
+  }
+  renderDays();
+  renderDetail();
+}
+
+/** =========================
+ *  Tabs
+ *  ========================= */
+document.querySelectorAll(".tabBtn").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    const profile = btn.getAttribute("data-profile");
+
+    // Kaushal/Parnika stay inside this dashboard
+    currentProfile = profile;
+    currentDayId = plans[currentProfile].days[0].id;
+    renderAll();
+  });
+});
+
+/** =========================
+ *  Live Clock
+ *  ========================= */
+function tickClock(){
+  const now = new Date();
+  const time = now.toLocaleTimeString(undefined, { hour12:false });
+  const date = now.toLocaleDateString(undefined, { weekday:"long", year:"numeric", month:"short", day:"numeric" });
+  document.getElementById("clockTime").textContent = time;
+  document.getElementById("clockDate").textContent = date;
+}
+setInterval(tickClock, 1000);
+tickClock();
+
+/** =========================
+ *  Safety: escape HTML
+ *  ========================= */
+function escapeHtml(str){
+  if(str === null || str === undefined) return "";
+  return String(str)
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+}
+
+/** =========================
+ *  Start
+ *  ========================= */
+renderAll();
+</script>
+<section class="card"><h2>Citizenship material (PDF)</h2><p>Open or download the official material PDF.</p><a class="btn" href="2025version.pdf" target="_blank">Open PDF</a><iframe loading="lazy" src="2025version.pdf" style="width:100%; height:700px; border:1px solid rgba(255,255,255,.15); border-radius:12px;"></iframe></section></body>
 </html>
