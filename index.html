@@ -1,384 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Family Plan — Kaushal • Parnika • Mom • Dad</title>
-
+  <title>Family Planner (Kaushal • Parnika • Mom • Dad)</title>
   <style>
     :root{
-      --bg:#f5f7fb;
+      --bg:#f6f7fb;
       --card:#ffffff;
-      --text:#0f172a;
-      --muted:#64748b;
-      --line:#e2e8f0;
-      --accent:#2563eb;
+      --text:#1f2937;
+      --muted:#6b7280;
+      --border:#e5e7eb;
+      --shadow:0 10px 20px rgba(0,0,0,.06);
 
-      --study:#e0f2fe;
-      --food:#dcfce7;
-      --exercise:#f3e8ff;
-      --sleep:#ffedd5;
-      --admin:#fef9c3;
-      --exam:#ffe4e6;
-
-      --shadow: 0 10px 25px rgba(15,23,42,.08);
-      --radius: 16px;
+      --study:#2563eb;
+      --exercise:#7c3aed;
+      --food:#16a34a;
+      --sleep:#f59e0b;
+      --online:#0ea5e9;
+      --supp:#ef4444;
+      --admin:#111827;
     }
-
     *{ box-sizing:border-box; }
     body{
       margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
       background:var(--bg);
       color:var(--text);
     }
-
-    /* Top bar */
     header{
-      position: sticky;
+      background:#111827;
+      color:#fff;
+      padding:14px 16px;
+      position:sticky;
       top:0;
-      z-index: 50;
-      background: rgba(245,247,251,.8);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid var(--line);
+      z-index:50;
+      box-shadow: 0 10px 20px rgba(0,0,0,.18);
     }
     .topbar{
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 14px 16px;
       display:flex;
       align-items:center;
-      justify-content: space-between;
-      gap:12px;
+      justify-content:space-between;
+      gap:10px;
+      max-width:1100px;
+      margin:0 auto;
     }
     .brand{
-      display:flex;
-      flex-direction:column;
-      gap:2px;
+      display:flex; align-items:center; gap:10px;
     }
-    .brand .title{
-      font-size: 18px;
-      font-weight: 800;
-      letter-spacing: .2px;
-    }
-    .brand .subtitle{
-      font-size: 12px;
-      color: var(--muted);
+    .brand h1{
+      font-size:16px;
+      margin:0;
+      font-weight:700;
+      letter-spacing:.2px;
     }
     .clock{
       font-variant-numeric: tabular-nums;
-      font-weight: 700;
-      padding: 8px 12px;
-      border: 1px solid var(--line);
-      background: #fff;
-      border-radius: 999px;
-      box-shadow: 0 6px 16px rgba(15,23,42,.06);
-      min-width: 120px;
-      text-align:center;
-    }
-
-    /* Tabs */
-    .tabs{
-      max-width:1200px;
-      margin: 0 auto;
-      padding: 0 16px 14px;
+      font-size:14px;
+      opacity:.95;
       display:flex;
       gap:10px;
+      align-items:center;
       flex-wrap:wrap;
+      justify-content:flex-end;
     }
-    .tab{
-      border: 1px solid var(--line);
-      background:#fff;
-      padding:10px 12px;
-      border-radius: 12px;
+    .clock .pill{
+      border:1px solid rgba(255,255,255,.22);
+      padding:6px 10px;
+      border-radius:999px;
+      background: rgba(255,255,255,.08);
+    }
+
+    .wrap{
+      max-width:1100px;
+      margin:18px auto;
+      padding:0 14px 50px;
+    }
+
+    /* Profile buttons */
+    .profiles{
+      display:grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap:10px;
+      margin:14px 0 14px;
+    }
+    .pbtn{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:12px 12px;
+      box-shadow: var(--shadow);
       cursor:pointer;
       display:flex;
       align-items:center;
+      justify-content:center;
       gap:10px;
-      box-shadow: 0 6px 18px rgba(15,23,42,.05);
+      transition: transform .08s ease, border-color .08s ease;
       user-select:none;
-      font-weight: 700;
-      color: #1f2937;
     }
-    .tab .bigIcon{
-      font-size: 20px;
-      line-height: 1;
+    .pbtn:hover{ transform: translateY(-1px); border-color:#cbd5e1; }
+    .pbtn.active{
+      border-color:#60a5fa;
+      outline:2px solid rgba(96,165,250,.25);
     }
-    .tab.active{
-      border-color: rgba(37,99,235,.35);
-      outline: 3px solid rgba(37,99,235,.12);
-      color: var(--accent);
+    .icon{
+      font-size:28px;
+      line-height:1;
     }
+    .pname{
+      display:flex; flex-direction:column; align-items:flex-start;
+      gap:2px;
+    }
+    .pname b{ font-size:14px; }
+    .pname span{ font-size:12px; color:var(--muted); }
 
-    /* Layout */
-    .wrap{
-      max-width:1200px;
-      margin: 18px auto 48px;
-      padding: 0 16px;
-      display:grid;
-      grid-template-columns: 360px 1fr;
-      gap: 16px;
-    }
-    @media (max-width: 980px){
-      .wrap{
-        grid-template-columns: 1fr;
-      }
-    }
+    /* Sections */
+    .section{ display:none; }
+    .section.active{ display:block; }
 
-    /* Left panel */
-    .leftCard{
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      overflow:hidden;
-    }
-    .leftHead{
-      padding: 14px 14px 10px;
-      border-bottom: 1px solid var(--line);
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-    }
-    .leftHead h3{
-      margin:0;
-      font-size: 16px;
-      font-weight: 900;
-    }
-    .stats{
-      padding: 12px 14px 6px;
+    /* Overview cards */
+    .grid2{
       display:grid;
       grid-template-columns: 1fr 1fr;
-      gap: 10px;
+      gap:12px;
+      margin:12px 0 16px;
     }
-    .statBox{
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 12px;
-      background: #fbfdff;
+    @media (max-width: 860px){
+      .profiles{ grid-template-columns: 1fr 1fr; }
+      .grid2{ grid-template-columns: 1fr; }
     }
-    .statValue{
-      font-size: 24px;
-      font-weight: 900;
-      line-height: 1.1;
+    .panel{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:16px;
+      box-shadow:var(--shadow);
+      padding:14px;
     }
-    .statLabel{
-      font-size: 12px;
-      color: var(--muted);
-      margin-top: 2px;
+    .panel h2{
+      margin:0 0 8px;
+      font-size:15px;
+    }
+    .panel p{
+      margin:6px 0;
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.35;
     }
 
-    .dayList{
-      padding: 10px 10px 14px;
+    /* Day cards */
+    .day{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:16px;
+      box-shadow:var(--shadow);
+      padding:14px;
+      margin:12px 0;
+    }
+    .dayhead{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .daytitle{
+      display:flex; flex-direction:column; gap:3px;
+    }
+    .daytitle h3{
+      margin:0;
+      font-size:16px;
+    }
+    .subline{
+      color:var(--muted);
+      font-size:12px;
+    }
+
+    .actions{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:flex-end;
+    }
+    button.small{
+      border:1px solid var(--border);
+      background:#f9fafb;
+      padding:8px 10px;
+      border-radius:12px;
+      cursor:pointer;
+      font-size:12px;
+    }
+    button.small:hover{ background:#f3f4f6; }
+
+    .badges{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin:10px 0 6px;
+    }
+    .badge{
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:#fafafa;
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+    }
+    .dot{
+      width:9px; height:9px; border-radius:999px;
+      display:inline-block;
+    }
+    .dot.study{ background:var(--study); }
+    .dot.exercise{ background:var(--exercise); }
+    .dot.food{ background:var(--food); }
+    .dot.sleep{ background:var(--sleep); }
+    .dot.online{ background:var(--online); }
+    .dot.supp{ background:var(--supp); }
+    .dot.admin{ background:var(--admin); }
+
+    .tasklist{
+      display:grid;
+      gap:8px;
+      margin-top:10px;
+    }
+    .taskrow{
+      border:1px solid var(--border);
+      border-radius:14px;
+      padding:10px 10px;
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:10px;
+      background:#fff;
+    }
+    .taskleft{
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+      min-width: 0;
+    }
+    .taskleft label{
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+      cursor:pointer;
+      user-select:none;
+      min-width:0;
+    }
+    .taskleft input[type="checkbox"]{
+      margin-top:2px;
+      transform: scale(1.1);
+    }
+    .ttext{
       display:flex;
       flex-direction:column;
-      gap:10px;
+      gap:3px;
+      min-width:0;
     }
-    .dayBtn{
-      border: 1px solid var(--line);
-      background: #fff;
-      border-radius: 14px;
-      padding: 12px;
-      cursor:pointer;
+    .ttext b{
+      font-size:13px;
+      font-weight:700;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      max-width: 720px;
+    }
+    .ttext span{
+      font-size:12px;
+      color:var(--muted);
+    }
+    .tcat{
+      font-size:11px;
+      padding:4px 8px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:#fafafa;
+      white-space:nowrap;
+    }
+    .tcat.study{ border-color: rgba(37,99,235,.25); background: rgba(37,99,235,.08); }
+    .tcat.exercise{ border-color: rgba(124,58,237,.25); background: rgba(124,58,237,.08); }
+    .tcat.food{ border-color: rgba(22,163,74,.25); background: rgba(22,163,74,.08); }
+    .tcat.sleep{ border-color: rgba(245,158,11,.25); background: rgba(245,158,11,.08); }
+    .tcat.online{ border-color: rgba(14,165,233,.25); background: rgba(14,165,233,.08); }
+    .tcat.supp{ border-color: rgba(239,68,68,.25); background: rgba(239,68,68,.08); }
+    .tcat.admin{ border-color: rgba(17,24,39,.25); background: rgba(17,24,39,.08); color:#111827; }
+
+    .progressline{
+      margin-top:10px;
       display:flex;
       align-items:center;
       justify-content:space-between;
-      gap:10px;
-      box-shadow: 0 6px 14px rgba(15,23,42,.05);
+      gap:12px;
+      flex-wrap:wrap;
     }
-    .dayBtn.active{
-      background: #eef2ff;
-      border-color: rgba(37,99,235,.25);
-      outline: 3px solid rgba(37,99,235,.10);
-    }
-    .dayMeta{
-      display:flex;
-      flex-direction:column;
-      gap:2px;
-      min-width:0;
-    }
-    .dayDate{
-      font-weight: 900;
-      font-size: 14px;
-      white-space:nowrap;
+    .bar{
+      flex:1;
+      height:10px;
+      background:#e5e7eb;
+      border-radius:999px;
       overflow:hidden;
-      text-overflow:ellipsis;
+      min-width: 220px;
     }
-    .dayTagline{
-      font-size: 12px;
-      color: var(--muted);
-      white-space:nowrap;
-      overflow:hidden;
-      text-overflow:ellipsis;
+    .fill{
+      height:100%;
+      width:0%;
+      background:#22c55e;
+      border-radius:999px;
+      transition: width .15s ease;
     }
-    .badge{
-      border-radius: 999px;
-      padding: 6px 10px;
-      font-size: 12px;
-      font-weight: 900;
-      border: 1px solid var(--line);
-      background:#0f172a;
-      color:#fff;
-      min-width: 54px;
+    .pct{
+      font-weight:800;
+      color:#111827;
+      font-size:13px;
+      font-variant-numeric: tabular-nums;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:#fafafa;
+    }
+
+    textarea.notes{
+      width:100%;
+      min-height:70px;
+      margin-top:10px;
+      resize:vertical;
+      border-radius:14px;
+      border:1px solid var(--border);
+      padding:10px;
+      font-family:inherit;
+      font-size:13px;
+      outline:none;
+    }
+    textarea.notes:focus{
+      border-color:#93c5fd;
+      box-shadow: 0 0 0 3px rgba(147,197,253,.35);
+    }
+
+    .footerhint{
+      margin-top:16px;
+      color:var(--muted);
+      font-size:12px;
       text-align:center;
     }
-
-    /* Right panel */
-    .rightCard{
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      overflow:hidden;
-    }
-    .rightHead{
-      padding: 16px 18px;
-      border-bottom: 1px solid var(--line);
-      display:flex;
-      align-items:flex-start;
-      justify-content: space-between;
-      gap: 10px;
-    }
-    .rightTitle{
-      margin:0;
-      font-size: 18px;
-      font-weight: 950;
-      line-height: 1.2;
-    }
-    .rightSub{
-      margin: 4px 0 0;
-      font-size: 13px;
-      color: var(--muted);
-    }
-
-    .pillRow{
-      padding: 12px 18px 2px;
-      display:flex;
-      flex-wrap:wrap;
-      gap:8px;
-    }
-    .pill{
-      border: 1px solid var(--line);
-      background:#fff;
-      border-radius: 999px;
-      padding: 6px 10px;
-      font-weight: 800;
-      font-size: 12px;
-      color: #111827;
-    }
-
-    .content{
-      padding: 14px 18px 20px;
-      display:flex;
-      flex-direction:column;
-      gap: 14px;
-    }
-
-    .sectionTitle{
-      font-size: 14px;
-      font-weight: 950;
-      margin: 0 0 8px;
-    }
-    .hint{
-      font-size: 13px;
-      color: var(--muted);
-      margin: -2px 0 0;
-    }
-
-    .box{
-      border-radius: 14px;
-      border: 1px solid var(--line);
-      padding: 12px;
-      background: #fff;
-    }
-    .box.study{ background: var(--study); }
-    .box.food{ background: var(--food); }
-    .box.exercise{ background: var(--exercise); }
-    .box.sleep{ background: var(--sleep); }
-    .box.admin{ background: var(--admin); }
-    .box.exam{ background: var(--exam); }
-
-    .taskRow{
-      display:flex;
-      gap:10px;
-      padding: 10px 10px;
-      border-radius: 12px;
-      border: 1px solid rgba(148,163,184,.35);
-      background: rgba(255,255,255,.75);
-      align-items:flex-start;
-      margin-top: 10px;
-    }
-    .taskRow:first-of-type{ margin-top: 0; }
-    .taskRow label{
-      display:flex;
-      gap:10px;
-      width:100%;
-      cursor:pointer;
-    }
-    .taskText{
-      display:flex;
-      flex-direction:column;
-      gap:2px;
-      min-width:0;
-    }
-    .taskMain{
-      font-weight: 900;
-      font-size: 14px;
-    }
-    .taskSmall{
-      font-size: 13px;
-      color: #475569;
-      line-height: 1.35;
-    }
-    input[type="checkbox"]{
-      width:18px;
-      height:18px;
-      margin-top:2px;
-      accent-color: var(--accent);
-      flex:0 0 auto;
-    }
-
-    .notesArea{
-      width:100%;
-      min-height: 84px;
-      border-radius: 12px;
-      border: 1px solid var(--line);
-      padding: 10px;
-      font-size: 13px;
-      outline:none;
-      resize: vertical;
-    }
-
-    .footerRow{
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-      align-items:center;
-      justify-content: space-between;
-      padding-top: 6px;
-    }
-    .btn{
-      border:1px solid var(--line);
-      background:#fff;
-      padding: 10px 12px;
-      border-radius: 12px;
-      cursor:pointer;
-      font-weight: 900;
-      box-shadow: 0 6px 14px rgba(15,23,42,.05);
-      user-select:none;
-    }
-    .btn.primary{
-      background: var(--accent);
-      color: #fff;
-      border-color: rgba(37,99,235,.45);
-    }
-    .btn.danger{
-      background: #ef4444;
-      color:#fff;
-      border-color: rgba(239,68,68,.45);
-    }
-
-    .smallMuted{ font-size: 12px; color: var(--muted); }
   </style>
 </head>
 
@@ -386,575 +351,526 @@
 <header>
   <div class="topbar">
     <div class="brand">
-      <div class="title">Family Planner (Holiday Plan)</div>
-      <div class="subtitle">Days on left • Details on right • Progress saves automatically</div>
+      <div style="font-size:20px">🗓️</div>
+      <h1>Family Planner (Kaushal • Parnika • Mom • Dad)</h1>
     </div>
-    <div class="clock" id="clock">--:--:--</div>
+    <div class="clock">
+      <div class="pill">📍 Europe/Copenhagen</div>
+      <div class="pill" id="liveClock">--:--:--</div>
+      <div class="pill" id="liveDate">----</div>
+    </div>
   </div>
-
-  <div class="tabs" id="tabs"></div>
 </header>
 
-<main class="wrap">
-  <!-- LEFT -->
-  <section class="leftCard">
-    <div class="leftHead">
-      <h3 id="leftTitle">Days</h3>
-    </div>
+<div class="wrap">
 
-    <div class="stats">
-      <div class="statBox">
-        <div class="statValue" id="todayPct">0%</div>
-        <div class="statLabel">Today completion</div>
-      </div>
-      <div class="statBox">
-        <div class="statValue" id="streak">0</div>
-        <div class="statLabel">Daily streak (this plan)</div>
+  <!-- PROFILE BUTTONS -->
+  <div class="profiles">
+    <div class="pbtn active" data-target="kaushal">
+      <div class="icon">👦</div>
+      <div class="pname">
+        <b>Kaushal</b>
+        <span>Holiday plan + progress</span>
       </div>
     </div>
+    <div class="pbtn" data-target="parnika">
+      <div class="icon">👧</div>
+      <div class="pname">
+        <b>Parnika</b>
+        <span>Holiday plan + online school</span>
+      </div>
+    </div>
+    <div class="pbtn" data-target="mom">
+      <div class="icon">👩‍🎓</div>
+      <div class="pname">
+        <b>Mom</b>
+        <span>AI Masters + Citizenship (May 2026)</span>
+      </div>
+    </div>
+    <div class="pbtn" data-target="dad">
+      <div class="icon">👨‍💼</div>
+      <div class="pname">
+        <b>Dad</b>
+        <span>Salesforce (Jan 04) + Driving (Feb)</span>
+      </div>
+    </div>
+  </div>
 
-    <div class="dayList" id="dayList"></div>
+  <!-- KAUSHAL -->
+  <section class="section active" id="kaushal">
+    <div class="grid2">
+      <div class="panel">
+        <h2>Kaushal – daily target</h2>
+        <p><b>Study:</b> Maths + Danish + English reading/writing (short blocks, repeat daily).</p>
+        <p><b>Movement:</b> Run/play outside + small indoor movement breaks.</p>
+        <p><b>Sleep:</b> Bed 8:00 pm (same every day).</p>
+      </div>
+      <div class="panel">
+        <h2>Color guide</h2>
+        <p><span class="badge"><span class="dot study"></span>Study</span>
+           <span class="badge"><span class="dot exercise"></span>Exercise</span>
+           <span class="badge"><span class="dot food"></span>Food</span>
+           <span class="badge"><span class="dot sleep"></span>Sleep</span></p>
+        <p>Tick checkboxes → % completion updates automatically. Notes + extra tasks are saved.</p>
+      </div>
+    </div>
+
+    <div id="kaushalDays"></div>
+    <div class="footerhint">Tip: After you update on GitHub, refresh your website with <b>Shift + Reload</b> to see changes.</div>
   </section>
 
-  <!-- RIGHT -->
-  <section class="rightCard">
-    <div class="rightHead">
-      <div>
-        <h2 class="rightTitle" id="dayTitle">Select a day</h2>
-        <p class="rightSub" id="daySubtitle"></p>
+  <!-- PARNIKA -->
+  <section class="section" id="parnika">
+    <div class="grid2">
+      <div class="panel">
+        <h2>Parnika – daily target</h2>
+        <p><b>Online school:</b> 4:30 pm – 7:30 pm (daily)</p>
+        <p><b>Sleep:</b> Bed 8:00 pm</p>
+        <p><b>Play:</b> same exercise routine as Kaushal (together time).</p>
       </div>
-      <div class="badge" id="dayPct">0%</div>
+      <div class="panel">
+        <h2>Color guide</h2>
+        <p><span class="badge"><span class="dot study"></span>Learning</span>
+           <span class="badge"><span class="dot online"></span>Online School</span>
+           <span class="badge"><span class="dot exercise"></span>Exercise</span>
+           <span class="badge"><span class="dot food"></span>Food</span>
+           <span class="badge"><span class="dot sleep"></span>Sleep</span></p>
+        <p>Tick tasks → % completion auto. Add extra tasks anytime.</p>
+      </div>
     </div>
 
-    <div class="pillRow" id="pillRow"></div>
-
-    <div class="content" id="dayContent">
-      <!-- dynamic -->
-    </div>
+    <div id="parnikaDays"></div>
   </section>
-</main>
+
+  <!-- MOM -->
+  <section class="section" id="mom">
+    <div class="grid2">
+      <div class="panel">
+        <h2>Mom – goals</h2>
+        <p><b>AI Masters:</b> daily classes/assignments (small consistent blocks).</p>
+        <p><b>Citizenship exam:</b> May 2026. 6 chapters (steady reading + flashcards).</p>
+        <p><b>Health:</b> anemia → iron + high-protein meals; vitamin D daily.</p>
+      </div>
+      <div class="panel">
+        <h2>Mom – iron & protein ideas (editable in tasks)</h2>
+        <p><b>Iron:</b> spinach, lentils, chickpeas, beans, eggs, fish, chicken, pumpkin seeds.</p>
+        <p><b>Protein:</b> eggs, chicken/fish, Greek-style yogurt (if okay), tofu, dals, nuts.</p>
+        <p><b>Absorption tip:</b> take iron with vitamin C foods (orange, bell pepper). Avoid tea/coffee right around iron.</p>
+      </div>
+    </div>
+
+    <div id="momDays"></div>
+  </section>
+
+  <!-- DAD -->
+  <section class="section" id="dad">
+    <div class="grid2">
+      <div class="panel">
+        <h2>Dad – goals</h2>
+        <p><b>Salesforce exam:</b> Jan 04 (daily focused prep).</p>
+        <p><b>Danish driving license:</b> complete by February (theory + practical steps).</p>
+      </div>
+      <div class="panel">
+        <h2>How to use Dad section</h2>
+        <p>Tick study tasks daily. Add extra tasks like “Book theory test”, “Driving lesson”, “Mock test”, etc.</p>
+      </div>
+    </div>
+
+    <div id="dadDays"></div>
+  </section>
+
+</div>
 
 <script>
-/* ---------------------------
-   LIVE CLOCK
----------------------------- */
+/* =========================
+   LIVE CLOCK (Copenhagen)
+========================= */
 function updateClock(){
   const now = new Date();
-  document.getElementById("clock").textContent = now.toLocaleTimeString();
+  const timeFmt = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Europe/Copenhagen',
+    hour: '2-digit', minute: '2-digit', second: '2-digit'
+  });
+  const dateFmt = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Europe/Copenhagen',
+    weekday:'short', year:'numeric', month:'short', day:'2-digit'
+  });
+  document.getElementById('liveClock').textContent = '🕒 ' + timeFmt.format(now);
+  document.getElementById('liveDate').textContent  = '📅 ' + dateFmt.format(now);
 }
-setInterval(updateClock, 1000);
 updateClock();
+setInterval(updateClock, 1000);
 
-/* ---------------------------
-   HELPERS
----------------------------- */
-function isoDateKey(d){
-  // d is "2025-12-22"
-  return d;
-}
-function fmtDayLabel(d){
-  const dt = new Date(d + "T00:00:00");
-  const opts = { weekday:"short", month:"short", day:"numeric", year:"numeric" };
-  return dt.toLocaleDateString(undefined, opts);
-}
-function safeParse(json, fallback){
-  try { return JSON.parse(json); } catch { return fallback; }
-}
-function lsKey(personId, dateKey){
-  return `familyplan.v1.${personId}.${dateKey}`;
-}
+/* =========================
+   PROFILE TAB SWITCHING
+========================= */
+document.querySelectorAll('.pbtn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.pbtn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const target = btn.dataset.target;
+    document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+    document.getElementById(target).classList.add('active');
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+});
 
-/* ---------------------------
-   PLAN DATA (Dec 22 → Jan 04)
-   Keep same “Kaushal style”
----------------------------- */
-const DATE_KEYS = [
-  "2025-12-22","2025-12-23","2025-12-24","2025-12-25","2025-12-26","2025-12-27","2025-12-28",
-  "2025-12-29","2025-12-30","2025-12-31","2026-01-01","2026-01-02","2026-01-03","2026-01-04"
+/* =========================
+   DATE RANGE (Dec 22 → Jan 04)
+========================= */
+const DAYS = [
+  { key:'2025-12-22', label:'Dec 22, 2025' },
+  { key:'2025-12-23', label:'Dec 23, 2025' },
+  { key:'2025-12-24', label:'Dec 24, 2025' },
+  { key:'2025-12-25', label:'Dec 25, 2025' },
+  { key:'2025-12-26', label:'Dec 26, 2025' },
+  { key:'2025-12-27', label:'Dec 27, 2025' },
+  { key:'2025-12-28', label:'Dec 28, 2025' },
+  { key:'2025-12-29', label:'Dec 29, 2025' },
+  { key:'2025-12-30', label:'Dec 30, 2025' },
+  { key:'2025-12-31', label:'Dec 31, 2025' },
+  { key:'2026-01-01', label:'Jan 01, 2026' },
+  { key:'2026-01-02', label:'Jan 02, 2026' },
+  { key:'2026-01-03', label:'Jan 03, 2026' },
+  { key:'2026-01-04', label:'Jan 04, 2026' }
 ];
 
-function makeDays(base){
-  // base: map dateKey -> day object partial
-  return DATE_KEYS.map(d => {
-    const obj = base[d] || {};
-    return {
-      dateKey: d,
-      title: obj.title || "Holiday routine",
-      tagline: obj.tagline || "Consistency • gentle progress",
-      pills: obj.pills || [],
-      routine: obj.routine || "Morning: breakfast → 10 min movement → Study Block 1 → break. Midday: lunch → outdoor play. Afternoon: Study Block 2 → break → craft. Evening: calm walk/stretch → dinner → short story → sleep routine.",
-      sections: obj.sections || []
-    };
-  });
-}
+/* =========================
+   DEFAULT PLANS (DETAILED)
+========================= */
+function kaushalDefaultTasks(dayKey){
+  // Slight variation by day to avoid “same same”.
+  const isHolidaySpecial = (dayKey === '2025-12-24' || dayKey === '2025-12-25' || dayKey === '2025-12-31' || dayKey === '2026-01-01');
+  const maths = (dayKey <= '2025-12-26') ? "Maths (20 min): number bonds, +/− with objects" :
+                (dayKey <= '2025-12-30') ? "Maths (25 min): simple word problems + shapes" :
+                "Maths (20 min): revision + quick quiz";
 
-const PLANS = {
-  kaushal: {
-    label: "Kaushal",
-    icon: "👦",
-    headerPills: ["GF", "Casein-free", "Sugar-free", "Low oil"],
-    days: makeDays({
-      "2025-12-22": {
-        title:"Start gentle • set rhythm",
-        tagline:"Simple wins • comfort routine",
-        sections:[
-          {type:"study", title:"Study Plan (Math • Danish • English)", tasks:[
-            {t:"Math (20 min): Number sense 1–20", d:"Count objects, match number cards, simple more/less (beans/lego)."},
-            {t:"Danish (15–20 min): Sounds + 5 words", d:"Pick 5 common words. Say + point to picture + write 2 words."},
-            {t:"English (15–20 min): Read + copy 3 lines", d:"Very easy text. Copy slowly (neatness not perfection)."}
-          ]},
-          {type:"food", title:"Meals (GF • CF • Sugar-free • Low oil)", tasks:[
-            {t:"Breakfast", d:"Idli + sambar (extra lentils) OR oats with unsweetened plant milk + nuts/seeds."},
-            {t:"Lunch", d:"Rice + dal + spinach (keerai) + cucumber. Add boiled egg or chicken pieces."},
-            {t:"Snack", d:"Apple/pear + roasted chana OR handful nuts."},
-            {t:"Dinner", d:"Millet dosa + veg chutney + light fish/chicken curry."}
-          ]},
-          {type:"exercise", title:"Exercise • Play • Running", tasks:[
-            {t:"Movement (10 min)", d:"Trampoline/jumping jacks/animal walk."},
-            {t:"Outdoor play (20–30 min)", d:"Run + ball play. Short bursts are fine."}
-          ]},
-          {type:"sleep", title:"Sleep routine", tasks:[
-            {t:"Wind-down by 7:30 pm", d:"Dim lights, quiet activity, story."},
-            {t:"Sleep by 8:00 pm", d:"Same bedtime every day."}
-          ]}
-        ]
-      },
+  const danish = (dayKey <= '2025-12-26') ? "Danish (15 min): letters + 5 new words" :
+                 (dayKey <= '2025-12-30') ? "Danish (20 min): reading 1 short page + write 3 words" :
+                 "Danish (15 min): flashcards + repeat aloud";
 
-      "2025-12-23": { title:"Consistency day", tagline:"Repeat the rhythm", sections:[] },
-      "2025-12-24": { title:"Calm learning", tagline:"Short tasks + breaks", sections:[] },
-      "2025-12-25": { title:"Holiday-friendly", tagline:"Keep it light", sections:[] },
-      "2025-12-26": {
-        title:"Start easy • Comfort routine",
-        tagline:"Small upgrade",
-        sections:[
-          {type:"study", title:"Study Plan (Math • Danish • English)", tasks:[
-            {t:"Math (20 min): Add/sub within 10", d:"10 quick questions only. Stop at 10."},
-            {t:"Danish (20 min): School words", d:"skole, lærer, ven, bog, blyant. Say + point + write 2 words."},
-            {t:"English (20 min): Reading 5 min + writing 1 sentence", d:"One neat sentence is enough."}
-          ]},
-          {type:"food", title:"Meals (GF • CF • Sugar-free • Low oil)", tasks:[
-            {t:"Breakfast", d:"Idli/pesarattu + sambar."},
-            {t:"Lunch", d:"Rice + chicken curry (light) + greens."},
-            {t:"Snack", d:"Pear + roasted chana."},
-            {t:"Dinner", d:"Millet roti + fish/prawns curry + veg."}
-          ]},
-          {type:"exercise", title:"Exercise • Play • Running", tasks:[
-            {t:"Run/Walk intervals (15 min)", d:"1 min run + 1 min walk. Repeat."},
-            {t:"Play (20 min)", d:"Ball throw, chase, skipping."}
-          ]},
-          {type:"sleep", title:"Sleep routine", tasks:[
-            {t:"No screens 45 min before bed", d:"Replace with story / soft music."},
-            {t:"Sleep by 8:00 pm", d:"Same time."}
-          ]}
-        ]
-      },
+  const english = (dayKey <= '2025-12-26') ? "English (15 min): reading + write 3 sentences" :
+                  (dayKey <= '2025-12-30') ? "English (20 min): story reading + handwriting practice" :
+                  "English (15 min): reading + spelling 5 words";
 
-      // Fill remaining days with same structure automatically (you can edit later)
-      "2025-12-27": { title:"Consistency • Tiny upgrade", tagline:"Repeat + 1 small improvement" },
-      "2025-12-28": { title:"Reading confidence", tagline:"Short reading + praise effort" },
-      "2025-12-29": { title:"Writing gently", tagline:"One sentence only" },
-      "2025-12-30": { title:"Math game day", tagline:"Learn with play" },
-      "2025-12-31": { title:"Calm day", tagline:"Noise-friendly routine" },
-      "2026-01-01": { title:"Fresh start", tagline:"Back-to-school prep begins" },
-      "2026-01-02": { title:"Attention & transitions", tagline:"Practice switching tasks" },
-      "2026-01-03": { title:"School-style morning", tagline:"Pack + practice" },
-      "2026-01-04": { title:"Ready day", tagline:"Light review + early sleep" }
-    })
-  },
+  const outside = isHolidaySpecial ? "Outdoor play (20–30 min): family walk / playground" : "Run + play (20 min): 10 min run + 10 min ball";
+  const movementBreaks = "Movement breaks (3×2 min): jumping / wall push-ups / stretching";
 
-  parnika: {
-    label: "Parnika",
-    icon: "👧",
-    headerPills: ["Healthy", "Low sugar", "Play-based learning"],
-    days: makeDays(Object.fromEntries(DATE_KEYS.map(d => [d,{
-      title: "Play • Learn • Routine",
-      tagline: "Together with Kaushal • gentle learning",
-      pills: ["Online school 4:30–7:30 pm", "Sleep by 8:00 pm"],
-      routine: "Morning: breakfast → play learning → outdoor play. Afternoon: nap/quiet time → craft. 4:30–7:30 pm: online school. Evening: dinner → calm story → sleep.",
-      sections: [
-        {type:"study", title:"Learning (Play-based)", tasks:[
-          {t:"Letters/phonics (10–15 min)", d:"Sing alphabet + match letter cards."},
-          {t:"Numbers (10 min)", d:"Count toys, match numbers."},
-          {t:"Fine motor (10–15 min)", d:"Coloring, sticker book, play-dough."}
-        ]},
-        {type:"food", title:"Meals", tasks:[
-          {t:"Breakfast", d:"Egg/banana/porridge + fruit."},
-          {t:"Lunch", d:"Rice/dal/veg OR chicken soup + veg."},
-          {t:"Snack", d:"Fruit + nuts (if ok) / roasted chana."},
-          {t:"Dinner", d:"Light dosa/veg + protein."}
-        ]},
-        {type:"exercise", title:"Exercise • Play", tasks:[
-          {t:"Outdoor play (20–30 min)", d:"Run, ball play, playground."},
-          {t:"Dance/movement (10 min)", d:"Music + freeze game."}
-        ]},
-        {type:"sleep", title:"Sleep routine", tasks:[
-          {t:"Online school ends 7:30 pm → quick wind-down", d:"Dinner + calm activity."},
-          {t:"Sleep by 8:00 pm", d:"Consistent bedtime."}
-        ]}
-      ]
-    }]))))
-  },
+  const meals = (dayKey <= '2025-12-26')
+    ? "Meals: protein breakfast (eggs/beans) + seasonal fruit; lunch: rice + dal + veg; dinner: chicken/fish + veg"
+    : "Meals: protein breakfast + fruit; lunch: dosa/idli + sambar; dinner: fish/chicken + veg + healthy fats (nuts/avocado)";
 
-  mom: {
-    label: "Mom",
-    icon: "🤱",
-    headerPills: ["Masters AI", "Citizenship May 2026", "Iron + D daily"],
-    days: makeDays(Object.fromEntries(DATE_KEYS.map((d, idx) => [d,{
-      title: "Study + Health day",
-      tagline: "AI Masters + Danish citizenship prep",
-      pills: ["Iron (daily)", "D-vitamin (daily)", "High-protein", "High-iron"],
-      routine: "Morning: breakfast + Iron (with vitamin C) → Citizenship reading → break. Afternoon: AI Masters class/assignment → walk. Evening: family dinner → light review/flashcards → early sleep.",
-      sections: [
-        {type:"admin", title:"Citizenship exam prep (May 2026)", tasks:[
-          {t:`Chapter focus (30–45 min): ${chapterForIndex(idx)}`, d:"Read + write 5 bullet notes + 5 key words."},
-          {t:"Flashcards (10–15 min)", d:"Use indfodsretsprove flashcards + repeat wrong answers."}
-        ]},
-        {type:"study", title:"Masters AI (daily)", tasks:[
-          {t:"Class / lecture (45–60 min)", d:"Watch + take notes (3 key takeaways)."},
-          {t:"Assignment progress (30–60 min)", d:"Small target only: 1 section or 5 questions."}
-        ]},
-        {type:"food", title:"Anemia diet (High iron + high protein)", tasks:[
-          {t:"Breakfast (iron + protein)", d:"Eggs OR tofu/paneer substitute + spinach/keerai + fruit (orange/kiwi for vitamin C)."},
-          {t:"Lunch", d:"Lentils/beans + greens + chicken/fish. Add lemon (vitamin C)."},
-          {t:"Snack", d:"Dates + nuts/seeds OR roasted chana. (If tea/coffee, keep 1–2 hrs away from iron)."},
-          {t:"Dinner", d:"Light meal with protein: fish/chicken + veg OR dal + millet."}
-        ]},
-        {type:"exam", title:"Vitamins (tick daily)", tasks:[
-          {t:"Iron tablet", d:"Prefer morning with vitamin C. Avoid tea/coffee around it."},
-          {t:"D-vitamin", d:"With meal (fat helps absorption)."}
-        ]},
-        {type:"exercise", title:"Exercise", tasks:[
-          {t:"Walk (20–30 min)", d:"Easy pace, daily consistency."}
-        ]}
-      ]
-    }]))))
-  },
-
-  dad: {
-    label: "Dad",
-    icon: "👨",
-    headerPills: ["Salesforce exam Jan 04", "Driving license by Feb"],
-    days: makeDays(Object.fromEntries(DATE_KEYS.map((d, idx) => [d,{
-      title: idx < 13 ? "Salesforce sprint" : "Final revision",
-      tagline: idx < 13 ? "Daily practice + mock" : "Exam readiness",
-      pills: ["Salesforce", "Driving theory", "Practical plan"],
-      routine: "Morning: Salesforce study → lunch → driving theory → short walk. Evening: mock test / review weak areas. Weekend: longer mock + driving practice plan.",
-      sections: [
-        {type:"study", title:"Salesforce (Jan 04 exam)", tasks:[
-          {t:"Study (60–120 min)", d:"Focus topic + notes + 10 practice questions."},
-          {t:"Hands-on (30–60 min)", d:"Trailhead / small practice build."},
-          {t:"Mock / review (20–40 min)", d:"Review wrong answers, write 5 key reminders."}
-        ]},
-        {type:"admin", title:"Driving license plan (finish by Feb)", tasks:[
-          {t:"Theory (20–30 min)", d:"Read rules + signs + 10 questions."},
-          {t:"Practical prep (10–15 min)", d:"Book lessons / plan practice + checklist."}
-        ]},
-        {type:"exercise", title:"Health", tasks:[
-          {t:"Walk / stretch (15 min)", d:"Keep energy stable while studying."}
-        ]}
-      ]
-    }]))))
-  }
-};
-
-function chapterForIndex(i){
-  // simple rotation of 6 chapters
-  const ch = [
-    "Chapter 1 — Denmark’s history",
-    "Chapter 2 — Danish democracy",
-    "Chapter 3 — Danish economy",
-    "Chapter 4 — Denmark & the world",
-    "Chapter 5 — Danish culture",
-    "Chapter 6 — Themes (values, daily life, equality)"
+  return [
+    { id:'k-study-maths', cat:'study', title: maths, detail:'Keep it short. Use timer. Praise effort.' },
+    { id:'k-study-danish', cat:'study', title: danish, detail:'Repeat same words 3 times (routine helps).' },
+    { id:'k-study-english', cat:'study', title: english, detail:'Read together, then he writes 1–3 lines.' },
+    { id:'k-exercise', cat:'exercise', title: outside, detail:'Let him choose activity to reduce resistance.' },
+    { id:'k-ex-breaks', cat:'exercise', title: movementBreaks, detail:'Small breaks = better focus later.' },
+    { id:'k-food', cat:'food', title: meals, detail:'Low oil, no sugar, gluten-free, casein-free if needed.' },
+    { id:'k-sleep', cat:'sleep', title:'Sleep routine: dinner → calm activity → bed by 8:00 pm', detail:'Same order every day.' }
   ];
-  return ch[i % ch.length];
 }
 
-/* ---------------------------
-   STATE
----------------------------- */
-let currentPersonId = "kaushal";
-let currentDateKey = DATE_KEYS[0];
+function parnikaDefaultTasks(dayKey){
+  const learning = (dayKey <= '2025-12-26')
+    ? "Learning (15 min): counting 1–10 + colors + 1 story"
+    : (dayKey <= '2025-12-30')
+      ? "Learning (15–20 min): alphabet sounds + drawing + 1 story"
+      : "Learning (10–15 min): revision games + story";
 
-/* ---------------------------
-   UI RENDER
----------------------------- */
-function renderTabs(){
-  const tabs = document.getElementById("tabs");
-  tabs.innerHTML = "";
-  Object.entries(PLANS).forEach(([id, p]) => {
-    const btn = document.createElement("div");
-    btn.className = "tab" + (id === currentPersonId ? " active" : "");
-    btn.innerHTML = `<span class="bigIcon">${p.icon}</span><span>${p.label}</span>`;
-    btn.onclick = () => {
-      currentPersonId = id;
-      currentDateKey = DATE_KEYS[0];
-      renderAll();
-    };
-    tabs.appendChild(btn);
+  const togetherPlay = "Play with Kaushal (20–30 min): run/chase/ball/park";
+  const meals = "Meals: healthy breakfast + fruit; lunch: dal/veg; dinner: simple protein + veg (keep early)";
+
+  return [
+    { id:'p-online', cat:'online', title:'Online school: 4:30 pm – 7:30 pm', detail:'Set water + small break if allowed.' },
+    { id:'p-learning', cat:'study', title: learning, detail:'Keep it fun: stickers, songs, tracing.' },
+    { id:'p-exercise', cat:'exercise', title: togetherPlay, detail:'Together time builds bonding + routine.' },
+    { id:'p-food', cat:'food', title: meals, detail:'Avoid sugar spikes near bedtime.' },
+    { id:'p-sleep', cat:'sleep', title:'Sleep routine: wind-down → bed by 8:00 pm', detail:'Same every day.' }
+  ];
+}
+
+function momDefaultTasks(dayKey){
+  // Supplements every day + allow alternative time in notes.
+  const chapters = [
+    "Citizenship Chapter 1: History (15–20 min)",
+    "Citizenship Chapter 2: Democracy (15–20 min)",
+    "Citizenship Chapter 3: Economy (10–15 min)",
+    "Citizenship Chapter 4: Denmark & the world (10–15 min)",
+    "Citizenship Chapter 5: Culture (10–15 min)",
+    "Citizenship Chapter 6: Themes (10–15 min)"
+  ];
+  // Rotate chapters across days
+  const idx = DAYS.findIndex(d=>d.key===dayKey) % chapters.length;
+
+  const aiWork = (dayKey <= '2025-12-26')
+    ? "AI Masters: 60 min (lecture + notes)"
+    : (dayKey <= '2025-12-31')
+      ? "AI Masters: 60–90 min (assignment block)"
+      : "AI Masters: 60 min (review + assignment)";
+
+  const ironMeal = "Iron + protein meals (edit anytime): eggs/chicken/fish + spinach/lentils + vitamin C fruit";
+  const alt = "If busy: do mini blocks (2×20 min) instead of 1 long session";
+
+  return [
+    { id:'m-ai', cat:'admin', title: aiWork, detail:'One focused block. Phone away.' },
+    { id:'m-citizen', cat:'study', title: chapters[idx], detail:'Read + write 5 key points.' },
+    { id:'m-flash', cat:'study', title:'Flashcards (10 min): 15 cards', detail:'Use indfodsretsprove flashcards when possible.' },
+    { id:'m-supp-iron', cat:'supp', title:'Supplement: Iron (daily)', detail:'Add time in notes (morning/evening).'},
+    { id:'m-supp-d', cat:'supp', title:'Supplement: Vitamin D (daily)', detail:'Add time in notes (with food).'},
+    { id:'m-food', cat:'food', title: ironMeal, detail:'Edit this task if you want a specific menu.' },
+    { id:'m-alt', cat:'admin', title: alt, detail:'Small wins still count.' }
+  ];
+}
+
+function dadDefaultTasks(dayKey){
+  const sf = (dayKey <= '2025-12-26')
+    ? "Salesforce: 60 min (core concepts + notes)"
+    : (dayKey <= '2025-12-31')
+      ? "Salesforce: 90 min (practice tests + weak areas)"
+      : "Salesforce: 60–90 min (final revision + mock test)";
+
+  const drive = (dayKey <= '2025-12-27')
+    ? "Driving license: 20 min (theory reading)"
+    : (dayKey <= '2026-01-01')
+      ? "Driving license: 30 min (theory tests / signs)"
+      : "Driving license: plan lessons + practice (30 min)";
+
+  const deadline = "Goal: Danish driving license completed by February (book steps early).";
+
+  return [
+    { id:'d-sf', cat:'study', title: sf, detail:'Focus on weak topics. Do 20 questions minimum.' },
+    { id:'d-sf-mock', cat:'study', title:'Salesforce: 20–30 practice questions', detail:'Review mistakes immediately.' },
+    { id:'d-drive', cat:'admin', title: drive, detail:'Add “lesson booked” tasks when you schedule.' },
+    { id:'d-drive-goal', cat:'admin', title: deadline, detail:'Use notes for dates: theory test, lessons, practical exam.' },
+    { id:'d-sleep', cat:'sleep', title:'Sleep: consistent bedtime (support exam focus)', detail:'Better recall with sleep.' }
+  ];
+}
+
+/* =========================
+   STORAGE HELPERS
+========================= */
+function storageKey(profile, dayKey){ return `planner:${profile}:${dayKey}`; }
+
+function loadDayState(profile, dayKey){
+  const raw = localStorage.getItem(storageKey(profile, dayKey));
+  if(!raw) return { checks:{}, notes:"", extras:[] };
+  try { return JSON.parse(raw); } catch(e){ return { checks:{}, notes:"", extras:[] }; }
+}
+
+function saveDayState(profile, dayKey, state){
+  localStorage.setItem(storageKey(profile, dayKey), JSON.stringify(state));
+}
+
+/* =========================
+   RENDER ENGINE
+========================= */
+function renderProfileDays(profile, containerId, getDefaults){
+  const root = document.getElementById(containerId);
+  root.innerHTML = "";
+
+  DAYS.forEach(d=>{
+    const state = loadDayState(profile, d.key);
+    const defaults = getDefaults(d.key);
+
+    // Merge tasks: defaults + extras
+    const extras = Array.isArray(state.extras) ? state.extras : [];
+    const allTasks = [...defaults, ...extras];
+
+    // Build card
+    const card = document.createElement('div');
+    card.className = 'day';
+
+    // Header
+    const head = document.createElement('div');
+    head.className = 'dayhead';
+
+    const title = document.createElement('div');
+    title.className = 'daytitle';
+    title.innerHTML = `<h3>${d.label}</h3><div class="subline">Tick tasks → completion updates. Notes are saved.</div>`;
+
+    const actions = document.createElement('div');
+    actions.className = 'actions';
+
+    const addBtn = document.createElement('button');
+    addBtn.className = 'small';
+    addBtn.textContent = '➕ Add Task';
+    addBtn.addEventListener('click', ()=>{
+      const t = prompt("New task title (example: 'Park 30 min' or 'Math worksheet'):");
+      if(!t) return;
+
+      const cat = prompt("Category: study / exercise / food / sleep / online / supp / admin", "study") || "admin";
+      const detail = prompt("Short detail (optional):", "") || "";
+
+      const newTask = {
+        id: 'extra-' + Math.random().toString(16).slice(2),
+        cat: cat.trim().toLowerCase(),
+        title: t.trim(),
+        detail: detail.trim()
+      };
+
+      const st = loadDayState(profile, d.key);
+      st.extras = Array.isArray(st.extras) ? st.extras : [];
+      st.extras.push(newTask);
+      saveDayState(profile, d.key, st);
+      renderProfileDays(profile, containerId, getDefaults);
+    });
+
+    const resetBtn = document.createElement('button');
+    resetBtn.className = 'small';
+    resetBtn.textContent = '🧹 Reset Day';
+    resetBtn.addEventListener('click', ()=>{
+      if(!confirm(`Reset all checkboxes + notes for ${d.label} (${profile})?`)) return;
+      localStorage.removeItem(storageKey(profile, d.key));
+      renderProfileDays(profile, containerId, getDefaults);
+    });
+
+    actions.appendChild(addBtn);
+    actions.appendChild(resetBtn);
+
+    head.appendChild(title);
+    head.appendChild(actions);
+    card.appendChild(head);
+
+    // Badges (legend per profile)
+    const badges = document.createElement('div');
+    badges.className = 'badges';
+
+    const neededCats = new Set(allTasks.map(t=>t.cat));
+    const badgeOrder = ['study','online','exercise','food','sleep','supp','admin'];
+    badgeOrder.forEach(cat=>{
+      if(!neededCats.has(cat)) return;
+      const nice = ({
+        study:'Study/Learning', online:'Online School', exercise:'Exercise/Play', food:'Food', sleep:'Sleep',
+        supp:'Supplements', admin:'Admin/Other'
+      })[cat] || cat;
+
+      const badge = document.createElement('span');
+      badge.className = 'badge';
+      badge.innerHTML = `<span class="dot ${cat}"></span>${nice}`;
+      badges.appendChild(badge);
+    });
+    card.appendChild(badges);
+
+    // Task list
+    const list = document.createElement('div');
+    list.className = 'tasklist';
+
+    allTasks.forEach(task=>{
+      const row = document.createElement('div');
+      row.className = 'taskrow';
+
+      const left = document.createElement('div');
+      left.className = 'taskleft';
+
+      const label = document.createElement('label');
+
+      const cb = document.createElement('input');
+      cb.type = 'checkbox';
+
+      const checked = !!state.checks?.[task.id];
+      cb.checked = checked;
+
+      cb.addEventListener('change', ()=>{
+        const st = loadDayState(profile, d.key);
+        st.checks = st.checks || {};
+        st.checks[task.id] = cb.checked;
+        saveDayState(profile, d.key, st);
+        updateProgress(profile, d.key, containerId, getDefaults);
+      });
+
+      const ttext = document.createElement('div');
+      ttext.className = 'ttext';
+      ttext.innerHTML = `<b title="${escapeHtml(task.title)}">${escapeHtml(task.title)}</b><span>${escapeHtml(task.detail || "")}</span>`;
+
+      label.appendChild(cb);
+      label.appendChild(ttext);
+
+      left.appendChild(label);
+
+      const cat = document.createElement('div');
+      cat.className = `tcat ${task.cat || 'admin'}`;
+      cat.textContent = (task.cat || 'admin').toUpperCase();
+
+      row.appendChild(left);
+      row.appendChild(cat);
+      list.appendChild(row);
+    });
+
+    card.appendChild(list);
+
+    // Progress UI
+    const progress = document.createElement('div');
+    progress.className = 'progressline';
+
+    const bar = document.createElement('div');
+    bar.className = 'bar';
+    bar.innerHTML = `<div class="fill" id="fill-${profile}-${d.key}"></div>`;
+
+    const pct = document.createElement('div');
+    pct.className = 'pct';
+    pct.id = `pct-${profile}-${d.key}`;
+    pct.textContent = '0%';
+
+    progress.appendChild(bar);
+    progress.appendChild(pct);
+    card.appendChild(progress);
+
+    // Notes
+    const notes = document.createElement('textarea');
+    notes.className = 'notes';
+    notes.placeholder = "What actually happened today? (differences, mood, food changes, etc.)";
+    notes.value = state.notes || "";
+    notes.addEventListener('input', ()=>{
+      const st = loadDayState(profile, d.key);
+      st.notes = notes.value;
+      saveDayState(profile, d.key, st);
+    });
+    card.appendChild(notes);
+
+    root.appendChild(card);
+
+    // Initial progress calc
+    updateProgress(profile, d.key, containerId, getDefaults);
   });
 }
 
-function loadDayState(personId, dateKey){
-  const raw = localStorage.getItem(lsKey(personId, dateKey));
-  const state = safeParse(raw, null);
-  if(state) return state;
-  return { checks:{}, notes:"", extraTasks:[] };
-}
+function updateProgress(profile, dayKey, containerId, getDefaults){
+  const st = loadDayState(profile, dayKey);
+  const defaults = getDefaults(dayKey);
+  const extras = Array.isArray(st.extras) ? st.extras : [];
+  const all = [...defaults, ...extras];
 
-function saveDayState(personId, dateKey, state){
-  localStorage.setItem(lsKey(personId, dateKey), JSON.stringify(state));
-}
-
-function calcCompletion(planDay, state){
-  // planned tasks count
-  let planned = 0;
+  const total = all.length || 1;
   let done = 0;
-
-  // planned tasks from sections
-  planDay.sections.forEach((sec, si) => {
-    (sec.tasks || []).forEach((t, ti) => {
-      planned++;
-      const key = `p:${si}:${ti}`;
-      if(state.checks[key]) done++;
-    });
+  all.forEach(t=>{
+    if(st.checks && st.checks[t.id]) done++;
   });
+  const pct = Math.round((done/total)*100);
 
-  // extra tasks
-  (state.extraTasks || []).forEach((t, i) => {
-    planned++;
-    const key = `x:${i}`;
-    if(state.checks[key]) done++;
-  });
-
-  if(planned === 0) return 0;
-  return Math.round((done / planned) * 100);
-}
-
-function renderLeft(){
-  const person = PLANS[currentPersonId];
-  document.getElementById("leftTitle").textContent = "Days";
-
-  const list = document.getElementById("dayList");
-  list.innerHTML = "";
-
-  person.days.forEach((day) => {
-    const state = loadDayState(currentPersonId, day.dateKey);
-    const pct = calcCompletion(day, state);
-
-    const btn = document.createElement("div");
-    btn.className = "dayBtn" + (day.dateKey === currentDateKey ? " active" : "");
-    btn.innerHTML = `
-      <div class="dayMeta">
-        <div class="dayDate">${fmtDayLabel(day.dateKey)}</div>
-        <div class="dayTagline">${day.title} • ${day.tagline}</div>
-      </div>
-      <div class="badge">${pct}%</div>
-    `;
-    btn.onclick = () => { currentDateKey = day.dateKey; renderRight(); renderLeftStats(); renderLeft(); };
-    list.appendChild(btn);
-  });
-
-  renderLeftStats();
-}
-
-function renderLeftStats(){
-  const person = PLANS[currentPersonId];
-  // "Today completion" — use selected day (simple & predictable)
-  const day = person.days.find(x => x.dateKey === currentDateKey) || person.days[0];
-  const state = loadDayState(currentPersonId, day.dateKey);
-  const pct = calcCompletion(day, state);
-  document.getElementById("todayPct").textContent = `${pct}%`;
-
-  // "Streak" — count consecutive days from start where completion > 0
-  let streak = 0;
-  for(const d of person.days){
-    const st = loadDayState(currentPersonId, d.dateKey);
-    const p = calcCompletion(d, st);
-    if(p > 0) streak++;
-    else break;
-  }
-  document.getElementById("streak").textContent = `${streak}`;
-}
-
-function renderRight(){
-  const person = PLANS[currentPersonId];
-  const day = person.days.find(x => x.dateKey === currentDateKey) || person.days[0];
-  const state = loadDayState(currentPersonId, day.dateKey);
-
-  document.getElementById("dayTitle").textContent = `${fmtDayLabel(day.dateKey)} — ${day.title} • ${day.tagline}`;
-  document.getElementById("daySubtitle").textContent = day.routine || "";
-
-  // pills: combine person.headerPills + day.pills
-  const pillRow = document.getElementById("pillRow");
-  pillRow.innerHTML = "";
-  const pills = [...(person.headerPills || []), ...(day.pills || [])];
-  pills.forEach(p => {
-    const el = document.createElement("div");
-    el.className = "pill";
-    el.textContent = p;
-    pillRow.appendChild(el);
-  });
-
-  // content
-  const content = document.getElementById("dayContent");
-  content.innerHTML = "";
-
-  // sections
-  day.sections.forEach((sec, si) => {
-    const box = document.createElement("div");
-    const typeClass = sec.type || "study";
-    box.className = `box ${typeClass}`;
-    box.innerHTML = `
-      <div class="sectionTitle">${sec.title || "Section"}</div>
-      ${sec.hint ? `<div class="hint">${sec.hint}</div>` : ""}
-    `;
-
-    (sec.tasks || []).forEach((task, ti) => {
-      const key = `p:${si}:${ti}`;
-      const row = document.createElement("div");
-      row.className = "taskRow";
-      row.innerHTML = `
-        <label>
-          <input type="checkbox" ${state.checks[key] ? "checked" : ""} />
-          <div class="taskText">
-            <div class="taskMain">${task.t}</div>
-            <div class="taskSmall">${task.d || ""}</div>
-          </div>
-        </label>
-      `;
-      row.querySelector("input").addEventListener("change", (e) => {
-        state.checks[key] = e.target.checked;
-        saveDayState(currentPersonId, day.dateKey, state);
-        updateRightPct(day, state);
-        renderLeft(); // update badges
-      });
-      box.appendChild(row);
-    });
-
-    content.appendChild(box);
-  });
-
-  // Extra tasks section
-  const extraBox = document.createElement("div");
-  extraBox.className = "box";
-  extraBox.innerHTML = `
-    <div class="sectionTitle">Extra tasks (your additions)</div>
-    <div class="smallMuted">Add anything that happened differently or new tasks you want for this day.</div>
-  `;
-
-  const extraWrap = document.createElement("div");
-  extraWrap.id = "extraWrap";
-  extraWrap.style.marginTop = "10px";
-  extraBox.appendChild(extraWrap);
-
-  function renderExtra(){
-    extraWrap.innerHTML = "";
-    (state.extraTasks || []).forEach((t, i) => {
-      const key = `x:${i}`;
-      const row = document.createElement("div");
-      row.className = "taskRow";
-      row.innerHTML = `
-        <label>
-          <input type="checkbox" ${state.checks[key] ? "checked" : ""} />
-          <div class="taskText">
-            <div class="taskMain">${escapeHtml(t)}</div>
-            <div class="taskSmall">Added by you</div>
-          </div>
-        </label>
-        <button class="btn danger" style="padding:8px 10px; margin-left:auto;" title="Remove">✕</button>
-      `;
-      row.querySelector("input").addEventListener("change",(e)=>{
-        state.checks[key] = e.target.checked;
-        saveDayState(currentPersonId, day.dateKey, state);
-        updateRightPct(day, state);
-        renderLeft();
-      });
-      row.querySelector("button").addEventListener("click",()=>{
-        // remove
-        state.extraTasks.splice(i,1);
-        // rebuild checks for extras
-        const newChecks = {};
-        Object.entries(state.checks).forEach(([k,v])=>{
-          if(!k.startsWith("x:")) newChecks[k]=v;
-        });
-        state.checks = newChecks;
-        saveDayState(currentPersonId, day.dateKey, state);
-        renderRight();
-        renderLeft();
-      });
-      extraWrap.appendChild(row);
-    });
-  }
-  renderExtra();
-
-  // Notes
-  const notesBox = document.createElement("div");
-  notesBox.className = "box";
-  notesBox.innerHTML = `
-    <div class="sectionTitle">Notes / What was done differently today</div>
-    <textarea class="notesArea" id="notesArea" placeholder="Example: He skipped writing today but did 20 min extra running.">${state.notes || ""}</textarea>
-    <div class="footerRow">
-      <div class="smallMuted">Auto-saves. Completion updates based on checkboxes.</div>
-      <div style="display:flex; gap:10px; flex-wrap:wrap;">
-        <button class="btn" id="addTaskBtn">➕ Add a new task</button>
-        <button class="btn" id="clearDayBtn">Reset this day</button>
-      </div>
-    </div>
-  `;
-  content.appendChild(extraBox);
-  content.appendChild(notesBox);
-
-  // Add task handler
-  notesBox.querySelector("#addTaskBtn").addEventListener("click",()=>{
-    const text = prompt("Enter the new task:");
-    if(!text || !text.trim()) return;
-    state.extraTasks.push(text.trim());
-    saveDayState(currentPersonId, day.dateKey, state);
-    renderRight();
-    renderLeft();
-  });
-
-  // Reset day
-  notesBox.querySelector("#clearDayBtn").addEventListener("click",()=>{
-    const ok = confirm("Reset this day’s checkboxes, notes, and extra tasks?");
-    if(!ok) return;
-    localStorage.removeItem(lsKey(currentPersonId, day.dateKey));
-    renderRight();
-    renderLeft();
-  });
-
-  // Notes autosave
-  notesBox.querySelector("#notesArea").addEventListener("input",(e)=>{
-    state.notes = e.target.value;
-    saveDayState(currentPersonId, day.dateKey, state);
-  });
-
-  updateRightPct(day, state);
-}
-
-function updateRightPct(day, state){
-  const pct = calcCompletion(day, state);
-  document.getElementById("dayPct").textContent = `${pct}%`;
-  renderLeftStats();
-}
-
-function renderAll(){
-  renderTabs();
-  renderLeft();
-  renderRight();
+  const fill = document.getElementById(`fill-${profile}-${dayKey}`);
+  const pctBox = document.getElementById(`pct-${profile}-${dayKey}`);
+  if(fill) fill.style.width = pct + '%';
+  if(pctBox) pctBox.textContent = `${pct}% (${done}/${total})`;
 }
 
 function escapeHtml(s){
-  return s.replace(/[&<>"']/g, (c) => ({
-    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-  }[c]));
+  return String(s)
+    .replaceAll('&','&amp;')
+    .replaceAll('<','&lt;')
+    .replaceAll('>','&gt;')
+    .replaceAll('"','&quot;')
+    .replaceAll("'","&#039;");
 }
 
-/* ---------------------------
-   INIT
----------------------------- */
-renderAll();
+/* =========================
+   RENDER ALL PROFILES
+========================= */
+renderProfileDays('kaushal','kaushalDays', kaushalDefaultTasks);
+renderProfileDays('parnika','parnikaDays', parnikaDefaultTasks);
+renderProfileDays('mom','momDays', momDefaultTasks);
+renderProfileDays('dad','dadDays', dadDefaultTasks);
 </script>
+
 </body>
 </html>
