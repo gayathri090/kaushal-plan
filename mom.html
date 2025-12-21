@@ -1,395 +1,151 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Mom — Citizenship + AI Masters Tracker</title>
+  <title>Mom — AI + Citizenship</title>
   <style>
     :root{
-      --bg:#f6f7fb; --card:#fff; --text:#0f172a; --muted:#64748b;
-      --border:#e5e7eb; --chip:#f1f5f9; --accent:#2563eb; --good:#16a34a;
-      --warn:#f59e0b;
+      --bg:#0b1220;
+      --panel:#101a2e;
+      --card:#0f172a;
+      --text:#e5e7eb;
+      --muted:#9ca3af;
+      --line:rgba(255,255,255,0.10);
+      --blue:#60a5fa;
     }
-    *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--text)}
-    header{
-      position:sticky;top:0;z-index:10;background:var(--card);
-      border-bottom:1px solid var(--border); padding:14px 16px;
-      display:flex;align-items:center;justify-content:space-between;gap:12px;
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      background: radial-gradient(1000px 600px at 10% 0%, #1e2a52 0%, var(--bg) 50%, #070b14 100%);
+      color: var(--text);
     }
-    header h1{margin:0;font-size:16px}
-    .clock{font-weight:700;font-size:13px;color:var(--muted)}
-    .wrap{max-width:1100px;margin:0 auto;padding:16px}
-    .topActions{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
-    .btn{
-      border:1px solid var(--border); background:var(--card);
-      padding:10px 12px; border-radius:10px; cursor:pointer; font-weight:700;
+    .wrap{ max-width: 1100px; margin: 0 auto; padding: 18px; }
+    .top{
+      display:flex; gap:12px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap;
+      margin-bottom: 14px;
     }
-    .btnPrimary{background:var(--accent);border-color:var(--accent);color:#fff}
-    .grid{display:grid;grid-template-columns:340px 1fr;gap:14px}
-    @media (max-width: 900px){ .grid{grid-template-columns:1fr} }
-    .card{
-      background:var(--card);border:1px solid var(--border);border-radius:14px;
-      padding:14px;
+    h1{ margin:0; font-size: 22px; font-weight: 900; }
+    .subtitle{ margin-top:6px; color: var(--muted); font-size: 13px; line-height: 1.4; max-width: 760px;}
+    .btnRow{ display:flex; gap:10px; flex-wrap:wrap; }
+    a.btn, button.btn{
+      border: 1px solid var(--line);
+      background: rgba(15,23,42,0.45);
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 14px;
+      cursor:pointer;
+      text-decoration:none;
+      font-weight: 800;
+      font-size: 13px;
     }
-    .muted{color:var(--muted)}
-    .chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
-    .chip{background:var(--chip);border:1px solid var(--border);padding:6px 10px;border-radius:999px;font-weight:700;font-size:12px;color:#0f172a}
-    .statRow{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
-    .stat{
-      border:1px solid var(--border);border-radius:12px;padding:12px;background:#fafafa
+    a.btn:hover, button.btn:hover{ border-color: rgba(255,255,255,0.22); transform: translateY(-1px); }
+    .panel{
+      border: 1px solid var(--line);
+      background: rgba(16,26,46,0.55);
+      border-radius: 16px;
+      overflow:hidden;
+      box-shadow: 0 18px 60px rgba(0,0,0,0.35);
     }
-    .stat .big{font-size:28px;font-weight:800;line-height:1}
-    .list{display:flex;flex-direction:column;gap:10px;margin-top:12px}
-    .itemBtn{
-      width:100%;text-align:left;border:1px solid var(--border);background:var(--card);
-      border-radius:12px;padding:10px 12px;cursor:pointer;
-      display:flex;align-items:center;justify-content:space-between;gap:10px;
+    .panelHead{
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+      display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;
     }
-    .itemBtn .title{font-weight:800}
-    .itemBtn .sub{font-size:12px;color:var(--muted);margin-top:2px}
-    .badge{
-      font-weight:900;font-size:12px;border-radius:999px;padding:6px 10px;
-      background:#0f172a;color:#fff;min-width:52px;text-align:center;
+    .panelHead h2{ margin:0; font-size: 15px; font-weight: 900; }
+    .panelBody{ padding: 14px; }
+    label{ display:block; font-size: 12px; color: var(--muted); font-weight: 800; margin-bottom: 6px; }
+    input[type="file"]{
+      width:100%;
+      padding: 10px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(0,0,0,0.22);
+      color: var(--text);
     }
-    .badge.good{background:var(--good)}
-    .badge.warn{background:var(--warn);color:#111827}
-    .h2{margin:0 0 10px 0;font-size:18px}
-    .sectionTitle{margin:18px 0 8px 0;font-size:14px;color:#0f172a;font-weight:900}
-    .taskRow{
-      display:flex;gap:10px;align-items:flex-start;
-      border:1px solid var(--border);border-radius:12px;padding:12px;background:#fbfdff;
-      margin-bottom:10px;
+    .hint{ margin-top: 8px; color: var(--muted); font-size: 12px; line-height: 1.4; }
+    .viewer{
+      margin-top: 12px;
+      width:100%;
+      height: 72vh;
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 14px;
+      overflow:hidden;
+      background: rgba(0,0,0,0.22);
     }
-    .taskRow input[type="checkbox"]{width:18px;height:18px;margin-top:2px}
-    .taskRow .tTitle{font-weight:900}
-    .taskRow .tDesc{font-size:13px;color:var(--muted);margin-top:2px}
-    textarea, input[type="text"]{
-      width:100%;border:1px solid var(--border);border-radius:12px;padding:10px 12px;
-      font:inherit;background:var(--card)
+    iframe{ width:100%; height:100%; border:0; }
+    .link{
+      color: var(--blue);
+      font-weight: 800;
+      text-decoration:none;
     }
-    .row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-    @media (max-width: 700px){ .row2{grid-template-columns:1fr} }
-    .progressBar{
-      height:10px;background:#e5e7eb;border-radius:999px;overflow:hidden;margin-top:10px
-    }
-    .progressBar > div{height:100%;background:var(--accent);width:0%}
-    .smallNote{font-size:12px;color:var(--muted);margin-top:6px}
+    .link:hover{ text-decoration:underline; }
   </style>
 </head>
 <body>
-<header>
-  <div>
-    <h1>👩‍🎓 Mom — AI Masters + Citizenship (May 2026)</h1>
-    <div class="chips">
-      <span class="chip">Daily study</span>
-      <span class="chip">Citizenship syllabus</span>
-      <span class="chip">Anemia diet</span>
-      <span class="chip">Iron + D-vitamin</span>
-    </div>
-  </div>
-  <div class="clock" id="clock"></div>
-</header>
-
-<div class="wrap">
-  <div class="topActions">
-    <button class="btn" onclick="window.location.href='index.html'">← Back to Kaushal/Parnika</button>
-    <button class="btn" onclick="printPage()">Print</button>
-    <button class="btn" onclick="resetSelected()">Reset selected</button>
-    <button class="btn" onclick="resetAll()">Reset all</button>
-    <button class="btn btnPrimary" onclick="addCustomTask()">+ Add custom task</button>
-  </div>
-
-  <div class="grid">
-    <!-- LEFT: Chapters -->
-    <div class="card">
-      <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:10px">
-        <div>
-          <div class="h2" style="margin:0">Syllabus</div>
-          <div class="muted" style="font-size:13px">Pick a chapter and track progress</div>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>Mom — AI + Citizenship</h1>
+        <div class="subtitle">
+          Citizenship syllabus viewer + simple upload (local). Default shows the official material PDF.
         </div>
       </div>
-
-      <div class="statRow">
-        <div class="stat">
-          <div class="big" id="todayPct">0%</div>
-          <div class="muted">Today completion</div>
-        </div>
-        <div class="stat">
-          <div class="big" id="streak">0</div>
-          <div class="muted">Streak (≥70% days)</div>
-        </div>
-      </div>
-
-      <div class="list" id="chapterList"></div>
-
-      <div class="smallNote">
-        Chapters are from the official material (Aug 2025). :contentReference[oaicite:2]{index=2}
+      <div class="btnRow">
+        <a class="btn" href="index.html">← Back to Family Plan</a>
+        <a class="btn" href="2025version.pdf" target="_blank" rel="noopener">Open PDF in new tab</a>
+        <a class="btn" href="2025version.pdf" download>Download PDF</a>
       </div>
     </div>
 
-    <!-- RIGHT: Tracker -->
-    <div class="card">
-      <div class="h2" id="rightTitle">Choose a chapter</div>
-      <div class="muted" id="rightSub">Your tasks + health habits for today</div>
+    <div class="panel">
+      <div class="panelHead">
+        <h2>Citizenship material (PDF)</h2>
+      </div>
+      <div class="panelBody">
+        <label for="pdfInput">Upload your PDF (optional)</label>
+        <input id="pdfInput" type="file" accept="application/pdf" />
+        <div class="hint">
+          On GitHub Pages you can't upload/save files to the server. This upload is only for viewing on this device/browser.
+          If you want everyone to see the same PDF, keep <strong>2025version.pdf</strong> in the repo and use the buttons above.
+        </div>
 
-      <div class="sectionTitle">Daily Focus (AI + Citizenship)</div>
-      <div id="tasks"></div>
+        <div class="viewer">
+          <iframe id="pdfFrame" src="2025version.pdf"></iframe>
+        </div>
 
-      <div class="sectionTitle">Anemia-friendly Meals (High iron + high protein)</div>
-      <div class="taskRow">
-        <input type="checkbox" data-key="meal_iron1" />
-        <div>
-          <div class="tTitle">Iron + protein meal</div>
-          <div class="tDesc">Examples: spinach/keerai + dal/rajma/chickpeas, egg/fish/chicken, pumpkin seeds, lentils. Add vitamin C (orange/berries/bell pepper) to help absorption.</div>
+        <div class="hint" style="margin-top:10px;">
+          If the PDF doesn't load inside the frame on iPhone/Safari, use:
+          <a class="link" href="2025version.pdf" target="_blank" rel="noopener">Open PDF in new tab</a>.
         </div>
       </div>
-      <div class="taskRow">
-        <input type="checkbox" data-key="meal_iron2" />
-        <div>
-          <div class="tTitle">Avoid tea/coffee around iron</div>
-          <div class="tDesc">Try not to take tea/coffee 1–2 hours around your iron-rich meal or iron tablet.</div>
-        </div>
-      </div>
-
-      <div class="sectionTitle">Vitamins</div>
-      <div class="taskRow">
-        <input type="checkbox" data-key="vit_iron" />
-        <div>
-          <div class="tTitle">Iron (daily)</div>
-          <div class="tDesc">Tick when taken. (Follow your doctor’s dose.)</div>
-        </div>
-      </div>
-      <div class="taskRow">
-        <input type="checkbox" data-key="vit_d" />
-        <div>
-          <div class="tTitle">D-vitamin (daily)</div>
-          <div class="tDesc">Tick when taken. Denmark winter support.</div>
-        </div>
-      </div>
-
-      <div class="sectionTitle">Notes (optional)</div>
-      <div class="row2">
-        <div>
-          <div class="muted" style="font-weight:800;margin-bottom:6px">What I studied instead</div>
-          <textarea id="notesStudy" rows="4" placeholder="Ex: focused on flashcards, did mock questions..."></textarea>
-        </div>
-        <div>
-          <div class="muted" style="font-weight:800;margin-bottom:6px">Meal/health notes</div>
-          <textarea id="notesHealth" rows="4" placeholder="Ex: headache, low energy, iron meal taken..."></textarea>
-        </div>
-      </div>
-
-      <div class="sectionTitle">Progress</div>
-      <div class="muted" id="progressText">0% completed</div>
-      <div class="progressBar"><div id="bar"></div></div>
     </div>
   </div>
-</div>
 
 <script>
-/* ---------- Live clock ---------- */
-(function clockTick(){
-  document.getElementById('clock').textContent = new Date().toLocaleString();
-  setTimeout(clockTick, 1000);
-})();
+  const input = document.getElementById("pdfInput");
+  const frame = document.getElementById("pdfFrame");
+  let currentObjectUrl = null;
 
-/* ---------- Data (chapters from the PDF TOC) ---------- */
-/* From the official material: Chapter 1–6 (History, Democracy, Economy, DK & world, Culture, Themes). */
-const CHAPTERS = [
-  { id:'c1', title:'Kapitel 1 – Danmarks historie', sub:'Vikinger, reformation, demokratiens vej…', target:'Read + notes', },
-  { id:'c2', title:'Kapitel 2 – Det danske demokrati', sub:'Styreform, Folketinget, retssamfund…', target:'Read + Qs', },
-  { id:'c3', title:'Kapitel 3 – Den danske økonomi', sub:'Velfærdssamfund, arbejdsmarked…', target:'Read + recap', },
-  { id:'c4', title:'Kapitel 4 – Danmark og omverdenen', sub:'EU, globalt samarbejde, sikkerhed…', target:'Read + Qs', },
-  { id:'c5', title:'Kapitel 5 – Dansk kulturliv', sub:'Litteratur, film, design, musik…', target:'Read + flashcards', },
-  { id:'c6', title:'Kapitel 6 – Temaopslag', sub:'Geografi, kongehus, mærkedage, ligestilling…', target:'Read + Qs', },
-];
+  input.addEventListener("change", (e) => {
+    const file = e.target.files && e.target.files[0];
+    if(!file) return;
 
-/* ---------- Storage helpers ---------- */
-const LS = {
-  get(k, d=null){ try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch(e){ return d; } },
-  set(k, v){ localStorage.setItem(k, JSON.stringify(v)); }
-};
+    // cleanup old blob URL
+    if(currentObjectUrl){
+      URL.revokeObjectURL(currentObjectUrl);
+      currentObjectUrl = null;
+    }
 
-const TODAY = new Date().toISOString().slice(0,10); // YYYY-MM-DD
-let selected = LS.get('mom_selected_chapter', 'c1');
-
-function chapterKey(ch){ return `mom_${TODAY}_${ch}`; }
-
-function renderChapters(){
-  const wrap = document.getElementById('chapterList');
-  wrap.innerHTML = '';
-  CHAPTERS.forEach(ch => {
-    const pct = chapterCompletion(ch.id);
-    const badgeClass = pct >= 70 ? 'good' : (pct > 0 ? 'warn' : '');
-    const btn = document.createElement('button');
-    btn.className = 'itemBtn';
-    btn.onclick = () => { selected = ch.id; LS.set('mom_selected_chapter', selected); renderRight(); renderChapters(); };
-    btn.innerHTML = `
-      <div>
-        <div class="title">${ch.title}</div>
-        <div class="sub">${ch.sub}</div>
-      </div>
-      <div class="badge ${badgeClass}">${pct}%</div>
-    `;
-    wrap.appendChild(btn);
-  });
-}
-
-function tasksForChapter(chId){
-  // Core daily structure: AI + Citizenship + practice (flashcards/questions) + recap
-  const ch = CHAPTERS.find(x => x.id === chId);
-  return [
-    { key:`${chId}_ai`, title:'AI Masters (60–90 min)', desc:'Focused learning + assignment work (one clear goal).' },
-    { key:`${chId}_read`, title:`Citizenship reading (30–45 min)`, desc:`${ch?.title} — read + highlight 5 points.` },
-    { key:`${chId}_recap`, title:'Recap notes (10 min)', desc:'Write 5 bullet points in simple Danish/English.' },
-    { key:`${chId}_practice`, title:'Practice (10–20 min)', desc:'Flashcards / MCQ questions (small set, repeat daily).' },
-  ];
-}
-
-function loadState(){
-  const state = LS.get(chapterKey(selected), { checks:{}, notesStudy:'', notesHealth:'', custom:[] });
-  return state;
-}
-function saveState(state){
-  LS.set(chapterKey(selected), state);
-}
-
-function renderRight(){
-  const ch = CHAPTERS.find(x => x.id === selected);
-  document.getElementById('rightTitle').textContent = ch ? ch.title : 'Choose a chapter';
-  document.getElementById('rightSub').textContent = ch ? ch.sub : 'Your tasks + health habits for today';
-
-  const state = loadState();
-
-  // Notes
-  const notesStudy = document.getElementById('notesStudy');
-  const notesHealth = document.getElementById('notesHealth');
-  notesStudy.value = state.notesStudy || '';
-  notesHealth.value = state.notesHealth || '';
-  notesStudy.oninput = () => { const s=loadState(); s.notesStudy=notesStudy.value; saveState(s); };
-  notesHealth.oninput = () => { const s=loadState(); s.notesHealth=notesHealth.value; saveState(s); };
-
-  // Tasks
-  const container = document.getElementById('tasks');
-  container.innerHTML = '';
-
-  const base = tasksForChapter(selected);
-  const custom = state.custom || [];
-  const all = [...base, ...custom];
-
-  all.forEach(t => {
-    const row = document.createElement('div');
-    row.className = 'taskRow';
-    const checked = !!state.checks?.[t.key];
-    row.innerHTML = `
-      <input type="checkbox" data-k="${t.key}" ${checked?'checked':''} />
-      <div>
-        <div class="tTitle">${t.title}</div>
-        <div class="tDesc">${t.desc || ''}</div>
-      </div>
-    `;
-    container.appendChild(row);
+    currentObjectUrl = URL.createObjectURL(file);
+    frame.src = currentObjectUrl;
   });
 
-  // Global checkboxes (diet/vitamins)
-  document.querySelectorAll('input[type="checkbox"][data-key]').forEach(cb => {
-    const key = cb.getAttribute('data-key');
-    cb.checked = !!state.checks?.[key];
-    cb.onchange = () => {
-      const s = loadState();
-      s.checks = s.checks || {};
-      s.checks[key] = cb.checked;
-      saveState(s);
-      updateProgress();
-      renderChapters();
-    };
+  // cleanup blob URL on leaving page
+  window.addEventListener("beforeunload", () => {
+    if(currentObjectUrl) URL.revokeObjectURL(currentObjectUrl);
   });
-
-  // Task checkboxes
-  container.querySelectorAll('input[type="checkbox"][data-k]').forEach(cb => {
-    cb.onchange = () => {
-      const k = cb.getAttribute('data-k');
-      const s = loadState();
-      s.checks = s.checks || {};
-      s.checks[k] = cb.checked;
-      saveState(s);
-      updateProgress();
-      renderChapters();
-    };
-  });
-
-  updateProgress();
-}
-
-function chapterCompletion(chId){
-  const state = LS.get(`mom_${TODAY}_${chId}`, { checks:{} });
-  const base = tasksForChapter(chId);
-  const custom = state.custom || [];
-  const allTaskKeys = [...base.map(x=>x.key), ...custom.map(x=>x.key), 'meal_iron1','meal_iron2','vit_iron','vit_d'];
-
-  const done = allTaskKeys.filter(k => state.checks?.[k]).length;
-  const total = allTaskKeys.length || 1;
-  return Math.round((done/total)*100);
-}
-
-function updateProgress(){
-  const pct = chapterCompletion(selected);
-  document.getElementById('progressText').textContent = `${pct}% completed`;
-  document.getElementById('bar').style.width = `${pct}%`;
-
-  // Today completion + streak
-  document.getElementById('todayPct').textContent = `${pct}%`;
-
-  const streakKey = 'mom_streak_days';
-  const streakDays = LS.get(streakKey, {});
-  streakDays[TODAY] = (pct >= 70);
-  LS.set(streakKey, streakDays);
-
-  // calculate streak ending today
-  let s = 0;
-  let d = new Date(TODAY);
-  while(true){
-    const k = d.toISOString().slice(0,10);
-    if(streakDays[k]) { s++; d.setDate(d.getDate()-1); }
-    else break;
-  }
-  document.getElementById('streak').textContent = String(s);
-}
-
-function addCustomTask(){
-  const title = prompt('New custom task title (example: "Read 10 pages")');
-  if(!title) return;
-  const desc = prompt('Description (optional)', '') || '';
-  const s = loadState();
-  s.custom = s.custom || [];
-  const key = `custom_${Date.now()}`;
-  s.custom.push({ key, title, desc });
-  saveState(s);
-  renderRight();
-  renderChapters();
-}
-
-function resetSelected(){
-  if(!confirm('Reset selected chapter for today?')) return;
-  localStorage.removeItem(chapterKey(selected));
-  renderRight();
-  renderChapters();
-}
-function resetAll(){
-  if(!confirm('Reset ALL Mom data (all days)?')) return;
-  Object.keys(localStorage).forEach(k => {
-    if(k.startsWith('mom_')) localStorage.removeItem(k);
-  });
-  renderRight();
-  renderChapters();
-}
-
-function printPage(){ window.print(); }
-
-/* Init */
-renderChapters();
-renderRight();
 </script>
 </body>
 </html>
