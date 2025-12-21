@@ -4,32 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Family Plan — Kaushal • Parnika • Mom • Dad</title>
+
   <style>
     :root{
-  /* Base */
-  --bg:#060b18;
-  --panel:#0b1226;
-  --card:#0f172a;
-  --card2:#111c33;
-  --text:#e5e7eb;
-  --muted:#9ca3af;
-  --line:rgba(255,255,255,0.08);
+      --bg:#0b1220;
+      --panel:#101a2e;
+      --card:#0f172a;
+      --text:#e5e7eb;
+      --muted:#9ca3af;
+      --line:rgba(255,255,255,0.08);
 
-  /* Category colors */
-  --study:#60a5fa;   /* blue */
-  --food:#34d399;    /* green */
-  --move:#a78bfa;    /* purple */
-  --sleep:#fbbf24;   /* amber */
-  --vit:#fb7185;     /* rose */
-  --exam:#38bdf8;    /* cyan */
-
-  --chip:#020617;
-  --white:#ffffff;
-
-  /* Effects */
-  --glow-blue: 0 0 0 1px rgba(96,165,250,.25), 0 10px 30px rgba(96,165,250,.15);
-}
-
+      --blue:#60a5fa;
+      --green:#34d399;
+      --purple:#a78bfa;
+      --orange:#fb923c;
+      --red:#f87171;
+      --white:#ffffff;
+    }
 
     *{ box-sizing:border-box; }
     body{
@@ -112,15 +103,8 @@
       background: rgba(96,165,250,0.18);
       border-color: rgba(96,165,250,0.45);
     }
-    .tabIcon{
-      font-size: 22px;
-      line-height: 1;
-    }
-    .tabText{
-      display:flex;
-      flex-direction:column;
-      line-height:1.05;
-    }
+    .tabIcon{ font-size: 22px; line-height: 1; }
+    .tabText{ display:flex; flex-direction:column; line-height:1.05; }
     .tabText strong{ font-size: 14px; }
     .tabText span{ font-size: 12px; color: var(--muted); margin-top:2px; }
 
@@ -207,23 +191,13 @@
       background: rgba(96,165,250,0.14);
       border-color: rgba(96,165,250,0.35);
     }
-    .dayLeft{
-      display:flex;
-      flex-direction:column;
-      gap:4px;
-    }
-    .dayDate{
-      font-weight: 800;
-      font-size: 14px;
-      color: var(--white);
-    }
-    .dayTheme{
-      font-size: 12px;
-      color: var(--muted);
-    }
+    .dayLeft{ display:flex; flex-direction:column; gap:4px; }
+    .dayDate{ font-weight: 800; font-size: 14px; color: var(--white); }
+    .dayTheme{ font-size: 12px; color: var(--muted); }
+
     .badge{
       align-self:center;
-      min-width: 52px;
+      min-width: 58px;
       text-align:center;
       padding: 6px 10px;
       border-radius: 999px;
@@ -235,9 +209,7 @@
       white-space:nowrap;
     }
 
-    .detail{
-      padding: 14px;
-    }
+    .detail{ padding: 14px; }
     .detailTitle{
       display:flex;
       align-items:flex-start;
@@ -250,6 +222,7 @@
       font-size: 18px;
       font-weight: 900;
     }
+
     .chips{
       display:flex;
       gap:8px;
@@ -339,6 +312,7 @@
       line-height: 1.35;
     }
 
+    /* Category colors */
     .pillStudy{ color: var(--blue); }
     .pillFood{ color: var(--green); }
     .pillMove{ color: var(--purple); }
@@ -360,7 +334,7 @@
     }
     textarea{
       width: 100%;
-      min-height: 80px;
+      min-height: 90px;
       resize: vertical;
       border-radius: 12px;
       padding: 10px;
@@ -395,7 +369,7 @@
       <div class="titleBlock">
         <h1>Family Plan — Kaushal • Parnika • Mom • Dad</h1>
         <div class="subtitle" id="subtitle">
-          Kaushal routine: short blocks, clear steps, movement breaks, and simple tracking. Diet focus: GF/CF/Sugar-free/Low oil + high protein. (Adjust as needed.)
+          Kaushal routine: short blocks, clear steps, movement breaks, and simple tracking. Diet focus: GF/CF/Sugar-free/Low oil + high protein.
         </div>
       </div>
 
@@ -439,7 +413,7 @@
         </div>
         <div class="statCard">
           <div class="statBig" id="dailyStreak">0</div>
-          <div class="statLabel">Daily streak (this plan)</div>
+          <div class="statLabel">Daily streak (≥ 60%)</div>
         </div>
       </div>
 
@@ -453,377 +427,241 @@
   </div>
 
   <div class="footerHint">
-    Tip: Check tasks as you do them. % updates automatically. Your progress and notes are saved in your browser (localStorage).
+    Tip: Check tasks as you do them. % updates automatically. Notes + progress are saved in your browser (localStorage).
   </div>
 
 <script>
+/** =========================
+ *  DATE HELPERS
+ *  ========================= */
+function iso(d){ return d.toISOString().slice(0,10); }
+function listDates(startISO, endISO){
+  const out = [];
+  const start = new Date(startISO + "T00:00:00");
+  const end = new Date(endISO + "T00:00:00");
+  for(let d = new Date(start); d <= end; d.setDate(d.getDate()+1)){
+    out.push(iso(d));
+  }
+  return out;
+}
+const PLAN_DATES = listDates("2025-12-22","2026-01-04");
+
+/** =========================
+ *  TASK TEMPLATES (easy + consistent)
+ *  ========================= */
+function kaushalTasksForDate(dateISO){
+  // small gentle variations by weekday
+  const d = new Date(dateISO + "T00:00:00");
+  const wd = d.getDay(); // 0 Sun ... 6 Sat
+
+  const math = (wd===0) ? "Math (20 min): Review + 5 easy questions"
+           : (wd===6) ? "Math (20 min): Number bonds to 10 (using objects)"
+           : "Math (20 min): Add/sub within 10 (10 questions only)";
+
+  const danish = (wd===0) ? "Danish (15–20 min): Flashcards (10 words)"
+              : (wd===3) ? "Danish (15–20 min): Simple Q&A (Hvad hedder du? Hvor bor du?)"
+              : "Danish (15–20 min): 5 words + write 2 words";
+
+  const english = (wd===5) ? "English (15–20 min): Sight words (5 words) + write once"
+               : "English (15–20 min): Read together + copy 1 short sentence";
+
+  const theme = (wd===0) ? "Sunday calm + review"
+              : (wd===6) ? "Weekend routine + fun"
+              : "Consistency + small progress";
+
+  return {
+    theme,
+    routine:
+      "Morning: breakfast → 10 min movement → Study Block 1 → break. " +
+      "Midday: lunch → outdoor play. " +
+      "Afternoon: Study Block 2 → break → calm activity. " +
+      "Evening: light walk/stretch → dinner → short story → sleep routine.",
+    sections:{
+      study:[
+        { t: math, n:"Keep it short. Stop early if tired. Use real items (beans/lego/cards)." },
+        { t: danish, n:"Say + point to picture + repeat 3 times. Celebrate effort." },
+        { t: english, n:"Keep reading positive. One neat sentence is enough." },
+      ],
+      meals:[
+        { t:"Breakfast", n:"Idli + sambar (extra lentils) OR oats porridge with unsweetened plant milk + seeds." },
+        { t:"Lunch", n:"Rice + dal + greens (spinach) + cucumber. Add boiled egg OR grilled chicken/fish." },
+        { t:"Snack", n:"Seasonal fruit + nuts OR roasted chana (small)." },
+        { t:"Dinner", n:"Millet dosa/roti + vegetable curry (light oil) + fish/chicken (as available)." },
+      ],
+      move:[
+        { t:"Movement (10 min)", n:"Animal walks / jumping / dance 2 songs." },
+        { t:"Outdoor play (20–30 min)", n:"Park time, ball throw/catch, simple chase game." },
+        { t:"Calm body (5–10 min)", n:"Stretch + deep breaths. Short walk after dinner." },
+      ],
+      sleep:[
+        { t:"Sleep routine", n:"Aim: wind down 7:30pm → story → sleep by 8:00pm." },
+      ]
+    }
+  };
+}
+
+function parnikaTasksForDate(dateISO){
+  const d = new Date(dateISO + "T00:00:00");
+  const wd = d.getDay();
+  const theme = "Play + healthy routine";
+  const play = (wd===0) ? "Play learning (10–15 min): Puzzles + matching"
+             : (wd===2) ? "Play learning (10–15 min): Counting toys 1–10"
+             : "Play learning (10–15 min): Colors + shapes";
+
+  return {
+    theme,
+    routine:
+      "Morning: breakfast → outdoor play. Midday: lunch → nap/quiet time. " +
+      "Afternoon: crafts + movement. 4:30pm–7:30pm: online school. " +
+      "Evening: dinner → story → sleep by 8:00pm.",
+    sections:{
+      study:[
+        { t: play, n:"Keep it fun and short. Stop while still happy." },
+        { t:"Story time (10 min)", n:"Read 1 small book. Ask 2 easy questions." },
+        { t:"Online school (4:30–7:30 pm)", n:"Support with water/snack breaks if allowed. Calm after class." },
+      ],
+      meals:[
+        { t:"Breakfast", n:"Egg/banana pancake (no sugar) OR oats + fruit." },
+        { t:"Lunch", n:"Rice + dal + veg OR small chicken/fish + veg." },
+        { t:"Snack", n:"Fruit + small nuts (if safe) OR roasted chana (small)." },
+        { t:"Dinner", n:"Light dinner: veg + protein (egg/chicken/fish)." },
+      ],
+      move:[
+        { t:"Outdoor play (30 min)", n:"Park, swing, running games with Kaushal." },
+        { t:"Music & movement (10 min)", n:"Dance to 2 songs." },
+        { t:"Calm-down (5 min)", n:"Stretch + deep breaths before sleep." },
+      ],
+      sleep:[
+        { t:"Sleep by 8:00pm", n:"Dim lights after 7:30pm. Same bedtime daily." }
+      ]
+    }
+  };
+}
+
+function momTasksForDate(dateISO){
+  const d = new Date(dateISO + "T00:00:00");
+  const wd = d.getDay();
+  const theme = (wd===0) ? "Review + lighter study" : "AI + Citizenship + Health";
+
+  // Vitamin “alternatives” reminder (safe, general)
+  const supplementsNote =
+    "✅ Iron + ✅ Vitamin D daily (set reminder). If iron upsets stomach, take with food. " +
+    "Common food sources of iron: spinach, lentils/beans, chickpeas, pumpkin seeds, eggs, fish, chicken. " +
+    "Use Vitamin C (orange/kiwi/lemon) with iron meals. Avoid tea/coffee right after iron meals.";
+
+  return {
+    theme,
+    routine:
+      "Blocks: (1) AI study (2) AI assignment (3) Citizenship reading + flashcards (4) Walk/stretch. " +
+      "Keep short blocks + breaks.",
+    sections:{
+      study:[
+        { t:"AI Study (60–90 min)", n:"Lecture/reading. Note key points + 3 questions." },
+        { t:"AI Assignment (45–60 min)", n:"Work on 1 small deliverable. Stop when done." },
+        { t:"Citizenship (45–60 min): Chapter reading", n:"Read 8–12 pages + 5 bullet summary + 10 flashcards." },
+        { t:"Practice quiz (10–15 min)", n:"Answer 10 questions from flashcards/notes." },
+      ],
+      meals:[
+        { t:"Iron + Protein Breakfast", n:"Eggs/tofu + spinach OR oats + pumpkin seeds + berries + Vitamin-C fruit." },
+        { t:"Iron-rich Lunch", n:"Lentils/beans + leafy greens + chicken/fish. Add lemon (Vitamin C)." },
+        { t:"Snack", n:"Nuts + fruit OR hummus + veggies (avoid tea/coffee right after iron meals)." },
+        { t:"High-protein Dinner", n:"Fish/chicken + vegetables + quinoa/rice. Add beetroot/greens sometimes." },
+        { t:"Daily vitamins", n: supplementsNote },
+      ],
+      move:[
+        { t:"Walk (20–30 min)", n:"Easy walk after lunch or dinner." },
+        { t:"Stretch (5–10 min)", n:"Neck/shoulders/back stretches." },
+      ],
+      sleep:[
+        { t:"Sleep routine", n:"Aim consistent bedtime. Reduce screen 30 min before sleep." }
+      ]
+    }
+  };
+}
+
+function dadTasksForDate(dateISO){
+  const d = new Date(dateISO + "T00:00:00");
+  const isBeforeExam = (dateISO <= "2026-01-04"); // exam Jan 4
+  const theme = isBeforeExam ? "Salesforce focus + Driving theory" : "Driving focus";
+
+  return {
+    theme,
+    routine:
+      "Until Jan 4: Salesforce daily + small driving theory block. " +
+      "Goal: Danish driving license completed by February (steady practice).",
+    sections:{
+      study:[
+        { t:"Salesforce (60–120 min)", n:"Revision + 30 practice questions. Review wrong answers." },
+        { t:"Salesforce mock (20–30 min)", n:"Timed mini test. Track score." },
+        { t:"Driving theory (30–45 min)", n:"Read 1 topic + 20 practice questions." },
+        { t:"Driving practical prep (10 min)", n:"Review mistakes list OR watch 1 short lesson video." },
+      ],
+      meals:[
+        { t:"Hydration", n:"Water. Keep caffeine moderate. Avoid heavy meals before long study blocks." },
+        { t:"Balanced meals", n:"Protein + veg + carbs (stable energy)." },
+      ],
+      move:[
+        { t:"Walk (15–20 min)", n:"Short walk to reset mind." },
+        { t:"Stretch (5 min)", n:"Back/neck stretches." },
+      ],
+      sleep:[
+        { t:"Sleep", n:"Try for 7 hours when possible." }
+      ]
+    }
+  };
+}
+
+/** =========================
+ *  BUILD DAYS FOR EACH PROFILE
+ *  ========================= */
+function buildDays(profile){
+  return PLAN_DATES.map(dateISO=>{
+    const d = new Date(dateISO + "T00:00:00");
+    const pretty = d.toLocaleDateString(undefined, { weekday:"short", month:"short", day:"numeric", year:"numeric" });
+
+    let pack;
+    if(profile==="kaushal") pack = kaushalTasksForDate(dateISO);
+    if(profile==="parnika") pack = parnikaTasksForDate(dateISO);
+    if(profile==="mom")     pack = momTasksForDate(dateISO);
+    if(profile==="dad")     pack = dadTasksForDate(dateISO);
+
+    return {
+      id: dateISO,
+      title: `${pretty} — ${profile.charAt(0).toUpperCase()+profile.slice(1)} routine`,
+      theme: pack.theme,
+      routine: pack.routine,
+      sections: pack.sections
+    };
+  });
+}
+
 /** =========================
  *  DATA (Plans)
  *  ========================= */
 const plans = {
   kaushal: {
-    header: "Kaushal Max — 10-Day Holiday Plan (Dec 26, 2025 → Jan 4, 2026)",
+    header: "Kaushal — Holiday Plan (Dec 22, 2025 → Jan 4, 2026)",
     subtitle: "Kaushal routine: short blocks, clear steps, movement breaks, and simple tracking. Diet focus: gluten-free, casein-free, sugar-free, low oil, high protein.",
     chips: ["GF", "Casein-free", "Sugar-free", "Low oil"],
-    days: [
-      {
-        id:"2025-12-26",
-        title:"Fri, Dec 26, 2025 — Start easy • Comfort routine",
-        theme:"Start easy • Comfort routine",
-        routine:"Morning: breakfast → 10 min movement → Study Block 1 → break. Midday: lunch → outdoor play. Afternoon: Study Block 2 → break → craft. Evening: calm walk/stretch → dinner → short story → sleep routine.",
-        sections: {
-          study: [
-            { t:"Math (20 min): Number sense 1–20", n:"Count objects, match number cards, simple ‘more/less’. Use real items (beans/lego)." },
-            { t:"Danish (15–20 min): Sounds + 5 words", n:"Pick 5 common words (mor, far, hus, mad, bog). Say, clap syllables, point to picture." },
-            { t:"English (15–20 min): Read + copy 3 lines", n:"Short text (very easy). Copy 3 lines slowly (neatness not perfection)." },
-          ],
-          meals: [
-            { t:"Breakfast", n:"Idli + sambar (extra lentils) OR oats porridge with unsweetened plant milk + cinnamon + nuts/seeds." },
-            { t:"Lunch", n:"Rice + dal + spinach (keerai) + cucumber. Add boiled egg OR grilled chicken pieces." },
-            { t:"Snack", n:"Apple/pear + handful walnuts/almonds OR roasted chana." },
-            { t:"Dinner", n:"Millet dosa (ragi/jowar) + veg chutney + fish curry (light oil)." },
-          ],
-          move: [
-            { t:"Movement (10 min)", n:"Jumping jacks / animal walks / trampoline (if available)." },
-            { t:"Outdoor play (20–30 min)", n:"Ball throw, park swings, simple chase game." },
-            { t:"Calm body (5–10 min)", n:"Stretch + deep breaths + short walk after dinner." },
-          ],
-          sleep: [
-            { t:"Sleep routine", n:"Aim lights dim 7:30pm → toilet/wash → story → sleep by 8:00pm." },
-          ]
-        }
-      },
-      {
-        id:"2025-12-27",
-        title:"Sat, Dec 27, 2025 — Consistency • Tiny upgrade",
-        theme:"Consistency • Tiny upgrade",
-        routine:"Keep the same structure. Add one small improvement: 5 min longer reading OR 5 extra math questions. Keep calm transitions.",
-        sections: {
-          study: [
-            { t:"Math (20 min): Add/sub within 10", n:"10 quick questions only. Stop at 10." },
-            { t:"Danish (15–20 min): School words", n:"skole, lærer, ven, bog, blyant. Say + point + write 2 words." },
-            { t:"English (15–20 min): Read 5 min + write 1 sentence", n:"One neat sentence is enough." },
-          ],
-          meals: [
-            { t:"Breakfast", n:"Pesarattu (moong dal dosa) + chutney (low oil)." },
-            { t:"Lunch", n:"Rice + dal + mixed veg. Add chicken/fish if possible." },
-            { t:"Snack", n:"Banana/pear + peanut butter (no sugar added) OR nuts." },
-            { t:"Dinner", n:"Ragi roti + veg kurma (light) + boiled egg." },
-          ],
-          move: [
-            { t:"Run/walk (15–20 min)", n:"Short intervals: run 30 sec + walk 60 sec × 8." },
-            { t:"Play (20 min)", n:"Obstacle course at home: pillows, tape line, hop steps." },
-            { t:"Calm body (5 min)", n:"Stretch + ‘wall push’ for sensory calm." },
-          ],
-          sleep: [{ t:"Sleep by 8:00pm", n:"Same routine, same time." }]
-        }
-      },
-      {
-        id:"2025-12-28",
-        title:"Sun, Dec 28, 2025 — Reading confidence",
-        theme:"Reading confidence",
-        routine:"Make reading easy and positive. 2 short reads, lots of praise. Keep movement breaks.",
-        sections: {
-          study: [
-            { t:"Math (20 min): Shapes + patterns", n:"Find shapes around home. Make patterns with blocks (ABAB, AABB)." },
-            { t:"Danish (15–20 min): Picture naming", n:"Name 10 pictures. Ask ‘Hvad er det?’ and answer." },
-            { t:"English (15–20 min): Read together", n:"Read 1 page together + repeat after you." },
-          ],
-          meals: [
-            { t:"Breakfast", n:"Idli / dosa + sambar (extra dal)." },
-            { t:"Lunch", n:"Curd NOT allowed (casein-free). Use coconut yogurt if needed. Rice + dal + veg." },
-            { t:"Snack", n:"Orange/kiwi + roasted chana." },
-            { t:"Dinner", n:"Fish/chicken + vegetables + small rice portion." },
-          ],
-          move: [
-            { t:"Outdoor play (30 min)", n:"Park, swings, gentle running." },
-            { t:"Home movement (10 min)", n:"Dance to 2 songs." },
-          ],
-          sleep: [{ t:"Sleep by 8:00pm", n:"Story + calm breathing 2 minutes." }]
-        }
-      },
-      {
-        id:"2025-12-29",
-        title:"Mon, Dec 29, 2025 — Writing gently",
-        theme:"Writing gently",
-        routine:"Focus on writing without pressure. Short writing + breaks + reward.",
-        sections: {
-          study: [
-            { t:"Math (20 min): Number bonds to 10", n:"Use beads/coins. Make 10 in different ways." },
-            { t:"Danish (15–20 min): Write 3 words", n:"Write slowly. If hard, trace letters." },
-            { t:"English (15–20 min): Copy 1 sentence", n:"Big letters are OK. Just complete it." },
-          ],
-          meals: [
-            { t:"Breakfast", n:"Oats + seeds + berries (no sugar)." },
-            { t:"Lunch", n:"Rice + dal + spinach + egg/chicken." },
-            { t:"Snack", n:"Apple + nuts." },
-            { t:"Dinner", n:"Millet roti + veg + fish/chicken." },
-          ],
-          move: [
-            { t:"Run/walk (15 min)", n:"Same intervals, keep fun." },
-            { t:"Play (20 min)", n:"Ball games, throwing/catching." },
-          ],
-          sleep: [{ t:"Sleep by 8:00pm", n:"Same routine." }]
-        }
-      },
-      {
-        id:"2025-12-30",
-        title:"Tue, Dec 30, 2025 — Math game day",
-        theme:"Math game day",
-        routine:"Make math playful today: dice, cards, quick wins.",
-        sections: {
-          study: [
-            { t:"Math (20 min): Dice addition", n:"Roll 2 dice → add. 10 rounds." },
-            { t:"Danish (15–20 min): Short sentences", n:"‘Jeg kan…’, ‘Jeg vil…’ Say + write 1 sentence." },
-            { t:"English (15–20 min): Sight words", n:"Pick 5 words, read 3 times, write once." },
-          ],
-          meals: [
-            { t:"Breakfast", n:"Pesarattu + tomato chutney." },
-            { t:"Lunch", n:"Rice + dal + veg + boiled egg." },
-            { t:"Snack", n:"Pear + roasted chana." },
-            { t:"Dinner", n:"Chicken/fish curry (light oil) + veg + rice." },
-          ],
-          move: [
-            { t:"Outdoor play (30 min)", n:"Park play + short sprints." },
-            { t:"Calm stretch (5 min)", n:"Hamstring stretch + child pose." },
-          ],
-          sleep: [{ t:"Sleep by 8:00pm", n:"Same routine." }]
-        }
-      },
-      {
-        id:"2025-12-31",
-        title:"Wed, Dec 31, 2025 — Calm day (holiday noise-friendly)",
-        theme:"Calm day",
-        routine:"Keep calm. If fireworks/noise, plan indoor games, headphones, quiet corners.",
-        sections: {
-          study: [
-            { t:"Math (15 min): Review (easy)", n:"Only review. Stop early if tired." },
-            { t:"Danish (15 min): Review 10 words", n:"Flashcards: say + point." },
-            { t:"English (15 min): Read 1 short story", n:"Just enjoy the story." },
-          ],
-          meals: [
-            { t:"Breakfast", n:"Idli + sambar." },
-            { t:"Lunch", n:"Rice + dal + veg." },
-            { t:"Snack", n:"Banana + nuts." },
-            { t:"Dinner", n:"Millet dosa + veg + fish/chicken." },
-          ],
-          move: [
-            { t:"Indoor movement (10–15 min)", n:"Dance, yoga, balloon games." },
-            { t:"Quiet activity (15 min)", n:"Lego, coloring, sensory box." },
-          ],
-          sleep: [{ t:"Early wind-down", n:"Start calm routine earlier if noise." }]
-        }
-      },
-      {
-        id:"2026-01-01",
-        title:"Thu, Jan 1, 2026 — Fresh start • back-to-school prep begins",
-        theme:"Fresh start",
-        routine:"Introduce school-like morning rhythm (wake, wash, dress, breakfast) gently. Prepare bag, clothes, bedtime earlier.",
-        sections: {
-          study: [
-            { t:"Math (20 min): Add/sub mixed within 10", n:"10 quick questions only. Stop at 10." },
-            { t:"Danish (20 min): School words", n:"skole, lærer, ven, bog, blyant. Say + point + write 2 words." },
-            { t:"English (20 min): Reading 5 min + writing 1 sentence", n:"One neat sentence is enough." },
-          ],
-          meals: [
-            { t:"Breakfast", n:"Idli/pesarattu + sambar." },
-            { t:"Lunch", n:"Rice + chicken curry (light) + greens." },
-            { t:"Snack", n:"Pear + roasted chana." },
-            { t:"Dinner", n:"Millet roti + fish/prawns curry + veg." },
-          ],
-          move: [
-            { t:"Morning movement (10 min)", n:"Walk + jumping/skip." },
-            { t:"Outdoor play (30 min)", n:"Park + running game." },
-          ],
-          sleep: [{ t:"Sleep by 8:00pm", n:"School-week rhythm starts." }]
-        }
-      },
-      {
-        id:"2026-01-02",
-        title:"Fri, Jan 2, 2026 — Attention & transitions",
-        theme:"Attention & transitions",
-        routine:"Practice transitions: ‘2 minutes left’ timer → change activity. Reward smooth switching.",
-        sections: {
-          study: [
-            { t:"Math (20 min): Time & days", n:"Yesterday/today/tomorrow + simple clock (hour hand only)." },
-            { t:"Danish (15–20 min): Simple Q&A", n:"‘Hvad hedder du?’, ‘Hvor bor du?’ practice." },
-            { t:"English (15–20 min): Read + 3 words writing", n:"Write 3 words only." },
-          ],
-          meals: [
-            { t:"Breakfast", n:"Oats + seeds + fruit (no sugar)." },
-            { t:"Lunch", n:"Rice + dal + veg + egg/chicken." },
-            { t:"Snack", n:"Apple + nuts." },
-            { t:"Dinner", n:"Ragi roti + veg + fish/chicken." },
-          ],
-          move: [
-            { t:"Run/walk (15–20 min)", n:"Intervals. End with calm walk." },
-            { t:"Play (20 min)", n:"Ball + simple rules." },
-          ],
-          sleep: [{ t:"Sleep by 8:00pm", n:"Same routine." }]
-        }
-      },
-      {
-        id:"2026-01-03",
-        title:"Sat, Jan 3, 2026 — Confidence build",
-        theme:"Confidence build",
-        routine:"Let him choose 1 activity. Keep tasks short and success-based.",
-        sections: {
-          study: [
-            { t:"Math (20 min): Review + 5 new", n:"Review easy + add 5 new questions." },
-            { t:"Danish (15–20 min): Flashcards", n:"10 cards. Say + clap syllables." },
-            { t:"English (15–20 min): Read aloud together", n:"You read 1 line, he repeats." },
-          ],
-          meals: [
-            { t:"Breakfast", n:"Pesarattu + chutney." },
-            { t:"Lunch", n:"Rice + fish/chicken + veg." },
-            { t:"Snack", n:"Orange/kiwi + nuts." },
-            { t:"Dinner", n:"Millet dosa + veg curry." },
-          ],
-          move: [
-            { t:"Outdoor play (30 min)", n:"Park + running." },
-            { t:"Calm stretch (5–10 min)", n:"Stretch + deep breathing." },
-          ],
-          sleep: [{ t:"Sleep by 8:00pm", n:"Same routine." }]
-        }
-      },
-      {
-        id:"2026-01-04",
-        title:"Sun, Jan 4, 2026 — Ready for school tomorrow",
-        theme:"Ready for school",
-        routine:"Keep it light. Pack bag, prepare clothes, early calm evening.",
-        sections: {
-          study: [
-            { t:"Math (15–20 min): Review only", n:"Only review. No new topics." },
-            { t:"Danish (15 min): Review 10 words", n:"Flashcards + 2 words writing." },
-            { t:"English (15 min): Read 1 short story", n:"Comfort reading." },
-          ],
-          meals: [
-            { t:"Breakfast", n:"Idli + sambar." },
-            { t:"Lunch", n:"Rice + dal + veg + chicken/fish." },
-            { t:"Snack", n:"Pear + roasted chana." },
-            { t:"Dinner", n:"Light dinner: veg soup + egg/chicken pieces." },
-          ],
-          move: [
-            { t:"Walk (20 min)", n:"Relaxing family walk." },
-            { t:"Pack & prep", n:"Prepare school items calmly." },
-          ],
-          sleep: [{ t:"Sleep by 8:00pm", n:"Early wind-down." }]
-        }
-      },
-    ]
+    days: buildDays("kaushal")
   },
-
   parnika: {
-    header: "Parnika — Holiday Plan (same dates) + Online School (4:30pm–7:30pm)",
-    subtitle: "3.9 years: play-based learning, simple routines, healthy food, early sleep. Keep activities short and fun.",
+    header: "Parnika — Holiday Plan (Dec 22, 2025 → Jan 4, 2026) + Online School (4:30pm–7:30pm)",
+    subtitle: "3.9 years: play-based learning, simple routines, healthy food, early sleep.",
     chips: ["Play-based", "Healthy", "Early sleep"],
-    days: [
-      ...["2025-12-26","2025-12-27","2025-12-28","2025-12-29","2025-12-30","2025-12-31","2026-01-01","2026-01-02","2026-01-03","2026-01-04"].map((id,idx)=>({
-        id,
-        title: ([
-          "Fri, Dec 26, 2025","Sat, Dec 27, 2025","Sun, Dec 28, 2025","Mon, Dec 29, 2025","Tue, Dec 30, 2025",
-          "Wed, Dec 31, 2025","Thu, Jan 1, 2026","Fri, Jan 2, 2026","Sat, Jan 3, 2026","Sun, Jan 4, 2026"
-        ][idx]) + " — Parnika routine",
-        theme:"Play + healthy routine",
-        routine:"Morning: breakfast → outdoor play. Midday: lunch → nap/quiet time. Afternoon: crafts + movement. 4:30pm–7:30pm: online school. Evening: dinner → story → sleep by 8:00pm.",
-        sections:{
-          study:[
-            { t:"Play learning (10–15 min): Colors/shapes", n:"Sort toys by color, match shapes, simple puzzles." },
-            { t:"Story time (10 min)", n:"Read 1 small book. Ask 2 easy questions." },
-            { t:"Online school (4:30–7:30 pm)", n:"Help with water/snack break if allowed. Keep calm after class." },
-          ],
-          meals:[
-            { t:"Breakfast", n:"Egg/banana pancake (no sugar) OR oats + fruit." },
-            { t:"Lunch", n:"Rice + dal + veg OR small chicken/fish + veg." },
-            { t:"Snack", n:"Fruit + nuts (if safe) OR roasted chana (small)." },
-            { t:"Dinner", n:"Light dinner: veg + protein (egg/chicken/fish)." },
-          ],
-          move:[
-            { t:"Outdoor play (30 min)", n:"Park, swing, running games with Kaushal." },
-            { t:"Music & movement (10 min)", n:"Dance to 2 songs." },
-            { t:"Calm-down (5 min)", n:"Stretch + deep breaths before sleep." },
-          ],
-          sleep:[
-            { t:"Sleep by 8:00pm", n:"Same bedtime every day. Dim lights after 7:30pm." }
-          ]
-        }
-      }))
-    ]
+    days: buildDays("parnika")
   },
-
   mom: {
     header: "Mom — Masters AI + Danish Citizenship Exam (Goal: May 2026) + Health",
-    subtitle: "Daily focus: AI classes/assignments + citizenship chapters. Health: anemia → iron-rich + high protein + daily Iron & Vitamin D.",
+    subtitle: "Daily focus: AI classes/assignments + citizenship chapters. Health: iron-rich + high protein + daily Iron & Vitamin D.",
     chips: ["AI study", "Citizenship", "Iron", "Vitamin D"],
-    days: [
-      ...["2025-12-26","2025-12-27","2025-12-28","2025-12-29","2025-12-30","2025-12-31","2026-01-01","2026-01-02","2026-01-03","2026-01-04"].map((id,idx)=>({
-        id,
-        title: ([
-          "Fri, Dec 26, 2025","Sat, Dec 27, 2025","Sun, Dec 28, 2025","Mon, Dec 29, 2025","Tue, Dec 30, 2025",
-          "Wed, Dec 31, 2025","Thu, Jan 1, 2026","Fri, Jan 2, 2026","Sat, Jan 3, 2026","Sun, Jan 4, 2026"
-        ][idx]) + " — Mom routine",
-        theme:"AI + Citizenship + Health",
-        routine:"Plan blocks: (1) AI class/reading (2) Assignments (3) Citizenship reading + flashcards (4) Short walk. Keep it realistic (short blocks).",
-        sections:{
-          study:[
-            { t:"AI Study (60–90 min)", n:"Lecture / reading. Note key points + 3 questions." },
-            { t:"AI Assignment (45–60 min)", n:"Work on 1 small deliverable. Stop when done." },
-            { t:"Citizenship (45–60 min): Chapter reading", n:"Read 8–12 pages + write 5 bullet summary + 10 flashcards." },
-            { t:"Practice quiz (10–15 min)", n:"Answer 10 questions from notes/flashcards." },
-          ],
-          meals:[
-            { t:"Iron + Protein Breakfast", n:"Eggs / tofu scramble + spinach OR oats + pumpkin seeds + berries. Add vitamin-C fruit (orange/kiwi) for iron absorption." },
-            { t:"Iron-rich Lunch", n:"Lentils/beans + leafy greens (spinach/kale) + chicken/fish. Use lemon (vit C)." },
-            { t:"Snack", n:"Nuts + fruit OR hummus + veggies. (Avoid tea/coffee right after iron meals.)" },
-            { t:"High-protein Dinner", n:"Fish/chicken + vegetables + quinoa/rice. Add beetroot/greens sometimes." },
-            { t:"Daily supplements", n:"✅ Iron + ✅ Vitamin D (set reminder). If iron upsets stomach, take with food." },
-          ],
-          move:[
-            { t:"Walk (20–30 min)", n:"Easy walk after lunch or dinner." },
-            { t:"Stretch (5–10 min)", n:"Neck/shoulders/back stretches (study-friendly)." },
-          ],
-          sleep:[
-            { t:"Sleep routine", n:"Aim consistent bedtime. Reduce screen 30 min before sleep." }
-          ]
-        }
-      }))
-    ]
+    days: buildDays("mom")
   },
-
   dad: {
     header: "Dad — Salesforce Exam (Jan 4) + Danish Driving License (Goal: Feb)",
-    subtitle: "Daily focus: Salesforce revision until Jan 4, then driving theory/practical. Keep daily practice steady.",
+    subtitle: "Daily focus: Salesforce revision until Jan 4, plus driving theory. Goal: driving license completed by February.",
     chips: ["Salesforce", "Driving Theory", "Driving Practice"],
-    days: [
-      ...["2025-12-26","2025-12-27","2025-12-28","2025-12-29","2025-12-30","2025-12-31","2026-01-01","2026-01-02","2026-01-03","2026-01-04"].map((id,idx)=>({
-        id,
-        title: ([
-          "Fri, Dec 26, 2025","Sat, Dec 27, 2025","Sun, Dec 28, 2025","Mon, Dec 29, 2025","Tue, Dec 30, 2025",
-          "Wed, Dec 31, 2025","Thu, Jan 1, 2026","Fri, Jan 2, 2026","Sat, Jan 3, 2026","Sun, Jan 4, 2026"
-        ][idx]) + " — Dad routine",
-        theme:"Salesforce + Driving",
-        routine:"Until Jan 4: Salesforce focus daily. Add small driving theory block. After Jan 4: increase driving theory + practical sessions to finish by February.",
-        sections:{
-          study:[
-            { t:"Salesforce (60–120 min)", n:"Revision + 30 practice questions. Review wrong answers." },
-            { t:"Salesforce mock (20–30 min)", n:"Timed mini test. Track score." },
-            { t:"Driving theory (30–45 min)", n:"Read 1 topic + do 20 practice questions." },
-            { t:"Driving practical prep (10 min)", n:"Watch 1 short lesson video OR review mistakes list." },
-          ],
-          meals:[
-            { t:"Hydration", n:"Water + no heavy meals before long study blocks." },
-            { t:"Simple balanced meals", n:"Protein + veg + carbs (keep energy stable)." },
-          ],
-          move:[
-            { t:"Walk (15–20 min)", n:"Short walk to reset mind." },
-            { t:"Stretch (5 min)", n:"Back/neck stretches." },
-          ],
-          sleep:[
-            { t:"Sleep", n:"Keep minimum 7 hours when possible." }
-          ]
-        }
-      }))
-    ]
+    days: buildDays("dad")
   }
 };
 
@@ -833,7 +671,7 @@ const plans = {
 let currentProfile = "kaushal";
 let currentDayId = plans[currentProfile].days[0].id;
 
-function storageKey(profile){ return `familyPlan_v2_${profile}`; }
+function storageKey(profile){ return `familyPlan_v3_${profile}`; }
 
 function loadProfileState(profile){
   const raw = localStorage.getItem(storageKey(profile));
@@ -857,12 +695,17 @@ function setDayState(profile, dayId, dayState){
 }
 
 /** =========================
- *  HELPERS
+ *  COMPLETION
  *  ========================= */
-function fmtPrettyDate(dateStr){
-  // expects YYYY-MM-DD
-  const d = new Date(dateStr + "T00:00:00");
-  return d.toLocaleDateString(undefined, { weekday:"short", year:"numeric", month:"short", day:"numeric" });
+function flattenTasks(day){
+  const out = [];
+  const sections = day.sections || {};
+  Object.keys(sections).forEach(sec=>{
+    sections[sec].forEach((task, idx)=>{
+      out.push({ sec, idx, t: task.t, n: task.n, key: `${sec}_${idx}` });
+    });
+  });
+  return out;
 }
 
 function computeCompletionForDay(profile, day){
@@ -874,35 +717,16 @@ function computeCompletionForDay(profile, day){
   return Math.round((done/total) * 100);
 }
 
-function flattenTasks(day){
-  const out = [];
-  const sections = day.sections || {};
-  Object.keys(sections).forEach(sec=>{
-    sections[sec].forEach((task, idx)=>{
-      out.push({
-        sec,
-        idx,
-        t: task.t,
-        n: task.n,
-        key: `${sec}_${idx}`
-      });
-    });
-  });
-  return out;
-}
-
 function computeTodayCompletion(profile){
-  const today = new Date();
-  const todayId = today.toISOString().slice(0,10);
+  const todayId = new Date().toISOString().slice(0,10);
   const day = plans[profile].days.find(d=>d.id === todayId);
   if(!day) return null;
   return computeCompletionForDay(profile, day);
 }
 
 function computeStreak(profile){
-  // streak: consecutive days in plan (ending today) with >= 60% completion
-  const today = new Date();
-  const todayId = today.toISOString().slice(0,10);
+  // streak: consecutive plan days (ending today) with >= 60%
+  const todayId = new Date().toISOString().slice(0,10);
   const planDays = plans[profile].days.map(d=>d.id);
   const todayIndex = planDays.indexOf(todayId);
   if(todayIndex === -1) return 0;
@@ -930,17 +754,16 @@ function renderDays(){
 
     const item = document.createElement("div");
     item.className = "dayItem" + (day.id === currentDayId ? " active" : "");
-    item.onclick = () => {
-      currentDayId = day.id;
-      renderAll();
-    };
+    item.onclick = () => { currentDayId = day.id; renderAll(); };
 
     const left = document.createElement("div");
     left.className = "dayLeft";
 
     const date = document.createElement("div");
     date.className = "dayDate";
-    date.textContent = day.title.split("—")[0].trim();
+    // keep it short on left:
+    const d = new Date(day.id + "T00:00:00");
+    date.textContent = d.toLocaleDateString(undefined, { weekday:"short", month:"short", day:"numeric" });
 
     const theme = document.createElement("div");
     theme.className = "dayTheme";
@@ -958,7 +781,6 @@ function renderDays(){
     list.appendChild(item);
   });
 
-  // Stats cards
   const todayPct = computeTodayCompletion(currentProfile);
   document.getElementById("todayCompletion").textContent = (todayPct === null ? "—" : `${todayPct}%`);
   document.getElementById("dailyStreak").textContent = computeStreak(currentProfile).toString();
@@ -973,10 +795,8 @@ function renderDetail(){
   const day = p.days.find(d=>d.id === currentDayId) || p.days[0];
   const ds = getDayState(currentProfile, day.id);
 
-  // Header & chips
   const chipsHTML = (p.chips || []).map(c=>`<span class="chip">${escapeHtml(c)}</span>`).join("");
 
-  // Section builder
   function taskCard(sec, idx, task){
     const key = `${sec}_${idx}`;
     const checked = ds.checks[key] === true;
@@ -984,8 +804,8 @@ function renderDetail(){
     let pillClass = "";
     let labelPrefix = "";
     if(sec === "study"){ pillClass = "pillStudy"; labelPrefix = "📘 "; }
-    if(sec === "meals"){ pillClass = "pillFood"; labelPrefix = "🍽️ "; }
-    if(sec === "move"){ pillClass = "pillMove"; labelPrefix = "🏃 "; }
+    if(sec === "meals"){ pillClass = "pillFood";  labelPrefix = "🍽️ "; }
+    if(sec === "move"){  pillClass = "pillMove";  labelPrefix = "🏃 "; }
     if(sec === "sleep"){ pillClass = "pillSleep"; labelPrefix = "😴 "; }
 
     return `
@@ -999,7 +819,7 @@ function renderDetail(){
     `;
   }
 
-  function sectionBlock(sec, title, addLabel){
+  function sectionBlock(sec, title){
     const tasks = (day.sections && day.sections[sec]) ? day.sections[sec] : [];
     const cards = tasks.map((t, idx)=>taskCard(sec, idx, t)).join("");
 
@@ -1014,7 +834,6 @@ function renderDetail(){
     `;
   }
 
-  // completion for this day
   const pct = computeCompletionForDay(currentProfile, day);
 
   detail.innerHTML = `
@@ -1028,37 +847,36 @@ function renderDetail(){
     <div class="section" style="border-top:none; padding-top:0;">
       <div class="sectionHead" style="margin-bottom:6px;">
         <h4>Visual Routine</h4>
-        <span class="routineText" style="margin:0; padding:0;"></span>
       </div>
       <p class="routineText">${escapeHtml(day.routine || "")}</p>
     </div>
 
-    ${sectionBlock("study", "Study Plan", "Add study task")}
-    ${sectionBlock("meals", "Meals", "Add meal task")}
-    ${sectionBlock("move", "Exercise • Play • Running", "Add movement task")}
-    ${sectionBlock("sleep", "Sleep", "Add sleep task")}
+    ${sectionBlock("study", "Study Plan")}
+    ${sectionBlock("meals", "Meals")}
+    ${sectionBlock("move", "Exercise • Play • Running")}
+    ${sectionBlock("sleep", "Sleep")}
 
     <div class="notesBox">
       <label>What was done differently today?</label>
       <textarea id="notes" placeholder="Write what actually happened today (different from planned).">${escapeHtml(ds.notes || "")}</textarea>
       <div class="smallHelp">
-        Auto completion % is based on checkboxes. Notes are for real-life changes.
+        Completion % is based on checkboxes. Notes are for real-life changes.
       </div>
     </div>
   `;
 
-  // Wire checkbox events
+  // checkbox events
   detail.querySelectorAll('input[type="checkbox"][data-taskkey]').forEach(cb=>{
     cb.addEventListener("change", (e)=>{
       const key = e.target.getAttribute("data-taskkey");
       const dayState = getDayState(currentProfile, day.id);
       dayState.checks[key] = e.target.checked;
       setDayState(currentProfile, day.id, dayState);
-      renderAll(); // update % badges on left + title % on right
+      renderAll();
     });
   });
 
-  // Notes save
+  // notes save
   const notesEl = document.getElementById("notes");
   notesEl.addEventListener("input", ()=>{
     const dayState = getDayState(currentProfile, day.id);
@@ -1066,7 +884,7 @@ function renderDetail(){
     setDayState(currentProfile, day.id, dayState);
   });
 
-  // Add-task buttons
+  // add-task buttons
   detail.querySelectorAll('[data-add]').forEach(btn=>{
     btn.addEventListener("click", ()=>{
       const sec = btn.getAttribute("data-add");
@@ -1074,14 +892,11 @@ function renderDetail(){
       if(!t) return;
       const n = prompt("Task details (example: 10 questions only. Stop at 10.)") || "";
 
-      // append task
       const dayObj = plans[currentProfile].days.find(d=>d.id === day.id);
       if(!dayObj.sections) dayObj.sections = {};
       if(!dayObj.sections[sec]) dayObj.sections[sec] = [];
       dayObj.sections[sec].push({ t, n });
 
-      // IMPORTANT: we must also ensure checkbox storage key mapping is OK.
-      // New task will create a new key sec_idx, so it will be unchecked by default.
       renderAll();
     });
   });
@@ -1092,12 +907,13 @@ function renderDetail(){
  *  ========================= */
 function renderAll(){
   const p = plans[currentProfile];
+
   document.querySelectorAll(".tabBtn").forEach(x=>{
     x.classList.toggle("active", x.getAttribute("data-profile") === currentProfile);
   });
+
   document.querySelector("#subtitle").textContent = p.subtitle;
 
-  // ensure currentDayId belongs to profile
   if(!p.days.find(d=>d.id === currentDayId)){
     currentDayId = p.days[0].id;
   }
@@ -1130,7 +946,7 @@ setInterval(tickClock, 1000);
 tickClock();
 
 /** =========================
- *  Safety: escape HTML in user notes
+ *  Safety: escape HTML
  *  ========================= */
 function escapeHtml(str){
   if(str === null || str === undefined) return "";
