@@ -1,3 +1,11 @@
+<nav style="display:flex; gap:10px; padding:12px; background:#f2f2f2;">
+  <button onclick="showPage('kaushal')">👦 Kaushal</button>
+  <button onclick="showPage('parnika')">👧 Parnika</button>
+  <button onclick="showPage('mom')">👩 Mom</button>
+  <button onclick="showPage('dad')">👨 Dad</button>
+</nav>
+
+<div id="kaushal" class="page">
 <!doctype html>
 <html lang="en">
 <head>
@@ -679,5 +687,57 @@ showTimer();
 // Start render
 renderAll();
 </script>
+  <script>
+function showPage(pageId) {
+  document.querySelectorAll('.page').forEach(p => {
+    p.style.display = 'none';
+  });
+  document.getElementById(pageId).style.display = 'block';
+}
+</script>
 </body>
 </html>
+</div>
+<div id="parnika" class="page" style="display:none;">
+  <h1>👧 Parnika (Age 3.9) – 10 Day Routine</h1>
+
+  <h3>Daily Fixed Timings</h3>
+  <ul>
+    <li>Wake up: 6:00 – 6:30 AM</li>
+    <li>Online School: 4:30 – 7:30 PM</li>
+    <li>Sleep: 8:00 PM</li>
+  </ul>
+
+  <h3>Morning Routine</h3>
+  <label><input type="checkbox"> Brush & wash</label><br>
+  <label><input type="checkbox"> Healthy breakfast</label><br>
+  <label><input type="checkbox"> Free play with brother</label><br>
+
+  <h3>Exercise & Play (with Kaushal)</h3>
+  <label><input type="checkbox"> Outdoor play / running</label><br>
+  <label><input type="checkbox"> Ball / dance / animal walk</label><br>
+
+  <h3>Online School</h3>
+  <label><input type="checkbox"> Attended online class</label><br>
+  <label><input type="checkbox"> Took movement breaks</label><br>
+
+  <h3>Food & Health</h3>
+  <label><input type="checkbox"> Protein included</label><br>
+  <label><input type="checkbox"> Fruits & veggies</label><br>
+
+  <h3>Sleep Routine</h3>
+  <label><input type="checkbox"> Dinner before 7:30</label><br>
+  <label><input type="checkbox"> In bed by 8:00</label><br>
+
+  <h3>Notes</h3>
+  <textarea style="width:100%; height:80px;"></textarea>
+</div>
+<div id="mom" class="page" style="display:none;">
+  <h1>👩 Mom – Routine & Health</h1>
+  <p>(Coming soon)</p>
+</div>
+
+<div id="dad" class="page" style="display:none;">
+  <h1>👨 Dad – Routine & Fitness</h1>
+  <p>(Coming soon)</p>
+</div>
