@@ -1,149 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Dad — Salesforce + Driving Tracker</title>
+  <title>Dad — Salesforce + Driving</title>
   <style>
-    :root{--bg:#f6f7fb;--card:#fff;--text:#0f172a;--muted:#64748b;--border:#e5e7eb;--accent:#2563eb;--good:#16a34a;}
-    *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--text)}
-    header{position:sticky;top:0;z-index:10;background:var(--card);border-bottom:1px solid var(--border);padding:14px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px}
-    header h1{margin:0;font-size:16px}
-    .clock{font-weight:800;font-size:13px;color:var(--muted)}
-    .wrap{max-width:1000px;margin:0 auto;padding:16px}
-    .btn{border:1px solid var(--border);background:var(--card);padding:10px 12px;border-radius:10px;cursor:pointer;font-weight:800}
-    .btnPrimary{background:var(--accent);border-color:var(--accent);color:#fff}
-    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:14px;margin-bottom:14px}
-    .task{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--border);border-radius:12px;padding:12px;background:#fbfdff;margin-bottom:10px}
-    .task input{width:18px;height:18px;margin-top:2px}
-    .tTitle{font-weight:900}
-    .tDesc{font-size:13px;color:var(--muted);margin-top:2px}
-    .progress{font-weight:900}
-    .bar{height:10px;background:#e5e7eb;border-radius:999px;overflow:hidden;margin-top:10px}
-    .bar>div{height:100%;background:var(--accent);width:0%}
-    textarea{width:100%;border:1px solid var(--border);border-radius:12px;padding:10px 12px;font:inherit}
+    :root{
+      --bg:#0b1220; --text:#e5e7eb; --muted:#9ca3af; --line:rgba(255,255,255,0.10);
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      background: radial-gradient(1000px 600px at 10% 0%, #1e2a52 0%, var(--bg) 50%, #070b14 100%);
+      color: var(--text);
+    }
+    .wrap{ max-width: 900px; margin: 0 auto; padding: 18px; }
+    h1{ margin:0; font-size: 22px; font-weight: 900; }
+    .subtitle{ margin-top:6px; color: var(--muted); font-size: 13px; line-height: 1.4; }
+    a.btn{
+      display:inline-block;
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      background: rgba(15,23,42,0.45);
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 14px;
+      text-decoration:none;
+      font-weight: 800;
+      font-size: 13px;
+    }
   </style>
 </head>
 <body>
-<header>
-  <h1>👨 Dad — Salesforce + Driving (Goal: Danish licence by Feb)</h1>
-  <div class="clock" id="clock"></div>
-</header>
-
-<div class="wrap">
-  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px">
-    <button class="btn" onclick="window.location.href='index.html'">← Back to Kaushal/Parnika</button>
-    <button class="btn btnPrimary" onclick="addTask()">+ Add custom task</button>
-    <button class="btn" onclick="resetToday()">Reset today</button>
-    <button class="btn" onclick="window.print()">Print</button>
+  <div class="wrap">
+    <h1>Dad — Salesforce + Driving</h1>
+    <div class="subtitle">Tracker page (placeholder). You can paste your existing Dad tracker content here.</div>
+    <a class="btn" href="index.html">← Back to Family Plan</a>
   </div>
-
-  <div class="card">
-    <div style="font-weight:900;margin-bottom:8px">Today checklist</div>
-
-    <div id="tasks"></div>
-
-    <div class="progress" id="pctText">0% completed</div>
-    <div class="bar"><div id="bar"></div></div>
-
-    <div style="margin-top:12px;font-weight:900">Notes (optional)</div>
-    <textarea id="notes" rows="4" placeholder="What did we do differently today?"></textarea>
-  </div>
-
-  <div class="card">
-    <div style="font-weight:900">Driving goal (Feb)</div>
-    <div style="color:#64748b;font-size:13px;margin-top:6px">
-      Suggestion: daily 20–30 min theory + weekly practice scheduling + mock tests.
-    </div>
-  </div>
-</div>
-
-<script>
-(function clockTick(){
-  document.getElementById('clock').textContent = new Date().toLocaleString();
-  setTimeout(clockTick, 1000);
-})();
-
-const TODAY = new Date().toISOString().slice(0,10);
-const KEY = `dad_${TODAY}`;
-
-function load(){
-  try { return JSON.parse(localStorage.getItem(KEY)) || {checks:{}, notes:'', custom:[]}; }
-  catch(e){ return {checks:{}, notes:'', custom:[]}; }
-}
-function save(s){ localStorage.setItem(KEY, JSON.stringify(s)); }
-
-const BASE = [
-  {k:'sf_1', t:'Salesforce (60–90 min)', d:'Core concepts + weak topics.'},
-  {k:'sf_2', t:'Hands-on (30–60 min)', d:'Trailhead / practice org tasks.'},
-  {k:'sf_3', t:'Mock / questions (20–30 min)', d:'Review mistakes and notes.'},
-  {k:'drive_1', t:'Driving theory (20–30 min)', d:'Rules + signs + small quiz.'},
-  {k:'drive_2', t:'Driving practical planning (10 min)', d:'Book lessons, review last feedback.'},
-];
-
-function render(){
-  const s = load();
-  const wrap = document.getElementById('tasks');
-  wrap.innerHTML = '';
-
-  const all = [...BASE, ...(s.custom||[])];
-  all.forEach(x=>{
-    const row = document.createElement('div');
-    row.className = 'task';
-    row.innerHTML = `
-      <input type="checkbox" data-k="${x.k}">
-      <div>
-        <div class="tTitle">${x.t}</div>
-        <div class="tDesc">${x.d||''}</div>
-      </div>
-    `;
-    const cb = row.querySelector('input');
-    cb.checked = !!s.checks?.[x.k];
-    cb.onchange = () => {
-      const st = load();
-      st.checks = st.checks || {};
-      st.checks[x.k] = cb.checked;
-      save(st);
-      updatePct();
-    };
-    wrap.appendChild(row);
-  });
-
-  const notes = document.getElementById('notes');
-  notes.value = s.notes || '';
-  notes.oninput = () => { const st=load(); st.notes=notes.value; save(st); };
-
-  updatePct();
-}
-
-function updatePct(){
-  const s = load();
-  const total = BASE.length + (s.custom||[]).length;
-  const done = Object.values(s.checks||{}).filter(Boolean).length;
-  const pct = total ? Math.round((done/total)*100) : 0;
-  document.getElementById('pctText').textContent = `${pct}% completed`;
-  document.getElementById('bar').style.width = `${pct}%`;
-}
-
-function addTask(){
-  const title = prompt('Task title (example: "Driving mock test")');
-  if(!title) return;
-  const desc = prompt('Description (optional)', '') || '';
-  const s = load();
-  s.custom = s.custom || [];
-  s.custom.push({k:`c_${Date.now()}`, t:title, d:desc});
-  save(s);
-  render();
-}
-
-function resetToday(){
-  if(!confirm('Reset today?')) return;
-  localStorage.removeItem(KEY);
-  render();
-}
-
-render();
-</script>
 </body>
 </html>
