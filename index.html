@@ -3,223 +3,211 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Family Routine Tracker — Kaushal • Parnika • Mom • Dad</title>
+  <title>Family Plan — Kaushal • Parnika • Mom • Dad</title>
   <style>
     :root{
-      --bg:#f6f7fb;
-      --card:#fff;
-      --text:#111;
-      --muted:#6b7280;
-      --border:#e6e9f5;
-      --shadow: 0 1px 10px rgba(0,0,0,.06);
-      --nav:#111827;
-
-      /* activity colors */
-      --c-study:#2563eb;     /* blue */
-      --c-food:#16a34a;      /* green */
-      --c-move:#7c3aed;      /* purple */
-      --c-sleep:#f59e0b;     /* orange */
-      --c-life:#0ea5e9;      /* cyan */
-      --c-work:#db2777;      /* pink */
+      --bg:#f6f7fb; --card:#fff; --ink:#111827; --muted:#6b7280; --border:#e8eaf2;
+      --study:#2563eb; --food:#16a34a; --move:#7c3aed; --sleep:#f59e0b; --life:#0ea5e9;
+      --header:#111827;
     }
-
     *{ box-sizing:border-box; }
-    body{ margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:var(--bg); color:var(--text); }
-    header{ background:var(--nav); color:#fff; padding:16px; }
+    body{ margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; background:var(--bg); color:var(--ink); }
+    header{ background:var(--header); color:#fff; padding:16px; }
     header h1{ margin:0; font-size:18px; }
     header p{ margin:6px 0 0; opacity:.9; font-size:13px; line-height:1.35; }
 
-    .wrap{ max-width:1120px; margin:0 auto; padding:14px; }
+    .wrap{ max-width:1180px; margin:0 auto; padding:14px; }
 
-    /* top nav */
-    .topnav{
-      display:flex; gap:12px; flex-wrap:wrap;
-      padding:12px; background:#0b1220; border-radius:14px; box-shadow:var(--shadow);
-      position: sticky; top: 10px; z-index: 10;
+    /* NAV */
+    .topNav{
+      display:flex; gap:10px; flex-wrap:wrap; align-items:center; justify-content:space-between;
+      padding:12px; background:#fff; border:1px solid var(--border); border-radius:14px;
+      box-shadow:0 1px 8px rgba(0,0,0,.05);
+      margin-top:12px;
     }
+    .tabs{ display:flex; gap:10px; flex-wrap:wrap; }
     .tabBtn{
       display:flex; align-items:center; gap:10px;
-      border:1px solid rgba(255,255,255,.18);
-      background:rgba(255,255,255,.06);
-      color:#fff;
-      padding:12px 14px;
-      border-radius:14px;
-      cursor:pointer;
-      font-weight:700;
-      font-size:15px;
-      transition:.15s;
+      border:1px solid #d7dbea; background:#fff; border-radius:14px;
+      padding:10px 14px; cursor:pointer; font-weight:800;
+      font-size:16px;
     }
-    .tabBtn .icon{ font-size:22px; }
-    .tabBtn:hover{ background:rgba(255,255,255,.12); }
-    .tabBtn.active{
-      background:#fff;
-      color:#0b1220;
-      border-color:#fff;
-    }
-
-    /* layout */
-    .grid{ display:grid; grid-template-columns: 340px 1fr; gap:14px; margin-top:14px; }
-    @media (max-width: 950px){ .grid{ grid-template-columns: 1fr; } }
-
-    .card{ background:var(--card); border-radius:14px; border:1px solid var(--border); box-shadow:var(--shadow); }
-    .card h2{ margin:0; padding:12px 14px; border-bottom:1px solid #eef0f7; font-size:15px; }
-    .card .content{ padding:12px 14px; }
-
-    .days{ display:flex; flex-direction:column; gap:8px; }
-    .dayBtn{
-      display:flex; align-items:center; justify-content:space-between;
-      padding:10px 12px; border-radius:12px; border:1px solid var(--border);
-      background:#fafbff; cursor:pointer; gap:10px;
-    }
-    .dayBtn:hover{ background:#f2f5ff; }
-    .dayBtn.active{ background:#e8efff; border-color:#cfe0ff; }
-    .pill{ font-size:12px; padding:3px 8px; border-radius:999px; background:#111827; color:#fff; min-width:52px; text-align:center; }
-    .muted{ color:var(--muted); font-size:12px; }
-    .row{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
-
-    button{
+    .tabBtn:hover{ background:#f3f4f6; }
+    .tabBtn.active{ background:#e8efff; border-color:#cfe0ff; }
+    .tabIcon{ font-size:22px; }
+    .navRight{ display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+    .smallBtn{
       border:1px solid #d7dbea; background:#fff; padding:10px 12px;
-      border-radius:12px; cursor:pointer; font-weight:600;
+      border-radius:12px; cursor:pointer; font-weight:700;
     }
-    button:hover{ background:#f3f4f6; }
+    .smallBtn:hover{ background:#f3f4f6; }
     .danger{ border-color:#f4b4b4; }
     .danger:hover{ background:#fff1f1; }
 
-    .kpi{ display:flex; gap:10px; flex-wrap:wrap; }
+    /* LAYOUT */
+    .grid{ display:grid; grid-template-columns:340px 1fr; gap:14px; margin-top:14px; }
+    @media (max-width: 980px){ .grid{ grid-template-columns:1fr; } }
+
+    .card{
+      background:var(--card); border:1px solid var(--border); border-radius:14px;
+      box-shadow:0 1px 8px rgba(0,0,0,.05);
+      overflow:hidden;
+    }
+    .card h2{
+      margin:0; padding:12px 14px; border-bottom:1px solid #eef0f7;
+      font-size:15px;
+      display:flex; align-items:center; justify-content:space-between;
+      gap:10px;
+    }
+    .content{ padding:12px 14px; }
+
+    /* DAY LIST */
+    .days{ display:flex; flex-direction:column; gap:8px; }
+    .dayBtn{
+      display:flex; align-items:center; justify-content:space-between;
+      padding:10px 12px; border-radius:12px; border:1px solid #e6e9f5;
+      background:#fafbff; cursor:pointer; gap:10px;
+      text-align:left;
+    }
+    .dayBtn:hover{ background:#f2f5ff; }
+    .dayBtn.active{ background:#e8efff; border-color:#cfe0ff; }
+    .pill{ font-size:12px; padding:3px 10px; border-radius:999px; background:#111827; color:#fff; font-weight:800; }
+    .muted{ color:var(--muted); font-size:12px; }
+    .kpi{ display:flex; gap:10px; flex-wrap:wrap; margin-bottom:10px; }
     .kpi .box{
-      padding:10px; border-radius:12px; border:1px solid var(--border); background:#fafbff;
+      background:#fafbff; border:1px solid #e6e9f5; border-radius:12px; padding:10px;
       min-width:160px;
     }
     .box .big{ font-size:18px; font-weight:900; }
     .help{ font-size:12px; color:var(--muted); line-height:1.35; }
 
-    /* sections */
+    /* SECTION + CHECKLIST */
     .section{ margin-top:12px; }
-    .section h3{ margin:0 0 8px; font-size:14px; display:flex; align-items:center; gap:8px; }
-    .tag{
-      font-size:11px; padding:2px 8px; border-radius:999px; border:1px solid var(--border); background:#fff;
-      color:#111;
+    .sectionTitle{
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      margin:0 0 6px;
     }
-
+    .sectionTitle h3{ margin:0; font-size:14px; }
+    .tagRow{ display:flex; gap:8px; flex-wrap:wrap; margin-bottom:10px; }
+    .badge{
+      font-size:11px; padding:3px 10px; border-radius:999px;
+      border:1px solid #e6e9f5; background:#fff; font-weight:800;
+    }
     .list{ display:flex; flex-direction:column; gap:8px; }
     label.item{
       display:flex; align-items:flex-start; gap:10px; padding:10px 10px;
       border:1px solid #edf0f7; border-radius:12px; background:#fff;
     }
-    label.item.done{ opacity:.65; background:#f6f7fb; }
-    input[type="checkbox"]{ margin-top:3px; transform: scale(1.1); }
-    .itemTitle{ font-weight:800; font-size:13px; }
+    label.item.done{ opacity:.7; background:#f6f7fb; }
+    input[type="checkbox"]{ margin-top:3px; transform:scale(1.15); }
+    .itemTitle{ font-weight:900; font-size:13px; }
     .itemDesc{ font-size:12px; color:#4b5563; margin-top:2px; line-height:1.35; }
 
-    /* colored left border for activity types */
-    .b-study{ border-left:6px solid var(--c-study); }
-    .b-food{ border-left:6px solid var(--c-food); }
-    .b-move{ border-left:6px solid var(--c-move); }
-    .b-sleep{ border-left:6px solid var(--c-sleep); }
-    .b-life{ border-left:6px solid var(--c-life); }
-    .b-work{ border-left:6px solid var(--c-work); }
+    /* COLOR BAR LEFT */
+    .bar{ width:6px; border-radius:999px; margin-top:2px; flex:0 0 6px; height:100%; min-height:44px; }
+    .bar.study{ background:var(--study); }
+    .bar.food{ background:var(--food); }
+    .bar.move{ background:var(--move); }
+    .bar.sleep{ background:var(--sleep); }
+    .bar.life{ background:var(--life); }
 
     textarea{
-      width:100%; min-height:90px; resize:vertical;
-      border-radius:12px; border:1px solid var(--border); padding:10px;
-      font:inherit;
+      width:100%; min-height:92px; resize:vertical;
+      border-radius:12px; border:1px solid #e6e9f5; padding:10px; font:inherit;
+      background:#fff;
     }
 
-    .miniAdd{
-      display:flex; gap:10px; flex-wrap:wrap;
-      margin-top:8px;
-      background:#fafbff;
-      border:1px dashed var(--border);
-      border-radius:12px;
-      padding:10px;
+    /* ADD TASK MODAL */
+    dialog{
+      border:none; border-radius:14px; padding:0; width:min(520px, 96vw);
+      box-shadow:0 20px 60px rgba(0,0,0,.25);
     }
-    .miniAdd input{
-      flex: 1;
-      min-width: 220px;
-      border:1px solid var(--border);
-      border-radius:10px;
-      padding:10px;
-      font:inherit;
+    .modalHead{ padding:14px; background:#111827; color:#fff; }
+    .modalHead h4{ margin:0; font-size:14px; }
+    .modalBody{ padding:14px; background:#fff; }
+    .field{ display:flex; flex-direction:column; gap:6px; margin-bottom:10px; }
+    .field input, .field select{
+      border:1px solid #e6e9f5; border-radius:12px; padding:10px; font:inherit;
     }
+    .modalActions{ display:flex; gap:10px; justify-content:flex-end; padding:14px; border-top:1px solid #eef0f7; background:#fff; }
+    .primary{ background:#111827; color:#fff; border-color:#111827; }
+    .primary:hover{ background:#0b1220; }
 
+    /* TIMER (optional) */
     .timer{
-      display:flex; align-items:center; justify-content:space-between;
-      gap:10px; padding:10px; border-radius:12px; border:1px solid var(--border);
-      background:#fafbff;
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      padding:10px; border-radius:12px; border:1px solid #e6e9f5; background:#fafbff;
     }
     .timer strong{ font-size:16px; }
-
-    .badgeRow{ display:flex; flex-wrap:wrap; gap:8px; margin-bottom:10px; }
   </style>
 </head>
-<body>
 
+<body>
 <header>
   <div class="wrap">
-    <h1>Family Routine Tracker (Dec 22, 2025 → Jan 04, 2026)</h1>
+    <h1>Family Planner (Dec 22, 2025 → Jan 04, 2026)</h1>
     <p>
-      Track daily plans + checkboxes + % completion. Add your own tasks anytime (saved in your browser).
-      Works great on mobile too.
+      Tap a person → pick a date → tick tasks → add extra tasks → track % completion.
+      Everything saves automatically in your browser.
     </p>
   </div>
 </header>
 
 <div class="wrap">
-  <!-- TOP TABS -->
-  <div class="topnav" id="topnav">
-    <button class="tabBtn active" data-profile="kaushal"><span class="icon">👦</span> Kaushal</button>
-    <button class="tabBtn" data-profile="parnika"><span class="icon">👧</span> Parnika</button>
-    <button class="tabBtn" data-profile="mom"><span class="icon">👩</span> Mom</button>
-    <button class="tabBtn" data-profile="dad"><span class="icon">👨</span> Dad</button>
+
+  <div class="topNav">
+    <div class="tabs">
+      <button class="tabBtn active" id="tabKaushal" type="button"><span class="tabIcon">👦</span> Kaushal</button>
+      <button class="tabBtn" id="tabParnika" type="button"><span class="tabIcon">👧</span> Parnika</button>
+      <button class="tabBtn" id="tabMom" type="button"><span class="tabIcon">👩</span> Mom</button>
+      <button class="tabBtn" id="tabDad" type="button"><span class="tabIcon">👨</span> Dad</button>
+    </div>
+    <div class="navRight">
+      <button class="smallBtn" id="btnPrint" type="button">Print selected day</button>
+      <button class="smallBtn danger" id="btnResetDay" type="button">Reset selected day</button>
+      <button class="smallBtn danger" id="btnResetPerson" type="button">Reset this person</button>
+    </div>
   </div>
 
   <div class="grid">
     <!-- LEFT -->
     <div class="card">
-      <h2>Days</h2>
+      <h2>
+        <span>Days</span>
+        <span class="pill" id="personLabel">Kaushal</span>
+      </h2>
       <div class="content">
-        <div class="kpi" style="margin-bottom:10px;">
+        <div class="kpi">
           <div class="box">
             <div class="big" id="kpiDone">0%</div>
-            <div class="muted">Today completion</div>
+            <div class="muted">Selected day completion</div>
           </div>
           <div class="box">
             <div class="big" id="kpiStreak">0</div>
-            <div class="muted">Streak (≥70%)</div>
+            <div class="muted">Streak (>=70%)</div>
           </div>
         </div>
 
         <div class="days" id="dayList"></div>
 
         <div class="section">
-          <h3>Tools</h3>
-          <div class="row">
-            <button id="btnPrint">Print this day</button>
-            <button class="danger" id="btnResetDay">Reset this day</button>
-            <button class="danger" id="btnResetAll">Reset all (this profile)</button>
-          </div>
-          <p class="help" style="margin-top:10px;">
-            Tip: You can add extra tasks below each section. They will appear immediately and count toward completion %.
-          </p>
-        </div>
-
-        <div class="section">
-          <h3>Focus Timer</h3>
+          <h3 style="margin:0 0 6px;">Focus Timer (optional)</h3>
           <div class="timer">
             <div>
-              <div class="muted">Suggested: 20 min focus</div>
+              <div class="muted">Suggested: 20 min focus + 5 min break</div>
               <strong id="timerDisplay">20:00</strong>
             </div>
-            <div class="row">
-              <button id="timerStart">Start</button>
-              <button id="timerPause">Pause</button>
-              <button id="timerReset">Reset</button>
+            <div style="display:flex; gap:8px; flex-wrap:wrap;">
+              <button class="smallBtn" id="timerStart" type="button">Start</button>
+              <button class="smallBtn" id="timerPause" type="button">Pause</button>
+              <button class="smallBtn" id="timerReset" type="button">Reset</button>
             </div>
           </div>
-          <p class="help" style="margin-top:8px;">
-            Use it for study blocks, assignments, or reading. When done: short break.
-          </p>
         </div>
+
+        <p class="help" style="margin-top:10px;">
+          Tip: if someone gets tired or stressed, do a small “movement break” and come back.
+        </p>
       </div>
     </div>
 
@@ -227,628 +215,1006 @@
     <div class="card">
       <h2 id="dayTitle">Day</h2>
       <div class="content">
-
-        <div class="badgeRow" id="dayBadges"></div>
-
-        <div class="section">
-          <h3>Visual Routine <span class="tag">simple steps</span></h3>
-          <p class="help" id="routineText"></p>
-        </div>
-
-        <div class="section" id="secStudy">
-          <h3>Study / Learning <span class="tag" style="border-color:rgba(37,99,235,.25);">blue</span></h3>
-          <div class="list" id="studyList"></div>
-          <div class="miniAdd">
-            <input id="addStudyTitle" placeholder="Add a Study/Learning task title (e.g., Danish reading 10 min)" />
-            <input id="addStudyDesc" placeholder="Details (optional)" />
-            <button id="btnAddStudy">+ Add</button>
-          </div>
-        </div>
-
-        <div class="section" id="secMeals">
-          <h3>Meals / Food <span class="tag" style="border-color:rgba(22,163,74,.25);">green</span></h3>
-          <div class="list" id="mealList"></div>
-          <div class="miniAdd">
-            <input id="addMealTitle" placeholder="Add a Food task title (e.g., Extra protein at lunch)" />
-            <input id="addMealDesc" placeholder="Details (optional)" />
-            <button id="btnAddMeal">+ Add</button>
-          </div>
-        </div>
-
-        <div class="section" id="secMove">
-          <h3>Exercise / Play <span class="tag" style="border-color:rgba(124,58,237,.25);">purple</span></h3>
-          <div class="list" id="moveList"></div>
-          <div class="miniAdd">
-            <input id="addMoveTitle" placeholder="Add an Exercise task title (e.g., Run 10 minutes)" />
-            <input id="addMoveDesc" placeholder="Details (optional)" />
-            <button id="btnAddMove">+ Add</button>
-          </div>
-        </div>
-
-        <div class="section" id="secLife">
-          <h3>Life / Independence <span class="tag" style="border-color:rgba(14,165,233,.25);">cyan</span></h3>
-          <div class="list" id="lifeList"></div>
-          <div class="miniAdd">
-            <input id="addLifeTitle" placeholder="Add a Life task title (e.g., Pack bag by self)" />
-            <input id="addLifeDesc" placeholder="Details (optional)" />
-            <button id="btnAddLife">+ Add</button>
-          </div>
-        </div>
-
-        <div class="section" id="secSleep">
-          <h3>Sleep / Wind-down <span class="tag" style="border-color:rgba(245,158,11,.25);">orange</span></h3>
-          <div class="list" id="sleepList"></div>
-          <div class="miniAdd">
-            <input id="addSleepTitle" placeholder="Add a Sleep task title (e.g., In bed by 8:00pm)" />
-            <input id="addSleepDesc" placeholder="Details (optional)" />
-            <button id="btnAddSleep">+ Add</button>
-          </div>
-        </div>
+        <div class="tagRow" id="dayBadges"></div>
 
         <div class="section">
-          <h3>Notes <span class="tag">what happened</span></h3>
-          <textarea id="notes" placeholder="Write what was different today, what worked, what didn’t..."></textarea>
+          <h3 style="margin:0 0 6px;">Visual Routine</h3>
+          <p class="help" id="routineText" style="margin:0;"></p>
         </div>
+
+        <!-- SECTIONS (rendered dynamically) -->
+        <div id="sectionsRoot"></div>
 
         <div class="section">
-          <h3>Reward / Motivation <span class="tag">optional</span></h3>
-          <p class="help" id="rewardText"></p>
+          <h3 style="margin:0 0 6px;">What we did differently today</h3>
+          <textarea id="notes" placeholder="Example: 'Kaushal did extra running' or 'Parnika had more breaks' or 'Mom finished 10 pages'..."></textarea>
         </div>
-
       </div>
     </div>
   </div>
 </div>
 
+<!-- Add Task Modal -->
+<dialog id="addTaskModal">
+  <div class="modalHead">
+    <h4 id="modalTitle">Add Task</h4>
+  </div>
+  <div class="modalBody">
+    <div class="field">
+      <label><strong>Section</strong></label>
+      <select id="modalSection">
+        <option value="study">Study / Learning</option>
+        <option value="food">Food / Diet</option>
+        <option value="move">Exercise / Play</option>
+        <option value="sleep">Sleep</option>
+        <option value="life">Life skills / Other</option>
+      </select>
+    </div>
+    <div class="field">
+      <label><strong>Title</strong></label>
+      <input id="modalTaskTitle" placeholder="Example: Danish reading 10 min" />
+    </div>
+    <div class="field">
+      <label><strong>Description</strong></label>
+      <input id="modalTaskDesc" placeholder="Example: Use flashcards or book page 5–6" />
+    </div>
+    <p class="help" style="margin:6px 0 0;">
+      This will be saved for this person + selected day.
+    </p>
+  </div>
+  <div class="modalActions">
+    <button class="smallBtn" id="modalCancel" type="button">Cancel</button>
+    <button class="smallBtn primary" id="modalSave" type="button">Add</button>
+  </div>
+</dialog>
+
 <script>
 /* =========================
-   1) DATE HELPERS
+   DATA: Dates (Dec 22 → Jan 04)
 ========================= */
-function iso(d){ return d.toISOString().slice(0,10); }
-function makeRangeISO(startISO, endISO){
-  const out = [];
-  let d = new Date(startISO + "T00:00:00");
-  const end = new Date(endISO + "T00:00:00");
-  while(d <= end){
-    out.push(iso(d));
-    d.setDate(d.getDate()+1);
-  }
-  return out;
-}
-function formatDate(isoStr){
-  const d = new Date(isoStr + "T00:00:00");
+const DATES = [
+  "2025-12-22","2025-12-23","2025-12-24","2025-12-25","2025-12-26","2025-12-27","2025-12-28",
+  "2025-12-29","2025-12-30","2025-12-31","2026-01-01","2026-01-02","2026-01-03","2026-01-04"
+];
+
+function formatDate(iso){
+  const d = new Date(iso + "T00:00:00");
   return d.toLocaleDateString(undefined, { weekday:"short", year:"numeric", month:"short", day:"numeric" });
 }
 
 /* =========================
-   2) BASE PLANS (Dec 22 → Jan 04)
-   - Kaushal & Parnika: detailed enough.
-   - Mom & Dad: daily template + key milestones.
+   BASE PLANS (Kaushal, Parnika, Mom, Dad)
+   - You can edit text anytime
 ========================= */
-const DATE_RANGE = makeRangeISO("2025-12-22","2026-01-04");
+function kaushalDay(iso, theme, study, food, move, sleep, life, routine, badges){
+  return { date: iso, theme, routine, badges, sections: { study, food, move, sleep, life } };
+}
 
-/* Simple “themes” so it doesn’t show only --- */
-function themeFor(i){
+function parnikaDay(iso, theme, study, food, move, sleep, life, routine, badges){
+  return { date: iso, theme, routine, badges, sections: { study, food, move, sleep, life } };
+}
+
+function momDay(iso, theme, study, food, move, sleep, life, routine, badges){
+  return { date: iso, theme, routine, badges, sections: { study, food, move, sleep, life } };
+}
+
+function dadDay(iso, theme, study, food, move, sleep, life, routine, badges){
+  return { date: iso, theme, routine, badges, sections: { study, food, move, sleep, life } };
+}
+
+/* ---- Kaushal: detailed holiday plan (GF/CF/Sugar-free/Low oil) ---- */
+const KAUSHAL = [
+  kaushalDay("2025-12-22",
+    "Warm start • easy wins",
+    [
+      {title:"Math (20 min): number sense 1–30", desc:"Count objects + match number cards + ‘more/less’ using real items."},
+      {title:"Danish (15–20 min): 5 words + sound practice", desc:"Pick 5 daily words (mor, far, skole, mad, bog). Say + point + repeat."},
+      {title:"English (15–20 min): read 5 min + copy 2 lines", desc:"Very easy text. Copy slowly. Stop before frustration."}
+    ],
+    [
+      {title:"Breakfast", desc:"Idli + sambar (extra lentils) OR oats with unsweetened plant milk + nuts/seeds."},
+      {title:"Lunch", desc:"Rice + dal + spinach/greens + grilled chicken pieces."},
+      {title:"Snack", desc:"Apple/pear + walnuts/almonds OR roasted chana (no sugar)."},
+      {title:"Dinner", desc:"Millet dosa (ragi/jowar) + chutney + fish curry (light oil)."}
+    ],
+    [
+      {title:"Morning movement (10 min)", desc:"Animal-walks (bear crawl, frog jumps) + 2 min breathing."},
+      {title:"Outdoor play (30–40 min)", desc:"Park walk + 5 x short runs (10–20 sec) with full rest."},
+      {title:"Evening calm (8 min)", desc:"Stretching + wall push-ups 2x8."}
+    ],
+    [
+      {title:"Sleep routine", desc:"Screen off 30 min before bed, calm story, lights out by 8:00 pm."}
+    ],
+    [
+      {title:"Independence", desc:"Pack water bottle + choose clothes (two options) + put laundry in basket."},
+      {title:"Communication", desc:"Use ‘First–Then’: First study, then reward. Keep sentences short."}
+    ],
+    "Morning: breakfast → movement → Study Block 1 → break. Midday: lunch → outdoor. Afternoon: Study Block 2 → break → calm activity. Evening: walk/stretch → dinner → story → sleep.",
+    ["GF","Casein-free","Sugar-free","Low oil"]
+  ),
+
+  kaushalDay("2025-12-23",
+    "Consistency • tiny upgrade",
+    [
+      {title:"Math (20 min): add within 10", desc:"Use blocks/fingers: build 2+3 physically, then write the answer."},
+      {title:"Danish (20 min): read 5 short sentences", desc:"Point to each word. Let him read 1 sentence alone."},
+      {title:"English (15–20 min): sight words (8)", desc:"Cards: the, and, you, we, is, to, in, it. Read → match → say 2 sentences."}
+    ],
+    [
+      {title:"Breakfast", desc:"Pesarattu (moong dal dosa) + ginger chutney."},
+      {title:"Lunch", desc:"Lemon rice (minimal oil) + dal + veg poriyal + grilled chicken."},
+      {title:"Snack", desc:"Banana (small) + nut butter (no added sugar)."},
+      {title:"Dinner", desc:"Veg khichdi (rice+moong) + salad + rasam."}
+    ],
+    [
+      {title:"Morning", desc:"Skipping (or pretend rope): 3x30 sec + jumping jacks 2x10."},
+      {title:"Outdoor", desc:"Run-walk: 1 min brisk + 20 sec run x 6 rounds."},
+      {title:"Evening calm", desc:"Yoga: child’s pose + cat-cow + butterfly (8 min)."}
+    ],
+    [
+      {title:"Sleep routine", desc:"Bed by 8:00 pm. Same steps: toilet → wash → pajamas → story."}
+    ],
+    [
+      {title:"Independence", desc:"Brush teeth with checklist. Practice school bag items (just 3 items today)."},
+      {title:"House skill", desc:"Wipe table after meals (2 minutes only)."}
+    ],
+    "Same rhythm. Use timer + 2-minute transition warnings.",
+    ["GF","Casein-free","Sugar-free","Low oil"]
+  ),
+
+  kaushalDay("2025-12-24",
+    "Reading confidence",
+    [
+      {title:"Math (20 min): number bonds to 10", desc:"Pairs 1+9,2+8… ‘Find the pair’ game."},
+      {title:"Danish (20 min): 10 picture words", desc:"Match word ↔ picture. Copy-write 3 words."},
+      {title:"English (20 min): read aloud + 3 questions", desc:"Ask who/where/what. Keep answers short."}
+    ],
+    [
+      {title:"Breakfast", desc:"Upma with extra veggies + boiled egg (if ok)."},
+      {title:"Lunch", desc:"Rice + sambar + okra (low oil) + baked fish."},
+      {title:"Snack", desc:"Orange/mandarin + pumpkin seeds."},
+      {title:"Dinner", desc:"GF roti (jowar/bajra) + chicken (light coconut) + salad."}
+    ],
+    [
+      {title:"Morning", desc:"Balance: one-foot stand 10 sec x 5 each side + hopscotch."},
+      {title:"Outdoor", desc:"Relay runs: 8 x 15 sec run + walk back slowly."},
+      {title:"Evening calm", desc:"Hand/foot massage 5 min + slow breathing."}
+    ],
+    [
+      {title:"Sleep routine", desc:"Quiet evening, lights dim, bed by 8:00 pm."}
+    ],
+    [
+      {title:"Independence", desc:"Set plate + spoon. Put shoes in correct place."},
+      {title:"Social", desc:"Role-play greeting in Danish + English (2 minutes)."}
+    ],
+    "Study earlier in the day when energy is best.",
+    ["GF","Casein-free","Sugar-free","Low oil"]
+  ),
+
+  kaushalDay("2025-12-25",
+    "Holiday calm • short sessions",
+    [
+      {title:"Math (15–20 min): patterns", desc:"ABAB, AABB, ABC using blocks/colors."},
+      {title:"Danish (15–20 min): listening + repeat", desc:"Simple Danish kids audio; repeat 5 phrases."},
+      {title:"English (15 min): read together", desc:"Parent reads 1 paragraph, child reads 1 sentence."}
+    ],
+    [
+      {title:"Breakfast", desc:"Oats + chia + unsweetened plant milk + berries (frozen ok)."},
+      {title:"Lunch", desc:"Rice + rasam + dal + veg + prawns (light stir-fry)."},
+      {title:"Snack", desc:"Mandarin + sunflower seeds."},
+      {title:"Dinner", desc:"Khichdi + veggie soup (early)."}
+    ],
+    [
+      {title:"Morning", desc:"Jumping 5 x 20 sec (or trampoline if available)."},
+      {title:"Outdoor", desc:"Calm walk 40 min (let him lead route part of time)."},
+      {title:"Evening calm", desc:"Deep pressure blanket time + breathing 5 min."}
+    ],
+    [
+      {title:"Sleep routine", desc:"Keep calm, avoid loud events if possible, bed by 8:00 pm."}
+    ],
+    [
+      {title:"Independence", desc:"Choose clothes for tomorrow (2 options) + set ready."},
+      {title:"Self-regulation", desc:"Practice ‘break card’ — he can show it when overwhelmed."}
+    ],
+    "Keep it quiet. More sensory breaks. End sessions early (leave on a win).",
+    ["GF","Casein-free","Sugar-free","Low oil"]
+  ),
+
+  /* Use your previous detailed plan from Dec 26 → Jan 04 (kept & aligned) */
+  ...[
+    {
+      date:"2025-12-26",
+      theme:"Start easy • Comfort routine",
+      routine:"Morning: breakfast → 10 min movement → Study Block 1 → break. Midday: lunch → outdoor play. Afternoon: Study Block 2 → break → craft. Evening: calm walk/stretch → dinner → short story → sleep routine.",
+      badges:["GF","Casein-free","Sugar-free","Low oil"],
+      sections:{
+        study:[
+          { title:"Math (20 min): Number sense 1–20", desc:"Count objects, match number cards, simple ‘more/less’. Use real items (beans/lego)." },
+          { title:"Danish (15–20 min): Sounds + 5 words", desc:"Pick 5 common words (mor, far, hus, mad, bog). Say, clap syllables, point to picture." },
+          { title:"English (15–20 min): Read + copy 3 lines", desc:"Short text (very easy). Copy 3 lines slowly (neatness not perfection)." }
+        ],
+        food:[
+          { title:"Breakfast", desc:"Idli + sambar (extra lentils) OR oats porridge with unsweetened plant milk + cinnamon + nuts/seeds." },
+          { title:"Lunch", desc:"Rice + dal + spinach (keerai) + cucumber. Add boiled egg or grilled chicken pieces." },
+          { title:"Snack", desc:"Apple/pear + handful walnuts/almonds OR roasted chana." },
+          { title:"Dinner", desc:"Millet dosa (ragi/jowar) + veg chutney + fish curry (light oil)." }
+        ],
+        move:[
+          { title:"Morning", desc:"10 min animal-walks (bear crawl, frog jumps) + 2 min deep breathing." },
+          { title:"Outdoor", desc:"30–40 min park walk + 5 x short runs (10–20 sec) with full rest." },
+          { title:"Evening calm", desc:"5–8 min stretching + wall push-ups 2x8." }
+        ],
+        sleep:[{ title:"Sleep routine", desc:"Dinner early, calm story, bed by 8:00 pm." }],
+        life:[
+          { title:"Independence", desc:"Pack water bottle + choose clothes (two options) + put laundry in basket." },
+          { title:"Communication", desc:"Use a simple ‘First–Then’: First study, then reward. Keep language short." }
+        ]
+      }
+    },
+    {
+      date:"2025-12-27",
+      theme:"Consistency • Tiny upgrade",
+      routine:"Same rhythm. Keep transitions predictable: timer → praise → movement break.",
+      badges:["GF","Casein-free","Sugar-free","Low oil"],
+      sections:{
+        study:[
+          { title:"Math (20 min): Add within 10", desc:"Use fingers/blocks. ‘2 + 3 = ?’ Build it physically." },
+          { title:"Danish (20 min): Read 5 short sentences", desc:"Point to each word. Then he reads 1 sentence alone." },
+          { title:"English (15–20 min): Sight words (8)", desc:"Cards: the, and, you, we, is, to, in, it. Read → match → use in 2 sentences (spoken)." }
+        ],
+        food:[
+          { title:"Breakfast", desc:"Pesarattu (moong dal dosa) + ginger chutney." },
+          { title:"Lunch", desc:"Lemon rice (minimal oil) + dal + carrot/beans poriyal + chicken (grilled)." },
+          { title:"Snack", desc:"Banana (small) + peanut/almond butter (no sugar added)." },
+          { title:"Dinner", desc:"Vegetable khichdi (rice+moong) + salad + rasam." }
+        ],
+        move:[
+          { title:"Morning", desc:"Skipping (or pretend rope): 3 x 30 sec. Jumping jacks: 2 x 10." },
+          { title:"Outdoor", desc:"Run-walk: 1 min brisk + 20 sec run x 6 rounds." },
+          { title:"Evening calm", desc:"Yoga: child’s pose + cat-cow + butterfly (8 min)." }
+        ],
+        sleep:[{ title:"Sleep routine", desc:"Same steps nightly. Bed by 8:00 pm." }],
+        life:[
+          { title:"Independence", desc:"Brush teeth with checklist. Lay out school bag items (practice)." },
+          { title:"House skill", desc:"Wipe table after meals (2 minutes only)." }
+        ]
+      }
+    },
+    {
+      date:"2025-12-28",
+      theme:"Reading confidence",
+      routine:"Keep study earlier in the day when energy is best.",
+      badges:["GF","Casein-free","Sugar-free","Low oil"],
+      sections:{
+        study:[
+          { title:"Math (20 min): Number bonds to 10", desc:"Make pairs: 1+9, 2+8… Use blocks. Quick game: ‘Find the pair’." },
+          { title:"Danish (20 min): 10 picture words", desc:"Match word ↔ picture. Then write 3 words (copy)." },
+          { title:"English (20 min): Read aloud 5 minutes + discuss", desc:"Ask 3 simple questions: who/where/what happened?" }
+        ],
+        food:[
+          { title:"Breakfast", desc:"Upma with extra veggies + side of boiled eggs (if ok)." },
+          { title:"Lunch", desc:"Rice + sambar + okra stir-fry (very low oil) + fish (baked)." },
+          { title:"Snack", desc:"Orange/mandarin + pumpkin seeds." },
+          { title:"Dinner", desc:"Chapati (gluten-free: jowar/bajra) + chicken kurma (light coconut milk) + salad." }
+        ],
+        move:[
+          { title:"Morning", desc:"Balance: stand on one foot 10 sec x 5 each side + hopscotch indoors." },
+          { title:"Outdoor", desc:"Relay runs: 8 x 15 sec run + walk back slowly." },
+          { title:"Evening calm", desc:"Massage hands/feet 5 min + slow breathing." }
+        ],
+        sleep:[{ title:"Sleep routine", desc:"Wind down early. Bed by 8:00 pm." }],
+        life:[
+          { title:"Independence", desc:"Set plate + spoon for himself. Put shoes in correct place." },
+          { title:"Social", desc:"Role-play greeting in Danish + English (2 minutes)." }
+        ]
+      }
+    },
+    {
+      date:"2025-12-29",
+      theme:"Writing gently",
+      routine:"Short writing only. Stop before frustration.",
+      badges:["GF","Casein-free","Sugar-free","Low oil"],
+      sections:{
+        study:[
+          { title:"Math (20 min): Subtract within 10", desc:"Use blocks: start with 8, take away 3." },
+          { title:"Danish (20 min): Copy 2 short sentences", desc:"Big letters, slow. Praise effort." },
+          { title:"English (15–20 min): Handwriting (5 mins) + 3 sentences orally", desc:"Write only 1 sentence if tired; speak the rest." }
+        ],
+        food:[
+          { title:"Breakfast", desc:"Idli + peanut chutney + sambar." },
+          { title:"Lunch", desc:"Dal + rice + veg + protein (chicken/fish)." },
+          { title:"Snack", desc:"Pear + roasted makhana." },
+          { title:"Dinner", desc:"Fish curry + rice + cabbage poriyal." }
+        ],
+        move:[
+          { title:"Morning", desc:"Wall sit 2 x 15 sec + squats 2 x 8 (slow)." },
+          { title:"Outdoor", desc:"Run-walk: 30 sec run + 90 sec walk x 6." },
+          { title:"Evening calm", desc:"Stretch + ‘heavy work’: carry light backpack 2 minutes." }
+        ],
+        sleep:[{ title:"Sleep routine", desc:"Same schedule. Bed by 8:00 pm." }],
+        life:[
+          { title:"Independence", desc:"Make bed (assist), put pajamas in place." },
+          { title:"Food skill", desc:"Help wash fruits (supervised)." }
+        ]
+      }
+    },
+    {
+      date:"2025-12-30",
+      theme:"Math game day",
+      routine:"Use games and quick wins.",
+      badges:["GF","Casein-free","Sugar-free","Low oil"],
+      sections:{
+        study:[
+          { title:"Math (20 min): Dice addition game", desc:"Roll 2 dice, add, mark on sheet. First to 10 points wins." },
+          { title:"Danish (20 min): Read 1 short page", desc:"Stop after 1 page even if going well (leave on a win)." },
+          { title:"English (15–20 min): Spelling (5 words)", desc:"Write each word 2 times only. Then use 1 word in a spoken sentence." }
+        ],
+        food:[
+          { title:"Breakfast", desc:"Pongal (rice+moong) + pepper + tiny ghee + side veggies." },
+          { title:"Lunch", desc:"Chicken stew (light coconut) + rice + salad." },
+          { title:"Snack", desc:"Apple slices + nuts/tahini (optional)." },
+          { title:"Dinner", desc:"Vegetable dosa + sambar + stir-fry." }
+        ],
+        move:[
+          { title:"Morning", desc:"Obstacle course indoors (10 min)." },
+          { title:"Outdoor", desc:"Steps/hill walk 10 min + 5 short sprints." },
+          { title:"Evening calm", desc:"Warm bath/shower + story." }
+        ],
+        sleep:[{ title:"Sleep routine", desc:"Early wind-down. Bed by 8:00 pm." }],
+        life:[
+          { title:"Independence", desc:"Practice morning sequence using pictures (toilet → wash → clothes → breakfast)." },
+          { title:"Responsibility", desc:"Put toys back using 3-category bins." }
+        ]
+      }
+    },
+    {
+      date:"2025-12-31",
+      theme:"Calm day (noise-friendly)",
+      routine:"Keep things quiet. More sensory breaks.",
+      badges:["GF","Casein-free","Sugar-free","Low oil"],
+      sections:{
+        study:[
+          { title:"Math (15–20 min): Shapes + patterns", desc:"Pattern building: ABAB, AABB, ABC. Sort shapes." },
+          { title:"Danish (15–20 min): Listening + repeat", desc:"Play a simple Danish kids audio; repeat 5 phrases." },
+          { title:"English (15 min): Read together", desc:"Parent reads 1 paragraph, child reads 1 sentence." }
+        ],
+        food:[
+          { title:"Breakfast", desc:"Oats + chia + unsweetened plant milk + berries." },
+          { title:"Lunch", desc:"Rice + rasam + dal + veg + prawns (light)." },
+          { title:"Snack", desc:"Mandarin + sunflower seeds." },
+          { title:"Dinner", desc:"Khichdi + veggie soup." }
+        ],
+        move:[
+          { title:"Morning", desc:"Jumping 5 x 20 sec." },
+          { title:"Outdoor", desc:"Long calm walk 40 min." },
+          { title:"Evening calm", desc:"Deep pressure + breathing 5 min." }
+        ],
+        sleep:[{ title:"Sleep routine", desc:"Keep calm. Bed by 8:00 pm." }],
+        life:[
+          { title:"Independence", desc:"Choose clothes for tomorrow + set ready." },
+          { title:"Self-regulation", desc:"Practice ‘break card’." }
+        ]
+      }
+    },
+    {
+      date:"2026-01-01",
+      theme:"Fresh start • school rhythm begins",
+      routine:"Introduce school-like morning rhythm gently.",
+      badges:["GF","Casein-free","Sugar-free","Low oil"],
+      sections:{
+        study:[
+          { title:"Math (20 min): Add/sub mixed within 10", desc:"10 quick questions only. Stop at 10." },
+          { title:"Danish (20 min): School words", desc:"skole, lærer, ven, bog, blyant. Say + point + write 2 words." },
+          { title:"English (20 min): Reading fluency + 1 sentence", desc:"One neat sentence is enough." }
+        ],
+        food:[
+          { title:"Breakfast", desc:"Idli/pesarattu + sambar." },
+          { title:"Lunch", desc:"Rice + chicken curry (light) + greens." },
+          { title:"Snack", desc:"Pear + roasted chana." },
+          { title:"Dinner", desc:"Millet roti + fish/prawns curry + veg." }
+        ],
+        move:[
+          { title:"Morning", desc:"5 min stretch + 5 min stairs/walk." },
+          { title:"Outdoor", desc:"Run-walk: 45 sec run + 75 sec walk x 6." },
+          { title:"Evening calm", desc:"Yoga 8 min + dim lights before bed." }
+        ],
+        sleep:[{ title:"Sleep routine", desc:"Bed by 8:00 pm. Prepare school items calmly." }],
+        life:[
+          { title:"School prep", desc:"Practice packing bag with checklist." },
+          { title:"Independence", desc:"Help put lunch items on counter (supervised)." }
+        ]
+      }
+    },
+    {
+      date:"2026-01-02",
+      theme:"Attention & transitions",
+      routine:"Use timer and 2-minute warnings for transitions.",
+      badges:["GF","Casein-free","Sugar-free","Low oil"],
+      sections:{
+        study:[
+          { title:"Math (20 min): Compare numbers 1–50", desc:"Use > < = with examples." },
+          { title:"Danish (20 min): Read 6–8 sentences + 2 questions", desc:"Questions: ‘Hvem?’ ‘Hvad?’" },
+          { title:"English (20 min): Spelling + reading", desc:"5 words + 5 minutes easy reading." }
+        ],
+        food:[
+          { title:"Breakfast", desc:"Upma/pongal with veggies + egg/chicken side." },
+          { title:"Lunch", desc:"Dal + rice + beans poriyal + baked fish." },
+          { title:"Snack", desc:"Apple + nuts." },
+          { title:"Dinner", desc:"Soup + millet dosa + chutney." }
+        ],
+        move:[
+          { title:"Morning", desc:"Jumping jacks 3x10 + plank 3x10 sec." },
+          { title:"Outdoor", desc:"6 x 20 sec run (same distance), aim consistency." },
+          { title:"Evening calm", desc:"Stretch + story." }
+        ],
+        sleep:[{ title:"Sleep routine", desc:"Bed by 8:00 pm. Keep it predictable." }],
+        life:[
+          { title:"Independence", desc:"Practice opening lunchbox + eating with minimal help." },
+          { title:"Hygiene", desc:"Handwash checklist before meals." }
+        ]
+      }
+    },
+    {
+      date:"2026-01-03",
+      theme:"School rehearsal day",
+      routine:"Mock school morning: dress → breakfast → short blocks → pack bag.",
+      badges:["GF","Casein-free","Sugar-free","Low oil"],
+      sections:{
+        study:[
+          { title:"Math (20 min): Simple word problems", desc:"Use drawings: ‘I have 3 apples…’" },
+          { title:"Danish (20 min): Write 3 short sentences (copy)", desc:"Capital letter + dot." },
+          { title:"English (15–20 min): Read + retell", desc:"Retell: beginning/middle/end." }
+        ],
+        food:[
+          { title:"Breakfast", desc:"Pesarattu + chutney." },
+          { title:"Lunch", desc:"Rice + sambar + chicken/fish + salad." },
+          { title:"Snack", desc:"Mandarin + seeds." },
+          { title:"Dinner", desc:"Khichdi + veg stir-fry." }
+        ],
+        move:[
+          { title:"Morning", desc:"Fast walk 12 min + 3 short sprints." },
+          { title:"Outdoor", desc:"Run-walk: 60 sec run + 60 sec walk x 6." },
+          { title:"Evening calm", desc:"Breathing + prepare clothes for Jan 5." }
+        ],
+        sleep:[{ title:"Sleep routine", desc:"Early bedtime practice (bed by 8:00 pm)." }],
+        life:[
+          { title:"Independence", desc:"Choose clothes + pack school bag fully with checklist." },
+          { title:"Sleep", desc:"Early lights out." }
+        ]
+      }
+    },
+    {
+      date:"2026-01-04",
+      theme:"Light day • Ready for school tomorrow",
+      routine:"Keep it calm and confidence-building. Do less, but do it well.",
+      badges:["GF","Casein-free","Sugar-free","Low oil"],
+      sections:{
+        study:[
+          { title:"Math (15–20 min): Review favorite topic", desc:"Let him choose: addition game or patterns. End with success." },
+          { title:"Danish (15–20 min): Read 1 page + 5 words", desc:"Finish quickly; praise." },
+          { title:"English (15–20 min): Read aloud + write name/date", desc:"Name + date + 1 sentence." }
+        ],
+        food:[
+          { title:"Breakfast", desc:"Idli + sambar." },
+          { title:"Lunch", desc:"Rice + dal + veg + fish/chicken." },
+          { title:"Snack", desc:"Apple/pear + nuts." },
+          { title:"Dinner", desc:"Early light dinner: soup + dosa/khichdi." }
+        ],
+        move:[
+          { title:"Morning", desc:"Gentle movement 10 min + stretch." },
+          { title:"Outdoor", desc:"Calm walk + 4 short runs (10–15 sec)." },
+          { title:"Evening calm", desc:"Pack bag, prepare shoes, early lights out." }
+        ],
+        sleep:[{ title:"Sleep routine", desc:"Bed by 8:00 pm. Prepare for school day." }],
+        life:[
+          { title:"School readiness", desc:"Practice morning checklist once. Keep tone positive." },
+          { title:"Independence", desc:"He puts bottle + lunchbox into bag himself." }
+        ]
+      }
+    }
+  ]
+];
+
+/* ---- Parnika (3.9 years): similar style + online school 4:30–7:30 ---- */
+function parnikaTemplate(iso, theme){
+  return parnikaDay(
+    iso,
+    theme,
+    [
+      {title:"Learning (15–20 min): shapes / colors / counting", desc:"Short playful learning (no pressure)."},
+      {title:"Story time (10 min)", desc:"Picture book + 3 questions: what/where/who."}
+    ],
+    [
+      {title:"Breakfast", desc:"Protein + fruit (egg/daal dosa/unsweetened yogurt alternative)"},
+      {title:"Lunch", desc:"Rice + dal/veg + small protein (chicken/fish/beans)"},
+      {title:"Snack", desc:"Fruit + nuts/seeds (age safe)"},
+      {title:"Dinner (before online school ends if possible)", desc:"Light dinner + water"}
+    ],
+    [
+      {title:"Morning play (20–30 min)", desc:"Dance / ball play / animal walks with Kaushal."},
+      {title:"Outdoor (30–40 min)", desc:"Park play + small runs (fun, not training)."},
+      {title:"Before online school (10 min)", desc:"Movement break to sit better in class."}
+    ],
+    [
+      {title:"Online school", desc:"4:30 pm – 7:30 pm (small movement breaks)."},
+      {title:"Sleep routine", desc:"In bed by 8:00 pm (bath → story → lights out)."}
+    ],
+    [
+      {title:"Independence", desc:"Put toys back + choose clothes (two options) + wash hands before food."},
+      {title:"Together time", desc:"Play with brother 15 min (turn-taking game)."}
+    ],
+    "Morning: breakfast → play/learning → outdoor. Afternoon: quiet play + snack → movement → online school 4:30–7:30 → sleep routine.",
+    ["Online school 4:30–7:30","Sleep 8:00","Play with Kaushal"]
+  );
+}
+
+const PARNIKA = DATES.map((d, i) => {
   const themes = [
-    "Easy start • Consistency",
-    "Focus • Short blocks",
-    "Reading + Writing",
-    "Math game day",
-    "Outdoor energy day",
-    "Calm + sensory breaks",
-    "Independence practice",
+    "Play focus • easy learning",
+    "Counting fun • calm routine",
+    "Color + craft day",
+    "Holiday calm • family time",
+    "Movement + music day",
+    "Story + pretend play",
+    "Outdoor confidence",
+    "Sharing + turn-taking",
+    "Dance + coordination",
+    "Calm evening routine",
+    "New year easy day",
+    "Strong routine day",
+    "Helping day",
+    "Light day • ready for school"
   ];
-  return themes[i % themes.length];
+  return parnikaTemplate(d, themes[i] || "Daily routine");
+});
+
+/* ---- Mom: Masters AI + Danish Citizenship exam (May 2026) ---- */
+function momTemplate(iso, theme){
+  return momDay(
+    iso,
+    theme,
+    [
+      {title:"Masters AI class / lecture (60–90 min)", desc:"Attend lecture or watch recordings + take notes."},
+      {title:"Assignments (45–90 min)", desc:"Work on current assignment. Small daily progress."},
+      {title:"Citizenship study (Danish) (30–45 min)", desc:"Read + highlight + make 5 flashcards (Q/A). Focus: 5–10 pages/day."}
+    ],
+    [
+      {title:"Food", desc:"High protein breakfast + water. Balanced lunch. Early light dinner."},
+      {title:"No-sugar support", desc:"If craving: fruit + nuts / herbal tea."}
+    ],
+    [
+      {title:"Exercise (20–30 min)", desc:"Walk / light run / stretching. Keep energy stable."}
+    ],
+    [
+      {title:"Sleep", desc:"Target 7–8 hours. Screens off 30 min before bed."}
+    ],
+    [
+      {title:"Flashcards", desc:"Make/review 10 flashcards (citizenship topics)."},
+      {title:"Weekly plan", desc:"Every Sunday: plan which chapter pages to cover next week."}
+    ],
+    "Morning: short exercise + breakfast. Day: AI class/assignment block. Evening: citizenship reading + flashcards. Sleep on time.",
+    ["Masters AI","Citizenship exam May 2026","Daily flashcards"]
+  );
+}
+const MOM = DATES.map((d, i) => momTemplate(d, [
+  "Set goals • gentle start",
+  "Deep focus • assignments",
+  "Citizenship reading push",
+  "Holiday calm • review notes",
+  "AI practice day",
+  "Flashcards + reading",
+  "Mock quiz day",
+  "Chapter recap day",
+  "AI + citizenship balance",
+  "Review weak areas",
+  "Weekly reset",
+  "Practice questions",
+  "Summarize chapter notes",
+  "Light review day"
+][i] || "Daily routine"));
+
+/* ---- Dad: Salesforce exam Jan 04 + Driving licence by Feb ---- */
+function dadTemplate(iso, theme, extraStudy){
+  return dadDay(
+    iso,
+    theme,
+    [
+      {title:"Salesforce study (60–120 min)", desc: extraStudy || "Focus on exam objectives. Do practice questions daily."},
+      {title:"Driving licence theory (30–60 min)", desc:"Read theory + do test questions (target completion by February)."}
+    ],
+    [
+      {title:"Food", desc:"Balanced meals + water. Avoid heavy late dinner near study time."}
+    ],
+    [
+      {title:"Exercise (20–30 min)", desc:"Walk/run/stretch to reduce stress and improve focus."}
+    ],
+    [
+      {title:"Sleep", desc:"Minimum 7 hours. Exam week: sleep > late studying."}
+    ],
+    [
+      {title:"Plan", desc:"Write tomorrow’s 3 key tasks in 3 minutes (keeps momentum)."}
+    ],
+    "Morning: short exercise. Evening: Salesforce prep + practice test. Daily: driving theory practice. Keep sleep steady.",
+    ["Salesforce exam Jan 04","Driving licence by Feb","Daily practice tests"]
+  );
 }
 
-/* KAUSHAL: keep your same structure; fill each day with meaningful tasks */
-function kaushalDay(isoDate, idx){
-  return {
-    date: isoDate,
-    theme: themeFor(idx),
-    routine: "Morning: breakfast → movement → Study block 1 → break. Midday: lunch → outdoor play/run. Afternoon: Study block 2 → craft/play. Evening: calm walk/stretch → dinner → story → sleep routine.",
-    reward: "If ≥70% done: 20 min favorite activity (LEGO / drawing / chosen video).",
-    study: [
-      { title: "Math (20 min)", desc: idx % 2 ? "Add/sub within 10 using blocks, 10 questions only." : "Number sense: count objects, compare > <, quick wins." },
-      { title: "Danish (15–20 min)", desc: "Read 5–8 short sentences + 5 flash words. Repeat aloud." },
-      { title: "English (15–20 min)", desc: "Read 5 minutes + write/copy 1–3 lines (stop before frustration)." }
-    ],
-    meals: [
-      { title: "Breakfast", desc: "Idli/pesarattu/upma + sambar + fruit (no added sugar)." },
-      { title: "Lunch", desc: "Rice + dal + veg + chicken/fish (light oil)." },
-      { title: "Snack", desc: "Fruit + nuts/seeds OR roasted chana/makhana." },
-      { title: "Dinner", desc: "Millet dosa/khichdi + veg + fish/chicken (light)." }
-    ],
-    movement: [
-      { title: "Morning (10 min)", desc: "Animal walks + jumping + 2 min breathing." },
-      { title: "Outdoor (30–45 min)", desc: "Park walk + run-walk intervals (short runs + full rest)." },
-      { title: "Evening calm (8 min)", desc: "Stretch + wall push-ups 2×8." }
-    ],
-    life: [
-      { title: "Independence", desc: "Pack water bottle + choose clothes (2 options) + put laundry in basket." },
-      { title: "Hygiene", desc: "Brush teeth using step checklist (short, calm)." }
-    ],
-    sleep: [
-      { title: "Wind-down", desc: "Dim lights 30 min before bed, story time." },
-      { title: "Sleep time", desc: "In bed by 8:00 PM (consistent)." }
-    ]
-  };
-}
-
-/* PARNIKA: similar style + fixed online school 4:30–7:30 PM */
-function parnikaDay(isoDate, idx){
-  return {
-    date: isoDate,
-    theme: "Play-based learning • Routine",
-    routine: "Morning: breakfast → play + movement. Midday: lunch → nap/quiet time. Afternoon: outdoor play. 4:30–7:30 PM: online school with small breaks. Dinner → calm play/story → sleep.",
-    reward: "Sticker + choose bedtime story.",
-    study: [
-      { title: "Learning play (15–20 min)", desc: idx % 2 ? "Shapes + colors + puzzle time." : "Counting 1–20 + alphabet sound game." },
-      { title: "Story time (10 min)", desc: "Read together, ask 2 simple questions (who/what)." },
-      { title: "Creative (10–15 min)", desc: "Drawing / building blocks / simple crafts." }
-    ],
-    meals: [
-      { title: "Breakfast", desc: "Egg/beans + fruit OR dosa/idli + veg." },
-      { title: "Lunch", desc: "Rice + dal + veg + protein (egg/chicken/fish if ok)." },
-      { title: "Snack", desc: "Fruit + yogurt substitute (unsweetened) OR nuts (small, supervised)." },
-      { title: "Dinner (before 7:30)", desc: "Light dinner: khichdi/soup + dosa." }
-    ],
-    movement: [
-      { title: "Morning play", desc: "Dance / ball play / animal walk (10 min)." },
-      { title: "Outdoor", desc: "Walk + running games with Kaushal (20–30 min)." },
-      { title: "Online school breaks", desc: "2–3 mini movement breaks (2 minutes each)." }
-    ],
-    life: [
-      { title: "Independence", desc: "Shoes in place + help tidy toys (2 bins only)." },
-      { title: "Together time", desc: "Play with brother: turn-taking game (5 minutes)." }
-    ],
-    sleep: [
-      { title: "Bedtime", desc: "Sleep by 8:00 PM (daily)." },
-      { title: "Calm routine", desc: "Story + cuddles + low stimulation." }
-    ]
-  };
-}
-
-/* MOM: Masters AI + Danish citizenship exam May 2026 (6 chapters ~300 pages)
-   Daily: AI class/assignments + citizenship reading + flashcards + rest.
-*/
-function momDay(isoDate, idx){
-  return {
-    date: isoDate,
-    theme: "Masters AI + Citizenship prep",
-    routine: "Morning: breakfast → 1 focus block (AI). Midday: household + walk. Afternoon: citizenship reading + flashcards. Evening: light review + wind-down.",
-    reward: "If 2 focus blocks done: guilt-free rest time (tea + relaxing show).",
-    study: [
-      { title: "Masters AI (45–60 min)", desc: "Class/lecture notes or assignment work (one clear goal)." },
-      { title: "Citizenship reading (30–45 min)", desc: "Read 4–6 pages + write 5 key points in simple Danish/English." },
-      { title: "Flashcards (10–15 min)", desc: "Quick review: 20 cards, mark difficult ones." }
-    ],
-    meals: [
-      { title: "Hydration", desc: "Water/tea through day (easy reminder)." },
-      { title: "Balanced meal", desc: "Protein + veg + healthy fat (keep energy stable)." }
-    ],
-    movement: [
-      { title: "Walk (20–30 min)", desc: "Outdoor walk (reset brain)." },
-      { title: "Stretch (5–8 min)", desc: "Neck/shoulders/back stretch." }
-    ],
-    life: [
-      { title: "Plan tomorrow (5 min)", desc: "Pick 1 AI task + 1 citizenship topic for tomorrow." }
-    ],
-    sleep: [
-      { title: "Wind-down", desc: "No screens 20 min before sleep if possible." },
-      { title: "Sleep", desc: "Target consistent bedtime." }
-    ]
-  };
-}
-
-/* DAD: Salesforce exam Jan 04 + Danish driving license by Feb
-   Daily: Salesforce practice + driving theory + booking/practical tasks.
-*/
-function dadDay(isoDate, idx){
-  const isJan4 = (isoDate === "2026-01-04");
-  return {
-    date: isoDate,
-    theme: isJan4 ? "Salesforce Exam Day" : "Salesforce + Driving license prep",
-    routine: "Morning: 1 focus block (Salesforce). Midday: driving theory. Evening: recap + plan next session.",
-    reward: "If 2 focus blocks done: 30 min relax time (music/TV).",
-    study: [
-      { title: isJan4 ? "Salesforce exam" : "Salesforce (60 min)", desc: isJan4 ? "Do exam + quick debrief notes." : "Practice tests + weak topics review." },
-      { title: "Driving theory (30–45 min)", desc: "Read one topic + do 10–20 questions." },
-      { title: "Logistics (10 min)", desc: "Book/confirm lessons, checklist for Feb completion target." }
-    ],
-    meals: [
-      { title: "Energy", desc: "Protein snack + water before focus block." }
-    ],
-    movement: [
-      { title: "Short walk (15–20 min)", desc: "Reset between study blocks." }
-    ],
-    life: [
-      { title: "Daily planning (5 min)", desc: "Write tomorrow’s top 2 tasks (Salesforce + Driving)." }
-    ],
-    sleep: [
-      { title: "Wind-down", desc: "Stop heavy study 30 min before bed." }
-    ]
-  };
-}
-
-const PROFILES = {
-  kaushal: {
-    name: "Kaushal",
-    icon: "👦",
-    badges: ["GF", "Casein-free", "Sugar-free", "Low oil"],
-    buildPlan: () => DATE_RANGE.map((d,i)=>kaushalDay(d,i))
-  },
-  parnika: {
-    name: "Parnika",
-    icon: "👧",
-    badges: ["Online school 4:30–7:30 PM", "Sleep by 8:00 PM", "Play + learning"],
-    buildPlan: () => DATE_RANGE.map((d,i)=>parnikaDay(d,i))
-  },
-  mom: {
-    name: "Mom",
-    icon: "👩",
-    badges: ["Masters AI", "Citizenship exam May 2026", "Flashcards daily"],
-    buildPlan: () => DATE_RANGE.map((d,i)=>momDay(d,i))
-  },
-  dad: {
-    name: "Dad",
-    icon: "👨",
-    badges: ["Salesforce exam Jan 4", "Driving license by Feb", "Theory + practice"],
-    buildPlan: () => DATE_RANGE.map((d,i)=>dadDay(d,i))
+const DAD = DATES.map((d) => {
+  if (d === "2026-01-04") {
+    return dadTemplate(d, "Salesforce exam day", "Light review only (30–45 min) + confidence. Focus on calm + timing.");
   }
-};
+  // closer to exam, increase practice tests
+  const dt = new Date(d + "T00:00:00");
+  const exam = new Date("2026-01-04T00:00:00");
+  const daysLeft = Math.round((exam - dt) / (1000*60*60*24));
+  const msg = daysLeft <= 3
+    ? "Do 1 full practice test + review mistakes. Focus on weak areas."
+    : "Study 1 topic + 15–25 practice questions. Review wrong answers.";
+  return dadTemplate(d, daysLeft <= 3 ? "Exam sprint" : "Build strong basics", msg);
+});
 
 /* =========================
-   3) STORAGE
+   APP STATE + STORAGE
 ========================= */
-function LS_KEY(profile){ return `family_tracker_v2::${profile}`; }
+const LS_KEY = "family_planner_v2";
+const DEFAULT = { person: "kaushal", selectedIndex: 0, data: {} };
 
-function loadState(profile){
+function loadState(){
   try{
-    const raw = localStorage.getItem(LS_KEY(profile));
-    if(!raw) return { selectedIndex: 0, days: {} };
-    return JSON.parse(raw);
-  }catch{
-    return { selectedIndex: 0, days: {} };
-  }
+    const raw = localStorage.getItem(LS_KEY);
+    return raw ? JSON.parse(raw) : structuredClone(DEFAULT);
+  }catch{ return structuredClone(DEFAULT); }
 }
-function saveState(profile){ localStorage.setItem(LS_KEY(profile), JSON.stringify(appState[profile])); }
+function saveState(){ localStorage.setItem(LS_KEY, JSON.stringify(state)); }
 
-function ensureDay(profile, date){
-  const st = appState[profile];
-  if(!st.days[date]){
-    st.days[date] = {
-      checks: {},
-      notes: "",
-      custom: { study:[], meals:[], move:[], life:[], sleep:[] }
-    };
-  }else{
-    if(!st.days[date].custom) st.days[date].custom = { study:[], meals:[], move:[], life:[], sleep:[] };
-    if(!st.days[date].custom.study) st.days[date].custom = { study:[], meals:[], move:[], life:[], sleep:[] };
-  }
-  return st.days[date];
+const state = loadState();
+
+function getPersonPlan(person){
+  if(person === "kaushal") return KAUSHAL;
+  if(person === "parnika") return PARNIKA;
+  if(person === "mom") return MOM;
+  return DAD;
 }
 
-/* =========================
-   4) APP STATE
-========================= */
-const appState = {
-  kaushal: loadState("kaushal"),
-  parnika: loadState("parnika"),
-  mom: loadState("mom"),
-  dad: loadState("dad"),
-};
-let currentProfile = "kaushal";
-let PLAN = PROFILES[currentProfile].buildPlan();
+function ensureDay(person, iso){
+  state.data[person] ??= {};
+  state.data[person][iso] ??= { checks:{}, notes:"", custom:{ study:[], food:[], move:[], sleep:[], life:[] } };
+  // ensure custom buckets exist
+  const c = state.data[person][iso].custom;
+  c.study ??= []; c.food ??= []; c.move ??= []; c.sleep ??= []; c.life ??= [];
+  return state.data[person][iso];
+}
 
 /* =========================
-   5) DOM HOOKS
+   COMPLETION CALC
 ========================= */
-const dayListEl = document.getElementById("dayList");
-const dayTitleEl = document.getElementById("dayTitle");
-const badgesEl = document.getElementById("dayBadges");
-const routineTextEl = document.getElementById("routineText");
-const rewardTextEl = document.getElementById("rewardText");
-const notesEl = document.getElementById("notes");
+function collectAllItems(person, dayObj){
+  const iso = dayObj.date;
+  const base = dayObj.sections;
+  const dState = ensureDay(person, iso);
 
-const studyListEl = document.getElementById("studyList");
-const mealListEl = document.getElementById("mealList");
-const moveListEl = document.getElementById("moveList");
-const lifeListEl = document.getElementById("lifeList");
-const sleepListEl = document.getElementById("sleepList");
-
-const kpiDoneEl = document.getElementById("kpiDone");
-const kpiStreakEl = document.getElementById("kpiStreak");
-
-/* =========================
-   6) COMPLETION
-========================= */
-function collectAllItems(profile, day){
-  const dState = ensureDay(profile, day.date);
-
-  // base items with stable ids
   const items = [];
-  day.study.forEach((x,i)=> items.push({ id:`${day.date}::study::${i}`, section:"study", ...x, kind:"base" }));
-  day.meals.forEach((x,i)=> items.push({ id:`${day.date}::meals::${i}`, section:"meals", ...x, kind:"base" }));
-  day.movement.forEach((x,i)=> items.push({ id:`${day.date}::move::${i}`, section:"move", ...x, kind:"base" }));
-  day.life.forEach((x,i)=> items.push({ id:`${day.date}::life::${i}`, section:"life", ...x, kind:"base" }));
-  day.sleep.forEach((x,i)=> items.push({ id:`${day.date}::sleep::${i}`, section:"sleep", ...x, kind:"base" }));
+  const pushSection = (sectionKey) => {
+    // base items
+    (base[sectionKey] || []).forEach((x, i) => items.push({
+      id: `${person}::${iso}::base::${sectionKey}::${i}`,
+      section: sectionKey,
+      ...x,
+      isCustom:false
+    }));
+    // custom items
+    (dState.custom[sectionKey] || []).forEach((x, i) => items.push({
+      id: `${person}::${iso}::custom::${sectionKey}::${i}`,
+      section: sectionKey,
+      ...x,
+      isCustom:true
+    }));
+  };
 
-  // custom items
-  const custom = dState.custom || { study:[], meals:[], move:[], life:[], sleep:[] };
-  (custom.study || []).forEach((x,i)=> items.push({ id:`${day.date}::study::custom::${i}`, section:"study", ...x, kind:"custom" }));
-  (custom.meals || []).forEach((x,i)=> items.push({ id:`${day.date}::meals::custom::${i}`, section:"meals", ...x, kind:"custom" }));
-  (custom.move || []).forEach((x,i)=> items.push({ id:`${day.date}::move::custom::${i}`, section:"move", ...x, kind:"custom" }));
-  (custom.life || []).forEach((x,i)=> items.push({ id:`${day.date}::life::custom::${i}`, section:"life", ...x, kind:"custom" }));
-  (custom.sleep || []).forEach((x,i)=> items.push({ id:`${day.date}::sleep::custom::${i}`, section:"sleep", ...x, kind:"custom" }));
-
+  pushSection("study");
+  pushSection("food");
+  pushSection("move");
+  pushSection("sleep");
+  pushSection("life");
   return items;
 }
 
-function computeCompletion(profile, day){
-  const st = appState[profile];
-  const dState = ensureDay(profile, day.date);
-  const items = collectAllItems(profile, day);
+function computeCompletion(person, dayObj){
+  const iso = dayObj.date;
+  const dState = ensureDay(person, iso);
+  const items = collectAllItems(person, dayObj);
   const total = items.length;
-  const done = items.filter(it => dState.checks[it.id]).length;
-  return { total, done, pct: total ? Math.round((done/total)*100) : 0 };
+  const done = items.filter(it => !!dState.checks[it.id]).length;
+  const pct = total ? Math.round((done/total)*100) : 0;
+  return { total, done, pct };
 }
 
-function computeStreak(profile){
-  const st = appState[profile];
+function computeStreak(person){
+  const plan = getPersonPlan(person);
   let streak = 0;
-  for(let i = st.selectedIndex; i >= 0; i--){
-    const comp = computeCompletion(profile, PLAN[i]);
-    if(comp.pct >= 70) streak++;
+  for(let i = state.selectedIndex; i >= 0; i--){
+    const c = computeCompletion(person, plan[i]);
+    if(c.pct >= 70) streak++;
     else break;
   }
   return streak;
 }
 
 /* =========================
-   7) RENDER
+   UI HOOKS
 ========================= */
+const dayListEl = document.getElementById("dayList");
+const dayTitleEl = document.getElementById("dayTitle");
+const badgesEl = document.getElementById("dayBadges");
+const routineTextEl = document.getElementById("routineText");
+const notesEl = document.getElementById("notes");
+const sectionsRoot = document.getElementById("sectionsRoot");
+const personLabelEl = document.getElementById("personLabel");
+const kpiDoneEl = document.getElementById("kpiDone");
+const kpiStreakEl = document.getElementById("kpiStreak");
+
+const tabKaushal = document.getElementById("tabKaushal");
+const tabParnika = document.getElementById("tabParnika");
+const tabMom = document.getElementById("tabMom");
+const tabDad = document.getElementById("tabDad");
+
+/* =========================
+   RENDER
+========================= */
+function setActiveTabs(){
+  const p = state.person;
+  [tabKaushal,tabParnika,tabMom,tabDad].forEach(b => b.classList.remove("active"));
+  if(p==="kaushal") tabKaushal.classList.add("active");
+  else if(p==="parnika") tabParnika.classList.add("active");
+  else if(p==="mom") tabMom.classList.add("active");
+  else tabDad.classList.add("active");
+  personLabelEl.textContent = p.charAt(0).toUpperCase() + p.slice(1);
+}
+
 function renderDayButtons(){
-  const st = appState[currentProfile];
+  const person = state.person;
+  const plan = getPersonPlan(person);
   dayListEl.innerHTML = "";
-  PLAN.forEach((day, idx) => {
-    const comp = computeCompletion(currentProfile, day);
+  plan.forEach((day, idx) => {
+    const comp = computeCompletion(person, day);
     const btn = document.createElement("button");
-    btn.className = "dayBtn" + (idx === st.selectedIndex ? " active" : "");
     btn.type = "button";
-    btn.onclick = () => { st.selectedIndex = idx; saveState(currentProfile); renderAll(); };
+    btn.className = "dayBtn" + (idx===state.selectedIndex ? " active":"");
+    btn.onclick = () => { state.selectedIndex = idx; saveState(); renderAll(); };
 
     const left = document.createElement("div");
-    left.innerHTML = `<div style="font-weight:800;font-size:13px">${formatDate(day.date)}</div>
-                      <div class="muted">${day.theme}</div>`;
+    left.innerHTML = `
+      <div style="font-weight:900;font-size:13px">${formatDate(day.date)}</div>
+      <div class="muted">${day.theme || ""}</div>
+    `;
     const right = document.createElement("div");
     right.innerHTML = `<span class="pill">${comp.pct}%</span>`;
-    btn.appendChild(left);
-    btn.appendChild(right);
+    btn.append(left, right);
     dayListEl.appendChild(btn);
   });
 }
 
-function sectionBorderClass(section){
-  if(section==="study") return "b-study";
-  if(section==="meals") return "b-food";
-  if(section==="move") return "b-move";
-  if(section==="life") return "b-life";
-  if(section==="sleep") return "b-sleep";
-  return "";
+function sectionMeta(sectionKey){
+  if(sectionKey==="study") return { title:"Study / Learning", cls:"study" };
+  if(sectionKey==="food") return { title:"Food / Diet", cls:"food" };
+  if(sectionKey==="move") return { title:"Exercise / Play", cls:"move" };
+  if(sectionKey==="sleep") return { title:"Sleep", cls:"sleep" };
+  return { title:"Life skills / Other", cls:"life" };
 }
 
-function renderChecklist(listEl, day, sectionName, entries, isCustom=false){
-  listEl.innerHTML = "";
-  const dState = ensureDay(currentProfile, day.date);
+function renderChecklist(person, dayObj, sectionKey){
+  const iso = dayObj.date;
+  const dState = ensureDay(person, iso);
+  const base = dayObj.sections[sectionKey] || [];
+  const custom = dState.custom[sectionKey] || [];
+  const items = [];
 
-  entries.forEach((entry, i) => {
-    const id = isCustom
-      ? `${day.date}::${sectionName}::custom::${i}`
-      : `${day.date}::${sectionName}::${i}`;
+  base.forEach((x,i)=> items.push({ ...x, id:`${person}::${iso}::base::${sectionKey}::${i}`, isCustom:false, idx:i }));
+  custom.forEach((x,i)=> items.push({ ...x, id:`${person}::${iso}::custom::${sectionKey}::${i}`, isCustom:true, idx:i }));
 
+  const list = document.createElement("div");
+  list.className = "list";
+
+  const meta = sectionMeta(sectionKey);
+
+  items.forEach((it) => {
     const label = document.createElement("label");
-    label.className = "item " + sectionBorderClass(sectionName) + (dState.checks[id] ? " done" : "");
-
+    label.className = "item" + (dState.checks[it.id] ? " done" : "");
     const cb = document.createElement("input");
     cb.type = "checkbox";
-    cb.checked = !!dState.checks[id];
+    cb.checked = !!dState.checks[it.id];
     cb.onchange = () => {
-      dState.checks[id] = cb.checked;
-      saveState(currentProfile);
+      dState.checks[it.id] = cb.checked;
+      saveState();
       renderAll(false);
     };
 
+    const bar = document.createElement("div");
+    bar.className = "bar " + meta.cls;
+
     const box = document.createElement("div");
-    const title = entry.title || "(Untitled)";
-    const desc = entry.desc || "";
-    box.innerHTML = `<div class="itemTitle">${title}${isCustom ? " <span class='tag'>custom</span>" : ""}</div>
+    const title = it.title || (meta.title + " item");
+    const desc = it.desc || "";
+    box.innerHTML = `<div class="itemTitle">${title}${it.isCustom ? ' <span class="badge" style="margin-left:6px;">Custom</span>' : ""}</div>
                      <div class="itemDesc">${desc}</div>`;
 
-    label.appendChild(cb);
-    label.appendChild(box);
-    listEl.appendChild(label);
+    label.append(cb, bar, box);
+
+    // allow delete custom task
+    if(it.isCustom){
+      const del = document.createElement("button");
+      del.type="button";
+      del.className="smallBtn danger";
+      del.textContent="Delete";
+      del.style.marginLeft="auto";
+      del.onclick = (e) => {
+        e.preventDefault();
+        // remove custom item
+        dState.custom[sectionKey].splice(it.idx, 1);
+        // cleanup checks for this day's custom ids (simple approach: remove any custom checks for this section)
+        Object.keys(dState.checks).forEach(k=>{
+          if(k.startsWith(`${person}::${iso}::custom::${sectionKey}::`)) delete dState.checks[k];
+        });
+        saveState();
+        renderAll(false);
+      };
+      label.appendChild(del);
+    }
+
+    list.appendChild(label);
   });
+
+  return list;
 }
 
 function renderSelectedDay(){
-  const st = appState[currentProfile];
-  const day = PLAN[st.selectedIndex];
-  const dState = ensureDay(currentProfile, day.date);
+  const person = state.person;
+  const plan = getPersonPlan(person);
+  const dayObj = plan[state.selectedIndex];
+  const iso = dayObj.date;
+  const dState = ensureDay(person, iso);
 
-  dayTitleEl.textContent = `${PROFILES[currentProfile].icon} ${PROFILES[currentProfile].name} — ${formatDate(day.date)} — ${day.theme}`;
+  dayTitleEl.textContent = `${formatDate(iso)} — ${dayObj.theme || ""}`;
 
+  // badges
   badgesEl.innerHTML = "";
-  (PROFILES[currentProfile].badges || []).forEach(b=>{
-    const span = document.createElement("span");
-    span.className = "tag";
-    span.textContent = b;
-    badgesEl.appendChild(span);
+  (dayObj.badges || []).forEach(b=>{
+    const s = document.createElement("span");
+    s.className="badge";
+    s.textContent=b;
+    badgesEl.appendChild(s);
   });
 
-  routineTextEl.textContent = day.routine || "";
-  rewardTextEl.textContent = day.reward || "";
+  routineTextEl.textContent = dayObj.routine || "";
 
-  // base + custom lists per section
-  renderChecklist(studyListEl, day, "study", day.study, false);
-  const customStudy = (dState.custom?.study) || [];
-  if(customStudy.length){
-    const divider = document.createElement("div");
-    divider.className = "help";
-    divider.style.margin = "6px 0 0";
-    divider.textContent = "Custom tasks:";
-    studyListEl.appendChild(divider);
-    // append custom tasks
-    const wrap = document.createElement("div");
-    wrap.className = "list";
-    studyListEl.appendChild(wrap);
-    renderChecklist(wrap, day, "study", customStudy, true);
-  }
-
-  renderChecklist(mealListEl, day, "meals", day.meals, false);
-  const customMeals = (dState.custom?.meals) || [];
-  if(customMeals.length){
-    const divider = document.createElement("div");
-    divider.className = "help";
-    divider.style.margin = "6px 0 0";
-    divider.textContent = "Custom tasks:";
-    mealListEl.appendChild(divider);
-    const wrap = document.createElement("div");
-    wrap.className = "list";
-    mealListEl.appendChild(wrap);
-    renderChecklist(wrap, day, "meals", customMeals, true);
-  }
-
-  renderChecklist(moveListEl, day, "move", day.movement, false);
-  const customMove = (dState.custom?.move) || [];
-  if(customMove.length){
-    const divider = document.createElement("div");
-    divider.className = "help";
-    divider.style.margin = "6px 0 0";
-    divider.textContent = "Custom tasks:";
-    moveListEl.appendChild(divider);
-    const wrap = document.createElement("div");
-    wrap.className = "list";
-    moveListEl.appendChild(wrap);
-    renderChecklist(wrap, day, "move", customMove, true);
-  }
-
-  renderChecklist(lifeListEl, day, "life", day.life, false);
-  const customLife = (dState.custom?.life) || [];
-  if(customLife.length){
-    const divider = document.createElement("div");
-    divider.className = "help";
-    divider.style.margin = "6px 0 0";
-    divider.textContent = "Custom tasks:";
-    lifeListEl.appendChild(divider);
-    const wrap = document.createElement("div");
-    wrap.className = "list";
-    lifeListEl.appendChild(wrap);
-    renderChecklist(wrap, day, "life", customLife, true);
-  }
-
-  renderChecklist(sleepListEl, day, "sleep", day.sleep, false);
-  const customSleep = (dState.custom?.sleep) || [];
-  if(customSleep.length){
-    const divider = document.createElement("div");
-    divider.className = "help";
-    divider.style.margin = "6px 0 0";
-    divider.textContent = "Custom tasks:";
-    sleepListEl.appendChild(divider);
-    const wrap = document.createElement("div");
-    wrap.className = "list";
-    sleepListEl.appendChild(wrap);
-    renderChecklist(wrap, day, "sleep", customSleep, true);
-  }
-
+  // notes
   notesEl.value = dState.notes || "";
-  notesEl.oninput = () => { dState.notes = notesEl.value; saveState(currentProfile); };
+  notesEl.oninput = () => { dState.notes = notesEl.value; saveState(); };
 
-  const comp = computeCompletion(currentProfile, day);
+  // sections
+  sectionsRoot.innerHTML = "";
+  const sectionOrder = ["study","food","move","sleep","life"];
+
+  sectionOrder.forEach((k)=>{
+    const meta = sectionMeta(k);
+
+    const sec = document.createElement("div");
+    sec.className = "section";
+
+    const head = document.createElement("div");
+    head.className = "sectionTitle";
+    const h3 = document.createElement("h3");
+    h3.textContent = meta.title;
+
+    const addBtn = document.createElement("button");
+    addBtn.type="button";
+    addBtn.className="smallBtn";
+    addBtn.textContent="＋ Add task";
+    addBtn.onclick = () => openAddTaskModal(k);
+
+    head.append(h3, addBtn);
+    sec.appendChild(head);
+
+    sec.appendChild(renderChecklist(person, dayObj, k));
+    sectionsRoot.appendChild(sec);
+  });
+
+  // KPI
+  const comp = computeCompletion(person, dayObj);
   kpiDoneEl.textContent = comp.pct + "%";
-  kpiStreakEl.textContent = computeStreak(currentProfile).toString();
+  kpiStreakEl.textContent = computeStreak(person).toString();
 }
 
-function renderAll(scroll=true){
+function renderAll(scrollTop=true){
+  setActiveTabs();
   renderDayButtons();
   renderSelectedDay();
-  if(scroll) window.scrollTo({ top: 0, behavior: "smooth" });
+  if(scrollTop) window.scrollTo({ top:0, behavior:"smooth" });
 }
 
 /* =========================
-   8) ADD CUSTOM TASKS
+   NAV EVENTS
 ========================= */
-function addCustom(section){
-  const st = appState[currentProfile];
-  const day = PLAN[st.selectedIndex];
-  const dState = ensureDay(currentProfile, day.date);
-
-  const titleEl = document.getElementById("add"+cap(section)+"Title");
-  const descEl  = document.getElementById("add"+cap(section)+"Desc");
-  const title = (titleEl.value || "").trim();
-  const desc = (descEl.value || "").trim();
-
-  if(!title) return;
-
-  if(!dState.custom) dState.custom = { study:[], meals:[], move:[], life:[], sleep:[] };
-  if(!dState.custom[section]) dState.custom[section] = [];
-
-  dState.custom[section].push({ title, desc });
-  titleEl.value = "";
-  descEl.value = "";
-
-  saveState(currentProfile);
-  renderAll(false);
+function switchPerson(p){
+  state.person = p;
+  // keep day index in range
+  const plan = getPersonPlan(p);
+  if(state.selectedIndex < 0) state.selectedIndex = 0;
+  if(state.selectedIndex >= plan.length) state.selectedIndex = plan.length - 1;
+  saveState();
+  renderAll();
 }
 
-function cap(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
+tabKaushal.onclick = () => switchPerson("kaushal");
+tabParnika.onclick = () => switchPerson("parnika");
+tabMom.onclick = () => switchPerson("mom");
+tabDad.onclick = () => switchPerson("dad");
 
-document.getElementById("btnAddStudy").onclick = ()=>addCustom("study");
-document.getElementById("btnAddMeal").onclick  = ()=>addCustom("meals");
-document.getElementById("btnAddMove").onclick  = ()=>addCustom("move");
-document.getElementById("btnAddLife").onclick  = ()=>addCustom("life");
-document.getElementById("btnAddSleep").onclick = ()=>addCustom("sleep");
-
-/* =========================
-   9) TOOLS BUTTONS
-========================= */
 document.getElementById("btnPrint").onclick = () => window.print();
 
 document.getElementById("btnResetDay").onclick = () => {
-  const st = appState[currentProfile];
-  const day = PLAN[st.selectedIndex];
-  st.days[day.date] = { checks: {}, notes: "", custom: { study:[], meals:[], move:[], life:[], sleep:[] } };
-  saveState(currentProfile);
-  renderAll(false);
+  const person = state.person;
+  const plan = getPersonPlan(person);
+  const iso = plan[state.selectedIndex].date;
+  state.data[person] ??= {};
+  state.data[person][iso] = { checks:{}, notes:"", custom:{ study:[], food:[], move:[], sleep:[], life:[] } };
+  saveState(); renderAll(false);
 };
 
-document.getElementById("btnResetAll").onclick = () => {
-  appState[currentProfile].days = {};
-  saveState(currentProfile);
-  renderAll(false);
+document.getElementById("btnResetPerson").onclick = () => {
+  const person = state.person;
+  state.data[person] = {};
+  saveState(); renderAll(false);
 };
 
 /* =========================
-   10) TAB SWITCHING
+   ADD TASK MODAL
 ========================= */
-document.getElementById("topnav").addEventListener("click", (e)=>{
-  const btn = e.target.closest(".tabBtn");
-  if(!btn) return;
-  const profile = btn.dataset.profile;
-  if(!profile || !PROFILES[profile]) return;
+const modal = document.getElementById("addTaskModal");
+const modalTitle = document.getElementById("modalTitle");
+const modalSection = document.getElementById("modalSection");
+const modalTaskTitle = document.getElementById("modalTaskTitle");
+const modalTaskDesc = document.getElementById("modalTaskDesc");
+const modalCancel = document.getElementById("modalCancel");
+const modalSave = document.getElementById("modalSave");
 
-  currentProfile = profile;
-  PLAN = PROFILES[currentProfile].buildPlan();
+let pendingSection = "study";
 
-  // activate button
-  document.querySelectorAll(".tabBtn").forEach(b=>b.classList.remove("active"));
-  btn.classList.add("active");
+function openAddTaskModal(sectionKey){
+  pendingSection = sectionKey;
+  modalSection.value = sectionKey;
+  modalTaskTitle.value = "";
+  modalTaskDesc.value = "";
+  modalTitle.textContent = "Add task (" + sectionMeta(sectionKey).title + ")";
+  modal.showModal();
+  modalTaskTitle.focus();
+}
 
-  renderAll();
-});
+modalCancel.onclick = () => modal.close();
+
+modalSave.onclick = () => {
+  const person = state.person;
+  const plan = getPersonPlan(person);
+  const iso = plan[state.selectedIndex].date;
+  const dState = ensureDay(person, iso);
+
+  const sec = modalSection.value || pendingSection;
+  const title = (modalTaskTitle.value || "").trim();
+  const desc = (modalTaskDesc.value || "").trim();
+
+  if(!title){
+    alert("Please enter a title.");
+    return;
+  }
+
+  dState.custom[sec].push({ title, desc });
+  saveState();
+  modal.close();
+  renderAll(false);
+};
 
 /* =========================
-   11) TIMER
+   TIMER
 ========================= */
 let timerSeconds = 20 * 60;
 let timerHandle = null;
@@ -860,7 +1226,7 @@ function showTimer(){
   timerDisplay.textContent = String(m).padStart(2,"0") + ":" + String(s).padStart(2,"0");
 }
 function beep(){
-  try{
+  try {
     const ctx = new (window.AudioContext || window.webkitAudioContext)();
     const o = ctx.createOscillator();
     const g = ctx.createGain();
@@ -869,9 +1235,8 @@ function beep(){
     g.gain.value = 0.05;
     o.start();
     setTimeout(()=>{ o.stop(); ctx.close(); }, 250);
-  }catch{}
+  } catch {}
 }
-
 document.getElementById("timerStart").onclick = () => {
   if(timerHandle) return;
   timerHandle = setInterval(() => {
@@ -882,7 +1247,7 @@ document.getElementById("timerStart").onclick = () => {
       clearInterval(timerHandle);
       timerHandle = null;
       beep();
-      alert("Timer finished. Take a short break!");
+      alert("Timer finished. Take a 5-minute movement break.");
       return;
     }
     showTimer();
@@ -893,16 +1258,24 @@ document.getElementById("timerPause").onclick = () => {
 };
 document.getElementById("timerReset").onclick = () => {
   if(timerHandle){ clearInterval(timerHandle); timerHandle = null; }
-  timerSeconds = 20 * 60;
+  timerSeconds = 20*60;
   showTimer();
 };
 showTimer();
 
 /* =========================
-   12) START
+   INIT
 ========================= */
-renderAll();
+(function init(){
+  // default person if missing
+  if(!["kaushal","parnika","mom","dad"].includes(state.person)) state.person = "kaushal";
+  // clamp selected index
+  const plan = getPersonPlan(state.person);
+  if(state.selectedIndex < 0) state.selectedIndex = 0;
+  if(state.selectedIndex >= plan.length) state.selectedIndex = plan.length - 1;
+  saveState();
+  renderAll(false);
+})();
 </script>
-
 </body>
 </html>
