@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Family Routine Tracker (Dec 21 – Jan 04)</title>
+<title>Family Routine Tracker – Dec 21 to Jan 04</title>
 
 <style>
-body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:#f5f6fb; }
+body { margin:0; font-family: system-ui, Arial; background:#f5f6fb; }
 .page { display:none; }
 .page.active { display:block; }
 .wrap { max-width:1100px; margin:auto; padding:14px; }
@@ -19,9 +19,11 @@ body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
   cursor:pointer;
 }
 .navbtn.active { background:#22c55e; }
-.icon { font-size:28px; background:#ffffff22; width:48px; height:48px; display:grid; place-items:center; border-radius:14px; }
+.icon { font-size:28px; background:#ffffff22; width:48px; height:48px;
+  display:grid; place-items:center; border-radius:14px; }
 
-header { background:#111827; color:#fff; border-radius:16px; padding:16px; margin-bottom:14px; }
+header { background:#111827; color:#fff; border-radius:16px;
+  padding:16px; margin-bottom:14px; }
 header h1 { margin:0; font-size:18px; }
 header p { margin:6px 0 0; font-size:13px; opacity:.9; }
 
@@ -42,17 +44,28 @@ header p { margin:6px 0 0; font-size:13px; opacity:.9; }
 }
 .dayBtn.active { background:#e0f2fe; border-color:#38bdf8; }
 
-label { display:flex; gap:10px; padding:8px; border:1px solid #e5e7eb; border-radius:10px; margin-bottom:8px; }
+.section { margin-top:14px; }
+.section h3 { margin:0 0 6px; font-size:14px; }
+
+label {
+  display:flex; gap:10px; padding:8px;
+  border:1px solid #e5e7eb; border-radius:10px; margin-bottom:8px;
+}
 label.done { opacity:.6; background:#f3f4f6; }
 
-textarea { width:100%; min-height:80px; border-radius:10px; border:1px solid #e5e7eb; padding:8px; }
-.small { font-size:12px; color:#6b7280; }
+textarea {
+  width:100%; min-height:70px;
+  border-radius:10px; border:1px solid #e5e7eb; padding:8px;
+}
+
+.small { font-size:12px; color:#374151; margin-bottom:6px; }
 .badge { font-size:11px; padding:2px 8px; border-radius:999px; background:#e5e7eb; margin-right:6px; }
 </style>
 </head>
 
 <body>
 
+<!-- NAV -->
 <div class="topbar">
   <div class="nav">
     <button class="navbtn active" onclick="showPage('kaushal',this)">
@@ -60,12 +73,6 @@ textarea { width:100%; min-height:80px; border-radius:10px; border:1px solid #e5
     </button>
     <button class="navbtn" onclick="showPage('parnika',this)">
       <div class="icon">👧</div> Parnika
-    </button>
-    <button class="navbtn" onclick="showPage('mom',this)">
-      <div class="icon">👩</div> Mom
-    </button>
-    <button class="navbtn" onclick="showPage('dad',this)">
-      <div class="icon">👨</div> Dad
     </button>
   </div>
 </div>
@@ -76,7 +83,7 @@ textarea { width:100%; min-height:80px; border-radius:10px; border:1px solid #e5
 <section id="kaushal" class="page active">
 <header>
 <h1>Kaushal – Holiday Plan</h1>
-<p>Dec 21, 2025 → Jan 04, 2026 • Autism-friendly • Short focused blocks</p>
+<p>Dec 21, 2025 → Jan 04, 2026 • Study • Exercise • Food • Sleep</p>
 </header>
 
 <div class="grid">
@@ -88,9 +95,19 @@ textarea { width:100%; min-height:80px; border-radius:10px; border:1px solid #e5
 <div class="card">
 <h2 id="titleK"></h2>
 <div class="content">
-<div id="listK"></div>
-<h3>Notes</h3>
-<textarea id="notesK"></textarea>
+<div class="small">✅ Completed today: <strong id="percentK">0%</strong></div>
+
+<div id="tasksK"></div>
+
+<div class="section">
+<h3>📝 What actually happened</h3>
+<textarea id="actualK"></textarea>
+</div>
+
+<div class="section">
+<h3>💬 Why it was different (optional)</h3>
+<textarea id="reasonK"></textarea>
+</div>
 </div>
 </div>
 </div>
@@ -100,7 +117,7 @@ textarea { width:100%; min-height:80px; border-radius:10px; border:1px solid #e5
 <section id="parnika" class="page">
 <header>
 <h1>Parnika (Age 3.9) – Holiday Plan</h1>
-<p>Dec 21, 2025 → Jan 04, 2026 • Play-based • Online school 4:30–7:30 PM</p>
+<p>Dec 21, 2025 → Jan 04, 2026 • Play • Exercise • Food • Sleep • Online school</p>
 </header>
 
 <div class="grid">
@@ -112,20 +129,22 @@ textarea { width:100%; min-height:80px; border-radius:10px; border:1px solid #e5
 <div class="card">
 <h2 id="titleP"></h2>
 <div class="content">
-<div id="listP"></div>
-<h3>Notes</h3>
-<textarea id="notesP"></textarea>
-</div>
-</div>
-</div>
-</section>
+<div class="small">✅ Completed today: <strong id="percentP">0%</strong></div>
 
-<section id="mom" class="page">
-<header><h1>Mom</h1><p>Coming soon</p></header>
-</section>
+<div id="tasksP"></div>
 
-<section id="dad" class="page">
-<header><h1>Dad</h1><p>Coming soon</p></header>
+<div class="section">
+<h3>📝 What actually happened</h3>
+<textarea id="actualP"></textarea>
+</div>
+
+<div class="section">
+<h3>💬 Why it was different (optional)</h3>
+<textarea id="reasonP"></textarea>
+</div>
+</div>
+</div>
+</div>
 </section>
 
 </div>
@@ -138,60 +157,87 @@ function showPage(id,btn){
   btn.classList.add('active');
 }
 
-function fmt(d){ return new Date(d).toDateString(); }
-
 const dates = [
 "2025-12-21","2025-12-22","2025-12-23","2025-12-24","2025-12-25",
 "2025-12-26","2025-12-27","2025-12-28","2025-12-29","2025-12-30",
 "2025-12-31","2026-01-01","2026-01-02","2026-01-03","2026-01-04"
 ];
 
-function build(child){
-  const daysDiv = document.getElementById("days"+child);
-  const title = document.getElementById("title"+child);
-  const list = document.getElementById("list"+child);
-  const notes = document.getElementById("notes"+child);
-  const key = "plan_"+child;
+const planKaushal = {
+  study: "Math (20 min), Danish (15–20 min), English reading + writing",
+  exercise: "Morning stretch + outdoor run/walk (30–40 min)",
+  food: "GF/CF meals, protein every meal, fruit snack",
+  sleep: "Wind-down 7:45 PM, sleep by 8:30 PM"
+};
 
-  let state = JSON.parse(localStorage.getItem(key) || "{}");
-  let idx = state.idx || 0;
+const planParnika = {
+  study: "Play-learning: colors, counting, stories (10–20 min total)",
+  exercise: "Dance + outdoor play with brother",
+  food: "Healthy home food, small portions, fruits",
+  sleep: "Online school 4:30–7:30 PM, sleep by 8:00 PM"
+};
 
-  function save(){ localStorage.setItem(key, JSON.stringify(state)); }
+function build(child, plan, daysId, titleId, tasksId, percentId, actualId, reasonId){
+  const daysDiv=document.getElementById(daysId);
+  const title=document.getElementById(titleId);
+  const tasksDiv=document.getElementById(tasksId);
+  const percent=document.getElementById(percentId);
+  const actual=document.getElementById(actualId);
+  const reason=document.getElementById(reasonId);
+  const key="state_"+child;
+
+  let state=JSON.parse(localStorage.getItem(key)||"{}");
+  let idx=state.idx||0;
+
+  function save(){ localStorage.setItem(key,JSON.stringify(state)); }
 
   function render(){
     daysDiv.innerHTML="";
     dates.forEach((d,i)=>{
       const b=document.createElement("button");
       b.className="dayBtn"+(i===idx?" active":"");
-      b.textContent=fmt(d);
+      b.textContent=new Date(d).toDateString();
       b.onclick=()=>{ idx=i; state.idx=i; save(); render(); };
       daysDiv.appendChild(b);
     });
 
     const date=dates[idx];
-    title.textContent=fmt(date);
-
+    title.textContent=new Date(date).toDateString();
     state[date]=state[date]||{};
-    list.innerHTML="";
-    ["Study / Play","Exercise","Healthy Meals","Sleep on time"].forEach(t=>{
-      const id=date+t;
+
+    tasksDiv.innerHTML="";
+    const tasks=[
+      ["study",plan.study],
+      ["exercise",plan.exercise],
+      ["food",plan.food],
+      ["sleep",plan.sleep]
+    ];
+
+    let done=0;
+    tasks.forEach(([k,text])=>{
+      const id=date+k;
       const l=document.createElement("label");
-      if(state[date][id]) l.classList.add("done");
+      if(state[date][id]){ l.classList.add("done"); done++; }
       const c=document.createElement("input");
       c.type="checkbox"; c.checked=!!state[date][id];
       c.onchange=()=>{ state[date][id]=c.checked; save(); render(); };
-      l.append(c,document.createTextNode(t));
-      list.appendChild(l);
+      l.append(c,document.createTextNode(text));
+      tasksDiv.appendChild(l);
     });
 
-    notes.value=state[date].notes||"";
-    notes.oninput=()=>{ state[date].notes=notes.value; save(); };
+    percent.textContent=Math.round((done/tasks.length)*100)+"%";
+
+    actual.value=state[date].actual||"";
+    actual.oninput=()=>{ state[date].actual=actual.value; save(); };
+
+    reason.value=state[date].reason||"";
+    reason.oninput=()=>{ state[date].reason=reason.value; save(); };
   }
   render();
 }
 
-build("K");
-build("P");
+build("K",planKaushal,"daysK","titleK","tasksK","percentK","actualK","reasonK");
+build("P",planParnika,"daysP","titleP","tasksP","percentP","actualP","reasonP");
 </script>
 
 </body>
