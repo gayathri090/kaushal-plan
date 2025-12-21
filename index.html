@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Family Routine Tracker (Dec 21 → Jan 4)</title>
+  <title>Family Routine Tracker (Dec 22 → Jan 4)</title>
   <style>
     :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
     body { margin: 0; background:#f6f7fb; color:#111; }
@@ -116,7 +116,7 @@
 
 <body>
   <header>
-    <h1>Family Routine Tracker — Dec 21, 2025 → Jan 4, 2026</h1>
+    <h1>Family Routine Tracker — Dec 22, 2025 → Jan 4, 2026</h1>
     <p>
       Track daily plan + what actually happened. Everything is saved in your browser (localStorage).
       If you open the same file in the same browser, your progress stays.
@@ -426,33 +426,9 @@ function formatDate(iso){
   return d.toLocaleDateString(undefined, { weekday:"short", year:"numeric", month:"short", day:"numeric" });
 }
 
-/* ===================== PLANS (Dec 21 → Jan 04) ===================== */
+/* ===================== PLANS (Dec 22 → Jan 04) ===================== */
 /* Kaushal: Autism-friendly + study blocks + movement + independence */
 const KAUSHAL_PLAN = [
-  dayK("2025-12-21","Start calm • build routine",
-    "Morning: wake → wash → breakfast → 10 min movement → Study 1 → break. Midday: lunch → outdoor play. Afternoon: Study 2 → craft. Evening: calm walk → dinner → story → sleep.",
-    "If 6+ done: 20 min favorite activity (LEGO/drawing/video).",
-    [
-      it("Math (20 min): Number sense 1–20","Count objects, match number cards, compare more/less."),
-      it("Danish (15–20 min): Sounds + 5 words","mor, far, hus, mad, bog. Say → point → clap syllables."),
-      it("English (15–20 min): Read easy + copy 2–3 lines","Slow writing, praise effort.")
-    ],
-    mealsGF(),
-    [
-      it("Morning (10–12 min)","Animal walks: bear crawl + frog jumps + 2 min breathing."),
-      it("Outdoor (35–45 min)","Walk + 5 short runs (10–20 sec) with full rest."),
-      it("Evening calm (6–8 min)","Stretch + wall push-ups 2×8.")
-    ],
-    [
-      it("Independence","Pack water bottle + choose clothes (2 options) + laundry in basket."),
-      it("Communication","Use 'First–Then': First study, Then reward. Short words only.")
-    ],
-    [
-      it("Sleep prep","Screens off 30 min before bed + dim lights + story."),
-      it("Bedtime target","Same bedtime every night (keep consistent).")
-    ]
-  ),
-
   dayK("2025-12-22","Consistency • tiny upgrade",
     "Same rhythm. Use timer + 2-minute warnings before transitions.",
     "If 2 study blocks + outdoor done: choose story + 15 min game.",
