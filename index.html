@@ -926,7 +926,14 @@ function renderAll(){
  *  ========================= */
 document.querySelectorAll(".tabBtn").forEach(btn=>{
   btn.addEventListener("click", ()=>{
-    currentProfile = btn.getAttribute("data-profile");
+    const profile = btn.getAttribute("data-profile");
+
+    // For Mom/Dad, open their dedicated pages (GitHub Pages supports simple relative links)
+    if(profile === "mom"){ window.location.href = "mom.html"; return; }
+    if(profile === "dad"){ window.location.href = "dad.html"; return; }
+
+    // Kaushal/Parnika stay inside this dashboard
+    currentProfile = profile;
     currentDayId = plans[currentProfile].days[0].id;
     renderAll();
   });
