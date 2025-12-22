@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>Mom Plan</title>
-<style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mom — Masters AI + Citizenship + Health</title>
+
+  <style>
     :root{
       --bg:#0b1220;
       --panel:#101a2e;
@@ -361,69 +361,72 @@
       font-size: 12px;
     }
   
-/* --- Profile-specific page tweaks --- */
-.profiles{display:none !important;}
+    /* Translator layout */
+    .translatorGrid{display:grid;grid-template-columns:1fr;gap:12px;max-width:1100px;}
+    @media (min-width: 900px){
+      .translatorGrid{grid-template-columns:1fr 1fr;align-items:start;}
+    }
+    .translatorBox{border:1px solid var(--line);border-radius:12px;padding:12px;background:rgba(15,23,42,0.25);}
 </style>
 </head>
+
 <body>
-<div class="topbar">
-<div class="titleRow">
-<div class="titleBlock">
-<h1>Mom Plan</h1>
-<div class="subtitle" id="subtitle">
+  <div class="topbar">
+    <div class="titleRow">
+      <div class="titleBlock">
+        <h1>Mom Plan — AI • Danish Citizenship • Health</h1>
+        <div class="subtitle" id="subtitle">
           Kaushal routine: short blocks, clear steps, movement breaks, and simple tracking. Diet focus: GF/CF/Sugar-free/Low oil + high protein.
         </div>
+      </div>
+
+      <div class="clock">
+        <div class="clockTime" id="clockTime">--:--:--</div>
+        <div class="clockDate" id="clockDate">---</div>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <div class="tabBtn active" data-profile="mom">
+        <div class="tabIcon">👩‍🎓</div>
+        <div class="tabText"><strong>Mom</strong><span>AI + Citizenship</span></div>
+      </div>
+    </div>
+
 </div>
-<div class="clock">
-<div class="clockTime" id="clockTime">--:--:--</div>
-<div class="clockDate" id="clockDate">---</div>
-</div>
-</div>
-<div class="tabs">
-<div class="tabBtn active" data-profile="kaushal">
-<div class="tabIcon">👦</div>
-<div class="tabText"><strong>Kaushal</strong><span>Holiday plan</span></div>
-</div>
-<div class="tabBtn" data-profile="parnika">
-<div class="tabIcon">👧</div>
-<div class="tabText"><strong>Parnika</strong><span>Holiday plan</span></div>
-</div>
-<div class="tabBtn" data-profile="mom">
-<div class="tabIcon">👩‍🎓</div>
-<div class="tabText"><strong>Mom</strong><span>AI + Citizenship</span></div>
-</div>
-<div class="tabBtn" data-profile="dad">
-<div class="tabIcon">👨‍💼</div>
-<div class="tabText"><strong>Dad</strong><span>Salesforce + Driving</span></div>
-</div>
-</div>
-</div>
-<div class="layout">
-<!-- LEFT: DAYS -->
-<div class="panel">
-<div class="panelHeader">
-<h2>Days</h2>
-</div>
-<div class="stats">
-<div class="statCard">
-<div class="statBig" id="todayCompletion">0%</div>
-<div class="statLabel">Today completion</div>
-</div>
-<div class="statCard">
-<div class="statBig" id="dailyStreak">0</div>
-<div class="statLabel">Daily streak (≥ 60%)</div>
-</div>
-</div>
-<div class="daysList" id="daysList"></div>
-</div>
-<!-- RIGHT: DETAILS -->
-<div class="panel">
-<div class="detail" id="detail"></div>
-</div>
-</div>
-<div class="footerHint">
+  </div>
+
+  <div class="layout">
+    <!-- LEFT: DAYS -->
+    <div class="panel">
+      <div class="panelHeader">
+        <h2>Days</h2>
+      </div>
+
+      <div class="stats">
+        <div class="statCard">
+          <div class="statBig" id="todayCompletion">0%</div>
+          <div class="statLabel">Today completion</div>
+        </div>
+        <div class="statCard">
+          <div class="statBig" id="dailyStreak">0</div>
+          <div class="statLabel">Daily streak (≥ 60%)</div>
+        </div>
+      </div>
+
+      <div class="daysList" id="daysList"></div>
+    </div>
+
+    <!-- RIGHT: DETAILS -->
+    <div class="panel">
+      <div class="detail" id="detail"></div>
+    </div>
+  </div>
+
+  <div class="footerHint">
     Tip: Check tasks as you do them. % updates automatically. Notes + progress are saved in your browser (localStorage).
   </div>
+
 <script>
 /** =========================
  *  DATE HELPERS
@@ -922,6 +925,10 @@ document.querySelectorAll(".tabBtn").forEach(btn=>{
   btn.addEventListener("click", ()=>{
     const profile = btn.getAttribute("data-profile");
 
+    // For Mom/Dad, open their dedicated pages (GitHub Pages supports simple relative links)
+    if(profile === "mom"){ window.location.href = "mom.html"; return; }
+    if(profile === "dad"){ window.location.href = "dad.html"; return; }
+
     // Kaushal/Parnika stay inside this dashboard
     currentProfile = profile;
     currentDayId = plans[currentProfile].days[0].id;
@@ -959,6 +966,163 @@ function escapeHtml(str){
  *  Start
  *  ========================= */
 renderAll();
+
+/** =========================
+ *  Danish → English translator (in-page Google Translate via iframe)
+ *  ========================= */
+(function(){
+  const input = document.getElementById("daInput");
+  const btn = document.getElementById("translateBtn");
+  const clear = document.getElementById("clearTranslate");
+  const frame = document.getElementById("gtFrame");
+  const status = document.getElementById("translateStatus");
+
+  if(!input || !btn || !clear || !frame) return;
+
+  function setStatus(on){
+    if(!status) return;
+    status.style.display = on ? "inline-flex" : "none";
+  }
+
+  function baseUrl(){
+    return "https://translate.google.com/?sl=da&tl=en&op=translate";
+  }
+
+  function translateNow(){
+    const text = (input.value || "").trim();
+    if(!text){
+      setStatus(false);
+      return;
+    }
+    setStatus(true);
+    // Google supports `text=` in the URL.
+    const url = "https://translate.google.com/?sl=da&tl=en&text=" + encodeURIComponent(text) + "&op=translate";
+    frame.src = url;
+  }
+
+  btn.addEventListener("click", translateNow);
+
+  // Ctrl/Cmd + Enter => translate
+  input.addEventListener("keydown", (ev)=>{
+    if((ev.ctrlKey || ev.metaKey) && ev.key === "Enter"){
+      ev.preventDefault();
+      translateNow();
+    }
+  });
+
+  clear.addEventListener("click", ()=>{
+    input.value = "";
+    frame.src = baseUrl();
+    setStatus(false);
+    input.focus();
+  });
+
+  frame.addEventListener("load", ()=> setStatus(false));
+})();;
 </script>
-<section class="card"><h2>Citizenship material (PDF)</h2><p>Open or download the official material PDF.</p><a class="btn" href="2025version.pdf" target="_blank">Open PDF</a><iframe loading="lazy" src="2025version.pdf" style="width:100%; height:700px; border:1px solid rgba(255,255,255,.15); border-radius:12px;"></iframe></section></body>
+
+
+  <div class="layout" style="margin-top:14px">
+    <div class="panel" style="grid-column:1 / -1">
+      <div class="panelHeader">
+        <h2>Danish Citizenship Exam — Chapter-wise quizzes + Resources</h2>
+      </div>
+
+      <div class="detail" style="padding-top: 8px;">
+        <div class="routineText">
+          These links open the quizzes on NearlyDanish (Indfødsretsprøven). Use them together with the day plan above.
+        </div>
+
+        <div class="section">
+          <div class="sectionHead"><h4>Kapitel 1–6 (All sub-quizzes)</h4></div>
+          <div class="routineText">
+            <a class="chip" href="https://nearlydanish.com/ind/kapitel-1/" target="_blank" rel="noopener">Kapitel 1</a>
+            <a class="chip" href="https://nearlydanish.com/ind/kapitel-2/" target="_blank" rel="noopener">Kapitel 2</a>
+            <a class="chip" href="https://nearlydanish.com/ind/kapitel-3/" target="_blank" rel="noopener">Kapitel 3</a>
+            <a class="chip" href="https://nearlydanish.com/ind/kapitel-4/" target="_blank" rel="noopener">Kapitel 4</a>
+            <a class="chip" href="https://nearlydanish.com/ind/kapitel-5/" target="_blank" rel="noopener">Kapitel 5</a>
+            <a class="chip" href="https://nearlydanish.com/ind/kapitel-6/" target="_blank" rel="noopener">Kapitel 6</a>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="sectionHead"><h4>Other quick links</h4></div>
+          <div class="routineText" style="display:flex;flex-wrap:wrap;gap:8px">
+            <a class="chip" href="https://nearlydanish.com/ind/previous-exams/" target="_blank" rel="noopener">Previous Exams</a>
+            <a class="chip" href="https://nearlydanish.com/ind/frequently-asked-questions/" target="_blank" rel="noopener">FAQ</a>
+            <a class="chip" href="https://nearlydanish.com/ind/dansk-vaerdier/" target="_blank" rel="noopener">Dansk Værdier</a>
+            <a class="chip" href="https://nearlydanish.com/ind/current-affairs/" target="_blank" rel="noopener">Current Affairs</a>
+            <a class="chip" href="https://nearlydanish.com/ind/mock-tests/" target="_blank" rel="noopener">Mock Tests</a>
+            <a class="chip" href="https://nearlydanish.com/ind/forfattere/" target="_blank" rel="noopener">Forfattere</a>
+            <a class="chip" href="https://nearlydanish.com/ind/konger-og-dronninger/" target="_blank" rel="noopener">Konger og Dronninger</a>
+            <a class="chip" href="https://nearlydanish.com/ind/politikere/" target="_blank" rel="noopener">Politikere</a>
+            <a class="chip" href="https://nearlydanish.com/ind/musikere/" target="_blank" rel="noopener">Musikere</a>
+            <a class="chip" href="https://nearlydanish.com/ind/arkitekter-og-designere/" target="_blank" rel="noopener">Arkitekter og designere</a>
+            <a class="chip" href="https://nearlydanish.com/ind/folk-i-film/" target="_blank" rel="noopener">Folk i Film</a>
+            <a class="chip" href="https://nearlydanish.com/ind/videnskabsmaend-og-filosoffer/" target="_blank" rel="noopener">Videnskabsmænd og filosoffer</a>
+            <a class="chip" href="https://nearlydanish.com/ind/dansk-vaerdier-videos/" target="_blank" rel="noopener">Dansk Værdier (Videos)</a>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="sectionHead"><h4>Musikere → Salmedigter (direct)</h4></div>
+          <div class="routineText" style="display:flex;flex-wrap:wrap;gap:8px">
+            <a class="chip" href="https://nearlydanish.com/ind/musikere/" target="_blank" rel="noopener">Salmedigter overview</a>
+            <a class="chip" href="https://nearlydanish.com/ind/thomas-kingo/" target="_blank" rel="noopener">Thomas Kingo</a>
+            <a class="chip" href="https://nearlydanish.com/ind/hans-adolph-brorson/" target="_blank" rel="noopener">Hans Adolph Brorson</a>
+            <a class="chip" href="https://nearlydanish.com/ind/grundtvig/" target="_blank" rel="noopener">N.F.S. Grundtvig</a>
+            <a class="chip" href="https://nearlydanish.com/ind/bernhard-severin-ingemann/" target="_blank" rel="noopener">B.S. Ingemann</a>
+          </div>
+        </div>
+
+        
+<div class="section">
+  <div class="sectionHead"><h4>Danish → English translator (same page)</h4></div>
+  <div class="routineText">Paste Danish text on the left and click <b>Translate</b>. The translation will load on the right (inside this page).</div>
+
+  <div class="translatorGrid" style="grid-template-columns: 1fr 1fr; gap: 14px;">
+    <div>
+      <div class="routineText" style="margin:6px 0 8px;">Danish text</div>
+      <textarea id="daInput" placeholder="Sæt dansk tekst her…" style="min-height:190px;width:100%;color:var(--text);resize:vertical;"></textarea>
+
+      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:10px;">
+        <button class="primaryBtn" id="translateBtn" type="button">Translate to English</button>
+        <button class="ghostBtn" id="clearTranslate" type="button">Clear</button>
+        <a class="ghostBtn" href="https://translate.google.com/?sl=da&tl=en&op=translate" target="gtFrame" rel="noopener" title="Google Translate (Danish → English) in the right panel">Open Google Translate</a>
+        <div class="chip" id="translateStatus" style="display:none;">Loading…</div>
+      </div>
+
+      <div class="smallHelp">Tip: you can also click “Open Google Translate” to use the full Google UI in the right panel.</div>
+    </div>
+
+    <div>
+      <div class="routineText" style="margin:6px 0 8px;">English translation (Google Translate)</div>
+      <iframe
+        id="gtFrame"
+        name="gtFrame"
+        title="Google Translate (Danish → English)"
+        src="https://translate.google.com/?sl=da&tl=en&op=translate"
+        style="width:100%;height:320px;border:1px solid rgba(148,163,184,.25);border-radius:12px;background:rgba(15,23,42,0.25);">
+      </iframe>
+      <div class="smallHelp">If the iframe is blocked by your browser, click “Open Google Translate” (it will still open inside the right panel). If it still doesn’t load, allow third‑party content for this site.</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+          <div class="sectionHead"><h4>PDF Viewer</h4></div>
+          <div class="routineText">If you don’t see the PDF, open it in a new tab using the link below.</div>
+          <div style="border:1px solid var(--line);border-radius:14px;overflow:hidden;background:rgba(15,23,42,0.25);">
+            <iframe src="2025version.pdf#view=FitH" title="PDF Viewer" style="width:100%;height:680px;border:0;"></iframe>
+          </div>
+          <div class="routineText" style="margin-top:10px">
+            <a class="chip" href="2025version.pdf" target="_blank" rel="noopener">Open PDF in new tab</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
 </html>
