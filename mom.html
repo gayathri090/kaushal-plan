@@ -367,6 +367,23 @@
       .translatorGrid{grid-template-columns:1fr 1fr;align-items:start;}
     }
     .translatorBox{border:1px solid var(--line);border-radius:12px;padding:12px;background:rgba(15,23,42,0.25);}
+
+  /* ===== AI 30-day table ===== */
+  .aiWrap{ margin: 18px 0 0; background: var(--white); border:1px solid var(--line); border-radius:14px; overflow:hidden;}
+  .subtitleSmall{ color:var(--muted); font-size:13px; margin-top:4px;}
+  .aiTop{ display:flex; align-items:center; gap:10px; padding:14px 16px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); background: #fafafa;}
+  .btn{ border:1px solid var(--line); background: var(--blue); color:white; padding:10px 12px; border-radius:12px; cursor:pointer; font-weight:700;}
+  .btn:hover{ filter:brightness(0.98); }
+  .btn.ghost{ background:transparent; color:var(--text); }
+  .aiTableWrap{ overflow:auto; }
+  table.aiTable{ width:100%; border-collapse:collapse; font-size:14px; }
+  .aiTable th, .aiTable td{ border-bottom:1px solid var(--line); padding:10px 10px; vertical-align:top; }
+  .aiTable thead th{ position:sticky; top:0; background:white; z-index:1; }
+  .aiTable a{ color: var(--blue); text-decoration:none; }
+  .aiTable a:hover{ text-decoration:underline; }
+  .aiTable input[type="text"]{ width:100%; padding:8px 10px; border:1px solid var(--line); border-radius:10px; }
+  .aiTable .doneCell{ text-align:center; }
+
 </style>
 </head>
 
@@ -423,7 +440,40 @@
     </div>
   </div>
 
-  <div class="footerHint">
+  
+  <!-- AI 30-DAY PLAN -->
+  <div class="aiWrap">
+    <div class="panelHeader">
+      <h2>30‑Day AI Learning Plan</h2>
+      <div class="subtitleSmall">Check off each day. Notes + completion are saved in this browser.</div>
+    </div>
+
+    <div class="aiTop">
+      <div class="statCard">
+        <div class="statLabel">AI Completion</div>
+        <div class="statBig" id="aiCompletion">0%</div>
+      </div>
+      <button class="btn" id="btnAddAiRow">➕ Add AI Task</button>
+      <button class="btn ghost" id="btnResetAi">Reset AI Progress</button>
+    </div>
+
+    <div class="aiTableWrap">
+      <table class="aiTable" id="aiTable">
+        <thead>
+          <tr>
+            <th style="width:90px;">Day</th>
+            <th>Focus / Task</th>
+            <th style="width:180px;">Resource</th>
+            <th style="width:90px;">Done</th>
+            <th style="width:260px;">Notes</th>
+          </tr>
+        </thead>
+        <tbody id="aiTbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+<div class="footerHint">
     Tip: Check tasks as you do them. % updates automatically. Notes + progress are saved in your browser (localStorage).
   </div>
 
@@ -1039,6 +1089,118 @@ renderAll();
     input.focus();
   });
 })();
+
+
+// ===== 30-Day AI Learning Plan (from CSV) =====
+const AI_PLAN_BASE = [{"day": 1, "focus": "Intro to LLMs & Prompting", "link": "https://huggingface.co/learn/llm-course/en/chapter1/1"}, {"day": 2, "focus": "Prompt Engineering Basics", "link": "https://www.analyticsvidhya.com/blog/2024/03/free-chatgpt-prompt-engineering-courses-and-resources/"}, {"day": 3, "focus": "Explore Prompt Libraries", "link": "https://arxiv.org/abs/2202.01279"}, {"day": 4, "focus": "Build simple Chat app with HF model", "link": "https://huggingface.co/models"}, {"day": 5, "focus": "Follow hands-on GenAI tutorial", "link": "https://www.youtube.com/watch?v=bFB4zqkcatU"}, {"day": 6, "focus": "Reflect & refine prompts", "link": "https://huggingface.co/learn"}, {"day": 7, "focus": "Mini-project: Summarizer CLI", "link": "https://github.com"}, {"day": 8, "focus": "Study LLM architectures", "link": "https://huggingface.co/learn/llm-course"}, {"day": 9, "focus": "Learn vector DBs + embeddings", "link": "https://www.pinecone.io/learn/vector-database/"}, {"day": 10, "focus": "Build your first RAG pipeline", "link": "https://www.machinelearningmastery.com/building-a-simple-rag-application-using-llamaindex/"}, {"day": 11, "focus": "Build Q&A over documents", "link": "https://docs.llamaindex.ai"}, {"day": 12, "focus": "Experiment with embeddings", "link": "https://huggingface.co/sentence-transformers"}, {"day": 13, "focus": "Build doc-assistant app with Gradio", "link": "https://www.gradio.app"}, {"day": 14, "focus": "Review & document learnings", "link": "nan"}, {"day": 15, "focus": "Study advanced RAG patterns", "link": "https://docs.llamaindex.ai"}, {"day": 16, "focus": "Run an LLM locally", "link": "https://huggingface.co/models"}, {"day": 17, "focus": "Build RAG + Local LLM UI", "link": "https://www.gradio.app"}, {"day": 18, "focus": "Metadata-based retrieval", "link": "https://docs.llamaindex.ai"}, {"day": 19, "focus": "Learn LLMOps basics", "link": "https://wandb.ai/site"}, {"day": 20, "focus": "Build metrics & logging", "link": "nan"}, {"day": 21, "focus": "Document your project", "link": "https://github.com"}, {"day": 22, "focus": "Learn responsible AI / ethics", "link": "https://www.partnershiponai.org"}, {"day": 23, "focus": "Containerize LLM app", "link": "https://docs.docker.com"}, {"day": 24, "focus": "Build real-world AI use case", "link": "nan"}, {"day": 25, "focus": "Add automated tests (pytest)", "link": "https://docs.pytest.org"}, {"day": 26, "focus": "Polish portfolio (GitHub)", "link": "https://github.com"}, {"day": 27, "focus": "Explore integrations", "link": "nan"}, {"day": 28, "focus": "Publish project summary", "link": "https://www.linkedin.com"}, {"day": 29, "focus": "Review all work", "link": "nan"}, {"day": 30, "focus": "Plan next 60-day roadmap", "link": "nan"}];
+const AI_KEY = "mom_ai30_v1";
+
+function loadAiState(){
+  const raw = localStorage.getItem(AI_KEY);
+  if(raw){
+    try { return JSON.parse(raw); } catch(e){}
+  }
+  // initialize state
+  return AI_PLAN_BASE.map(x => ({...x, done:false, notes:""}));
+}
+
+function saveAiState(state){
+  localStorage.setItem(AI_KEY, JSON.stringify(state));
+}
+
+function renderAiTable(){
+  const tbody = document.getElementById("aiTbody");
+  if(!tbody) return;
+  const state = loadAiState();
+  tbody.innerHTML = "";
+
+  state.forEach((row, idx) => {
+    const tr = document.createElement("tr");
+
+    const tdDay = document.createElement("td");
+    tdDay.textContent = "Day " + row.day;
+    tr.appendChild(tdDay);
+
+    const tdFocus = document.createElement("td");
+    tdFocus.textContent = row.focus;
+    tr.appendChild(tdFocus);
+
+    const tdLink = document.createElement("td");
+    if(row.link && row.link !== "nan"){
+      const a = document.createElement("a");
+      a.href = row.link;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = "Open";
+      tdLink.appendChild(a);
+    } else {
+      tdLink.textContent = "-";
+    }
+    tr.appendChild(tdLink);
+
+    const tdDone = document.createElement("td");
+    tdDone.className = "doneCell";
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = !!row.done;
+    cb.addEventListener("change", () => {
+      const st = loadAiState();
+      st[idx].done = cb.checked;
+      saveAiState(st);
+      updateAiCompletion();
+    });
+    tdDone.appendChild(cb);
+    tr.appendChild(tdDone);
+
+    const tdNotes = document.createElement("td");
+    const input = document.createElement("input");
+    input.type = "text";
+    input.value = row.notes || "";
+    input.placeholder = "Notes…";
+    input.addEventListener("input", () => {
+      const st = loadAiState();
+      st[idx].notes = input.value;
+      saveAiState(st);
+    });
+    tdNotes.appendChild(input);
+    tr.appendChild(tdNotes);
+
+    tbody.appendChild(tr);
+  });
+
+  updateAiCompletion();
+}
+
+function updateAiCompletion(){
+  const el = document.getElementById("aiCompletion");
+  if(!el) return;
+  const st = loadAiState();
+  const done = st.filter(x => x.done).length;
+  const pct = Math.round((done / st.length) * 100);
+  el.textContent = pct + "%";
+}
+
+function addAiRow(){
+  const st = loadAiState();
+  const nextDay = st.length ? Math.max(...st.map(x=>x.day)) + 1 : 1;
+  st.push({day: nextDay, focus:"Custom task", link:"", done:false, notes:""});
+  saveAiState(st);
+  renderAiTable();
+}
+
+function resetAi(){
+  if(!confirm("Reset AI plan progress and notes?")) return;
+  localStorage.removeItem(AI_KEY);
+  renderAiTable();
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  renderAiTable();
+  const addBtn = document.getElementById("btnAddAiRow");
+  if(addBtn) addBtn.addEventListener("click", addAiRow);
+  const resetBtn = document.getElementById("btnResetAi");
+  if(resetBtn) resetBtn.addEventListener("click", resetAi);
+});
 
 </script>
 
