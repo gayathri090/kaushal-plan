@@ -968,41 +968,63 @@ function escapeHtml(str){
 renderAll();
 
 /** =========================
- *  Danish → English translator (in-page Google Translate via iframe)
+ *  Danish → English translator (in-page)
+ *  Uses MyMemory free REST API:
+ *  https://mymemory.translated.net/doc/spec.php
  *  ========================= */
 (function(){
   const input = document.getElementById("daInput");
+  const out = document.getElementById("enOutput");
   const btn = document.getElementById("translateBtn");
   const clear = document.getElementById("clearTranslate");
-  const frame = document.getElementById("gtFrame");
   const status = document.getElementById("translateStatus");
 
-  if(!input || !btn || !clear || !frame) return;
+  if(!input || !out || !btn || !clear) return;
 
-  function setStatus(on){
+  function setStatus(on, msg){
     if(!status) return;
+    status.textContent = msg || (on ? "Translating…" : "");
     status.style.display = on ? "inline-flex" : "none";
   }
 
-  function baseUrl(){
-    return "https://translate.google.com/?sl=da&tl=en&op=translate";
-  }
-
-  function translateNow(){
+  async function translateNow(){
     const text = (input.value || "").trim();
     if(!text){
+      out.value = "";
       setStatus(false);
       return;
     }
-    setStatus(true);
-    // Google supports `text=` in the URL.
-    const url = "https://translate.google.com/?sl=da&tl=en&text=" + encodeURIComponent(text) + "&op=translate";
-    frame.src = url;
+
+    setStatus(true, "Translating…");
+    out.value = "";
+
+    try{
+      const url = "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(text) + "&langpair=da|en";
+      const res = await fetch(url, { method:"GET" });
+      if(!res.ok) throw new Error("HTTP " + res.status);
+      const data = await res.json();
+
+      const translated = data?.responseData?.translatedText ?? "";
+      out.value = translated;
+
+      // Handle quota / warnings if any
+      const details = data?.responseDetails;
+      if(details && String(details).trim()){
+        setStatus(true, String(details));
+        setTimeout(()=> setStatus(false), 3500);
+      }else{
+        setStatus(false);
+      }
+    }catch(err){
+      out.value = "Translation failed. Please check your internet connection and try again.";
+      setStatus(true, "Error");
+      setTimeout(()=> setStatus(false), 2500);
+      console.error(err);
+    }
   }
 
   btn.addEventListener("click", translateNow);
 
-  // Ctrl/Cmd + Enter => translate
   input.addEventListener("keydown", (ev)=>{
     if((ev.ctrlKey || ev.metaKey) && ev.key === "Enter"){
       ev.preventDefault();
@@ -1012,13 +1034,12 @@ renderAll();
 
   clear.addEventListener("click", ()=>{
     input.value = "";
-    frame.src = baseUrl();
+    out.value = "";
     setStatus(false);
     input.focus();
   });
+})();
 
-  frame.addEventListener("load", ()=> setStatus(false));
-})();;
 </script>
 
 
@@ -1078,7 +1099,7 @@ renderAll();
         
 <div class="section">
   <div class="sectionHead"><h4>Danish → English translator (same page)</h4></div>
-  <div class="routineText">Paste Danish text on the left and click <b>Translate</b>. The translation will load on the right (inside this page).</div>
+  <div class="routineText">Paste Danish text, click <b>Translate</b>, and you’ll get the English translation right here.</div>
 
   <div class="translatorGrid" style="grid-template-columns: 1fr 1fr; gap: 14px;">
     <div>
@@ -1088,26 +1109,21 @@ renderAll();
       <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:10px;">
         <button class="primaryBtn" id="translateBtn" type="button">Translate to English</button>
         <button class="ghostBtn" id="clearTranslate" type="button">Clear</button>
-        <a class="ghostBtn" href="https://translate.google.com/?sl=da&tl=en&op=translate" target="gtFrame" rel="noopener" title="Google Translate (Danish → English) in the right panel">Open Google Translate</a>
-        <div class="chip" id="translateStatus" style="display:none;">Loading…</div>
+        <div class="chip" id="translateStatus" style="display:none;">Translating…</div>
       </div>
 
-      <div class="smallHelp">Tip: you can also click “Open Google Translate” to use the full Google UI in the right panel.</div>
+      <div class="smallHelp">Uses the free MyMemory translation API (Danish → English). Works on GitHub Pages and doesn’t open new tabs.</div>
     </div>
 
     <div>
-      <div class="routineText" style="margin:6px 0 8px;">English translation (Google Translate)</div>
-      <iframe
-        id="gtFrame"
-        name="gtFrame"
-        title="Google Translate (Danish → English)"
-        src="https://translate.google.com/?sl=da&tl=en&op=translate"
-        style="width:100%;height:320px;border:1px solid rgba(148,163,184,.25);border-radius:12px;background:rgba(15,23,42,0.25);">
-      </iframe>
-      <div class="smallHelp">If the iframe is blocked by your browser, click “Open Google Translate” (it will still open inside the right panel). If it still doesn’t load, allow third‑party content for this site.</div>
+      <div class="routineText" style="margin:6px 0 8px;">English translation</div>
+      <textarea id="enOutput" placeholder="Translation will appear here…" readonly
+        style="min-height:190px;width:100%;color:var(--text);resize:vertical;opacity:.95;"></textarea>
+      <div class="smallHelp">Tip: Ctrl/Cmd + Enter to translate.</div>
     </div>
   </div>
 </div>
+
 
 <div class="section">
           <div class="sectionHead"><h4>PDF Viewer</h4></div>
