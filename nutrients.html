@@ -1,0 +1,899 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Family Nutrition Plan (Jan 2–10)</title>
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#0f1b33;
+      --card2:#101f3d;
+      --text:#e8eefc;
+      --muted:#a9b6d6;
+      --line:rgba(255,255,255,.10);
+      --good:#66e3a2;
+      --warn:#ffd37a;
+      --bad:#ff7b7b;
+      --chip:rgba(255,255,255,.08);
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 16px;
+    }
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Helvetica Neue", Helvetica, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 15% -10%, rgba(107,142,255,.25), transparent 60%),
+                  radial-gradient(900px 600px at 85% 0%, rgba(102,227,162,.18), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+    }
+
+    header{
+      padding: 22px 16px 8px;
+      max-width: 1200px;
+      margin:0 auto;
+    }
+    .topbar{
+      display:flex; gap:12px; align-items:center; justify-content:space-between; flex-wrap:wrap;
+      padding: 16px;
+      border:1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .brand{
+      display:flex; align-items:center; gap:12px;
+    }
+    .logo{
+      width:38px; height:38px; border-radius:12px;
+      background: linear-gradient(135deg, rgba(107,142,255,.95), rgba(102,227,162,.95));
+      box-shadow: 0 10px 25px rgba(0,0,0,.25);
+    }
+    h1{margin:0; font-size: 18px; letter-spacing:.2px}
+    .subtitle{margin:2px 0 0; font-size:12px; color:var(--muted)}
+
+    .controls{
+      display:flex; gap:10px; align-items:center; flex-wrap:wrap;
+    }
+    .field{
+      display:flex; gap:8px; align-items:center;
+      padding: 10px 12px;
+      border:1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,.04);
+    }
+    label{font-size:12px; color:var(--muted)}
+    input[type="date"], input[type="number"]{
+      background:transparent;
+      border:0;
+      color:var(--text);
+      outline:none;
+      font-size:14px;
+    }
+    input[type="number"]{width: 84px}
+    button{
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.06);
+      color:var(--text);
+      padding:10px 12px;
+      border-radius: 14px;
+      cursor:pointer;
+      transition:.15s transform, .15s background;
+    }
+    button:hover{ transform: translateY(-1px); background: rgba(255,255,255,.09); }
+    button:active{ transform: translateY(0px); }
+
+    main{
+      max-width: 1200px;
+      margin:0 auto;
+      padding: 12px 16px 40px;
+      display:grid;
+      grid-template-columns: 1.35fr .65fr;
+      gap: 14px;
+    }
+    @media (max-width: 980px){
+      main{ grid-template-columns: 1fr; }
+    }
+
+    .card{
+      border:1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .card .hd{
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid var(--line);
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap: 10px;
+    }
+    .card .hd h2{
+      margin:0;
+      font-size: 14px;
+      letter-spacing:.2px;
+    }
+    .card .hd .hint{
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+    .card .bd{ padding: 14px; }
+
+    .chips{display:flex; flex-wrap:wrap; gap:8px}
+    .chip{
+      font-size:12px;
+      padding:6px 10px;
+      border-radius: 999px;
+      background: var(--chip);
+      border: 1px solid var(--line);
+      color: var(--muted);
+    }
+    .chip strong{ color: var(--text); font-weight:600; }
+
+    .gridMeals{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 12px;
+    }
+    @media (max-width: 700px){
+      .gridMeals{ grid-template-columns: 1fr; }
+    }
+    .meal{
+      padding: 12px;
+      border:1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(0,0,0,.18);
+    }
+    .meal .title{
+      display:flex; justify-content:space-between; align-items:flex-start; gap:10px;
+      margin-bottom: 8px;
+    }
+    .meal h3{ margin:0; font-size: 13px; }
+    .meal .desc{ color: var(--muted); font-size: 12px; line-height: 1.35; margin: 6px 0 10px; }
+
+    table{
+      width:100%;
+      border-collapse: collapse;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    th, td{ padding: 6px 0; border-bottom: 1px dashed rgba(255,255,255,.10); }
+    th{ text-align:left; color: var(--text); font-weight: 600; }
+    td:last-child{ text-align:right; color: var(--text); }
+    .muted{ color: var(--muted); }
+
+    .rightCol{
+      display:grid;
+      gap:14px;
+      align-content:start;
+    }
+
+    .kpiRow{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .kpi{
+      padding: 12px;
+      border-radius: 14px;
+      border:1px solid var(--line);
+      background: rgba(0,0,0,.18);
+    }
+    .kpi .lbl{ font-size: 12px; color: var(--muted); }
+    .kpi .val{ font-size: 18px; font-weight: 700; margin-top: 4px; }
+    .bar{
+      height: 8px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.08);
+      overflow:hidden;
+      margin-top: 8px;
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .bar > div{
+      height:100%;
+      width:0%;
+      background: linear-gradient(90deg, rgba(107,142,255,.95), rgba(102,227,162,.95));
+    }
+
+    .checkRow{
+      display:flex; gap:10px; flex-wrap:wrap; align-items:center;
+    }
+    .check{
+      display:flex; gap:8px; align-items:center;
+      padding:10px 12px;
+      border-radius: 14px;
+      border:1px solid var(--line);
+      background: rgba(0,0,0,.18);
+      cursor:pointer;
+      user-select:none;
+    }
+    .check input{ accent-color: #8fb2ff; width: 16px; height:16px; }
+    .small{ font-size: 12px; color: var(--muted); }
+
+    .note{
+      width:100%;
+      min-height: 88px;
+      border-radius: 14px;
+      border:1px solid var(--line);
+      background: rgba(0,0,0,.18);
+      color: var(--text);
+      padding: 10px 12px;
+      outline:none;
+      font-size: 13px;
+      resize: vertical;
+    }
+
+    .foot{
+      padding: 14px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border:1px solid var(--line);
+      background: rgba(0,0,0,.20);
+      margin-right: 6px;
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <div class="topbar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <div>
+        <h1>Family Nutrition Plan — South Indian (Jan 2–10)</h1>
+        <div class="subtitle">Iron + Vitamin D focus • Gluten-free + casein-free kid options • Water & Exercise tracking</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div class="field">
+        <label for="datePicker">Date</label>
+        <input id="datePicker" type="date" />
+      </div>
+      <button id="todayBtn" type="button">Jump to Start (Jan 2)</button>
+      <button id="resetDayBtn" type="button">Reset Today’s check-ins</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- LEFT: Meal plan -->
+  <section class="card" id="planCard">
+    <div class="hd">
+      <div>
+        <h2 id="dayTitle">Meal Plan</h2>
+        <div class="hint" id="dayHint">Select a date to see the menu.</div>
+      </div>
+      <div class="chips" id="focusChips"></div>
+    </div>
+
+    <div class="bd">
+      <div class="gridMeals" id="mealsGrid"></div>
+    </div>
+
+    <div class="foot" id="prepNotes"></div>
+  </section>
+
+  <!-- RIGHT: Tracking / totals -->
+  <aside class="rightCol">
+    <section class="card">
+      <div class="hd">
+        <div>
+          <h2>Daily Totals</h2>
+          <div class="hint">Calculated from the meals shown for the selected date.</div>
+        </div>
+      </div>
+      <div class="bd">
+        <div class="kpiRow">
+          <div class="kpi">
+            <div class="lbl">Calories</div>
+            <div class="val" id="kpiCal">—</div>
+            <div class="bar"><div id="barCal"></div></div>
+            <div class="small">Target (family avg): ~2000 kcal</div>
+          </div>
+          <div class="kpi">
+            <div class="lbl">Protein</div>
+            <div class="val" id="kpiPro">—</div>
+            <div class="bar"><div id="barPro"></div></div>
+            <div class="small">Target: 90–120g (adjust per person)</div>
+          </div>
+        </div>
+
+        <div class="kpiRow" style="margin-top:10px">
+          <div class="kpi">
+            <div class="lbl">Iron</div>
+            <div class="val" id="kpiIron">—</div>
+            <div class="bar"><div id="barIron"></div></div>
+            <div class="small">Focus: 18–27mg (esp. deficiency)</div>
+          </div>
+          <div class="kpi">
+            <div class="lbl">Vitamin D</div>
+            <div class="val" id="kpiVitD">—</div>
+            <div class="bar"><div id="barVitD"></div></div>
+            <div class="small">Focus: 15–20µg/day</div>
+          </div>
+        </div>
+
+        <div style="margin-top:12px" class="chips" id="microChips"></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="hd">
+        <div>
+          <h2>Water + Exercise</h2>
+          <div class="hint">Saved per date (local browser storage).</div>
+        </div>
+      </div>
+      <div class="bd">
+        <div class="checkRow" style="margin-bottom:10px">
+          <div class="field" style="min-width: 240px;">
+            <label for="waterMl">Water</label>
+            <input id="waterMl" type="number" min="0" step="100" placeholder="ml" />
+            <span class="small">ml</span>
+          </div>
+          <button id="add250" type="button">+250ml</button>
+          <button id="add500" type="button">+500ml</button>
+        </div>
+
+        <div class="kpi">
+          <div class="lbl">Water progress</div>
+          <div class="val" id="kpiWater">—</div>
+          <div class="bar"><div id="barWater"></div></div>
+          <div class="small">Target: 2000ml (adjust)</div>
+        </div>
+
+        <div style="height:12px"></div>
+
+        <div class="checkRow">
+          <label class="check"><input id="exWalk" type="checkbox" /> Walk (20–40 min)</label>
+          <label class="check"><input id="exStrength" type="checkbox" /> Strength (15–25 min)</label>
+          <label class="check"><input id="exStretch" type="checkbox" /> Stretch/Yoga (10–15 min)</label>
+        </div>
+
+        <div style="height:12px"></div>
+
+        <div class="small" style="margin-bottom:6px">Notes</div>
+        <textarea class="note" id="notes" placeholder="e.g., energy levels, cravings, symptoms, sleep, etc."></textarea>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="hd">
+        <div>
+          <h2>Kids Menu (Autism-friendly)</h2>
+          <div class="hint">Simple, repeatable, low-sensory options (GF + casein-free).</div>
+        </div>
+      </div>
+      <div class="bd" id="kidsBlock"></div>
+    </section>
+  </aside>
+</main>
+
+<script>
+/**
+ * Why your menu was "same everyday":
+ * Usually because (1) date string mismatch, (2) you never re-render on date change,
+ * or (3) you always bind to a single default menu.
+ *
+ * Fix here:
+ * - We store menus keyed by ISO date: "YYYY-MM-DD"
+ * - On datePicker change => render(date)
+ * - If date not found => show nearest or message
+ */
+
+// ---------- Date range ----------
+const START = "2026-01-02";
+const END   = "2026-01-10";
+
+// ---------- Helpers ----------
+const clamp = (n, min, max) => Math.max(min, Math.min(max, n));
+const pct = (value, target) => clamp((value / target) * 100, 0, 120);
+const fmt = (n, unit="") => `${Math.round(n)}${unit}`;
+const fmt1 = (n, unit="") => `${(Math.round(n*10)/10).toFixed(1)}${unit}`;
+
+function isoToPretty(iso){
+  const d = new Date(iso+"T00:00:00");
+  return d.toLocaleDateString(undefined, { weekday:"long", year:"numeric", month:"short", day:"2-digit" });
+}
+
+function inRange(iso){
+  return iso >= START && iso <= END;
+}
+
+// ---------- Meal plan data (approx nutrients) ----------
+/**
+ * Nutrients are approximate (good enough for tracking trend).
+ * Units:
+ * - calories kcal
+ * - protein g
+ * - carbs g
+ * - fat g
+ * - fiber g
+ * - iron mg
+ * - vitD µg
+ * - vitC mg
+ */
+const plan = {
+  "2026-01-02": {
+    focus: ["Iron boost", "Vit C pairing", "High protein"],
+    prep: "Prep: spinach dal base + boiled eggs; keep lemon + amla ready for Vit C. Soak horse gram (kollu) overnight.",
+    meals: [
+      m("Breakfast", "Ragi dosa + egg bhurji + tomato chutney (GF)",
+        n(520, 26, 62, 18, 8, 6.5, 2.0, 35)),
+      m("Lunch", "Keerai (spinach) dal + brown rice + beetroot poriyal + lemon",
+        n(680, 28, 90, 18, 12, 10.0, 0.0, 70)),
+      m("Snack", "Roasted chana + guava (high Vit C)",
+        n(250, 10, 38, 5, 10, 3.0, 0.0, 125)),
+      m("Dinner", "Fish curry (salmon/mackerel) + millet (thinai) + cucumber salad",
+        n(640, 38, 55, 24, 8, 3.0, 12.0, 18)),
+    ],
+    kids: [
+      "Ragi dosa (crispy edges) + egg omelette strips",
+      "Rice + mild dal (no tadka bits) + beet mash",
+      "Snack: banana + roasted chana powder (small मात्रा)",
+      "Dinner: fish pieces (boneless) with rice + cucumber sticks"
+    ]
+  },
+
+  "2026-01-03": {
+    focus: ["Iron + folate", "Low oil", "Kid-friendly"],
+    prep: "Prep: pressure cook rajma; chop veggies for sambar. Keep oranges/kiwi for Vit C.",
+    meals: [
+      m("Breakfast", "Idli (GF batter: idli rice + urad) + sambar (veg-heavy)",
+        n(520, 18, 92, 8, 10, 5.0, 0.0, 30)),
+      m("Lunch", "Rajma + red rice + carrot-beans poriyal + lemon",
+        n(720, 32, 104, 14, 14, 8.0, 0.0, 55)),
+      m("Snack", "Fruit bowl (kiwi/orange) + pumpkin seeds (1 tbsp)",
+        n(260, 9, 32, 11, 6, 3.5, 0.0, 90)),
+      m("Dinner", "Chicken sukka (low oil) + dosa (kambu/bajra) + onion-tomato salad",
+        n(680, 44, 58, 26, 9, 4.0, 0.5, 22)),
+    ],
+    kids: [
+      "Idli with smooth sambar (blend if needed)",
+      "Rajma mashed + rice (no whole skins if texture-sensitive)",
+      "Snack: orange slices + a few pumpkin seeds (or seed powder)",
+      "Dinner: chicken pieces + bajra dosa (plain) + cucumber"
+    ]
+  },
+
+  "2026-01-04": {
+    focus: ["Omega-3", "Vitamin D", "Iron steady"],
+    prep: "Prep: make coconut chutney; soak moong for pesarattu if needed.",
+    meals: [
+      m("Breakfast", "Pesarattu (moong dosa) + ginger chutney",
+        n(520, 26, 68, 14, 10, 4.5, 0.0, 18)),
+      m("Lunch", "Sardine/mackerel fry (air-fry) + rice + cabbage poriyal + lemon",
+        n(720, 40, 78, 28, 10, 6.0, 10.0, 40)),
+      m("Snack", "Amla (or amla juice no sugar) + peanuts (small handful)",
+        n(220, 9, 16, 14, 5, 2.0, 0.0, 180)),
+      m("Dinner", "Vegetable kootu + millet pongal (little ghee optional for others)",
+        n(620, 24, 86, 18, 12, 7.0, 0.0, 25)),
+    ],
+    kids: [
+      "Pesarattu cut into triangles + mild chutney",
+      "Lunch: fish flakes mixed into rice (no bones) + cabbage finely chopped",
+      "Snack: amla candy? (prefer fresh amla small bites) + peanuts/peanut powder",
+      "Dinner: smooth kootu + millet pongal (plain, soft texture)"
+    ]
+  },
+
+  "2026-01-05": {
+    focus: ["Iron boost", "Vitamin C", "High protein"],
+    prep: "Prep: chana/black chana soak; keep lemons; boil eggs or prep chicken.",
+    meals: [
+      m("Breakfast", "Kambu (bajra) upma + boiled eggs (2) + coriander",
+        n(620, 30, 70, 22, 10, 6.0, 1.0, 25)),
+      m("Lunch", "Black chana sundal + rice + keerai masiyal + lemon",
+        n(740, 34, 110, 14, 16, 11.0, 0.0, 65)),
+      m("Snack", "Dates (2) + almonds (6) + orange",
+        n(280, 7, 36, 12, 5, 2.5, 0.0, 85)),
+      m("Dinner", "Chicken curry + cauliflower ‘rice’ side + real rice (small) + salad",
+        n(680, 46, 62, 24, 8, 4.0, 0.5, 20)),
+    ],
+    kids: [
+      "Bajra upma (very soft) + egg pieces",
+      "Chana mashed + rice + spinach mash",
+      "Snack: orange + almond butter (tiny)",
+      "Dinner: chicken pieces + rice + carrot sticks"
+    ]
+  },
+
+  "2026-01-06": {
+    focus: ["Light day", "Gut-friendly", "Steady iron"],
+    prep: "Prep: curd is skipped (casein-free). Use coconut or sesame for richness.",
+    meals: [
+      m("Breakfast", "Appam (rice) + egg curry (mild)",
+        n(560, 26, 74, 18, 6, 4.0, 1.0, 18)),
+      m("Lunch", "Sambar + rice + okra poriyal + lemon",
+        n(660, 22, 102, 12, 14, 6.5, 0.0, 45)),
+      m("Snack", "Coconut water + roasted makhana",
+        n(220, 7, 30, 8, 4, 1.5, 0.0, 12)),
+      m("Dinner", "Prawn thokku (low oil) + millet dosa + cucumber salad",
+        n(680, 40, 62, 22, 7, 4.0, 0.7, 15)),
+    ],
+    kids: [
+      "Appam + egg curry (no spice bits; smooth gravy)",
+      "Lunch: rice + sambar (blend veggies if needed) + okra chopped tiny",
+      "Snack: makhana (plain) + coconut water",
+      "Dinner: prawn pieces (if accepted) else egg/chicken substitute + dosa"
+    ]
+  },
+
+  "2026-01-07": {
+    focus: ["Iron + vit C", "Protein push", "Low sugar"],
+    prep: "Prep: kollu rasam ready; keep bell pepper/tomato for vit C.",
+    meals: [
+      m("Breakfast", "Ragi porridge (no sugar) + peanut powder + banana",
+        n(520, 18, 78, 16, 10, 7.0, 0.0, 18)),
+      m("Lunch", "Kollu (horse gram) rasam + rice + drumstick poriyal + lemon",
+        n(680, 28, 104, 12, 14, 10.0, 0.0, 55)),
+      m("Snack", "Guava + sunflower seeds (1 tbsp)",
+        n(240, 8, 30, 10, 8, 2.5, 0.0, 140)),
+      m("Dinner", "Salmon bake + veg stir (capsicum) + millet",
+        n(690, 42, 58, 28, 8, 3.0, 12.0, 95)),
+    ],
+    kids: [
+      "Ragi porridge (smooth) + banana",
+      "Lunch: rice + mild rasam + drumstick mash",
+      "Snack: guava slices (or apple if texture issue) + seed powder",
+      "Dinner: salmon flakes + millet soft + capsicum strips (optional)"
+    ]
+  },
+
+  "2026-01-08": {
+    focus: ["Folate", "Iron steady", "Comfort meals"],
+    prep: "Prep: moong dal for pongal; cook extra veggies for kootu.",
+    meals: [
+      m("Breakfast", "Ven pongal (millet) + ginger chutney",
+        n(560, 18, 78, 18, 8, 4.0, 0.0, 12)),
+      m("Lunch", "Chicken sambar (or plain chicken curry) + rice + greens poriyal + lemon",
+        n(740, 46, 92, 20, 10, 7.0, 0.5, 55)),
+      m("Snack", "Boiled egg + apple",
+        n(210, 12, 18, 10, 4, 1.5, 0.7, 6)),
+      m("Dinner", "Mixed veg kootu + dosa + tomato rasam",
+        n(640, 26, 88, 16, 14, 8.0, 0.0, 35)),
+    ],
+    kids: [
+      "Millet pongal (soft) + chutney (tiny amount)",
+      "Lunch: chicken + rice + greens mashed",
+      "Snack: egg + apple slices",
+      "Dinner: kootu blended + dosa pieces"
+    ]
+  },
+
+  "2026-01-09": {
+    focus: ["Seafood vitamin D", "Iron + protein", "Low oil"],
+    prep: "Prep: fish curry base; roast sesame for calcium (non-dairy).",
+    meals: [
+      m("Breakfast", "Idiyappam + coconut milk (thin) + egg omelette",
+        n(600, 24, 86, 18, 6, 4.0, 1.0, 10)),
+      m("Lunch", "Fish curry + rice + beet poriyal + lemon",
+        n(720, 40, 86, 24, 10, 4.0, 12.0, 60)),
+      m("Snack", "Sesame laddoo (no jaggery: use date paste small) + orange",
+        n(280, 8, 34, 14, 6, 3.0, 0.0, 85)),
+      m("Dinner", "Egg curry + kambu dosa + veg soup",
+        n(660, 34, 62, 22, 8, 4.5, 1.5, 20)),
+    ],
+    kids: [
+      "Idiyappam + thin coconut milk + omelette strips",
+      "Lunch: fish flakes + rice + beet mash",
+      "Snack: sesame-date bite (small) + orange",
+      "Dinner: egg curry mild + dosa + soup (smooth)"
+    ]
+  },
+
+  "2026-01-10": {
+    focus: ["Reset & prep", "High iron greens", "Vitamin C"],
+    prep: "Prep: batch cook spinach/keerai; make sambar powder; restock fruits (kiwi/orange/guava).",
+    meals: [
+      m("Breakfast", "Puttu (rice) + kadala curry (black chickpea) + lemon",
+        n(660, 26, 110, 14, 16, 9.0, 0.0, 40)),
+      m("Lunch", "Keerai dal + rice + chicken roast (air-fry) + salad",
+        n(760, 52, 84, 20, 10, 11.0, 0.5, 55)),
+      m("Snack", "Amla + walnuts (4 halves)",
+        n(220, 5, 14, 16, 3, 1.5, 0.0, 180)),
+      m("Dinner", "Moong dal dosa + tomato chutney + fish soup (optional)",
+        n(640, 34, 72, 18, 10, 6.0, 4.0, 30)),
+    ],
+    kids: [
+      "Puttu (soft) + kadala mashed (smooth gravy)",
+      "Lunch: chicken pieces + rice + spinach mash",
+      "Snack: walnuts (or walnut powder) + fruit alternative if amla too sour",
+      "Dinner: moong dosa + chutney (tiny) + soup"
+    ]
+  }
+};
+
+// constructors
+function n(cal, protein, carbs, fat, fiber, iron, vitD, vitC){
+  return {cal, protein, carbs, fat, fiber, iron, vitD, vitC};
+}
+function m(label, desc, nutrients){
+  return {label, desc, nutrients};
+}
+
+// ---------- UI elements ----------
+const datePicker = document.getElementById("datePicker");
+const todayBtn = document.getElementById("todayBtn");
+const resetDayBtn = document.getElementById("resetDayBtn");
+
+const dayTitle = document.getElementById("dayTitle");
+const dayHint = document.getElementById("dayHint");
+const focusChips = document.getElementById("focusChips");
+const mealsGrid = document.getElementById("mealsGrid");
+const prepNotes = document.getElementById("prepNotes");
+
+const kpiCal = document.getElementById("kpiCal");
+const kpiPro = document.getElementById("kpiPro");
+const kpiIron = document.getElementById("kpiIron");
+const kpiVitD = document.getElementById("kpiVitD");
+const microChips = document.getElementById("microChips");
+
+const barCal = document.getElementById("barCal");
+const barPro = document.getElementById("barPro");
+const barIron = document.getElementById("barIron");
+const barVitD = document.getElementById("barVitD");
+
+const waterMl = document.getElementById("waterMl");
+const add250 = document.getElementById("add250");
+const add500 = document.getElementById("add500");
+const kpiWater = document.getElementById("kpiWater");
+const barWater = document.getElementById("barWater");
+
+const exWalk = document.getElementById("exWalk");
+const exStrength = document.getElementById("exStrength");
+const exStretch = document.getElementById("exStretch");
+const notes = document.getElementById("notes");
+
+const kidsBlock = document.getElementById("kidsBlock");
+
+// ---------- Storage ----------
+function keyFor(date){ return `nutrition_${date}`; }
+
+function loadCheckins(date){
+  const raw = localStorage.getItem(keyFor(date));
+  if(!raw) return { water: 0, exWalk:false, exStrength:false, exStretch:false, notes:"" };
+  try { return JSON.parse(raw); } catch { return { water: 0, exWalk:false, exStrength:false, exStretch:false, notes:"" }; }
+}
+function saveCheckins(date, state){
+  localStorage.setItem(keyFor(date), JSON.stringify(state));
+}
+
+// ---------- Render ----------
+function render(date){
+  if(!inRange(date)){
+    dayTitle.textContent = "Out of range";
+    dayHint.textContent = `Pick a date between ${START} and ${END}.`;
+    mealsGrid.innerHTML = "";
+    focusChips.innerHTML = "";
+    prepNotes.innerHTML = "";
+    microChips.innerHTML = "";
+    setTotals(null);
+    renderKids([]);
+    loadTrack(date); // still allow notes if you want
+    return;
+  }
+
+  const day = plan[date];
+  if(!day){
+    dayTitle.textContent = isoToPretty(date);
+    dayHint.textContent = "No menu found for this date (check date keys).";
+    mealsGrid.innerHTML = "";
+    focusChips.innerHTML = "";
+    prepNotes.innerHTML = "";
+    microChips.innerHTML = "";
+    setTotals(null);
+    renderKids([]);
+    loadTrack(date);
+    return;
+  }
+
+  dayTitle.textContent = isoToPretty(date);
+  dayHint.textContent = "Menu changes by date — totals update automatically.";
+
+  focusChips.innerHTML = (day.focus || []).map(x => `<span class="chip"><strong>Focus:</strong> ${x}</span>`).join("");
+
+  mealsGrid.innerHTML = day.meals.map(mealCard).join("");
+
+  prepNotes.innerHTML =
+    `<span class="pill">🧑‍🍳 <strong>Meal prep:</strong> ${day.prep}</span>
+     <span class="pill">💡 <strong>Tip:</strong> Pair iron foods with vitamin C (lemon/guava/kiwi) for absorption.</span>
+     <span class="pill">☀️ <strong>Vitamin D:</strong> Consider daylight + food sources; supplements only if advised.</span>`;
+
+  const totals = sumTotals(day.meals);
+  setTotals(totals);
+
+  microChips.innerHTML = [
+    chipKV("Carbs", fmt(totals.carbs,"g")),
+    chipKV("Fat", fmt(totals.fat,"g")),
+    chipKV("Fiber", fmt(totals.fiber,"g")),
+    chipKV("Vit C", fmt(totals.vitC,"mg")),
+  ].join("");
+
+  renderKids(day.kids);
+  loadTrack(date);
+}
+
+function mealCard(meal){
+  const nu = meal.nutrients;
+  return `
+    <div class="meal">
+      <div class="title">
+        <div>
+          <h3>${meal.label}</h3>
+          <div class="desc">${meal.desc}</div>
+        </div>
+        <div class="chip"><strong>${Math.round(nu.cal)}</strong> kcal</div>
+      </div>
+
+      <table>
+        <tr><th>Protein</th><td>${fmt1(nu.protein,"g")}</td></tr>
+        <tr><th>Carbs</th><td>${fmt1(nu.carbs,"g")}</td></tr>
+        <tr><th>Fat</th><td>${fmt1(nu.fat,"g")}</td></tr>
+        <tr><th>Fiber</th><td>${fmt1(nu.fiber,"g")}</td></tr>
+        <tr><th>Iron</th><td>${fmt1(nu.iron,"mg")}</td></tr>
+        <tr><th>Vitamin D</th><td>${fmt1(nu.vitD,"µg")}</td></tr>
+        <tr><th>Vitamin C</th><td>${fmt1(nu.vitC,"mg")}</td></tr>
+      </table>
+      <div class="small" style="margin-top:8px">
+        <span class="muted">Note:</span> Nutrients are approximate estimates for tracking.
+      </div>
+    </div>
+  `;
+}
+
+function chipKV(k,v){
+  return `<span class="chip"><strong>${k}:</strong> ${v}</span>`;
+}
+
+function sumTotals(meals){
+  const t = {cal:0, protein:0, carbs:0, fat:0, fiber:0, iron:0, vitD:0, vitC:0};
+  meals.forEach(m => {
+    const n = m.nutrients;
+    t.cal += n.cal; t.protein += n.protein; t.carbs += n.carbs;
+    t.fat += n.fat; t.fiber += n.fiber; t.iron += n.iron; t.vitD += n.vitD; t.vitC += n.vitC;
+  });
+  return t;
+}
+
+function setTotals(t){
+  if(!t){
+    kpiCal.textContent = "—";
+    kpiPro.textContent = "—";
+    kpiIron.textContent = "—";
+    kpiVitD.textContent = "—";
+    barCal.style.width = "0%";
+    barPro.style.width = "0%";
+    barIron.style.width = "0%";
+    barVitD.style.width = "0%";
+    return;
+  }
+  kpiCal.textContent = `${Math.round(t.cal)} kcal`;
+  kpiPro.textContent = `${fmt1(t.protein,"g")}`;
+  kpiIron.textContent = `${fmt1(t.iron,"mg")}`;
+  kpiVitD.textContent = `${fmt1(t.vitD,"µg")}`;
+
+  barCal.style.width = `${pct(t.cal, 2000)}%`;
+  barPro.style.width = `${pct(t.protein, 105)}%`;
+  barIron.style.width = `${pct(t.iron, 22)}%`;
+  barVitD.style.width = `${pct(t.vitD, 18)}%`;
+}
+
+// ---------- Tracking (water + exercise + notes) ----------
+function loadTrack(date){
+  const s = loadCheckins(date);
+  waterMl.value = s.water || 0;
+  exWalk.checked = !!s.exWalk;
+  exStrength.checked = !!s.exStrength;
+  exStretch.checked = !!s.exStretch;
+  notes.value = s.notes || "";
+  updateWaterUI();
+}
+
+function readTrack(){
+  return {
+    water: Number(waterMl.value || 0),
+    exWalk: exWalk.checked,
+    exStrength: exStrength.checked,
+    exStretch: exStretch.checked,
+    notes: notes.value || ""
+  };
+}
+
+function persist(){
+  const date = datePicker.value;
+  const s = readTrack();
+  saveCheckins(date, s);
+  updateWaterUI();
+}
+
+function updateWaterUI(){
+  const ml = Number(waterMl.value || 0);
+  kpiWater.textContent = `${Math.round(ml)} ml`;
+  barWater.style.width = `${pct(ml, 2000)}%`;
+}
+
+// ---------- Events ----------
+datePicker.addEventListener("change", () => render(datePicker.value));
+
+[todayBtn, resetDayBtn, add250, add500, waterMl, exWalk, exStrength, exStretch, notes].forEach(el => {
+  if(!el) return;
+  el.addEventListener("click", (e) => {
+    if(el === todayBtn){
+      datePicker.value = START;
+      render(START);
+      return;
+    }
+    if(el === resetDayBtn){
+      const date = datePicker.value;
+      localStorage.removeItem(keyFor(date));
+      loadTrack(date);
+      return;
+    }
+    if(el === add250){
+      waterMl.value = Number(waterMl.value || 0) + 250;
+      persist();
+      return;
+    }
+    if(el === add500){
+      waterMl.value = Number(waterMl.value || 0) + 500;
+      persist();
+      return;
+    }
+  });
+});
+
+// input change persistence
+[waterMl, exWalk, exStrength, exStretch, notes].forEach(el => {
+  el.addEventListener("input", persist);
+  el.addEventListener("change", persist);
+});
+
+// ---------- Kids render ----------
+function renderKids(items){
+  if(!items || !items.length){
+    kidsBlock.innerHTML = `<div class="small">No kids menu for this date.</div>`;
+    return;
+  }
+  kidsBlock.innerHTML = `
+    <div class="chips" style="margin-bottom:10px">
+      <span class="chip"><strong>Protein focus</strong> eggs / chicken / fish / dal</span>
+      <span class="chip"><strong>Texture</strong> soft + predictable</span>
+      <span class="chip"><strong>Free-from</strong> gluten-free + casein-free</span>
+    </div>
+    <ol class="small" style="margin:0; padding-left:18px; line-height:1.6">
+      ${items.map(x => `<li>${x}</li>`).join("")}
+    </ol>
+    <div class="small" style="margin-top:10px">
+      Tip: keep <strong>2 “safe foods”</strong> always available (e.g., idli + egg, rice + dal) to reduce stress.
+    </div>
+  `;
+}
+
+// ---------- Init ----------
+(function init(){
+  // set min/max for picker
+  datePicker.min = START;
+  datePicker.max = END;
+
+  // default to START
+  datePicker.value = START;
+  render(START);
+})();
+</script>
+</body>
+</html>
