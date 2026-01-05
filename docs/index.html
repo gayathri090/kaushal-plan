@@ -1,24 +1,78 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Daily Citizenship Test Links</title>
+  <title>Indfødsretsprøven – Daily Test Links</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body{
+      font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;
+      background:#0b0f14;
+      color:#e7eef7;
+      margin:0;
+      padding:20px;
+    }
+    h1{font-size:20px;margin-bottom:8px}
+    .muted{color:#8aa0b6;font-size:13px;margin-bottom:16px}
+    .card{
+      background:#121826;
+      border:1px solid #223044;
+      border-radius:12px;
+      padding:14px;
+      margin-bottom:12px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+    .date{
+      font-weight:600;
+      font-size:16px;
+    }
+    a.btn{
+      background:#1f2a44;
+      color:#e7eef7;
+      text-decoration:none;
+      padding:8px 12px;
+      border-radius:10px;
+      border:1px solid #223044;
+      font-size:14px;
+    }
+    a.btn:hover{filter:brightness(1.1)}
+  </style>
 </head>
 <body>
-<h2>Daily test links</h2>
-<ul id="list"></ul>
+
+<h1>Indfødsretsprøven – Daily Test History</h1>
+<div class="muted">Only date + daily test link. Latest day first.</div>
+
+<div id="list"></div>
 
 <script>
-fetch("./data.json?c=" + Date.now())
+fetch("./data.json?cache=" + Date.now())
   .then(r => r.json())
   .then(data => {
-    const ul = document.getElementById("list");
+    const list = document.getElementById("list");
+
+    if (!data.length) {
+      list.innerHTML = "<div class='muted'>No data yet</div>";
+      return;
+    }
+
     data.forEach(d => {
-      const li = document.createElement("li");
-      li.innerHTML = `${d.date} — <a href="${d.url}" target="_blank">Open test</a>`;
-      ul.appendChild(li);
+      const div = document.createElement("div");
+      div.className = "card";
+      div.innerHTML = `
+        <div class="date">${d.date}</div>
+        <a class="btn" href="${d.url}" target="_blank" rel="noopener">
+          Open daily test
+        </a>
+      `;
+      list.appendChild(div);
     });
   });
 </script>
+
 </body>
 </html>
