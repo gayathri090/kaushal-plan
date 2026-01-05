@@ -30,6 +30,11 @@
       font-weight:600;
       font-size:16px;
     }
+    .actions{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
     a.btn{
       background:#1f2a44;
       color:#e7eef7;
@@ -39,13 +44,16 @@
       border:1px solid #223044;
       font-size:14px;
     }
+    a.btn.secondary{
+      background:#162033;
+    }
     a.btn:hover{filter:brightness(1.1)}
   </style>
 </head>
 <body>
 
 <h1>Indfødsretsprøven – Daily Test History</h1>
-<div class="muted">Only date + daily test link. Latest day first.</div>
+<div class="muted">Daily links + saved papers (latest first).</div>
 
 <div id="list"></div>
 
@@ -63,11 +71,19 @@ fetch("./data.json?cache=" + Date.now())
     data.forEach(d => {
       const div = document.createElement("div");
       div.className = "card";
+
+      const paperUrl = `paper.html?date=${d.date}`;
+
       div.innerHTML = `
         <div class="date">${d.date}</div>
-        <a class="btn" href="${d.url}" target="_blank" rel="noopener">
-          Open daily test
-        </a>
+        <div class="actions">
+          <a class="btn" href="${d.url}" target="_blank" rel="noopener">
+            Open daily test
+          </a>
+          <a class="btn secondary" href="${paperUrl}">
+            View saved paper
+          </a>
+        </div>
       `;
       list.appendChild(div);
     });
