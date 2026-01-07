@@ -80,7 +80,7 @@
           "en": "Aarhus"
         }
       },
-      "correct": "C"
+      "correct": "A"
     },
     {
       "no": 5,
@@ -353,7 +353,7 @@
           "en": "Been heard in another court instance"
         }
       },
-      "correct": "B",
+      "correct": "C",
       "tags": [
         "rule-of-law"
       ]
