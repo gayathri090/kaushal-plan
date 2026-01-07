@@ -11,7 +11,8 @@
         "B": {"da": "Årets Fugl", "en": "Bird of the Year"},
         "C": {"da": "Årets Laks", "en": "Salmon of the Year"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["lgbti-rights", "human-rights", "culture"]
     },
     {
       "no": 2,
@@ -20,9 +21,10 @@
       "options": {
         "A": {"da": "Moderaterne", "en": "The Moderates"},
         "B": {"da": "Alternativet", "en": "The Alternative"},
-        "C": {"da": "Venstre", "en": "Venstre (The Liberal Party)"}
+        "C": {"da": "Venstre", "en": "Venstre"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["politics", "democracy"]
     },
     {
       "no": 3,
@@ -33,7 +35,8 @@
         "B": {"da": "Lars Løkke Rasmussen", "en": "Lars Løkke Rasmussen"},
         "C": {"da": "Anders Fogh Rasmussen", "en": "Anders Fogh Rasmussen"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["politics", "history"]
     },
     {
       "no": 4,
@@ -44,7 +47,8 @@
         "B": {"da": "Socialdemokraterne", "en": "The Social Democrats"},
         "C": {"da": "Alternativet", "en": "The Alternative"}
       },
-      "correct": "B"
+      "correct": "B",
+      "tags": ["politics", "democracy"]
     },
     {
       "no": 5,
@@ -55,7 +59,8 @@
         "B": {"da": "Aalborg Universitet", "en": "Aalborg University"},
         "C": {"da": "Aarhus Universitet", "en": "Aarhus University"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["gender-equality", "education", "culture"]
     },
     {
       "no": 6,
@@ -66,7 +71,8 @@
         "B": {"da": "Oplysningstiden", "en": "The Enlightenment"},
         "C": {"da": "Middelalderen", "en": "The Middle Ages"}
       },
-      "correct": "B"
+      "correct": "B",
+      "tags": ["human-rights", "history", "democracy"]
     },
     {
       "no": 7,
@@ -76,7 +82,8 @@
         "A": {"da": "Ja", "en": "Yes"},
         "B": {"da": "Nej", "en": "No"}
       },
-      "correct": "A"
+      "correct": "A",
+      "tags": ["religious-freedom", "human-rights", "law"]
     },
     {
       "no": 8,
@@ -86,7 +93,8 @@
         "A": {"da": "Nej", "en": "No"},
         "B": {"da": "Ja", "en": "Yes"}
       },
-      "correct": "B"
+      "correct": "B",
+      "tags": ["democracy", "human-rights", "freedom-of-expression"]
     },
     {
       "no": 9,
@@ -96,7 +104,8 @@
         "A": {"da": "Nej", "en": "No"},
         "B": {"da": "Ja", "en": "Yes"}
       },
-      "correct": "A"
+      "correct": "A",
+      "tags": ["rule-of-law", "law"]
     },
     {
       "no": 10,
@@ -107,7 +116,8 @@
         "B": {"da": "J.K. Rowling", "en": "J.K. Rowling"},
         "C": {"da": "Jane Austen", "en": "Jane Austen"}
       },
-      "correct": "A"
+      "correct": "A",
+      "tags": ["gender-equality", "human-rights", "history"]
     },
 
     {
@@ -119,7 +129,8 @@
         "B": {"da": "Sprog og kultur", "en": "Language and culture"},
         "C": {"da": "Medicin, biokemi og teknologi", "en": "Medicine, biochemistry and technology"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["education", "international"]
     },
     {
       "no": 12,
@@ -130,7 +141,8 @@
         "B": {"da": "Lykke-Jens", "en": "Lykke-Jens"},
         "C": {"da": "Lykke-Hans", "en": "Lykke-Hans"}
       },
-      "correct": "A"
+      "correct": "A",
+      "tags": ["culture", "history"]
     },
     {
       "no": 13,
@@ -141,7 +153,8 @@
         "B": {"da": "1970–1990", "en": "1970–1990"},
         "C": {"da": "1960–1980", "en": "1960–1980"}
       },
-      "correct": "A"
+      "correct": "A",
+      "tags": ["history", "labour-market"]
     },
     {
       "no": 14,
@@ -152,7 +165,8 @@
         "B": {"da": "Syv år", "en": "Seven years"},
         "C": {"da": "Fem år", "en": "Five years"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["international", "democracy"]
     },
     {
       "no": 15,
@@ -163,7 +177,8 @@
         "B": {"da": "Fred og sikkerhed", "en": "Peace and security"},
         "C": {"da": "Hævn", "en": "Revenge"}
       },
-      "correct": "B"
+      "correct": "B",
+      "tags": ["international", "human-rights"]
     },
 
     {
@@ -175,8 +190,10 @@
         "B": {"da": "Lokale anliggender", "en": "Local matters"},
         "C": {"da": "Økonomisk styring", "en": "Economic regulation"}
       },
-      "correct": "B"
+      "correct": "B",
+      "tags": ["democracy", "law"]
     },
+
     {
       "no": 17,
       "question_da": "Hvilke to organisationer blev oprettet i 1958?",
@@ -186,8 +203,10 @@
         "B": {"da": "Nordisk Råd", "en": "Nordic Council"},
         "C": {"da": "EØF og Euratom", "en": "EEC and Euratom"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["international", "history"]
     },
+
     {
       "no": 18,
       "question_da": "Danmark og slesvig-holstenerne kæmpede i:",
@@ -197,8 +216,10 @@
         "B": {"da": "1780", "en": "1780"},
         "C": {"da": "1849", "en": "1849"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["history"]
     },
+
     {
       "no": 19,
       "question_da": "Hvad skaber en eventyrlig stemning i Tivoli om aftenen?",
@@ -208,8 +229,10 @@
         "B": {"da": "Tusindvis af farvede lys", "en": "Thousands of coloured lights"},
         "C": {"da": "Fyrværkeri", "en": "Fireworks"}
       },
-      "correct": "B"
+      "correct": "B",
+      "tags": ["culture"]
     },
+
     {
       "no": 20,
       "question_da": "Hvad er Carl Th. Dreyer kendt for?",
@@ -219,7 +242,8 @@
         "B": {"da": "Forfatter", "en": "Author"},
         "C": {"da": "Filminstruktør", "en": "Film director"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["culture"]
     },
 
     {
@@ -231,8 +255,10 @@
         "B": {"da": "Politiker", "en": "Politician"},
         "C": {"da": "Skuespiller", "en": "Actress"}
       },
-      "correct": "A"
+      "correct": "A",
+      "tags": ["culture", "history"]
     },
+
     {
       "no": 22,
       "question_da": "Hvad kan regeringen og Folketinget gøre ved storkonflikt?",
@@ -242,8 +268,10 @@
         "B": {"da": "Vedtage lov", "en": "Pass a law"},
         "C": {"da": "Mægling", "en": "Mediation"}
       },
-      "correct": "B"
+      "correct": "B",
+      "tags": ["law", "labour-market"]
     },
+
     {
       "no": 23,
       "question_da": "Hvem vandt Melodi Grand Prix i 2000?",
@@ -253,8 +281,10 @@
         "B": {"da": "Brødrene Olsen", "en": "The Olsen Brothers"},
         "C": {"da": "Grethe og Jørgen Ingmann", "en": "Grethe and Jørgen Ingmann"}
       },
-      "correct": "B"
+      "correct": "B",
+      "tags": ["culture"]
     },
+
     {
       "no": 24,
       "question_da": "En sag fra byretten kan ankes til:",
@@ -264,8 +294,10 @@
         "B": {"da": "Højesteret", "en": "Supreme Court"},
         "C": {"da": "Landsretten", "en": "High Court"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["rule-of-law", "law"]
     },
+
     {
       "no": 25,
       "question_da": "Hvilket hav omkring Danmark er størst?",
@@ -275,7 +307,8 @@
         "B": {"da": "Østersøen", "en": "The Baltic Sea"},
         "C": {"da": "Nordsøen", "en": "The North Sea"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["geography"]
     },
 
     {
@@ -287,8 +320,10 @@
         "B": {"da": "Finanspolitik", "en": "Fiscal policy"},
         "C": {"da": "Miljø og energi", "en": "Environment and energy"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["environment", "history"]
     },
+
     {
       "no": 27,
       "question_da": "Danmarks nuværende monark er:",
@@ -298,8 +333,10 @@
         "B": {"da": "Valdemar III", "en": "Valdemar III"},
         "C": {"da": "Frederik X", "en": "Frederik X"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["monarchy", "politics"]
     },
+
     {
       "no": 28,
       "question_da": "Hvad prægede Danmark i slutningen af 1800-tallet?",
@@ -309,8 +346,10 @@
         "B": {"da": "Modernisering", "en": "Modernisation"},
         "C": {"da": "Hungersnød", "en": "Famine"}
       },
-      "correct": "B"
+      "correct": "B",
+      "tags": ["history"]
     },
+
     {
       "no": 29,
       "question_da": "Ved reformen i 2007:",
@@ -320,8 +359,10 @@
         "B": {"da": "5 regioner blev til 14 amter", "en": "5 regions became 14 counties"},
         "C": {"da": "14 regioner blev til 5 amter", "en": "14 regions became 5 counties"}
       },
-      "correct": "A"
+      "correct": "A",
+      "tags": ["democracy", "law"]
     },
+
     {
       "no": 30,
       "question_da": "Hvornår blev Kalmarunionen dannet?",
@@ -331,7 +372,8 @@
         "B": {"da": "1412", "en": "1412"},
         "C": {"da": "1397", "en": "1397"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["history"]
     },
 
     {
@@ -343,19 +385,23 @@
         "B": {"da": "Runer", "en": "Runes"},
         "C": {"da": "Jelling-skrift", "en": "Jelling script"}
       },
-      "correct": "B"
+      "correct": "B",
+      "tags": ["history", "culture"]
     },
+
     {
       "no": 32,
       "question_da": "Hvad indebar oprettelsen af ØMU’en?",
       "question_en": "What did the establishment of the EMU entail?",
       "options": {
-        "A": {"da": "Lovgivning", "en": "Legal policy"},
+        "A": {"da": "Lovgivning", "en": "Legislation"},
         "B": {"da": "Militær", "en": "Military"},
         "C": {"da": "Økonomisk politik", "en": "Economic policy"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["international", "economy"]
     },
+
     {
       "no": 33,
       "question_da": "Hvad var de fleste bønder ved stavnsbåndets indførelse?",
@@ -365,8 +411,10 @@
         "B": {"da": "Velhavende", "en": "Wealthy"},
         "C": {"da": "Fæstebønder", "en": "Tenant farmers"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["history", "society"]
     },
+
     {
       "no": 34,
       "question_da": "Hvad er et beskæftigelsesfradrag?",
@@ -376,8 +424,10 @@
         "B": {"da": "Støtte fra staten", "en": "State support"},
         "C": {"da": "Virksomhedsfradrag", "en": "Company deduction"}
       },
-      "correct": "A"
+      "correct": "A",
+      "tags": ["economy", "law"]
     },
+
     {
       "no": 35,
       "question_da": "Hvor blev runeskriften brugt?",
@@ -387,7 +437,8 @@
         "B": {"da": "Kun Danmark", "en": "Only Denmark"},
         "C": {"da": "Hele Europa", "en": "All of Europe"}
       },
-      "correct": "A"
+      "correct": "A",
+      "tags": ["history", "culture"]
     },
 
     {
@@ -399,8 +450,10 @@
         "B": {"da": "1976", "en": "1976"},
         "C": {"da": "1943", "en": "1943"}
       },
-      "correct": "A"
+      "correct": "A",
+      "tags": ["monarchy", "law"]
     },
+
     {
       "no": 37,
       "question_da": "Hvordan blev solvognen brugt i bronzealderen?",
@@ -410,8 +463,10 @@
         "B": {"da": "Smykke", "en": "Jewellery"},
         "C": {"da": "Religiøse ritualer", "en": "Religious rituals"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["history", "culture"]
     },
+
     {
       "no": 38,
       "question_da": "Hvilke regler skal respekteres ved religionsudøvelse?",
@@ -421,8 +476,10 @@
         "B": {"da": "Grundloven og øvrige love", "en": "The Constitution and other laws"},
         "C": {"da": "Biblen", "en": "The Bible"}
       },
-      "correct": "B"
+      "correct": "B",
+      "tags": ["religious-freedom", "law"]
     },
+
     {
       "no": 39,
       "question_da": "Hvad er forholdstalsmetoden?",
@@ -432,8 +489,10 @@
         "B": {"da": "Kønsbalance", "en": "Gender balance"},
         "C": {"da": "Historisk størrelse", "en": "Historical size"}
       },
-      "correct": "A"
+      "correct": "A",
+      "tags": ["democracy"]
     },
+
     {
       "no": 40,
       "question_da": "Hvad er Henrik Pontoppidans mest kendte bog?",
@@ -443,7 +502,8 @@
         "B": {"da": "Lykke-Jens", "en": "Lykke-Jens"},
         "C": {"da": "Lykke-Per", "en": "Lykke-Per"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["culture", "history"]
     },
 
     {
@@ -455,8 +515,10 @@
         "B": {"da": "Større slot", "en": "Larger palace"},
         "C": {"da": "Christiansborg brændte", "en": "Christiansborg burned"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["monarchy", "history"]
     },
+
     {
       "no": 42,
       "question_da": "Hvem har ret til at overvære retssager?",
@@ -466,8 +528,10 @@
         "B": {"da": "Parter og familie", "en": "Parties and family"},
         "C": {"da": "Alle borgere", "en": "All citizens"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["rule-of-law", "democracy"]
     },
+
     {
       "no": 43,
       "question_da": "Hvad er en kollektiv overenskomst?",
@@ -477,8 +541,10 @@
         "B": {"da": "Lønaftale mellem firmaer", "en": "Company wage agreement"},
         "C": {"da": "Aftale mellem fagforeninger og arbejdsgivere", "en": "Agreement between unions and employers"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["labour-market", "law"]
     },
+
     {
       "no": 44,
       "question_da": "Hvilken betydning havde enevælden?",
@@ -488,8 +554,10 @@
         "B": {"da": "Decentralisering", "en": "Decentralisation"},
         "C": {"da": "Arvelige embeder", "en": "Hereditary offices"}
       },
-      "correct": "A"
+      "correct": "A",
+      "tags": ["history", "politics"]
     },
+
     {
       "no": 45,
       "question_da": "Johannes Døberens fødselsdag fejres den:",
@@ -499,7 +567,8 @@
         "B": {"da": "8. maj", "en": "8 May"},
         "C": {"da": "24. juni", "en": "24 June"}
       },
-      "correct": "C"
+      "correct": "C",
+      "tags": ["culture", "religion"]
     }
   ]
 }
