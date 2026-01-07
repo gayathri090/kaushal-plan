@@ -12,7 +12,7 @@
         "C": {"da": "Årets Laks", "en": "Salmon of the Year"}
       },
       "correct": "C",
-      "tags": ["lgbti-rights", "human-rights", "culture"]
+      "tags": ["human-rights", "gender-equality"]
     },
     {
       "no": 2,
@@ -23,8 +23,7 @@
         "B": {"da": "Alternativet", "en": "The Alternative"},
         "C": {"da": "Venstre", "en": "Venstre"}
       },
-      "correct": "C",
-      "tags": ["politics", "democracy"]
+      "correct": "C"
     },
     {
       "no": 3,
@@ -35,8 +34,7 @@
         "B": {"da": "Lars Løkke Rasmussen", "en": "Lars Løkke Rasmussen"},
         "C": {"da": "Anders Fogh Rasmussen", "en": "Anders Fogh Rasmussen"}
       },
-      "correct": "C",
-      "tags": ["politics", "history"]
+      "correct": "C"
     },
     {
       "no": 4,
@@ -47,8 +45,7 @@
         "B": {"da": "Socialdemokraterne", "en": "The Social Democrats"},
         "C": {"da": "Alternativet", "en": "The Alternative"}
       },
-      "correct": "B",
-      "tags": ["politics", "democracy"]
+      "correct": "B"
     },
     {
       "no": 5,
@@ -60,7 +57,7 @@
         "C": {"da": "Aarhus Universitet", "en": "Aarhus University"}
       },
       "correct": "C",
-      "tags": ["gender-equality", "education", "culture"]
+      "tags": ["gender-equality"]
     },
     {
       "no": 6,
@@ -72,7 +69,7 @@
         "C": {"da": "Middelalderen", "en": "The Middle Ages"}
       },
       "correct": "B",
-      "tags": ["human-rights", "history", "democracy"]
+      "tags": ["human-rights", "democracy"]
     },
     {
       "no": 7,
@@ -83,7 +80,7 @@
         "B": {"da": "Nej", "en": "No"}
       },
       "correct": "A",
-      "tags": ["religious-freedom", "human-rights", "law"]
+      "tags": ["religious-freedom", "human-rights"]
     },
     {
       "no": 8,
@@ -94,7 +91,7 @@
         "B": {"da": "Ja", "en": "Yes"}
       },
       "correct": "B",
-      "tags": ["democracy", "human-rights", "freedom-of-expression"]
+      "tags": ["democracy", "freedom-of-expression"]
     },
     {
       "no": 9,
@@ -105,7 +102,7 @@
         "B": {"da": "Ja", "en": "Yes"}
       },
       "correct": "A",
-      "tags": ["rule-of-law", "law"]
+      "tags": ["rule-of-law"]
     },
     {
       "no": 10,
@@ -117,7 +114,7 @@
         "C": {"da": "Jane Austen", "en": "Jane Austen"}
       },
       "correct": "A",
-      "tags": ["gender-equality", "human-rights", "history"]
+      "tags": ["gender-equality", "human-rights"]
     },
 
     {
@@ -129,9 +126,9 @@
         "B": {"da": "Sprog og kultur", "en": "Language and culture"},
         "C": {"da": "Medicin, biokemi og teknologi", "en": "Medicine, biochemistry and technology"}
       },
-      "correct": "C",
-      "tags": ["education", "international"]
+      "correct": "C"
     },
+
     {
       "no": 12,
       "question_da": "Hvad er Henrik Pontoppidans mest kendte bog?",
@@ -141,9 +138,9 @@
         "B": {"da": "Lykke-Jens", "en": "Lykke-Jens"},
         "C": {"da": "Lykke-Hans", "en": "Lykke-Hans"}
       },
-      "correct": "A",
-      "tags": ["culture", "history"]
+      "correct": "A"
     },
+
     {
       "no": 13,
       "question_da": "Hvornår fandt den anden store industrialiseringsbølge sted i Danmark?",
@@ -153,9 +150,9 @@
         "B": {"da": "1970–1990", "en": "1970–1990"},
         "C": {"da": "1960–1980", "en": "1960–1980"}
       },
-      "correct": "A",
-      "tags": ["history", "labour-market"]
+      "correct": "A"
     },
+
     {
       "no": 14,
       "question_da": "Medlemmer af Europa-Kommissionen udpeges for:",
@@ -166,8 +163,9 @@
         "C": {"da": "Fem år", "en": "Five years"}
       },
       "correct": "C",
-      "tags": ["international", "democracy"]
+      "tags": ["democracy"]
     },
+
     {
       "no": 15,
       "question_da": "På baggrund af hvilket ønske blev FN stiftet i 1945?",
@@ -178,7 +176,7 @@
         "C": {"da": "Hævn", "en": "Revenge"}
       },
       "correct": "B",
-      "tags": ["international", "human-rights"]
+      "tags": ["human-rights"]
     },
 
     {
@@ -191,72 +189,7 @@
         "C": {"da": "Økonomisk styring", "en": "Economic regulation"}
       },
       "correct": "B",
-      "tags": ["democracy", "law"]
-    },
-
-    {
-      "no": 17,
-      "question_da": "Hvilke to organisationer blev oprettet i 1958?",
-      "question_en": "Which two organisations were established in 1958?",
-      "options": {
-        "A": {"da": "Kul- og Stålfællesskabet", "en": "Coal and Steel Community"},
-        "B": {"da": "Nordisk Råd", "en": "Nordic Council"},
-        "C": {"da": "EØF og Euratom", "en": "EEC and Euratom"}
-      },
-      "correct": "C",
-      "tags": ["international", "history"]
-    },
-
-    {
-      "no": 18,
-      "question_da": "Danmark og slesvig-holstenerne kæmpede i:",
-      "question_en": "Denmark and the Schleswig-Holsteiners fought in:",
-      "options": {
-        "A": {"da": "1912", "en": "1912"},
-        "B": {"da": "1780", "en": "1780"},
-        "C": {"da": "1849", "en": "1849"}
-      },
-      "correct": "C",
-      "tags": ["history"]
-    },
-
-    {
-      "no": 19,
-      "question_da": "Hvad skaber en eventyrlig stemning i Tivoli om aftenen?",
-      "question_en": "What creates a fairytale-like atmosphere in Tivoli in the evening?",
-      "options": {
-        "A": {"da": "Høj musik", "en": "Loud music"},
-        "B": {"da": "Tusindvis af farvede lys", "en": "Thousands of coloured lights"},
-        "C": {"da": "Fyrværkeri", "en": "Fireworks"}
-      },
-      "correct": "B",
-      "tags": ["culture"]
-    },
-
-    {
-      "no": 20,
-      "question_da": "Hvad er Carl Th. Dreyer kendt for?",
-      "question_en": "What is Carl Th. Dreyer known for?",
-      "options": {
-        "A": {"da": "Arkitekt", "en": "Architect"},
-        "B": {"da": "Forfatter", "en": "Author"},
-        "C": {"da": "Filminstruktør", "en": "Film director"}
-      },
-      "correct": "C",
-      "tags": ["culture"]
-    },
-
-    {
-      "no": 21,
-      "question_da": "Hvad var Emma Gads erhverv?",
-      "question_en": "What was Emma Gad’s profession?",
-      "options": {
-        "A": {"da": "Forfatter", "en": "Author"},
-        "B": {"da": "Politiker", "en": "Politician"},
-        "C": {"da": "Skuespiller", "en": "Actress"}
-      },
-      "correct": "A",
-      "tags": ["culture", "history"]
+      "tags": ["democracy", "rule-of-law"]
     },
 
     {
@@ -269,20 +202,7 @@
         "C": {"da": "Mægling", "en": "Mediation"}
       },
       "correct": "B",
-      "tags": ["law", "labour-market"]
-    },
-
-    {
-      "no": 23,
-      "question_da": "Hvem vandt Melodi Grand Prix i 2000?",
-      "question_en": "Who won the Eurovision Song Contest in 2000?",
-      "options": {
-        "A": {"da": "Emmelie de Forest", "en": "Emmelie de Forest"},
-        "B": {"da": "Brødrene Olsen", "en": "The Olsen Brothers"},
-        "C": {"da": "Grethe og Jørgen Ingmann", "en": "Grethe and Jørgen Ingmann"}
-      },
-      "correct": "B",
-      "tags": ["culture"]
+      "tags": ["labour-rights", "rule-of-law"]
     },
 
     {
@@ -295,59 +215,7 @@
         "C": {"da": "Landsretten", "en": "High Court"}
       },
       "correct": "C",
-      "tags": ["rule-of-law", "law"]
-    },
-
-    {
-      "no": 25,
-      "question_da": "Hvilket hav omkring Danmark er størst?",
-      "question_en": "Which sea surrounding Denmark is the largest?",
-      "options": {
-        "A": {"da": "Kattegat", "en": "Kattegat"},
-        "B": {"da": "Østersøen", "en": "The Baltic Sea"},
-        "C": {"da": "Nordsøen", "en": "The North Sea"}
-      },
-      "correct": "C",
-      "tags": ["geography"]
-    },
-
-    {
-      "no": 26,
-      "question_da": "Hvad var danskerne optaget af i 1970’erne?",
-      "question_en": "What were Danes particularly concerned with in the 1970s?",
-      "options": {
-        "A": {"da": "Arbejdsmarked", "en": "Labour market"},
-        "B": {"da": "Finanspolitik", "en": "Fiscal policy"},
-        "C": {"da": "Miljø og energi", "en": "Environment and energy"}
-      },
-      "correct": "C",
-      "tags": ["environment", "history"]
-    },
-
-    {
-      "no": 27,
-      "question_da": "Danmarks nuværende monark er:",
-      "question_en": "Denmark’s current monarch is:",
-      "options": {
-        "A": {"da": "Harald V", "en": "Harald V"},
-        "B": {"da": "Valdemar III", "en": "Valdemar III"},
-        "C": {"da": "Frederik X", "en": "Frederik X"}
-      },
-      "correct": "C",
-      "tags": ["monarchy", "politics"]
-    },
-
-    {
-      "no": 28,
-      "question_da": "Hvad prægede Danmark i slutningen af 1800-tallet?",
-      "question_en": "What characterised Denmark in the late 19th century?",
-      "options": {
-        "A": {"da": "Religiøse konflikter", "en": "Religious conflicts"},
-        "B": {"da": "Modernisering", "en": "Modernisation"},
-        "C": {"da": "Hungersnød", "en": "Famine"}
-      },
-      "correct": "B",
-      "tags": ["history"]
+      "tags": ["rule-of-law"]
     },
 
     {
@@ -360,111 +228,7 @@
         "C": {"da": "14 regioner blev til 5 amter", "en": "14 regions became 5 counties"}
       },
       "correct": "A",
-      "tags": ["democracy", "law"]
-    },
-
-    {
-      "no": 30,
-      "question_da": "Hvornår blev Kalmarunionen dannet?",
-      "question_en": "When was the Kalmar Union formed?",
-      "options": {
-        "A": {"da": "1365", "en": "1365"},
-        "B": {"da": "1412", "en": "1412"},
-        "C": {"da": "1397", "en": "1397"}
-      },
-      "correct": "C",
-      "tags": ["history"]
-    },
-
-    {
-      "no": 31,
-      "question_da": "Hvad hed vikingetidens skrift?",
-      "question_en": "What was the writing system of the Viking Age called?",
-      "options": {
-        "A": {"da": "Hieroglyffer", "en": "Hieroglyphs"},
-        "B": {"da": "Runer", "en": "Runes"},
-        "C": {"da": "Jelling-skrift", "en": "Jelling script"}
-      },
-      "correct": "B",
-      "tags": ["history", "culture"]
-    },
-
-    {
-      "no": 32,
-      "question_da": "Hvad indebar oprettelsen af ØMU’en?",
-      "question_en": "What did the establishment of the EMU entail?",
-      "options": {
-        "A": {"da": "Lovgivning", "en": "Legislation"},
-        "B": {"da": "Militær", "en": "Military"},
-        "C": {"da": "Økonomisk politik", "en": "Economic policy"}
-      },
-      "correct": "C",
-      "tags": ["international", "economy"]
-    },
-
-    {
-      "no": 33,
-      "question_da": "Hvad var de fleste bønder ved stavnsbåndets indførelse?",
-      "question_en": "What were most farmers at the time the serfdom was introduced?",
-      "options": {
-        "A": {"da": "Selvejere", "en": "Freeholders"},
-        "B": {"da": "Velhavende", "en": "Wealthy"},
-        "C": {"da": "Fæstebønder", "en": "Tenant farmers"}
-      },
-      "correct": "C",
-      "tags": ["history", "society"]
-    },
-
-    {
-      "no": 34,
-      "question_da": "Hvad er et beskæftigelsesfradrag?",
-      "question_en": "What is an employment deduction?",
-      "options": {
-        "A": {"da": "Skattefradrag for arbejde", "en": "Tax deduction for working"},
-        "B": {"da": "Støtte fra staten", "en": "State support"},
-        "C": {"da": "Virksomhedsfradrag", "en": "Company deduction"}
-      },
-      "correct": "A",
-      "tags": ["economy", "law"]
-    },
-
-    {
-      "no": 35,
-      "question_da": "Hvor blev runeskriften brugt?",
-      "question_en": "Where was runic writing used?",
-      "options": {
-        "A": {"da": "Norden", "en": "The Nordic countries"},
-        "B": {"da": "Kun Danmark", "en": "Only Denmark"},
-        "C": {"da": "Hele Europa", "en": "All of Europe"}
-      },
-      "correct": "A",
-      "tags": ["history", "culture"]
-    },
-
-    {
-      "no": 36,
-      "question_da": "Hvornår blev tronfølgeloven ændret?",
-      "question_en": "When was the Act of Succession amended?",
-      "options": {
-        "A": {"da": "1953", "en": "1953"},
-        "B": {"da": "1976", "en": "1976"},
-        "C": {"da": "1943", "en": "1943"}
-      },
-      "correct": "A",
-      "tags": ["monarchy", "law"]
-    },
-
-    {
-      "no": 37,
-      "question_da": "Hvordan blev solvognen brugt i bronzealderen?",
-      "question_en": "How was the Sun Chariot used in the Bronze Age?",
-      "options": {
-        "A": {"da": "Legetøj", "en": "Toy"},
-        "B": {"da": "Smykke", "en": "Jewellery"},
-        "C": {"da": "Religiøse ritualer", "en": "Religious rituals"}
-      },
-      "correct": "C",
-      "tags": ["history", "culture"]
+      "tags": ["democracy", "rule-of-law"]
     },
 
     {
@@ -477,7 +241,7 @@
         "C": {"da": "Biblen", "en": "The Bible"}
       },
       "correct": "B",
-      "tags": ["religious-freedom", "law"]
+      "tags": ["religious-freedom", "rule-of-law"]
     },
 
     {
@@ -494,32 +258,6 @@
     },
 
     {
-      "no": 40,
-      "question_da": "Hvad er Henrik Pontoppidans mest kendte bog?",
-      "question_en": "What is Henrik Pontoppidan’s most famous book?",
-      "options": {
-        "A": {"da": "Lykke-Hans", "en": "Lykke-Hans"},
-        "B": {"da": "Lykke-Jens", "en": "Lykke-Jens"},
-        "C": {"da": "Lykke-Per", "en": "Lykke-Per"}
-      },
-      "correct": "C",
-      "tags": ["culture", "history"]
-    },
-
-    {
-      "no": 41,
-      "question_da": "Hvorfor flyttede kongefamilien til Amalienborg?",
-      "question_en": "Why did the royal family move to Amalienborg?",
-      "options": {
-        "A": {"da": "Gave", "en": "Gift"},
-        "B": {"da": "Større slot", "en": "Larger palace"},
-        "C": {"da": "Christiansborg brændte", "en": "Christiansborg burned"}
-      },
-      "correct": "C",
-      "tags": ["monarchy", "history"]
-    },
-
-    {
       "no": 42,
       "question_da": "Hvem har ret til at overvære retssager?",
       "question_en": "Who has the right to attend court proceedings?",
@@ -529,7 +267,7 @@
         "C": {"da": "Alle borgere", "en": "All citizens"}
       },
       "correct": "C",
-      "tags": ["rule-of-law", "democracy"]
+      "tags": ["democracy", "rule-of-law"]
     },
 
     {
@@ -542,33 +280,7 @@
         "C": {"da": "Aftale mellem fagforeninger og arbejdsgivere", "en": "Agreement between unions and employers"}
       },
       "correct": "C",
-      "tags": ["labour-market", "law"]
-    },
-
-    {
-      "no": 44,
-      "question_da": "Hvilken betydning havde enevælden?",
-      "question_en": "What significance did absolute monarchy have?",
-      "options": {
-        "A": {"da": "Central administration", "en": "Central administration"},
-        "B": {"da": "Decentralisering", "en": "Decentralisation"},
-        "C": {"da": "Arvelige embeder", "en": "Hereditary offices"}
-      },
-      "correct": "A",
-      "tags": ["history", "politics"]
-    },
-
-    {
-      "no": 45,
-      "question_da": "Johannes Døberens fødselsdag fejres den:",
-      "question_en": "The birth of John the Baptist is celebrated on:",
-      "options": {
-        "A": {"da": "12. oktober", "en": "12 October"},
-        "B": {"da": "8. maj", "en": "8 May"},
-        "C": {"da": "24. juni", "en": "24 June"}
-      },
-      "correct": "C",
-      "tags": ["culture", "religion"]
+      "tags": ["labour-rights"]
     }
   ]
 }
