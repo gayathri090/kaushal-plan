@@ -1,0 +1,965 @@
+{
+  "date": "2025-11-08",
+  "sourceUrl": "https://www.indfodsretsprove.dk/today-daily-test?category5=1&category6=1&category7=1&category8=1&category9=1&category10=1&category11=1&category12=1&questioncount=45",
+  "questions": [
+    {
+      "no": 1,
+      "question_da": "Hvilket af følgende partier er det største i Folketinget?",
+      "question_en": "Which of the following parties is the largest in the Danish Parliament (Folketinget)?",
+      "options": {
+        "A": {
+          "da": "Det Konservative Folkeparti",
+          "en": "The Conservative People's Party"
+        },
+        "B": {
+          "da": "Socialdemokratiet",
+          "en": "The Social Democrats"
+        },
+        "C": {
+          "da": "Venstre",
+          "en": "Venstre (The Liberal Party)"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 2,
+      "question_da": "For hvilket parti var Henrik Sass Larsen minister, der i september 2025 blev idømt fire måneders ubetinget fængsel for besiddelse af seksuelt materiale med børn?",
+      "question_en": "For which party was Henrik Sass Larsen a minister, who in September 2025 was sentenced to four months' unconditional imprisonment for possession of child sexual abuse material?",
+      "options": {
+        "A": {
+          "da": "Socialdemokraterne",
+          "en": "The Social Democrats"
+        },
+        "B": {
+          "da": "Venstre",
+          "en": "Venstre"
+        },
+        "C": {
+          "da": "Alternativet",
+          "en": "The Alternative"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 3,
+      "question_da": "Hvilket hæder modtager fire forskere i august 2025 i forbindelse med Copenhagen Pride, for deres undersøgelse af homofobi i Danmark?",
+      "question_en": "Which honour do four researchers receive in August 2025 in connection with Copenhagen Pride for their study of homophobia in Denmark?",
+      "options": {
+        "A": {
+          "da": "Årets Laks",
+          "en": "Salmon of the Year"
+        },
+        "B": {
+          "da": "Årets Fugl",
+          "en": "Bird of the Year"
+        },
+        "C": {
+          "da": "Årets Hund",
+          "en": "Dog of the Year"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 4,
+      "question_da": "Hvilket dansk universitet får sit første kvindelige bust, ifølge pressemeddelelse i august 2025?",
+      "question_en": "Which Danish university will receive its first female bust, according to a press release in August 2025?",
+      "options": {
+        "A": {
+          "da": "København",
+          "en": "Copenhagen"
+        },
+        "B": {
+          "da": "Aalborg",
+          "en": "Aalborg"
+        },
+        "C": {
+          "da": "Århus",
+          "en": "Aarhus"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 5,
+      "question_da": "Hvad hedder politisk leder for partiet Det Radikale Venstre?",
+      "question_en": "What is the name of the political leader of the Danish Social Liberal Party (Det Radikale Venstre)?",
+      "options": {
+        "A": {
+          "da": "Martin Lidegaard",
+          "en": "Martin Lidegaard"
+        },
+        "B": {
+          "da": "Anders Samuelsen",
+          "en": "Anders Samuelsen"
+        },
+        "C": {
+          "da": "Søren Pape Poulsen",
+          "en": "Søren Pape Poulsen"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 6,
+      "question_da": "Er det Folketinget, der i sidste ende godkender, om man kan blive dansk statsborger?",
+      "question_en": "Is it the Danish Parliament (Folketinget) that ultimately approves whether someone can become a Danish citizen?",
+      "options": {
+        "A": {
+          "da": "Ja",
+          "en": "Yes"
+        },
+        "B": {
+          "da": "Nej",
+          "en": "No"
+        }
+      },
+      "correct": "A",
+      "tags": [
+        "democracy",
+        "rule-of-law"
+      ]
+    },
+    {
+      "no": 7,
+      "question_da": "Er det en generel dansk holdning at tage hensyn til alle verdensborgere uanset deres baggrund?",
+      "question_en": "Is it a general Danish attitude to show consideration for all people regardless of their background?",
+      "options": {
+        "A": {
+          "da": "Kommer an på baggrund",
+          "en": "Depends on background"
+        },
+        "B": {
+          "da": "Nej",
+          "en": "No"
+        },
+        "C": {
+          "da": "Ja",
+          "en": "Yes"
+        }
+      },
+      "correct": "C",
+      "tags": [
+        "human-rights"
+      ]
+    },
+    {
+      "no": 8,
+      "question_da": "Hvad betyder forsamlingsfrihed?",
+      "question_en": "What does freedom of assembly mean?",
+      "options": {
+        "A": {
+          "da": "Ret til at forsamles og demonstrere for sine synspunkter",
+          "en": "The right to gather and demonstrate for one's views"
+        },
+        "B": {
+          "da": "Retten til at samle så mange penge som muligt",
+          "en": "The right to collect as much money as possible"
+        },
+        "C": {
+          "da": "Retten til at samle på de ting, man har lyst til",
+          "en": "The right to collect the things one wants"
+        }
+      },
+      "correct": "A",
+      "tags": [
+        "democracy",
+        "freedom-of-expression"
+      ]
+    },
+    {
+      "no": 9,
+      "question_da": "Hvad bliver folkeoplysning i Danmark anset at være en grundpille for?",
+      "question_en": "In Denmark, popular education (folkeoplysning) is considered a cornerstone of what?",
+      "options": {
+        "A": {
+          "da": "Monarkiet",
+          "en": "The monarchy"
+        },
+        "B": {
+          "da": "Folkestyret",
+          "en": "Democracy"
+        },
+        "C": {
+          "da": "Politiet",
+          "en": "The police"
+        }
+      },
+      "correct": "B",
+      "tags": [
+        "democracy"
+      ]
+    },
+    {
+      "no": 10,
+      "question_da": "Hvornår er folketingsvalg i Danmark?",
+      "question_en": "How often are parliamentary elections held in Denmark?",
+      "options": {
+        "A": {
+          "da": "Hvert 4. år",
+          "en": "Every 4 years"
+        },
+        "B": {
+          "da": "Hvert år",
+          "en": "Every year"
+        },
+        "C": {
+          "da": "Hvert 2. år",
+          "en": "Every 2 years"
+        }
+      },
+      "correct": "A",
+      "tags": [
+        "democracy"
+      ]
+    },
+    {
+      "no": 11,
+      "question_da": "Hvad er den mest almindelige samlivsform i dagens Danmark?",
+      "question_en": "What is the most common form of living together (cohabitation) in Denmark today?",
+      "options": {
+        "A": {
+          "da": "De fleste i Danmark bor alene",
+          "en": "Most people in Denmark live alone"
+        },
+        "B": {
+          "da": "Ægteskab",
+          "en": "Marriage"
+        },
+        "C": {
+          "da": "Papirløst samliv",
+          "en": "Unregistered cohabitation"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 12,
+      "question_da": "Hvem er medlemmerne af Nordisk Råd?",
+      "question_en": "Who are the members of the Nordic Council?",
+      "options": {
+        "A": {
+          "da": "Borgere, der bliver udvalgt ved folkeafstemning",
+          "en": "Citizens selected by referendum"
+        },
+        "B": {
+          "da": "Politikere fra de nationale parlamenter, som bliver udvalgt af deres partier",
+          "en": "Politicians from national parliaments selected by their parties"
+        },
+        "C": {
+          "da": "De nordiske landes statsministre",
+          "en": "The Nordic countries' prime ministers"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 13,
+      "question_da": "Hvilken dansk fysiker vandt Nobelprisen i fysik i 1922?",
+      "question_en": "Which Danish physicist won the Nobel Prize in Physics in 1922?",
+      "options": {
+        "A": {
+          "da": "H. C. Ørsted",
+          "en": "H. C. Ørsted"
+        },
+        "B": {
+          "da": "Ole Rømer",
+          "en": "Ole Rømer"
+        },
+        "C": {
+          "da": "Niels Bohr",
+          "en": "Niels Bohr"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 14,
+      "question_da": "Hvornår reorganiserede Højre sig?",
+      "question_en": "When did the party Højre reorganise?",
+      "options": {
+        "A": {
+          "da": "1915",
+          "en": "1915"
+        },
+        "B": {
+          "da": "1935",
+          "en": "1935"
+        },
+        "C": {
+          "da": "1925",
+          "en": "1925"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 15,
+      "question_da": "På hvilken måde styrkede Den Sorte Død kongens magt?",
+      "question_en": "In what way did the Black Death strengthen the king's power?",
+      "options": {
+        "A": {
+          "da": "Kongen modtog den formue, som havde tilhørt de, der døde af pesten",
+          "en": "The king received the wealth that had belonged to those who died of the plague"
+        },
+        "B": {
+          "da": "Kongen fik lettere ved at regere, da befolkningen blev mindre",
+          "en": "The king found it easier to rule because the population became smaller"
+        },
+        "C": {
+          "da": "Kongen inddrog jorden, der havde tilhørt de, som døde af pesten",
+          "en": "The king confiscated the land that had belonged to those who died of the plague"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 16,
+      "question_da": "Hvilken industri er ved at dø ud på Grønland?",
+      "question_en": "Which industry is dying out in Greenland?",
+      "options": {
+        "A": {
+          "da": "Fiskeri",
+          "en": "Fishing"
+        },
+        "B": {
+          "da": "Turisme",
+          "en": "Tourism"
+        },
+        "C": {
+          "da": "Traditionelle fangererhverv",
+          "en": "Traditional hunting occupations"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 17,
+      "question_da": "Højesteret behandler kun sager der har?",
+      "question_en": "The Supreme Court (Højesteret) only hears cases that have:",
+      "options": {
+        "A": {
+          "da": "Været udtalt kritik af i enten et klagenævn eller af Folketingets Ombudsmand",
+          "en": "Been strongly criticised by a complaints board or the Parliamentary Ombudsman"
+        },
+        "B": {
+          "da": "Principiel karakter",
+          "en": "A principal (precedent-setting) character"
+        },
+        "C": {
+          "da": "Været behandlet i en anden retsinstans",
+          "en": "Been heard in another court instance"
+        }
+      },
+      "correct": "B",
+      "tags": [
+        "rule-of-law"
+      ]
+    },
+    {
+      "no": 18,
+      "question_da": "Hvem var de populære danske forfattere i 1900-tallet?",
+      "question_en": "Who were popular Danish authors in the 20th century?",
+      "options": {
+        "A": {
+          "da": "Ambrosius Stub og Saxo Grammaticus",
+          "en": "Ambrosius Stub and Saxo Grammaticus"
+        },
+        "B": {
+          "da": "Johannes V. Jensen og Karen Blixen",
+          "en": "Johannes V. Jensen and Karen Blixen"
+        },
+        "C": {
+          "da": "Ludvig Holberg og H.C.Andersen",
+          "en": "Ludvig Holberg and H.C. Andersen"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 19,
+      "question_da": "Hvem beordrede byggelsen af Københavns Børs",
+      "question_en": "Who ordered the construction of the Copenhagen Stock Exchange (Børsen)?",
+      "options": {
+        "A": {
+          "da": "Poul Schlüter",
+          "en": "Poul Schlüter"
+        },
+        "B": {
+          "da": "Johann Friedrich Struensee",
+          "en": "Johann Friedrich Struensee"
+        },
+        "C": {
+          "da": "Christian den 4",
+          "en": "Christian IV"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 20,
+      "question_da": "Hvad sker der, hvis en militærnægter nægter at udføre det anviste samfundsnyttige arbejde?",
+      "question_en": "What happens if a conscientious objector refuses to carry out the assigned community service?",
+      "options": {
+        "A": {
+          "da": "Vedkommende får blot en advarsel",
+          "en": "They only receive a warning"
+        },
+        "B": {
+          "da": "Vedkommende bliver tvunget tilbage i militæret",
+          "en": "They are forced back into the military"
+        },
+        "C": {
+          "da": "Vedkommende kan straffes med fængsel",
+          "en": "They may be punished with imprisonment"
+        }
+      },
+      "correct": "C",
+      "tags": [
+        "rule-of-law"
+      ]
+    },
+    {
+      "no": 21,
+      "question_da": "Har Danmark på noget tidspunkt været medlem af FN's Sikkerhedsråd?",
+      "question_en": "Has Denmark ever been a member of the UN Security Council?",
+      "options": {
+        "A": {
+          "da": "Nej, aldrig",
+          "en": "No, never"
+        },
+        "B": {
+          "da": "Ja, for eks. i 2005-2006",
+          "en": "Yes, e.g. in 2005–2006"
+        },
+        "C": {
+          "da": "Ja, i 2008.",
+          "en": "Yes, in 2008"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 22,
+      "question_da": "Tove Ditlevsen er længe efter sin død, også blevet populær i hvilke lande?",
+      "question_en": "Long after her death, in which countries has Tove Ditlevsen also become popular?",
+      "options": {
+        "A": {
+          "da": "I USA, Rusland og Tyskland",
+          "en": "In the USA, Russia and Germany"
+        },
+        "B": {
+          "da": "I Spanien og Tyskland",
+          "en": "In Spain and Germany"
+        },
+        "C": {
+          "da": "I USA, Storbritannien og Tyskland",
+          "en": "In the USA, the UK and Germany"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 23,
+      "question_da": "Hvorfor blev kirken syd for Skagen lukket i 1795?",
+      "question_en": "Why was the church south of Skagen closed in 1795?",
+      "options": {
+        "A": {
+          "da": "På grund af sandfygning",
+          "en": "Because of drifting sand"
+        },
+        "B": {
+          "da": "På grund af jordskælv",
+          "en": "Because of an earthquake"
+        },
+        "C": {
+          "da": "På grund af brand",
+          "en": "Because of fire"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 24,
+      "question_da": "1915 var året hvor",
+      "question_en": "1915 was the year when:",
+      "options": {
+        "A": {
+          "da": "Kvinderne fik stemmeret, men kun til kirkens menighedsråd",
+          "en": "Women got voting rights, but only for church parish councils"
+        },
+        "B": {
+          "da": "Grundloven blev ændret således at kvinder kunne stemme",
+          "en": "The Constitution was amended so that women could vote"
+        },
+        "C": {
+          "da": "Septemberforliget blev fastsat",
+          "en": "The September Compromise was established"
+        }
+      },
+      "correct": "B",
+      "tags": [
+        "democracy",
+        "gender-equality"
+      ]
+    },
+    {
+      "no": 25,
+      "question_da": "Progressiv beskatning betyder",
+      "question_en": "Progressive taxation means:",
+      "options": {
+        "A": {
+          "da": "Folk betaler mere i skat jo ældre de bliver",
+          "en": "People pay more tax the older they get"
+        },
+        "B": {
+          "da": "Alle betaler det samme i skat",
+          "en": "Everyone pays the same tax"
+        },
+        "C": {
+          "da": "Jo mere den enkelte borger tjener, desto højere er hans eller hendes skatteprocent",
+          "en": "The more a person earns, the higher their tax rate"
+        }
+      },
+      "correct": "C",
+      "tags": [
+        "rule-of-law"
+      ]
+    },
+    {
+      "no": 26,
+      "question_da": "Hvad hedder den danske mest kendt fysiker og kemiker i Guldalderen?",
+      "question_en": "What is the name of the most well-known Danish physicist and chemist of the Golden Age?",
+      "options": {
+        "A": {
+          "da": "N.F.S. Grundtvig",
+          "en": "N.F.S. Grundtvig"
+        },
+        "B": {
+          "da": "Søren Aabye Kierkegaard",
+          "en": "Søren Kierkegaard"
+        },
+        "C": {
+          "da": "Hans Christian Ørsted",
+          "en": "Hans Christian Ørsted"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 27,
+      "question_da": "Er alle fag i folkeskolen fælles for piger og drenge",
+      "question_en": "Are all subjects in primary school shared by girls and boys?",
+      "options": {
+        "A": {
+          "da": "Ja",
+          "en": "Yes"
+        },
+        "B": {
+          "da": "Der er forskellige fag hvor flere piger end drenge tilmelder sig, såsom håndarbejde mens drengene vælger sløjd",
+          "en": "There are differences in chosen subjects (e.g., more girls choose needlework while boys choose woodwork)"
+        },
+        "C": {
+          "da": "Nej, der er stadig fag hvor pige og drenge holdes adskilt",
+          "en": "No, there are still subjects where girls and boys are separated"
+        }
+      },
+      "correct": "A",
+      "tags": [
+        "gender-equality"
+      ]
+    },
+    {
+      "no": 28,
+      "question_da": "At den danske befolkning er forholdvis homogen betyder",
+      "question_en": "Saying the Danish population is relatively homogeneous means:",
+      "options": {
+        "A": {
+          "da": "At de fleste har samme udseende, efternavn og vaner",
+          "en": "Most have the same appearance, surname and habits"
+        },
+        "B": {
+          "da": "At de fleste har samme sprog, kultur og historie",
+          "en": "Most share the same language, culture and history"
+        },
+        "C": {
+          "da": "At de fleste har samme tanker, følelser og ønsker",
+          "en": "Most have the same thoughts, feelings and wishes"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 29,
+      "question_da": "I 2023 er der i Danmark flest flygtninge og efterkommere fra hvilket land?",
+      "question_en": "In 2023, Denmark has the largest number of immigrants/descendants from which country (among the options)?",
+      "options": {
+        "A": {
+          "da": "Polen",
+          "en": "Poland"
+        },
+        "B": {
+          "da": "Pakistan",
+          "en": "Pakistan"
+        },
+        "C": {
+          "da": "Tyrkiet",
+          "en": "Turkey"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 30,
+      "question_da": "Hvor mange godkendte menigheder og trossamfund er der i Danmark?",
+      "question_en": "How many approved congregations and religious communities are there in Denmark?",
+      "options": {
+        "A": {
+          "da": "431",
+          "en": "431"
+        },
+        "B": {
+          "da": "60",
+          "en": "60"
+        },
+        "C": {
+          "da": "260",
+          "en": "260"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 31,
+      "question_da": "Hvordan er borgernes grundlæggende rettigheder beskyttet?",
+      "question_en": "How are citizens' fundamental rights protected?",
+      "options": {
+        "A": {
+          "da": "Af grundloven, regler vedtaget i Folketinget og af internationale konventioner",
+          "en": "By the Constitution, laws passed by Parliament, and international conventions"
+        },
+        "B": {
+          "da": "Af grundloven og internationale konventioner",
+          "en": "By the Constitution and international conventions"
+        },
+        "C": {
+          "da": "Udelukkende af grundloven",
+          "en": "Exclusively by the Constitution"
+        }
+      },
+      "correct": "A",
+      "tags": [
+        "human-rights",
+        "rule-of-law"
+      ]
+    },
+    {
+      "no": 32,
+      "question_da": "Hvad betyder vetoret i FN?",
+      "question_en": "What does veto power in the UN mean?",
+      "options": {
+        "A": {
+          "da": "Hvis blot 1 af disse lande stemmer imod en beslutning, kan den gennemføres",
+          "en": "If just 1 of these countries votes against a decision, it can still be adopted"
+        },
+        "B": {
+          "da": "Hvis alle disse lande stemmer imod en beslutning, kan den ikke gennemføres",
+          "en": "If all of these countries vote against a decision, it cannot be adopted"
+        },
+        "C": {
+          "da": "Hvis blot 1 af disse lande stemmer imod en beslutning, kan den ikke gennemføres",
+          "en": "If just 1 of these countries votes against a decision, it cannot be adopted"
+        }
+      },
+      "correct": "C",
+      "tags": [
+        "international",
+        "rule-of-law"
+      ]
+    },
+    {
+      "no": 33,
+      "question_da": "Hvad var Dogme 95-manifestet?",
+      "question_en": "What was the Dogme 95 manifesto?",
+      "options": {
+        "A": {
+          "da": "En opfordring til at lave film med bedre tekniske effekter",
+          "en": "A call to make films with better technical effects"
+        },
+        "B": {
+          "da": "En opfordring til at lave film uden manuskript",
+          "en": "A call to make films without a script"
+        },
+        "C": {
+          "da": "En opfordring til at lave enkle film med fokus på den gode historie frem for tekniske effekter",
+          "en": "A call to make simple films focusing on story rather than technical effects"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 34,
+      "question_da": "Hvem sang global hit Barbie Girl?",
+      "question_en": "Who sang the global hit 'Barbie Girl'?",
+      "options": {
+        "A": {
+          "da": "TV2",
+          "en": "TV2"
+        },
+        "B": {
+          "da": "Aqua",
+          "en": "Aqua"
+        },
+        "C": {
+          "da": "Kim Larsen",
+          "en": "Kim Larsen"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 35,
+      "question_da": "Den kriminelle lavalder er i Danmark",
+      "question_en": "In Denmark, the age of criminal responsibility is:",
+      "options": {
+        "A": {
+          "da": "18 år",
+          "en": "18 years"
+        },
+        "B": {
+          "da": "21 år",
+          "en": "21 years"
+        },
+        "C": {
+          "da": "15 år",
+          "en": "15 years"
+        }
+      },
+      "correct": "C",
+      "tags": [
+        "rule-of-law"
+      ]
+    },
+    {
+      "no": 36,
+      "question_da": "Hvilken rettighed fik gifte kvinder i 1880?",
+      "question_en": "Which right did married women gain in 1880?",
+      "options": {
+        "A": {
+          "da": "Retten til at hæve og bruge egen løn",
+          "en": "The right to withdraw and use their own wages"
+        },
+        "B": {
+          "da": "Retten til en studentereksamen",
+          "en": "The right to an upper secondary graduation exam"
+        },
+        "C": {
+          "da": "Stemmeret",
+          "en": "Voting rights"
+        }
+      },
+      "correct": "A",
+      "tags": [
+        "gender-equality"
+      ]
+    },
+    {
+      "no": 37,
+      "question_da": "Hvad hedder Københavns domkirke?",
+      "question_en": "What is the name of Copenhagen Cathedral?",
+      "options": {
+        "A": {
+          "da": "Vor Frelsers Kirke",
+          "en": "Church of Our Saviour"
+        },
+        "B": {
+          "da": "Frederiksberg Slotskirke",
+          "en": "Frederiksberg Palace Church"
+        },
+        "C": {
+          "da": "Vor Frue Kirke",
+          "en": "Church of Our Lady"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 38,
+      "question_da": "Hvad bærer Den Kongelige Livgarde på Amalienborg normalt?",
+      "question_en": "What does the Royal Life Guards normally wear at Amalienborg?",
+      "options": {
+        "A": {
+          "da": "Sorte uniformer",
+          "en": "Black uniforms"
+        },
+        "B": {
+          "da": "Blå uniformer",
+          "en": "Blue uniforms"
+        },
+        "C": {
+          "da": "Grønne uniformer",
+          "en": "Green uniforms"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 39,
+      "question_da": "En større strukturreform fandt sted i Danmark den",
+      "question_en": "A major structural reform took place in Denmark on:",
+      "options": {
+        "A": {
+          "da": "1. januar 2007",
+          "en": "1 January 2007"
+        },
+        "B": {
+          "da": "1. januar 2005",
+          "en": "1 January 2005"
+        },
+        "C": {
+          "da": "1. juni 2006",
+          "en": "1 June 2006"
+        }
+      },
+      "correct": "A",
+      "tags": [
+        "democracy",
+        "rule-of-law"
+      ]
+    },
+    {
+      "no": 40,
+      "question_da": "Hvad er baggrunden for Sankt Hans aften?",
+      "question_en": "What is the background of Sankt Hans (Midsummer) evening?",
+      "options": {
+        "A": {
+          "da": "Det er en fest, der stammer fra asatroen",
+          "en": "A celebration originating from Norse paganism"
+        },
+        "B": {
+          "da": "Det er en fest, der stammer fra det gamle Rom",
+          "en": "A celebration originating from Ancient Rome"
+        },
+        "C": {
+          "da": "En blanding af hedensk folketradition og kristendom",
+          "en": "A mix of pagan folk tradition and Christianity"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 41,
+      "question_da": "Bilafgifter skal fremadrettet fastsættes efter",
+      "question_en": "Going forward, car registration taxes should be determined by:",
+      "options": {
+        "A": {
+          "da": "Hvor meget bilerne forurener",
+          "en": "How much the cars pollute"
+        },
+        "B": {
+          "da": "Hvor gamle bilerne er",
+          "en": "How old the cars are"
+        },
+        "C": {
+          "da": "Hvor langt bilerne kører",
+          "en": "How far the cars drive"
+        }
+      },
+      "correct": "A",
+      "tags": [
+        "environment",
+        "rule-of-law"
+      ]
+    },
+    {
+      "no": 42,
+      "question_da": "Hvordan er uddannelsestilbuddet til voksne borgere i Danmark?",
+      "question_en": "What are education opportunities like for adult citizens in Denmark?",
+      "options": {
+        "A": {
+          "da": "Der er dårlige muligheder for voksen- og efteruddannelse i Danmark",
+          "en": "There are poor opportunities for adult and continuing education"
+        },
+        "B": {
+          "da": "Der er masser af muligheder for efter- og voksenuddannelse i Danmark",
+          "en": "There are many opportunities for continuing and adult education"
+        },
+        "C": {
+          "da": "Man kan ikke uddanne sig som voksen i Danmark",
+          "en": "You cannot study as an adult in Denmark"
+        }
+      },
+      "correct": "B",
+      "tags": [
+        "education",
+        "human-rights"
+      ]
+    },
+    {
+      "no": 43,
+      "question_da": "Hvilke dage bliver Dannebrog især brugt i dag af den danske befolkning?",
+      "question_en": "On which occasions is the Danish flag (Dannebrog) especially used today by the population?",
+      "options": {
+        "A": {
+          "da": "Flaget bliver hejst juleaften",
+          "en": "The flag is raised on Christmas Eve"
+        },
+        "B": {
+          "da": "Flaget bliver hejst ved særlige lejligheder, såsom fødselsdage og mærkedage",
+          "en": "The flag is raised on special occasions such as birthdays and anniversaries"
+        },
+        "C": {
+          "da": "Flaget bliver hejst på den første sommerdag",
+          "en": "The flag is raised on the first day of summer"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 44,
+      "question_da": "Hvordan bor mange skilsmissebørn i Danmark?",
+      "question_en": "How do many children of divorce live in Denmark?",
+      "options": {
+        "A": {
+          "da": "De bor på skift hos deres forældre",
+          "en": "They alternate living with their parents"
+        },
+        "B": {
+          "da": "Hos faderen",
+          "en": "With the father"
+        },
+        "C": {
+          "da": "Hos moderen",
+          "en": "With the mother"
+        }
+      },
+      "correct": "A",
+      "tags": [
+        "children-rights",
+        "family-law"
+      ]
+    },
+    {
+      "no": 45,
+      "question_da": "Hvornår trådte enevælden til?",
+      "question_en": "When was absolute monarchy introduced in Denmark?",
+      "options": {
+        "A": {
+          "da": "I 1670-1671",
+          "en": "In 1670–1671"
+        },
+        "B": {
+          "da": "I 1660-1661",
+          "en": "In 1660–1661"
+        },
+        "C": {
+          "da": "I 1680-1681",
+          "en": "In 1680–1681"
+        }
+      },
+      "correct": "B"
+    }
+  ]
+}
