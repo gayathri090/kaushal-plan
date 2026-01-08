@@ -9,7 +9,7 @@
     header { padding: 18px 16px; background: #fff; border-bottom: 1px solid #e6e6e6; position: sticky; top: 0; }
     h1 { font-size: 18px; margin: 0 0 10px 0; }
     .row { display:flex; gap:10px; flex-wrap: wrap; align-items: center; }
-    input, button, select { padding: 10px 12px; border: 1px solid #ddd; border-radius: 10px; background:#fff; }
+    input, button { padding: 10px 12px; border: 1px solid #ddd; border-radius: 10px; background:#fff; }
     button { cursor: pointer; }
     main { max-width: 980px; margin: 16px auto; padding: 0 12px 30px; }
     .meta { font-size: 12px; opacity: .75; margin-top: 8px; }
@@ -47,8 +47,7 @@
   </main>
 
 <script>
-  // If your JSON is in the same folder as this HTML, these relative paths work.
-  const BASE = "."; // docs/current_affairs
+  const BASE = "."; // same folder: docs/current_affairs
   const contentEl = document.getElementById("content");
   const statusEl = document.getElementById("status");
   const dateInput = document.getElementById("dateInput");
@@ -65,14 +64,18 @@
     history.replaceState({}, "", url.toString());
   }
 
-  function fmtDate(d) {
-    try { return new Date(d).toISOString().slice(0,10); } catch { return ""; }
-  }
-
   async function fetchJson(path) {
     const res = await fetch(path, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
     return await res.json();
+  }
+
+  // Decode any lingering HTML entities from older JSON (e.g. &#8230;)
+  function decodeEntitiesClient(s) {
+    if (!s) return "";
+    const txt = document.createElement("textarea");
+    txt.innerHTML = s;
+    return txt.value;
   }
 
   function escapeHtml(s) {
@@ -90,12 +93,13 @@
 
     const html = items.map(it => {
       const link = escapeHtml(it.link || "");
-      const src = escapeHtml(it.source || "");
-      const pub = escapeHtml(it.pubDate || "");
-      const titleDa = escapeHtml(it.title_da || "");
-      const titleEn = escapeHtml(it.title_en || "");
-      const sumDa = escapeHtml(it.summary_da || "");
-      const sumEn = escapeHtml(it.summary_en || "");
+      const src = escapeHtml(decodeEntitiesClient(it.source || ""));
+      const pub = escapeHtml(decodeEntitiesClient(it.pubDate || ""));
+
+      const titleDa = escapeHtml(decodeEntitiesClient(it.title_da || ""));
+      const titleEn = escapeHtml(decodeEntitiesClient(it.title_en || ""));
+      const sumDa   = escapeHtml(decodeEntitiesClient(it.summary_da || ""));
+      const sumEn   = escapeHtml(decodeEntitiesClient(it.summary_en || ""));
 
       return `
         <div class="card">
@@ -118,7 +122,7 @@
     }).join("");
 
     contentEl.innerHTML = `
-      <div class="meta">Generated at: ${escapeHtml(generatedAt)}</div>
+      <div class="meta">Generated at: ${escapeHtml(decodeEntitiesClient(generatedAt))}</div>
       ${html || `<div class="card">No items found.</div>`}
     `;
   }
@@ -139,29 +143,20 @@
     render(payload);
   }
 
-  document.getElementById("loadBtn").addEventListener("click", () => {
-    loadDate(dateInput.value);
-  });
-  document.getElementById("latestBtn").addEventListener("click", () => {
-    loadLatest();
-  });
+  document.getElementById("loadBtn").addEventListener("click", () => loadDate(dateInput.value));
+  document.getElementById("latestBtn").addEventListener("click", () => loadLatest());
 
-  // Initial load
   (async function init() {
     const dateParam = getParamDate();
-    if (dateParam) {
-      dateInput.value = dateParam;
-      try {
+    try {
+      if (dateParam) {
+        dateInput.value = dateParam;
         await loadDate(dateParam);
-      } catch (e) {
-        contentEl.innerHTML = `<div class="error">Could not load ${dateParam}.json. (${escapeHtml(e.message)})</div>`;
-      }
-    } else {
-      try {
+      } else {
         await loadLatest();
-      } catch (e) {
-        contentEl.innerHTML = `<div class="error">Could not load latest.json. (${escapeHtml(e.message)})</div>`;
       }
+    } catch (e) {
+      contentEl.innerHTML = `<div class="error">Load failed: ${escapeHtml(e.message)}</div>`;
     }
   })();
 </script>
