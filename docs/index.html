@@ -13,6 +13,7 @@
       padding:20px;
     }
     h1{font-size:20px;margin-bottom:8px}
+    h2{font-size:18px;margin:28px 0 8px}
     .muted{color:#8aa0b6;font-size:13px;margin-bottom:16px}
     .card{
       background:#121826;
@@ -21,9 +22,8 @@
       padding:14px;
       margin-bottom:12px;
       display:flex;
-      align-items:center;
       justify-content:space-between;
-      gap:12px;
+      gap:14px;
       flex-wrap:wrap;
     }
     .date{
@@ -44,10 +44,53 @@
       border:1px solid #223044;
       font-size:14px;
     }
-    a.btn.secondary{
-      background:#162033;
-    }
+    a.btn.secondary{background:#162033}
     a.btn:hover{filter:brightness(1.1)}
+
+    /* Current Affairs */
+    .split{
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-bottom:12px;
+      align-items:center;
+    }
+    .newsMeta{
+      color:#8aa0b6;
+      font-size:12px;
+      margin-bottom:8px;
+    }
+    .langGrid{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:12px;
+    }
+    @media(min-width:900px){
+      .langGrid{grid-template-columns:1fr 1fr}
+    }
+    .langBox{
+      border:1px solid #223044;
+      border-radius:10px;
+      padding:10px;
+      background:#0f1524;
+    }
+    .langBox h3{
+      margin:0 0 6px 0;
+      font-size:13px;
+      color:#8aa0b6;
+      font-weight:600;
+    }
+    .newsTitle{
+      font-weight:650;
+      font-size:15px;
+      margin-bottom:6px;
+    }
+    .newsSummary{
+      font-size:13px;
+      line-height:1.45;
+      color:#cfd9e6;
+    }
   </style>
 </head>
 <body>
@@ -57,12 +100,25 @@
 
 <div id="list"></div>
 
+<!-- CURRENT AFFAIRS -->
+<h2>Current Affairs (Latest)</h2>
+
+<div class="split">
+  <div class="muted" id="caStatus">Loading current affairs…</div>
+  <div class="actions">
+    <a class="btn secondary" href="current_affairs/" target="_blank">Open full page</a>
+    <a class="btn" id="openTodayCa" href="current_affairs/" target="_blank">Open Today</a>
+  </div>
+</div>
+
+<div id="caList"></div>
+
 <script>
+/* --------- Daily Test History (unchanged) --------- */
 fetch("./data.json?cache=" + Date.now())
   .then(r => r.json())
   .then(data => {
     const list = document.getElementById("list");
-
     if (!data.length) {
       list.innerHTML = "<div class='muted'>No data yet</div>";
       return;
@@ -71,23 +127,74 @@ fetch("./data.json?cache=" + Date.now())
     data.forEach(d => {
       const div = document.createElement("div");
       div.className = "card";
-
       const paperUrl = `2025_nov_06.html?date=${d.date}`;
-
       div.innerHTML = `
         <div class="date">${d.date}</div>
         <div class="actions">
-          <a class="btn" href="${d.url}" target="_blank" rel="noopener">
-            Open daily test
-          </a>
-          <a class="btn secondary" href="${paperUrl}">
-            View saved paper
-          </a>
+          <a class="btn" href="${d.url}" target="_blank">Open daily test</a>
+          <a class="btn secondary" href="${paperUrl}">View saved paper</a>
         </div>
       `;
       list.appendChild(div);
     });
   });
+
+/* --------- Current Affairs (DA + EN side by side) --------- */
+(function(){
+  const status = document.getElementById("caStatus");
+  const list = document.getElementById("caList");
+  const openToday = document.getElementById("openTodayCa");
+
+  const today = new Date().toISOString().slice(0,10);
+  openToday.href = "current_affairs/?date=" + today;
+
+  const esc = s => (s||"").replace(/[&<>"']/g,c=>({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+  }[c]));
+  const decode = s => { const t=document.createElement("textarea"); t.innerHTML=s||""; return t.value; };
+
+  fetch("current_affairs/latest.json?cache=" + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      const items = (data.items || []).slice(0,8);
+      status.textContent = `${data.date} • ${items.length} items`;
+
+      list.innerHTML = items.map(it => `
+        <div class="card">
+          <div style="flex:1;min-width:280px;">
+            <div class="newsMeta">
+              ${esc(decode(it.source))} ${it.pubDate ? "• " + esc(decode(it.pubDate)) : ""}
+            </div>
+
+            <div class="langGrid">
+              <div class="langBox">
+                <h3>Danish</h3>
+                <div class="newsTitle">${esc(decode(it.title_da))}</div>
+                <div class="newsSummary">${esc(decode(it.summary_da))}</div>
+              </div>
+
+              <div class="langBox">
+                <h3>English</h3>
+                <div class="newsTitle">${esc(decode(it.title_en))}</div>
+                <div class="newsSummary">${esc(decode(it.summary_en))}</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="actions">
+            <a class="btn secondary" href="${esc(it.link)}" target="_blank">Source</a>
+            <a class="btn" href="current_affairs/?date=${esc(data.date)}" target="_blank">
+              View day
+            </a>
+          </div>
+        </div>
+      `).join("");
+    })
+    .catch(e => {
+      status.textContent = "Failed to load current affairs";
+      list.innerHTML = `<div class="muted">${esc(e.message)}</div>`;
+    });
+})();
 </script>
 
 </body>
