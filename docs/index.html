@@ -5,92 +5,29 @@
   <title>Indfødsretsprøven – Daily Test Links</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
-    body{
-      font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;
-      background:#0b0f14;
-      color:#e7eef7;
-      margin:0;
-      padding:20px;
-    }
+    body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;background:#0b0f14;color:#e7eef7;margin:0;padding:20px;}
     h1{font-size:20px;margin-bottom:8px}
     h2{font-size:18px;margin:28px 0 8px}
     .muted{color:#8aa0b6;font-size:13px;margin-bottom:16px}
-    .card{
-      background:#121826;
-      border:1px solid #223044;
-      border-radius:12px;
-      padding:14px;
-      margin-bottom:12px;
-      display:flex;
-      justify-content:space-between;
-      gap:14px;
-      flex-wrap:wrap;
+    .card{background:#121826;border:1px solid #223044;border-radius:12px;padding:14px;margin-bottom:12px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;}
+    .date{font-weight:600;font-size:16px;}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
+    a.btn, button.btn, select.btn{
+      background:#1f2a44;color:#e7eef7;text-decoration:none;padding:8px 12px;border-radius:10px;
+      border:1px solid #223044;font-size:14px;cursor:pointer;display:inline-block;
     }
-    .date{
-      font-weight:600;
-      font-size:16px;
-    }
-    .actions{
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-    }
-    a.btn{
-      background:#1f2a44;
-      color:#e7eef7;
-      text-decoration:none;
-      padding:8px 12px;
-      border-radius:10px;
-      border:1px solid #223044;
-      font-size:14px;
-    }
-    a.btn.secondary{background:#162033}
-    a.btn:hover{filter:brightness(1.1)}
+    a.btn.secondary, button.btn.secondary{background:#162033}
+    a.btn:hover, button.btn:hover{filter:brightness(1.1)}
 
     /* Current Affairs */
-    .split{
-      display:flex;
-      justify-content:space-between;
-      gap:12px;
-      flex-wrap:wrap;
-      margin-bottom:12px;
-      align-items:center;
-    }
-    .newsMeta{
-      color:#8aa0b6;
-      font-size:12px;
-      margin-bottom:8px;
-    }
-    .langGrid{
-      display:grid;
-      grid-template-columns:1fr;
-      gap:12px;
-    }
-    @media(min-width:900px){
-      .langGrid{grid-template-columns:1fr 1fr}
-    }
-    .langBox{
-      border:1px solid #223044;
-      border-radius:10px;
-      padding:10px;
-      background:#0f1524;
-    }
-    .langBox h3{
-      margin:0 0 6px 0;
-      font-size:13px;
-      color:#8aa0b6;
-      font-weight:600;
-    }
-    .newsTitle{
-      font-weight:650;
-      font-size:15px;
-      margin-bottom:6px;
-    }
-    .newsSummary{
-      font-size:13px;
-      line-height:1.45;
-      color:#cfd9e6;
-    }
+    .toolbar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:12px;}
+    .newsMeta{color:#8aa0b6;font-size:12px;margin-bottom:8px;}
+    .langGrid{display:grid;grid-template-columns:1fr;gap:12px;}
+    @media(min-width:900px){.langGrid{grid-template-columns:1fr 1fr}}
+    .langBox{border:1px solid #223044;border-radius:10px;padding:10px;background:#0f1524;}
+    .langBox h3{margin:0 0 6px 0;font-size:13px;color:#8aa0b6;font-weight:600;}
+    .newsTitle{font-weight:650;font-size:15px;margin-bottom:6px;}
+    .newsSummary{font-size:13px;line-height:1.45;color:#cfd9e6;}
   </style>
 </head>
 <body>
@@ -100,29 +37,28 @@
 
 <div id="list"></div>
 
-<!-- CURRENT AFFAIRS -->
-<h2>Current Affairs (Latest)</h2>
+<h2>Current Affairs</h2>
 
-<div class="split">
-  <div class="muted" id="caStatus">Loading current affairs…</div>
+<div class="toolbar">
+  <div class="muted" id="caStatus">Loading…</div>
   <div class="actions">
-    <a class="btn secondary" href="current_affairs/" target="_blank">Open full page</a>
-    <a class="btn" id="openTodayCa" href="current_affairs/" target="_blank">Open Today</a>
+    <select class="btn" id="caSelect">
+      <option value="latest">Latest</option>
+    </select>
+    <button class="btn" id="caLoadBtn">Load</button>
+    <a class="btn secondary" href="current_affairs/" target="_blank" rel="noopener">Open full page</a>
   </div>
 </div>
 
 <div id="caList"></div>
 
 <script>
-/* --------- Daily Test History (unchanged) --------- */
+/* ---------- Daily Test History (unchanged) ---------- */
 fetch("./data.json?cache=" + Date.now())
   .then(r => r.json())
   .then(data => {
     const list = document.getElementById("list");
-    if (!data.length) {
-      list.innerHTML = "<div class='muted'>No data yet</div>";
-      return;
-    }
+    if (!data.length) { list.innerHTML = "<div class='muted'>No data yet</div>"; return; }
 
     data.forEach(d => {
       const div = document.createElement("div");
@@ -131,69 +67,129 @@ fetch("./data.json?cache=" + Date.now())
       div.innerHTML = `
         <div class="date">${d.date}</div>
         <div class="actions">
-          <a class="btn" href="${d.url}" target="_blank">Open daily test</a>
+          <a class="btn" href="${d.url}" target="_blank" rel="noopener">Open daily test</a>
           <a class="btn secondary" href="${paperUrl}">View saved paper</a>
-        </div>
-      `;
+        </div>`;
       list.appendChild(div);
     });
   });
 
-/* --------- Current Affairs (DA + EN side by side) --------- */
+/* ---------- Current Affairs Dropdown (UTF-8 safe; ø/æ/å OK) ---------- */
 (function(){
   const status = document.getElementById("caStatus");
   const list = document.getElementById("caList");
-  const openToday = document.getElementById("openTodayCa");
+  const select = document.getElementById("caSelect");
+  const loadBtn = document.getElementById("caLoadBtn");
 
-  const today = new Date().toISOString().slice(0,10);
-  openToday.href = "current_affairs/?date=" + today;
+  // Safe HTML entity decode (keeps ø/æ/å correct) and prevents XSS by using textarea parsing
+  function safeText(s){
+    const t = document.createElement("textarea");
+    t.innerHTML = s || "";
+    return t.value;
+  }
 
-  const esc = s => (s||"").replace(/[&<>"']/g,c=>({
-    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
-  }[c]));
-  const decode = s => { const t=document.createElement("textarea"); t.innerHTML=s||""; return t.value; };
+  // Escape ONLY URL attribute contexts (href). Do not escape normal text (breaks ø etc if misused).
+  function escAttr(s){
+    return (s||"").replace(/["'<>\\]/g, c => ({
+      '"': "&quot;", "'": "&#039;", "<": "&lt;", ">": "&gt;", "\\": "&#92;"
+    }[c]));
+  }
 
-  fetch("current_affairs/latest.json?cache=" + Date.now())
-    .then(r => r.json())
-    .then(data => {
-      const items = (data.items || []).slice(0,8);
-      status.textContent = `${data.date} • ${items.length} items`;
+  function renderItems(payload){
+    const items = payload.items || [];
+    status.textContent = `${payload.date || "latest"} • ${items.length} items`;
 
-      list.innerHTML = items.map(it => `
+    if (!items.length) {
+      list.innerHTML = "<div class='muted'>No items.</div>";
+      return;
+    }
+
+    list.innerHTML = items.slice(0, 8).map(it => {
+      const src = safeText(it.source || "");
+      const pub = safeText(it.pubDate || "");
+      const link = it.link || "";
+
+      return `
         <div class="card">
           <div style="flex:1;min-width:280px;">
             <div class="newsMeta">
-              ${esc(decode(it.source))} ${it.pubDate ? "• " + esc(decode(it.pubDate)) : ""}
+              ${src}${pub ? " • " + pub : ""}
+              ${link ? ` • <a class="btn secondary" style="padding:2px 8px;font-size:12px" href="${escAttr(link)}" target="_blank" rel="noopener">Source link</a>` : ""}
             </div>
 
             <div class="langGrid">
               <div class="langBox">
                 <h3>Danish</h3>
-                <div class="newsTitle">${esc(decode(it.title_da))}</div>
-                <div class="newsSummary">${esc(decode(it.summary_da))}</div>
+                <div class="newsTitle">${safeText(it.title_da || "")}</div>
+                <div class="newsSummary">${safeText(it.summary_da || "")}</div>
               </div>
 
               <div class="langBox">
                 <h3>English</h3>
-                <div class="newsTitle">${esc(decode(it.title_en))}</div>
-                <div class="newsSummary">${esc(decode(it.summary_en))}</div>
+                <div class="newsTitle">${safeText(it.title_en || "")}</div>
+                <div class="newsSummary">${safeText(it.summary_en || "")}</div>
               </div>
             </div>
           </div>
 
           <div class="actions">
-            <a class="btn secondary" href="${esc(it.link)}" target="_blank">Source</a>
-            <a class="btn" href="current_affairs/?date=${esc(data.date)}" target="_blank">
-              View day
-            </a>
+            ${link ? `<a class="btn" href="${escAttr(link)}" target="_blank" rel="noopener">Open</a>` : ""}
+            ${payload.date ? `<a class="btn secondary" href="current_affairs/?date=${escAttr(payload.date)}" target="_blank" rel="noopener">View day</a>` : `<a class="btn secondary" href="current_affairs/" target="_blank" rel="noopener">View</a>`}
           </div>
         </div>
-      `).join("");
-    })
-    .catch(e => {
-      status.textContent = "Failed to load current affairs";
-      list.innerHTML = `<div class="muted">${esc(e.message)}</div>`;
-    });
+      `;
+    }).join("");
+  }
+
+  async function fetchJson(path){
+    const r = await fetch(path + "?cache=" + Date.now(), { cache:"no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return await r.json();
+  }
+
+  async function loadSelection(){
+    const v = select.value;
+    list.innerHTML = "<div class='muted'>Loading…</div>";
+
+    if (v === "latest") {
+      const p = await fetchJson("current_affairs/latest.json");
+      renderItems(p);
+      return;
+    }
+    const p = await fetchJson("current_affairs/" + v + ".json");
+    renderItems(p);
+  }
+
+  async function init(){
+    try {
+      status.textContent = "Loading available dates…";
+      // This file is generated by Apps Script updateDatesIndex_()
+      const idx = await fetchJson("current_affairs/dates.json");
+      const dates = (idx.dates || []);
+
+      dates.forEach(d => {
+        const opt = document.createElement("option");
+        opt.value = d;
+        opt.textContent = d;
+        select.appendChild(opt);
+      });
+
+      await loadSelection();
+    } catch(e) {
+      // Fallback: latest only (still works even if dates.json missing)
+      status.textContent = "Dates index not found. Showing latest only.";
+      try {
+        const p = await fetchJson("current_affairs/latest.json");
+        renderItems(p);
+      } catch (e2) {
+        status.textContent = "Failed to load current affairs.";
+        list.innerHTML = "<div class='muted'>" + safeText(String(e2.message || e2)) + "</div>";
+      }
+    }
+  }
+
+  loadBtn.addEventListener("click", () => loadSelection());
+  init();
 })();
 </script>
 
