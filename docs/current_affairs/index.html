@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Daily Current Affairs</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; background:#f6f7f9; color:#111; }
+    header { padding: 18px 16px; background: #fff; border-bottom: 1px solid #e6e6e6; position: sticky; top: 0; }
+    h1 { font-size: 18px; margin: 0 0 10px 0; }
+    .row { display:flex; gap:10px; flex-wrap: wrap; align-items: center; }
+    input, button, select { padding: 10px 12px; border: 1px solid #ddd; border-radius: 10px; background:#fff; }
+    button { cursor: pointer; }
+    main { max-width: 980px; margin: 16px auto; padding: 0 12px 30px; }
+    .meta { font-size: 12px; opacity: .75; margin-top: 8px; }
+    .card { background:#fff; border:1px solid #eee; border-radius: 14px; padding: 14px; margin: 12px 0; }
+    .src { font-size: 12px; opacity:.7; }
+    .ttl { font-weight: 700; margin: 8px 0; }
+    .grid { display:grid; grid-template-columns: 1fr; gap: 10px; }
+    @media (min-width: 820px){ .grid { grid-template-columns: 1fr 1fr; } }
+    .lang { border:1px solid #eee; border-radius: 12px; padding: 10px; background:#fafafa; }
+    .lang h3 { margin: 0 0 6px 0; font-size: 13px; opacity: .75; }
+    a { color: #0a58ca; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .error { color: #b00020; background:#fff; border:1px solid #f0c; padding: 12px; border-radius: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Daily Current Affairs</h1>
+    <div class="row">
+      <label>
+        Date:
+        <input id="dateInput" type="date" />
+      </label>
+      <button id="loadBtn">Load</button>
+      <button id="latestBtn">Latest</button>
+      <span id="status" class="meta"></span>
+    </div>
+    <div class="meta">
+      Tip: open <code>?date=YYYY-MM-DD</code> (example: <code>?date=2026-01-08</code>)
+    </div>
+  </header>
+
+  <main>
+    <div id="content"></div>
+  </main>
+
+<script>
+  // If your JSON is in the same folder as this HTML, these relative paths work.
+  const BASE = "."; // docs/current_affairs
+  const contentEl = document.getElementById("content");
+  const statusEl = document.getElementById("status");
+  const dateInput = document.getElementById("dateInput");
+
+  function getParamDate() {
+    const url = new URL(window.location.href);
+    return url.searchParams.get("date");
+  }
+
+  function setParamDate(dateStr) {
+    const url = new URL(window.location.href);
+    if (dateStr) url.searchParams.set("date", dateStr);
+    else url.searchParams.delete("date");
+    history.replaceState({}, "", url.toString());
+  }
+
+  function fmtDate(d) {
+    try { return new Date(d).toISOString().slice(0,10); } catch { return ""; }
+  }
+
+  async function fetchJson(path) {
+    const res = await fetch(path, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
+    return await res.json();
+  }
+
+  function escapeHtml(s) {
+    return (s || "").replace(/[&<>"']/g, c => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+    }[c]));
+  }
+
+  function render(payload) {
+    const items = payload.items || [];
+    const date = payload.date || "";
+    const generatedAt = payload.generatedAt || "";
+
+    statusEl.textContent = `Showing: ${date || "latest"} | items: ${items.length}`;
+
+    const html = items.map(it => {
+      const link = escapeHtml(it.link || "");
+      const src = escapeHtml(it.source || "");
+      const pub = escapeHtml(it.pubDate || "");
+      const titleDa = escapeHtml(it.title_da || "");
+      const titleEn = escapeHtml(it.title_en || "");
+      const sumDa = escapeHtml(it.summary_da || "");
+      const sumEn = escapeHtml(it.summary_en || "");
+
+      return `
+        <div class="card">
+          <div class="src">${src} ${pub ? "• " + pub : ""}</div>
+          <div class="ttl"><a href="${link}" target="_blank" rel="noopener noreferrer">${titleEn || titleDa || "Link"}</a></div>
+          <div class="grid">
+            <div class="lang">
+              <h3>Danish</h3>
+              <div><strong>${titleDa}</strong></div>
+              <div>${sumDa}</div>
+            </div>
+            <div class="lang">
+              <h3>English</h3>
+              <div><strong>${titleEn}</strong></div>
+              <div>${sumEn}</div>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join("");
+
+    contentEl.innerHTML = `
+      <div class="meta">Generated at: ${escapeHtml(generatedAt)}</div>
+      ${html || `<div class="card">No items found.</div>`}
+    `;
+  }
+
+  async function loadLatest() {
+    setParamDate(null);
+    dateInput.value = "";
+    contentEl.innerHTML = `<div class="card">Loading latest…</div>`;
+    const payload = await fetchJson(`${BASE}/latest.json`);
+    render(payload);
+  }
+
+  async function loadDate(dateStr) {
+    if (!dateStr) return loadLatest();
+    setParamDate(dateStr);
+    contentEl.innerHTML = `<div class="card">Loading ${dateStr}…</div>`;
+    const payload = await fetchJson(`${BASE}/${dateStr}.json`);
+    render(payload);
+  }
+
+  document.getElementById("loadBtn").addEventListener("click", () => {
+    loadDate(dateInput.value);
+  });
+  document.getElementById("latestBtn").addEventListener("click", () => {
+    loadLatest();
+  });
+
+  // Initial load
+  (async function init() {
+    const dateParam = getParamDate();
+    if (dateParam) {
+      dateInput.value = dateParam;
+      try {
+        await loadDate(dateParam);
+      } catch (e) {
+        contentEl.innerHTML = `<div class="error">Could not load ${dateParam}.json. (${escapeHtml(e.message)})</div>`;
+      }
+    } else {
+      try {
+        await loadLatest();
+      } catch (e) {
+        contentEl.innerHTML = `<div class="error">Could not load latest.json. (${escapeHtml(e.message)})</div>`;
+      }
+    }
+  })();
+</script>
+</body>
+</html>
