@@ -1,1 +1,894 @@
-
+{
+  "date": "2025-11-09",
+  "sourceUrl": "https://www.indfodsretsprove.dk/today-daily-test",
+  "questions": [
+    {
+      "no": 1,
+      "question_da": "Hvilket stort dansk firmas aktie faldt voldsomt og lukkede i laveste niveau nogensinde, i august 2025?",
+      "question_en": "Which major Danish company's share price fell sharply and closed at its lowest level ever in August 2025?",
+      "options": {
+        "A": {
+          "da": "Carlsberg",
+          "en": "Carlsberg"
+        },
+        "B": {
+          "da": "Ørsted",
+          "en": "Ørsted"
+        },
+        "C": {
+          "da": "SAS",
+          "en": "SAS"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 2,
+      "question_da": "Hvad hedder formanden for Socialdemokraterne?",
+      "question_en": "What is the name of the chair/leader of the Social Democrats?",
+      "options": {
+        "A": {
+          "da": "Pernille Skipper",
+          "en": "Pernille Skipper"
+        },
+        "B": {
+          "da": "Mette Frederiksen",
+          "en": "Mette Frederiksen"
+        },
+        "C": {
+          "da": "Pia Olsen Dyhr",
+          "en": "Pia Olsen Dyhr"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 3,
+      "question_da": "Hvilken dansk restaurant blev i juni 2025 kåret til 5 bedste restaurant i verden ved prisuddelingen World's 50 Best Restaurants?",
+      "question_en": "Which Danish restaurant was named among the top 5 in the world in June 2025 at The World's 50 Best Restaurants awards?",
+      "options": {
+        "A": {
+          "da": "Flammen",
+          "en": "Flammen"
+        },
+        "B": {
+          "da": "Alchemist",
+          "en": "Alchemist"
+        },
+        "C": {
+          "da": "Fusion",
+          "en": "Fusion"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 4,
+      "question_da": "I hvilket land i Rigsfællesskabet skal en ekspertgruppe redde pensioner i økonomisk trussel, ifølge pressemeddelelse i august 2025?",
+      "question_en": "In which country within the Danish Realm is an expert group to rescue pensions under economic threat, according to a press release in August 2025?",
+      "options": {
+        "A": {
+          "da": "Grønland",
+          "en": "Greenland"
+        },
+        "B": {
+          "da": "Danmark",
+          "en": "Denmark"
+        },
+        "C": {
+          "da": "Færøerne",
+          "en": "Faroe Islands"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 5,
+      "question_da": "Hvilket vildt dyr i Danmark har regeringen, stik imod forskernes anbefaling, indberettet til EU, at dens status i Danmark er gunstig?",
+      "question_en": "Which wild animal in Denmark has the government, against researchers' recommendations, reported to the EU as having a favourable status in Denmark?",
+      "options": {
+        "A": {
+          "da": "Vilde Hjorte",
+          "en": "Wild deer"
+        },
+        "B": {
+          "da": "Vilde ulve",
+          "en": "Wild wolves"
+        },
+        "C": {
+          "da": "Vilde gæs",
+          "en": "Wild geese"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 6,
+      "question_da": "Kan man idømmes dødsstraf af danske domstole i tilfælde af særligt grove forbrydelser?",
+      "question_en": "Can Danish courts impose the death penalty in cases of particularly serious crimes?",
+      "options": {
+        "A": {
+          "da": "Nej",
+          "en": "No"
+        },
+        "B": {
+          "da": "Ja",
+          "en": "Yes"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 7,
+      "question_da": "Hvornår blev tolerance sikret ved lov?",
+      "question_en": "When was tolerance guaranteed by law?",
+      "options": {
+        "A": {
+          "da": "2014",
+          "en": "2014"
+        },
+        "B": {
+          "da": "1814",
+          "en": "1814"
+        },
+        "C": {
+          "da": "1914",
+          "en": "1914"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 8,
+      "question_da": "Er det umuligt at stille op til Folketinget, hvis man tidligere har siddet i fængsel?",
+      "question_en": "Is it impossible to run for Parliament (Folketinget) if you have previously been imprisoned?",
+      "options": {
+        "A": {
+          "da": "Nej",
+          "en": "No"
+        },
+        "B": {
+          "da": "Ja",
+          "en": "Yes"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 9,
+      "question_da": "Hvad er den generelle danske forståelse af \"hygge\"?",
+      "question_en": "What is the general Danish understanding of \"hygge\"?",
+      "options": {
+        "A": {
+          "da": "En formel middag",
+          "en": "A formal dinner"
+        },
+        "B": {
+          "da": "en særlig måde at være sammen på under afslappede forhold",
+          "en": "A special way of being together in a relaxed setting"
+        },
+        "C": {
+          "da": "Et cykelløb",
+          "en": "A bicycle race"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 10,
+      "question_da": "Hvor i verden er tillid i samfundet mest udbredt?",
+      "question_en": "Where in the world is trust in society most widespread?",
+      "options": {
+        "A": {
+          "da": "Det sydlige Europa",
+          "en": "Southern Europe"
+        },
+        "B": {
+          "da": "Afrika",
+          "en": "Africa"
+        },
+        "C": {
+          "da": "Norden",
+          "en": "The Nordic countries"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 11,
+      "question_da": "Hvor mange dage om ugen gik børnene i latinskole i middelalderen?",
+      "question_en": "How many days a week did children attend Latin school in the Middle Ages?",
+      "options": {
+        "A": {
+          "da": "1-2 dage",
+          "en": "1–2 days"
+        },
+        "B": {
+          "da": "5 dage",
+          "en": "5 days"
+        },
+        "C": {
+          "da": "6 dage",
+          "en": "6 days"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 12,
+      "question_da": "Hvor meget varmere forudset FN, at klimaet vil blive i 2100 sammenlignet med i 1800-tallet?",
+      "question_en": "How much warmer did the UN predict the climate will be in 2100 compared with the 1800s?",
+      "options": {
+        "A": {
+          "da": "5-7 grader varmere",
+          "en": "5–7°C warmer"
+        },
+        "B": {
+          "da": "1-2 grader varmere",
+          "en": "1–2°C warmer"
+        },
+        "C": {
+          "da": "2-5 grader varmere",
+          "en": "2–5°C warmer"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 13,
+      "question_da": "Hvad kæmper lokallisterne typisk for?",
+      "question_en": "What do local lists (local political lists) typically fight for?",
+      "options": {
+        "A": {
+          "da": "At blive store nok til at kunne stille op til Folketingsvalg",
+          "en": "To become big enough to run for Parliament"
+        },
+        "B": {
+          "da": "Helt bestemte lokalpolitiske mål",
+          "en": "Very specific local political goals"
+        },
+        "C": {
+          "da": "At få deres sager taget op i Folketinget",
+          "en": "To have their issues taken up in Parliament"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 14,
+      "question_da": "Fra hvilket klassetrin begynder eleverne at modtage karakterer i Danmark?",
+      "question_en": "From which grade do pupils start receiving marks/grades in Denmark?",
+      "options": {
+        "A": {
+          "da": "Fra 10. klasse.",
+          "en": "From 10th grade"
+        },
+        "B": {
+          "da": "Fra 0. klasse.",
+          "en": "From 0th grade"
+        },
+        "C": {
+          "da": "Fra 8. klasse.",
+          "en": "From 8th grade"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 15,
+      "question_da": "Ifølge legenden faldt Dannebrog i 1219 ned fra himlen i hvilket land?",
+      "question_en": "According to legend, in which country did the Dannebrog fall from the sky in 1219?",
+      "options": {
+        "A": {
+          "da": "Estland",
+          "en": "Estonia"
+        },
+        "B": {
+          "da": "England",
+          "en": "England"
+        },
+        "C": {
+          "da": "Egypten",
+          "en": "Egypt"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 16,
+      "question_da": "Hvad er Grønlands vigtigste eksportindtægtskilde?",
+      "question_en": "What is Greenland’s most important source of export revenue?",
+      "options": {
+        "A": {
+          "da": "Grønlandsk kunst",
+          "en": "Greenlandic art"
+        },
+        "B": {
+          "da": "Sæljagt",
+          "en": "Seal hunting"
+        },
+        "C": {
+          "da": "Fiskeri, især af rejer",
+          "en": "Fishing, especially shrimp"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 17,
+      "question_da": "Når en minister bliver kaldt ind i et udvalg for at svare på spørgsmål om konkrete politiske emner, kaldes det ..... ?",
+      "question_en": "When a minister is called into a committee to answer questions about specific political issues, it is called what?",
+      "options": {
+        "A": {
+          "da": "samråd",
+          "en": "consultation/hearing (samråd)"
+        },
+        "B": {
+          "da": "ministerkontrol",
+          "en": "minister control"
+        },
+        "C": {
+          "da": "forespørgselsdebat",
+          "en": "interpellation debate"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 18,
+      "question_da": "Hvem var instruktøren bag den kendte filmserie Olsen-banden?",
+      "question_en": "Who was the director behind the famous film series \"Olsen-banden\"?",
+      "options": {
+        "A": {
+          "da": "Erik Balling",
+          "en": "Erik Balling"
+        },
+        "B": {
+          "da": "Ove Sprogøe",
+          "en": "Ove Sprogøe"
+        },
+        "C": {
+          "da": "Nils Malmros",
+          "en": "Nils Malmros"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 19,
+      "question_da": "Hvornår skete den første store bølge af industrialisering i Danmark?",
+      "question_en": "When did the first major wave of industrialisation in Denmark take place?",
+      "options": {
+        "A": {
+          "da": "I starten af 1800-tallet",
+          "en": "In the early 1800s"
+        },
+        "B": {
+          "da": "I 1910'erne",
+          "en": "In the 1910s"
+        },
+        "C": {
+          "da": "I slutningen af 1800-tallet",
+          "en": "In the late 1800s"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 20,
+      "question_da": "Hvilket af følgende partier fokuserer på at fremhæve miljøet og tackle klimaproblemer?",
+      "question_en": "Which of the following parties focuses on highlighting the environment and tackling climate problems?",
+      "options": {
+        "A": {
+          "da": "Liberal Alliance",
+          "en": "Liberal Alliance"
+        },
+        "B": {
+          "da": "Nye Borgerlige",
+          "en": "New Right (Nye Borgerlige)"
+        },
+        "C": {
+          "da": "Alternativet",
+          "en": "The Alternative (Alternativet)"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 21,
+      "question_da": "Indtil slutningen af 1800-tallet arbejdede hovedparten af den danske befolkning inden for ....",
+      "question_en": "Until the end of the 1800s, most of the Danish population worked within…",
+      "options": {
+        "A": {
+          "da": "landbrug",
+          "en": "agriculture"
+        },
+        "B": {
+          "da": "fiskeri",
+          "en": "fishing"
+        },
+        "C": {
+          "da": "industri",
+          "en": "industry"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 22,
+      "question_da": "I 1840'erne, hvilket navn blev brugt til at henvise til den internationale bevægelse, som den danske kooperative bevægelse var en del af?",
+      "question_en": "In the 1840s, what name was used for the international movement that the Danish cooperative movement was part of?",
+      "options": {
+        "A": {
+          "da": "The Cooperative Movement",
+          "en": "The Cooperative Movement"
+        },
+        "B": {
+          "da": "Samarbejdsinitiativet",
+          "en": "The Cooperation Initiative"
+        },
+        "C": {
+          "da": "Det Fælleskommende Initiativ",
+          "en": "The Common Initiative"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 23,
+      "question_da": "Indtil hvilket år varede enevælden?",
+      "question_en": "Until which year did absolutism last?",
+      "options": {
+        "A": {
+          "da": "1756",
+          "en": "1756"
+        },
+        "B": {
+          "da": "1849",
+          "en": "1849"
+        },
+        "C": {
+          "da": "1789",
+          "en": "1789"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 24,
+      "question_da": "Hvilket digt skriver Adam Oehlenschläger i 1803?",
+      "question_en": "Which poem did Adam Oehlenschläger write in 1803?",
+      "options": {
+        "A": {
+          "da": "Simon Peder",
+          "en": "Simon Peder"
+        },
+        "B": {
+          "da": "Guldhornene",
+          "en": "The Golden Horns (Guldhornene)"
+        },
+        "C": {
+          "da": "Indvielsen",
+          "en": "The Consecration (Indvielsen)"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 25,
+      "question_da": "Hvem kan få tilskud til psykologhjælp?",
+      "question_en": "Who can receive a subsidy for psychological help?",
+      "options": {
+        "A": {
+          "da": "Ingen kan få tilskud til psykologhjælp",
+          "en": "No one can get a subsidy"
+        },
+        "B": {
+          "da": "Alle patienter uanset deres situation",
+          "en": "All patients regardless of situation"
+        },
+        "C": {
+          "da": "Kun dem, hvis lægen har henvist dem på grund af visse forhold som alvorlige ulykker, selvmordsforsøg eller angst og depression",
+          "en": "Only those referred by a doctor due to certain conditions such as serious accidents, suicide attempts, or anxiety/depression"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 26,
+      "question_da": "Hvornår var der ny folkeafstemning om at ophæve dele af retsforbeholdet?",
+      "question_en": "When was there a new referendum on abolishing parts of the EU justice opt-out?",
+      "options": {
+        "A": {
+          "da": "2015",
+          "en": "2015"
+        },
+        "B": {
+          "da": "2008",
+          "en": "2008"
+        },
+        "C": {
+          "da": "2011",
+          "en": "2011"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 27,
+      "question_da": "Hvilke regler skal respekteres i forbindelse med religionsdyrkelse?",
+      "question_en": "Which rules must be respected in connection with the practice of religion?",
+      "options": {
+        "A": {
+          "da": "Bibelens regler",
+          "en": "Rules of the Bible"
+        },
+        "B": {
+          "da": "Grundlovens regler om at man også ved religionsdyrkelse skal respektere de øvrige regler, der gælder i samfundet",
+          "en": "The Constitution’s rules: religious practice must also respect the other laws in society"
+        },
+        "C": {
+          "da": "Folkekirkens regler",
+          "en": "Rules of the Church of Denmark"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 28,
+      "question_da": "En militærnægter...",
+      "question_en": "A conscientious objector…",
+      "options": {
+        "A": {
+          "da": "er fritaget for værnepligt, hvis begrundelsen vurderes god nok",
+          "en": "is exempt from conscription if the reasoning is accepted"
+        },
+        "B": {
+          "da": "straffes med fængsel",
+          "en": "is punished with prison"
+        },
+        "C": {
+          "da": "kan erstatte sin værnepligt med andet arbejde til gavn for samfundet",
+          "en": "can replace military service with other work benefiting society"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 29,
+      "question_da": "Hvilket indkomstniveau udløser mellemskatten fra 2026?",
+      "question_en": "Which income level triggers the middle tax (mellemskat) from 2026?",
+      "options": {
+        "A": {
+          "da": "500.000 kr. om året",
+          "en": "DKK 500,000 per year"
+        },
+        "B": {
+          "da": "700.000 kr. om året",
+          "en": "DKK 700,000 per year"
+        },
+        "C": {
+          "da": "618.400 kr. om året",
+          "en": "DKK 618,400 per year"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 30,
+      "question_da": "Hvornår skilte en del af Venstre sig ud i Det radikale venstre?",
+      "question_en": "When did part of Venstre split off to form Det Radikale Venstre?",
+      "options": {
+        "A": {
+          "da": "1915",
+          "en": "1915"
+        },
+        "B": {
+          "da": "1905",
+          "en": "1905"
+        },
+        "C": {
+          "da": "1908",
+          "en": "1908"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 31,
+      "question_da": "Hvornår kom Kroatien med i EU?",
+      "question_en": "When did Croatia join the EU?",
+      "options": {
+        "A": {
+          "da": "2011",
+          "en": "2011"
+        },
+        "B": {
+          "da": "2014",
+          "en": "2014"
+        },
+        "C": {
+          "da": "2013",
+          "en": "2013"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 32,
+      "question_da": "Hvornår blev romanen Den kroniske uskyld udgivet?",
+      "question_en": "When was the novel \"Den kroniske uskyld\" published?",
+      "options": {
+        "A": {
+          "da": "1973",
+          "en": "1973"
+        },
+        "B": {
+          "da": "1958",
+          "en": "1958"
+        },
+        "C": {
+          "da": "1934",
+          "en": "1934"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 33,
+      "question_da": "Europa-Parlamentets medlemmer vælges ved direkte valg i hvert land, hvert",
+      "question_en": "Members of the European Parliament are elected by direct election in each country every…",
+      "options": {
+        "A": {
+          "da": "7. år",
+          "en": "7 years"
+        },
+        "B": {
+          "da": "5. år",
+          "en": "5 years"
+        },
+        "C": {
+          "da": "3. år",
+          "en": "3 years"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 34,
+      "question_da": "Ved hvilket universitet var Jens Christian Skou professor?",
+      "question_en": "At which university was Jens Christian Skou a professor?",
+      "options": {
+        "A": {
+          "da": "Københavns Universitet",
+          "en": "University of Copenhagen"
+        },
+        "B": {
+          "da": "Syddansk Universitet",
+          "en": "University of Southern Denmark"
+        },
+        "C": {
+          "da": "Aarhus Universitet",
+          "en": "Aarhus University"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 35,
+      "question_da": "Hvad var navnet på den skat, som skibe, der sejlede gennem Øresund, skulle betale?",
+      "question_en": "What was the name of the tax that ships sailing through the Øresund had to pay?",
+      "options": {
+        "A": {
+          "da": "Øresundstold",
+          "en": "Øresund Sound Dues (Øresundstold)"
+        },
+        "B": {
+          "da": "Kronborgtold",
+          "en": "Kronborg toll"
+        },
+        "C": {
+          "da": "Krogentold",
+          "en": "Krogen toll"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 36,
+      "question_da": "I de sidste 20 år, er antallet af immigranter fra andre EU-lande i Danmark",
+      "question_en": "In the last 20 years, the number of immigrants from other EU countries in Denmark has…",
+      "options": {
+        "A": {
+          "da": "Faldet",
+          "en": "decreased"
+        },
+        "B": {
+          "da": "Steget",
+          "en": "increased"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 37,
+      "question_da": "Hvilken ændring af Grundloven blev indført i år 1866?",
+      "question_en": "Which change to the Constitution was introduced in 1866?",
+      "options": {
+        "A": {
+          "da": "Island blev en selvstændig stat",
+          "en": "Iceland became an independent state"
+        },
+        "B": {
+          "da": "Kvinder fik stemmeret",
+          "en": "Women gained the right to vote"
+        },
+        "C": {
+          "da": "Kongen og mænd med de højeste indtægter fik retten til at vælge de fleste pladser i Landstinget",
+          "en": "The King and the highest-income men gained the right to elect most seats in the Landsting"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 38,
+      "question_da": "Artikel 5 i NATO-traktaten bliver også henvist til som",
+      "question_en": "Article 5 of the NATO treaty is also referred to as…",
+      "options": {
+        "A": {
+          "da": "Edinburgh-bestemmelsen",
+          "en": "The Edinburgh provision"
+        },
+        "B": {
+          "da": "Novembersforliget",
+          "en": "The November compromise"
+        },
+        "C": {
+          "da": "musketer-eden",
+          "en": "the musketeer oath"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 39,
+      "question_da": "Hvornår blev Alternativet-partiet valgt første gang til Folketinget?",
+      "question_en": "When was the party Alternativet elected to Parliament for the first time?",
+      "options": {
+        "A": {
+          "da": "2022",
+          "en": "2022"
+        },
+        "B": {
+          "da": "2015",
+          "en": "2015"
+        },
+        "C": {
+          "da": "2019",
+          "en": "2019"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 40,
+      "question_da": "Den øverste politiske leder i Danmark er",
+      "question_en": "The highest political leader in Denmark is…",
+      "options": {
+        "A": {
+          "da": "Folketingets formand",
+          "en": "The Speaker of Parliament"
+        },
+        "B": {
+          "da": "Kongen",
+          "en": "The King"
+        },
+        "C": {
+          "da": "Statsministeren",
+          "en": "The Prime Minister"
+        }
+      },
+      "correct": "C"
+    },
+    {
+      "no": 41,
+      "question_da": "Hvorfor er det blevet mere og mere almindeligt at danskere bor alene?",
+      "question_en": "Why has it become increasingly common for Danes to live alone?",
+      "options": {
+        "A": {
+          "da": "Det kan bedre betale sig økonomisk",
+          "en": "It is more economically advantageous"
+        },
+        "B": {
+          "da": "Det er blevet mere almindeligt at blive skilt",
+          "en": "Divorce has become more common"
+        },
+        "C": {
+          "da": "Der er færre mænd i Danmark end kvinder, så der er ikke nok til alle",
+          "en": "There are fewer men than women in Denmark, so there aren’t enough for everyone"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 42,
+      "question_da": "Hvem levede i Udgård, ifølge Asatroen?",
+      "question_en": "Who lived in Útgarðr (Udgård), according to Norse mythology (Ásatrú)?",
+      "options": {
+        "A": {
+          "da": "Jætterne (onde kæmper)",
+          "en": "The giants (jötnar)"
+        },
+        "B": {
+          "da": "Mennesker",
+          "en": "Humans"
+        },
+        "C": {
+          "da": "Dyr",
+          "en": "Animals"
+        }
+      },
+      "correct": "A"
+    },
+    {
+      "no": 43,
+      "question_da": "Højesteret behandler kun sager der har?",
+      "question_en": "The Supreme Court (Højesteret) only hears cases that have…",
+      "options": {
+        "A": {
+          "da": "Været udtalt kritik af i enten et klagenævn eller af Folketingets Ombudsmand",
+          "en": "been strongly criticised by an appeals board or the Parliamentary Ombudsman"
+        },
+        "B": {
+          "da": "Principiel karakter",
+          "en": "a matter of principle"
+        },
+        "C": {
+          "da": "Været behandlet i en anden retsinstans",
+          "en": "been handled in another court instance"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 44,
+      "question_da": "Adam Oehlenschläger skrev:",
+      "question_en": "Adam Oehlenschläger wrote:",
+      "options": {
+        "A": {
+          "da": "Den lille havfrue",
+          "en": "The Little Mermaid"
+        },
+        "B": {
+          "da": "Aladdin eller Den Forunderlige Lampe",
+          "en": "Aladdin or the Wonderful Lamp"
+        },
+        "C": {
+          "da": "Den grimme ælling",
+          "en": "The Ugly Duckling"
+        }
+      },
+      "correct": "B"
+    },
+    {
+      "no": 45,
+      "question_da": "I 1998, åbnede en bro over Storebælt. Den forbinder",
+      "question_en": "In 1998, a bridge across the Great Belt (Storebælt) opened. It connects…",
+      "options": {
+        "A": {
+          "da": "Fyn og Sjælland",
+          "en": "Funen (Fyn) and Zealand (Sjælland)"
+        },
+        "B": {
+          "da": "Sjælland og Jylland",
+          "en": "Zealand and Jutland"
+        },
+        "C": {
+          "da": "Fyn og Jylland",
+          "en": "Funen and Jutland"
+        }
+      },
+      "correct": "A"
+    }
+  ]
+}
