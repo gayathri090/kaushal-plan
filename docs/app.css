@@ -1,0 +1,58 @@
+:root { --bg:#0b1020; --panel:#111827; --card:#0f172a; --text:#e5e7eb; --muted:#9ca3af; }
+* { box-sizing:border-box; }
+body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; background:var(--bg); color:var(--text); }
+a { color:#93c5fd; text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+.topbar {
+  height:56px; display:flex; align-items:center; gap:12px;
+  padding:0 12px; background:var(--panel); position:sticky; top:0; z-index:10;
+  border-bottom:1px solid rgba(255,255,255,0.08);
+}
+.title { font-weight:700; }
+.spacer { flex:1; }
+.icon { background:transparent; border:0; color:var(--text); font-size:20px; cursor:pointer; }
+.btn { background:transparent; border:1px solid rgba(255,255,255,0.2); color:var(--text); padding:8px 10px; border-radius:10px; cursor:pointer; }
+.btn:hover { border-color: rgba(255,255,255,0.35); }
+
+.layout { display:flex; min-height:calc(100vh - 56px); }
+.sidebar {
+  width:260px; background:var(--panel); padding:12px;
+  border-right:1px solid rgba(255,255,255,0.08);
+}
+.nav { display:block; padding:10px 10px; border-radius:10px; color:var(--text); margin-bottom:6px; }
+.nav:hover { background:rgba(255,255,255,0.06); }
+.nav-strong { font-weight:700; }
+
+.content { flex:1; padding:16px; max-width:980px; margin:0 auto; width:100%; }
+h1 { margin: 8px 0 12px; }
+.muted { color: var(--muted); }
+
+.card {
+  background:var(--card); border:1px solid rgba(255,255,255,0.08);
+  border-radius:14px; padding:14px; margin:12px 0;
+}
+
+.btnPrimary {
+  display:inline-block; margin-top:8px; padding:10px 12px; border-radius:12px;
+  background:#2563eb; color:white; font-weight:700;
+}
+
+.tasks { display:flex; flex-direction:column; gap:10px; margin-top:10px; }
+.task { display:flex; gap:10px; align-items:flex-start; cursor:pointer; }
+.task input { margin-top:3px; }
+
+.progressRow { display:flex; align-items:center; gap:12px; }
+.progress {
+  height:10px; background:rgba(255,255,255,0.08);
+  border-radius:999px; overflow:hidden; flex:1;
+}
+.bar { height:100%; background:#22c55e; width:0%; }
+.pct { font-variant-numeric: tabular-nums; color: var(--muted); }
+
+/* Mobile */
+@media (max-width: 860px) {
+  .sidebar { position:fixed; left:-280px; top:56px; height:calc(100vh - 56px); transition:left .2s ease; z-index:20; }
+  .sidebar.open { left:0; }
+  .content { padding:14px; }
+}
