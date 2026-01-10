@@ -1,1 +1,150 @@
-
+{
+  "date": "2026-01-10",
+  "generatedAt": "2026-01-10T07:42:23.630Z",
+  "items": [
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Fra smalltalk til no talk: Hvad dansk tavshed betyder",
+      "title_en": "From small talk to no talk: what Danish silence means",
+      "summary_da": "Jeg plejede at tro, at frav?ret af st?j bet?d, at der var noget galt. Nu indser jeg, at det bare er en anden m?de at v?re sammen p?.",
+      "summary_en": "I used to think the absence of noise meant something was wrong. Now I realise it?s just another way to be together.",
+      "link": "https://cphpost.dk/2026-01-10/life-in-denmark/from-small-talk-to-no-talk-what-danish-silence-means/",
+      "pubDate": "Sat, 10 Jan 2026 07:00:00 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Elever sigtet for overfald med b?lte og knytn?veslag - men skoleleder kan ikke selv smide dem ud af skolen",
+      "title_en": "Students charged with assault with belt and fist - but principal cannot kick them out of school himself",
+      "summary_da": "Regeringen vil give skoleledere mulighed for at bortvise elever i s?rligt grove tilf?lde.",
+      "summary_en": "The government will give school principals the option to expel students in particularly serious cases.",
+      "link": "https://www.dr.dk/nyheder/indland/elever-sigtet-overfald-med-baelte-og-knytnaeveslag-men-skoleleder-kan-ikke-selv-smide-dem-ud-af",
+      "pubDate": "Sat, 10 Jan 2026 06:31:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Un?dig k?rsel frar?des p? Bornholm - flere andre steder advares om snefygning",
+      "title_en": "Unnecessary driving is advised against on Bornholm - several other places are warned about snow removal",
+      "summary_da": "Det bl?ser kraftigt p? Bornholm, og vejene er sv?rt fremkommelige.",
+      "summary_en": "It is windy on Bornholm, and the roads are difficult to pass.",
+      "link": "https://www.dr.dk/nyheder/indland/unoedig-koersel-fraraades-paa-bornholm-flere-andre-steder-advares-om-snefygning",
+      "pubDate": "Sat, 10 Jan 2026 06:26:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Politiker efter drab p? to?rig: Psykiatrien skal holde p? d?mte i l?ngere tid",
+      "title_en": "Politician after murder of two-year-old: Psychiatry should hold convicted prisoners for longer",
+      "summary_da": "Drabsd?mte, som d?mmes til behandling i retspsykiatrien, bliver sluppet ud for tidligt, mener Dansk Folkeparti, der nu tr?kker ministeren ind i sagen.",
+      "summary_en": "Convicted murderers who are sentenced to treatment in forensic psychiatry are being released too early, believes the Danish People's Party, which is now drawing the minister into the matter.",
+      "link": "https://www.dr.dk/nyheder/indland/politiker-efter-drab-paa-toaarig-psykiatrien-skal-holde-paa-doemte-i-laengere-tid",
+      "pubDate": "Sat, 10 Jan 2026 05:08:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "ANALYSE De skal forsvare Bornholm - men st?r ogs? i f?rste linje til at sl?s for Gr?nland",
+      "title_en": "ANALYSIS They must defend Bornholm - but are also in the front line fighting for Greenland",
+      "summary_da": "Bornholms Regiment har 'arvet' pligten til at rykke ud til br?ndpunkter som Gr?nland eller Ukraine - s? resten af Forsvaret kan komme til kr?fter.",
+      "summary_en": "The Bornholm Regiment has 'inherited' the duty to deploy to hotspots such as Greenland or Ukraine - so that the rest of the Armed Forces can regain strength.",
+      "link": "https://www.dr.dk/nyheder/indland/analyse-de-skal-forsvare-bornholm-men-staar-ogsaa-i-foerste-linje-til-slaas-groenland",
+      "pubDate": "Fri, 09 Jan 2026 20:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Milit?ret opruster p? Bornholm: 'Der vil altid v?re en vis risiko for, at Rusland invaderer'",
+      "title_en": "The military is arming itself on Bornholm: 'There will always be a certain risk that Russia will invade'",
+      "summary_da": "Bornholm har nu modtaget de f?rste 10 pansrede mandskabsvogne ud af i alt 129. Og det er vigtigt, at vi opruster p? ?en, siger ekspert.",
+      "summary_en": "Bornholm has now received the first 10 armored personnel carriers out of a total of 129. And it is important that we arm the island, says expert.",
+      "link": "https://www.dr.dk/nyheder/indland/militaeret-opruster-paa-bornholm-der-vil-altid-vaere-en-vis-risiko-rusland-invaderer",
+      "pubDate": "Fri, 09 Jan 2026 18:26:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Ja, der er is p? s?erne. Nej, du m? ikke f?rdes p? isen",
+      "title_en": "Yes, there is ice on the lakes. No, you are not allowed to walk on the ice.",
+      "summary_da": "Isen p? s?erne rundt om i Danmark bliver n?ppe tyk nok til at v?re sikker at f?rdes p? i denne omgang, vurderer klimatolog.",
+      "summary_en": "The ice on the lakes around Denmark will hardly be thick enough to be safe to walk on at this time, assesses a climatologist.",
+      "link": "https://www.dr.dk/nyheder/indland/ja-der-er-is-paa-soeerne-nej-du-maa-ikke-faerdes-paa-isen",
+      "pubDate": "Fri, 09 Jan 2026 17:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Mentorordning for studerende med diagnoser skal i udbud igen: Malene frygter at blive et tal i et system",
+      "title_en": "Mentoring scheme for students with diagnoses to be put out to tender again: Malene fears becoming a number in a system",
+      "summary_da": "Universiteterne har selv f?et ansvaret for specialp?dagogiske st?tte - p? n?r vigtig mentorordning. Nu frygter man, det vil ramme de mest s?rbare.",
+      "summary_en": "Universities have been given responsibility for special educational support - except for the important mentoring scheme. Now there are fears that this will affect the most vulnerable.",
+      "link": "https://www.dr.dk/nyheder/indland/mentorordning-studerende-med-diagnoser-skal-i-udbud-igen-malene-frygter-blive-et-tal-i-et-system",
+      "pubDate": "Fri, 09 Jan 2026 16:45:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Brandsikkerheden halter i landets natteliv: Billeder viser hvorfor",
+      "title_en": "Fire safety is lagging in the country's nightlife: Pictures show why",
+      "summary_da": "Ny opg?relse viser, at over halvdelen af landets barer og diskotek har f?et p?bud.",
+      "summary_en": "New figures show that over half of the country's bars and discos have been issued with injunctions.",
+      "link": "https://www.dr.dk/nyheder/indland/brandsikkerheden-halter-i-landets-natteliv-billeder-viser-hvorfor",
+      "pubDate": "Fri, 09 Jan 2026 16:30:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "H?jvandsvarsel udstedt for Sydjylland efter stormvejr, der forstyrrer transporten.",
+      "title_en": "High water level warning issued for southern Jutland as stormy weather disrupts transport",
+      "summary_da": "Vejrforholdene for?rsager forstyrrelser i hele Syddanmark onsdag, hvilket p?virker b?de transport og kystomr?der. I Haderslev, S?nderborg og Vejen Kommuner er skolebusdriften blevet reduceret p? grund af vanskelige vejforhold. Myndighederne siger, at busserne k?mper med at n? alle ruter, hvilket betyder, at den f?rste eftermiddagsafgang ogs? vil v?re den eneste skolebustur [?]",
+      "summary_en": "Weather conditions are causing disruptions across southern Denmark on Wednesday, affecting both transport and coastal areas. In Haderslev, S?nderborg and Vejen municipalities, school bus services have been reduced due to difficult road conditions. Authorities say buses are struggling to reach all routes, meaning the first afternoon departure will also be the only school bus trip [?]",
+      "link": "https://cphpost.dk/2026-01-09/news/round-up/high-water-levels-warning-issued-for-southern-jutland-as-stormy-weather-disrupts-transport/",
+      "pubDate": "Fri, 09 Jan 2026 14:59:00 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Konservative partier udtrykker yderligere bekymring over f?devarehj?lp til arbejdsl?se internationale",
+      "title_en": "Conservative parties express further concern over food aid for unemployed internationals",
+      "summary_da": "Danske politiske partiledere debatterer et forslag til en f?devarecheck fra regeringen, der har til form?l at hj?lpe s?rbare grupper med at h?ndtere h?je f?devarepriser. Inger St?jberg fra Danmarksdemokraterne argumenterer for, at arbejdsl?se indvandrere b?r arbejde i stedet for at modtage f?devarechecken. Morten Messerschmidt fra Dansk Folkeparti advarer om, at dette kan v?re til uforholdsm?ssig stor gavn for ikke-vestlige indvandrere og potentielt destabiliserende [?]",
+      "summary_en": "Danish political party leaders are debating a proposed government food check aimed at helping vulnerable groups cope with high food prices. Inger St?jberg from the Denmark Democrats argues that unemployed immigrants should work instead of receiving the food check. Morten Messerschmidt of the Danish People?s Party warns this could disproportionately benefit non-Western immigrants, potentially destabilizing [?]",
+      "link": "https://cphpost.dk/2026-01-09/news/round-up/conservative-parties-express-further-concern-over-food-aid-for-unemployed-internationals/",
+      "pubDate": "Fri, 09 Jan 2026 14:59:00 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "To ud af tre unge i Danmark indberetter ikke skat",
+      "title_en": "Two out of three young people in Denmark don?t report taxes",
+      "summary_da": "Mange unge er usikre p? deres skat og fors?mmer at tjekke deres forel?bige selvans?ttelser, siger Skattestyrelsen. Kun en tredjedel af unge i alderen 15 til 25 opdaterede deres selvans?ttelser i 2024, hvilket resulterede i en samlet overbetaling p? 2,7 milliarder kroner i skat af 560.000 unge ? i gennemsnit 4900 [?]",
+      "summary_en": "Many young people are unsure about their taxes and neglect to check their preliminary tax assessments, says the Danish Tax Agency (Skattestyrelsen). Only one-third of young people aged 15 to 25 updated their tax assessments in 2024, resulting in a collective overpayment of 2.7 billion DKK in taxes by 560,000 young individuals ? averaging 4900 [?]",
+      "link": "https://cphpost.dk/2026-01-09/news/round-up/two-out-of-three-young-people-in-denmark-dont-report-taxes/",
+      "pubDate": "Fri, 09 Jan 2026 14:59:00 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Italiens premierminister Meloni udelukker amerikansk angreb p? Gr?nland",
+      "title_en": "Italian PM Meloni rules out U.S. attack on Greenland",
+      "summary_da": "Italiens premierminister, Giorgia Meloni, sagde fredag, at hun ikke tror, ??at USA ville bruge milit?r magt til at tage kontrol over Gr?nland. Meloni er sammen med Victor Orb?n Trumps n?rmeste allierede blandt de europ?iske premierministre. P? en pressekonference i anledning af det nye ?r advarede Meloni om, at et angreb p? Gr?nland ville have [?]",
+      "summary_en": "Italy?s Prime Minister Giorgia Meloni said Friday she does not believe the United States would use military force to take control of Greenland. Meloni, together with Victor Orban, is Trump?s closest ally among European prime ministers. Speaking at a press conference to mark the New Year, Meloni warned that an attack on Greenland would have [?]",
+      "link": "https://cphpost.dk/2026-01-09/news/round-up/italian-pm-meloni-rules-out-u-s-attack-on-greenland/",
+      "pubDate": "Fri, 09 Jan 2026 14:57:00 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "St?jberg vil sk?re i f?devarehj?lp til immigranter",
+      "title_en": "St?jberg wants to cut food aid for immigrants",
+      "summary_da": "Inger St?jberg, leder af Danmarksdemokraterne, foresl?r, at arbejdsl?se indvandrere skal finde arbejde i stedet for at modtage en f?devarecheck. Den danske regering har foresl?et f?devarechecks for at hj?lpe s?rbare grupper midt i stigende f?devarepriser, som det blev afsl?ret i statsminister Mette Frederiksens nyt?rstale. Forslaget omfatter kontantoverf?rsler til pensionister uden store opsparinger, familier med [?]",
+      "summary_en": "Inger St?jberg, leader of the Danmarksdemokraterne, suggests that unemployed immigrants should find work rather than receive a food check. The Danish government proposed food checks to assist vulnerable groups amid rising food prices, as revealed in Prime Minister Mette Frederiksen?s New Year speech. The proposal includes cash transfers for pensioners without large savings, families with [?]",
+      "link": "https://cphpost.dk/2026-01-09/news/round-up/stojberg-wants-to-cut-food-aid-for-immigrants/",
+      "pubDate": "Fri, 09 Jan 2026 11:00:00 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Alle tog mellem K?benhavn og Hamborg aflyst",
+      "title_en": "All trains between Copenhagen and Hamburg canceled",
+      "summary_da": "Alle direkte togafgange mellem Hamburg Hauptbahnhof og K?benhavns Hovedbaneg?rd er blevet aflyst fredag ??den 9. januar p? grund af vintervejrforhold, herunder sne, frost og slud. Aflysningerne g?lder i begge retninger og skyldes driftsforstyrrelser p? det tyske jernbanenet, if?lge Deutsche Bahn. Alternative togforbindelser er fortsat tilg?ngelige. [?]",
+      "summary_en": "All direct train services between Hamburg Hauptbahnhof and Copenhagen Central Station have been canceled on Friday, January 9, due to winter weather conditions including snow, frost, and sleet. The cancellations apply in both directions and are the result of operational disruptions on the German rail network, according to Deutsche Bahn. Alternative rail connections remain available. [?]",
+      "link": "https://cphpost.dk/2026-01-09/news/round-up/all-trains-between-copenhagen-and-hamburg-canceled/",
+      "pubDate": "Fri, 09 Jan 2026 10:59:00 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Politiet opfordrer beboere i det sydlige Danmark til at blive hjemme, da fygesne for?rsager forstyrrelser",
+      "title_en": "Police urge residents in southern Denmark to stay home as drifting snow causes disruptions",
+      "summary_da": "Politiet i Syddanmark opfordrer beboere til at t?nke sig om en ekstra gang, f?r de tager ud, da vinterforholdene fortsat for?rsager forstyrrelser. Syd- og S?nderjyllands Politi sagde p? X, at fygesne skaber udfordringer, is?r i de ?stlige kommuner i regionen. Politiet koordinerer med andre myndigheder for at holde vejene frie, men r?der folk til [?]",
+      "summary_en": "Police in southern Denmark are urging residents to think twice before heading out as winter conditions continue to cause disruption. Syd- og S?nderjyllands Politi said on X that drifting snow is creating challenges, particularly in the eastern municipalities of the region. The police are coordinating with other authorities to keep roads clear but advise people [?]",
+      "link": "https://cphpost.dk/2026-01-09/news/round-up/police-urge-residents-in-southern-denmark-to-stay-home-as-drifting-snow-causes-disruptions/",
+      "pubDate": "Fri, 09 Jan 2026 10:58:00 +0000"
+    }
+  ]
+}
