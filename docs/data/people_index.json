@@ -1,0 +1,198 @@
+{
+  "site": {
+    "title": "Indfødsretsprøven – People Quizzes (NearlyDanish)",
+    "sourceIndex": "https://nearlydanish.com/ind/"
+  },
+  "categoryPages": {
+    "authors": "https://nearlydanish.com/ind/forfattere/",
+    "musicians": "https://nearlydanish.com/ind/musikere/",
+    "kingsQueens": "https://nearlydanish.com/ind/konger-og-dronninger/",
+    "politicians": "https://nearlydanish.com/ind/politikere/",
+    "architectsDesigners": "https://nearlydanish.com/ind/arkitekter-og-designere/",
+    "filmPeople": "https://nearlydanish.com/ind/folk-i-film/",
+    "scientistsPhilosophers": "https://nearlydanish.com/ind/videnskabsmaend-og-filosoffer/"
+  },
+  "people": {
+    "authors": {
+      "general": [
+        { "name": "Saxo", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/saxo/" },
+        { "name": "Leonora Christina", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/leonora-christina/" },
+        { "name": "Ludvig Holberg", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/ludvig-holberg/" },
+        { "name": "H.C. Andersen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/hc-andersen/" },
+        { "name": "Steen Steensen Blicher", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/steen-steensen-blicher/" },
+        { "name": "Herman Bang", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/herman-bang/" },
+        { "name": "Martin Andersen Nexø", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/martin-andersen-nexoe/" },
+        { "name": "Emma Gad", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/emma-gad/" },
+        { "name": "Karen Blixen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/karen-blixen/" },
+        { "name": "Klaus Rifbjerg", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/klaus-rifbjerg/" },
+        { "name": "Suzanne Brøgger", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/suzanne-broegger/" },
+        { "name": "Mathilde Fibiger", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/mathilde-fibiger/" },
+        { "name": "Morten Korch", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere/morten-korch/" }
+      ],
+      "nobelPrizeWinners": [
+        { "name": "Henrik Pontoppidan", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere-nobelpris-vinder/henrik-pontoppidan/" },
+        { "name": "Johannes V. Jensen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere-nobelpris-vinder/johannes-v-jensen/" }
+      ],
+      "poets": [
+        { "name": "Adam Oehlenschläger", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere-digter/adam-oehlenschlaeger/" },
+        { "name": "Tove Ditlevsen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere-digter/tove-ditlevsen/" },
+        { "name": "Inger Christensen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere-digter/inger-christensen/" },
+        { "name": "Naja Marie Aidt", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere-digter/naja-marie-aidt/" },
+        { "name": "Michael Strunge", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere-digter/michael-strunge/" },
+        { "name": "Yahya Hassan", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/forfattere-digter/yahya-hassan/" }
+      ]
+    },
+
+    "musicians": {
+      "psalmists": [
+        { "name": "Thomas Kingo", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/salmedigter/thomas-kingo/" },
+        { "name": "Hans Adolph Brorson", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/salmedigter/hans-adolph-brorson/" },
+        { "name": "Nikolaj Severin Frederik Grundtvig", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/salmedigter/nikolaj-severin-frederik-grundtvig/" },
+        { "name": "Bernhard Severin Ingemann", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/salmedigter/bernhard-severin-ingemann/" }
+      ],
+      "composers": [
+        { "name": "Friedrich Kuhlau", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/komponister/friedrich-kuhlau/" },
+        { "name": "Johannes Ewald", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/komponister/johannes-ewald/" },
+        { "name": "Carl Nielsen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/komponister/carl-nielsen/" },
+        { "name": "Hans Ernst Krøyer", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/komponister/hans-ernst-kroeyer/" },
+        { "name": "Bent Fabricius Bjerre", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/komponister/bent-fabricius-bjerre/" }
+      ],
+      "jazz": [
+        { "name": "Leo Mathisen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/jazzmusikere/leo-mathisen/" },
+        { "name": "Marilyn Mazur", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/jazzmusikere/marilyn-mazur/" },
+        { "name": "Palle Mikkelborg", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/jazzmusikere/palle-mikkelborg/" },
+        { "name": "Stan Getz", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/jazzmusikere/stan-getz/" }
+      ],
+      "rock": [
+        { "name": "Kim Larsen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/rockmusikere/kim-larsen/" },
+        { "name": "TV2", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/rockmusikere/tv2/" }
+      ],
+      "pop": [
+        { "name": "Anne Linnet", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/popstjerner/anne-linnet/" },
+        { "name": "Aqua", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/popstjerner/aqua/" },
+        { "name": "Lukas Forchhammer", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/popstjerner/lukas-forchhammer/" },
+        { "name": "Karen Marie Ørsted", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/popstjerner/karen-marie-%C3%B8rsted/" }
+      ],
+      "eurovisionWinners": [
+        { "name": "Grethe og Jørgen Ingmann", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/eurovision-vindere/grethe-og-joergen-ingmann/" },
+        { "name": "Brødrene Olsen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/eurovision-vindere/broedrene-olsen/" },
+        { "name": "Emmelie de Forest", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/musikere/eurovision-vindere/emmelie-de-forest/" }
+      ]
+    },
+
+    "kingsQueens": {
+      "vikingKings": [
+        { "name": "Angantyr", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/vikingekonger/angantyr/" },
+        { "name": "Kong Gorm den Gamle", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/vikingekonger/kong-gorm-den-gamle/" },
+        { "name": "Thyra", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/vikingekonger/thyra/" },
+        { "name": "Harald Blåtand", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/vikingekonger/harald-blaatand/" },
+        { "name": "Svend Tveskæg", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/vikingekonger/svend-tveskaeg/" },
+        { "name": "Knud den Store", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/vikingekonger/knud-den-store/" }
+      ],
+      "medieval": [
+        { "name": "Knud den Hellige", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/middelalderens-konger/knud-den-hellige/" },
+        { "name": "Valdemar Atterdag", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/middelalderens-konger/valdemar-atterdag/" },
+        { "name": "Margrete 1.", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/middelalderens-konger/margrete-1/" }
+      ],
+      "reformation": [
+        { "name": "Christian 3.", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/reformation-konger/christian-3/" },
+        { "name": "Christian 4.", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/reformation-konger/christian-4/" }
+      ],
+      "absoluteMonarchy": [
+        { "name": "Frederik 3.", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/enevaeldige-konger/frederik-3/" },
+        { "name": "Frederik 5.", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/enevaeldige-konger/frederik-5/" }
+      ],
+      "constitutionalMonarchy": [
+        { "name": "Frederik 7.", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/konstitutionelle-konger/frederik-7/" },
+        { "name": "Christian 9.", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/konstitutionelle-konger/christian-9/" },
+        { "name": "Christian 10.", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/konstitutionelle-konger/christian-10/" },
+        { "name": "Frederik 9.", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/konstitutionelle-konger/frederik-9/" },
+        { "name": "Margrethe 2.", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/konstitutionelle-konger/margrethe-2/" },
+        { "name": "Frederik 10", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/konger-og-dronninger/konstitutionelle-konger/frederik-10/" }
+      ]
+    },
+
+    "politicians": {
+      "primeMinisters": [
+        { "name": "J.B.S. Estrup", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/statsministerne/jbs-estrup/" },
+        { "name": "Thorvald Stauning", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/statsministerne/thorvald-stauning/" },
+        { "name": "Hilmar Baunsgaard", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/statsministerne/hilmar-baunsgaard/" },
+        { "name": "Jens Otto Krag", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/statsministerne/jens-otto-krag/" },
+        { "name": "Poul Schlüter", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/statsministerne/poul-schlueter/" },
+        { "name": "Poul Nyrup Rasmussen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/statsministerne/poul-nyrup-rasmussen/" },
+        { "name": "Anders Fogh Rasmussen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/statsministerne/anders-fogh-rasmussen/" },
+        { "name": "Lars Løkke Rasmussen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/statsministerne/lars-loekke-rasmussen/" },
+        { "name": "Helle Thorning-Schmidt", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/statsministerne/helle-thorning-schmidt/" }
+      ],
+      "otherPoliticians": [
+        { "name": "Nina Bang", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/politikere/nina-bang/" },
+        { "name": "Mogens Glistrup", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/politikere/mogens-glistrup/" },
+        { "name": "Pia Kjærsgaard", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/politikere/pia-kjaersgaard/" },
+        { "name": "Inger Støjberg", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/politikere/inger-stoejberg/" }
+      ]
+    },
+
+    "architectsDesigners": [
+      { "name": "C.F. Hansen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/arkitekter-designere/cf-hansen/" },
+      { "name": "Børge Mogensen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/arkitekter-designere/boerge-mogensen/" },
+      { "name": "Poul Henningsen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/arkitekter-designere/poul-henningsen/" },
+      { "name": "Arne Jacobsen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/arkitekter-designere/arne-jacobsen/" },
+      { "name": "Jørn Utzon", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/arkitekter-designere/joern-utzon/" },
+      { "name": "Dorte Mandrup", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/arkitekter-designere/dorte-mandrup/" },
+      { "name": "Bjarke Ingels", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/arkitekter-designere/bjarke-ingels/" }
+    ],
+
+    "filmPeople": {
+      "actors": [
+        { "name": "Asta Nielsen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/skuespillere/asta-nielsen/" }
+      ],
+      "directors": [
+        { "name": "Carl Th. Dreyer", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/instruktoerer/carl-th-dreyer/" },
+        { "name": "Astrid og Bjarne Henning-Jensen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/instruktoerer/astrid-og-bjarne-henning-jensen/" },
+        { "name": "Johan Jacobsen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/instruktoerer/johan-jacobsen/" },
+        { "name": "Henning Carlsen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/instruktoerer/henning-carlsen/" },
+        { "name": "Alice O’Fredericks & Jon Iverson", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/instruktoerer/alice-o-fredericks-jon-iverson/" },
+        { "name": "Erik Balling", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/instruktoerer/erik-balling/" },
+        { "name": "Nils Malmros", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/instruktoerer/nils-malmros/" },
+        { "name": "Lars von Trier", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/instruktoerer/lars-von-trier/" },
+        { "name": "Kristian Levring", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/instruktoerer/kristian-levring/" },
+        { "name": "Søren Kragh-Jacobsen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/instruktoerer/soeren-kragh-jacobsen/" }
+      ],
+      "screenwriters": [
+        { "name": "Lise Nørgaard", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/manuskriptforfatter/lise-noergaard/" },
+        { "name": "Bjarne Reuter", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/manuskriptforfatter/bjarne-reuter/" },
+        { "name": "Martin Andersen Nexø", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/manuskriptforfatter/martin-andersen-nexoe/" },
+        { "name": "Knut Hamsun", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/manuskriptforfatter/knut-hamsun/" }
+      ],
+      "oscarWinningDirectors": [
+        { "name": "Gabriel Axel", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/oscar-vindende-instruktoerer/gabriel-axel/" },
+        { "name": "Bille August", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/oscar-vindende-instruktoerer/bille-august/" },
+        { "name": "Susanne Bier", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/oscar-vindende-instruktoerer/susanne-bier/" },
+        { "name": "Thomas Vinterberg", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/folk-i-film/oscar-vindende-instruktoerer/thomas-vinterberg/" }
+      ]
+    },
+
+    "scientistsPhilosophers": {
+      "earlyScientists": [
+        { "name": "Tycho Brahe", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/tidlige-videnskabsmaend/tycho-brahe/" },
+        { "name": "Niels Steensen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/tidlige-videnskabsmaend/niels-steensen/" },
+        { "name": "Ole Rømer", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/tidlige-videnskabsmaend/ole-roemer/" },
+        { "name": "Vitus Bering", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/tidlige-videnskabsmaend/vitus-bering/" },
+        { "name": "H. C. Ørsted", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/tidlige-videnskabsmaend/h-c-%C3%B8rsted/" }
+      ],
+      "philosophers": [
+        { "name": "Søren Kierkegaard", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/filosoffer/soeren-kierkegaard/" }
+      ],
+      "modernScientists": [
+        { "name": "Knud Rasmussen", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/nylige-videnskabsmaend/knud-rasmussen/" },
+        { "name": "Inge Lehmann", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/nylige-videnskabsmaend/inge-lehmann/" },
+        { "name": "Lene Vestergaard Hau", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/nylige-videnskabsmaend/lene-vestergaard-hau/" }
+      ],
+      "nobelPrizeWinners": [
+        { "name": "Niels Bohr", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/nobelprisvindere/niels-bohr/" },
+        { "name": "Jens Christian Skou", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/nobelprisvindere/jens-christian-skou/" },
+        { "name": "Morten Meldal", "url": "https://nearlydanish.com/indfoedsretsproeven/people-quizzes/nobelprisvindere/morten-meldal/" }
+      ]
+    }
+  }
+}
