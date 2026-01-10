@@ -1,0 +1,18 @@
+{
+  "chapters": [
+    { "title": "Kapitel 1", "url": "https://nearlydanish.com/" },
+    { "title": "Kapitel 2", "url": "https://nearlydanish.com/" },
+    { "title": "Kapitel 3", "url": "https://nearlydanish.com/" },
+    { "title": "Kapitel 4", "url": "https://nearlydanish.com/" }
+  ],
+  "resources": [
+    {
+      "title": "Indfødsretsprøven – officiel side",
+      "url": "https://www.indfodsretsprove.dk/"
+    },
+    {
+      "title": "Daily Test / Current Affairs",
+      "url": "./index.html"
+    }
+  ]
+}
