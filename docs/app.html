@@ -3,23 +3,25 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Kaushal Plan – App</title>
+  <title>Indfødsretsprøven – Quizzer & Aktuelle emner</title>
   <link rel="stylesheet" href="./app.css" />
 </head>
 <body>
   <header class="topbar">
-    <button class="icon" id="menuBtn" aria-label="Menu">☰</button>
-    <div class="title">Kaushal Plan</div>
+    <button class="icon" id="menuBtn">☰</button>
+    <div class="title">Indfødsretsprøven</div>
     <div class="spacer"></div>
-    <button class="btn" id="nulstilBtn">Nulstil</button>
+    <a class="btn" href="#/aktuelt">Aktuelt</a>
   </header>
 
   <div class="layout">
     <nav class="sidebar" id="sidebar">
-      <a href="#/forside" class="nav">Forside</a>
-      <a href="#/indfoedsret" class="nav">Indfødsretsprøven</a>
-      <a href="#/dansk-vaerdier" class="nav">Danske værdier</a>
-      <a href="#/ressourcer" class="nav">Ressourcer</a>
+      <a href="#/forside" class="nav" data-route="forside">Forside</a>
+      <a href="#/kapitler" class="nav" data-route="kapitler">Kapitel-quizzer</a>
+      <a href="#/danske-vaerdier" class="nav" data-route="danske-vaerdier">Danske værdier</a>
+      <a href="#/ressourcer" class="nav" data-route="ressourcer">Ressourcer</a>
+      <a href="#/aktuelt" class="nav nav-strong" data-route="aktuelt">Aktuelle emner</a>
+      <a href="#/gemte-proever" class="nav" data-route="gemte-proever">Gemte prøver</a>
     </nav>
 
     <main class="content">
