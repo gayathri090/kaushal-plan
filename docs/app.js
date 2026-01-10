@@ -1,3 +1,11 @@
+
+
+async function loadPeopleIndex() {
+  const res = await fetch("./data/people_index.json", { cache: "no-store" });
+  if (!res.ok) throw new Error("Could not load ./data/people_index.json");
+  return await res.json();
+}
+
 const view = document.getElementById("view");
 const sidebar = document.getElementById("sidebar");
 document.getElementById("menuBtn").onclick = () =>
