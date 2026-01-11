@@ -1,1 +1,950 @@
-
+{
+  "date": "2025-11-12",
+  "sourceUrl": "https://gayathri090.github.io/kaushal-plan/docs/2025_nov_12.html?date=2025-11-12",
+  "questions": [
+    {
+      "no": 1,
+      "question_da": "I hvilken sport vandt Mads Würtz Schmidt EM-guld i september 2025?",
+      "question_en": "In which sport did Mads Würtz Schmidt win European Championship gold in September 2025?",
+      "options": {
+        "A": {
+          "da": "Svømning",
+          "en": "Swimming"
+        },
+        "B": {
+          "da": "Boksning",
+          "en": "Boxing"
+        },
+        "C": {
+          "da": "Cykling - gravel",
+          "en": "Cycling – gravel"
+        }
+      },
+      "correct": "C",
+      "tags": []
+    },
+    {
+      "no": 2,
+      "question_da": "Hvad hedder Emilie Thalunds debutfilm, der i september 2025 modtog filmfestival San Sebastiáns pris i 'New Directors'-programmet?",
+      "question_en": "What is the title of Emilie Thalund’s debut film that in September 2025 received the San Sebastián Film Festival prize in the 'New Directors' program?",
+      "options": {
+        "A": {
+          "da": "Livløs",
+          "en": "Lifeless"
+        },
+        "B": {
+          "da": "Vægtløs",
+          "en": "Weightless"
+        },
+        "C": {
+          "da": "Skødesløs",
+          "en": "Careless"
+        }
+      },
+      "correct": "B",
+      "tags": []
+    },
+    {
+      "no": 3,
+      "question_da": "På hvilket populær fødevare vil regeringspartiet Moderaterne fjerne al afgift, ifølge meddelelse i juli 2025?",
+      "question_en": "Which popular food/drink item does the governing party The Moderates want to remove all excise tax from, according to a July 2025 announcement?",
+      "options": {
+        "A": {
+          "da": "Tobak",
+          "en": "Tobacco"
+        },
+        "B": {
+          "da": "Kaffe",
+          "en": "Coffee"
+        },
+        "C": {
+          "da": "Sodavand",
+          "en": "Soft drinks"
+        }
+      },
+      "correct": "B",
+      "tags": []
+    },
+    {
+      "no": 4,
+      "question_da": "Til hvilket lands kvinder undskyldte Mette Frederiksen i august 2025 for den berygtede spiralsag?",
+      "question_en": "To the women of which country/territory did Mette Frederiksen apologize in August 2025 for the notorious spiral case?",
+      "options": {
+        "A": {
+          "da": "Sverige",
+          "en": "Sweden"
+        },
+        "B": {
+          "da": "Færøerne",
+          "en": "Faroe Islands"
+        },
+        "C": {
+          "da": "Grønland",
+          "en": "Greenland"
+        }
+      },
+      "correct": "C",
+      "tags": []
+    },
+    {
+      "no": 5,
+      "question_da": "På hvilken prestigefyldt liste blev Møns Klint optaget i juli 2025?",
+      "question_en": "On which prestigious list was Møns Klint included in July 2025?",
+      "options": {
+        "A": {
+          "da": "Unescos Verdensarvsliste",
+          "en": "UNESCO World Heritage List"
+        },
+        "B": {
+          "da": "Naturens Seværdigheder 2025",
+          "en": "Nature’s Sights 2025"
+        },
+        "C": {
+          "da": "Danske Perler 2025",
+          "en": "Danish Gems 2025"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 6,
+      "question_da": "Er der andre anerkendte trossamfund end Folkekirken i Danmark?",
+      "question_en": "Are there other recognized religious communities besides the Church of Denmark in Denmark?",
+      "options": {
+        "A": {
+          "da": "Nej",
+          "en": "No"
+        },
+        "B": {
+          "da": "Ja",
+          "en": "Yes"
+        }
+      },
+      "correct": "B",
+      "tags": [
+        "religionsfrihed",
+        "grundloven",
+        "danske værdier"
+      ]
+    },
+    {
+      "no": 7,
+      "question_da": "Hvordan sikrer vi velfærden?",
+      "question_en": "How do we secure the welfare state?",
+      "options": {
+        "A": {
+          "da": "Ved at donere penge til de fattige",
+          "en": "By donating money to the poor"
+        },
+        "B": {
+          "da": "Ved at betale SKAT",
+          "en": "By paying TAX"
+        },
+        "C": {
+          "da": "Ved at tegne private forsikringer",
+          "en": "By taking out private insurance"
+        }
+      },
+      "correct": "B",
+      "tags": [
+        "velfærdssamfund",
+        "skat",
+        "fællesskab",
+        "danske værdier"
+      ]
+    },
+    {
+      "no": 8,
+      "question_da": "Hvilken verdensorganisation, dannet i 1945, arbejder for at fred og forhandlinger skal afløse krige, og er Danmark medlem af?",
+      "question_en": "Which world organization, founded in 1945, works so that peace and negotiations replace wars, and which Denmark is a member of?",
+      "options": {
+        "A": {
+          "da": "NATO",
+          "en": "NATO"
+        },
+        "B": {
+          "da": "EU",
+          "en": "EU"
+        },
+        "C": {
+          "da": "FN",
+          "en": "UN"
+        }
+      },
+      "correct": "C",
+      "tags": []
+    },
+    {
+      "no": 9,
+      "question_da": "Er det lovligt for virksomheder at fastsætte lønninger med udgangspunkt i en persons alder?",
+      "question_en": "Is it legal for companies to set wages based on a person’s age?",
+      "options": {
+        "A": {
+          "da": "Nej",
+          "en": "No"
+        },
+        "B": {
+          "da": "Ja",
+          "en": "Yes"
+        }
+      },
+      "correct": "A",
+      "tags": [
+        "ligestilling",
+        "arbejdsmarked",
+        "anti-diskrimination",
+        "danske værdier"
+      ]
+    },
+    {
+      "no": 10,
+      "question_da": "Har man krav på økonomisk godtgørelse, hvis man som lønmodtager er blevet udsat for forskelsbehandling?",
+      "question_en": "Are you entitled to financial compensation if, as an employee, you have been subjected to discrimination?",
+      "options": {
+        "A": {
+          "da": "Nej",
+          "en": "No"
+        },
+        "B": {
+          "da": "Ja",
+          "en": "Yes"
+        }
+      },
+      "correct": "B",
+      "tags": [
+        "borgerrettigheder",
+        "ligestilling",
+        "retsstat",
+        "danske værdier"
+      ]
+    },
+    {
+      "no": 11,
+      "question_da": "Hvad er formålet med Den Europæiske Menneskerettighedsdomstol?",
+      "question_en": "What is the purpose of the European Court of Human Rights?",
+      "options": {
+        "A": {
+          "da": "At kontrollere, om de rettigheder og sikkerheder, der fastsættes af Konventionen, bliver overholdt af staterne.",
+          "en": "To check whether the rights and safeguards set out in the Convention are respected by states."
+        },
+        "B": {
+          "da": "At kontrollere forskellige politiske opgaver i verden",
+          "en": "To monitor various political tasks in the world"
+        },
+        "C": {
+          "da": "At kontrollere private grupper og firmaer",
+          "en": "To monitor private groups and companies"
+        }
+      },
+      "correct": "A",
+      "tags": [
+        "menneskerettigheder",
+        "retsstat",
+        "danske værdier"
+      ]
+    },
+    {
+      "no": 12,
+      "question_da": "Befolkningen skulle på højskolerne ...",
+      "question_en": "At the folk high schools, the population should ...",
+      "options": {
+        "A": {
+          "da": "\"lære for livet\"",
+          "en": "\"learn for life\""
+        },
+        "B": {
+          "da": "\"lære for Gud\"",
+          "en": "\"learn for God\""
+        },
+        "C": {
+          "da": "\"lære for fædrelandet\"",
+          "en": "\"learn for the fatherland\""
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 13,
+      "question_da": "Hvornår opførte Harald Blåtand ringborge til forsvar?",
+      "question_en": "When did Harald Bluetooth build ring fortresses for defense?",
+      "options": {
+        "A": {
+          "da": "Omkring år 980",
+          "en": "Around the year 980"
+        },
+        "B": {
+          "da": "Omkring år 880",
+          "en": "Around the year 880"
+        },
+        "C": {
+          "da": "Omkring år 1180",
+          "en": "Around the year 1180"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 14,
+      "question_da": "Hvem har den lovgivende magt i Danmark?",
+      "question_en": "Who holds the legislative power in Denmark?",
+      "options": {
+        "A": {
+          "da": "Kongehuset",
+          "en": "The Royal House"
+        },
+        "B": {
+          "da": "Regeringen og Folketinget",
+          "en": "The Government and the Parliament (Folketinget)"
+        },
+        "C": {
+          "da": "Statsministeren",
+          "en": "The Prime Minister"
+        }
+      },
+      "correct": "B",
+      "tags": []
+    },
+    {
+      "no": 15,
+      "question_da": "Hvad har den danske kirke været siden reformationen?",
+      "question_en": "What has the Danish church been since the Reformation?",
+      "options": {
+        "A": {
+          "da": "Katolsk",
+          "en": "Catholic"
+        },
+        "B": {
+          "da": "Ortodoks",
+          "en": "Orthodox"
+        },
+        "C": {
+          "da": "Protestantisk",
+          "en": "Protestant"
+        }
+      },
+      "correct": "C",
+      "tags": []
+    },
+    {
+      "no": 16,
+      "question_da": "Hvem leder de danske kommuner?",
+      "question_en": "Who leads Denmark’s municipalities?",
+      "options": {
+        "A": {
+          "da": "Byråd",
+          "en": "Municipal council (Byråd)"
+        },
+        "B": {
+          "da": "Kommuneråd",
+          "en": "Municipal board"
+        },
+        "C": {
+          "da": "Regionråd",
+          "en": "Regional council"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 17,
+      "question_da": "Hvor levede menneskerne ifølge Asatroen?",
+      "question_en": "Where did humans live according to Norse mythology (Ásatrú)?",
+      "options": {
+        "A": {
+          "da": "I Midgård",
+          "en": "In Midgard"
+        },
+        "B": {
+          "da": "I Asgård",
+          "en": "In Asgard"
+        },
+        "C": {
+          "da": "I Udgård",
+          "en": "In Utgard"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 18,
+      "question_da": "Hvad kaldes de rådgivere, som ministre kan udnævne, og som fratræder, når en ny minister tiltræder?",
+      "question_en": "What are the advisers called whom ministers can appoint and who leave when a new minister takes office?",
+      "options": {
+        "A": {
+          "da": "Folketingets medlemmer",
+          "en": "Members of Parliament"
+        },
+        "B": {
+          "da": "Særlige rådgivere",
+          "en": "Special advisers"
+        },
+        "C": {
+          "da": "Departementschefer",
+          "en": "Permanent secretaries"
+        }
+      },
+      "correct": "B",
+      "tags": []
+    },
+    {
+      "no": 19,
+      "question_da": "Hvilket dansk mejeri var blandt verdens 10 største?",
+      "question_en": "Which Danish dairy company was among the world’s 10 largest?",
+      "options": {
+        "A": {
+          "da": "Arla",
+          "en": "Arla"
+        },
+        "B": {
+          "da": "Valio",
+          "en": "Valio"
+        },
+        "C": {
+          "da": "Kerry",
+          "en": "Kerry"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 20,
+      "question_da": "Hvordan fejres nytårsaften normalt i Danmark?",
+      "question_en": "How is New Year’s Eve typically celebrated in Denmark?",
+      "options": {
+        "A": {
+          "da": "Ved at holde fest og skyde fyrværkeri af",
+          "en": "By having a party and setting off fireworks"
+        },
+        "B": {
+          "da": "De fleste fejrer ikke nytårsaften",
+          "en": "Most people do not celebrate New Year’s Eve"
+        },
+        "C": {
+          "da": "Ved at gå i kirke",
+          "en": "By going to church"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 21,
+      "question_da": "Europaudvalget giver på den baggrund regeringen ...",
+      "question_en": "On that basis, the European Affairs Committee gives the government ...",
+      "options": {
+        "A": {
+          "da": "universelle menneskerettigheder",
+          "en": "universal human rights"
+        },
+        "B": {
+          "da": "borgerlige rettigheder",
+          "en": "civil rights"
+        },
+        "C": {
+          "da": "et forhandlingsmandat",
+          "en": "a negotiating mandate"
+        }
+      },
+      "correct": "C",
+      "tags": []
+    },
+    {
+      "no": 22,
+      "question_da": "Hvad er værnepligt?",
+      "question_en": "What is conscription (værnepligt)?",
+      "options": {
+        "A": {
+          "da": "Pligt til at deltage i landets forsvar",
+          "en": "A duty to take part in the country’s defense"
+        },
+        "B": {
+          "da": "Pligten til at forsørge sine børn",
+          "en": "The duty to provide for your children"
+        },
+        "C": {
+          "da": "Pligt til at værne om ens medborgere",
+          "en": "A duty to protect your fellow citizens"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 23,
+      "question_da": "Hvad hed Gorm den Gamles søn?",
+      "question_en": "What was the name of Gorm the Old’s son?",
+      "options": {
+        "A": {
+          "da": "Harald Blåtand",
+          "en": "Harald Bluetooth"
+        },
+        "B": {
+          "da": "Svend Tveskæg",
+          "en": "Sweyn Forkbeard"
+        },
+        "C": {
+          "da": "Erik den Røde",
+          "en": "Erik the Red"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 24,
+      "question_da": "Hvor mange uger af barselsorloven kan deles ligeligt mellem faderen og moderen?",
+      "question_en": "How many weeks of parental leave can be shared equally between the father and the mother?",
+      "options": {
+        "A": {
+          "da": "40 uger",
+          "en": "40 weeks"
+        },
+        "B": {
+          "da": "30 uger",
+          "en": "30 weeks"
+        },
+        "C": {
+          "da": "32 uger",
+          "en": "32 weeks"
+        }
+      },
+      "correct": "C",
+      "tags": []
+    },
+    {
+      "no": 25,
+      "question_da": "Hvad bliver efterlønnen afkortet til?",
+      "question_en": "To how many years has the early retirement benefit (efterløn) been reduced?",
+      "options": {
+        "A": {
+          "da": "4 år",
+          "en": "4 years"
+        },
+        "B": {
+          "da": "2 år",
+          "en": "2 years"
+        },
+        "C": {
+          "da": "3 år",
+          "en": "3 years"
+        }
+      },
+      "correct": "C",
+      "tags": []
+    },
+    {
+      "no": 26,
+      "question_da": "Hvad er et eksempel på de opgaver, som Folketingets Ombudsmand har?",
+      "question_en": "What is an example of the tasks of the Parliamentary Ombudsman?",
+      "options": {
+        "A": {
+          "da": "At bedømme, om regeringen overholder valgløfter",
+          "en": "To judge whether the government keeps election promises"
+        },
+        "B": {
+          "da": "At bedømme, om der er sket fejl i de offentlige myndigheders arbejde",
+          "en": "To judge whether errors have occurred in the work of public authorities"
+        },
+        "C": {
+          "da": "At bedømme, om Folketingets lov strider imod grundloven",
+          "en": "To judge whether Parliament’s laws violate the Constitution"
+        }
+      },
+      "correct": "B",
+      "tags": []
+    },
+    {
+      "no": 27,
+      "question_da": "Hvilken organisation skal styrke samarbejdet om bæredygtig udvikling i Arktis?",
+      "question_en": "Which organization is to strengthen cooperation on sustainable development in the Arctic?",
+      "options": {
+        "A": {
+          "da": "Det Nordiske Råd",
+          "en": "The Nordic Council"
+        },
+        "B": {
+          "da": "Is-kommissionen",
+          "en": "The Ice Commission"
+        },
+        "C": {
+          "da": "Det Arktiske Råd",
+          "en": "The Arctic Council"
+        }
+      },
+      "correct": "C",
+      "tags": []
+    },
+    {
+      "no": 28,
+      "question_da": "EU-Domstolen kan kun afgøre konflikter mellem EU og de individuelle EU-medlemmer, men ikke imellem to EU-medlemmer.",
+      "question_en": "The EU Court can only decide conflicts between the EU and individual EU members, but not between two EU members.",
+      "options": {
+        "A": {
+          "da": "Nej",
+          "en": "No"
+        },
+        "B": {
+          "da": "Ja",
+          "en": "Yes"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 29,
+      "question_da": "Hvor mange procent af den danske befolkning er medlem af folkekirken?",
+      "question_en": "Roughly what percentage of Denmark’s population are members of the Church of Denmark?",
+      "options": {
+        "A": {
+          "da": "Cirka 71 procent",
+          "en": "About 71 percent"
+        },
+        "B": {
+          "da": "Cirka 84 procent",
+          "en": "About 84 percent"
+        },
+        "C": {
+          "da": "Cirka 94 procent",
+          "en": "About 94 percent"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 30,
+      "question_da": "Staten varetager opgaver som ...",
+      "question_en": "The state handles tasks such as ...",
+      "options": {
+        "A": {
+          "da": "Politi, ret, forsvar",
+          "en": "Police, courts, defense"
+        },
+        "B": {
+          "da": "ældreomsorg",
+          "en": "elder care"
+        },
+        "C": {
+          "da": "Vuggestuer og børnehaver",
+          "en": "nurseries and kindergartens"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 31,
+      "question_da": "Grønland har sin egen biskop.",
+      "question_en": "Greenland has its own bishop.",
+      "options": {
+        "A": {
+          "da": "Ja",
+          "en": "Yes"
+        },
+        "B": {
+          "da": "Nej",
+          "en": "No"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 32,
+      "question_da": "Da Danmark blev medlem af EF (EU) i 1973 ...",
+      "question_en": "When Denmark became a member of the EC (EU) in 1973 ...",
+      "options": {
+        "A": {
+          "da": "ønskede Færøerne at stå udenfor",
+          "en": "the Faroe Islands wanted to stay outside"
+        },
+        "B": {
+          "da": "ønskede Færøerne hjemmestyre",
+          "en": "the Faroe Islands wanted home rule"
+        },
+        "C": {
+          "da": "ønskede Færøerne også at blive en del af EF",
+          "en": "the Faroe Islands also wanted to become part of the EC"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 33,
+      "question_da": "I slutningen af 1990'erne blev hvilket krav indført i dansk indvandringspolitik for at kvalificere sig til fuld kontanthjælp?",
+      "question_en": "In the late 1990s, which requirement was introduced in Danish immigration policy to qualify for full cash assistance (kontanthjælp)?",
+      "options": {
+        "A": {
+          "da": "At have opholdt sig i Danmark i længere tid og have arbejdshistorik",
+          "en": "To have lived in Denmark for a longer time and have a work history"
+        },
+        "B": {
+          "da": "At eje ejendom i Danmark",
+          "en": "To own property in Denmark"
+        },
+        "C": {
+          "da": "At have en bestemt uddannelsesniveau",
+          "en": "To have a certain education level"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 34,
+      "question_da": "Hvilket værk er Steen Steensen Blicher især kendt for?",
+      "question_en": "Which work is Steen Steensen Blicher especially known for?",
+      "options": {
+        "A": {
+          "da": "Brudstykker af en bondepiges dagbog",
+          "en": "Fragments of a peasant girl’s diary"
+        },
+        "B": {
+          "da": "Brudstykker af en landsbydegns dagbog",
+          "en": "Fragments of a village clerk’s diary"
+        },
+        "C": {
+          "da": "Brudstykker af en jomfrus dagbog",
+          "en": "Fragments of a maiden’s diary"
+        }
+      },
+      "correct": "B",
+      "tags": []
+    },
+    {
+      "no": 35,
+      "question_da": "Langt de fleste regeringer siden 2. Verdenskrig har været ...",
+      "question_en": "Most governments since World War II have been ...",
+      "options": {
+        "A": {
+          "da": "parlamentregeringer",
+          "en": "parliamentary governments"
+        },
+        "B": {
+          "da": "mindretalsregeringer",
+          "en": "minority governments"
+        },
+        "C": {
+          "da": "flertalsregeringer",
+          "en": "majority governments"
+        }
+      },
+      "correct": "B",
+      "tags": []
+    },
+    {
+      "no": 36,
+      "question_da": "Hvilken instans skal hjælpe ledige tilbage i beskæftigelse?",
+      "question_en": "Which body is meant to help unemployed people back into work?",
+      "options": {
+        "A": {
+          "da": "De lokale jobcentre placeret i kommunerne",
+          "en": "Local job centers in the municipalities"
+        },
+        "B": {
+          "da": "Familie og venner",
+          "en": "Family and friends"
+        },
+        "C": {
+          "da": "Skolerne",
+          "en": "Schools"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 37,
+      "question_da": "Hvad er formålet med FNs Verdensmål?",
+      "question_en": "What is the purpose of the UN Sustainable Development Goals?",
+      "options": {
+        "A": {
+          "da": "fred og sikkerhed, national politik, udviklingsaktiviteter samt personlig udvikling",
+          "en": "peace and security, national politics, development activities and personal development"
+        },
+        "B": {
+          "da": "forskellige økonomiske spørgsmål",
+          "en": "various economic issues"
+        },
+        "C": {
+          "da": "fred og sikkerhed, menneskerettigheder, udviklingsaktiviteter samt humanitære indsatser",
+          "en": "peace and security, human rights, development activities and humanitarian efforts"
+        }
+      },
+      "correct": "C",
+      "tags": []
+    },
+    {
+      "no": 38,
+      "question_da": "Hvordan sammenligner Danmarks arbejdsløshedsprocent sig med gennemsnittet for EU-landene?",
+      "question_en": "How does Denmark’s unemployment rate compare with the EU average?",
+      "options": {
+        "A": {
+          "da": "Danmarks arbejdsløshedsprocent har konsekvent været lavere end EU-gennemsnittet",
+          "en": "Denmark’s unemployment rate has consistently been lower than the EU average"
+        },
+        "B": {
+          "da": "Danmarks arbejdsløshedsprocent er lig med EU-gennemsnittet.",
+          "en": "Denmark’s unemployment rate is equal to the EU average"
+        },
+        "C": {
+          "da": "Danmarks arbejdsløshedsprocent er betydeligt højere end EU-gennemsnittet.",
+          "en": "Denmark’s unemployment rate is significantly higher than the EU average"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 39,
+      "question_da": "Hvad er eksempel på et borgerligt ombud?",
+      "question_en": "What is an example of a civic duty/office (borgerligt ombud)?",
+      "options": {
+        "A": {
+          "da": "Lønnet arbejde i en forening",
+          "en": "Paid work in an association"
+        },
+        "B": {
+          "da": "Frivilligt arbejde",
+          "en": "Volunteer work"
+        },
+        "C": {
+          "da": "Lægdommer",
+          "en": "Lay judge"
+        }
+      },
+      "correct": "C",
+      "tags": []
+    },
+    {
+      "no": 40,
+      "question_da": "Hvad medførte Berlinmurens fald og Sovjetunionens sammenbrud til?",
+      "question_en": "What did the fall of the Berlin Wall and the collapse of the Soviet Union lead to?",
+      "options": {
+        "A": {
+          "da": "Enden på Den kolde Krig",
+          "en": "The end of the Cold War"
+        },
+        "B": {
+          "da": "finanskrisen",
+          "en": "the financial crisis"
+        },
+        "C": {
+          "da": "Borgerkrig i Tyskland",
+          "en": "civil war in Germany"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 41,
+      "question_da": "Hvad betød det for Danmark, at Tyskland tabte 1. Verdenskrig?",
+      "question_en": "What did it mean for Denmark that Germany lost World War I?",
+      "options": {
+        "A": {
+          "da": "Danmark fik mulighed for at kræve dansksindede områder af Slesvig tilbage",
+          "en": "Denmark got the opportunity to reclaim Danish-minded areas of Schleswig"
+        },
+        "B": {
+          "da": "Danmark led under Tysklands tab og måtte afgive det nuværende Sønderjylland til Frankrig",
+          "en": "Denmark suffered under Germany’s loss and had to cede Southern Jutland to France"
+        },
+        "C": {
+          "da": "Danmark erobrede store dele af Nordtyskland",
+          "en": "Denmark conquered large parts of Northern Germany"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 42,
+      "question_da": "Hvad var kravet for at blive medlem af Landstinget i 1800-tallet?",
+      "question_en": "What was the requirement to become a member of the upper house (Landstinget) in the 1800s?",
+      "options": {
+        "A": {
+          "da": "Man skulle være fyldt 25 og være af adelig herkomst",
+          "en": "You had to be 25 and of noble origin"
+        },
+        "B": {
+          "da": "Man skulle være fyldt 40 og have en høj indkomst",
+          "en": "You had to be 40 and have a high income"
+        },
+        "C": {
+          "da": "Man skulle være fyldt 30 og være veluddannet",
+          "en": "You had to be 30 and well educated"
+        }
+      },
+      "correct": "B",
+      "tags": []
+    },
+    {
+      "no": 43,
+      "question_da": "Frederik 3. afstod fra at gå i krig med Sverige.",
+      "question_en": "Frederik III refrained from going to war with Sweden.",
+      "options": {
+        "A": {
+          "da": "forkert",
+          "en": "false"
+        },
+        "B": {
+          "da": "rigtigt",
+          "en": "true"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 44,
+      "question_da": "Hvilket eftermæle fik Christian 4.?",
+      "question_en": "What legacy did Christian IV have?",
+      "options": {
+        "A": {
+          "da": "Han betragtes som en af Danmarks mest betydningsfulde konger",
+          "en": "He is regarded as one of Denmark’s most significant kings"
+        },
+        "B": {
+          "da": "Han huskes ikke for noget specielt",
+          "en": "He is not remembered for anything special"
+        },
+        "C": {
+          "da": "Han huskes for sine mange hustruer",
+          "en": "He is remembered for his many wives"
+        }
+      },
+      "correct": "A",
+      "tags": []
+    },
+    {
+      "no": 45,
+      "question_da": "Hvornår blev Den Europæiske Union (EU) officielt etableret i sin nuværende form?",
+      "question_en": "When was the European Union (EU) officially established in its current form?",
+      "options": {
+        "A": {
+          "da": "i 2003",
+          "en": "in 2003"
+        },
+        "B": {
+          "da": "i 1999",
+          "en": "in 1999"
+        },
+        "C": {
+          "da": "i 1993",
+          "en": "in 1993"
+        }
+      },
+      "correct": "C",
+      "tags": []
+    }
+  ]
+}
