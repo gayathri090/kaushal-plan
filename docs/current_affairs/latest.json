@@ -1,42 +1,141 @@
 {
-  "date": "2026-01-18",
-  "generatedAt": "2026-01-18T07:41:42.388Z",
+  "date": "2026-01-19",
+  "generatedAt": "2026-01-19T07:42:13.464Z",
   "items": [
     {
-      "source": "DR Indland",
-      "title_da": "I ?revis er de blevet h?net, men nu f?r vild verden danskerne til at str?mme til",
-      "title_en": "For years they have been mocked, but now the wild world is making Danes flock to it",
-      "summary_da": "Hjemmev?rnet har oplevet den st?rste v?kst i styrken i mere end fyrre ?r.",
-      "summary_en": "The Home Guard has experienced the largest growth in strength in more than forty years.",
-      "link": "https://www.dr.dk/nyheder/indland/i-aarevis-er-de-blevet-haanet-men-nu-faar-vild-verden-danskerne-til-stroemme-til",
-      "pubDate": "Sun, 18 Jan 2026 05:29:00 GMT"
+      "source": "The Copenhagen Post",
+      "title_da": "Dansker skal filme dokumentar om Gr?nlands kamp med Trump",
+      "title_en": "Dane to film documentary on Greenland?s fight with Trump",
+      "summary_da": "Den danske dokumentarist Christopher Guldbrandsen har fulgt Gr?nlands leder Jens-Frederik Nielsen i et ?r med den hensigt at producere en dokumentar. Guldbrandsen starter, da Nielsen var en 34-?rig kandidat kendt for sin succes i badminton, der f?rte sit parti til en valgsejr. Nu st?r Nielsen over for udfordringen med en potentiel amerikansk invasion drevet af Donald Trump og [?]",
+      "summary_en": "Danish documentarian Christopher Guldbrandsen has followed Greenland?s leader Jens-Frederik Nielsen for a year, intending to produce a documentary. Guldbrandsen starts when Nielsen was a 34-year-old candidate known for his success in badminton, leading his party to an election victory. Now, Nielsen faces the challenge of a potential American invasion driven by Donald Trump and the [?]",
+      "link": "https://cphpost.dk/2026-01-19/news/round-up/dane-to-film-documentary-on-greenlands-fight-with-trump/",
+      "pubDate": "Mon, 19 Jan 2026 05:53:35 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Handelskrig med USA kan koste tusindvis af danske job",
+      "title_en": "Trade war with US may cost thousands of Danish jobs",
+      "summary_da": "Hvis EU h?vner sig p? den amerikanske pr?sident Donald Trumps toldtrusler, kan tusindvis af danske job v?re i fare, if?lge beregninger fra Dansk Industri (DI). En toldstigning p? 25% fra begge sider kan resultere i et tab p? 16.000 danske job. Donald Trump annoncerede planer om at indf?re en told p? 10% p? danske og andre [?]",
+      "summary_en": "If the EU retaliates against US President Donald Trump?s tariff threats, thousands of Danish jobs could be at risk, according to calculations by Danish Industry (DI). A 25% tariff increase from both sides could result in a loss of 16,000 Danish jobs. Donald Trump announced plans to impose a 10% tariff on Danish and other [?]",
+      "link": "https://cphpost.dk/2026-01-19/news/round-up/trade-war-with-us-may-cost-thousands-of-danish-jobs/",
+      "pubDate": "Mon, 19 Jan 2026 05:53:32 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Hjemmev?rnet oplever den st?rste fremgang siden den kolde krig",
+      "title_en": "Home Guard sees biggest rise since the Cold War",
+      "summary_da": "Hjemmev?rnet oplevede sidste ?r sin st?rste stigning i antallet af nye rekrutter siden den kolde krig. I 2025 blev 2314 danskere frivillige soldater, hvilket er en stigning p? 43 procent i forhold til ?ret f?r. Dette repr?senterer den st?rste stigning siden 1983. Hjemmev?rnet sigter mod at vokse og har som m?l at n? 20.000 aktive frivillige soldater inden 2028. Generalmajor [?]",
+      "summary_en": "Last year, Denmark?s Home Guard experienced its largest increase in new recruits since the Cold War. In 2025, 2314 Danes became volunteer soldiers, marking a 43 percent rise compared to the previous year. This represents the largest increase since 1983. The Home Guard aims to grow, targeting 20,000 active volunteer soldiers by 2028. General Major [?]",
+      "link": "https://cphpost.dk/2026-01-19/news/round-up/home-guard-sees-biggest-rise-since-the-cold-war/",
+      "pubDate": "Mon, 19 Jan 2026 05:53:28 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Mette Frederiksen: Europa bliver ikke afpresset",
+      "title_en": "Mette Frederiksen: Europe won?t be blackmailed",
+      "summary_da": "Europa vil ikke lade sig afpresse af Donald Trumps toldtrusler, siger den danske statsminister Mette Frederiksen. Hun udtaler, at Danmark har st?rk st?tte, og understreger, at problemet r?kker ud over deres gr?nser. Syv andre europ?iske lande, herunder Finland og Frankrig, lover fuld solidaritet med Danmark og Gr?nland og forpligter sig til at opretholde suver?niteten. Disse lande, der ogs? er m?l for Trumps [?]",
+      "summary_en": "Europe will not be blackmailed by Donald Trump?s tariff threats, says Danish Prime Minister Mette Frederiksen. She states that Denmark has strong support, highlighting the issue extends beyond their borders. Seven other European countries, including Finland and France, pledge full solidarity with Denmark and Greenland, committing to maintaining sovereignty. These countries, also targeted by Trump?s [?]",
+      "link": "https://cphpost.dk/2026-01-19/news/round-up/mette-frederiksen-europe-wont-be-blackmailed/",
+      "pubDate": "Mon, 19 Jan 2026 05:53:25 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Chefen for Arktisk Kommando har ?je p? Rusland, ikke USA.",
+      "title_en": "Arctic Command chief eyes Russia, not USA.",
+      "summary_da": "Europ?iske NATO-allierede ?ger deres milit?re tilstedev?relse i Gr?nland som reaktion p? potentielle trusler fra Rusland, i mods?tning til bekymringer vedr?rende USA, udtaler generalmajor S?ren Andersen, chef for Arktisk Kommando. Denne milit?r?velse, kaldet \"Operation Arctic Endurance\", koordineres fra deres hovedkvarter i Nuuk. Andersen understreger sit fokus p? Rusland og forventer [?]",
+      "summary_en": "European NATO allies are increasing their military presence in Greenland in response to potential threats from Russia, as opposed to concerns regarding the U.S., states Major General S?ren Andersen, head of the Arctic Command. This military exercise, named ?Operation Arctic Endurance,? is coordinated from their headquarters in Nuuk. Andersen emphasizes his focus on Russia, anticipating [?]",
+      "link": "https://cphpost.dk/2026-01-19/news/round-up/arctic-command-chief-eyes-russia-not-usa/",
+      "pubDate": "Mon, 19 Jan 2026 05:53:21 +0000"
     },
     {
       "source": "DR Indland",
-      "title_da": "I december fik Oliver endelig en ny lever: 'Jeg har f?et en chance til i livet'",
-      "title_en": "In December, Oliver finally got a new liver: 'I've been given another chance at life'",
-      "summary_da": "Rekordmange danske patienter fik sidste ?r doneret et livreddende organ. Oliver Schj?rring er en af dem.",
-      "summary_en": "A record number of Danish patients received a life-saving organ donation last year. Oliver Schj?rring is one of them.",
-      "link": "https://www.dr.dk/nyheder/indland/i-december-fik-oliver-endelig-en-ny-lever-jeg-har-faaet-en-chance-til-i-livet",
-      "pubDate": "Sat, 17 Jan 2026 20:41:00 GMT"
+      "title_da": "Togtrafikken er ramt af massive aflysninger",
+      "title_en": "Train traffic is hit by massive cancellations",
+      "summary_da": "En fejl i opdateringen af Banedanmarks signalsystem har skabt aflysninger af de fleste tog i Jylland. F?lg med her.",
+      "summary_en": "An error in the update of Banedanmark's signal system has caused cancellations of most trains in Jutland. Follow the news here.",
+      "link": "https://www.dr.dk/nyheder/indland/togtrafikken-er-ramt-af-massive-aflysninger",
+      "pubDate": "Mon, 19 Jan 2026 04:47:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "\"Her har mange af os fundet vores 'amerikanske dr?m': Amerikanere bosat i Danmark underskriver et ?bent brev, der udtrykker solidaritet med Gr?nland\"",
+      "title_en": "?Here many of us have found our ?American Dream?: Americans living in Denmark sign an open letter expressing solidarity with Greenland?",
+      "summary_da": "Med den amerikanske Trump-administrations kontroversielle udtalelser om at erobre Gr?nland, organiserer amerikanere i Danmark sig for at vise solidaritet med den danske regering.",
+      "summary_en": "With the American Trump administration?s controversial statements on taking Greenland, Americans in Denmark are organizing to show solidarity with the Danish government.",
+      "link": "https://cphpost.dk/2026-01-19/news/politics/here-many-of-us-have-found-our-american-dream-americans-living-in-denmark-sign-an-open-letter-expressing-solidarity-with-greenland/",
+      "pubDate": "Mon, 19 Jan 2026 04:00:00 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Her er de helligdage, som Danmark kan se frem til i 2026",
+      "title_en": "These are the public holidays that Denmark can look forward to in 2026",
+      "summary_da": "Selvom ikke engang ?rets f?rste m?ned er g?et, t?nker nogle mennesker stadig p? helligdage fra tid til anden. Her er en oversigt over helligdage i 2026.",
+      "summary_en": "Although not even the first month of the year has passed, some people still find themselves thinking about holidays from time to time. Here is an overview of the public holidays in 2026.",
+      "link": "https://cphpost.dk/2026-01-19/life-in-denmark/these-are-the-public-holidays-that-denmark-can-look-forward-to-in-2026/",
+      "pubDate": "Mon, 19 Jan 2026 04:00:00 +0000"
     },
     {
       "source": "DR Indland",
-      "title_da": "Lars Ole er blevet politianmeldt af kommunen: 'Det er vanvittigt'",
-      "title_en": "Lars Ole has been reported to the police by the municipality: 'It's crazy'",
-      "summary_da": "Vejle Kommune har taget n?ste skridt i kampen for at f? kolonihavehuse reduceret i st?rrelse",
-      "summary_en": "Vejle Municipality has taken the next step in the fight to have allotment houses reduced in size.",
-      "link": "https://www.dr.dk/nyheder/indland/lars-ole-er-blevet-politianmeldt-af-kommunen-det-er-vanvittigt",
-      "pubDate": "Sat, 17 Jan 2026 19:32:00 GMT"
+      "title_da": "Aflyste tog betyder tr?ngsel for togbusser: Her er de ber?rte str?kninger",
+      "title_en": "Cancelled trains mean congestion for train buses: Here are the affected routes",
+      "summary_da": "Banedanmarks seneste melding er, at de mange jyske toge, der er p?virket, begynder at k?re igen klokken 12 mandag.",
+      "summary_en": "Banedanmark's latest announcement is that the many Jutland trains that are affected will start running again at 12 noon on Monday.",
+      "link": "https://www.dr.dk/nyheder/indland/aflyste-toge-betyder-traengsel-togbusser-her-er-de-beroerte-straekninger",
+      "pubDate": "Sun, 18 Jan 2026 20:58:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Kontroversiel bodybuilder anmeldt for at linke til ulovlige dopingmidler",
-      "title_en": "Controversial bodybuilder reported for linking to illegal doping substances",
-      "summary_da": "I starten af ?ret kunne den kontroversielle bodybuilder Jonathan Bidstrup frit lave reklamer, hvor han gav detaljerede oplysninger om, hvordan man skulle dosere sine steroider.",
-      "summary_en": "At the beginning of the year, controversial bodybuilder Jonathan Bidstrup was free to make advertisements in which he provided detailed information on how to dose his steroids.",
-      "link": "https://www.dr.dk/nyheder/indland/kontroversiel-bodybuilder-anmeldt-linke-til-ulovlige-dopingmidler",
-      "pubDate": "Sat, 17 Jan 2026 19:07:00 GMT"
+      "title_da": "Aarhus Hovedbaneg?rd bliver bygget om: F? overblikket over de planlagte togbusser til og fra Aarhus",
+      "title_en": "Aarhus Central Station is being rebuilt: Get an overview of the planned train buses to and from Aarhus",
+      "summary_da": "Togdriften mellem Skanderborg, Aarhus og Randers er lukket ned i disse dage, fordi jernbanesporene skal bygges om. Men oveni det er store dele af togdriften i Jylland aflyst indtil klokken 12 i morgen p? grund af en signalfejl.",
+      "summary_en": "Train services between Skanderborg, Aarhus and Randers are currently closed due to the reconstruction of the railway tracks. In addition, large parts of train services in Jutland are cancelled until 12 noon tomorrow due to a signal fault.",
+      "link": "https://www.dr.dk/nyheder/indland/hovedbanegaarden-i-aarhus-bliver-bygget-om-faa-overblikket-over-de-planlagte-togbusser-til-og-fra",
+      "pubDate": "Sun, 18 Jan 2026 18:23:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Klaus var p? amerikansk base, da Trump begyndte at true Gr?nland: 'Ikke noget, man taler om'",
+      "title_en": "Klaus was at an American base when Trump began threatening Greenland: 'Not something you talk about'",
+      "summary_da": "Der er meget langt fra Washington til felten, hvor man som udsendt dansk soldat arbejder, siger Klaus ?stergaard, der var udsendt til Sydkorea.",
+      "summary_en": "It is a very long way from Washington to the field where you work as a deployed Danish soldier, says Klaus ?stergaard, who was deployed to South Korea.",
+      "link": "https://www.dr.dk/nyheder/indland/groenland/klaus-var-paa-amerikansk-base-da-trump-begyndte-true-groenland-ikke-noget-man-taler-om",
+      "pubDate": "Sun, 18 Jan 2026 17:08:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "H?ndboldfeber i Andeby: Mathias Gidsel bliver til G?sling",
+      "title_en": "Handball fever in Andeby: Mathias Gidsel becomes G?sling",
+      "summary_da": "Verdens bedste h?ndboldspiller er g?stestjerne i det nye Anders And-blad.",
+      "summary_en": "The world's best handball player is a guest star in the new Donald Duck magazine.",
+      "link": "https://www.dr.dk/nyheder/indland/haandboldfeber-i-andeby-mathias-gidsel-bliver-til-gaesling",
+      "pubDate": "Sun, 18 Jan 2026 16:17:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Signalfejl tr?kker ud: De fleste tog i Jylland aflyst frem til klokken 12 i morgen",
+      "title_en": "Signal failure extends: Most trains in Jutland cancelled until 12 noon tomorrow",
+      "summary_da": "Det er ikke lykkedes Banedanmark, at f? signalfejlen rettet, s? togene kan begynde at k?re igen i morgen tidligt.",
+      "summary_en": "Banedanmark has not succeeded in getting the signal error fixed so that the trains can start running again early tomorrow.",
+      "link": "https://www.dr.dk/nyheder/indland/signalfejl-traekker-ud-de-fleste-tog-i-jylland-aflyst-frem-til-klokken-12-i-morgen",
+      "pubDate": "Sun, 18 Jan 2026 14:45:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "100 danske soldater p? amerikanske baser: I yderste konsekvens risikerer de at blive krigsfanger",
+      "title_en": "100 Danish soldiers on American bases: In the extreme case, they risk becoming prisoners of war",
+      "summary_da": "Forsvaret har en 'udstrakt' pligt til at informere soldaterne, lyder det fra officerernes fagforening.",
+      "summary_en": "The Danish Armed Forces have an 'extensive' duty to inform soldiers, according to the officers' union.",
+      "link": "https://www.dr.dk/nyheder/indland/groenland/100-danske-soldater-paa-amerikanske-baser-i-yderste-konsekvens-risikerer-de-blive-krigsfanger",
+      "pubDate": "Sun, 18 Jan 2026 10:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Dagbog fra 14 historiske dage, som Gr?nland aldrig vil glemme",
+      "title_en": "Diary from 14 historic days that Greenland will never forget",
+      "summary_da": "Gr?nl?nderne g?r p? gaden for deres land efter flere uger med nervepirrende meldinger fra USA.",
+      "summary_en": "Greenlanders are taking to the streets for their country after several weeks of nerve-wracking reports from the United States.",
+      "link": "https://www.dr.dk/nyheder/indland/groenland/dagbog-fra-14-historiske-dage-som-groenland-aldrig-vil-glemme",
+      "pubDate": "Sun, 18 Jan 2026 08:14:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
@@ -46,105 +145,6 @@
       "summary_en": "City Hall Square in central Copenhagen filled with demonstrators Saturday as protests were held across Denmark and in Greenland against repeated statements by U.S. President Donald Trump about taking control of Greenland. Demonstrations took place in Copenhagen, Aarhus, Odense, Aalborg and Esbjerg, while a separate protest was held in Nuuk, Greenland?s capital. Julie Rademacher, chair [?]",
       "link": "https://cphpost.dk/2026-01-17/news/round-up/thousands-gather-in-copenhagen-to-protest-against-trump/",
       "pubDate": "Sat, 17 Jan 2026 18:13:13 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Trump truer med 10% told p? Danmark og europ?iske allierede over Gr?nland",
-      "title_en": "Trump threatens 10% tariffs on Denmark and European allies over Greenland",
-      "summary_da": "Pr?sident Donald Trump sagde l?rdag, at USA vil indf?re nye toldsatser p? Danmark og flere andre europ?iske lande, hvilket forbinder initiativet direkte med Gr?nland og siger, at foranstaltningerne vil forblive g?ldende, indtil der er indg?et en aftale om amerikansk erhvervelse af territoriet. Trump skrev p? sin sociale medieplatform, Truth Social, at [?]",
-      "summary_en": "President Donald Trump said Saturday that the United States will impose new tariffs on Denmark and several other European countries, linking the move directly to Greenland and saying the measures will remain in place until an agreement is reached on U.S. acquisition of the territory. Trump wrote on his social media platform, Truth Social, that [?]",
-      "link": "https://cphpost.dk/2026-01-17/news/round-up/trump-threatens-10-tariffs-on-denmark-and-european-allies-over-greenland/",
-      "pubDate": "Sat, 17 Jan 2026 18:10:39 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "LIVE: Storpolitisk drama mellem USA, Danmark og Gr?nland",
-      "title_en": "LIVE: Major political drama between the USA, Denmark and Greenland",
-      "summary_da": "F? seneste nyt om kampen om Gr?nlands fremtid her.",
-      "summary_en": "Get the latest news about the fight for Greenland's future here.",
-      "link": "https://www.dr.dk/nyheder/indland/groenland/live-storpolitisk-drama-mellem-usa-danmark-og-groenland",
-      "pubDate": "Sat, 17 Jan 2026 17:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Det lader til, at statsministeren har liket opslagene - men det har hun ikke: 'H?rer ingen steder hjemme'",
-      "title_en": "It seems the Prime Minister has liked the posts - but she hasn't: 'Doesn't belong anywhere'",
-      "summary_da": "Instagram-profilen 'folketsindsigt' afviser, at man har haft til form?l at vildlede brugere.",
-      "summary_en": "The Instagram profile 'folketsinstiskt' denies that it intended to mislead users.",
-      "link": "https://www.dr.dk/nyheder/indland/det-ligner-statsministeren-har-liket-opslagene-men-det-har-hun-ikke-hoerer-ingen-steder-hjemme",
-      "pubDate": "Sat, 17 Jan 2026 16:18:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Suzanne Bjerrehuus er d?d",
-      "title_en": "Suzanne Bjerrehuus has died.",
-      "summary_da": "Den tidligere model har v?ret ramt af kr?ft ad flere omgange.",
-      "summary_en": "The former model has been affected by cancer on several occasions.",
-      "link": "https://www.dr.dk/nyheder/indland/suzanne-bjerrehuus-er-doed",
-      "pubDate": "Sat, 17 Jan 2026 14:55:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Borgerforslag for bedre forhold i svineproduktion runder 50.000 st?tter",
-      "title_en": "Citizens' proposal for better conditions in pig production reaches 50,000 supporters",
-      "summary_da": "Borgerforslaget er stillet af Dyrenes Beskyttelse, flere organisationer og personer.",
-      "summary_en": "The citizens' proposal has been submitted by the Danish Animal Welfare Association, several organizations and individuals.",
-      "link": "https://www.dr.dk/nyheder/indland/borgerforslag-bedre-forhold-i-svineproduktion-runder-50-000-stoetter",
-      "pubDate": "Sat, 17 Jan 2026 12:31:00 GMT"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Danmark inviterer USA til at deltage i milit?r?velser i Gr?nland. Meloni sagde, at italiensk deltagelse b?r dr?ftes.",
-      "title_en": "Denmark invites U.S. to join military exercises in Greenland. Meloni said Italian participation should be discussed",
-      "summary_da": "Danmark har inviteret USA til at deltage i milit?r?velser i Gr?nland, der forventes at finde sted senere p? ?ret, if?lge Danmarks Arktiske Kommando. Generalmajor S?ren Andersen, chef for Arktisk Kommando, sagde, at han fremsendte invitationen fredag ??og afventer et svar fra Washington. Han talte med Reuters ombord p? [?]",
-      "summary_en": "Denmark has invited the United States to take part in military exercises in Greenland that are expected to take place later this year, according to Denmark?s Arctic Command. Major General S?ren Andersen, head of Arctic Command, said he extended the invitation on Friday and is awaiting a response from Washington. He spoke to Reuters aboard [?]",
-      "link": "https://cphpost.dk/2026-01-17/news/round-up/denmark-invites-u-s-to-join-military-exercises-in-greenland-meloni-said-italian-participation-should-be-discussed/",
-      "pubDate": "Sat, 17 Jan 2026 09:25:00 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Trump truer med told p? lande, der ikke st?tter Gr?nlands planer",
-      "title_en": "Trump threatens tariffs on countries that do not support Greenland plans",
-      "summary_da": "Den amerikanske pr?sident Donald Trump sagde, at han overvejer told p? lande, der ikke st?tter hans planer for Gr?nland. Han kom med kommentaren under et rundbordsm?de i Det Hvide Hus om sundhedssp?rgsm?l, hvor han diskuterede, hvordan han har brugt told til at p?virke andre lande. \"Jeg kan l?gge en told p? lande, hvis de ikke g?r [...]",
-      "summary_en": "U.S. President Donald Trump said he is considering tariffs on countries that do not support his plans for Greenland. He made the comment during a White House roundtable meeting on health issues while discussing how he has used tariffs to influence other countries. ?I might put a tariff on countries if they do not go [?]",
-      "link": "https://cphpost.dk/2026-01-17/news/round-up/trump-threatens-tariffs-on-countries-that-do-not-support-greenland-plans/",
-      "pubDate": "Sat, 17 Jan 2026 09:22:10 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Renoveringen af ??Kronborgt?rnet vil tage seks ?r",
-      "title_en": "Kronborg tower renovation will to take six years",
-      "summary_da": "En st?rre renovering af Trompet?rnet p? Kronborg Slot i Helsing?r vil tage seks ?r at gennemf?re, oplyser de danske myndigheder. Det mere end 60 meter h?je t?rn er slidt ned af vind og vejr. Som f?lge heraf vil t?rnet og dets spir gennemg? en fuldst?ndig renovering, herunder udskiftning af kobbertaget, sandstenen og [?]",
-      "summary_en": "A major renovation of the Trumpet Tower at Kronborg Castle in Helsing?r will take six years to complete, Danish authorities say. The more than 60-meter-high tower has been worn down by wind and weather. As a result, the tower and its spire will undergo a full renovation, including replacement of the copper roof, sandstone and [?]",
-      "link": "https://cphpost.dk/2026-01-17/news/round-up/kronborg-tower-renovation-will-to-take-six-years/",
-      "pubDate": "Sat, 17 Jan 2026 09:10:31 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "OpenAI tester annoncer i ChatGPT i de kommende uger",
-      "title_en": "OpenAI to test ads in ChatGPT in coming weeks",
-      "summary_da": "OpenAI sagde, at de vil begynde at teste annoncering i ChatGPT i de kommende uger, startende med voksne brugere i USA, der bruger gratisversionen eller et nyt billigere abonnement. Virksomheden sagde i en erkl?ring, at annoncerne vil vises, efter at en bruger har indsendt et sp?rgsm?l, og at de vil blive vist som bannerannoncer. [?]",
-      "summary_en": "OpenAI said it will begin testing advertising in ChatGPT in the coming weeks, starting with adult users in the United States who use the free version or a new lower-cost subscription. The company said in a statement that the ads will appear after a user submits a question and will be shown as banner advertisements. [?]",
-      "link": "https://cphpost.dk/2026-01-17/news/round-up/openai-to-test-ads-in-chatgpt-in-coming-weeks/",
-      "pubDate": "Sat, 17 Jan 2026 09:00:00 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "?Det var bare for sjov?: Det skal du vide for at forst? dansk humor",
-      "title_en": "?Det var bare for sjov?: This is what you need to know to understand Danish humor",
-      "summary_da": "I dansk humor er alle frit spil, og din status er irrelevant: Danskeren mener, at lytteren er st?rk nok til at h?re sandheden.",
-      "summary_en": "In Danish humor, everyone is fair game, and your status is irrelevant: The Dane thinks the listener is strong enough to hear the truth",
-      "link": "https://cphpost.dk/2026-01-17/life-in-denmark/det-var-bare-for-sjov-this-is-what-you-need-to-know-to-understand-danish-humor/",
-      "pubDate": "Sat, 17 Jan 2026 07:00:00 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "En optimistisk vej for Danmark i 2026",
-      "title_en": "An optimistic path for Denmark in 2026",
-      "summary_da": "Danmark tilbyder en nyttig lektie. Det er muligt at v?re realistisk og optimistisk p? samme tid. Realismen er indbygget i institutioner, der er designet til kompromis og kontinuitet.",
-      "summary_en": "Denmark offers a useful lesson. It is possible to be realistic and optimistic at the same time. The realism is built into institutions designed for compromise and continuity",
-      "link": "https://cphpost.dk/2026-01-17/opinion-2/an-optimistic-path-for-denmark-in-2026/",
-      "pubDate": "Sat, 17 Jan 2026 07:00:00 +0000"
     }
   ]
 }
