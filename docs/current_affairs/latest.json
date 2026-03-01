@@ -1,7 +1,61 @@
 {
-  "date": "2026-02-28",
-  "generatedAt": "2026-02-28T07:41:53.199Z",
+  "date": "2026-03-01",
+  "generatedAt": "2026-03-01T07:41:42.135Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "'Byggeren' har eksisteret i ?rtier, men nu har sikkerhed sat en stopper for legen",
+      "title_en": "'The Builder' has been around for decades, but now safety has put an end to the game",
+      "summary_da": "K?benhavns to bemandede byggelegepladser er sp?rret af, fordi sikkerheden er for d?rlig.",
+      "summary_en": "Copenhagen's two manned construction playgrounds have been closed because security is too poor.",
+      "link": "https://www.dr.dk/nyheder/indland/byggeren-har-eksisteret-i-aartier-men-nu-har-sikkerhed-sat-en-stopper-legen",
+      "pubDate": "Sat, 28 Feb 2026 20:27:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Vil have staten til at betale for rensning af drikkevand i Aalborg: 'Kommer til at koste en formue'",
+      "title_en": "Wants the state to pay for the purification of drinking water in Aalborg: 'It will cost a fortune'",
+      "summary_da": "Nitrat i drikkevandet, som prim?rt kommer fra landbrugets g?dning, kan f?re til tarmkr?ft.",
+      "summary_en": "Nitrate in drinking water, which primarily comes from agricultural fertilizer, can lead to bowel cancer.",
+      "link": "https://www.dr.dk/nyheder/indland/vil-have-staten-til-betale-rensning-af-drikkevand-i-aalborg-kommer-til-koste-en-formue",
+      "pubDate": "Sat, 28 Feb 2026 19:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Ekspert: Flere hvaler kan ryge i d?dsf?lden p? danske strande fremover",
+      "title_en": "Expert: More whales could end up stranded on Danish beaches in the future",
+      "summary_da": "De mange kaskelothvaler, der er strandet p? det seneste, er tegn p?, at bestanden vokser.",
+      "summary_en": "The many sperm whales that have stranded recently are signs that the population is growing.",
+      "link": "https://www.dr.dk/nyheder/indland/ekspert-flere-hvaler-kan-ryge-i-doedsfaelden-paa-danske-strande-fremover",
+      "pubDate": "Sat, 28 Feb 2026 18:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Iranske demonstranter i K?benhavn: 'Tak til Trump og Israel'",
+      "title_en": "Iranian protesters in Copenhagen: 'Thank you to Trump and Israel'",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/iranske-demonstranter-i-koebenhavn-tak-til-trump-og-israel",
+      "pubDate": "Sat, 28 Feb 2026 13:39:17 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Er fred muligt? Signe Molde tager aktivistbudskab med p? v?benmesse",
+      "title_en": "Is peace possible? Signe Molde brings activist message to arms fair",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/er-fred-muligt-signe-molde-tager-aktivistbudskab-med-paa-vaabenmesse",
+      "pubDate": "Sat, 28 Feb 2026 10:20:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "En kort guide til at spise mindfult i K?benhavn",
+      "title_en": "A short guide to eating mindfully in Copenhagen",
+      "summary_da": "K?benhavn betragtes normalt som en af ??verdens madhovedst?der, men tingene er mere komplicerede. Det er m?ske ikke nemt at jonglere med h?je priser, rabatter og adskillige madbegivenheder. Her er nogle tips fra madkulturskribenten Kiki Canuto.",
+      "summary_en": "Copenhagen is usually considered one of the world?s capitals of food, but things are more complicated. Juggling high prices, discounts, and numerous food events may not be easy. These are some tips from food culture writer Kiki Canuto.",
+      "link": "https://cphpost.dk/2026-02-28/life-in-denmark/a-short-guide-to-eating-mindfully-in-copenhagen/",
+      "pubDate": "Sat, 28 Feb 2026 08:00:00 +0000"
+    },
     {
       "source": "DR Indland",
       "title_da": "Folk spurgte, om billedet af deres d?de s?n skulle h?nge lige der - her er Bj?rn og Sophies svar",
@@ -28,33 +82,6 @@
       "summary_en": "Aalborg Forsyning believes that the state, not the citizens, should pay for cleaning drinking water of nitrates.",
       "link": "https://www.dr.dk/nyheder/indland/aalborg-forsyning-staevner-staten-en-milliard-ikke-sikre-rent-drikkevand",
       "pubDate": "Sat, 28 Feb 2026 05:46:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Socialt udsatte bliver mere trygge ved at stemme, hvis de kan stemme p? deres v?rested",
-      "title_en": "Socially disadvantaged people feel more confident about voting if they can vote at their local community center.",
-      "summary_da": "Socialt v?rested i Haderslev vil gerne v?lges som valgsted, da de havde succes med det under kommunalvalget.",
-      "summary_en": "Social center in Haderslev would like to be chosen as a polling place, as they were successful with it during the municipal elections.",
-      "link": "https://www.dr.dk/nyheder/indland/socialt-udsatte-bliver-mere-trygge-ved-stemme-hvis-de-kan-stemme-paa-deres-vaerested",
-      "pubDate": "Fri, 27 Feb 2026 18:32:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "To valgkampe p? samme tid: Folketingsvalg er reduceret til en birolle i f?r?sk politik",
-      "title_en": "Two election campaigns at the same time: Parliamentary elections have been reduced to a supporting role in Faroese politics",
-      "summary_da": "Valgkampe til Folketinget p? F?r?erne bliver i stigende grad brugt som en scene til at tale indenrigspolitik. Det vil blive endnu mere synligt denne gang, siger historiker.",
-      "summary_en": "Election campaigns for the Faroese Parliament are increasingly being used as a stage to discuss domestic politics. This will be even more visible this time, says historian.",
-      "link": "https://www.dr.dk/nyheder/indland/valgkampe-paa-samme-tid-folketingsvalg-er-reduceret-til-en-birolle-i-faeroesk-politik",
-      "pubDate": "Fri, 27 Feb 2026 18:15:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "30 ?r med Pikachu og Charizard: Pok?mon-kort hitter p? hylderne",
-      "title_en": "30 years of Pikachu and Charizard: Pok?mon cards hit the shelves",
-      "summary_da": "Selvom det er 30 ?r siden, Pok?mon-universet blev lanceret, er samlekortene stadig popul?re.",
-      "summary_en": "Even though it's been 30 years since the Pok?mon universe was launched, the trading cards are still popular.",
-      "link": "https://www.dr.dk/nyheder/indland/30-aar-med-pikachu-og-charizard-pokemon-kort-hitter-paa-hylderne",
-      "pubDate": "Fri, 27 Feb 2026 17:02:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
@@ -102,24 +129,6 @@
       "pubDate": "Fri, 27 Feb 2026 14:58:00 +0000"
     },
     {
-      "source": "DR Indland",
-      "title_da": "Forbrugerr?det T?nk advarer mod slyngevugger",
-      "title_en": "The Danish Consumer Council Think warns against swing cradles",
-      "summary_da": "Forbrugerr?det T?nk vurderer, at for?ldre lader deres b?rn sove i slyngevuggerne. Og d?t kan v?re farligt.",
-      "summary_en": "The Danish Consumer Council Think estimates that parents let their children sleep in swings. And that can be dangerous.",
-      "link": "https://www.dr.dk/nyheder/indland/forbrugerraadet-taenk-advarer-mod-slyngevugger",
-      "pubDate": "Fri, 27 Feb 2026 13:43:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Ditte er rasende: Har ikke f?et hentet skrald i snart tre m?neder",
-      "title_en": "Ditte is furious: Hasn't had her garbage picked up in almost three months",
-      "summary_da": "Selvom snevejret har v?ret p? retr?te i omkring en uge, har villavej stadig ikke set skyggen af en skraldebil.",
-      "summary_en": "Even though the snow has been retreating for about a week, Villavej still hasn't seen the shadow of a garbage truck.",
-      "link": "https://www.dr.dk/nyheder/indland/ditte-er-rasende-har-ikke-faaet-hentet-skrald-i-snart-tre-maaneder",
-      "pubDate": "Fri, 27 Feb 2026 13:07:00 GMT"
-    },
-    {
       "source": "The Copenhagen Post",
       "title_da": "Regeringen siger, at den vil begr?nse antallet af ukrainere i Danmark.",
       "title_en": "The government says it wants to limit the number of Ukrainians in Denmark",
@@ -136,15 +145,6 @@
       "summary_en": "The upcoming weekend in Denmark will be mostly gray and wet, according to DMI meteorologist Hans Peter Wandler. Friday begins with clouds and rain for most, with five to ten millimeters expected and temperatures between six and 12 degrees. Saturday continues the trend with gray, cloudy, and potentially foggy conditions accompanied by occasional rain. Sunday [?]",
       "link": "https://cphpost.dk/2026-02-27/news/round-up/gray-and-wet-weather-will-dominates-the-weekend/",
       "pubDate": "Fri, 27 Feb 2026 10:59:00 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Troels Lund Poulsen vil ikke deltage i en regering, der indf?rer en formueskat.",
-      "title_en": "Troels Lund Poulsen won?t participate in a government that implements a wealth tax",
-      "summary_da": "Venstres formand Troels Lund Poulsen har erkl?ret, at han ikke vil deltage i en regering, der indf?rer en formueskat, med den begrundelse, at det ville g?re Danmark fattigere og underminere ?konomien. Denne holdning distancerer ham fra statsminister Mette Frederiksen og Socialdemokraterne, der har til hensigt at indf?re en s?dan skat. Lund Poulsen understregede ogs?, at [?]",
-      "summary_en": "Venstre chairman Troels Lund Poulsen has declared that he will not participate in a government that introduces a wealth tax, arguing it would make Denmark poorer and undermine the economy. This position distances him from Prime Minister Mette Frederiksen and the Social Democrats, who intends to introduce such a tax. Lund Poulsen also emphasized that [?]",
-      "link": "https://cphpost.dk/2026-02-27/news/round-up/troels-lund-poulsen-categorically-rejects-wealth-tax/",
-      "pubDate": "Fri, 27 Feb 2026 10:58:00 +0000"
     }
   ]
 }
