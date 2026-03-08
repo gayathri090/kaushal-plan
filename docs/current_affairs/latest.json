@@ -1,7 +1,70 @@
 {
-  "date": "2026-03-07",
-  "generatedAt": "2026-03-07T07:42:06.956Z",
+  "date": "2026-03-08",
+  "generatedAt": "2026-03-08T07:42:06.218Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Leif testamenterer hele sin formue til laksen i Skjern ?",
+      "title_en": "Leif bequeaths his entire fortune to the salmon in Skjern ?",
+      "summary_da": "Leif Jensen har ingen arvinger - og han har v?ret lystfisker det meste af livet.",
+      "summary_en": "Leif Jensen has no heirs - and he has been an angler most of his life.",
+      "link": "https://www.dr.dk/nyheder/indland/leif-testamenterer-hele-sin-formue-til-laksen-i-skjern-aa",
+      "pubDate": "Sat, 07 Mar 2026 17:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "H?jhusstrid forts?tter: Modstandere afleverer tusindvis af underskrifter endnu en gang",
+      "title_en": "High-rise building dispute continues: Opponents submit thousands of signatures once again",
+      "summary_da": "3.185 underskrifter er blevet afleveret i protest mod omdiskuteret h?jhusbyggeri i Hobro.",
+      "summary_en": "3,185 signatures have been submitted in protest against controversial high-rise construction in Hobro.",
+      "link": "https://www.dr.dk/nyheder/indland/hoejhusstrid-fortsaetter-modstandere-afleverer-tusindvis-af-underskrifter-endnu-en-gang",
+      "pubDate": "Sat, 07 Mar 2026 16:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "For?ret er ekstra travlt for gartnerne i ?r",
+      "title_en": "Spring is extra busy for gardeners this year",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/foraaret-er-ekstra-travlt-gartnerne-i-aar",
+      "pubDate": "Sat, 07 Mar 2026 16:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "F?rre procenter, mere fest og f?llesskab: En af Danmarks st?rste drukfester vil lave et alkoholfrit tilbud til unge",
+      "title_en": "Fewer percentages, more partying and community: One of Denmark's largest drinking parties will offer an alcohol-free option for young people",
+      "summary_da": "Folkefesten Aalborg Karneval arbejder i ?r p? at lave et tilbud for unge, som ikke er interesserede i at drikke hjernen ud.",
+      "summary_en": "This year, the Aalborg Carnival folk festival is working on creating an offer for young people who are not interested in drinking their brains out.",
+      "link": "https://www.dr.dk/nyheder/indland/faerre-procenter-mere-fest-og-faellesskab-en-af-danmarks-stoerste-drukfester-vil-lave-et",
+      "pubDate": "Sat, 07 Mar 2026 15:32:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Strandede kaskelothvaler dissekeres p? museum: 'Vi vil allerhelst gemme t?nderne'",
+      "title_en": "Stranded sperm whales are dissected at a museum: 'We would rather keep the teeth'",
+      "summary_da": "Statens Naturhistoriske Museum i K?benhavn skal nu forske i resterne af de kaskelothvaler, der i februar strandede p? den danske vestkyst.",
+      "summary_en": "The Danish Museum of Natural History in Copenhagen will now conduct research into the remains of the sperm whales that stranded on the Danish west coast in February.",
+      "link": "https://www.dr.dk/nyheder/indland/strandede-kaskelothvaler-dissekeres-paa-museum-vi-vil-allerhelst-gemme-taenderne",
+      "pubDate": "Sat, 07 Mar 2026 13:40:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Inspiration til l?beturen? I Thy har de 'Danmarks Barskeste Maraton'",
+      "title_en": "Inspiration for the run? In Thy they have 'Denmark's Toughest Marathon'",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/inspiration-til-loebeturen-i-thy-har-de-danmarks-barskeste-maraton",
+      "pubDate": "Sat, 07 Mar 2026 11:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "S? er det tid til valgfl?sk - men hvad skal du vide om hvert parti?",
+      "title_en": "So it's time for election gibberish - but what do you need to know about each party?",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/saa-er-det-tid-til-valgflaesk-men-hvad-skal-du-vide-om-hvert-parti",
+      "pubDate": "Sat, 07 Mar 2026 08:00:00 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "Hvad internationale studerende b?r vide om neurodiversitet, relokalisering og livet i Danmark",
@@ -19,42 +82,6 @@
       "summary_en": "",
       "link": "https://www.dr.dk/nyheder/indland/reels/saadan-flygtede-forvarringsdoemt-fra-vestre-faengsel",
       "pubDate": "Fri, 06 Mar 2026 20:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "S-borgmester vil have mere magt over svinebrug",
-      "title_en": "S-mayor wants more power over pig farming",
-      "summary_da": "Borgere i Hyllested p? Djursland protesterer mod st?rre svinebedrift samtidig med, at en socialdemokratisk borgmester vil have mere indflydelse p? beslutninger om udvidelse.",
-      "summary_en": "Citizens in Hyllested on Djursland are protesting against a larger pig farm at the same time that a Social Democratic mayor wants more influence on decisions about expansion.",
-      "link": "https://www.dr.dk/nyheder/politik/folketingsvalg/s-borgmester-vil-have-mere-magt-over-svinebrug",
-      "pubDate": "Fri, 06 Mar 2026 18:30:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Vinteren lagde arbejdet p? is: Nu graver, f?lder og klipper anl?gsgartnere p? livet l?s",
-      "title_en": "Winter put work on hold: Now landscapers are digging, felling and mowing like crazy",
-      "summary_da": "Vinterens sne- og frostvejr satte en stopper for anl?gsgartnernes arbejde. Nu viser termometeret plusgrader, og det giver travlhed hos de danske gartnere.",
-      "summary_en": "The winter's snow and frost put a stop to the work of landscape gardeners. Now the thermometer is showing plus degrees, and that's keeping Danish gardeners busy.",
-      "link": "https://www.dr.dk/nyheder/indland/vinteren-lagde-arbejdet-paa-is-nu-graver-faelder-og-klipper-anlaegsgartnere-paa-livet-loes",
-      "pubDate": "Fri, 06 Mar 2026 17:15:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Med tankpistol i h?nden lovede DF danskerne billigere br?ndstof",
-      "title_en": "With a fuel gun in hand, the DF promised the Danes cheaper fuel.",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/med-tankpistol-i-haanden-lovede-df-danskerne-billigere-braendstof",
-      "pubDate": "Fri, 06 Mar 2026 16:50:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Krig i Mellem?sten har sendt benzinpriserne p? himmelflugt",
-      "title_en": "War in the Middle East has sent gasoline prices skyrocketing",
-      "summary_da": "Priserne er ikke steget s? meget, siden Ukraine blev invaderet af Rusland, if?lge FDM.",
-      "summary_en": "Prices have not increased that much since Ukraine was invaded by Russia, according to FDM.",
-      "link": "https://www.dr.dk/nyheder/indland/krig-i-mellemoesten-har-sendt-benzinpriserne-paa-himmelflugt",
-      "pubDate": "Fri, 06 Mar 2026 16:30:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
@@ -100,33 +127,6 @@
       "summary_en": "?Greenland for sale? ? Photo: Oscar Scott Carl, Sermitsiaq Photojournalist Oscar Scott Carl from the Greenlandic media Sermitsiaq has won the Press Photo of the Year award, writes the Danish Press Photographers? Association Taken on March 15, 2025, the image depicts the largest demonstration in Greenland?s history in Nuuk, protesting Donald Trump?s remarks about taking over [?]",
       "link": "https://cphpost.dk/2026-03-06/news/round-up/press-photo-of-the-year-anti-trump-protest-in-nuuk/",
       "pubDate": "Fri, 06 Mar 2026 14:58:00 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "30-?rig mand id?mt to ?r og tre m?neders f?ngsel for vanvidsk?rsel p? motorcykel",
-      "title_en": "30-year-old man sentenced to two years and three months in prison for reckless driving on a motorcycle",
-      "summary_da": "Ved retten i Aarhus er 30-?rig mand netop blevet id?mt to ?r og tre m?neders f?ngsel for mere en 90 forhold.",
-      "summary_en": "At the court in Aarhus, a 30-year-old man has just been sentenced to two years and three months in prison for more than 90 offences.",
-      "link": "https://www.dr.dk/nyheder/indland/30-aarig-mand-idoemt-aar-og-tre-maaneders-faengsel-vanvidskoersel-paa-motorcykel",
-      "pubDate": "Fri, 06 Mar 2026 14:29:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "'Fuldst?ndig uholdbart': Proteinfabrik har udledt meget mere end tilladt",
-      "title_en": "'Completely unsustainable': Proteinfabrik has emitted much more than allowed",
-      "summary_da": "Gennem halvandet ?r har proteinvirksomhed udledt op til 20 gange mere organisk materiale end tilladt.",
-      "summary_en": "For a year and a half, protein companies have emitted up to 20 times more organic material than allowed.",
-      "link": "https://www.dr.dk/nyheder/indland/fuldstaendig-uholdbart-proteinfabrik-har-udledt-meget-mere-end-tilladt",
-      "pubDate": "Fri, 06 Mar 2026 14:21:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Morgenpost fra Gr?nland: Den aktivistiske Trump-kritiker Orla vil i Folketinget, og Siumut har ?t s?rligt krav til en ny dansk regering",
-      "title_en": "Morning Post from Greenland: Activist Trump critic Orla wants to be in the Folketing, and Siumut has one special demand for a new Danish government",
-      "summary_da": "Vi er tilbage i byen, hvor valgkampen er kommet i omdrejninger, og Nuuks nok mest fulgte mand p? sociale medier er stemplet ind som folketingskandidat for partiet Atassut.",
-      "summary_en": "We are back in town, where the election campaign has gotten into full swing, and Nuuk's most followed man on social media has been nominated as a parliamentary candidate for the Atassut party.",
-      "link": "https://www.dr.dk/nyheder/indland/groenland/morgenpost-fra-groenland-den-aktivistiske-trump-kritiker-orla-vil-i-folketinget-og-siumut-har-et",
-      "pubDate": "Fri, 06 Mar 2026 11:09:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
