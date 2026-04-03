@@ -1,7 +1,70 @@
 {
-  "date": "2026-04-02",
-  "generatedAt": "2026-04-02T06:42:42.813Z",
+  "date": "2026-04-03",
+  "generatedAt": "2026-04-03T06:42:02.658Z",
   "items": [
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Hvad laver du i Danmark? L?rer du de uskrevne regler for dansk lejlighedsliv?",
+      "title_en": "What Are you Doing in Denmark? Learning the unspoken rules of Danish apartment living",
+      "summary_da": "Fra passiv-aggressive vaskerumsnoter og festetikette til genbrugsforvirring og st?jende naboer, er denne episode fyldt med virkelige historier, kulturelle indsigter og masser af latter.",
+      "summary_en": "From passive-aggressive laundry room notes and party etiquette to recycling confusion and noisy neighbors, this episode is packed with real stories, cultural insights, and plenty of laughs.",
+      "link": "https://cphpost.dk/2026-04-03/podcast/what-are-you-doing-in-denmark-learning-the-unspoken-rules-of-danish-apartment-living/",
+      "pubDate": "Fri, 03 Apr 2026 05:00:00 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "De vil lave gr?n cement, men tvinges til at bruge sort energi: Eftersp?rgslen p? str?m er steget 'eksplosivt'",
+      "title_en": "They want to make green cement, but are forced to use black energy: Demand for electricity has increased 'explosively'",
+      "summary_da": "Der mangler kapacitet i det danske elnet, og det g?r det sv?rt for mange virksomheder at f? str?m i stikkontakten.",
+      "summary_en": "There is a lack of capacity in the Danish electricity grid, and this makes it difficult for many companies to get power from the socket.",
+      "link": "https://www.dr.dk/nyheder/indland/de-vil-lave-groen-cement-men-tvinges-til-bruge-sort-energi-efterspoergslen-paa-stroem-er-steget",
+      "pubDate": "Fri, 03 Apr 2026 04:33:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "?Jeg har altid v?ret lidt af en galning?: M?d den franske rebel bag Distortion og K?benhavns undergrundsscene",
+      "title_en": "?I?ve always been a bit of a madman?: meet the French rebel behind Distortion and Copenhagen?s underground scene",
+      "summary_da": "Den erfarne iv?rks?tter, trends?tter og K?benhavns ultimative cool fyr, Thomas Fleurquin, begyndte at forme byen i slutningen af ??90'erne. Han grundlagde det nu ikoniske Distortion og var med til at skabe The Copenhagen Post.",
+      "summary_en": "Experienced entrepreneur, trendsetter, and Copenhagen?s ultimate cool guy, Thomas Fleurquin started shaping the city in the late ?90s, founding the now-iconic Distortion and co-creating The Copenhagen Post",
+      "link": "https://cphpost.dk/2026-04-03/art-culture/ive-always-been-a-bit-of-a-madman-meet-the-french-rebel-behind-distortion-and-copenhagens-underground-scene/",
+      "pubDate": "Fri, 03 Apr 2026 03:00:00 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Vestjyder f?r nej til at bygge sommerhuse: Majsmark er bevaringsv?rdig",
+      "title_en": "West Jutland residents denied permission to build summer houses: Cornfield is worthy of preservation",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/vestjyder-faar-nej-til-bygge-sommerhuse-majsmark-er-bevaringsvaerdig",
+      "pubDate": "Thu, 02 Apr 2026 18:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Madspildsbek?mper: M?ngderne af overskudsmad er halveret p? ti ?r",
+      "title_en": "Food waste fighter: The amount of surplus food has been halved in ten years",
+      "summary_da": "Der uddeles tonsvis af overskudsmad i p?sken, men m?ngderne er if?lge Stop Spild Lokalt faldet over ?rene.",
+      "summary_en": "Tons of surplus food are distributed at Easter, but according to Stop Spild Lokalt, the amounts have decreased over the years.",
+      "link": "https://www.dr.dk/nyheder/indland/madspildsbekaemper-maengderne-af-overskudsmad-er-halveret-paa-ti-aar",
+      "pubDate": "Thu, 02 Apr 2026 14:40:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "I USA og Japan kender de hans navn: Nu f?r han eget museum i marsken",
+      "title_en": "In the USA and Japan they know his name: Now he will have his own museum in the marsh",
+      "summary_da": "Hans J?rgensen Wegner, kendt for at have designet flere ikoniske stole, f?r sit eget museum i T?nder.",
+      "summary_en": "Hans J?rgensen Wegner, known for having designed several iconic chairs, will have his own museum in T?nder.",
+      "link": "https://www.dr.dk/nyheder/indland/i-usa-og-japan-kender-de-hans-navn-nu-faar-han-eget-museum-i-marsken",
+      "pubDate": "Thu, 02 Apr 2026 08:33:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Mindre madspild i kirkerne: Jesu Kristi blod er kommet p? pose og miniflaske",
+      "title_en": "Less food waste in churches: The blood of Jesus Christ has come in bags and mini bottles",
+      "summary_da": "Nye tiltag skal forhindre, at altervin ender i kloakken i stedet for i kirkeg?ngernes ganer.",
+      "summary_en": "New initiatives are intended to prevent altar wine from ending up in the sewer instead of in the palates of churchgoers.",
+      "link": "https://www.dr.dk/nyheder/indland/mindre-madspild-i-kirkerne-jesu-kristi-blod-er-kommet-paa-pose-og-miniflaske",
+      "pubDate": "Thu, 02 Apr 2026 07:33:00 GMT"
+    },
     {
       "source": "DR Indland",
       "title_da": "'Det er en pladderromantisk tilgang': Antallet af nye sommerhuse er stort set ikke steget i fem ?r",
@@ -9,7 +72,25 @@
       "summary_da": "Feriehusudlejernes Brancheforening mener, det sp?nder ben for turismen, at antallet af danske sommerhuse blot er steget med 0,98 procent siden 2021.",
       "summary_en": "The Danish Holiday Home Owners' Association believes that it is a problem for tourism that the number of Danish holiday homes has only increased by 0.98 percent since 2021.",
       "link": "https://www.dr.dk/nyheder/indland/det-er-en-pladderromantisk-tilgang-antallet-af-nye-sommerhuse-er-stort-set-ikke-steget-i-fem-aar",
-      "pubDate": "Thu, 02 Apr 2026 04:30:00 GMT"
+      "pubDate": "Thu, 02 Apr 2026 07:30:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Danske originaler, s?son 10, afsnit 9: Natasha Fisker",
+      "title_en": "Danish Originals, S10E9: Natasha Fisker",
+      "summary_da": "I denne episode taler den dansk-brasilianske iv?rks?tter Natasha Fisker, der er bosiddende i Newport Beach, om sine to nye forretningsforetagender: det videnskabeligt baserede hudplejem?rke Checked Out, der lover velv?re, der virker natten over, og modeappen Button, der er en digital AI-assistent til ens garderobe.",
+      "summary_en": "In this episode, Newport-Beach-based Danish-Brazilian entrepreneur Natasha Fisker talks about her two new business ventures, the science-backed skincare brand Checked Out that promises wellness that works overnight, and fashion app Button that is an AI digital assistant for one's closet.",
+      "link": "https://cphpost.dk/2026-04-02/podcast/danish-originals-s10e9-natasha-fisker/",
+      "pubDate": "Thu, 02 Apr 2026 06:58:24 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Hvad skal man lave i p?skeferien i K?benhavn",
+      "title_en": "What to do during Easter holidays in Copenhagen",
+      "summary_da": "P?ske, ligesom jul, er en af ??de tider, hvor internationale g?ster kan f?le sig desorienterede. Et par tips kan helt sikkert g?re din forl?ngede weekend lettere.",
+      "summary_en": "Easter, like Christmas, is one of those times when internationals may feel disoriented. A couple of tips can definitely help make your long weekend easier",
+      "link": "https://cphpost.dk/2026-04-02/life-in-denmark/what-to-do-during-easter-holidays-in-copenhagen/",
+      "pubDate": "Thu, 02 Apr 2026 06:00:00 +0000"
     },
     {
       "source": "DR Indland",
@@ -28,24 +109,6 @@
       "summary_en": "In job postings, you could become a royal investigator. It was an April Fool's joke, but Jobindex was taken down.",
       "link": "https://www.dr.dk/nyheder/indland/jobindex-blev-kimet-ned-af-kandidater-i-aprilsnar-med-kongehuset",
       "pubDate": "Wed, 01 Apr 2026 18:12:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Dansk lammek?d er en sj?ldenhed til p?ske",
-      "title_en": "Danish lamb is a rarity for Easter",
-      "summary_da": "Der er ikke ret meget dansk lam i k?lediskene op til p?ske. H?jtiden passer d?rligt til danske forhold.",
-      "summary_en": "There isn't much Danish lamb in the refrigerated shelves leading up to Easter. The holiday is not well suited to Danish conditions.",
-      "link": "https://www.dr.dk/nyheder/indland/dansk-lammekoed-er-en-sjaeldenhed-til-paaske",
-      "pubDate": "Wed, 01 Apr 2026 17:45:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Billigere f?devarer i Sverige - men indk?bsturen kan v?re dyrere end du tror",
-      "title_en": "Cheaper food in Sweden - but the shopping trip may be more expensive than you think",
-      "summary_da": "Sverige har halveret momsen p? f?devarer, og det kan give danske forbrugere lavere priser. Men transportudgifter kan spise af besparelsen.",
-      "summary_en": "Sweden has halved the VAT on food, which could give Danish consumers lower prices. But transportation costs could eat into the savings.",
-      "link": "https://www.dr.dk/nyheder/indland/billigere-foedevarer-i-sverige-men-indkoebsturen-kan-vaere-dyrere-end-du-tror",
-      "pubDate": "Wed, 01 Apr 2026 16:00:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
@@ -82,69 +145,6 @@
       "summary_en": "Minecraft Experience: Villager Rescue opened on April 1 at MCH Messecenter Herning, marking its first appearance in the EU. The interactive event places visitors inside the Minecraft universe, where they complete a mission to save a village under attack. The experience runs through August 23, 2026, with tickets available daily from 09:30 to 19:00. Organizers [?]",
       "link": "https://cphpost.dk/2026-04-01/news/round-up/minecraft-experience-opens-in-herning-with-summer-run-through-august/",
       "pubDate": "Wed, 01 Apr 2026 13:57:00 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Fokuser ikke p? en enkelt karrierevej, og t?nk i f?rdigheder snarere end roller: tips til at finde vej i en af ??de mest efterspurgte brancher i Danmark",
-      "title_en": "Don?t focus on a single career path, and think in terms of skills rather than roles: tips to find your way in one of the most in-demand industries in Denmark",
-      "summary_da": "Toni McKee er kommunikationschef med mere end to ?rtiers erfaring i Danmark. \"Det er sv?rere at finde et job nu, end det var, men her er karrierer mindre line?re.\"",
-      "summary_en": "Toni McKee is a communications manager with more than two decades of experience in Denmark. ?Finding a job now is harder than it was, but here careers are less linear.?",
-      "link": "https://cphpost.dk/2026-04-01/business-education/career/dont-focus-on-a-single-career-path-and-think-in-terms-of-skills-rather-than-roles-tips-to-find-your-way-in-one-of-the-most-in-demand-industries-in-denmark/",
-      "pubDate": "Wed, 01 Apr 2026 13:55:00 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "WWF: Den kritisk truede ?l h?rer til i havet ? ikke p? rugbr?det",
-      "title_en": "WWF: The critically endangered eel belongs in the sea ? not on rye bread",
-      "summary_da": "Det er fuldt lovligt at s?tte ?l p? p?skebordet ? alligevel b?r vi lade v?re, opfordrer Verdensnaturfonden.",
-      "summary_en": "It is perfectly legal to put eel on the Easter table - yet we should not, urges the World Wide Fund for Nature.",
-      "link": "https://www.dr.dk/nyheder/indland/wwf-den-kritisk-truede-aal-hoerer-til-i-havet-ikke-paa-rugbroedet",
-      "pubDate": "Wed, 01 Apr 2026 13:30:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "DR's bedste aprilsnarre gennem tiden",
-      "title_en": "DR's best April Fool's joke of all time",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/dr-s-bedste-aprilnarre-gennem-tiden",
-      "pubDate": "Wed, 01 Apr 2026 13:28:26 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Efter dom: P?dofil trodsede skoleforbud og ops?gte offers venner",
-      "title_en": "After verdict: Pedophile defied school ban and sought out victim's friends",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/efter-dom-paedofil-trodsede-skoleforbud-og-opsoegte-offers-venner",
-      "pubDate": "Wed, 01 Apr 2026 13:00:00 GMT"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Alkohol vil nu v?re mindre synlig i butikkerne",
-      "title_en": "Alcohol will now be less visible in stores",
-      "summary_da": "Fra onsdag den 1. april tr?der nye regler for placering af alkoholholdige drikkevarer i kraft i danske butikker. Alkoholholdige drikkevarer, s?som ?l og alkopops, m? ikke l?ngere placeres i n?rheden af ??kasser eller ved siden af ??slik, chips, leget?j eller frugt- og gr?ntafdelinger. Retningslinjerne, der blev aftalt i sommeren 2025 af detailhandlen, producenter og [?]",
-      "summary_en": "Starting Wednesday, April 1, new rules for the placement of alcoholic beverages in Danish stores come into effect. Alcoholic drinks, such as beer and alcopops, may no longer be positioned near checkout areas or next to candy, chips, toys, or produce departments. The guidelines, agreed upon in summer 2025 by the retail industry, producers, and [?]",
-      "link": "https://cphpost.dk/2026-04-01/news/round-up/alcohol-will-now-be-less-visible-in-stores/",
-      "pubDate": "Wed, 01 Apr 2026 10:00:00 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Danske dagligvarehandlere bekymrer sig om, at Sverige halverer momsen p? f?devarer",
-      "title_en": "Danish grocers worry over Sweden cutting their food VAT in half",
-      "summary_da": "Fra den 1. april s?nker Sverige momsen p? alle f?devarer fra 12 procent til 6 procent frem til slutningen af ??2027, et skridt der koster 37 milliarder SEK. Den danske detailhandlerforening (DSK) advarer om, at dette vil ?ge gr?nsehandelen og true danske indt?gter og arbejdspladser. Danmark har i ?jeblikket en moms p? 25 procent p? alle varer, den h?jeste f?devareafgift [?]",
-      "summary_en": "Starting April 1st, Sweden is reducing VAT on all food from 12 percent to 6 percent until late 2027, a move costing 37 billion SEK. The Danish retailers? association (DSK) warns this will increase cross-border trade, threatening Danish revenue and jobs. Denmark currently has a 25 percent VAT on all goods, the highest food tax [?]",
-      "link": "https://cphpost.dk/2026-04-01/news/round-up/group-sues-meta-on-behalf-of-children-and-youth-in-denmark/",
-      "pubDate": "Wed, 01 Apr 2026 09:59:00 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Trumps udtalelser om Iran l?fter de danske aktier ved ?bning",
-      "title_en": "Trump?s Iran statements lifts Danish stocks at opening",
-      "summary_da": "Det danske C25-indeks steg 1,6 procent onsdag morgen efter pr?sident Donald Trumps forslag om, at USA kunne tr?kke sig ud af Iran-konflikten inden for to til tre uger. Denne optimisme f?lger stigninger p? Wall Street og h?b om, at Hormuz-str?det vil gen?bne og stabilisere de globale olieforsyninger. Som f?lge heraf faldt oliepriserne 3 procent onsdag morgen, [?]",
-      "summary_en": "The Danish C25 index rose 1.6 percent Wednesday morning following President Donald Trump?s suggestion that the U.S. could withdraw from the Iran conflict within two to three weeks. This optimism follows gains on Wall Street and hopes that the Hormuz Strait will reopen, stabilizing global oil supplies. Consequently, oil prices fell 3 percent Wednesday morning, [?]",
-      "link": "https://cphpost.dk/2026-04-01/news/round-up/trumps-iran-statements-lifts-danish-stocks-at-opening/",
-      "pubDate": "Wed, 01 Apr 2026 09:58:00 +0000"
     }
   ]
 }
