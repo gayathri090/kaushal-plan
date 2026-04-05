@@ -1,15 +1,78 @@
 {
-  "date": "2026-04-04",
-  "generatedAt": "2026-04-04T06:41:58.566Z",
+  "date": "2026-04-05",
+  "generatedAt": "2026-04-05T06:41:43.689Z",
   "items": [
     {
       "source": "DR Indland",
-      "title_da": "Nyt studie: Kr?ft g?r ud over sexlivet i flere ?r efter",
-      "title_en": "New study: Cancer affects sex life for years after",
-      "summary_da": "Tidligere kr?ftpatienter oplever i langt st?rre grad end forventet seksuelle problemer efter sygdommen, viser nyt dansk studie",
-      "summary_en": "Former cancer patients experience sexual problems after the disease to a much greater extent than expected, new Danish study shows",
-      "link": "https://www.dr.dk/nyheder/indland/nyt-studie-kraeft-gaar-ud-over-sexlivet-i-flere-aar-efter",
-      "pubDate": "Sat, 04 Apr 2026 06:00:00 GMT"
+      "title_da": "Sauna, spa og vildmarksbade flytter ind p? gr?spl?nen: Danskerne vil have wellness i haven",
+      "title_en": "Sauna, spa and wilderness baths are moving onto the lawn: Danes want wellness in the garden",
+      "summary_da": "Flere virksomheder oplever stor eftersp?rgsel p? alt fra udespa til materialer til at bygge sauna med.",
+      "summary_en": "Several companies are experiencing high demand for everything from outdoor spas to materials for building saunas.",
+      "link": "https://www.dr.dk/nyheder/indland/sauna-spa-og-vildmarksbade-flytter-ind-paa-graesplaenen-danskerne-vil-have-wellness-i-haven",
+      "pubDate": "Sun, 05 Apr 2026 06:17:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Presset som ny borgmester er enormt: Erfarne eks-borgmestre tr?der til som mentorer",
+      "title_en": "The pressure as a new mayor is enormous: Experienced ex-mayors step in as mentors",
+      "summary_da": "Hele 40 borgmestre er helt nye med k?den om halsen, og de er alle blevet tilbudt en erfaren mentor. KL st?r bag den nye ordning.",
+      "summary_en": "A total of 40 mayors are brand new, and they have all been offered an experienced mentor. KL is behind the new scheme.",
+      "link": "https://www.dr.dk/nyheder/indland/presset-som-ny-borgmester-er-enormt-erfarne-eks-borgmestre-traeder-til-som-mentorer",
+      "pubDate": "Sun, 05 Apr 2026 04:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Flygtningemuseum ramt af g?ste-flugt",
+      "title_en": "Refugee museum hit by guest exodus",
+      "summary_da": "En ny bygning skal f? str?mmen til at vende.",
+      "summary_en": "A new building should turn the tide.",
+      "link": "https://www.dr.dk/nyheder/indland/flygtningemuseum-ramt-af-gaeste-flugt",
+      "pubDate": "Sat, 04 Apr 2026 13:40:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "K?bmand i opr?b: K?b for en tier mere om ugen og red din lokale k?bmand",
+      "title_en": "Grocery store on the rise: Buy a dollar more a week and save your local grocery store",
+      "summary_da": "Krigen i Iran har sat skub i endnu en omgang prisstigninger. For den lokale k?bmand i R?dding kan det m?rkes p? bundlinjen.",
+      "summary_en": "The war in Iran has spurred yet another round of price increases. For the local grocer in R?dding, this can be felt on the bottom line.",
+      "link": "https://www.dr.dk/nyheder/regionale/midtvest/koebmand-i-opraab-koeb-en-tier-mere-om-ugen-og-red-din-lokale-koebmand",
+      "pubDate": "Sat, 04 Apr 2026 12:01:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Sved p? panden og plads til f?lelser: Idr?tsklub satser p? uddannede b?rnetr?nere",
+      "title_en": "Sweat on the forehead and room for emotions: Sports club relies on trained children's coaches",
+      "summary_da": "I TSG Toreby p? Lolland-Falster bliver alle tr?nere sendt p? skoleb?nken.",
+      "summary_en": "In TSG Toreby on Lolland-Falster, all coaches are sent to school.",
+      "link": "https://www.dr.dk/nyheder/indland/sved-paa-panden-og-plads-til-foelelser-idraetsklub-satser-paa-uddannede-boernetraenere",
+      "pubDate": "Sat, 04 Apr 2026 11:03:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Person anholdt i Greve, mens politiet unders?ger mist?nkeligt forhold",
+      "title_en": "Person arrested in Greve while police investigate suspicious circumstances",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/person-anholdt-i-greve-mens-politiet-undersoeger-mistaenkeligt-forhold",
+      "pubDate": "Sat, 04 Apr 2026 10:29:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Uheld p? E20 Fynske Motorvej",
+      "title_en": "Accident on the E20 Funen Motorway",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/uheld-paa-e20-fynske-motorvej",
+      "pubDate": "Sat, 04 Apr 2026 10:19:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Selvom Katrine slap af med kr?ften, har den sat sine spor - ogs? seksuelt",
+      "title_en": "Although Katrine got rid of the cancer, it has left its mark - also sexually.",
+      "summary_da": "Mange tidligere kr?ftpatienter oplever seksuelle problemer efter sygdommen, viser nyt dansk studie.",
+      "summary_en": "Many former cancer patients experience sexual problems after the disease, a new Danish study shows.",
+      "link": "https://www.dr.dk/nyheder/indland/selvom-katrine-slap-af-med-kraeften-har-den-sat-sine-spor-ogsaa-seksuelt",
+      "pubDate": "Sat, 04 Apr 2026 10:08:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
@@ -19,69 +82,6 @@
       "summary_en": "For internationals, building a new life often means starting socially from scratch but connection is possible in more places than you might think. Expat counselling has developed a model that supports the process of sense of belonging, writes Sidsel Byskov Hansen",
       "link": "https://cphpost.dk/2026-04-04/life-in-denmark/loneliness-as-an-international-finding-a-sense-of-belonging-in-denmark/",
       "pubDate": "Sat, 04 Apr 2026 06:00:00 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Efter Trumps trusler er svenske Sj?forsvaret en af Danmarks bedste venner: Nu vil Forsvaret endda have de samme kanoner",
-      "title_en": "After Trump's threats, the Swedish Navy is one of Denmark's best friends: Now the Defense even wants the same guns",
-      "summary_da": "Danmark har ?jnene rettet mod svenske 'Ikea-kanoner', der skal styrke samarbejdet tv?rs over ?resund",
-      "summary_en": "Denmark has its eyes set on Swedish 'Ikea ??guns' to strengthen cooperation across the ?resund",
-      "link": "https://www.dr.dk/nyheder/indland/efter-trumps-trusler-er-svenske-sjoforsvaret-en-af-danmarks-bedste-venner-nu-vil-forsvaret-endda",
-      "pubDate": "Sat, 04 Apr 2026 05:33:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Rekordmange frivillige tr?nere tager uddannelse: 'Vi laver ikke bare idr?t - vi laver hele mennesker'",
-      "title_en": "Record number of volunteer coaches take training: 'We don't just do sports - we do whole people'",
-      "summary_da": "Fokus p? bedre tr?nere smitter af p? b?rne- og ungemilj?erne i idr?tsklubber.",
-      "summary_en": "Focus on better coaches has an impact on the children and youth environments in sports clubs.",
-      "link": "https://www.dr.dk/nyheder/indland/rekordmange-frivillige-traenere-tager-uddannelse-vi-laver-ikke-bare-idraet-vi-laver-hele-mennesker",
-      "pubDate": "Sat, 04 Apr 2026 04:45:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "'Ut?lmodighed' f?r folk til at k?re over trods stopsignal. Nu er der kommet kameraer op",
-      "title_en": "'Impatience' causes people to run over despite stop signs. Now cameras have been installed",
-      "summary_da": "Overv?gningen er kommet op ved to overgange, hvor der i 2025 var d?dsulykker.",
-      "summary_en": "Monitoring has been initiated at two crossings where there were fatal accidents in 2025.",
-      "link": "https://www.dr.dk/nyheder/indland/utaalmodighed-faar-folk-til-koere-over-trods-stopsignal-nu-er-der-kommet-kameraer-op",
-      "pubDate": "Fri, 03 Apr 2026 14:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Det danske elnet er presset. Men hvorfor egentlig?",
-      "title_en": "The Danish electricity grid is under pressure. But why exactly?",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/det-danske-elnet-er-presset-men-hvorfor-egentlig",
-      "pubDate": "Fri, 03 Apr 2026 12:27:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "B?rneorganisationer og forbrugerr?d advarer mod popul?r app",
-      "title_en": "Children's organizations and consumer councils warn against popular app",
-      "summary_da": "Organisationerne er s? bekymrede, at de har klaget til Datatilsynet.",
-      "summary_en": "The organizations are so concerned that they have complained to the Danish Data Protection Authority.",
-      "link": "https://www.dr.dk/nyheder/indland/boerneorganisationer-og-forbrugerraad-advarer-mod-populaer-app",
-      "pubDate": "Fri, 03 Apr 2026 11:29:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Br?ndstofpriserne er blevet sendt p? himmelflugt ? og det giver travlhed hos forhandlere i 'Bilernes By'",
-      "title_en": "Fuel prices have skyrocketed ? and that's causing a lot of hustle and bustle at dealers in the 'City of Cars'",
-      "summary_da": "Danskernes lyst til at skifte til en elbil er i forvejen stor, men har f?et et ekstra n?k opad i l?bet af de seneste uger.",
-      "summary_en": "The Danes' desire to switch to an electric car is already great, but has received an extra boost in recent weeks.",
-      "link": "https://www.dr.dk/nyheder/indland/braendstofpriserne-er-blevet-sendt-paa-himmelflugt-og-det-giver-travlhed-hos-forhandlere-i-bilernes",
-      "pubDate": "Fri, 03 Apr 2026 08:55:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "I dag stopper mulighed for at scanne private beskeder for materiale med seksuelle overgreb p? b?rn",
-      "title_en": "Today, the ability to scan private messages for child sexual abuse material ends",
-      "summary_da": "Red Barnet kritiserer, at man i Europa-Parlamentet har stemt nej til at forl?nge en ordning, der scanner private beskeder for overgrebsmateriale p? b?rn.",
-      "summary_en": "Save the Children criticizes the fact that the European Parliament has voted against extending a scheme that scans private messages for child abuse material.",
-      "link": "https://www.dr.dk/nyheder/indland/i-dag-stopper-mulighed-scanne-private-beskeder-materiale-med-seksuelle-overgreb-paa-boern",
-      "pubDate": "Fri, 03 Apr 2026 07:01:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
