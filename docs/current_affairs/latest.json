@@ -1,7 +1,25 @@
 {
-  "date": "2026-04-06",
-  "generatedAt": "2026-04-06T06:41:55.901Z",
+  "date": "2026-04-07",
+  "generatedAt": "2026-04-07T06:41:50.114Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Politimand anklaget for at l?kke oplysninger om bander til journalister",
+      "title_en": "Police officer accused of leaking gang information to journalists",
+      "summary_da": "En 51-?rig betjent fra ?stjyllands Politi risikerer f?ngselsdom, hvis han bliver d?mt for at l?kke fortrolige oplysninger til journalister.",
+      "summary_en": "A 51-year-old officer from the East Jutland Police faces a prison sentence if he is convicted of leaking confidential information to journalists.",
+      "link": "https://www.dr.dk/nyheder/indland/politimand-anklaget-laekke-oplysninger-om-bander-til-journalister",
+      "pubDate": "Tue, 07 Apr 2026 05:15:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Josephine, Victor og Anton v?lger d?ben til: 'Jeg har vel altid troet lidt p? Gud'",
+      "title_en": "Josephine, Victor and Anton choose baptism for: 'I guess I've always believed a little in God'",
+      "summary_da": "Folkekirken oplever en stor stigning i unge, der bliver d?bt for at blive konfirmeret.",
+      "summary_en": "The Danish Church is experiencing a large increase in young people being baptized to be confirmed.",
+      "link": "https://www.dr.dk/nyheder/indland/josephine-victor-og-anton-vaelger-daaben-til-jeg-har-vel-altid-troet-lidt-paa-gud",
+      "pubDate": "Mon, 06 Apr 2026 10:28:00 GMT"
+    },
     {
       "source": "DR Indland",
       "title_da": "F?llesskab hiver teenagere til d?befonten",
@@ -55,24 +73,6 @@
       "summary_en": "",
       "link": "https://www.dr.dk/nyheder/indland/reels/cyklist-ramt-af-bus-soeren-haandterer-patient-og-paaroerende",
       "pubDate": "Sun, 05 Apr 2026 10:55:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "'Vi frygtede, de aldrig ville rejse' 80 ?r senere sp?ger russernes bes?ttelse stadig p? Bornholm",
-      "title_en": "'We feared they would never leave' 80 years later, the Russian occupation still haunts Bornholm",
-      "summary_da": "Ella Munck Jallov husker Bornholms befrielse fra den sovjetiske milit?rmagt for 80 ?r siden. I dag bliver det markeret p? klippe?en med en mindegudstjeneste.",
-      "summary_en": "Ella Munck Jallov remembers the liberation of Bornholm from Soviet military power 80 years ago. Today, it is marked on the rocky island with a memorial service.",
-      "link": "https://www.dr.dk/nyheder/indland/vi-frygtede-de-aldrig-ville-rejse-80-aar-senere-spoeger-russernes-besaettelse-stadig-paa-bornholm",
-      "pubDate": "Sun, 05 Apr 2026 09:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "DMI varsler vindst?d af orkanstyrke i det nordvestlige Jylland",
-      "title_en": "DMI warns of hurricane-force wind gusts in northwestern Jutland",
-      "summary_da": "DMI varsler storm med vindst?d af orkanstyrke i det nordvestjyske, men p?sken vil byde p? kraftige vindst?d flere steder.",
-      "summary_en": "DMI is warning of storms with hurricane-force wind gusts in northwestern Jutland, but Easter will bring strong wind gusts in several places.",
-      "link": "https://www.dr.dk/nyheder/vejret/dmi-varsler-vindstoed-af-orkanstyrke-i-det-nordvestlige-jylland",
-      "pubDate": "Sun, 05 Apr 2026 08:26:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
