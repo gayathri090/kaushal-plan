@@ -1,7 +1,61 @@
 {
-  "date": "2026-04-11",
-  "generatedAt": "2026-04-11T06:41:58.810Z",
+  "date": "2026-04-12",
+  "generatedAt": "2026-04-12T06:41:51.681Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Dronning Marys far er d?d",
+      "title_en": "Queen Mary's father has died",
+      "summary_da": "John Donaldson d?de p? Tasmanien 84 ?r gammel.",
+      "summary_en": "John Donaldson died in Tasmania at the age of 84.",
+      "link": "https://www.dr.dk/nyheder/indland/dronning-marys-far-er-doed",
+      "pubDate": "Sun, 12 Apr 2026 06:03:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Emma skal bortadopteres med tvang. Pigen p? tre et halvt flyttes fra familie til familie",
+      "title_en": "Emma is being forcibly adopted. The three-and-a-half-year-old girl is being moved from family to family",
+      "summary_da": "Flere b?rn bortadopteres, men de m? vente p? en permanent familie. I stedet havner de midlertidigt hos plejefamilier.",
+      "summary_en": "More children are adopted out, but they have to wait for a permanent family. Instead, they end up temporarily with foster families.",
+      "link": "https://www.dr.dk/nyheder/indland/emma-skal-bortadopteres-med-tvang-pigen-paa-tre-et-halvt-flyttes-fra-familie-til-familie",
+      "pubDate": "Sun, 12 Apr 2026 05:57:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "To teenagere mister livet i knallertulykke",
+      "title_en": "Two teenagers lose their lives in moped accident",
+      "summary_da": "De to drenge blev erkl?ret d?de p? stedet. En 15-?rig pige er i kritisk tilstand.",
+      "summary_en": "The two boys were pronounced dead at the scene. A 15-year-old girl is in critical condition.",
+      "link": "https://www.dr.dk/nyheder/indland/teenagere-mister-livet-i-knallertulykke",
+      "pubDate": "Sun, 12 Apr 2026 04:35:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Rigshospitalet fejrer s?skende til syge b?rn",
+      "title_en": "Rigshospitalet celebrates siblings of sick children",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/rigshospitalet-fejrer-soeskende-til-syge-boern",
+      "pubDate": "Sat, 11 Apr 2026 17:36:38 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Demonstranter imod v?benhvile mellem USA og Iran",
+      "title_en": "Protesters against ceasefire between US and Iran",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/demonstranter-imod-vaabenhvile-mellem-usa-og-iran",
+      "pubDate": "Sat, 11 Apr 2026 16:02:09 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Banderelateret skyderi p? tattooforretning er ikke nok til at lukke den ? men der er en anden mulighed",
+      "title_en": "Gang-related shooting at tattoo shop isn't enough to close it ? but there's another option",
+      "summary_da": "Nordjyllands Politi har lukket tatov?rforretning i 14 dage efter et banderelateret skyderi mod forretningen i g?gaden i Aalborg. Lukningen kan blive permanent, hvis rockerne bruger stedet som samlingspunkt.",
+      "summary_en": "North Jutland Police have closed a tattoo shop for 14 days after a gang-related shooting at the shop in the pedestrian zone in Aalborg. The closure could become permanent if the bikers use the place as a gathering place.",
+      "link": "https://www.dr.dk/nyheder/indland/banderelateret-skyderi-paa-tattooforetning-er-ikke-nok-til-lukke-den-men-der-er-en-anden-mulighed",
+      "pubDate": "Sat, 11 Apr 2026 08:30:00 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "DMI National Vejrudsigt",
@@ -91,60 +145,6 @@
       "summary_en": "Family tracing has recently led to the resolution of a rape case that was on the verge of becoming statute-barred.",
       "link": "https://www.dr.dk/nyheder/indland/ingen-samlet-plan-brug-af-nyt-dna-vaerktoej-der-kan-opklare-gamle-voldtaegtssager",
       "pubDate": "Fri, 10 Apr 2026 18:35:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Nyt byggeri fik Josefin til at sige ja til at blive l?ge i udkantsomr?de",
-      "title_en": "New construction made Josefin say yes to becoming a doctor in a remote area",
-      "summary_da": "Nyt sundhedshus skal sikre l?ged?kning og f? flere til at flytte til omr?det",
-      "summary_en": "New health center to ensure medical coverage and encourage more people to move to the area",
-      "link": "https://www.dr.dk/nyheder/indland/nyt-byggeri-fik-josefin-til-sige-ja-til-blive-laege-i-udkantsomraade",
-      "pubDate": "Fri, 10 Apr 2026 18:17:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "N?sten ?n million ?rreder har p?begyndt deres livs rejse: Mogens bliver b?de deres bodyguard og deres endeligt",
-      "title_en": "Almost one million trout have begun the journey of their lives: Mogens becomes both their bodyguard and their final destination.",
-      "summary_da": "Hvert for?r s?ttes k?mpe m?ngder sm? ?rred-yngel, s?kaldt \"smolt\", ud i de danske vandl?b - men farerne truer lige over vandoverfladen.",
-      "summary_en": "Every spring, huge quantities of small trout fry, so-called \"smolt\", are released into Danish waterways - but the dangers lurk just above the water surface.",
-      "link": "https://www.dr.dk/nyheder/indland/naesten-en-million-oerreder-har-paabegyndt-deres-livs-rejse-mogens-bliver-baade-deres-bodyguard-og",
-      "pubDate": "Fri, 10 Apr 2026 17:50:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Louise har cerebral parese: 'Jeg ville ?nske, at folk turde tale mere ?bent om handicap'",
-      "title_en": "Louise has cerebral palsy: 'I wish people would dare to talk more openly about disabilities'",
-      "summary_da": "Et meget omtalt klip p? Radio IIII har sat gang i diskussionen om mennesker med handicap. Louise Eriksen har cerebral parese og vil gerne tale med alle om sin lidelse.",
-      "summary_en": "A much-talked-about clip on Radio IIII has sparked a discussion about people with disabilities. Louise Eriksen has cerebral palsy and wants to talk to everyone about her condition.",
-      "link": "https://www.dr.dk/nyheder/regionale/nordjylland/louise-har-cerebral-parese-jeg-ville-oenske-folk-turde-tale-mere-aabent-om-handicap",
-      "pubDate": "Fri, 10 Apr 2026 17:35:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Kraftig for?rs-sne ramte frikvarteret: ?Det er b?de dejligt og tr?ls!?",
-      "title_en": "Heavy spring snow hit recess: 'It's both lovely and tiring!'",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/kraftig-foraars-sne-ramte-frikvarteret-det-er-baade-dejligt-og-traels",
-      "pubDate": "Fri, 10 Apr 2026 16:45:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Astrofysiker om, hvorfor vi skal i rummet: 'Vi kan ikke lade v?re'",
-      "title_en": "Astrophysicist on why we need to go to space: 'We can't help it'",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/astrofysiker-om-hvorfor-vi-skal-i-rummet-vi-kan-ikke-lade-vaere",
-      "pubDate": "Fri, 10 Apr 2026 16:39:18 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Millionunderskud, en sk?lvende sportshal og for f? timer i d?gnet - nye borgmestre har siddet 100 dage",
-      "title_en": "Million-dollar deficit, a shaky sports hall and too few hours in the day - new mayors have been in office for 100 days",
-      "summary_da": "I dag er det 100 dage siden, de nye borgmestre overtog k?de, kontor og magt i hver deres kommune. Vi har talt med tre af dem om, hvad den f?rste tid har l?rt dem.",
-      "summary_en": "Today marks 100 days since the new mayors took office and took power in their respective municipalities. We spoke to three of them about what their first few days have taught them.",
-      "link": "https://www.dr.dk/nyheder/indland/millionunderskud-en-skaelvende-sportshal-og-faa-timer-i-doegnet-nye-borgmestre-har-siddet-100-dage",
-      "pubDate": "Fri, 10 Apr 2026 16:30:00 GMT"
     }
   ]
 }
