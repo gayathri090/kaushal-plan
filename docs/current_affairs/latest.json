@@ -1,7 +1,79 @@
 {
-  "date": "2026-05-16",
-  "generatedAt": "2026-05-16T06:42:05.441Z",
+  "date": "2026-05-17",
+  "generatedAt": "2026-05-17T06:41:56.114Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "12.000 kilometer er ingen hindring for Sebastian, n?r der er guldfest i Aarhus",
+      "title_en": "12,000 kilometers is no obstacle for Sebastian when there is a gold party in Aarhus",
+      "summary_da": "I dag samles tusindvis af AGF-fans i Aarhus, n?r holdet kan l?fte DM-trof?et p? hjemmebane. Sebastian Schuster er kommet fra den anden side af jorden.",
+      "summary_en": "Today, thousands of AGF fans gather in Aarhus when the team can lift the Danish Championship trophy on home soil. Sebastian Schuster has come from the other side of the world.",
+      "link": "https://www.dr.dk/nyheder/indland/12-000-kilometer-er-ingen-hindring-sebastian-naar-der-er-guldfest-i-aarhus",
+      "pubDate": "Sun, 17 May 2026 06:25:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Aarhus g?r guld-amok: Myndighederne er klar",
+      "title_en": "Aarhus goes gold-crazy: The authorities are ready",
+      "summary_da": "P? Aarhus Universitetshospital er der ekstra bemanding i aften og i nat.",
+      "summary_en": "At Aarhus University Hospital there is extra staffing this evening and tonight.",
+      "link": "https://www.dr.dk/nyheder/indland/aarhus-gaar-guld-amok-myndighederne-er-klar",
+      "pubDate": "Sun, 17 May 2026 04:16:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Efter 26 ?r er Jonas og Hans-Christians fodbold-v?ddem?l endelig blevet afgjort",
+      "title_en": "After 26 years, Jonas and Hans-Christian's football bet has finally been settled.",
+      "summary_da": "I ?r 2000 indgik to venner det, der indtil nu m?ske har v?ret danmarkshistoriens ?ldste aktive fodboldv?ddem?l.",
+      "summary_en": "In the year 2000, two friends entered into what may have been the oldest active football bet in Danish history.",
+      "link": "https://www.dr.dk/nyheder/indland/efter-26-aar-er-jonas-og-hans-christians-fodbold-vaeddemaal-endelig-blevet-afgjort",
+      "pubDate": "Sat, 16 May 2026 14:12:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Strandet hval ved Anholt er Timmy",
+      "title_en": "Stranded whale at Anholt is Timmy",
+      "summary_da": "En sender, der har siddet p? hvalens ryg, bekr?fter dens identitet.",
+      "summary_en": "A transmitter that has been sitting on the whale's back confirms its identity.",
+      "link": "https://www.dr.dk/nyheder/indland/strandet-hval-ved-anholt-er-timmy",
+      "pubDate": "Sat, 16 May 2026 14:07:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Kong Frederik og prinsesse Isabella har bes?gt dronning Margrethe",
+      "title_en": "King Frederik and Princess Isabella have visited Queen Margrethe",
+      "summary_da": "Dronningen er fortsat \"velbefindende\", oplyses det.",
+      "summary_en": "The Queen is still \"in good health\", it is reported.",
+      "link": "https://www.dr.dk/nyheder/indland/kong-frederik-og-prinsesse-isabella-har-besoegt-dronning-margrethe",
+      "pubDate": "Sat, 16 May 2026 12:10:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Ansatte og beboere p? plejecenter ramt af tuberkulose-infektion",
+      "title_en": "Employees and residents at care center affected by tuberculosis infection",
+      "summary_da": "Ti ansatte og tre beboere har f?et p?vist infektion og f?r nu forebyggende antibiotika-behandling.",
+      "summary_en": "Ten employees and three residents have been diagnosed with infection and are now receiving preventive antibiotic treatment.",
+      "link": "https://www.dr.dk/nyheder/indland/ansatte-og-beboere-paa-plejecenter-ramt-af-tuberkulose-infektion",
+      "pubDate": "Sat, 16 May 2026 11:28:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Politiet efterforsker to knivepisoder i Aarhus: 25-?rig erkl?ret d?d",
+      "title_en": "Police investigate two knife incidents in Aarhus: 25-year-old declared dead",
+      "summary_da": "Fem personer er i alt blevet stukket med kniv ved to forskellige episoder i Aarhus. Politiet formoder ikke, at der er sammenh?ng mellem de to sager.",
+      "summary_en": "A total of five people have been stabbed in two separate incidents in Aarhus. The police do not suspect that there is a connection between the two cases.",
+      "link": "https://www.dr.dk/nyheder/indland/politiet-efterforsker-knivepisoder-i-aarhus-25-aarig-erklaeret-doed",
+      "pubDate": "Sat, 16 May 2026 09:48:10 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Bukkejagten er g?et ind: 2.000 j?gere mangler at forny jagttegnet",
+      "title_en": "The buck hunt has ended: 2,000 hunters need to renew their hunting licenses",
+      "summary_da": "Politiet har skrevet ud til 29.000 j?gere for at huske dem p? det.",
+      "summary_en": "The police have written to 29,000 hunters to remind them of this.",
+      "link": "https://www.dr.dk/nyheder/indland/bukkejagten-er-gaaet-ind-2-000-jaegere-mangler-forny-jagttegnet",
+      "pubDate": "Sat, 16 May 2026 07:31:00 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "Verdens muligvis ?ldste hund d?r i en alder af 30 ?r",
@@ -66,69 +138,6 @@
       "pubDate": "Sat, 16 May 2026 06:19:47 +0000"
     },
     {
-      "source": "DR Indland",
-      "title_da": "Rollespillere i k?mpe slag: De hader hinanden - og s? er der lejrhygge",
-      "title_en": "Role players in a huge battle: They hate each other - and then there's camp fun",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/rollespillere-i-kaempe-slag-de-hader-hinanden-og-saa-der-lejrhygge",
-      "pubDate": "Fri, 15 May 2026 20:10:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "?Et nederlag for dansk demonstrationskultur?: Lektor reagerer p? politiets knippelslag mod siddende demonstranter",
-      "title_en": "'A defeat for Danish demonstration culture': Associate professor reacts to police baton charges against seated protesters",
-      "summary_da": "Billeder af betjente, der sl?r med stave p? siddende demonstranter, b?r f? b?de politi og demonstranter til at kigge indad, mener politiforsker.",
-      "summary_en": "Images of officers beating seated protesters with batons should make both police and protesters look inward, says a police researcher.",
-      "link": "https://www.dr.dk/nyheder/indland/et-nederlag-dansk-demonstrationskultur-lektor-reagerer-paa-politiets-knippelslag-mod-siddende",
-      "pubDate": "Fri, 15 May 2026 19:30:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "'Jeg har undskyldt for k?kkenet mange gange' ? derfor lod Hammerslag-ekspert det st?",
-      "title_en": "'I've apologized for the kitchen many times' ? that's why Hammerslag expert left it alone",
-      "summary_da": "Mens en ny Realdania-unders?gelse viser, at n?sten 9 ud af 10 danskere ?ndrer p? deres nye bolig, har Kristine Vir?n valgt at lade sit 80?er-k?kken st? og vente med at renovere.",
-      "summary_en": "While a new Realdania survey shows that almost 9 out of 10 Danes are changing their new home, Kristine Vir?n has chosen to leave her 80s kitchen alone and wait to renovate.",
-      "link": "https://www.dr.dk/nyheder/indland/jeg-har-undskyldt-koekkenet-mange-gange-derfor-lod-hammerslag-ekspert-det-staa",
-      "pubDate": "Fri, 15 May 2026 18:30:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Det er Per Rasmus, som har gjort r?dhusklokkerne klar til AGF-fejring",
-      "title_en": "It is Per Rasmus who has prepared the town hall bells for the AGF celebration.",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/det-er-per-rasmus-som-har-gjort-raadhusklokkerne-klar-til-agf-fejring",
-      "pubDate": "Fri, 15 May 2026 17:35:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "N?r op mod 100.000 skal feste i Aalborg, bliver de overv?get mere end nogensinde f?r",
-      "title_en": "When up to 100,000 people are going to party in Aalborg, they will be monitored more than ever before",
-      "summary_da": "B?de Nordjyllands Politi og Aalborg Karneval s?tter midlertidige videokameraer op, n?r karnevallet bliver afholdt den 23. maj.",
-      "summary_en": "Both the North Jutland Police and Aalborg Carnival will set up temporary video cameras when the carnival is held on May 23.",
-      "link": "https://www.dr.dk/nyheder/indland/naar-op-mod-100-000-skal-feste-i-aalborg-bliver-de-overvaaget-mere-end-nogensinde-foer",
-      "pubDate": "Fri, 15 May 2026 16:45:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "B?rn b?r ikke g? alene i omr?der med ulve, men det ved turisterne ikke",
-      "title_en": "Children shouldn't walk alone in areas with wolves, but tourists don't know that",
-      "summary_da": "If?lge Varde Kommunes borgmester, Sarah Andersen (V), er det myndighedernes opgave at fort?lle, hvad der skal meldes ud til turisterne.",
-      "summary_en": "According to the mayor of Varde Municipality, Sarah Andersen (V), it is the authorities' task to tell tourists what to announce.",
-      "link": "https://www.dr.dk/nyheder/indland/boern-boer-ikke-gaa-alene-i-omraader-med-ulve-men-det-ved-turisterne-ikke",
-      "pubDate": "Fri, 15 May 2026 16:10:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Kommuner skal bruge millioner p? at ops?tte nye byskilte: 'Det er en parodi'",
-      "title_en": "Municipalities must spend millions to put up new city signs: 'It's a parody'",
-      "summary_da": "Fra august 2027 skal byporte v?re erstattet af byskilte, og det giver ekstra udgifter i flere kommuners budgetter.",
-      "summary_en": "From August 2027, city gates must be replaced by city signs, and this will result in additional expenses in the budgets of several municipalities.",
-      "link": "https://www.dr.dk/nyheder/indland/kommuner-skal-bruge-millioner-paa-opsaette-nye-byskilte-det-er-en-parodi",
-      "pubDate": "Fri, 15 May 2026 14:25:00 GMT"
-    },
-    {
       "source": "The Copenhagen Post",
       "title_da": "L?kke forventer flere udvisninger efter ny erkl?ring",
       "title_en": "L?kke expects more deportations after new declaration",
@@ -136,15 +145,6 @@
       "summary_en": "Acting Foreign Minister Lars L?kke Rasmussen is satisfied with a ministerial declaration from all 46 Council of Europe member states intended to facilitate the deportation of criminal foreigners. While a previous declaration only included 27 countries, a compromise has now secured support from major nations like Germany and France. The agreement aims to influence how [?]",
       "link": "https://cphpost.dk/2026-05-15/news/round-up/lokke-expects-more-deportations-after-new-declaration/",
       "pubDate": "Fri, 15 May 2026 14:00:00 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Politiker vil sende penge til omdiskuteret sygehus, for 'det er helt horribelt'",
-      "title_en": "Politician wants to send money to controversial hospital, because 'it's absolutely horrible'",
-      "summary_da": "Det er ikke udelukkende regionens ansvar, at der er problemer p? det nye sygehus i Aalborg, mener folketingspolitiker.",
-      "summary_en": "It is not solely the region's responsibility that there are problems at the new hospital in Aalborg, believes a parliamentary politician.",
-      "link": "https://www.dr.dk/nyheder/indland/politiker-vil-sende-penge-til-omdiskuteret-sygehus-det-er-helt-horribelt",
-      "pubDate": "Fri, 15 May 2026 13:35:00 GMT"
     }
   ]
 }
