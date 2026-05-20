@@ -1,150 +1,150 @@
 {
-  "date": "2026-05-19",
-  "generatedAt": "2026-05-19T06:42:17.785Z",
+  "date": "2026-05-20",
+  "generatedAt": "2026-05-20T06:42:03.695Z",
   "items": [
     {
       "source": "DR Indland",
-      "title_da": "Bibelcafe n?r K?rshovedg?rd har 10-?rsjubil?um",
-      "title_en": "Bible cafe near K?rshovedg?rd celebrates 10th anniversary",
+      "title_da": "Svensker fik elbil for 200 kroner. Flere i Danmark vil have samme form for st?tteordning",
+      "title_en": "Swede got an electric car for 200 kroner. More people in Denmark want the same kind of support scheme",
+      "summary_da": "I Sverige og Tyskland har man lavet st?tteordninger, der g?r det nemmere for folk med lave indkomster at skifte til el-bil.",
+      "summary_en": "In Sweden and Germany, support schemes have been created that make it easier for people with low incomes to switch to electric cars.",
+      "link": "https://www.dr.dk/nyheder/indland/svensker-fik-elbil-200-kroner-flere-i-danmark-vil-have-samme-form-stoetteordning",
+      "pubDate": "Wed, 20 May 2026 05:15:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Senatet sender lovforslag om at afslutte Iran-krigen til endelig afstemning",
+      "title_en": "Senate sends bill to end Iran war to final vote",
+      "summary_da": "I en indledende afstemning tirsdag stemte et flertal i det amerikanske senat med 50 stemmer mod 47 for et forslag, der har til form?l at tvinge pr?sident Donald Trump til at stoppe krigen mod Iran. Demokraterne har gentagne gange foresl?et at begr?nse Trumps krigsmagt, siden USA og Israel iv?rksatte den f?rste b?lge af angreb mod Iran i slutningen af ??februar. If?lge [?]",
+      "summary_en": "In a preliminary vote on Tuesday, a US Senate majority voted 50 to 47 for a proposal aimed at forcing President Donald Trump to stop the war against Iran. Democrats have repeatedly proposed limiting Trump?s war powers since the US and Israel launched a first wave of attacks against Iran in late February. According to [?]",
+      "link": "https://cphpost.dk/2026-05-20/news/round-up/senate-sends-bill-to-end-iran-war-to-final-vote/",
+      "pubDate": "Wed, 20 May 2026 04:48:29 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "EU accepterer at fjerne told p? amerikanske importvarer",
+      "title_en": "EU agrees to remove tariffs on US imports",
+      "summary_da": "EU har indg?et en forel?big aftale om at implementere toldelementerne i en handelsaftale med USA, der har til form?l at fjerne told p? import af amerikanske varer. Aftalen blev oprindeligt indg?et sidste sommer i Skotland mellem den amerikanske pr?sident Donald Trump og EU-Kommissionens pr?sident Ursula von der Leyen. Trump havde givet [?]",
+      "summary_en": "The EU has reached a provisional agreement to implement the tariff elements of a trade deal with the US, aiming to remove tariffs on imports of American goods. The deal was originally agreed upon last summer in Scotland by US President Donald Trump and EU Commission President Ursula von der Leyen. Trump had given the [?]",
+      "link": "https://cphpost.dk/2026-05-20/news/round-up/eu-agrees-to-remove-tariffs-on-us-imports/",
+      "pubDate": "Wed, 20 May 2026 04:48:21 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Rockwool starter 2026 med et underskud",
+      "title_en": "Rockwool starts 2026 with a loss",
+      "summary_da": "Isoleringskoncernen Rockwool har ikke haft den bedste start p? 2026. Mens f?rste kvartal af 2025 sluttede med et overskud efter skat p? 116 millioner euro, resulterede ?rets f?rste kvartal i et tab p? 85 millioner euro. Dette fald er hovedsageligt teknisk og stammer fra et tab p? 170 millioner euro, der blev bogf?rt i januar [?]",
+      "summary_en": "The insulation group Rockwool has not had the best start to 2026. While the first quarter of 2025 ended with a profit after tax of 116 million euros, this year?s first quarter resulted in a loss of 85 million euros. This decline is largely technical, stemming from a 170 million euro loss booked in January [?]",
+      "link": "https://cphpost.dk/2026-05-20/news/round-up/rockwool-starts-2026-with-a-loss/",
+      "pubDate": "Wed, 20 May 2026 04:48:12 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "ISS-aktier stiger kraftigt efter tysk fredsaftale",
+      "title_en": "ISS shares soar after German peace deal",
+      "summary_da": "Servicegruppen ISS har indg?et et forlig med Deutsche Telekom vedr?rende en tvist om en kontrakt fra 2019, der d?kker tjenester p? mere end 8.000 lokationer i Tyskland. Uenigheden omhandlede betalinger p? omkring 600 millioner kroner og blev sendt til voldgift i december 2022. Sammen med forliget forl?ngede Deutsche Telekom aftalen [?]",
+      "summary_en": "The service group ISS has reached a settlement with Deutsche Telekom regarding a dispute over a contract from 2019, which covers services at more than 8,000 locations in Germany. The disagreement concerned payments of about 600 million kroner and was sent to arbitration in December 2022. Along with the settlement, Deutsche Telekom extended the agreement [?]",
+      "link": "https://cphpost.dk/2026-05-20/news/round-up/iss-shares-soar-after-german-peace-deal/",
+      "pubDate": "Wed, 20 May 2026 04:48:03 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Google S?gning kan snart booke bord til dig p? restauranter",
+      "title_en": "Google Search can soon book restaurant tables for you",
+      "summary_da": "Google har afsl?ret en proaktiv udvidelse af sin s?gemaskine, muliggjort af en ny version af sin Gemini-sprogmodel. Den f?rste opgradering rulles ud tirsdag, og flere opdateringer f?lger. Ved hj?lp af denne model kan brugerne oprette en AI-agent til uafh?ngigt at udf?re opgaver p? deres vegne, s?som at booke et bord p? en restaurant. [?]",
+      "summary_en": "Google has unveiled a proactive expansion of its search engine, enabled by a new version of its Gemini language model. The first upgrade rolls out on Tuesday, with more updates to follow. Using this model, users can set up an AI agent to independently perform tasks on their behalf, such as booking a restaurant table. [?]",
+      "link": "https://cphpost.dk/2026-05-20/news/round-up/google-search-can-soon-book-restaurant-tables-for-you/",
+      "pubDate": "Wed, 20 May 2026 04:47:55 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Gymnasier ?ndrer karaktergivning p? grund af udbredt AI",
+      "title_en": "High schools to change grading due to widespread AI",
+      "summary_da": "Skoleforeningen Danske Gymnasier foresl?r, at gymnasieelever f?r ?n samlet ?rskarakter pr. fag i stedet for separate mundtlige og skriftlige karakterer. Dette skyldes den udbredte brug af kunstig intelligens, som g?r det vanskeligt at evaluere, hvad eleverne selv har produceret. If?lge en rapport viser ni ud af ti gymnasieelever [?]",
+      "summary_en": "The school association Danske Gymnasier proposes that high school students receive one combined annual grade per subject, rather than separate oral and written grades. This is due to the widespread use of AI, which makes it difficult to evaluate what students have produced themselves. According to a report, nine out of ten high school students [?]",
+      "link": "https://cphpost.dk/2026-05-20/news/round-up/high-schools-to-change-grading-due-to-widespread-ai/",
+      "pubDate": "Wed, 20 May 2026 04:47:45 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Dronning Margrethe udskrevet efter seks dages hospitalsindl?ggelse",
+      "title_en": "Queen Margrethe discharged after six days in hospital",
+      "summary_da": "Dronning Margrethe blev tirsdag udskrevet fra Rigshospitalet efter seks dages indl?ggelse og vender tilbage til Fredensborg Slot. Hun blev indlagt torsdag eftermiddag p? grund af angina (hjertekrampe). Fredag ??meddelte kongehuset, at hun havde gennemg?et en ballonudvidelse af sit hjertes kranspuls?re. Dronningen rapporteres at have det godt, men [?]",
+      "summary_en": "On Tuesday, Queen Margrethe was discharged from Rigshospitalet after a six-day hospitalization and will return to Fredensborg Palace. She was hospitalized on Thursday afternoon due to angina (heart cramps). On Friday, the royal house announced she had undergone a balloon angioplasty of her heart?s coronary artery. The Queen is reported to be doing well but [?]",
+      "link": "https://cphpost.dk/2026-05-20/news/round-up/queen-margrethe-discharged-after-six-days-in-hospital/",
+      "pubDate": "Wed, 20 May 2026 04:47:37 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Jens-Frederik Nielsen g?r glip af ?bningen af ??det amerikanske konsulat",
+      "title_en": "Jens-Frederik Nielsen to miss US consulate opening",
+      "summary_da": "Jens-Frederik Nielsen, chef for Gr?nlands regering, Naalakkersuisut, deltager ikke i ?bningen af ??det nye amerikanske konsulat i Nuuk p? torsdag. Nielsen udtalte, at selvom der ikke er truffet nogen principbeslutning, vil han ikke deltage. Denne meddelelse kommer, mens den amerikanske s?rlige udsending til Gr?nland, Jeff Landry, og den amerikanske ambassad?r i Danmark, [?]",
+      "summary_en": "Jens-Frederik Nielsen, the head of Greenland?s government, Naalakkersuisut, will not attend the opening of the new US consulate in Nuuk on Thursday. Nielsen stated that although no decision of principle has been made, he will not participate. This announcement comes while the US special envoy to Greenland, Jeff Landry, and the US ambassador to Denmark, [?]",
+      "link": "https://cphpost.dk/2026-05-20/news/round-up/jens-frederik-nielsen-to-miss-us-consulate-opening/",
+      "pubDate": "Wed, 20 May 2026 04:47:31 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Bl?d, buttet og ombejlet: Nu skal alle have fat p? en Squishy Dumpling",
+      "title_en": "Soft, chubby and cuddly: Now everyone should get their hands on a Squishy Dumpling",
+      "summary_da": "Den er bl?d og lige til at mase, formet som en asiatisk dejpose med fyld og er den nye store trend blandt b?rn og unge.",
+      "summary_en": "It is soft and easy to mash, shaped like an Asian pastry bag with filling and is the new big trend among children and young people.",
+      "link": "https://www.dr.dk/nyheder/indland/bloed-buttet-og-ombejlet-nu-skal-alle-have-fat-paa-en-squishy-dumpling",
+      "pubDate": "Wed, 20 May 2026 03:22:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Hvad stiller vi op, n?r 'chatten' pludselig er blevet sv?r at undv?re til eksamen?",
+      "title_en": "What do we do when 'chatting' has suddenly become difficult to do without during exams?",
+      "summary_da": "Kunstig intelligens kan bruges til at undg? l?ring, men den kan ogs? bruges til at styrke den. Eksperter kommer med bud p?, hvordan det kan lykkes.",
+      "summary_en": "Artificial intelligence can be used to avoid learning, but it can also be used to enhance it. Experts offer suggestions on how to do this successfully.",
+      "link": "https://www.dr.dk/nyheder/indland/hvad-stiller-vi-op-naar-chatten-pludselig-er-blevet-svaer-undvaere-til-eksamen",
+      "pubDate": "Tue, 19 May 2026 19:42:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Coop tester datom?rkning i t?j, men kan det ?ndre forbruget?",
+      "title_en": "Coop is testing date marking in clothing, but can it change consumption?",
+      "summary_da": "Datom?rkningerne skal g?re det muligt at f?lge t?jets rejse, og forh?bentlig inspirere flere til at holde t?jet i live i l?ngere tid.",
+      "summary_en": "The date markings should make it possible to follow the journey of the clothes, and hopefully inspire more people to keep the clothes alive for longer.",
+      "link": "https://www.dr.dk/nyheder/indland/coop-tester-datomaerkning-i-toej-men-kan-det-aendre-forbruget",
+      "pubDate": "Tue, 19 May 2026 19:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "ANALYSE Trods kritik af st?rrelsen giver Sveriges fregat-valg genlyd i K?benhavn",
+      "title_en": "ANALYSIS Despite criticism of the size, Sweden's frigate choice resonates in Copenhagen",
+      "summary_da": "Der kan v?re store fordele for b?de Danmark og Sverige ved at k?be den samme slags fregatter af Frankrig.",
+      "summary_en": "There could be great benefits for both Denmark and Sweden by purchasing the same type of frigates from France.",
+      "link": "https://www.dr.dk/nyheder/indland/analyse-trods-kritik-af-stoerrelsen-giver-sveriges-fregat-valg-genlyd-i-koebenhavn",
+      "pubDate": "Tue, 19 May 2026 18:01:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Nye beboere skal blande Tingbjerg ? men til hvilken pris?",
+      "title_en": "New residents will mix Tingbjerg ? but at what cost?",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/bibelcafe-naer-kaershovedgaard-har-10-aars-jubilaeum",
-      "pubDate": "Tue, 19 May 2026 06:10:52 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/reels/nye-beboere-skal-blande-tingbjerg-men-til-hvilken-pris",
+      "pubDate": "Tue, 19 May 2026 18:00:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Gymnasierne vil lave v?sentlige ?ndringer af eksamen efter AI's indtog: 'Det er akut'",
-      "title_en": "High schools will make significant changes to exams after AI's arrival: 'It's urgent'",
-      "summary_da": "Der er behov for at eksamen og karaktergivning ?ndrer form, s? det passer til virkeligheden med AI, mener organisationen Danske Gymnasier.",
-      "summary_en": "There is a need for exams and grading to change form to fit the reality of AI, believes the organization Danish High Schools.",
-      "link": "https://www.dr.dk/nyheder/indland/gymnasierne-vil-lave-vaesentlige-aendringer-af-eksamen-efter-ai-s-indtog-det-er-akut",
-      "pubDate": "Tue, 19 May 2026 06:00:00 GMT"
+      "title_da": "Philip Westh erkender drabet p? Emilie Meng",
+      "title_en": "Philip Westh admits to the murder of Emilie Meng",
+      "summary_da": "Emilie Meng blev kidnappet i Kors?r i juli 2016.",
+      "summary_en": "Emilie Meng was kidnapped in Kors?r in July 2016.",
+      "link": "https://www.dr.dk/nyheder/indland/philip-westh-erkender-drabet-paa-emilie-meng",
+      "pubDate": "Tue, 19 May 2026 16:47:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Amerikansk surprise-visit 'st?jer en smule' ved stort anlagt konference om Gr?nlands fremtid",
-      "title_en": "American surprise visit 'makes a bit of noise' at large-scale conference on Greenland's future",
-      "summary_da": "Konferencen er vant til journalister, men i ?r er presseopbuddet langt st?rre end normalt.",
-      "summary_en": "The conference is used to journalists, but this year the press presence is far larger than usual.",
-      "link": "https://www.dr.dk/nyheder/udland/amerikansk-surprise-visit-stoejer-en-smule-ved-stort-anlagt-konference-om-groenlands-fremtid",
-      "pubDate": "Tue, 19 May 2026 05:01:00 GMT"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Elleve anholdt efter pro-pal?stinensisk demonstration",
-      "title_en": "Eleven detained after pro-Palestinian demonstration",
-      "summary_da": "Elleve personer blev tilbageholdt af K?benhavns Politi efter en pro-pal?stinensisk demonstration mandag aften. Omkring 100 deltagere marcherede fra N?rreport mod Udenrigsministeriet p? Christianshavn. Da gruppen n?ede Knippelsbro, sad flere demonstranter p? vejen og blokerede trafikken. If?lge vagthavende officer Anette Ostenfeldt n?gtede personerne en politiordre om at [?]",
-      "summary_en": "Eleven people were detained by Copenhagen Police following a pro-Palestinian demonstration on Monday evening. Approximately 100 participants marched from N?rreport toward the Ministry of Foreign Affairs in Christianshavn. When the group reached Knippelsbro, several protesters sat on the road and blocked traffic. According to Duty Officer Anette Ostenfeldt, the individuals refused a police order to [?]",
-      "link": "https://cphpost.dk/2026-05-19/news/round-up/eleven-detained-after-pro-palestinian-demonstration/",
-      "pubDate": "Tue, 19 May 2026 04:40:00 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Danmark fors?gte sidste ?r at nedskyde droner i sit luftrum.",
-      "title_en": "Denmark tried to down drones in its airspace last year",
-      "summary_da": "If?lge dokumenter fra Forsvarsministeriet fors?gte det danske milit?r at nedskyde droner i dansk luftrum sidste efter?r. Fregatter, jagerfly og infanterik?ret?jer blev indsat for at beskytte installationer. Selvom droner prim?rt blev brugt til observation, blev der gjort specifikke fors?g p? at nedskyde dem i september. Statsminister Mette Frederiksen advarede tidligere om trusler mod kritisk infrastruktur, [?]",
-      "summary_en": "According to Ministry of Defence documents, the Danish military attempted to down drones in Danish airspace last autumn. Frigates, fighter jets, and infantry vehicles were deployed to protect installations. While primarily used for observation, specific attempts were made to take down drones in September. Prime Minister Mette Frederiksen previously warned of threats to critical infrastructure, [?]",
-      "link": "https://cphpost.dk/2026-05-19/news/round-up/denmark-tried-to-down-drones-in-its-airspace-last-year/",
-      "pubDate": "Tue, 19 May 2026 04:39:00 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Dansk tech-virksomhed afskediges over 400 stillinger",
-      "title_en": "Danish tech company cuts over 400 jobs",
-      "summary_da": "Den danske teknologivirksomhed Tops?e nedl?gger 440 stillinger, svarende til cirka 15 procent af sin arbejdsstyrke, p? grund af usikkerhed p? det globale marked og en langsommere v?kst inden for gr?nne br?ndstoffer end forventet. Reduktionen, som involverer fyringer og ubesatte stillinger, p?virker prim?rt power-to-x-forretningen og globale funktioner i Danmark. Administrerende direkt?r Elena Scaltritti udtalte, at tiltaget er n?dvendigt for at forblive konkurrencedygtig i [?]",
-      "summary_en": "Danish technology company Topsoe is cutting 440 positions, approximately 15 percent of its workforce, due to global market uncertainty and slower-than-expected growth in green fuels. The reduction, involving layoffs and unfilled vacancies, primarily affects the power-to-x business and global functions in Denmark. CEO Elena Scaltritti stated the move is necessary to remain competitive in the [?]",
-      "link": "https://cphpost.dk/2026-05-19/news/round-up/danish-tech-company-cuts-over-400-jobs/",
-      "pubDate": "Tue, 19 May 2026 04:38:00 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Cuba advarer om, at amerikansk angreb vil udl?se blodbad",
-      "title_en": "Cuba warns US attack will trigger a bloodbath",
-      "summary_da": "Den cubanske pr?sident Miguel D?az-Canel advarede om, at et amerikansk angreb p? ?en ville udl?se et \"blodbad med uberegnelige konsekvenser\". Han understregede, at Cuba ikke udg?r nogen trussel, men fastholder retten til at forsvare sig selv. Dette f?lger rapporter om, at Cuba modtog over 300 milit?rdroner fra Rusland og Iran, angiveligt med henblik p? potentielle angreb mod amerikanske fl?dem?l. [?]",
-      "summary_en": "Cuban President Miguel D?az-Canel warned that a U.S. attack on the island would trigger a ?bloodbath with incalculable consequences.? He emphasized that Cuba poses no threat but maintains the right to defend itself. This follows reports that Cuba received over 300 military drones from Russia and Iran, allegedly for potential strikes against U.S. naval targets. [?]",
-      "link": "https://cphpost.dk/2026-05-19/global/cuba-warns-us-attack-will-trigger-a-bloodbath/",
-      "pubDate": "Tue, 19 May 2026 04:36:19 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Medier: Trump vil lukke flere hvide sydafrikanere ind i USA",
-      "title_en": "Media: Trump to let more white South Africans into US",
-      "summary_da": "Trump-administrationen har foresl?et at h?ve det amerikanske flygtningeloft til 17.500 for finans?ret 2026 for at give flere hvide sydafrikanere adgang. If?lge dokumenter, som CNN har set, f?lger dette sidste ?rs reduktion af gr?nsen til 7.500, hvilket specifikt prioriterede afrikanere. Pr?sident Trump har retf?rdiggjort disse foranstaltninger ved at h?vde, at der finder et \"folkedrab\" sted [...].",
-      "summary_en": "The Trump administration has proposed raising the U.S. refugee cap to 17,500 for the 2026 fiscal year to admit more white South Africans. According to documents seen by CNN, this follows last year?s reduction of the limit to 7,500, which specifically prioritized Afrikaners. President Trump has justified these measures by claiming a ?genocide? is occurring [?]",
-      "link": "https://cphpost.dk/2026-05-19/global/media-trump-to-let-more-white-south-africans-into-us/",
-      "pubDate": "Tue, 19 May 2026 04:36:10 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Lovlig Ozempic-kopi lanceret i Canada",
-      "title_en": "Legal Ozempic copy launched in Canada",
-      "summary_da": "Det indiske medicinalfirma Dr. Reddy?s har lanceret en generisk version af Novo Nordisks diabetesl?gemiddel Ozempic i Canada. Dette f?lger efter, at Novo Nordisk mistede sit patent p? semaglutid, den aktive ingrediens i Ozempic og Wegovy, tidligere p? ?ret. De canadiske sundhedsmyndigheder godkendte versionen i slutningen af ??april, hvilket gjorde Dr. Reddy?s til en af ??de f?rste til at introducere [?]",
-      "summary_en": "The Indian pharmaceutical company Dr. Reddy?s has launched a generic version of Novo Nordisk?s diabetes drug Ozempic in Canada. This follows Novo Nordisk losing its patent on semaglutide, the active ingredient in Ozempic and Wegovy, earlier this year. Canadian health authorities approved the version in late April, making Dr. Reddy?s among the first to introduce [?]",
-      "link": "https://cphpost.dk/2026-05-19/news/round-up/legal-ozempic-copy-launched-in-canada/",
-      "pubDate": "Tue, 19 May 2026 04:36:01 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Installat?rGruppen planl?gger K?benhavns IPO",
-      "title_en": "Installat?rGruppen plans Copenhagen IPO",
-      "summary_da": "Installat?rGruppen, en leverand?r af tekniske installationsl?sninger i Danmark og Schweiz, har til hensigt at blive noteret p? K?benhavns Fondsb?rs. B?rsnoteringen har til form?l at underst?tte koncernens opk?bsstrategi og styrke dens strategiske og finansielle position. Koncernen, der blev grundlagt i 2023, omfatter nu 42 danske og fem schweiziske virksomheder med speciale i el, VVS, ventilation og k?ling [?]",
-      "summary_en": "Installat?rGruppen, a provider of technical installation solutions in Denmark and Switzerland, intends to list on the Copenhagen stock exchange. The IPO aims to support the group?s acquisition strategy and strengthen its strategic and financial position. Founded in 2023, the group now comprises 42 Danish and five Swiss companies specializing in electrical, plumbing, ventilation, and cooling [?]",
-      "link": "https://cphpost.dk/2026-05-19/news/round-up/installatorgruppen-plans-copenhagen-ipo/",
-      "pubDate": "Tue, 19 May 2026 04:35:52 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Minister skal fort?lle Trumps udsending: Gr?nl?ndere bestemmer",
-      "title_en": "Minister to tell Trump envoy: Greenlanders decide",
-      "summary_da": "Gr?nlands udenrigsminister, M?te B. Egede, m?des mandag med den amerikanske s?rlige udsending Jeff Landry og ambassad?r Ken Howery. Egede udtalte, at han vil understrege, at Gr?nlands fremtid udelukkende afg?res af det gr?nlandske folk. Han understregede ogs?, at det diplomatiske samarbejde og den etablerede arbejdsgruppe skal forts?tte med respekt for international lov. Landry var [?]",
-      "summary_en": "Greenland?s Foreign Minister, M?te B. Egede, is meeting U.S. Special Envoy Jeff Landry and Ambassador Ken Howery on Monday. Egede stated he will emphasize that Greenland?s future is decided solely by the people of Greenland. He also stressed that diplomatic cooperation and the established working group must continue with respect for international law. Landry was [?]",
-      "link": "https://cphpost.dk/2026-05-19/news/round-up/minister-to-tell-trump-envoy-greenlanders-decide/",
-      "pubDate": "Tue, 19 May 2026 04:35:24 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Nu skal ?rgang AI selv pr?stere: 'Jeg frygter, at vi st?r med et eksamensresultat til sommer, som vil chokere mange'",
-      "title_en": "Now Year AI will have to perform themselves: 'I fear that we will have an exam result this summer that will shock many'",
-      "summary_da": "Kunstig intelligens er blevet en f?lgesvend for mange i gymnasiet, men til eksamen er det forbudt.",
-      "summary_en": "Artificial intelligence has become a companion for many in high school, but it is prohibited for exams.",
-      "link": "https://www.dr.dk/nyheder/indland/nu-skal-aargang-ai-selv-praestere-jeg-frygter-vi-staar-med-et-eksamensresultat-til-sommer-som-vil",
-      "pubDate": "Tue, 19 May 2026 04:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Cecilie f?r 126 kroner om ugen i barselsdagpenge: Tusindvis af iv?rks?ttere risikerer at falde igennem barselssystemet",
-      "title_en": "Cecilie receives 126 kroner per week in maternity benefits: Thousands of entrepreneurs risk falling through the maternity system",
-      "summary_da": "Organisationer kalder nu til kamp og vil have lige barselsrettigheder med i et regeringsgrundlag.",
-      "summary_en": "Organizations are now calling for action and want equal maternity rights included in a government foundation.",
-      "link": "https://www.dr.dk/nyheder/indland/cecilie-faar-126-kroner-om-ugen-i-barselsdagpenge-tusindvis-af-ivaerksaettere-risikerer-falde",
-      "pubDate": "Tue, 19 May 2026 03:47:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Musiker Stig M?ller er d?d",
-      "title_en": "Musician Stig M?ller has died",
-      "summary_da": "Musikeren Stig M?ller var grundl?gger af den kendte rockgruppe Steppeulvene. Han blev 80 ?r.",
-      "summary_en": "Musician Stig M?ller, founder of the well-known rock group Steppeulvene, has turned 80.",
-      "link": "https://www.dr.dk/nyheder/indland/musiker-stig-moeller-er-doed",
-      "pubDate": "Mon, 18 May 2026 19:41:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Korrespondent: S?dan p?virker den manglende regering landm?ndene",
-      "title_en": "Correspondent: How the lack of government affects farmers",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/korrespondent-saadan-paavirker-den-manglende-regering-landmaendene",
-      "pubDate": "Mon, 18 May 2026 19:20:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Monica og hendes partner er vurderet uegnede som for?ldre - nu har de sags?gt Ankestyrelsen",
-      "title_en": "Monica and her partner have been assessed as unfit as parents - now they have sued the Danish Social Appeals Board",
-      "summary_da": "I dag begynder en principiel retssag i retten i Kolding om retten til familieliv. If?lge advokat er der tale om brud p? menneskerettighederne.",
-      "summary_en": "Today, a trial begins in Kolding court regarding the right to family life. According to the lawyer, this is a violation of human rights.",
-      "link": "https://www.dr.dk/nyheder/indland/monica-og-hendes-partner-er-vurderet-uegnede-som-foraeldre-nu-har-de-sagsoegt-ankestyrelsen",
-      "pubDate": "Mon, 18 May 2026 19:00:00 GMT"
+      "title_da": "Rufus Gifford: Trumps regering har gjort 'psykologisk skade' i Gr?nland",
+      "title_en": "Rufus Gifford: Trump administration has done 'psychological damage' in Greenland",
+      "summary_da": "Rufus Gifford, der har v?ret ambassad?r i Danmark, er i Gr?nland for at vise \"et andet budskab\" fra USA.",
+      "summary_en": "Rufus Gifford, who has been ambassador to Denmark, is in Greenland to show \"a different message\" from the United States.",
+      "link": "https://www.dr.dk/nyheder/indland/rufus-gifford-trumps-regering-har-gjort-psykologisk-skade-i-groenland",
+      "pubDate": "Tue, 19 May 2026 16:45:00 GMT"
     }
   ]
 }
