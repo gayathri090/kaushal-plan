@@ -1,7 +1,79 @@
 {
-  "date": "2026-05-23",
-  "generatedAt": "2026-05-23T06:42:07.045Z",
+  "date": "2026-05-24",
+  "generatedAt": "2026-05-24T06:42:09.411Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Flere private k?ber ladestandere til hjemmet",
+      "title_en": "More private individuals are buying charging stations for their homes",
+      "summary_da": "B?de OK og Nordlys oplever stor interesse for at lade elbilen op derhjemme.",
+      "summary_en": "Both OK and Nordlys are experiencing great interest in charging electric cars at home.",
+      "link": "https://www.dr.dk/nyheder/indland/flere-private-koeber-ladestandere-til-hjemmet",
+      "pubDate": "Sun, 24 May 2026 05:37:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Styrelse afviste m?de om ulv: Lokale ved ikke, hvad de skal g?re",
+      "title_en": "Board rejects meeting about wolves: Locals don't know what to do",
+      "summary_da": "Bekymrede borgere ved Egtved efterlyser svar p?, hvordan de skal leve med en ulv, der tager dyr i omr?det. De f?ler sig ladt i stikken af myndighederne.",
+      "summary_en": "Concerned residents of Egtved are asking for answers on how they can live with a wolf that is taking livestock in the area. They feel abandoned by the authorities.",
+      "link": "https://www.dr.dk/nyheder/styrelse-afviser-moede-om-ulv-lokale-ved-ikke-hvad-de-skal-goere",
+      "pubDate": "Sun, 24 May 2026 04:14:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Odenseanere efter letbane-problemer: 'Det er ?rgerligt'",
+      "title_en": "Odense residents after light rail problems: 'It's a shame'",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/odenseanere-efter-letbane-problemer-det-er-aergerligt",
+      "pubDate": "Sat, 23 May 2026 19:20:58 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Politibetjente, stewardesser og en lolitadukke: Kom med til karneval i Aalborg",
+      "title_en": "Police officers, stewardesses and a lolita doll: Join the carnival in Aalborg",
+      "summary_da": "For 44. gang l?ber karnevallet af stablen i Aalborg. ?rets tema ?bent nok til, at fantasien kan f? fuld gas.",
+      "summary_en": "The carnival is taking place in Aalborg for the 44th time. This year's theme is open enough to let your imagination run wild.",
+      "link": "https://www.dr.dk/nyheder/indland/politibetjente-stewardesser-og-en-lolitadukke-kom-med-til-karneval-i-aalborg",
+      "pubDate": "Sat, 23 May 2026 17:41:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Ung iv?rks?tter vil have dig til at spise chips af fiskeskind",
+      "title_en": "Young entrepreneur wants you to eat fish skin chips",
+      "summary_da": "Fiskeskind blev f?r brugt til is?r minkfoder. Nystartet virksomhed i Thy omdanner skindet til chips.",
+      "summary_en": "Fish skin was previously used primarily for mink feed. A new company in Thy is converting the skin into chips.",
+      "link": "https://www.dr.dk/nyheder/indland/ung-ivaerksaetter-vil-have-dig-til-spise-chips-af-fiskeskind",
+      "pubDate": "Sat, 23 May 2026 16:55:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "13 ynglende storkepar i Danmark er det h?jeste antal i 35 ?r",
+      "title_en": "13 breeding stork pairs in Denmark is the highest number in 35 years",
+      "summary_da": "To nye lokaliteter er kommet p? danmarkskortet over ynglende storkepar. Det ene sted holdes dog hemmeligt.",
+      "summary_en": "Two new locations have been added to the Danish map of breeding stork pairs. However, one location is kept secret.",
+      "link": "https://www.dr.dk/nyheder/indland/13-ynglende-storkepar-i-danmark-er-det-hoejeste-antal-i-35-aar",
+      "pubDate": "Sat, 23 May 2026 16:21:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Feldthaus kalder bullshit: MUS-samtaler er spild af liv!",
+      "title_en": "Feldthaus calls bullshit: MUS conversations are a waste of life!",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/feldthaus-kalder-bullshit-mus-samtaler-er-spild-af-liv",
+      "pubDate": "Sat, 23 May 2026 15:52:36 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Til karneval i Aalborg: 'Stemningen er sindssyg'",
+      "title_en": "At carnival in Aalborg: 'The atmosphere is insane'",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/til-karneval-i-aalborg-stemningen-er-sindssyg",
+      "pubDate": "Sat, 23 May 2026 15:32:55 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "L?kke: Mette Frederiksen bliver nok statsminister nu",
@@ -46,78 +118,6 @@
       "summary_en": "On Friday, Pakistan?s army chief, Asim Munir, spoke with Iranian Foreign Minister Abbas Araghchi in Tehran about diplomatic initiatives to end the war. Pakistan is mediating the conflict between Iran, and the US and Israel. Following a US and Israeli attack on Iran on February 28, a ceasefire was established on April 7. Delegations from [?]",
       "link": "https://cphpost.dk/2026-05-23/global/media-pakistan-and-iran-spoke-late-into-friday-night/",
       "pubDate": "Sat, 23 May 2026 06:02:07 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Antallet af elbiler overg?r politikernes forventning 3,5 ?r f?r tid",
-      "title_en": "The number of electric cars exceeds politicians' expectations 3.5 years ahead of schedule",
-      "summary_da": "Der bliver solgt meget, meget f? nye benzin- og dieselbiler i Danmark.",
-      "summary_en": "Very, very few new petrol and diesel cars are sold in Denmark.",
-      "link": "https://www.dr.dk/nyheder/indland/antallet-af-elbiler-overgaar-politikernes-forventning-3-5-aar-foer-tid",
-      "pubDate": "Sat, 23 May 2026 05:22:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Op mod 100.000 fester i dag i Aalborgs gader: Arrang?rer skal finde balancen mellem folkefest og naboklager",
-      "title_en": "Up to 100,000 parties today in the streets of Aalborg: Organizers must find the balance between public celebration and neighbor complaints",
-      "summary_da": "Det larmer og sviner, og derfor kr?ver det en s?rlig indsats, n?r gadefester som Aalborg Karneval og Distortion i K?benhavn skal finde deres plads midt i byen.",
-      "summary_en": "It's noisy and dirty, and therefore it requires special effort when street parties like Aalborg Carnival and Distortion in Copenhagen have to find their place in the middle of the city.",
-      "link": "https://www.dr.dk/nyheder/indland/op-mod-100-000-fester-i-dag-i-aalborgs-gader-arrangoerer-skal-finde-balancen-mellem-folkefest-og",
-      "pubDate": "Sat, 23 May 2026 04:22:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Politiet kobler episode p? Herning Baneg?rd til konflikt i omr?det",
-      "title_en": "Police link incident at Herning Station to conflict in the area",
-      "summary_da": "Politiets unders?gelser kr?ver ikke l?ngere, at togdriften er indstillet. Derudover har politiet anholdt tre personer i sagen.",
-      "summary_en": "The police investigation no longer requires that train operations be suspended. In addition, the police have arrested three people in the case.",
-      "link": "https://www.dr.dk/nyheder/indland/politiet-kobler-episode-paa-herning-banegaard-til-konflikt-i-omraadet",
-      "pubDate": "Fri, 22 May 2026 20:10:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Sidste gang kunne vi ikke undg? hendes sang. Nu skal Shakira gentage VM-succes",
-      "title_en": "Last time we couldn't avoid her song. Now Shakira will repeat her World Cup success",
-      "summary_da": "Det er ikke altid en nem opgave at lave et VM-hit, og nu har en gammel kending f?et genvalg til tjansen.",
-      "summary_en": "It's not always an easy task to create a World Cup hit, and now an old acquaintance has been re-elected to the position.",
-      "link": "https://www.dr.dk/musik/sidste-gang-kunne-vi-ikke-undgaa-hendes-sang-nu-skal-shakira-gentage-vm-succes",
-      "pubDate": "Fri, 22 May 2026 19:01:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Pal?stina-aktivist kom hjem efter anholdelse i Israel: Vi tog afsted, fordi I ikke g?r noget",
-      "title_en": "Palestinian activist returns home after arrest in Israel: We left because you're not doing anything",
-      "summary_da": "Danmarks fungerede udenrigsminister, Lars L?kke Rasmussen, kritiserer ydmygende video af anholdte aktivister.",
-      "summary_en": "Denmark's acting Foreign Minister, Lars L?kke Rasmussen, criticizes humiliating video of arrested activists.",
-      "link": "https://www.dr.dk/nyheder/indland/palaestina-aktivist-kom-hjem-efter-anholdelse-i-israel-vi-tog-afsted-fordi-i-ikke-goer-noget",
-      "pubDate": "Fri, 22 May 2026 18:30:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Brand i Vejle under kontrol",
-      "title_en": "Fire in Vejle under control",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/brand-i-vejle-udvikler-skadelig-roeg",
-      "pubDate": "Fri, 22 May 2026 18:11:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "SF vil kopiere britisk model og lukke sextortion-svindelfabrikker i udlandet",
-      "title_en": "SF wants to copy the British model and close down sextortion scam factories abroad",
-      "summary_da": "Danmark skal g? efter svindelfabrikkerne i udlandet, lyder det fra SF?s retsordf?rer.",
-      "summary_en": "Denmark must go after the fraud factories abroad, says SF's legal spokesman.",
-      "link": "https://www.dr.dk/nyheder/indland/sf-vil-kopiere-britisk-model-og-lukke-sextortion-svindelfabrikker-i-udlandet",
-      "pubDate": "Fri, 22 May 2026 17:30:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Sk?nderi p? skoleskemaet: 'Det handler om vores demokrati'",
-      "title_en": "Quarrel over school schedule: 'It's about our democracy'",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/skaenderi-paa-skoleskemaet-det-handler-om-vores-demokrati",
-      "pubDate": "Fri, 22 May 2026 17:09:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
