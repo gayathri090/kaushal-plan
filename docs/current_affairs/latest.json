@@ -1,13 +1,67 @@
 {
-  "date": "2026-05-24",
-  "generatedAt": "2026-05-24T06:42:09.411Z",
+  "date": "2026-05-25",
+  "generatedAt": "2026-05-25T06:43:11.272Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Store hjemrejsedag og kongens motionsl?b giver ekstra pres i trafikken",
+      "title_en": "Big homecoming day and the King's fitness run cause extra pressure on traffic",
+      "summary_da": "Der kan v?re t?t trafik og forl?nget rejsetid, n?r pinsen slutter, samtidig med at fem byer holder Royal Run.",
+      "summary_en": "There may be heavy traffic and extended travel times when Pentecost ends, while five cities hold the Royal Run.",
+      "link": "https://www.dr.dk/nyheder/indland/store-hjemrejsedag-og-kongens-motionsloeb-giver-ekstra-pres-i-trafikken",
+      "pubDate": "Mon, 25 May 2026 05:28:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Nye sv?mmem?l skal forebygge drukneulykker",
+      "title_en": "New swimming goals to prevent drowning accidents",
+      "summary_da": "Fire organisationer lancerer for f?rste gang nationale anbefalinger, der skal forebygge drukneulykker.",
+      "summary_en": "Four organizations are launching national recommendations for the first time to prevent drowning accidents.",
+      "link": "https://www.dr.dk/nyheder/indland/nye-svoemmemaal-skal-forebygge-drukneulykker",
+      "pubDate": "Mon, 25 May 2026 05:18:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Jubil?umsm?nter, moskus-hotdogs og et helt s?rligt l?fte til de gr?nlandske b?rn: S?dan gik amerikanernes seks dage i Nuuk",
+      "title_en": "Jubilee coins, musk ox hotdogs and a very special promise to the Greenlandic children: This is how the Americans spent their six days in Nuuk",
+      "summary_da": "DR's reporter i Nuuk har taget et kig i dagbogsnotaterne og giver dig her et overblik over et noget atypisk diplomatisk visit.",
+      "summary_en": "DR's reporter in Nuuk has taken a look at the diary notes and gives you an overview of a somewhat atypical diplomatic visit.",
+      "link": "https://www.dr.dk/nyheder/indland/groenland/jubilaeumsmoenter-moskus-hotdogs-og-et-helt-saerligt-loefte-til-de-groenlandske-boern-saadan-gik",
+      "pubDate": "Sun, 24 May 2026 19:48:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "'Noget fis': Ekspert f?lder dom over parfumeret hygiejnetrend",
+      "title_en": "'Something crazy': Expert rules out perfumed hygiene trend",
+      "summary_da": "Vi har slet ikke behov for at fjerne lugt overalt p? kroppen, siger ekspert.",
+      "summary_en": "We don't need to remove odor from all over the body, says expert.",
+      "link": "https://www.dr.dk/nyheder/indland/ren-salgsgimmick-laege-langer-ud-efter-nye-kropsdeodoranter",
+      "pubDate": "Sun, 24 May 2026 16:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Fart i blodet: Danmarks hurtigste bil r?ser igen",
+      "title_en": "Speed ??in the blood: Denmark's fastest car races again",
+      "summary_da": "M?nd og kvinder fra hele landet indtog Padborg Park for at se hurtige biler - og fr?k underholdning, man troede var fortid.",
+      "summary_en": "Men and women from all over the country flocked to Padborg Park to see fast cars - and naughty entertainment that was thought to be a thing of the past.",
+      "link": "https://www.dr.dk/nyheder/regionale/syd/fart-i-blodet-danmarks-hurtigste-bil-raeser-igen",
+      "pubDate": "Sun, 24 May 2026 13:03:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Ulvedebatten splitter os i Danmark. Og det er der en god grund til, forklarer ekspert",
+      "title_en": "The wolf debate is dividing us in Denmark. And there's a good reason for that, expert explains",
+      "summary_da": "I en verden med krig og klimakrise er ulven et overskueligt konfliktpunkt. Alle kan have en mening om, hvorvidt den h?rer til i Danmark, siger ekspert.",
+      "summary_en": "In a world of war and climate crisis, the wolf is a clear point of conflict. Everyone can have an opinion on whether it belongs in Denmark, says an expert.",
+      "link": "https://www.dr.dk/nyheder/indland/ulvedebatten-splitter-os-i-danmark-og-det-er-der-en-god-grund-til-forklarer-ekspert",
+      "pubDate": "Sun, 24 May 2026 08:20:00 GMT"
+    },
     {
       "source": "DR Indland",
       "title_da": "Flere private k?ber ladestandere til hjemmet",
       "title_en": "More private individuals are buying charging stations for their homes",
-      "summary_da": "B?de OK og Nordlys oplever stor interesse for at lade elbilen op derhjemme.",
-      "summary_en": "Both OK and Nordlys are experiencing great interest in charging electric cars at home.",
+      "summary_da": "B?de OK og Norlys oplever stor interesse for at lade elbilen op derhjemme.",
+      "summary_en": "Both OK and Norlys are experiencing great interest in charging electric cars at home.",
       "link": "https://www.dr.dk/nyheder/indland/flere-private-koeber-ladestandere-til-hjemmet",
       "pubDate": "Sun, 24 May 2026 05:37:00 GMT"
     },
@@ -19,60 +73,6 @@
       "summary_en": "Concerned residents of Egtved are asking for answers on how they can live with a wolf that is taking livestock in the area. They feel abandoned by the authorities.",
       "link": "https://www.dr.dk/nyheder/styrelse-afviser-moede-om-ulv-lokale-ved-ikke-hvad-de-skal-goere",
       "pubDate": "Sun, 24 May 2026 04:14:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Odenseanere efter letbane-problemer: 'Det er ?rgerligt'",
-      "title_en": "Odense residents after light rail problems: 'It's a shame'",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/odenseanere-efter-letbane-problemer-det-er-aergerligt",
-      "pubDate": "Sat, 23 May 2026 19:20:58 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Politibetjente, stewardesser og en lolitadukke: Kom med til karneval i Aalborg",
-      "title_en": "Police officers, stewardesses and a lolita doll: Join the carnival in Aalborg",
-      "summary_da": "For 44. gang l?ber karnevallet af stablen i Aalborg. ?rets tema ?bent nok til, at fantasien kan f? fuld gas.",
-      "summary_en": "The carnival is taking place in Aalborg for the 44th time. This year's theme is open enough to let your imagination run wild.",
-      "link": "https://www.dr.dk/nyheder/indland/politibetjente-stewardesser-og-en-lolitadukke-kom-med-til-karneval-i-aalborg",
-      "pubDate": "Sat, 23 May 2026 17:41:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Ung iv?rks?tter vil have dig til at spise chips af fiskeskind",
-      "title_en": "Young entrepreneur wants you to eat fish skin chips",
-      "summary_da": "Fiskeskind blev f?r brugt til is?r minkfoder. Nystartet virksomhed i Thy omdanner skindet til chips.",
-      "summary_en": "Fish skin was previously used primarily for mink feed. A new company in Thy is converting the skin into chips.",
-      "link": "https://www.dr.dk/nyheder/indland/ung-ivaerksaetter-vil-have-dig-til-spise-chips-af-fiskeskind",
-      "pubDate": "Sat, 23 May 2026 16:55:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "13 ynglende storkepar i Danmark er det h?jeste antal i 35 ?r",
-      "title_en": "13 breeding stork pairs in Denmark is the highest number in 35 years",
-      "summary_da": "To nye lokaliteter er kommet p? danmarkskortet over ynglende storkepar. Det ene sted holdes dog hemmeligt.",
-      "summary_en": "Two new locations have been added to the Danish map of breeding stork pairs. However, one location is kept secret.",
-      "link": "https://www.dr.dk/nyheder/indland/13-ynglende-storkepar-i-danmark-er-det-hoejeste-antal-i-35-aar",
-      "pubDate": "Sat, 23 May 2026 16:21:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Feldthaus kalder bullshit: MUS-samtaler er spild af liv!",
-      "title_en": "Feldthaus calls bullshit: MUS conversations are a waste of life!",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/feldthaus-kalder-bullshit-mus-samtaler-er-spild-af-liv",
-      "pubDate": "Sat, 23 May 2026 15:52:36 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Til karneval i Aalborg: 'Stemningen er sindssyg'",
-      "title_en": "At carnival in Aalborg: 'The atmosphere is insane'",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/til-karneval-i-aalborg-stemningen-er-sindssyg",
-      "pubDate": "Sat, 23 May 2026 15:32:55 GMT"
     },
     {
       "source": "The Copenhagen Post",
