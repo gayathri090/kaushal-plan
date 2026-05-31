@@ -1,7 +1,79 @@
 {
-  "date": "2026-05-30",
-  "generatedAt": "2026-05-30T06:42:11.734Z",
+  "date": "2026-05-31",
+  "generatedAt": "2026-05-31T06:42:00.090Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Regioner holder ?je med tendens: Flere gravide trodser hospitalers r?d",
+      "title_en": "Regions are monitoring the trend: More pregnant women are defying hospital advice",
+      "summary_da": "I tre regioner er der en oplevelse af, at flere gravide v?lger at f?de hjemme, selvom de bliver frar?det det af sundhedspersonale.",
+      "summary_en": "In three regions, there is an experience that more pregnant women are choosing to give birth at home, even though they are advised against it by healthcare professionals.",
+      "link": "https://www.dr.dk/nyheder/indland/regioner-holder-oeje-med-tendens-flere-gravide-trodser-hospitalers-raad",
+      "pubDate": "Sun, 31 May 2026 06:01:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Verdens st?rste sag om syge donorb?rn vokser - pilen peger mod Danmark",
+      "title_en": "The world's largest case of sick donor children is growing - the arrow points towards Denmark",
+      "summary_da": "Donorb?rn kan b?re en livsfarlig genfejl uden at vide det, lyder bekymringen fra et netv?rk af genetikere.",
+      "summary_en": "Donor children may carry a life-threatening genetic defect without knowing it, is the concern of a network of geneticists.",
+      "link": "https://www.dr.dk/nyheder/indland/verdens-stoerste-sag-om-syge-donorboern-vokser-pilen-peger-mod-danmark",
+      "pubDate": "Sun, 31 May 2026 04:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Forsvaret skal kunne indkalde 180.000 soldater, hvis der bliver krig",
+      "title_en": "The defense must be able to call up 180,000 soldiers if there is war.",
+      "summary_da": "Klassificerede dokumenter afsl?rer, at Danmark vil lave et forsvar som under den Kolde Krig.",
+      "summary_en": "Classified documents reveal that Denmark will build a defense like during the Cold War.",
+      "link": "https://www.dr.dk/nyheder/politik/bliver-der-krig-skal-forsvaret-kunne-indkalde-180-000-soldater",
+      "pubDate": "Sat, 30 May 2026 19:06:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Wadie Bawadi begyndte at spille om penge, da han var 15: Vicerektorer retter kritik mod spilfirmaer",
+      "title_en": "Wadie Bawadi started gambling for money when he was 15: Vice-Chancellors criticize gaming companies",
+      "summary_da": "Flere peger fingre af s?kaldte \"velkomstbonusser\", som spilfirmaerne tilbyder, n?r man opretter en konto f?rste gang.",
+      "summary_en": "Many people point fingers at so-called \"welcome bonuses\" that gaming companies offer when you first create an account.",
+      "link": "https://www.dr.dk/nyheder/indland/wadie-bawadi-begyndte-spille-om-penge-da-han-var-15-vicerektorer-retter-kritik-mod-spilfirmaer",
+      "pubDate": "Sat, 30 May 2026 18:38:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "200 b?rn k?mper med skumsv?rd for revolutionen",
+      "title_en": "200 children fight with foam swords for the revolution",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/200-boern-kaemper-med-skumsvaerd-revolutionen",
+      "pubDate": "Sat, 30 May 2026 18:01:14 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Frif?dere kan k?be sig til hj?lp fra doulaer: 'En vanvittig farlig situation'",
+      "title_en": "Free-borns can buy help from doulas: 'A crazy dangerous situation'",
+      "summary_da": "To chefjordem?dre mener, at det er uforsvarligt, at f?dselshj?lpere uden autorisation - s?kaldte doulaer - deltager ved frif?dsler. En doula afviser kritikken.",
+      "summary_en": "Two mothers in Chefjord believe that it is irresponsible for unlicensed birth attendants - so-called doulas - to participate in free births. A doula rejects the criticism.",
+      "link": "https://www.dr.dk/nyheder/indland/frifoedere-kan-koebe-sig-til-hjaelp-fra-doulaer-en-vanvittig-farlig-situation",
+      "pubDate": "Sat, 30 May 2026 18:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Forsker troede de ?ldre hadede teknologi: 'De var fyldt med skam'",
+      "title_en": "Scientist thought the elderly hated technology: 'They were filled with shame'",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/forsker-troede-de-aeldre-hadede-teknologi-de-var-fyldt-med-skam",
+      "pubDate": "Sat, 30 May 2026 16:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Coop er modstander af k?mpe shoppingcenter, men glemte at betale klagegebyr",
+      "title_en": "Coop is opposed to a giant shopping center, but forgot to pay the appeal fee",
+      "summary_da": "Nu skal Planklagen?vnet tage stilling til, hvad der skal ske med klagen.",
+      "summary_en": "Now the Planning Appeals Board must decide what to do with the complaint.",
+      "link": "https://www.dr.dk/nyheder/indland/coop-er-modstander-af-kaempe-shoppingcenter-men-glemte-betale-klagegebyr",
+      "pubDate": "Sat, 30 May 2026 15:12:00 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "N?sten hvert tredje parlamentsmedlem bor uden for deres valgkreds",
@@ -73,78 +145,6 @@
       "summary_en": "Following a health check-up earlier this week, US President Donald Trump remains in excellent health and is fully fit to perform his duties as president, according to his doctor, Navy Captain Sean Barbabella. Although the doctor noted Trump exhibits strong cardiac, pulmonary, and neurological functions, he encouraged him to exercise more and lose weight, as [?]",
       "link": "https://cphpost.dk/2026-05-30/global/trumps-doctor-after-physical-his-health-is-excellent/",
       "pubDate": "Sat, 30 May 2026 05:50:46 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Skib har l?kket olie i m?nedsvis: Kommune beder om hj?lp",
-      "title_en": "Ship has been leaking oil for months: Municipality asks for help",
-      "summary_da": "Mariagerfjord Kommune vil have staten til at sl? fast, hvem der har ansvaret for at fjerne forurenende skibe.",
-      "summary_en": "Mariagerfjord Municipality wants the state to determine who is responsible for removing polluting ships.",
-      "link": "https://www.dr.dk/nyheder/indland/skib-har-laekket-olie-i-maanedsvis-kommune-beder-om-hjaelp",
-      "pubDate": "Sat, 30 May 2026 05:34:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "?Et stykke moderkage i kinden kan stoppe bl?dningen p? f? sekunder'. Chefjordem?dre advarer mod r?d fra 'doulaer'",
-      "title_en": "'A piece of placenta in the cheek can stop the bleeding in seconds'. Mothers in Chefjord warn against advice from 'doulas'",
-      "summary_da": "I en lukket Facebook-gruppe giver s?kaldte doulaer kvinder r?d, som if?lge to chefjordem?dre og en chefl?ge er uden evidens, vildledende og forsimplede.",
-      "summary_en": "In a closed Facebook group, so-called doulas give women advice that, according to two chief fjord mothers and a chief physician, is unevidenced, misleading and simplistic.",
-      "link": "https://www.dr.dk/nyheder/indland/et-stykke-moderkage-i-kinden-kan-stoppe-bloedningen-paa-faa-sekunder-chefjordemoedre-advarer-mod",
-      "pubDate": "Sat, 30 May 2026 05:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Forsvaret vil indkalde hver femte ung som soldat",
-      "title_en": "The Danish Defence Forces will call up every fifth young man as a soldier.",
-      "summary_da": "Interne dokumenter afsl?rer, at Forsvaret p? sigt vil have 13.000 v?rnepligtige om ?ret.",
-      "summary_en": "Internal documents reveal that the Danish Armed Forces will eventually have 13,000 conscripts per year.",
-      "link": "https://www.dr.dk/nyheder/politik/forsvaret-vil-indkalde-hver-femte-ung-som-soldat",
-      "pubDate": "Sat, 30 May 2026 04:33:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Ekspert advarer: Ekstremt netv?rk er kommet til Danmark",
-      "title_en": "Expert warns: Extremist network has come to Denmark",
-      "summary_da": "I NVE-f?llesskaberne giver overgreb og afpresning 'helgenstatus'. Nu er det ekstreme netv?rk kommet til Danmark, siger ekspert.",
-      "summary_en": "In the NVE communities, abuse and extortion give 'saint status'. Now the extremist network has come to Denmark, says expert.",
-      "link": "https://www.dr.dk/nyheder/indland/sadistisk-onlinefaellesskab-er-bundet-sammen-af-had-nu-er-deres-plet-vokset-paa-pet-s-radar",
-      "pubDate": "Fri, 29 May 2026 19:04:32 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Elg l?s i Nordsj?lland: 'Det er jo sj?ldent'",
-      "title_en": "Moose on the loose in North Zealand: 'It's rare'",
-      "summary_da": "De seneste 50 ?r er omkring 10 elge kommet til Danmark fra Sverige.",
-      "summary_en": "In the past 50 years, around 10 moose have come to Denmark from Sweden.",
-      "link": "https://www.dr.dk/nyheder/indland/elg-loes-i-nordsjaelland-det-er-jo-sjaeldent",
-      "pubDate": "Fri, 29 May 2026 18:32:20 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "M?rsk-ansatte har hjulpet narkokarteller",
-      "title_en": "Maersk employees have helped drug cartels",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/maersk-ansatte-har-hjulpet-narkokarteller",
-      "pubDate": "Fri, 29 May 2026 18:15:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "B?rn og unges styrketr?ningsvaner f?r alarmklokkerne til at ringe hos B?rns Vilk?r",
-      "title_en": "Children and young people's strength training habits are ringing alarm bells at Children's Conditions",
-      "summary_da": "En ny unders?gelse viser, at mere end en fjerdedel af de 9-14-?rige styrkertr?ner.",
-      "summary_en": "A new study shows that more than a quarter of 9-14 year olds do strength training.",
-      "link": "https://www.dr.dk/nyheder/indland/boern-og-unges-styrketraeningsvaner-faar-alarmklokkerne-til-ringe-hos-boerns-vilkaar",
-      "pubDate": "Fri, 29 May 2026 18:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Odense Letbane kan ende med driftstop om en uge",
-      "title_en": "Odense Light Rail may end up out of service in a week",
-      "summary_da": "P? grund af problemet med den uunderst?ttede gangbro kan letbanetog ikke komme til serviceeftersyn, og s? m? de ikke k?re.",
-      "summary_en": "Due to the problem with the unsupported walkway, light rail trains cannot come for maintenance, and so they are not allowed to run.",
-      "link": "https://www.dr.dk/nyheder/indland/odense-letbane-kan-ende-med-driftstop-om-en-uge",
-      "pubDate": "Fri, 29 May 2026 17:37:00 GMT"
     }
   ]
 }
