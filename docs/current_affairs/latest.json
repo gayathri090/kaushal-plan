@@ -1,15 +1,78 @@
 {
-  "date": "2026-06-06",
-  "generatedAt": "2026-06-06T06:42:07.085Z",
+  "date": "2026-06-07",
+  "generatedAt": "2026-06-07T06:42:21.296Z",
   "items": [
     {
       "source": "DR Indland",
-      "title_da": "Kronprinsen indvier ny bro i dag: Det er hans f?rste officielle opgave",
-      "title_en": "The Crown Prince inaugurates a new bridge today: It is his first official assignment",
-      "summary_da": "I dag skal kronprins Christian for f?rste gang repr?sentere Kongehuset p? egen h?nd.",
-      "summary_en": "Today, Crown Prince Christian will represent the Royal House on his own for the first time.",
-      "link": "https://www.dr.dk/nyheder/indland/kronprinsen-indvier-ny-bro-i-dag-det-er-hans-foerste-officielle-opgave",
-      "pubDate": "Sat, 06 Jun 2026 06:35:58 GMT"
+      "title_da": "Om nogle ?r kan Refshale?en v?re markant forandret. Ikke alle er vilde med den id?",
+      "title_en": "In a few years, Refshale?en could be significantly changed. Not everyone is keen on the idea.",
+      "summary_da": "Byggeplanerne p? Refshale?en har m?dt massiv kritik p? sociale medier, men direkt?r tror p?, at sj?l og byggeplaner godt kan forenes.",
+      "summary_en": "The construction plans on Refshale?en have met with massive criticism on social media, but the director believes that soul and construction plans can be reconciled.",
+      "link": "https://www.dr.dk/nyheder/indland/om-nogle-aar-kan-refshaleoeen-vaere-markant-forandret-ikke-alle-er-vilde-med-den-ide",
+      "pubDate": "Sun, 07 Jun 2026 05:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Ventetid p? afg?rende behandling vokser og vokser: 'Det kan vi ikke v?re bekendt'",
+      "title_en": "Waiting time for crucial treatment is growing and growing: 'We can't be aware of that'",
+      "summary_da": "I Region Midtjylland m? patienter nu vente n?sten et halvt ?r p? fodterapi.",
+      "summary_en": "In the Central Denmark Region, patients now have to wait almost six months for podiatry.",
+      "link": "https://www.dr.dk/nyheder/regionale/oestjylland/ventetid-paa-afgoerende-behandling-vokser-og-vokser-det-kan-vi-ikke-vaere-bekendt",
+      "pubDate": "Sun, 07 Jun 2026 04:55:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Landbrug og F?devarer s?r tvivl om gr?n trepartsaftale",
+      "title_en": "Agriculture and Food casts doubt on green tripartite agreement",
+      "summary_da": "Nye politiske tiltag mod landbruget betyder, at den oprindelige Gr?n Trepart er v?k, mener S?ren S?ndergaard.",
+      "summary_en": "New political initiatives against agriculture mean that the original Green Tripartite is gone, says S?ren S?ndergaard.",
+      "link": "https://www.dr.dk/nyheder/indland/landbrug-og-foedevarer-saar-tvivl-om-groen-trepartsaftale",
+      "pubDate": "Sat, 06 Jun 2026 20:07:10 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Afvist ? men ikke f?rdig: Mathias k?mper videre efter sin mors selvmord",
+      "title_en": "Rejected ? but not finished: Mathias fights on after his mother's suicide",
+      "summary_da": "Moren var tilknyttet den psykiatriske afdeling i Randers, der har f?et alvorlig kritik.",
+      "summary_en": "The mother was affiliated with the psychiatric ward in Randers, which has received serious criticism.",
+      "link": "https://www.dr.dk/nyheder/regionale/oestjylland/afvist-men-ikke-faerdig-mathias-kaemper-videre-efter-sin-mors-selvmord",
+      "pubDate": "Sat, 06 Jun 2026 16:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Kronprinsen klarede jobbet for dronning Margrethe og fejrede ny bro",
+      "title_en": "The Crown Prince did the job for Queen Margrethe and celebrated the new bridge",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/kronprinsen-klarede-jobbet-dronning-margrethe-og-fejrede-ny-bro",
+      "pubDate": "Sat, 06 Jun 2026 15:34:03 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Ubuden gr?n g?st spiser h?kke og planter: Massiv eftersp?rgsel p? s?rligt middel",
+      "title_en": "Uninvited green guest eats hedges and plants: Massive demand for special remedy",
+      "summary_da": "Planteskole f?r mange desperate henvendelser i ?kampen? mod larve.",
+      "summary_en": "The nursery receives many desperate inquiries in the \"fight\" against caterpillars.",
+      "link": "https://www.dr.dk/nyheder/indland/ubuden-groen-gaest-spiser-haekke-og-planter-massiv-efterspoergsel-paa-saerligt-middel",
+      "pubDate": "Sat, 06 Jun 2026 15:15:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Kronprins Christian fik gave med hjem til dronning Margrethe fra indvielse",
+      "title_en": "Crown Prince Christian brought home a gift for Queen Margrethe from the inauguration",
+      "summary_da": "Dronning Margrethe II?s Bro bliver fejret i dag, hvor kronprins Christian havde sin f?rste officielle opgave alene.",
+      "summary_en": "Queen Margrethe II's Bridge is celebrated today, when Crown Prince Christian had his first official assignment alone.",
+      "link": "https://www.dr.dk/nyheder/indland/kronprins-christian-fik-gave-med-hjem-til-dronning-margrethe-fra-indvielse",
+      "pubDate": "Sat, 06 Jun 2026 12:53:36 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Letbanechauff?rer skal v?re guider",
+      "title_en": "Light rail drivers must be guides",
+      "summary_da": "Buschauff?rer udefra skal s?rge for, at der kan k?re busser i stedet for letbane i Odense den kommende tid.",
+      "summary_en": "Bus drivers from outside must ensure that buses can run instead of light rail in Odense in the near future.",
+      "link": "https://www.dr.dk/nyheder/indland/letbanechauffoerer-skal-vaere-guider",
+      "pubDate": "Sat, 06 Jun 2026 12:30:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
@@ -82,69 +145,6 @@
       "summary_en": "This year?s Eurovision final, held in Vienna on May 16, attracted 131 million viewers, which is 35 million fewer than last year. The final was won by Dara from Bulgaria with the song ?Bangaranga?. The decline can likely be attributed to five countries?the Netherlands, Iceland, Spain, Ireland, and Slovenia?that chose to boycott this year?s show [?]",
       "link": "https://cphpost.dk/2026-06-06/global/eurovision-viewership-drops-after-israel-boycott/",
       "pubDate": "Sat, 06 Jun 2026 06:14:51 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "'Jeg er rystet': Fem selvmord kunne formentlig v?re undg?et i skandalesag",
-      "title_en": "'I'm shocked': Five suicides could probably have been avoided in scandalous case",
-      "summary_da": "160 erstatningssager er nu afgjort efter fejl i behandlingen af patienter i regionspsykiatrien i Randers.",
-      "summary_en": "160 compensation cases have now been settled following errors in the treatment of patients in the regional psychiatry department in Randers.",
-      "link": "https://www.dr.dk/nyheder/indland/jeg-er-rystet-fem-selvmord-kunne-formentlig-vaere-undgaaet-i-skandalesag",
-      "pubDate": "Sat, 06 Jun 2026 04:30:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Danmark afviser ikke l?ngere en forsoningsproces med Gr?nland",
-      "title_en": "Denmark no longer rejects a reconciliation process with Greenland",
-      "summary_da": "Regeringsgrundlaget ?bner for, at Danmark neds?tter en forsoningskommission med Gr?nland.",
-      "summary_en": "The government's foundation allows for Denmark to establish a reconciliation commission with Greenland.",
-      "link": "https://www.dr.dk/nyheder/indland/groenland/danmark-afviser-ikke-laengere-en-forsoningsproces-med-groenland",
-      "pubDate": "Fri, 05 Jun 2026 20:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Gigantiske vindm?lle-fundamenter skal transporteres over 100 kilometer",
-      "title_en": "Gigantic wind turbine foundations must be transported over 100 kilometers",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/gigantiske-vindmoelle-fundamenter-skal-transporteres-fra-oest-til-vest",
-      "pubDate": "Fri, 05 Jun 2026 17:40:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Ni grundlovsfester viste Danmark fra sin bedste side",
-      "title_en": "Nine constitution celebrations showed Denmark from its best side",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/ni-grundlovsfester-viste-danmark-fra-sin-bedste-side",
-      "pubDate": "Fri, 05 Jun 2026 17:36:13 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Flygtningebarak skal l?fte faldende bes?gstal",
-      "title_en": "Refugee barracks to boost declining visitor numbers",
-      "summary_da": "Efter fire ?rs eksistens er bes?gstallet p? Museet FLUGT i Oksb?l faldende, men historien om 35.000 tyske flygtninge f?r nu et l?ft.",
-      "summary_en": "After four years of existence, the number of visitors to the FLUGT Museum in Oksb?l is decreasing, but the story of 35,000 German refugees is now getting a boost.",
-      "link": "https://www.dr.dk/nyheder/regionale/syd/flygtningebarak-skal-loefte-faldende-besoegstal",
-      "pubDate": "Fri, 05 Jun 2026 17:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Efter kritik: Alle medarbejdere skal kunne f?lge med i problemerne p? nyt sygehus",
-      "title_en": "After criticism: All employees must be able to follow the problems at the new hospital",
-      "summary_da": "Hospitalsdirekt?ren indr?mmer, at informationen om de mange udfordringer p? det nye sygehus i Aalborg ikke er kommet ordentligt ud til alle medarbejdere.",
-      "summary_en": "The hospital director admits that information about the many challenges at the new hospital in Aalborg has not been properly communicated to all employees.",
-      "link": "https://www.dr.dk/nyheder/indland/efter-kritik-alle-medarbejdere-skal-kunne-foelge-med-i-problemerne-paa-nyt-sygehus",
-      "pubDate": "Fri, 05 Jun 2026 16:47:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Efter lange forhandlinger har AGF landet en aftale om leje af spritnyt stadion",
-      "title_en": "After long negotiations, AGF has reached an agreement to lease a brand new stadium",
-      "summary_da": "B?de AGF's direkt?r og kommunen kan leve med den nye lejeaftale.",
-      "summary_en": "Both AGF's director and the municipality can live with the new lease agreement.",
-      "link": "https://www.dr.dk/nyheder/indland/efter-lange-forhandlinger-har-agf-landet-en-aftale-om-leje-af-spritnyt-stadion",
-      "pubDate": "Fri, 05 Jun 2026 15:35:38 GMT"
     }
   ]
 }
