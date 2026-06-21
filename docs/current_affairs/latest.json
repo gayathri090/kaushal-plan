@@ -1,7 +1,79 @@
 {
-  "date": "2026-06-20",
-  "generatedAt": "2026-06-20T06:42:16.553Z",
+  "date": "2026-06-21",
+  "generatedAt": "2026-06-21T06:42:09.877Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "?Kokamok? og 400 veteraner blev lovet lettere erstatning for PTSD. Siden er intet sket",
+      "title_en": "'Kokamok' and 400 veterans were promised lighter compensation for PTSD. Nothing has happened since.",
+      "summary_da": "Veteraner er vrede og opgivende over, at det ikke er blevet lettere at f? anerkendt PTSD som arbejdsskade. En lov skulle v?re vedtaget allerede, men er forsinket.",
+      "summary_en": "Veterans are angry and frustrated that it has not become easier to get PTSD recognized as a work-related injury. A law should have been passed already, but is delayed.",
+      "link": "https://www.dr.dk/nyheder/indland/kokamok-og-400-veteraner-blev-lovet-lettere-erstatning-ptsd-siden-er-intet-sket",
+      "pubDate": "Sun, 21 Jun 2026 04:49:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Sofie Linde reagerer p? SF-sag: Uv?rdig for alle parter",
+      "title_en": "Sofie Linde responds to SF case: Unworthy of all parties",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/sofie-linde-reagerer-paa-sf-sag-uvaerdig-alle-parter",
+      "pubDate": "Sat, 20 Jun 2026 18:43:37 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Sosu'er bombarderes med k?rlighed efter Anders Agger-program",
+      "title_en": "Sosu's are bombarded with love after Anders Agger program",
+      "summary_da": "Opm?rksomheden har overv?ldet de to kvinder, der ikke f?ler sig som helte.",
+      "summary_en": "The attention has overwhelmed the two women, who do not feel like heroes.",
+      "link": "https://www.dr.dk/nyheder/indland/sosu-er-bombarderes-med-kaerlighed-efter-anders-agger-program",
+      "pubDate": "Sat, 20 Jun 2026 18:29:55 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "To timers ventetid p? perronen: Byr?dspolitiker langer ud efter DSB",
+      "title_en": "Two-hour wait on the platform: City council politician lashes out at DSB",
+      "summary_da": "Det skulle have v?ret en hurtig tur til m?de i K?benhavn, men to timers ventetid i varmen p? perronen p? Hovedbaneg?rden fik gruppeformanden for Socialdemokraterne i Kolding til at skrive p? Facebook.",
+      "summary_en": "It was supposed to be a quick trip to a meeting in Copenhagen, but a two-hour wait in the heat on the platform at the Central Station prompted the group chairman of the Social Democrats in Kolding to write on Facebook.",
+      "link": "https://www.dr.dk/nyheder/indland/timers-ventetid-paa-perronen-byraadspolitiker-langer-ud-efter-dsb",
+      "pubDate": "Sat, 20 Jun 2026 16:10:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Fra Cruella de Vil til Elsa Isdronning: Anja v?kker b?rnenes l?selyst",
+      "title_en": "From Cruella de Vil to Elsa the Ice Queen: Anja awakens children's love of reading",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/fra-cruella-de-vil-til-elsa-isdronning-anja-vaekker-boernenes-laeselyst",
+      "pubDate": "Sat, 20 Jun 2026 15:17:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Lokaltog bakker op om sigtet medarbejder efter ulykke p? Gribskovbanen",
+      "title_en": "Local train supports accused employee after accident on Gribskov Line",
+      "summary_da": "Lokaltogs ledelse st?tter den medarbejder, der er sigtet efter togulykken p? Gribskovbanen i april.",
+      "summary_en": "Lokaltog's management supports the employee who was charged after the train accident on the Gribskov Line in April.",
+      "link": "https://www.dr.dk/nyheder/indland/lokaltog-bakker-op-om-sigtet-medarbejder-efter-ulykke-paa-gribskovbanen",
+      "pubDate": "Sat, 20 Jun 2026 14:31:44 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Glade borgere h?ber, at nyt luftforsvar bliver en fordel for Brugsen",
+      "title_en": "Happy citizens hope that new air defense will be an advantage for Brugsen",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/glade-borgere-haaber-nyt-luftforsvar-bliver-en-fordel-brugsen",
+      "pubDate": "Sat, 20 Jun 2026 14:20:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Glem alt om smagsl?s iceberg: S?dan laver du sommerens bedste (og billigste) salater",
+      "title_en": "Forget about tasteless iceberg: How to make the best (and cheapest) salads of the summer",
+      "summary_da": "Sommeren er oplagt til at eksperimentere med salater, mener kok og kogebogsforfatter.",
+      "summary_en": "Summer is the perfect time to experiment with salads, says chef and cookbook author.",
+      "link": "https://www.dr.dk/mad/artikel/glem-alt-om-smagsloes-iceberg-saadan-laver-du-sommerens-bedste-og-billigste-salater",
+      "pubDate": "Sat, 20 Jun 2026 13:02:00 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "Manden bag hundredvis af millioner af streamede sange er d?d",
@@ -73,78 +145,6 @@
       "summary_en": "During the night leading to Saturday, a man was arrested after driving a car on the train tracks in Roskilde. People at the station contacted the police at 01:54 after seeing the car on the tracks, after which train traffic was stopped. Upon arrival, the police found the car stationary on the tracks, abandoned by [?]",
       "link": "https://cphpost.dk/2026-06-20/news/round-up/man-arrested-after-driving-on-roskilde-station-tracks/",
       "pubDate": "Sat, 20 Jun 2026 06:06:45 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Regeringen vil sikre busruter i landomr?derne med 'stort millionbel?b'",
-      "title_en": "The government will secure bus routes in rural areas with 'large sums of millions'",
-      "summary_da": "Pengene skal blandt andet g? til at forhindre lukning af busruter p? landet, siger trafikminister.",
-      "summary_en": "The money will, among other things, go to prevent the closure of bus routes in the countryside, says the Minister of Transport.",
-      "link": "https://www.dr.dk/nyheder/indland/regeringen-vil-sikre-busruter-i-landomraaderne-med-stort-millionbeloeb",
-      "pubDate": "Sat, 20 Jun 2026 04:09:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Letbane tilbage i fuld drift efter flere uger i problemer",
-      "title_en": "Light rail back in full operation after several weeks of problems",
-      "summary_da": "Odense Letbane har nu f?et den sikkerhedsgodkendelse fra Trafikstyrelsen, der betyder, at de m? k?re p? hele str?kningen igen.",
-      "summary_en": "Odense Light Rail has now received safety approval from the Danish Transport Authority, which means they can operate on the entire route again.",
-      "link": "https://www.dr.dk/nyheder/indland/letbane-tilbage-i-fuld-drift-efter-flere-uger-i-problemer",
-      "pubDate": "Sat, 20 Jun 2026 03:32:48 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Mosk? blev overh?ldt med benzin: I dag har folkekirkens lokale overhoved v?ret p? bes?g",
-      "title_en": "Mosque was doused with gasoline: Today the local head of the Danish People's Church visited",
-      "summary_da": "Biskoppen i Aarhus har bes?gt den lokale mosk? for at vise solidaritet med menighedens medlemmer.",
-      "summary_en": "The bishop of Aarhus has visited the local mosque to show solidarity with the members of the congregation.",
-      "link": "https://www.dr.dk/nyheder/indland/moske-blev-overhaeldt-med-benzin-i-dag-har-folkekirkens-lokale-overhoved-vaeret-paa-besoeg",
-      "pubDate": "Fri, 19 Jun 2026 19:15:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "B?rn klarer MR-skanninger uden narkose ? takket v?re klovne",
-      "title_en": "Children undergo MRI scans without anesthesia ? thanks to clowns",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/boern-klarer-mr-skanninger-uden-narkose-takket-vaere-klovne",
-      "pubDate": "Fri, 19 Jun 2026 18:15:10 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Efter kritik forklarer DR valgene bag dokumentar",
-      "title_en": "After criticism, DR explains the choices behind the documentary",
-      "summary_da": "DR-dokumentar kritiseres for 'sensationslyst' og 'mikrofonholderi for Kreml'",
-      "summary_en": "DR documentary criticized for 'sensationalism' and 'microphone-holding for the Kremlin'",
-      "link": "https://www.dr.dk/nyheder/indland/dr-dokumentar-kritiseres-sensationslyst-og-mikrofonholderi-kreml",
-      "pubDate": "Fri, 19 Jun 2026 18:15:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Staten bortadopterer flere b?rn ? men f?rre vil tage dem hjem",
-      "title_en": "The state is adopting out more children ? but fewer will take them home",
-      "summary_da": "Mangel p? adoptanter er langt fra det eneste problem med bortadoptioner i Danmark, mener Katrine Daugaard (LA).",
-      "summary_en": "Lack of adopters is far from the only problem with adoptions in Denmark, believes Katrine Daugaard (LA).",
-      "link": "https://www.dr.dk/nyheder/indland/staten-bortadopterer-flere-boern-men-faerre-vil-tage-dem-hjem",
-      "pubDate": "Fri, 19 Jun 2026 17:40:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Flere omr?der t?t p? skoler og legeplads lukker efter fund af ?Larven fra helvede?",
-      "title_en": "Several areas near schools and playgrounds close after discovery of 'Larva from Hell'",
-      "summary_da": "Det er bedst at f? lukket omr?derne ned, mens situationen med egeprocessionsspinderen bliver h?ndteret, lyder det fra kommunen.",
-      "summary_en": "It is best to close the areas down while the situation with the oak processionary moth is handled, says the municipality.",
-      "link": "https://www.dr.dk/nyheder/indland/flere-omraader-taet-paa-skoler-og-legeplads-lukker-efter-fund-af-larven-fra-helvede",
-      "pubDate": "Fri, 19 Jun 2026 16:49:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Fra bur i Sydkorea til skov p? Lolland: Seks bj?rne f?r nyt liv",
-      "title_en": "From cage in South Korea to forest on Lolland: Six bears get new life",
-      "summary_da": "De seks bj?rne har v?ret brugt til at tappe galde til traditionel medicin. Den praksis er nu blevet forbudt i Sydkorea.",
-      "summary_en": "The six bears have been used to extract bile for traditional medicine, a practice that has now been banned in South Korea.",
-      "link": "https://www.dr.dk/nyheder/indland/fra-bur-i-sydkorea-til-skov-paa-lolland-seks-bjoerne-faar-nyt-liv",
-      "pubDate": "Fri, 19 Jun 2026 15:30:00 GMT"
     }
   ]
 }
