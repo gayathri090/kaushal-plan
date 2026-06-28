@@ -1,7 +1,97 @@
 {
-  "date": "2026-06-27",
-  "generatedAt": "2026-06-27T06:42:19.831Z",
+  "date": "2026-06-28",
+  "generatedAt": "2026-06-28T06:42:01.967Z",
   "items": [
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Dansk varmerekord topper p? 37,0 grader",
+      "title_en": "Danish heat record peaks at 37.0 degrees",
+      "summary_da": "If?lge Danmarks Meteorologiske Institut (DMI) har Danmark sat en ny varmerekord p? 37,0 grader, hvilket g?r l?rdag til den varmeste dag registreret siden m?lingerne begyndte i 1874. Temperaturen toppede klokken 14:45 i b?de ?dum nord for Aarhus og Beldringe nord for Odense. Tidligere samme dag blev en m?ling p? 36,6 grader nord for Odense [?]",
+      "summary_en": "According to the Danish Meteorological Institute (DMI), Denmark has set a new heat record of 37.0 degrees, making Saturday the warmest day registered since measurements began in 1874. The temperature peaked at 14:45 in both ?dum, north of Aarhus, and Beldringe, north of Odense. Earlier that day, a measurement of 36.6 degrees north of Odense [?]",
+      "link": "https://cphpost.dk/2026-06-28/news/round-up/danish-heat-record-peaks-at-37-0-degrees/",
+      "pubDate": "Sun, 28 Jun 2026 05:40:29 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Vores drikkevand er tr?ngt. Nu f?r det hj?lp af droner",
+      "title_en": "Our drinking water is in need. Now it's getting help from drones",
+      "summary_da": "Ved kun at spr?jte hvor der er ukrudt, kan landbrugets brug af spr?jtemidler mere end halveres.",
+      "summary_en": "By spraying only where there are weeds, agricultural use of pesticides can be more than halved.",
+      "link": "https://www.dr.dk/nyheder/indland/vores-drikkevand-er-traengt-nu-faar-det-hjaelp-af-droner",
+      "pubDate": "Sun, 28 Jun 2026 05:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Cirkus Summarum med besked til g?ster, efter der ved en fejl er h?ldt rensev?ske i slushice",
+      "title_en": "Circus Summarum issues message to guests after cleaning fluid was accidentally poured into slush ice",
+      "summary_da": "G?ster, der var til forestilling i Cirkus Summarum l?rdag eftermiddag, har f?et sms om, at de skal v?re opm?rksomme p? symptomer.",
+      "summary_en": "Guests who attended a performance at Circus Summarum on Saturday afternoon have received a text message telling them to be aware of symptoms.",
+      "link": "https://www.dr.dk/nyheder/indland/cirkus-summarum-advarer-har-ved-en-fejl-haeldt-rensevaeske-i-slushice",
+      "pubDate": "Sat, 27 Jun 2026 21:26:11 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Generation AI bliver studenter - og det lader til, at de har sv?rere ved skriftlige eksamener",
+      "title_en": "Generation AI is becoming students - and it seems they are having a harder time with written exams",
+      "summary_da": "Elever p? 11 gymnasier fik i ?r markant lavere eksamenskarakter i skriftlig dansk. Regeringen vil lave 'strakspakke' p? grund af AI.",
+      "summary_en": "Students at 11 upper secondary schools received significantly lower exam grades in written Danish this year. The government will make an 'immediate package' due to AI.",
+      "link": "https://www.dr.dk/nyheder/indland/generation-ai-bliver-studenter-og-det-lader-til-de-har-svaerere-ved-skriftlige-eksamener",
+      "pubDate": "Sat, 27 Jun 2026 19:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "ANALYSE Uanset hvad der fl?j, gav ord som 'hybridkrig' og '9/11' droneoverarbejde for myndighederne",
+      "title_en": "ANALYSIS Whatever flew, words like 'hybrid war' and '9/11' gave drone overtime for authorities",
+      "summary_da": "Retorikken om droneh?ndelserne i september skabte utvivlsomt en panik - ogs? hos borgerne.",
+      "summary_en": "The rhetoric about the drone incidents in September undoubtedly created panic - also among citizens.",
+      "link": "https://www.dr.dk/nyheder/indland/analyse-uanset-hvad-der-floej-gav-ord-som-hybridkrig-og-9-11-droneoverarbejde-myndighederne",
+      "pubDate": "Sat, 27 Jun 2026 18:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Berygtet larve breder sig i Odense - men Karina tager det meget mere roligt i ?r",
+      "title_en": "Notorious caterpillar is spreading in Odense - but Karina is taking it much easier this year",
+      "summary_da": "Egeprocessionsspinderen landede p? Fyn sidste ?r - og den bliver umulig helt at udrydde.",
+      "summary_en": "The oak processionary moth landed on Funen last year - and it will be impossible to completely eradicate it.",
+      "link": "https://www.dr.dk/nyheder/indland/berygtet-larve-breder-sig-i-odense-men-karina-tager-det-meget-mere-roligt-i-aar",
+      "pubDate": "Sat, 27 Jun 2026 17:32:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Friluftsbade p? dybt vand: Skal investere millioner for at overleve",
+      "title_en": "Deep-water open-air swimming pools: Must invest millions to survive",
+      "summary_da": "Milj?krav betyder, at landets sv?mmebade under ?ben himmel skal investere i omfattende renovering af bassiner og teknik",
+      "summary_en": "Environmental requirements mean that the country's open-air swimming pools must invest in extensive renovation of pools and technology.",
+      "link": "https://www.dr.dk/nyheder/indland/friluftsbade-paa-dybt-vand-skal-investere-millioner-overleve",
+      "pubDate": "Sat, 27 Jun 2026 16:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Festivalen Tinderbox lukker indgang p? grund af uvejr",
+      "title_en": "Tinderbox festival closes entrance due to bad weather",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/vejret/varme-og-hedeboelge-over-europa?focusId=11952479#liveblog-embed",
+      "pubDate": "Sat, 27 Jun 2026 14:24:41 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "30 grader i metroen: Passagerer k?mper med varmen",
+      "title_en": "30 degrees in the metro: Passengers struggle with the heat",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/30-grader-i-metroen-passagerer-kaemper-med-varmen",
+      "pubDate": "Sat, 27 Jun 2026 14:05:05 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Hvordan traditionen med dimissionshuer startede",
+      "title_en": "How the graduation cap tradition started",
+      "summary_da": "Nyuddannede studerende er lette at genkende p? deres kasketter. Dimissionskasketter med alle mulige farvede b?nd bliver i disse dage sat p? hovedet af titusindvis af unge kandidater, der har afsluttet en ungdomsuddannelse. Traditionen stammer oprindeligt fra Tyskland til K?benhavn, hvor den f?rste kandidat modtog en hvid [?]",
+      "summary_en": "Newly graduated students are easy to recognize by their caps. Graduation caps with all kinds of colored bands are in these days being placed on the heads of tens of thousands of young graduates who have completed a secondary education. The tradition originally came from Germany to Copenhagen, where the first graduate received a white [?]",
+      "link": "https://cphpost.dk/2026-06-27/life-in-denmark/how-the-graduation-cap-tradition-started/",
+      "pubDate": "Sat, 27 Jun 2026 06:45:36 +0000"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "Trump deler billede af s?rligt pas med strengt ansigt",
@@ -55,96 +145,6 @@
       "summary_en": "On Saturday, Denmark has a strong possibility of breaking its June temperature record of 35.5 degrees, set in Hiller?d in 1947. According to the Danish Meteorological Institute (DMI), Saturday will be sunny and very warm, with maximum temperatures around 35 degrees. This is highly unusual compared to the average June maximum of 19.1 degrees over [?]",
       "link": "https://cphpost.dk/2026-06-27/news/round-up/hot-saturday-could-break-1947-and-1975-heat-records/",
       "pubDate": "Sat, 27 Jun 2026 06:28:17 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Andelen af ??danskere med kontanter i hjemmet stiger",
-      "title_en": "Share of Danes with cash at home rises",
-      "summary_da": "If?lge en analyse fra Nationalbanken fra 2025 har mere end fire ud af ti danskere kontantbeholdninger p? over 1.000 kroner. Dette er det h?jeste niveau, siden banken begyndte at spore tallene i 2017, en stigning fra 33 procent i 2023. Derudover ser 69 procent af dem, der har over 1.000 kroner, det som en n?dsituation [?]",
-      "summary_en": "According to a 2025 analysis by the Nationalbanken, more than four out of ten Danes have cash holdings of over 1,000 kroner. This is the highest level since the bank began tracking the figures in 2017, up from 33 percent in 2023. Additionally, 69 percent of those holding over 1,000 kroner view it as emergency [?]",
-      "link": "https://cphpost.dk/2026-06-27/news/round-up/share-of-danes-with-cash-at-home-rises/",
-      "pubDate": "Sat, 27 Jun 2026 06:28:08 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Livstidsfange Peter Madsen n?gtet ?gteskab med ung kvinde",
-      "title_en": "Lifer Peter Madsen denied marriage to young woman",
-      "summary_da": "Fredag ??afgjorde H?jesteret, at den livstidsfange Peter Madsen ikke har ret til orlov eller bes?g for at blive gift. B?de den 55-?rige indsatte og en 30 ?r yngre kvinde havde anmodet om tilladelse. Dommerne stadf?stede dog myndighedernes afslag og udtalte, at deres ret til at gifte sig skal begr?nses for at beskytte samfundets interesser, [?]",
-      "summary_en": "On Friday, the Supreme Court ruled that life prisoner Peter Madsen is not entitled to prison leave or visits to get married. Both the 55-year-old inmate and a woman 30 years younger had requested permission. However, the judges upheld the authorities? refusals, stating that their right to marry must be limited to protect societal interests, [?]",
-      "link": "https://cphpost.dk/2026-06-27/news/round-up/lifer-peter-madsen-denied-marriage-to-young-woman/",
-      "pubDate": "Sat, 27 Jun 2026 06:27:59 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Tager du bilen p? sommerferie i dag? Her er det, du skal v?re opm?rksom p?",
-      "title_en": "Are you taking your car on summer vacation today? Here's what you need to pay attention to",
-      "summary_da": "S?rligt p? Vestmotorvejen, Fynske Motorvej og motorvejen omkring Kolding er der stor risiko for k?.",
-      "summary_en": "There is a high risk of traffic jams, especially on the Vestmotorvejen, Fynske Motorvej and the motorway around Kolding.",
-      "link": "https://www.dr.dk/nyheder/indland/tager-du-bilen-paa-sommerferie-i-dag-her-er-det-du-skal-vaere-opmaerksom-paa",
-      "pubDate": "Sat, 27 Jun 2026 05:45:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Hedeb?lgen smadrer din s?vn, og det kan blive farligt, siger s?vnforsker",
-      "title_en": "The heat wave is ruining your sleep, and it could be dangerous, says sleep researcher",
-      "summary_da": "I takt med den globale opvarmning f?r vi flere n?tter med ekstrem varme. Og det stj?ler nattes?vn, som hjernen har brug for.",
-      "summary_en": "As global warming progresses, we are experiencing more nights of extreme heat. And that steals the night's sleep that the brain needs.",
-      "link": "https://www.dr.dk/nyheder/indland/hedeboelgen-smadrer-din-soevn-og-det-kan-blive-farligt-siger-soevnforsker",
-      "pubDate": "Sat, 27 Jun 2026 05:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Hjem-IS p? sygebes?g i sommervarmen",
-      "title_en": "Home-IS on sick visits in the summer heat",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/hjem-is-paa-sygebesoeg-i-sommervarmen",
-      "pubDate": "Fri, 26 Jun 2026 19:55:52 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "S?rlig dato f?rte til drop in-bryllupper i Aarhus og vielsesboom i K?benhavn",
-      "title_en": "Special date led to drop-in weddings in Aarhus and wedding boom in Copenhagen",
-      "summary_da": "K?benhavns R?dhus havde mere end dobbelt s? mange vielser p? programmet i dag, mens drop in-bryllupperne stod i k? i Aarhus.",
-      "summary_en": "Copenhagen City Hall had more than twice as many weddings on its program today, while drop-in weddings were lined up in Aarhus.",
-      "link": "https://www.dr.dk/nyheder/indland/i-dag-blev-en-saerlig-hed-dato-i-mere-end-en-forstand",
-      "pubDate": "Fri, 26 Jun 2026 19:45:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Studenter sparer op i ?revis til dyr fejring. Det giver ros fra ekspert",
-      "title_en": "Students save up for years for expensive celebration. It earns praise from expert",
-      "summary_da": "Hue, vognk?rsel, gaver og fester er dyrt. Thilde har sparet op, siden hun startede p? gymnasiet.",
-      "summary_en": "Hats, carriage rides, gifts and parties are expensive. Thilde has been saving up since she started high school.",
-      "link": "https://www.dr.dk/nyheder/indland/studenter-sparer-op-i-aarevis-til-dyr-fejring-det-giver-ros-fra-ekspert",
-      "pubDate": "Fri, 26 Jun 2026 19:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Gik Pal?stina-aktivisterne p? KU for langt?",
-      "title_en": "Did the Palestine activists at the University of Copenhagen go too far?",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/gik-palaestina-aktivisterne-paa-ku-langt",
-      "pubDate": "Fri, 26 Jun 2026 18:55:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "To 'm?gsager' for ?stjyllands Politi",
-      "title_en": "Two 'muck cases' for the East Jutland Police",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/moegsager-oestjyllands-politi",
-      "pubDate": "Fri, 26 Jun 2026 18:30:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Elon Musk tilbyder gratis Starlink i Venezuela - men her er man allerede i gang med at s?tte de gamle telefonmaster op",
-      "title_en": "Elon Musk offers free Starlink in Venezuela - but they're already setting up old telephone masts",
-      "summary_da": "Selvom kommunikation er essentiel, er det ikke n?dvendigvis smart eller billigt at introducere et helt nyt system midt i en krise, lyder det fra n?dhj?lpsorganisation.",
-      "summary_en": "Although communication is essential, it is not necessarily smart or cheap to introduce a completely new system in the middle of a crisis, says the relief organization.",
-      "link": "https://www.dr.dk/nyheder/indland/elon-musk-tilbyder-gratis-starlink-i-venezuela-men-her-er-man-allerede-i-gang-med-saette-de-gamle",
-      "pubDate": "Fri, 26 Jun 2026 18:00:00 GMT"
     }
   ]
 }
