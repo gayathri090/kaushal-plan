@@ -1,7 +1,79 @@
 {
-  "date": "2026-07-04",
-  "generatedAt": "2026-07-04T06:42:20.529Z",
+  "date": "2026-07-05",
+  "generatedAt": "2026-07-05T06:42:08.133Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "I dag debuterer tidligere folketingsmedlem Naser Khader som pr?st",
+      "title_en": "Today, former member of parliament Naser Khader makes his debut as a priest",
+      "summary_da": "Khader skal vikariere som pr?st i flere sogne omkring N?stved de kommende m?neder.",
+      "summary_en": "Khader will be serving as a substitute priest in several parishes around N?stved in the coming months.",
+      "link": "https://www.dr.dk/nyheder/indland/i-dag-debuterer-tidligere-folketingsmedlem-naser-khader-som-praest",
+      "pubDate": "Sun, 05 Jul 2026 06:02:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "I dag v?lger unge uddannelse, men en ny 'gamechanger' skaber tvivl",
+      "title_en": "Today, young people choose education, but a new 'game changer' creates doubts",
+      "summary_da": "Kunstig intelligens vil ?ndre job markant i fremtiden. Nu p?virker det unge, n?r de v?lger uddannelse.",
+      "summary_en": "Artificial intelligence will significantly change jobs in the future. It is now affecting young people when they choose education.",
+      "link": "https://www.dr.dk/nyheder/indland/i-dag-vaelger-unge-uddannelse-men-en-ny-gamechanger-skaber-tvivl",
+      "pubDate": "Sun, 05 Jul 2026 05:01:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "32-?rig svenskers d?d v?kker r?re ved dagens VM-fejring: 'Det er jo fuldst?ndig vanvittigt'",
+      "title_en": "32-year-old Swede's death stirs up controversy at today's World Cup celebrations: 'It's completely crazy'",
+      "summary_da": "Meldingen om, at den 32-?rige svensker er afg?et ved d?den, kom samtidig med, at et nyt storsk?rmsarrangement var i gang p? gerningsstedet.",
+      "summary_en": "The news that the 32-year-old Swede had died came at the same time that a new big-screen event was underway at the crime scene.",
+      "link": "https://www.dr.dk/nyheder/indland/32-aarig-svenskers-doed-vaekker-roere-ved-dagens-vm-fejring-det-er-jo-fuldstaendig-vanvittigt",
+      "pubDate": "Sat, 04 Jul 2026 19:51:06 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "K?benhavns Universitet i kovending efter kritik",
+      "title_en": "University of Copenhagen in U-turn after criticism",
+      "summary_da": "Man kan alligevel s?ge optagelse p? K?benhavns Universitet, selv om man skal til sygeeksamen i august.",
+      "summary_en": "You can still apply for admission to the University of Copenhagen, even if you have to take the exam by sick leave in August.",
+      "link": "https://www.dr.dk/nyheder/indland/koebenhavns-universitet-i-kovending-efter-kritik",
+      "pubDate": "Sat, 04 Jul 2026 17:48:03 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Beruset amerikaner sigtet for at bide betjent i K?benhavns Lufthavn",
+      "title_en": "Drunk American charged with biting officer at Copenhagen Airport",
+      "summary_da": "En 24-?rig amerikaner havde angiveligt f?et lidt at drikke, mens han ventede p? sit fly hjem til USA.",
+      "summary_en": "A 24-year-old American had allegedly had a drink while waiting for his flight home to the United States.",
+      "link": "https://www.dr.dk/nyheder/indland/beruset-amerikaner-sigtet-bide-betjent-i-koebenhavns-lufthavn",
+      "pubDate": "Sat, 04 Jul 2026 17:27:36 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Mens Energinet forklarer og forklarer, breder en anden fort?lling sig, der hvor masterne skal st?: 'Det er jo bare noget, de siger'",
+      "title_en": "While Energinet explains and explains, another story is spreading where the masts are to be located: 'It's just something they say'",
+      "summary_da": "B?de borgere og kommunalpolitikere insisterer p?, at nye h?jsp?ndingsledninger skal graves ned, selvom Energinet igen og igen har sagt, at det ikke kan lade sig g?re.",
+      "summary_en": "Both citizens and municipal politicians insist that new high-voltage lines must be buried, even though Energinet has repeatedly said that this cannot be done.",
+      "link": "https://www.dr.dk/nyheder/indland/mens-energinet-forklarer-og-forklarer-breder-en-anden-fortaelling-sig-der-hvor-masterne-skal-staa",
+      "pubDate": "Sat, 04 Jul 2026 17:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "H?js?son for indbrud: Her er politiets r?d",
+      "title_en": "Peak season for burglaries: Here is the police's advice",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/hoejsaeson-indbrud-her-er-politiets-raad",
+      "pubDate": "Sat, 04 Jul 2026 16:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "15-?rige Philip dr?mmer om Tour de France",
+      "title_en": "15-year-old Philip dreams of the Tour de France",
+      "summary_da": "15-?rige Philip Ternstr?m Hyldtoft blev danmarksmester i landevejscykling for U19 i s?ndags - i fremtiden er der m?ske et Tour de France i sigte.",
+      "summary_en": "15-year-old Philip Ternstr?m Hyldtoft became the Danish U19 road cycling champion on Sunday - in the future, a Tour de France may be in sight.",
+      "link": "https://www.dr.dk/nyheder/indland/15-aarige-philip-droemmer-om-tour-de-france",
+      "pubDate": "Sat, 04 Jul 2026 15:29:00 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "OVERBLIK: Trump stj?ler rampelyset ved 250-?rs fest i Washington D.C.",
@@ -35,7 +107,7 @@
       "title_en": "Venezuela raises earthquake death toll to 2,645",
       "summary_da": "D?dstallet fra sidste uges to kraftige jordsk?lv i Venezuela er steget til 2.645, med cirka 12.000 s?rede og 15.000 hjeml?se. Selvom myndighederne ikke har ansl?et antallet af savnede personer, vurderer FN, at op mod 50.000 er savnet. Jordsk?lvene, der m?lte 7,2 og 7,5 i styrke, ramte den 24. juni og [?]",
       "summary_en": "The death toll from last week?s two powerful earthquakes in Venezuela has risen to 2,645, with approximately 12,000 injured and 15,000 left homeless. While authorities have not estimated the number of missing people, the UN assesses that up to 50,000 are missing. The earthquakes, measuring 7.2 and 7.5 in magnitude, struck on June 24 and [?]",
-      "link": "https://cphpost.dk/2026-07-04/general/venezuela-raises-earthquake-death-toll-to-2645/",
+      "link": "https://cphpost.dk/2026-07-04/global/venezuela-raises-earthquake-death-toll-to-2645/",
       "pubDate": "Sat, 04 Jul 2026 06:36:45 +0000"
     },
     {
@@ -73,78 +145,6 @@
       "summary_en": "On Saturday, citizens in Odense are demonstrating against Odense Municipality?s handling of the oak processionary moth, which has spread again this year. The caterpillar?s hairs cause allergic reactions, including itching, eye irritation, and rashes. Organized by Alexander Boe, the demonstration aims to establish a dialogue with the municipality and focus on turning knowledge into a [?]",
       "link": "https://cphpost.dk/2026-07-04/news/round-up/odense-residents-want-clear-answers-on-larvae-invasion/",
       "pubDate": "Sat, 04 Jul 2026 06:26:54 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Vicev?rt d?d efter altan-ulykke i K?benhavn",
-      "title_en": "Caretaker dies after balcony accident in Copenhagen",
-      "summary_da": "En 72-?rig mand er d?d efter en ulykke med en fransk altan. De andre altaner i ejendommen unders?ges mandag.",
-      "summary_en": "A 72-year-old man has died after an accident with a French balcony. The other balconies in the property will be examined on Monday.",
-      "link": "https://www.dr.dk/nyheder/indland/vicevaert-doed-efter-altan-ulykke-i-koebenhavn",
-      "pubDate": "Sat, 04 Jul 2026 06:16:39 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Trump skal ikke trumfe dansk USA-fejring",
-      "title_en": "Trump should not trump Danish US celebration",
-      "summary_da": "Trods ansp?ndt politisk forhold fejres den amerikanske nationaldag i Rebild Bakker.",
-      "summary_en": "Despite tense political conditions, the American National Day is celebrated in Rebild Bakker.",
-      "link": "https://www.dr.dk/nyheder/regionale/nordjylland/trump-skal-ikke-trumfe-dansk-usa-fejring",
-      "pubDate": "Sat, 04 Jul 2026 05:30:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Festivalplakat i v?lten: 'Motivet minder om blackface'",
-      "title_en": "Festival poster in the news: 'The motif is reminiscent of blackface'",
-      "summary_da": "Copenhagen Jazz Festival, der begynder i dag, kritiseres for sit valg af kunstplakat til markedsf?ring af festivalen.",
-      "summary_en": "The Copenhagen Jazz Festival, which begins today, is being criticized for its choice of art poster for marketing the festival.",
-      "link": "https://www.dr.dk/nyheder/indland/festivalsplakat-i-vaelten-motivet-minder-om-blackface",
-      "pubDate": "Fri, 03 Jul 2026 19:30:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Ukendt kvinde bisat: Det er trist og fattigt",
-      "title_en": "Unknown woman bereaved: It's sad and poor",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/ukendt-kvinde-bisat-det-er-trist-og-fattigt",
-      "pubDate": "Fri, 03 Jul 2026 18:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Se, hvordan det gik, da vi bad DBU forklare det, fodboldb?rnene ikke kan forst?",
-      "title_en": "See how it went when we asked DBU to explain what football kids can't understand",
-      "summary_da": "14-?rige spillere synes, det er unfair og sv?rt at forst?, at de bliver overhalet indenom af hold, der er d?rligere.",
-      "summary_en": "14-year-old players find it unfair and difficult to understand that they are being overtaken internally by teams that are worse.",
-      "link": "https://www.dr.dk/nyheder/indland/se-hvordan-det-gik-da-vi-bad-dbu-forklare-det-fodboldboernene-ikke-kan-forstaa",
-      "pubDate": "Fri, 03 Jul 2026 17:32:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "H?rv?rk mod indhegning til naturnationalpark kan ende galt - skovridder advarer mod fare for bilister og dyr",
-      "title_en": "Vandalism against fence to nature national park could end badly - ranger warns of danger to drivers and animals",
-      "summary_da": "Tre gange i l?bet af ugen er indhegningen til Naturnationalpark Fussing? blevet udsat for h?rv?rk. Det skaber fare for bilister p? den n?rliggende Viborgvej. H?ndelserne er anmeldt til politiet.",
-      "summary_en": "Three times during the week, the fence of the Fussing? National Park has been vandalized. This poses a danger to drivers on nearby Viborgvej. The incidents have been reported to the police.",
-      "link": "https://www.dr.dk/nyheder/indland/haervaerk-mod-indhegning-til-naturnationalpark-kan-ende-galt-skovridder-advarer-mod-fare-bilister",
-      "pubDate": "Fri, 03 Jul 2026 17:04:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Borgere p? velbes?gt larve-m?de undrede sig: Hvorfor kan man ikke f?lde egetr?erne?",
-      "title_en": "Citizens at a well-attended caterpillar meeting wondered: Why can't you cut down the oak trees?",
-      "summary_da": "P? borgerm?det kom det blandt andet frem, at situationen ikke er 'new normal'.",
-      "summary_en": "At the citizens' meeting, it emerged, among other things, that the situation is not the 'new normal'.",
-      "link": "https://www.dr.dk/nyheder/indland/borgere-paa-velbesoegt-larve-moede-undrede-sig-hvorfor-kan-man-ikke-faelde-egetraeerne",
-      "pubDate": "Fri, 03 Jul 2026 16:31:53 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Kommune med lille opsang til borgerne: I kan godt blive bedre til affaldssortering",
-      "title_en": "Municipality with a small reminder to citizens: You can do better at sorting waste",
-      "summary_da": "Selvom der er flere aalborgensere, der sorterer deres affald, kan det godt blive bedre, lyder det.",
-      "summary_en": "Even though more Aalborg residents sort their waste, it could be better, it seems.",
-      "link": "https://www.dr.dk/nyheder/indland/kommune-med-lille-opsang-til-borgerne-i-kan-godt-blive-bedre-til-affaldssortering",
-      "pubDate": "Fri, 03 Jul 2026 16:25:00 GMT"
     }
   ]
 }
