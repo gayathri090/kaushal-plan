@@ -1,7 +1,79 @@
 {
-  "date": "2026-08-08",
-  "generatedAt": "2026-08-08T06:42:20.984Z",
+  "date": "2026-08-09",
+  "generatedAt": "2026-08-09T06:42:09.744Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Stor rejsedag: Tre r?d til dig, der skal med bilen hjem fra ferie i dag",
+      "title_en": "Big travel day: Three tips for those who are driving home from vacation today",
+      "summary_da": "Vejdirektoratet forventer stor risiko for k?dannelser og forl?nget rejsetid i dag.",
+      "summary_en": "The Danish Road Directorate expects a high risk of traffic jams and extended travel times today.",
+      "link": "https://www.dr.dk/nyheder/indland/stor-rejsedag-tre-raad-til-dig-der-skal-med-bilen-hjem-fra-ferie-i-dag",
+      "pubDate": "Sun, 09 Aug 2026 05:01:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Mobilen bliver mere og mere bandlyst p? efterskolerne",
+      "title_en": "Mobile phones are increasingly banned in secondary schools",
+      "summary_da": "Nye efterskolelever m?der i dag ind til skrappe regler for brugen af mobiltelefonen. Det skal styrke f?llesskabet blandt eleverne, lyder begrundelsen.",
+      "summary_en": "New high school students are meeting today to learn strict rules for the use of mobile phones. The rationale is that this is to strengthen the community among the students.",
+      "link": "https://www.dr.dk/nyheder/indland/mobilen-bliver-mere-og-mere-bandlyst-paa-efterskolerne",
+      "pubDate": "Sun, 09 Aug 2026 04:14:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Ulv jagter en l?ber i Nordjylland",
+      "title_en": "Wolf chasing a runner in North Jutland",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/ulv-jagter-en-loeber-i-nordjylland",
+      "pubDate": "Sat, 08 Aug 2026 21:16:55 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Hizb ut-Tahrir svarer Morten B?dskov igen",
+      "title_en": "Hizb ut-Tahrir responds to Morten B?dskov again",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/hizb-ut-tahrir-svarer-morten-boedskov-igen",
+      "pubDate": "Sat, 08 Aug 2026 20:12:23 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Skolestart betyder madpakkestart: S?dan undg?r du, at den ender i madaffaldsspanden",
+      "title_en": "Back to school means back to packed lunches: How to avoid it ending up in the food waste bin",
+      "summary_da": "Hverdagen st?r og banker p? d?ren, og midt i alt det praktiske venter den opgave, der kan f? selv den mest overskudsagtige for?lder til at stirre tomt ind i k?leskabet om morgenen - madpakken.",
+      "summary_en": "Everyday life is knocking on the door, and amidst all the practicalities, there is the task that can make even the most overworked parent stare blankly into the refrigerator in the morning - the packed lunch.",
+      "link": "https://www.dr.dk/nyheder/indland/skolestart-betyder-madpakkestart-saadan-undgaar-du-den-ender-i-madaffaldsspanden",
+      "pubDate": "Sat, 08 Aug 2026 18:10:16 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Ulv viser t?nder ad l?ber i Nordjylland",
+      "title_en": "Wolf shows teeth on a run in North Jutland",
+      "summary_da": "En l?ber m?tte fredag r?be ad en ulv, som if?lge styrelse beskyttede sin hvalp i Bunken Klitplantage.",
+      "summary_en": "On Friday, a runner had to shout at a wolf, which, according to the board, was protecting its pup in Bunken Klitplantage.",
+      "link": "https://www.dr.dk/nyheder/indland/ulv-viser-taender-af-loeber-i-nordjylland",
+      "pubDate": "Sat, 08 Aug 2026 17:30:52 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Rensdyr i r?d karry: Filippinere str?mmer til Gr?nland",
+      "title_en": "Reindeer in red curry: Filipinos flock to Greenland",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/rensdyr-i-roed-karry-filippinere-stroemmer-til-groenland",
+      "pubDate": "Sat, 08 Aug 2026 16:48:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "N?r sommerferien slutter for mor og far, tr?der bedstefor?ldrene til",
+      "title_en": "When the summer holidays end for mom and dad, the grandparents step in.",
+      "summary_da": "I sidste uge af skolernes sommerferie, oplever flere forlystelsesparker, at bedstefor?ldre med b?rneb?rn er dem, der st?r i k? til karrusellerne.",
+      "summary_en": "In the last week of the school summer vacation, several amusement parks are experiencing that grandparents with grandchildren are the ones queuing for the carousels.",
+      "link": "https://www.dr.dk/nyheder/indland/naar-sommerferien-slutter-mor-og-far-traeder-bedsteforaeldrene-til",
+      "pubDate": "Sat, 08 Aug 2026 16:23:00 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "EU opfordrer tech-giganter til at ?ge faktatjek efter Ceuta",
@@ -73,78 +145,6 @@
       "summary_en": "Tourists in Copenhagen love using the city?s bike paths, but not everyone knows the rules. A 2025 Epinion study for the Danish Road Safety Council showed that eight out of ten Copenhagen cyclists feel cycling tourists pose a traffic safety problem. To address this, Business Mayor Andreas Keil and Climate, Environment, and Technology Mayor Line [?]",
       "link": "https://cphpost.dk/2026-08-08/news/round-up/wonderful-copenhagen-tourist-bike-licenses-too-hard-to-check/",
       "pubDate": "Sat, 08 Aug 2026 05:49:28 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Preben n?gtede at lade stranden drukne i tang",
-      "title_en": "Preben refused to let the beach drown in seaweed",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/preben-naegtede-lade-stranden-drukne-i-tang",
-      "pubDate": "Sat, 08 Aug 2026 05:01:07 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Politi vil v?re mere synligt ved pride i K?benhavn",
-      "title_en": "Police will be more visible at pride in Copenhagen",
-      "summary_da": "Copenhagen Pride vil bruge nyligt angreb mod pride-arrangement i Berlin som ild under kampgejsten.",
-      "summary_en": "Copenhagen Pride will use the recent attack on a pride event in Berlin as fuel for their fighting spirit.",
-      "link": "https://www.dr.dk/nyheder/indland/politi-vil-vaere-mere-synligt-ved-pride-i-koebenhavn",
-      "pubDate": "Sat, 08 Aug 2026 04:51:48 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "B?dskov dybt bekymret over Hizb ut-Tahrir-kampagne m?lrettet gymnasieelever",
-      "title_en": "B?dskov deeply concerned about Hizb ut-Tahrir campaign targeting high school students",
-      "summary_da": "En muslimsk organisation har i forbindelse med studiestart sendt et budskab ud p? brev og video. Og det falder ikke i god jord hos den socialdemokratiske udl?ndinge- og integrationsminister.",
-      "summary_en": "A Muslim organization has sent out a message in letters and videos in connection with the start of studies. And it does not go down well with the Social Democratic Minister of Immigration and Integration.",
-      "link": "https://www.dr.dk/nyheder/indland/boedskov-dybt-bekymret-over-hizb-ut-tahrir-kampagne-maalrettet-gymnasieelever",
-      "pubDate": "Sat, 08 Aug 2026 04:28:22 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Efter omdiskuteret vibrator-reklame: Husker du de her fem reklamer, der gav bagslag?",
-      "title_en": "After controversial vibrator commercial: Do you remember these five commercials that backfired?",
-      "summary_da": "Flygtningehj?lp, silikonebryster og alkohol. Reklamer om lidt af hvert er endt i problemer gennem ?rene.",
-      "summary_en": "Refugee aid, silicone breasts and alcohol. Advertisements for a little bit of everything have ended in trouble over the years.",
-      "link": "https://www.dr.dk/nyheder/indland/efter-omdiskuteret-vibrator-reklame-husker-du-de-her-fem-reklamer-der-gav-bagslag",
-      "pubDate": "Fri, 07 Aug 2026 19:40:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "100 procent orgasmegaranti 'h?rer ikke hjemme' i bybilledet",
-      "title_en": "100 percent orgasm guarantee 'doesn't belong' in the city",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/100-procent-orgasmegaranti-hoerer-ikke-hjemme-i-bybilledet",
-      "pubDate": "Fri, 07 Aug 2026 19:15:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "100.000 danskere med st?rke muskelsmerter har nu f?et et biologisk bevis p? deres sygdom",
-      "title_en": "100,000 Danes with severe muscle pain have now received biological proof of their illness",
-      "summary_da": "Et stort internationalt forskningsprojekt fastsl?r, at fibromyalgi er en lidelse i nervesystemet.",
-      "summary_en": "A large international research project establishes that fibromyalgia is a disorder of the nervous system.",
-      "link": "https://www.dr.dk/nyheder/indland/100-000-danskere-med-staerke-muskelsmerter-har-nu-faaet-et-biologisk-bevis-paa-deres-sygdom",
-      "pubDate": "Fri, 07 Aug 2026 19:03:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Reklame for vibrator deler vandene - men ekspert afviser bekymring for b?rn",
-      "title_en": "Vibrator commercial divides the waters - but expert dismisses concerns for children",
-      "summary_da": "If?lge en ekspert er vi er blevet mere bluf?rdige og politisk korrekte, n?r det handler om sex og n?genhed.",
-      "summary_en": "According to one expert, we have become more coy and politically correct when it comes to sex and nudity.",
-      "link": "https://www.dr.dk/nyheder/indland/reklame-vibrator-deler-vandene-men-ekspert-afviser-bekymring-boern",
-      "pubDate": "Fri, 07 Aug 2026 18:41:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Afviste medlemmer og lukkede ventelister: Vi vil dyrke sport som aldrig f?r, men klubber kan ikke f?lge med",
-      "title_en": "Rejected members and closed waiting lists: We want to practice sports like never before, but clubs can't keep up",
-      "summary_da": "I Aalborg og omegn k?mper man med at finde plads til alle dem, der vil v?re en del af en idr?tsforening. If?lge DIF er det et generelt problem i st?rre byer.",
-      "summary_en": "In Aalborg and the surrounding area, people are struggling to find space for all those who want to be part of a sports club. According to DIF, this is a general problem in larger cities.",
-      "link": "https://www.dr.dk/nyheder/indland/afviste-medlemmer-og-lukkede-ventelister-vi-vil-dyrke-sport-som-aldrig-foer-men-klubber-kan-ikke",
-      "pubDate": "Fri, 07 Aug 2026 18:20:00 GMT"
     }
   ]
 }
