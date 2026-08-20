@@ -1,150 +1,150 @@
 {
-  "date": "2026-08-19",
-  "generatedAt": "2026-08-19T06:42:06.923Z",
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-20T06:42:21.913Z",
   "items": [
     {
       "source": "DR Indland",
-      "title_da": "Flextrafik-chauff?rer ser TV, mens de k?rer",
-      "title_en": "Flextrafik drivers watch TV while they drive",
+      "title_da": "Professor brugte fiktive kilder lavet af kunstig intelligens",
+      "title_en": "Professor used fictitious sources created by artificial intelligence",
+      "summary_da": "Ved brug af kunstig intelligens har professor fabrikeret kilder i forskningsartikel, konkluderer n?vn.",
+      "summary_en": "Using artificial intelligence, professor fabricated sources in research article, board concludes.",
+      "link": "https://www.dr.dk/nyheder/indland/professor-brugte-fiktive-kilder-lavet-af-kunstig-intelligens",
+      "pubDate": "Thu, 20 Aug 2026 06:04:27 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Cykeludlejer: 'Stigmatiserende', hvis kun turister skal have hjelm p?",
+      "title_en": "Bicycle rental company: 'Stigmatizing' if only tourists have to wear helmets",
+      "summary_da": "I dag skal k?benhavnske politikere og udlejningsfirmaer diskutere turister og elcykel-kaos.",
+      "summary_en": "Today, Copenhagen politicians and rental companies will discuss tourists and electric bike chaos.",
+      "link": "https://www.dr.dk/nyheder/indland/cykeludlejer-stigmatiserende-hvis-kun-turister-skal-have-hjelm-paa",
+      "pubDate": "Thu, 20 Aug 2026 05:10:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Frederiksen og Melonis Instagram-samarbejde, en kort historie om Pride i Danmark og problemet med ulveskud i Jylland",
+      "title_en": "Frederiksen and Meloni?s insta collab, a brief history of Pride in Denmark and the problem wolf shot in Jylland",
+      "summary_da": "Denne uge p? The Danish Connection: Danmarks debat om indvandring efter Ceuta-krisen, Copenhagen Pride og ulvekontroversen",
+      "summary_en": "This week on The Danish Connection: Denmark's debate on immigration following Ceuta's crisis, Copenhagen Pride, and wolf controversy",
+      "link": "https://cphpost.dk/2026-08-20/podcast/frederiksen-and-melonis-insta-collab-a-brief-history-of-pride-in-denmark-and-the-problem-wolf-shot-in-jylland/",
+      "pubDate": "Thu, 20 Aug 2026 05:00:00 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Nu taber landmanden 400 kroner p? hver eneste gris: 'Det er en katastrofe'",
+      "title_en": "Now the farmer is losing 400 kroner on every pig: 'It's a disaster'",
+      "summary_da": "Landm?nd, som producerer slagtegrise, taber markant flere penge, end de tjener.",
+      "summary_en": "Farmers who produce slaughter pigs lose significantly more money than they earn.",
+      "link": "https://www.dr.dk/nyheder/indland/nu-taber-landmanden-400-kroner-paa-hver-eneste-gris-det-er-en-katastrofe",
+      "pubDate": "Thu, 20 Aug 2026 04:28:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "K?benhavns lejlighedsmarked n?rmer sig prisfald",
+      "title_en": "Copenhagen apartment market near price drop",
+      "summary_da": "Boligmarkedet i K?benhavn er aftaget markant. I juli blev der solgt 407 ejerlejligheder i K?benhavns Kommune, hvilket repr?senterer et fald p? 24 procent fra juni og et fald p? 40 procent fra juli 2025. If?lge bolig?konom Lise Nytoft Bergmann fra Nordea ligger det m?nedlige salg normalt mellem 400 og 600, hvor priserne historisk set falder, n?r [?]",
+      "summary_en": "The housing market in Copenhagen has slowed down significantly. In July, 407 owner-occupied apartments were sold in Copenhagen Municipality, representing a 24 percent drop from June and a 40 percent decrease from July 2025. According to Nordea housing economist Lise Nytoft Bergmann, monthly sales usually range between 400 and 600, with prices historically falling when [?]",
+      "link": "https://cphpost.dk/2026-08-20/news/round-up/copenhagen-apartment-market-near-price-drop/",
+      "pubDate": "Thu, 20 Aug 2026 04:22:04 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Den amerikanske statsg?ld er fordoblet p? under et ?rti",
+      "title_en": "US national debt has doubled in under a decade",
+      "summary_da": "Den samlede amerikanske statsg?ld er steget til over 40 billioner dollars, if?lge data offentliggjort af det amerikanske finansministerium onsdag. G?lden er mere end fordoblet siden 2017, hvor Donald Trump f?rst tiltr?dte som pr?sident. Statsg?lden steg med 11,6 billioner dollars i l?bet af Trumps to pr?sidentperioder og med 8,4 billioner dollars under Joe [?]",
+      "summary_en": "Total US national debt has risen to over $40 trillion, according to data published by the US Treasury Department on Wednesday. The debt has more than doubled since 2017, when Donald Trump first took office as president. The national debt increased by $11.6 trillion across Trump?s two presidential terms and by $8.4 trillion under Joe [?]",
+      "link": "https://cphpost.dk/2026-08-20/global/us-national-debt-has-doubled-in-under-a-decade/",
+      "pubDate": "Thu, 20 Aug 2026 04:22:01 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Varme dage gav livredderne den travleste sommer siden 2018",
+      "title_en": "Hot days gave lifeguards busiest summer since 2018",
+      "summary_da": "En varm sommer bragte tusindvis af bes?gende til de danske strande, hvilket resulterede i, at livreddere udf?rte 60.745 operationer ? den travleste sommer siden 2018. If?lge Anders Myrh?j fra TrygFonden omfattede dette 36 livreddende aktioner, sammenlignet med 21 sidste ?r. Af de samlede operationer var 7.012 forebyggende, n?sten 4.000 involverede standard f?rstehj?lp, og n?sten 50.000 var informative. Livreddere [?]",
+      "summary_en": "A warm summer brought thousands of visitors to Danish beaches, resulting in lifeguards conducting 60,745 operations?the busiest summer since 2018. According to Anders Myrh?j from TrygFonden, this included 36 life-saving actions, compared to 21 last year. Of the total operations, 7,012 were preventive, nearly 4,000 involved standard first aid, and almost 50,000 were informational. Lifeguards [?]",
+      "link": "https://cphpost.dk/2026-08-20/news/round-up/hot-days-gave-lifeguards-busiest-summer-since-2018/",
+      "pubDate": "Thu, 20 Aug 2026 04:21:55 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Novonesis overg?r forventningerne og h?ver prognosen",
+      "title_en": "Novonesis beats expectations and raises guidance",
+      "summary_da": "Den danske biotekkoncern Novonesis klarede sig bedre end forventet i andet kvartal og har h?vet sine forventninger til hele ?ret. Som f?lge heraf opgraderede den sine forventninger til organisk oms?tningsv?kst til 7-8 procent fra de tidligere 5-7 procent. Virksomheden rapporterede en oms?tning p? 1.116,2 millioner euro, hvilket en smule oversteg analytikernes forventninger p? 1.100,9 millioner euro. V?ksten i [?]",
+      "summary_en": "Danish biotech group Novonesis performed better than expected in the second quarter and has raised its full-year expectations. As a result, it upgraded its organic revenue growth outlook to 7?8 percent from the previous 5?7 percent. The company reported revenue of 1,116.2 million euros, slightly exceeding analyst expectations of 1,100.9 million euros. Growth in the [?]",
+      "link": "https://cphpost.dk/2026-08-20/business-education/business-business-education/novonesis-beats-expectations-and-raises-guidance/",
+      "pubDate": "Thu, 20 Aug 2026 04:21:51 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Kraftigt jordsk?lv registreret ud for Nordnorges kyst",
+      "title_en": "Major earthquake recorded off Northern Norway?s coast",
+      "summary_da": "Mindst fire jordsk?lv blev registreret onsdag aften i Nordland i Nordnorge. Det f?rste jordsk?lv indtraf klokken 22:55 med en estimeret styrke p? 3,2, mens det kraftigste ramte klokken 23:06 med en beregnet styrke p? 4,8. Dets epicenter l? i havet vest for byen ?rnes, og det blev efterfulgt af [?]",
+      "summary_en": "At least four earthquakes were registered Wednesday evening in Nordland in northern Norway. The first quake occurred at 22:55 with an estimated magnitude of 3.2, while the strongest hit at 23:06 with a calculated magnitude of 4.8. Its epicenter was located in the sea west of the town of ?rnes, and it was followed by [?]",
+      "link": "https://cphpost.dk/2026-08-20/global/major-earthquake-recorded-off-northern-norways-coast/",
+      "pubDate": "Thu, 20 Aug 2026 04:21:46 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Ukraines parlament godkender ny forsvarsminister",
+      "title_en": "Ukraine?s parliament approves new defense minister",
+      "summary_da": "Ukraines parlament har godkendt Jevhenij Khmara som landets nye forsvarsminister efter at v?re blevet nomineret af pr?sident Volodymyr Zelenskyy. Dette f?lger afskedigelsen af ??den popul?re forsvarsminister Mykhailo Fedorov i juli, hvilket udl?ste store gadeprotester i hele Ukraine. Fedorov blev afskediget blot seks m?neder efter sin udn?vnelse og mener, at hans ?ndringer i forsvarsindk?b [?]",
+      "summary_en": "Ukraine?s parliament has approved Jevhenij Khmara as the country?s new defense minister following his nomination by President Volodymyr Zelenskyy. This follows the dismissal of the popular defense minister Mykhajlo Fedorov in July, which triggered large street protests across Ukraine. Fedorov was dismissed just six months after his appointment and believes his changes to defense procurement [?]",
+      "link": "https://cphpost.dk/2026-08-20/global/ukraines-parliament-approves-new-defense-minister/",
+      "pubDate": "Thu, 20 Aug 2026 04:21:41 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Lavere gebyrer giver f?rstegangsk?bere billigere realkreditl?n",
+      "title_en": "Lower fees give first-time buyers cheaper mortgages",
+      "summary_da": "Faldende renter og lavere bidrag har gjort det billigere for f?rstegangsk?bere at finansiere en bolig med et realkreditl?n, if?lge Konkurrence- og Forbrugerstyrelsen. I 2025 betalte f?rstegangsk?bere mellem 4.000 og 7.000 kroner mindre i l?bet af det f?rste ?r for et realkreditl?n p? 1,5 millioner kroner og et supplerende boligl?n. [?]",
+      "summary_en": "Falling interest rates and lower administration margins have made it cheaper for first-time buyers to finance a home with a mortgage, according to the Danish Competition and Consumer Authority. In 2025, first-time buyers paid between 4,000 and 7,000 kroner less during the first year for a 1.5 million kroner mortgage and a supplementary home loan. [?]",
+      "link": "https://cphpost.dk/2026-08-20/business-education/business-business-education/lower-fees-give-first-time-buyers-cheaper-mortgages-2/",
+      "pubDate": "Thu, 20 Aug 2026 04:21:36 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Engelske ord sniger sig ind: Minister vil beskytte det danske sprog",
+      "title_en": "English words are creeping in: Minister wants to protect the Danish language",
+      "summary_da": "Kulturministeren vil s?tte en stopper for den stigende brug af engelske ord og beskytte det danske sprog.",
+      "summary_en": "The Minister of Culture wants to put an end to the increasing use of English words and protect the Danish language.",
+      "link": "https://www.dr.dk/nyheder/indland/engelske-ord-sniger-sig-ind-minister-vil-beskytte-det-danske-sprog",
+      "pubDate": "Thu, 20 Aug 2026 04:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Turister p? elcykler frustrerer k?benhavnere: De k?rer for langsomt",
+      "title_en": "Tourists on electric bikes frustrate Copenhageners: They drive too slowly",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/flextrafik-chauffoerer-ser-tv-mens-de-koerer",
-      "pubDate": "Wed, 19 Aug 2026 06:19:00 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/reels/turister-paa-elcykler-frustrerer-koebenhavnere-de-koerer-langsomt",
+      "pubDate": "Thu, 20 Aug 2026 03:50:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Forsker p? klimatopm?de: Vi b?r opgive truede sommerhusomr?der",
-      "title_en": "Scientist at climate summit: We should abandon endangered summer cottage areas",
-      "summary_da": "En forsker foresl?r p? ?rets klimatopm?de i Lemvig, at vi opgiver eksisterende sommerhus- og kolonihaveomr?der, der er for dyre at sikre mod oversv?mmelser",
-      "summary_en": "A researcher suggests at this year's climate summit in Lemvig that we abandon existing summer cottage and allotment areas that are too expensive to secure against flooding.",
-      "link": "https://www.dr.dk/nyheder/indland/forsker-paa-klimatopmoede-vi-boer-opgive-truede-sommerhusomraader",
-      "pubDate": "Wed, 19 Aug 2026 05:32:00 GMT"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "UAE suspenderer al handel med Iran",
-      "title_en": "UAE suspends all trade with Iran",
-      "summary_da": "De Forenede Arabiske Emirater har suspenderet alle handels- og finansielle transaktioner med Iran indtil videre varsel. If?lge landets udenrigsministerium blev beslutningen truffet i lyset af den seneste regionale eskalering, der underminerer regional og international fred og sikkerhed. Tirsdag aften rapporterede UAE's forsvarsministerium, at de havde fundet to ballistiske missiler affyret fra Iran, [?]",
-      "summary_en": "The United Arab Emirates has suspended all trade and financial transactions with Iran until further notice. According to the country?s foreign ministry, the decision was made in light of recent regional escalation that undermines regional and international peace and security. On Tuesday evening, the UAE?s defense ministry reported detecting two ballistic missiles fired from Iran, [?]",
-      "link": "https://cphpost.dk/2026-08-19/global/uae-suspends-all-trade-with-iran/",
-      "pubDate": "Wed, 19 Aug 2026 04:22:06 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Medier: Iran mister kontrollen over dele af Hormuzstr?det",
-      "title_en": "Media: Iran losing control of parts of Hormuz Strait",
-      "summary_da": "Iran mister kontrollen over store dele af Hormuzstr?det, mens den amerikanske fl?de vinder terr?n. If?lge skibssporingsfirmaet Kpler har over 80 procent af de skibe, der har passeret str?det i de sidste to uger, brugt en FN-godkendt rute rundt om Omans nordkyst og ignoreret iranske advarsler. Trods iranske angreb p? flere skibe krydsede de fleste [?]",
-      "summary_en": "Iran is losing control over large parts of the Strait of Hormuz, while the US Navy gains ground. According to ship-tracking firm Kpler, over 80 percent of ships passing the strait in the last two weeks used a UN-approved route around Oman?s northern coast, ignoring Iranian warnings. Despite Iranian attacks on several ships, most crossed [?]",
-      "link": "https://cphpost.dk/2026-08-19/global/media-iran-losing-control-of-parts-of-hormuz-strait/",
-      "pubDate": "Wed, 19 Aug 2026 04:22:02 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Regeringen afsl?rer i dag dagsordenen for resten af ???ret",
-      "title_en": "Government to unveil rest-of-year?s agenda today",
-      "summary_da": "Onsdag pr?senterer regeringen sit arbejdsprogram for resten af ???ret p? en pressekonference. Mindretalsregeringen, der blev dannet i juni af Socialdemokraterne, SF, Moderaterne og Socialliberale, er afh?ngig af andre partier for at sikre et flertal for sine lovforslag. Et centralt debatemne har v?ret lavere moms p? [?]",
-      "summary_en": "On Wednesday, the government will present its work program for the rest of the year at a press conference. Formed in June by the Social Democrats, SF, Moderates, and Social Liberals, the minority government depends on other parties to secure a majority for its bills. A central topic of debate has been lower VAT on [?]",
-      "link": "https://cphpost.dk/2026-08-19/news/round-up/government-to-unveil-rest-of-years-agenda-today/",
-      "pubDate": "Wed, 19 Aug 2026 04:21:57 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Trump s?tter planlagte toldsatser p? canadiske varer p? pause",
-      "title_en": "Trump pauses planned tariffs on Canadian goods",
-      "summary_da": "Den amerikanske pr?sident Donald Trump har sat en planlagt told p? 50 procent p? adskillige canadiske produkter p? pause i tre dage. P? Truth Social udtalte Trump, at uds?ttelsen blev bevilget, fordi USA og Canada har indg?et en aftale, med forbehold for f?rdigg?relse af dokumenterne. Den canadiske premierminister, Mark Carney, bekr?ftede uds?ttelsen p? X og bem?rkede, at betydelig [?]",
-      "summary_en": "US President Donald Trump has paused a planned 50 percent tariff on several Canadian products for three days. On Truth Social, Trump stated the delay was granted because the US and Canada have reached an agreement, subject to the finalization of documents. Canadian Prime Minister Mark Carney confirmed the postponement on X, noting that significant [?]",
-      "link": "https://cphpost.dk/2026-08-19/global/trump-pauses-planned-tariffs-on-canadian-goods/",
-      "pubDate": "Wed, 19 Aug 2026 04:21:53 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Det ?konomiske R?d f?r ny formand",
-      "title_en": "Danish Economic Council gets a new head chair",
-      "summary_da": "Carl-Johan Dalgaard tr?der tilbage som formand for De ?konomiske R?d efter at have v?ret formand siden 2020 og medlem siden 2014. Det nuv?rende formandskabsmedlem Jakob Roland Munch, professor i ?konomi ved K?benhavns Universitet, tiltr?der som formand den 1. september. Formandskabet vil fremadrettet best? af [?]",
-      "summary_en": "Carl-Johan Dalgaard is stepping down from the chairmanship of the Danish Economic Councils after serving as head chair since 2020 and a member since 2014. Current chairmanship member Jakob Roland Munch, an economics professor at the University of Copenhagen, will take over as head chair on September 1. Going forward, the chairmanship will consist of [?]",
-      "link": "https://cphpost.dk/2026-08-19/news/round-up/danish-economic-council-gets-a-new-head-chair/",
-      "pubDate": "Wed, 19 Aug 2026 04:21:46 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Store lokale forskelle i, hvor ofte b?rn dyrker sport",
-      "title_en": "Big local differences in how often children play sports",
-      "summary_da": "En ny unders?gelse fra Syddansk Universitet viser store lokale variationer i b?rns deltagelse i klubaktiviteter. Mens den gennemsnitlige deltagelse p? landsplan er omkring 73 procent, varierer antallet fra 82 procent i Aller?d til 58 procent i Br?ndby. I flere kommuner er over 80 procent af b?rnene aktive mindst ?n gang om m?neden, mens [?]",
-      "summary_en": "A new study from the University of Southern Denmark shows broad local variations in children?s participation in club activities. While average nationwide participation is around 73 percent, rates range from 82 percent in Aller?d to 58 percent in Br?ndby. In several municipalities, over 80 percent of children are active at least once a month, while [?]",
-      "link": "https://cphpost.dk/2026-08-19/news/round-up/big-local-differences-in-how-often-children-play-sports/",
-      "pubDate": "Wed, 19 Aug 2026 04:21:39 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Kinesisk robotaktie stiger med over 600% i markedsdebut",
-      "title_en": "Chinese robot stock surges over 600% in market debut",
-      "summary_da": "Aktierne i den kinesiske robotproducent Unitree steg med 629 procent onsdag under b?rsnoteringen i Shanghai fra en ?bningskurs p? 150,8 yuan til 1.100 yuan. Sidste uges b?rsnotering rejste omkring 900 millioner dollars til producenten af ??humanoide robotter. Unitree, der blev grundlagt i 2016 af ingeni?r Wang Xingxing, fremstiller avancerede robotter hos [?]",
-      "summary_en": "Shares in Chinese robot manufacturer Unitree surged by 629 percent on Wednesday during its stock market debut in Shanghai, rising from an opening price of 150.8 yuan to 1,100 yuan. Last week?s IPO raised around 900 million dollars for the humanoid robot producer. Founded in 2016 by engineer Wang Xingxing, Unitree manufactures advanced robots at [?]",
-      "link": "https://cphpost.dk/2026-08-19/business-education/business-business-education/chinese-robot-stock-surges-over-600-in-market-debut/",
-      "pubDate": "Wed, 19 Aug 2026 04:21:35 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "USA og Sydkorea nedtrapper f?lles milit?r?velser",
-      "title_en": "US and South Korea scale down joint military drills",
-      "summary_da": "Milit?r?velserne mellem USA og Sydkorea, som begyndte mandag, reduceres betydeligt. Sydkoreas ?verste milit?re kommando bekr?ftede, at de f?lles ?velser vil afsluttes denne fredag ??i stedet for torsdag den 27. august. Den f?rste fase af ?velsen vil blive afsluttet, mens den anden fase er aflyst eller udskudt. Denne udvikling [?]",
-      "summary_en": "The military exercises between the US and South Korea, which began on Monday, are being significantly reduced. South Korea?s top military command confirmed that the joint exercises will conclude this Friday instead of Thursday, August 27. The first phase of the exercise will be completed, while the second phase is canceled or postponed. This development [?]",
-      "link": "https://cphpost.dk/2026-08-19/global/us-and-south-korea-scale-down-joint-military-drills/",
-      "pubDate": "Wed, 19 Aug 2026 04:21:28 +0000"
+      "title_da": "B?lgerne gik h?jt p? borgerm?de om Musik i Lejet",
+      "title_en": "The waves were high at the citizens' meeting about Music in Lejet",
+      "summary_da": "Der var stort fremm?de, da byr?det i Gribskov Kommune inviterede til dialog om en udvidelse af Musik i Lejet.",
+      "summary_en": "There was a large turnout when the city council of Gribskov Municipality invited people to a dialogue about an expansion of Musik i Lejet.",
+      "link": "https://www.dr.dk/nyheder/indland/boelgerne-gik-hoejt-paa-borgermoede-om-musik-i-lejet",
+      "pubDate": "Wed, 19 Aug 2026 19:12:12 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Ny unders?gelse viser store kommunale forskelle p?, om b?rn er aktive i en forening",
-      "title_en": "New study shows large municipal differences in whether children are active in an association",
-      "summary_da": "I Aller?d kommune er 82 procent af b?rnene aktive i en forening. I Br?ndby er tallet 58 procent.",
-      "summary_en": "In Aller?d municipality, 82 percent of children are active in an association. In Br?ndby, the figure is 58 percent.",
-      "link": "https://www.dr.dk/nyheder/indland/ny-undersoegelse-viser-store-kommunale-forskelle-paa-om-boern-er-aktive-i-en-forening",
-      "pubDate": "Wed, 19 Aug 2026 03:58:59 GMT"
+      "title_da": "Skaterhal skal forebygge chikane og vold mod efterskoleelever",
+      "title_en": "Skate hall aims to prevent harassment and violence against secondary school students",
+      "summary_da": "Efterskoleelever p? Langeland oplevede i vinter flere episoder, hvor de blev chikaneret og overfaldet af borgere i Rudk?bing.",
+      "summary_en": "This winter, secondary school students on Langeland experienced several episodes where they were harassed and assaulted by citizens of Rudk?bing.",
+      "link": "https://www.dr.dk/nyheder/indland/skaterhal-skal-forebygge-chikane-og-vold-mod-efterskoleelever",
+      "pubDate": "Wed, 19 Aug 2026 18:28:04 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "L?s eksperterne svar p? jeres sp?rgsm?l om porno p? nettet",
-      "title_en": "Read the experts' answers to your questions about online porn",
-      "summary_da": "F? svar fra Red Barnet og Sex og Samfund her.",
-      "summary_en": "Get answers from Save the Children and Sex and Society here.",
-      "link": "https://www.dr.dk/nyheder/indland/eksperterne-svarer-stil-spoergsmaal-om-porno-paa-nettet",
-      "pubDate": "Tue, 18 Aug 2026 18:57:22 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Slut med kun at klik ?Jeg er over 18?: Skrappere alderstjek p? porno",
-      "title_en": "Stop just clicking 'I'm over 18': Stricter age checks on porn",
+      "title_da": "Snart skal robotter fylde hylderne i supermarkedet",
+      "title_en": "Robots will soon fill supermarket shelves",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/slut-med-kun-klik-jeg-er-over-18-skrappere-alderstjek-paa-porno",
-      "pubDate": "Tue, 18 Aug 2026 18:45:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Slut med at cirkulere rundt efter en ledig p-plads: Nu f?r bilister hj?lp i en app",
-      "title_en": "No more circling around looking for a free parking space: Now drivers get help in an app",
-      "summary_da": "P? Frederiksberg f?r 300 parkeringspladser i et fors?g sensorer og vises i en app, s? bilister lettere kan finde ledige pladser og spare tid.",
-      "summary_en": "In Frederiksberg, 300 parking spaces will be equipped with sensors in a trial and displayed in an app, so drivers can more easily find available spaces and save time.",
-      "link": "https://www.dr.dk/nyheder/indland/slut-med-cirkulere-rundt-efter-en-ledig-p-plads-nu-faar-bilister-hjaelp-i-en-app",
-      "pubDate": "Tue, 18 Aug 2026 17:22:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Andy har ikke skrevet i h?nden siden 2. klasse, men i gymnasiet sl?r tavlen YouTube",
-      "title_en": "Andy hasn't written by hand since 2nd grade, but in high school he's beating the board YouTube",
-      "summary_da": "Andy Nielsen har hurtigt v?nnet sig til en analog studiestart p? gymnasiet.",
-      "summary_en": "Andy Nielsen has quickly gotten used to an analog start to high school.",
-      "link": "https://www.dr.dk/nyheder/indland/andy-har-ikke-skrevet-i-haanden-siden-2-klasse-men-i-gymnasiet-slaar-tavlen-youtube",
-      "pubDate": "Tue, 18 Aug 2026 17:12:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Efter flere ?r med sk?rme og mere it: Nu er sk?rmforbruget p? vej ned",
-      "title_en": "After several years of screens and more IT: Now screen consumption is on the decline",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/efter-flere-aar-med-skaerme-og-mere-it-nu-er-skaermforbruget-paa-vej-ned",
-      "pubDate": "Tue, 18 Aug 2026 17:12:00 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/reels/snart-skal-robotter-fylde-hylderne-i-supermarkedet",
+      "pubDate": "Wed, 19 Aug 2026 17:36:00 GMT"
     }
   ]
 }
