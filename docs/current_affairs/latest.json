@@ -1,7 +1,79 @@
 {
-  "date": "2026-08-29",
-  "generatedAt": "2026-08-29T06:42:11.524Z",
+  "date": "2026-08-30",
+  "generatedAt": "2026-08-30T06:42:28.902Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Skal ell?behjul og andre sm? elk?ret?jer v?re fortid i trafikken? Det mener eksperter",
+      "title_en": "Should electric scooters and other small electric vehicles be a thing of the past in traffic? Experts believe",
+      "summary_da": "I syv ?r har det v?ret lovligt at k?re p? de mindre eldrevne k?ret?jer p? cykelstierne gennem fors?gsordninger.",
+      "summary_en": "For seven years, it has been legal to drive smaller electric vehicles on cycle paths through pilot schemes.",
+      "link": "https://www.dr.dk/nyheder/indland/skal-elloebehjul-og-andre-smaa-elkoeretoejer-vaere-fortid-i-trafikken-det-mener-eksperter",
+      "pubDate": "Sun, 30 Aug 2026 05:56:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Mangler du en ny MacBook? S? skal du nok v?bne dig med t?lmodighed",
+      "title_en": "Are you missing a new MacBook? Then you'll probably need to arm yourself with patience",
+      "summary_da": "Det skaber forsyningsproblemer, at de mange nye datacentre bruger samme komponenter som en MacBook.",
+      "summary_en": "The fact that many new data centers use the same components as a MacBook creates supply problems.",
+      "link": "https://www.dr.dk/nyheder/indland/mangler-du-en-ny-macbook-saa-skal-du-nok-vaebne-dig-med-taalmodighed",
+      "pubDate": "Sun, 30 Aug 2026 05:13:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Skrotbrand i K?ge ventes f?rst slukket op ad dagen",
+      "title_en": "Scrap metal fire in K?ge is not expected to be extinguished until the next day.",
+      "summary_da": "En st?rre brand br?d l?rdag p? havnen. Nu er man n?et til efterslukningsarbejdet, som varer flere timer.",
+      "summary_en": "A major fire broke out at the port on Saturday. The fire has now reached the post-extinguishment phase, which will take several hours.",
+      "link": "https://www.dr.dk/nyheder/indland/ret-voldsom-skrotbrand-i-koege-ventes-foerst-slukket-op-ad-dagen",
+      "pubDate": "Sun, 30 Aug 2026 04:49:12 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "R?g fra st?rre brand i K?ge har n?et K?benhavns Vestegn",
+      "title_en": "Smoke from a major fire in K?ge has reached Copenhagen's West Side",
+      "summary_da": "Politiet anbefaler borgere flere steder p? Sj?lland at lukke d?re og vinduer og slukke ventilationsanl?g.",
+      "summary_en": "The police recommend that citizens in several places on Zealand close doors and windows and turn off ventilation systems.",
+      "link": "https://www.dr.dk/nyheder/indland/roeg-fra-stoerre-brand-i-koege-har-naaet-koebenhavns-vestegn",
+      "pubDate": "Sat, 29 Aug 2026 19:30:04 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "L?geformand efter nyt Wegovy-studie: Vi kan helt sikkert blive bedre, men...",
+      "title_en": "Medical Chairman after new Wegovy study: We can definitely get better, but...",
+      "summary_da": "Ny unders?gelse rejser sp?rgsm?let om, hvorvidt de praktiserende l?ger er gode nok til at r?dgive deres patienter om brugen af den popul?re v?gttabsmedicin.",
+      "summary_en": "New study raises the question of whether general practitioners are good enough to advise their patients on the use of the popular weight loss medication.",
+      "link": "https://www.dr.dk/nyheder/indland/laegeformand-efter-nyt-wegovy-studie-vi-kan-helt-sikkert-blive-bedre-men",
+      "pubDate": "Sat, 29 Aug 2026 19:19:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Bonus til nye danskere: Gr?nlandske sygeplejersker f?ler sig overset",
+      "title_en": "Bonus for new Danes: Greenlandic nurses feel overlooked",
+      "summary_da": "Ny ordning, der skal lokke danske sygeplejersker og l?ger til Gr?nland, m?der kritik.",
+      "summary_en": "New scheme to lure Danish nurses and doctors to Greenland is facing criticism.",
+      "link": "https://www.dr.dk/nyheder/penge/bonus-til-nye-danskere-groenlandske-sygeplejersker-foeler-sig-overset",
+      "pubDate": "Sat, 29 Aug 2026 18:10:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Ultral?b er popul?rt som aldrig f?r",
+      "title_en": "Ultra running is more popular than ever before",
+      "summary_da": "If?lge landstr?neren inden for ultral?b bliver l?berne ogs? bedre til at l?be langt.",
+      "summary_en": "According to the national ultra-running coach, the runners are also getting better at running long distances.",
+      "link": "https://www.dr.dk/nyheder/indland/ultraloeb-er-populaert-som-aldrig-foer",
+      "pubDate": "Sat, 29 Aug 2026 17:02:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Slidte, ubetalte b?de fylder i danske havne",
+      "title_en": "Worn-out, unpaid boats fill Danish ports",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/slidte-ubetalte-baade-fylder-i-danske-havne",
+      "pubDate": "Sat, 29 Aug 2026 15:43:00 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "Dolly Parton var den mest streamede kunstner efter sin d?d",
@@ -73,78 +145,6 @@
       "summary_en": "There is no evidence that the Danish state committed genocide against the Greenlandic population in connection with the spiral case. This is stated by lawyer Jonas Christoffersen, who is one of the authors behind a long-awaited report investigating human rights violations in connection with the case. He is also the former director of the Institut [?]",
       "link": "https://cphpost.dk/2026-08-29/news/politics/report-author-sees-no-evidence-of-genocide-in-iud-case/",
       "pubDate": "Sat, 29 Aug 2026 06:39:20 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "B?dvrag hober sig op i danske havne: Ejerne er som sunket i vandet",
-      "title_en": "Boat wrecks pile up in Danish harbors: The owners are as if sunk in the water",
-      "summary_da": "Det kr?ver en del arbejde - men ofte kan det lade sig g?re at opspore ejerne.",
-      "summary_en": "It requires a lot of work - but it is often possible to track down the owners.",
-      "link": "https://www.dr.dk/nyheder/indland/baadvrag-hober-sig-op-i-danske-havne-ejerne-er-som-sunket-i-vandet",
-      "pubDate": "Sat, 29 Aug 2026 06:35:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "'Bekymrende' siger forsker om andelen af patienter, der stopper p? Wegovy",
-      "title_en": "'Worrying' says researcher about the proportion of patients who stop taking Wegovy",
-      "summary_da": "Hvis man bruger Wegovy som en kur, virker det lige s? d?rligt som en kur.",
-      "summary_en": "If you use Wegovy as a cure, it works just as badly as a cure.",
-      "link": "https://www.dr.dk/nyheder/indland/bekymrende-siger-forsker-om-andelen-af-patienter-der-stopper-paa-wegovy",
-      "pubDate": "Sat, 29 Aug 2026 04:33:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Politiet vil efterforske p?stande om vold og overgreb i Faderhuset",
-      "title_en": "Police will investigate allegations of violence and abuse in Faderhuset",
-      "summary_da": "Politiet skal unders?ge, om p?stande mod Faderhuset kan f?re til straffesag.",
-      "summary_en": "The police must investigate whether allegations against Faderhuset can lead to criminal proceedings.",
-      "link": "https://www.dr.dk/nyheder/indland/politiet-vil-efterforske-paastande-om-vold-og-overgreb-i-faderhuset",
-      "pubDate": "Sat, 29 Aug 2026 03:30:50 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Gr?nlands regering l?gger ikke umiddelbart op til et retligt efterspil af spiralsagen",
-      "title_en": "The Greenland government is not immediately planning a legal aftermath of the spiral case.",
-      "summary_da": "Gr?nland skal overbevise Danmark, hvis sp?rgsm?let om spiralsagen var et folkedrab skal afpr?ves ved Den Internationale Domstol.",
-      "summary_en": "Greenland must convince Denmark if the question of whether the spiral case was genocide is to be tested at the International Court of Justice.",
-      "link": "https://www.dr.dk/nyheder/indland/groenland/groenlands-regering-laegger-ikke-umiddelbart-op-til-et-retligt-efterspil-af-spiralsagen",
-      "pubDate": "Fri, 28 Aug 2026 20:33:40 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "F?lles skiferier og 's?rlig klub': S? t?tte er de danske og norske kongehuse",
-      "title_en": "Joint ski holidays and 'special club': The Danish and Norwegian royal houses are so close",
-      "summary_da": "De to kongehuse er t?t forbundet gennem b?de familieb?nd og venskaber, fort?ller historiker.",
-      "summary_en": "The two royal houses are closely connected through both family ties and friendships, says the historian.",
-      "link": "https://www.dr.dk/nyheder/indland/faelles-skiferier-og-saerlig-klub-saa-taette-er-de-danske-og-norske-kongehuse",
-      "pubDate": "Fri, 28 Aug 2026 19:05:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Forsker undrer sig efter ny sika-unders?gelse: Hvorfor har man ikke lavet flere pr?ver?",
-      "title_en": "Scientist wonders after new Sika study: Why haven't more tests been done?",
-      "summary_da": "Central forsker mener, at man skulle have taget endnu flere pr?ver fra mange flere dyr, f?r man konkluderede, at den asiatiske sikahjort ikke har blandet sig med den danske kronhjort.",
-      "summary_en": "Central researchers believe that even more samples should have been taken from many more animals before concluding that the Asian sika deer has not interbred with the Danish red deer.",
-      "link": "https://www.dr.dk/nyheder/indland/forsker-undrer-sig-efter-ny-sika-undersoegelse-hvorfor-har-man-ikke-lavet-flere-proever",
-      "pubDate": "Fri, 28 Aug 2026 18:49:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Taxachauff?rer er frustrerede over nyt k?rselssystem: 'Det er jo t?beligt'",
-      "title_en": "Taxi drivers are frustrated with new driving system: 'It's stupid'",
-      "summary_da": "To s?stre hentes af to forskellige biler p? samme tid for at blive k?rt til samme skole.",
-      "summary_en": "Two sisters are picked up by two different cars at the same time to be taken to the same school.",
-      "link": "https://www.dr.dk/nyheder/indland/taxachauffoerer-er-frustrerede-over-nyt-koerselssystem-det-er-jo-taabeligt",
-      "pubDate": "Fri, 28 Aug 2026 18:29:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Thomas Frank og DBU vil have leg tilbage i fodbolden",
-      "title_en": "Thomas Frank and DBU want play back in football",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/thomas-frank-og-dbu-vil-have-leg-tilbage-i-fodbolden",
-      "pubDate": "Fri, 28 Aug 2026 18:13:00 GMT"
     }
   ]
 }
