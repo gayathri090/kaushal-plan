@@ -1,150 +1,150 @@
 {
-  "date": "2026-09-01",
-  "generatedAt": "2026-09-01T06:42:09.231Z",
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T06:42:13.689Z",
   "items": [
     {
       "source": "DR Indland",
-      "title_da": "300 traktorer k?rer mod K?benhavn: Her er ruterne",
-      "title_en": "300 tractors are driving towards Copenhagen: Here are the routes",
+      "title_da": "Sygehuse afviser hver syvende henviste patient",
+      "title_en": "Hospitals reject every seventh referred patient",
+      "summary_da": "Det kan forsinke udredning og behandling af alvorlig sygdom, siger l?geformand om afviste henvisninger.",
+      "summary_en": "This can delay the diagnosis and treatment of serious illness, says the medical chairman about rejected referrals.",
+      "link": "https://www.dr.dk/nyheder/indland/sygehuse-afviser-hver-syvende-henviste-patient",
+      "pubDate": "Wed, 02 Sep 2026 06:10:56 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Amerikanske ejere 'vil fortsat leve op til milj?forpligtelser' trods lukning af Cheminova",
+      "title_en": "American owners 'will continue to meet environmental obligations' despite Cheminova closure",
+      "summary_da": "FMC Corporations milj?forpligtelser er uafh?ngige af fremtidige produktionsbeslutninger, lyder det i et skriftligt svar til DR.",
+      "summary_en": "FMC Corporation's environmental commitments are independent of future production decisions, it says in a written response to DR.",
+      "link": "https://www.dr.dk/nyheder/indland/amerikanske-ejere-vil-fortsat-leve-op-til-miljoeforpligtelser-trods-lukning-af-cheminova",
+      "pubDate": "Wed, 02 Sep 2026 06:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Thomas jagter svindlere: Truet p? livet over telefonen",
+      "title_en": "Thomas hunts scammers: Life threatened over the phone",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/live-landbruget-har-indkaldt-til-stormoede?focusId=12347327#liveblog-embed",
-      "pubDate": "Tue, 01 Sep 2026 06:23:46 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/reels/thomas-jagter-svindlere-truet-paa-livet-over-telefonen",
+      "pubDate": "Wed, 02 Sep 2026 05:44:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Statslige myndigheder modtager fortsat flere klager",
+      "title_en": "State agencies continue to receive more complaints",
+      "summary_da": "Antallet af klager hos danske klageinstanser stiger. Sidste ?r modtog Ankestyrelsen 69.076 klager (18.609 flere end i 2022), mens Patientklagen?vnet modtog 11.826 klager (en stigning p? 2.612). Folketingets Ombudsmand modtog 7.131 klager sidste ?r ? en stigning fra 5.072 i 2022 ? og forventer [?]",
+      "summary_en": "The volume of complaints at Danish appeals bodies is increasing. Last year, the National Social Appeals Board received 69,076 complaints (18,609 more than in 2022), while the Danish Patient Complaints Authority received 11,826 complaints (an increase of 2,612). The Parliamentary Ombudsman received 7,131 complaints last year ? up from 5,072 in 2022 ? and expects [?]",
+      "link": "https://cphpost.dk/2026-09-02/news/round-up/state-agencies-continue-to-receive-more-complaints/",
+      "pubDate": "Wed, 02 Sep 2026 05:15:11 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "92 personer har tilbagebetalt penge fra f?devarecheck",
+      "title_en": "92 people have repaid money from food check",
+      "summary_da": "I alt 92 personer har tilbagebetalt den s?kaldte f?devarecheck, som blev udbetalt til over to millioner danskere tidligere p? ?ret, if?lge besk?ftigelsesminister Ane Halsboe-J?rgensen. Derudover har 39 borgere kontaktet ATP eller Udbetaling Danmark for at f? pengene tilbagebetalt, mens 11 personer tidligere har afvist at modtage dem. Den skattefri udbetaling p? mellem [?]",
+      "summary_en": "A total of 92 people have repaid the so-called food check, which was paid out to over two million Danes earlier this year, according to Employment Minister Ane Halsboe-J?rgensen. Additionally, 39 citizens have contacted ATP or Udbetaling Danmark to repay the money, while 11 people previously declined to receive it. The tax-free payment of between [?]",
+      "link": "https://cphpost.dk/2026-09-02/news/round-up/92-people-have-repaid-money-from-food-check/",
+      "pubDate": "Wed, 02 Sep 2026 05:12:07 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Tyskland: Rusland involveret i angrebsfors?g i Leipzig",
+      "title_en": "Germany: Russia involved in Leipzig attack attempt",
+      "summary_da": "Rusland var involveret i et fors?g p? droneangreb p? Leipzig/Halle Lufthavn i starten af ??august, udtalte den tyske indenrigsminister Alexander Dobrindt tirsdag. Den 4. august blev en drone med eksplosiver opdaget n?r et ukrainsk fragtfly i lufthavnen, hvilket for?rsagede delvise lukninger, men ingen tilskadekomne. Baseret p? en antiterrorefterforskning identificerede Tyskland Rusland som akt?ren [?]",
+      "summary_en": "Russia was involved in an attempted drone attack at Leipzig/Halle Airport in early August, German Interior Minister Alexander Dobrindt stated on Tuesday. On August 4, an explosive-laden drone was discovered near a Ukrainian cargo plane at the airport, causing partial closures but no injuries. Based on a counter-terrorism investigation, Germany identified Russia as the actor [?]",
+      "link": "https://cphpost.dk/2026-09-02/global/germany-russia-involved-in-leipzig-attack-attempt/",
+      "pubDate": "Wed, 02 Sep 2026 05:06:08 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Dansk Industri k?rer Ikast-Brande til mest erhvervsvenlige igen",
+      "title_en": "Dansk Industri names Ikast-Brande most business-friendly again",
+      "summary_da": "Ikast-Brande er tilbage i toppen af ??Dansk Industris (DI) ?rlige k?ring af kommunernes erhvervsvenlighed og vinder f?rstepladsen for 14. gang ud af 17 priser. Vejen sluttede p? andenpladsen i ?r, mens Rebild opn?ede tredjepladsen. Evalueringen er baseret p? offentligt tilg?ngelig statistik og en unders?gelse besvaret af 7.789 DI [?]",
+      "summary_en": "Ikast-Brande is back at the top of the Confederation of Danish Industry?s (DI) annual municipal business-friendliness ranking, winning first place for the 14th time out of 17 awards. Vejen finished in second place this year, while Rebild achieved third place. The evaluation is based on publicly available statistics and a survey answered by 7,789 DI [?]",
+      "link": "https://cphpost.dk/2026-09-02/news/round-up/dansk-industri-names-ikast-brande-most-business-friendly-again/",
+      "pubDate": "Wed, 02 Sep 2026 05:00:09 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Bedste scenarie: Global opvarmning begr?nset til 1,8 grader",
+      "title_en": "Best Case: Global Warming Limited to 1.8 Degrees",
+      "summary_da": "I henhold til Parisaftalen fra 2015 forpligtede landene sig til at begr?nse den globale opvarmning til h?jst 2,0 grader, og helst 1,5 grader. En ny rapport fra FN's milj?program (UNEP) fastsl?r dog, at de globale temperaturstigninger vil overstige 1,5 grader inden for de n?ste par ?r. I bedste fald topper den globale opvarmning ved 1,8 grader, men de fleste scenarier [?]",
+      "summary_en": "Under the 2015 Paris Agreement, countries committed to limiting global warming to at most 2.0 degrees, and preferably 1.5 degrees. However, a new UN Environment Programme (UNEP) report states that global temperature rises will exceed 1.5 degrees within the next few years. In the best-case scenario, global warming peaks at 1.8 degrees, but most scenarios [?]",
+      "link": "https://cphpost.dk/2026-09-02/news/round-up/best-case-global-warming-limited-to-1-8-degrees/",
+      "pubDate": "Wed, 02 Sep 2026 04:56:45 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Putin lover n?dvendig st?tte til Iran i krig med USA",
+      "title_en": "Putin pledges necessary support to Iran in war with US",
+      "summary_da": "Under et SCO-topm?de i Kirgisistan fortalte den iranske pr?sident Masoud Pezeshkian den russiske pr?sident Vladimir Putin, at Iran vil bek?mpe en amerikansk-domineret verdensorden og sejre i krigen mod amerikanerne. Putin udtalte, at Rusland vil yde Iran den n?dvendige bistand i denne vanskelige tid. Iran har v?ret i krig med USA i [?]",
+      "summary_en": "During an SCO summit in Kyrgyzstan, Iranian President Masoud Pezeshkian told Russian President Vladimir Putin that Iran will fight a US-dominated world order and prevail in the war against the Americans. Putin stated that Russia will provide Iran with necessary assistance during this difficult time. Iran has been at war with the US for the [?]",
+      "link": "https://cphpost.dk/2026-09-02/global/putin-pledges-necessary-support-to-iran-in-war-with-us/",
+      "pubDate": "Wed, 02 Sep 2026 04:46:25 +0000"
     },
     {
       "source": "DR Indland",
-      "title_da": "Aldersgr?nse indf?res for m?nd i fertilitetsbehandling",
-      "title_en": "Age limit introduced for men undergoing fertility treatment",
-      "summary_da": "For f?rste gang indf?res der en aldersgr?nse for m?nd i fertilitetsbehandling. Beslutningen er taget p? baggrund af en sundhedsm?ssige hensyn.",
-      "summary_en": "For the first time, an age limit is being introduced for men undergoing fertility treatment. The decision has been made on the basis of health considerations.",
-      "link": "https://www.dr.dk/nyheder/indland/aldersgraense-indfoeres-maend-i-fertilitetsbehandling",
-      "pubDate": "Tue, 01 Sep 2026 06:14:38 GMT"
+      "title_da": "Hundredvis af Cheminova-ansatte mister jobbet - minister st?r klar med ?konomisk h?ndsr?kning",
+      "title_en": "Hundreds of Cheminova employees lose their jobs - minister ready to provide financial assistance",
+      "summary_da": "Konservativ borgmester beskriver g?rdagens nyhed som et slag i mellemgulvet.",
+      "summary_en": "Conservative mayor describes yesterday's news as a blow to the diaphragm.",
+      "link": "https://www.dr.dk/nyheder/indland/hundredvis-af-cheminova-ansatte-mister-jobbet-minister-staar-klar-med-oekonomisk-haandsraekning",
+      "pubDate": "Wed, 02 Sep 2026 04:40:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Hvorfor hedder det g?dskningslov?",
-      "title_en": "Why is it called the Fertilization Act?",
+      "title_da": "Arktisk Kommando inviterer lokale i Nuuk til '?bent skib'",
+      "title_en": "Arctic Command invites locals in Nuuk to 'open ship'",
+      "summary_da": "Skibe fra Canada, Frankrig og Danmark har de seneste uger ?vet i Canada og Gr?nland. Tirsdag fik de lokale lov til at kigge indenfor.",
+      "summary_en": "Ships from Canada, France and Denmark have been training in Canada and Greenland in recent weeks. On Tuesday, locals were allowed to take a look inside.",
+      "link": "https://www.dr.dk/nyheder/indland/groenland/arktisk-kommando-inviterer-lokale-i-nuuk-til-aabent-skib",
+      "pubDate": "Wed, 02 Sep 2026 04:05:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Danmark har universel sundhedspleje. S? hvorfor kan det v?re sv?rt for internationale statsborgere at f? adgang til mental sundhedspleje?",
+      "title_en": "Denmark has universal health care. So why can mental health care be hard to access for internationals?",
+      "summary_da": "For folk, der flytter til Danmark, kan sprog, omkostninger, ventetider og ukendte henvisningsveje g?re et omfattende system sv?rere at navigere i.",
+      "summary_en": "For people who move to Denmark, language, cost, waiting times and unfamiliar referral pathways can make an elaborate system harder to navigate.",
+      "link": "https://cphpost.dk/2026-09-02/life-in-denmark/denmark-has-universal-health-care-so-why-can-mental-health-care-be-hard-to-access-for-internationals/",
+      "pubDate": "Wed, 02 Sep 2026 03:00:00 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Hasan og Mikkel 3D-printer boliger",
+      "title_en": "Hasan and Mikkel 3D-print homes",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/live-landbruget-har-indkaldt-til-stormoede?focusId=12347254#liveblog-embed",
-      "pubDate": "Tue, 01 Sep 2026 05:20:37 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/reels/hasan-og-mikkel-3d-printer-boliger",
+      "pubDate": "Tue, 01 Sep 2026 19:00:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Her er de engelske ord, danskerne synes er mest cringe ... og dem, de selv bruger",
-      "title_en": "Here are the English words that Danes find most cringeworthy... and the ones they use themselves",
-      "summary_da": "Er det nice, cringe eller lowkey? Dansk Sprogn?vn har f?et 2.300 danskere til at svare p?, hvilke engelske ord de er mest tr?tte af.",
-      "summary_en": "Is it nice, cringe or lowkey? The Danish Language Board has asked 2,300 Danes to answer which English words they are most tired of.",
-      "link": "https://www.dr.dk/nyheder/kultur/her-er-de-engelske-ord-danskerne-synes-er-mest-cringe-og-dem-de-selv-bruger",
-      "pubDate": "Tue, 01 Sep 2026 05:00:00 GMT"
+      "title_da": "Landm?nd frygter ?fyreseddel?, men beregninger viser noget andet: ?Ikke enden for dansk landbrug?",
+      "title_en": "Farmers fear 'fire notice', but calculations show otherwise: 'Not the end for Danish agriculture'",
+      "summary_da": "Ser man bort fra milliardkompensationen, risikerer udsk?ldt lov at fjerne overskuddet hos godt tre til fire procent af de danske landbrugsbes?tninger.",
+      "summary_en": "If you disregard the billion-dollar compensation, the maligned law risks eliminating the profits of a good three to four percent of Danish agricultural herds.",
+      "link": "https://www.dr.dk/nyheder/indland/landmaend-frygter-fyreseddel-men-beregninger-viser-noget-andet-ikke-enden-dansk-landbrug",
+      "pubDate": "Tue, 01 Sep 2026 18:40:06 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "I dag tr?der nye regler i kraft for ulveskydning",
-      "title_en": "New regulations for wolf shooting come into effect today",
-      "summary_da": "Det er nu tilladt at skyde en ulv, der truer husdyr, uden at man f?rst skal have tilladelse fra myndighederne.",
-      "summary_en": "It is now permitted to shoot a wolf that threatens livestock without first obtaining permission from the authorities.",
-      "link": "https://www.dr.dk/nyheder/indland/i-dag-traeder-nye-regler-i-kraft-ulveskydning",
-      "pubDate": "Tue, 01 Sep 2026 04:29:20 GMT"
+      "title_da": "'Det betyder mere at have gode for?ldre, end at have dem i meget lang tid'",
+      "title_en": "'It means more to have good parents than to have them for a very long time'",
+      "summary_da": "Selvom der er en r?kke sundhedsrisici, s? er der ikke noget, der taler for, at ?ldre f?dre skulle blive d?rligere f?dre, siger professor i udviklingspsykologi.",
+      "summary_en": "Although there are a number of health risks, there is nothing to suggest that older fathers will become worse fathers, says a professor of developmental psychology.",
+      "link": "https://www.dr.dk/nyheder/viden/kroppen/professor-efter-aldersloft-paa-fertilitetsbehandling-aeldre-faedre-er-ikke-daarligere-faedre",
+      "pubDate": "Tue, 01 Sep 2026 17:59:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
-      "title_da": "Trump har historisk lav st?tte blandt amerikanske v?lgere",
-      "title_en": "Trump has historically low support among US voters",
-      "summary_da": "En ny Ipsos-m?ling for Reuters viser, at Donald Trumps st?tte blandt amerikanske v?lgere fortsat er p? et lavpunkt p? 33 procent for tredje m?ling i tr?k. Hans forg?nger, Joe Biden, faldt aldrig s? lavt og n?ede bunden p? 35 procent i oktober 2024. Forud for midtvejsvalget i november skal republikanerne forsvare de sn?vre flertal, der har v?ret siden 2024 [?]",
-      "summary_en": "A new Ipsos poll for Reuters shows that Donald Trump?s support among American voters remains at a low of 33 percent for the third consecutive poll. His predecessor, Joe Biden, never fell that low, bottoming out at 35 percent in October 2024. Ahead of November?s midterm elections, Republicans must defend narrow majorities held since 2024 [?]",
-      "link": "https://cphpost.dk/2026-09-01/global/trump-has-historically-low-support-among-us-voters/",
-      "pubDate": "Tue, 01 Sep 2026 04:21:15 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Medier: Den amerikanske h?rminister tr?der tilbage",
-      "title_en": "Media: US Secretary of the Army Resigns",
-      "summary_da": "If?lge flere amerikanske medier er den amerikanske forsvarsminister, Daniel Driscoll, tr?dt tilbage. Dette f?lger m?neders sp?ndinger med den amerikanske forsvarsminister, Pete Hegseth, om h?rens ledelse og afskedigelsen af ??flere fremtr?dende officerer, herunder h?rens stabschef, general Randy George. Driscoll forventes at forlade Pentagon i [?]",
-      "summary_en": "The Secretary of the U.S. Army, Daniel Driscoll, has resigned, according to several American media outlets. This follows months of tension with U.S. Secretary of Defense Pete Hegseth over the Army?s direction and the dismissal of several prominent officers, including Army Chief of Staff General Randy George. Driscoll is expected to leave the Pentagon in [?]",
-      "link": "https://cphpost.dk/2026-09-01/global/media-us-secretary-of-the-army-resigns/",
-      "pubDate": "Tue, 01 Sep 2026 04:21:10 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Danmark gen?bner ambassaden i Syrien efter 14 ?r",
-      "title_en": "Denmark reopens embassy in Syria after 14 years",
-      "summary_da": "Siden 2012 har den danske ambassade i Syrien v?ret lukket for offentligheden, men nu er d?rene ?bnet igen. Mandag bes?gte udenrigsminister Lars L?kke Rasmussen (M) Damaskus for formelt at gen?bne ambassaden. Det g?r Danmark til et af de f?rste EU-lande, der gen?bner en repr?sentation i Syrien. \"Vi g?r [?]",
-      "summary_en": "Since 2012, the Danish embassy in Syria has been closed to the public, but now the doors have opened again. On Monday, Minister for Foreign Affairs Lars L?kke Rasmussen (M) visited Damascus to formally reopen the embassy. This makes Denmark one of the first EU countries to reopen a representation in Syria. ?We are doing [?]",
-      "link": "https://cphpost.dk/2026-09-01/news/politics/denmark-reopens-embassy-in-syria-after-14-years/",
-      "pubDate": "Tue, 01 Sep 2026 04:21:04 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Ministeren m?der buh-r?b og horn i tale til landm?nd",
-      "title_en": "Minister faces boos and horns in speech to farmers",
-      "summary_da": "Mandag eftermiddag bliver natur- og dyrevelf?rdsminister Christian Rabjerg Madsen (S) gentagne gange afbrudt af buhr?b og b?dhorn under sin tale p? Landbrug & F?devarers f?llesm?de i Odense. Afbrydelserne forekommer is?r, n?r ministeren taler om det videnskabelige grundlag for kv?lstofreduktioner. \"Vi bev?ger os v?k fra millimeterregulering ud [?]",
-      "summary_en": "On Monday afternoon, Minister for Nature and Animal Welfare Christian Rabjerg Madsen (S) is repeatedly interrupted by boos and boat horns during his speech at Landbrug & F?devarer?s joint meeting in Odense. The interruptions occur particularly when the minister speaks about the scientific basis for nitrogen reductions. ?We are moving away from millimeter-level regulation out [?]",
-      "link": "https://cphpost.dk/2026-09-01/news/politics/minister-faces-boos-and-horns-in-speech-to-farmers/",
-      "pubDate": "Tue, 01 Sep 2026 04:20:56 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Chauff?rer advares om forsinkelser f?r tirsdagens traktordemonstration",
-      "title_en": "Drivers warned of delays before Tuesday tractor demo",
-      "summary_da": "Bilister, der k?rer i K?benhavn tirsdag morgen, opfordres til at k?re i god tid p? grund af en varslet st?rre traktordemonstration uden for Christiansborg. Da der ankommer traktorer fra flere dele af landet, vil trafikken p? tv?rs af Sj?lland og i K?benhavn sandsynligvis blive p?virket i de tidlige morgentimer. Der er ogs? rapporteret om en demonstration [?]",
-      "summary_en": "Drivers traveling in Copenhagen on Tuesday morning are urged to leave well in advance due to an announced major tractor demonstration outside Christiansborg. Because tractors are arriving from several parts of the country, traffic across Zealand and in Copenhagen is likely to be affected during the early morning hours. A demonstration has also been reported [?]",
-      "link": "https://cphpost.dk/2026-09-01/news/round-up/drivers-warned-of-delays-before-tuesday-tractor-demo/",
-      "pubDate": "Tue, 01 Sep 2026 04:20:47 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Jagten p? engelske ord i det danske sprog forts?tter",
-      "title_en": "The hunt for English words in the Danish Danish continues",
-      "summary_da": "Omkring 2.100 engelske ord er blevet indsendt af 2.338 personer til Dansk Sprogn?vn i den landsd?kkende kampagne ?Kan vi p? dansk??. Kampagnen har kortlagt engelske l?neord sammen med forslag til danske erstatninger. De mest indsendte ord var ?sale?, ?nice?, ?random?, ?fuck? og ?onboarding?. Projektleder Kasper Kristjansson bem?rker, at [?]",
-      "summary_en": "Around 2,100 English words have been submitted by 2,338 people to the Danish Language Council in the nationwide campaign ?Kan vi p? dansk?? or ?Can we speak Danish??. The campaign has mapped English loanwords alongside suggested Danish replacements. The most submitted words were ?sale?, ?nice?, ?random?, ?fuck?, and ?onboarding?. Project manager Kasper Kristjansson notes that [?]",
-      "link": "https://cphpost.dk/2026-09-01/news/round-up/the-hunt-for-english-words-in-the-danish-danish-continues/",
-      "pubDate": "Tue, 01 Sep 2026 04:20:38 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Letbane suspenderet i dele af Aarhus efter ulykke",
-      "title_en": "Light rail suspended in parts of Aarhus after crash",
-      "summary_da": "Tidligt tirsdag morgen k?rer letbanen ikke p? linje L2 mellem Aarhus H, Aarhus Universitetshospital og Lystrup, og nogle afgange kan v?re aflyst. If?lge ?stjyllands Politi kolliderede en bil med letbanen mandag aften ved Olof Palmes All? og Brendstrupg?rdsvej i Aarhus. Kort efter klokken 5:00 kunne politiet ikke [?]",
-      "summary_en": "Early Tuesday morning, the light rail is not running on line L2 between Aarhus H, Aarhus University Hospital, and Lystrup, and some departures may be canceled. According to East Jutland Police, a car collided with the light rail Monday evening at Olof Palmes All? and Brendstrupg?rdsvej in Aarhus. Shortly after 5:00, the police could not [?]",
-      "link": "https://cphpost.dk/2026-09-01/news/round-up/light-rail-suspended-in-parts-of-aarhus-after-crash/",
-      "pubDate": "Tue, 01 Sep 2026 04:20:33 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Ulve, der truer husdyr, kan nu skydes",
-      "title_en": "Wolves threatening livestock can now be shot",
-      "summary_da": "Fra tirsdag den 1. september lempes reglerne for, hvorn?r ulve, der anses for at v?re en fare for husdyr, m? skydes. Licenserede j?gere kan nu skyde en ulv uden forudg?ende tilladelse fra regeringen i to situationer: hvis ulven bryder et ulvesikkert hegn, eller for at afv?rge et angreb p? husdyr, forudsat at de fors?ger at skr?mme [?]",
-      "summary_en": "From Tuesday, September 1, rules regarding when wolves deemed a danger to domestic animals may be shot are being relaxed. Licensed hunters can now shoot a wolf without prior government permission in two situations: if the wolf breaches a wolf-proof fence, or to avert an attack on domestic animals, provided an attempt to scare the [?]",
-      "link": "https://cphpost.dk/2026-09-01/news/round-up/wolves-threatening-livestock-can-now-be-shot/",
-      "pubDate": "Tue, 01 Sep 2026 04:20:27 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "I dag k?rer 300 traktorer til K?benhavn p? grund af lov, der 'f?r minksagen til at ligne en miniput'",
-      "title_en": "Today, 300 tractors are driving to Copenhagen because of a law that 'makes the mink case look like a mini-put'",
-      "summary_da": "Landm?nd vil l?gge pres p? politikerne op til afstemning, der vil 'smadre grundlaget for rigtig mange mennesker', if?lge organisation.",
-      "summary_en": "Farmers will put pressure on politicians ahead of a vote that will 'destroy the foundations of a lot of people', according to an organization.",
-      "link": "https://www.dr.dk/nyheder/indland/i-dag-koerer-300-traktorer-til-koebenhavn-paa-grund-af-lov-der-faar-minksagen-til-ligne-en-miniput",
-      "pubDate": "Tue, 01 Sep 2026 03:40:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Ny lokalplan skal sikre Musik i Lejets overlevelse",
-      "title_en": "New local plan to ensure the survival of Music in Lejet",
-      "summary_da": "Et flertal i Gribskov Kommune vil give Musik i Lejet permanent base p? Vejby Camping med ny lokalplan.",
-      "summary_en": "A majority in Gribskov Municipality will give Musik i Lejet a permanent base at Vejby Camping with a new local plan.",
-      "link": "https://www.dr.dk/nyheder/indland/ny-lokalplan-skal-sikre-musik-i-lejets-overlevelse",
-      "pubDate": "Mon, 31 Aug 2026 19:44:56 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Vikingetidens Rolex er fundet i en baghave",
-      "title_en": "Viking-era Rolex found in a backyard",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/regionale/nordjylland/reels/vikingetidens-rolex-er-fundet-i-en-baghave",
-      "pubDate": "Mon, 31 Aug 2026 18:50:00 GMT"
+      "title_da": "Fabrik lukker i Jylland og 400 medarbejdere afskediges",
+      "title_en": "Factory closes in Jutland and 400 employees will be laid off",
+      "summary_da": "Lukningen af ??en fabrik vil f?re til afskedigelse af hundredvis af mennesker i Danmark. Kemikalieproducenten Cheminova, nu kaldet FMC R?nland, lukker sin fabrik p? Harbo?re Tange i Vestjylland. I forbindelse med lukningen vil 400 medarbejdere blive afskediget som en del af FMC's strategi for at optimere sin globale produktion. Cheminova, [?]",
+      "summary_en": "The closure of a factory will lead to the layoff of hundreds of people in Denmark. Chemical manufacturer Cheminova, now called FMC R?nland, is closing its factory on Harbo?re Tange in Western Jutland. In connection with the closure, 400 employees will be laid off as part of FMC?s strategy to optimize its global production. Cheminova, [?]",
+      "link": "https://cphpost.dk/2026-09-01/news/round-up/factory-closes-in-jutland-and-400-employees-will-be-laid-off/",
+      "pubDate": "Tue, 01 Sep 2026 14:05:05 +0000"
     }
   ]
 }
