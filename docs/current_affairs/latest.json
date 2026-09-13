@@ -1,7 +1,79 @@
 {
-  "date": "2026-09-12",
-  "generatedAt": "2026-09-12T06:41:58.821Z",
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T06:42:13.324Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Test dig selv: Hvad laver ministeren i minigraveren? Og otte andre sp?rgsm?l om de omstridte naturnationalparker",
+      "title_en": "Test yourself: What is the minister doing in the mini excavator? And eight other questions about the disputed nature national parks",
+      "summary_da": "Test dig selv og din viden om Danmarks nye naturomr?der.",
+      "summary_en": "Test yourself and your knowledge about Denmark's new natural areas.",
+      "link": "https://www.dr.dk/nyheder/indland/test-dig-selv-hvad-laver-ministeren-i-minigraveren-og-otte-andre-spoergsmaal-om-de-omstridte",
+      "pubDate": "Sun, 13 Sep 2026 06:11:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "L?hegn eller blomsterstriber? Trines computer-simuleringer skal give mere biodiversitet",
+      "title_en": "Windbreaks or flower strips? Trine's computer simulations should provide more biodiversity",
+      "summary_da": "Computer-simuleringer skal g?re det lettere for landm?nd at skabe liv for langt flere plante- og dyrearter langs markerne.",
+      "summary_en": "Computer simulations should make it easier for farmers to create life for many more plant and animal species along the fields.",
+      "link": "https://www.dr.dk/nyheder/indland/laehegn-eller-blomsterstriber-trines-computer-simuleringer-skal-give-mere-biodiversitet",
+      "pubDate": "Sun, 13 Sep 2026 06:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Store dyr og et k?mpe hegn: Ny naturnationalpark ?bner under protester",
+      "title_en": "Big animals and a giant fence: New nature national park opens amid protests",
+      "summary_da": "Der er anmeldt flere demonstrationer til indvielsen i Gribskov, hvor der blandt andet skal uds?ttes elge for at ?ge biodiversiteten.",
+      "summary_en": "Several demonstrations have been announced for the inauguration in Gribskov, where, among other things, moose will be released to increase biodiversity.",
+      "link": "https://www.dr.dk/nyheder/indland/store-dyr-og-et-kaempe-hegn-ny-naturnationalpark-aabner-under-protester",
+      "pubDate": "Sun, 13 Sep 2026 05:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Danish Air Show starter med stilhed efter d?dsulykke",
+      "title_en": "Danish Air Show starts with silence after fatal accident",
+      "summary_da": "Omkring 125.000 forventes at m?de op til Danish Air Show, som afholdes en uge efter, at et lignende flyshow i Gr?kenland endte galt.",
+      "summary_en": "Around 125,000 are expected to attend the Danish Air Show, which is being held a week after a similar air show in Greece ended in disaster.",
+      "link": "https://www.dr.dk/nyheder/indland/danish-air-show-starter-med-stilhed-efter-doedsulykke",
+      "pubDate": "Sun, 13 Sep 2026 04:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Sociale medier flyder med guides til at f? ell?behjulet til at k?re for hurtigt",
+      "title_en": "Social media is flooded with guides to making your e-scooter go too fast",
+      "summary_da": "R?det for Sikker Trafik mener, at for?ldre skal v?re deres ansvar voksent.",
+      "summary_en": "The Danish Road Safety Council believes that parents should be responsible adults.",
+      "link": "https://www.dr.dk/nyheder/indland/sociale-medier-flyder-med-guides-til-faa-elloebehjulet-til-koere-hurtigt",
+      "pubDate": "Sun, 13 Sep 2026 04:15:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Skyldes autisme vacciner?",
+      "title_en": "Is autism caused by vaccines?",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/skyldes-autisme-vacciner",
+      "pubDate": "Sat, 12 Sep 2026 19:52:09 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Skipper fort?ller om pl?ret vand og f? fisk: ?Der er noget, der er helt galt derude?",
+      "title_en": "Skipper talks about muddy water and few fish: 'There's something really wrong out there'",
+      "summary_da": "Fiskeriet i de indre danske farvande er i dag en skygge af sig selv - og nu ser ?sydfyns flittigste fisker? en tilstand, han aldrig har set f?r.",
+      "summary_en": "Fishing in inland Danish waters is today a shadow of itself - and now 'South Funen's most industrious fisherman' sees a condition he has never seen before.",
+      "link": "https://www.dr.dk/nyheder/indland/skipper-fortaeller-om-ploeret-vand-og-faa-fisk-der-er-noget-der-er-helt-galt-derude",
+      "pubDate": "Sat, 12 Sep 2026 18:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "DR-reporter havnede i stuntscene",
+      "title_en": "DR reporter ended up in stunt scene",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/dr-reporter-havnede-i-stuntscene",
+      "pubDate": "Sat, 12 Sep 2026 17:30:00 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "L'Or?al beskyldt for at skjule kr?ftrisikoen i h?rprodukter",
@@ -48,15 +120,6 @@
       "pubDate": "Sat, 12 Sep 2026 06:37:17 +0000"
     },
     {
-      "source": "DR Indland",
-      "title_da": "Gaby m? lukke sit livsv?rk for vinteren: 'Jeg vil gerne v?re gr?n, men det er umuligt'",
-      "title_en": "Gaby must close her life's work for the winter: 'I want to be green, but it's impossible'",
-      "summary_da": "Borgere med lave indkomster har for sv?rt ved at skrotte deres oliefyr, lyder kritik.",
-      "summary_en": "Critics say it is too difficult for low-income citizens to scrap their oil boilers.",
-      "link": "https://www.dr.dk/nyheder/indland/gaby-maa-lukke-sit-livsvaerk-vinteren-jeg-vil-gerne-vaere-groen-men-det-er-umuligt",
-      "pubDate": "Sat, 12 Sep 2026 06:28:00 GMT"
-    },
-    {
       "source": "The Copenhagen Post",
       "title_da": "Ny Dolly Parton-sang udgivet to uger efter d?dsfaldet",
       "title_en": "New Dolly Parton song released two weeks after death",
@@ -82,69 +145,6 @@
       "summary_en": "Background checks halted ? delaying new hires at Danish schools and daycare centres People starting new jobs in Danish schools, daycare centres and other workplaces involving children may face delays because police have temporarily stopped issuing mandatory child protection certificates. Danish municipalities are warning of growing problems after the National Police suspended the issuing of [?]",
       "link": "https://cphpost.dk/2026-09-12/news/round-up/background-checks-halted-delaying-new-hires-at-danish-schools-and-daycare-centres/",
       "pubDate": "Sat, 12 Sep 2026 06:21:26 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Fiskeskipper m?rker konsekvenserne: 'Helt d?dt'",
-      "title_en": "Fishing skipper feels the consequences: 'Completely dead'",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/fiskeskipper-maerker-konsekvenserne-helt-doedt",
-      "pubDate": "Fri, 11 Sep 2026 18:36:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Solomor er 'dybt bekymret' efter politianmeldelse af flere s?dbanker",
-      "title_en": "Solo mother is 'deeply concerned' after police report of several sperm banks",
-      "summary_da": "Sascha Didde Tarne frygter, at hendes s?n har mange flere halvs?skende, end hun tror.",
-      "summary_en": "Sascha Didde Tarne fears that her son has many more half-siblings than she thinks.",
-      "link": "https://www.dr.dk/nyheder/indland/solomor-er-dybt-bekymret-efter-politianmeldelse-af-flere-saedbanker",
-      "pubDate": "Fri, 11 Sep 2026 18:27:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Nedlukning af b?rneattester har konsekvenser for pasning og idr?t: 'Jeg h?ber, de f?r styr p? det hurtigst muligt'",
-      "title_en": "Shutting down child certificates has consequences for childcare and sports: 'I hope they get it under control as soon as possible'",
-      "summary_da": "En fejl i kriminalregisteret g?r, at der i ?jeblikket ikke kan indhentes b?rneattester p? nye ans?ttelser i kommunerne.",
-      "summary_en": "An error in the criminal record means that child certificates cannot currently be obtained for new employment in the municipalities.",
-      "link": "https://www.dr.dk/nyheder/indland/nedlukning-af-boerneattester-har-konsekvenser-pasning-og-idraet-jeg-haaber-de-faar-styr-paa-det",
-      "pubDate": "Fri, 11 Sep 2026 17:02:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Mand f?ngslet for svindel i millionklassen med lade-abonnementer til elbiler",
-      "title_en": "Man jailed for fraud worth millions with charging subscriptions for electric cars",
-      "summary_da": "En 35-?rig mand blev torsdag anholdt og sigtet for omfattende svindel med lade-abonnementer. LS Busser, der for nylig blev kritiseret i DR's forbrugermagasin, Kontant, er angiveligt involveret.",
-      "summary_en": "A 35-year-old man was arrested on Thursday and charged with extensive fraud involving charging subscriptions. LS Busser, which was recently criticized in DR's consumer magazine, Kontant, is allegedly involved.",
-      "link": "https://www.dr.dk/nyheder/indland/mand-faengslet-svindel-i-millionklassen-med-lade-abonnementer-til-elbiler",
-      "pubDate": "Fri, 11 Sep 2026 16:07:49 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Borgmester: Tilflyttere g?r skattestigning n?dvendig",
-      "title_en": "Mayor: Immigrants make tax increases necessary",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/borgmester-tilflyttere-goer-skattestigning-noedvendig",
-      "pubDate": "Fri, 11 Sep 2026 15:57:18 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "H?rsholms borgmester er lettet over mulighed for at h?ve skatten",
-      "title_en": "H?rsholm's mayor is relieved about the possibility of raising taxes",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/hoersholms-borgmester-er-lettet-over-mulighed-haeve-skatten",
-      "pubDate": "Fri, 11 Sep 2026 14:54:12 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Skal smartwatches ogs? forbydes i grundskolen? 'Det m? vi finde ud af'",
-      "title_en": "Should smartwatches also be banned in primary schools? 'We have to find out'",
-      "summary_da": "Smartwatches har mange af de samme funktioner som de smartphones, regeringen vil forbyde i klassev?relser og skoleg?rde.",
-      "summary_en": "Smartwatches have many of the same features as the smartphones the government wants to ban in classrooms and schoolyards.",
-      "link": "https://www.dr.dk/nyheder/indland/skal-smartwatches-ogsaa-forbydes-i-grundskolen-det-maa-vi-finde-ud-af",
-      "pubDate": "Fri, 11 Sep 2026 14:29:33 GMT"
     }
   ]
 }
