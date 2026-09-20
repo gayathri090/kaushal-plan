@@ -1,7 +1,79 @@
 {
-  "date": "2026-09-19",
-  "generatedAt": "2026-09-19T06:42:06.758Z",
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T06:42:05.350Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Landsholdsspiller ?bner op om sv?r tid",
+      "title_en": "National team player opens up about difficult times",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/regionale/midtvest/reels/landsholdsspiller-aabner-op-om-svaer-tid",
+      "pubDate": "Sun, 20 Sep 2026 06:28:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Mie bryder tavshedens lov: Folk har vidst i ?revis, at de boede for stort",
+      "title_en": "Mie breaks the law of silence: People have known for years that they lived too large",
+      "summary_da": "100 husejere i omr?det har hyret advokat Knud Foldschack for at f? underkendt kommunens lokalplaner.",
+      "summary_en": "100 homeowners in the area have hired lawyer Knud Foldschack to have the municipality's local plans overturned.",
+      "link": "https://www.dr.dk/nyheder/indland/mie-bryder-tavshedens-lov-folk-har-vidst-i-aarevis-de-boede-stort",
+      "pubDate": "Sun, 20 Sep 2026 06:03:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Kan en ? klare sig med fire daglige afgange til fastlandet? Fem?boere frygter, at ?samfundet d?r",
+      "title_en": "Can an island survive with four daily departures to the mainland? Fem? residents fear that the island community is dying",
+      "summary_da": "Der er udsigt til langt f?rre afgange til ?erne i Sm?landsfarvandet ved Lolland. Forsker kalder forringelserne for \"passiv affolkningspolitik\".",
+      "summary_en": "There is a prospect of far fewer departures to the islands in the Sm?land waters off Lolland. Researchers call the declines a \"passive depopulation policy\".",
+      "link": "https://www.dr.dk/nyheder/indland/kan-en-oe-klare-sig-med-fire-daglige-afgange-til-fastlandet-femoeboere-frygter-oe-samfundet-doer",
+      "pubDate": "Sun, 20 Sep 2026 05:19:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Gunnars vindm?lle-batteri er en 'vind-vind'",
+      "title_en": "Gunnar's windmill battery is a 'win-win'",
+      "summary_da": "Batterier p? vindm?ller kan afhj?lpe problemerne med et overbelastet elnet og blive en gevinst for b?de forbrugere og virksomheder.",
+      "summary_en": "Batteries on wind turbines can alleviate the problems of an overloaded electricity grid and be a benefit for both consumers and businesses.",
+      "link": "https://www.dr.dk/nyheder/indland/gunnars-vindmoelle-batteri-er-en-vind-vind",
+      "pubDate": "Sun, 20 Sep 2026 05:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Flere amerikanske baser kan blive en god forretning for Gr?nland, siger direkt?r",
+      "title_en": "More American bases could be good business for Greenland, says director",
+      "summary_da": "Erhvervsorganisationer er lettede over aftale, men venter med at juble, til den er underskrevet.",
+      "summary_en": "Business organizations are relieved about the agreement, but are waiting to celebrate until it is signed.",
+      "link": "https://www.dr.dk/nyheder/indland/groenland/flere-amerikanske-baser-kan-blive-en-god-forretning-groenland-siger-direktoer",
+      "pubDate": "Sun, 20 Sep 2026 04:45:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Virkelige ansigter, falske seksuelle billeder: Mange danskere tvivler p?, at de kan se forskel",
+      "title_en": "Real faces, fake sexual images: Many Danes doubt they can tell the difference",
+      "summary_da": "En ny unders?gelse foretaget for DR fokuserer p? danskernes forhold til manipuleret seksuelt materiale. Vi st?r et meget kritisk sted, siger organisation.",
+      "summary_en": "A new study conducted for DR focuses on Danes' relationship with manipulated sexual material. We are at a very critical point, says the organization.",
+      "link": "https://www.dr.dk/event/porno/virkelige-ansigter-falske-seksuelle-billeder-mange-danskere-tvivler-paa-de-kan-se-forskel",
+      "pubDate": "Sun, 20 Sep 2026 04:15:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Unge p? gaden for at fejre erhvervsuddannelserne",
+      "title_en": "Young people take to the streets to celebrate vocational training",
+      "summary_da": "Fire erhvervsskoler er for f?rste gang sammen om en f?lles festdag i Aarhus, hvor man fejrer unge, der tager en erhvervsuddannelse.",
+      "summary_en": "Four vocational schools are coming together for the first time for a joint celebration day in Aarhus, celebrating young people who are taking a vocational education.",
+      "link": "https://www.dr.dk/nyheder/indland/unge-paa-gaden-fejre-erhvervsuddannelserne",
+      "pubDate": "Sat, 19 Sep 2026 17:39:38 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Hunde viste sig at v?re lovlige efter DNA-test - alligevel har politiet sendt en regning p? 200.000 kroner",
+      "title_en": "Dogs turned out to be legal after DNA testing - yet the police sent a bill of 200,000 kroner",
+      "summary_da": "Der er problemer med retssikkerheden for hundeejere i Danmark, mener juraprofessor Frederik Waage.",
+      "summary_en": "There are problems with legal certainty for dog owners in Denmark, says law professor Frederik Waage.",
+      "link": "https://www.dr.dk/nyheder/indland/hunde-viste-sig-vaere-lovlige-efter-dna-test-alligevel-har-politiet-sendt-en-regning-paa-200-000",
+      "pubDate": "Sat, 19 Sep 2026 16:48:00 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "L?rdags str?mpriser n?r nul efter dyr september",
@@ -13,11 +85,11 @@
     },
     {
       "source": "The Copenhagen Post",
-      "title_da": "Danmark: Aftale mellem Gr?nland og USA forventes underskrevet i n?ste uge",
-      "title_en": "Denmark: Greenland, US deal expected signed next week",
-      "summary_da": "Gr?nland og Danmark forventer at underskrive en ny arktisk sikkerhedsaftale med USA. Gr?nland og Danmark forventer at underskrive en aftale med USA i den kommende uge, der har til form?l at styrke sikkerheden i Arktis og Nordatlanten. Statsministeriet annoncerede den forventede aftale i en pressemeddelelse, som ogs? omfattede [?]",
-      "summary_en": "Greenland and Denmark expect to sign new Arctic security agreement with US Greenland and Denmark expect to sign an agreement with the United States in the coming week aimed at strengthening security in the Arctic and North Atlantic region. The Danish Prime Minister?s Office announced the expected agreement in a press release, which also included [?]",
-      "link": "https://cphpost.dk/2026-09-19/news/round-up/denmark-greenland-us-deal-expected-signed-next-week/",
+      "title_da": "USA og Danmark annoncerer aftale om Gr?nland. Trump h?vder \"permanent kontrol\" over ?en.",
+      "title_en": "US and Denmark announce deal over Greenland. Trump claims ?permanent control? over the island",
+      "summary_da": "If?lge Trump giver aftalen USA \"permanent kontrol over sikkerhed og alle andre forn?denheder i Gr?nland\".",
+      "summary_en": "According to Trump, the agreement gives the United States \"permanent control over security and all other necessities in Greenland.\"",
+      "link": "https://cphpost.dk/2026-09-19/news/politics/denmark-greenland-us-deal-expected-signed-next-week/",
       "pubDate": "Sat, 19 Sep 2026 06:35:37 +0000"
     },
     {
@@ -48,24 +120,6 @@
       "pubDate": "Sat, 19 Sep 2026 06:35:16 +0000"
     },
     {
-      "source": "DR Indland",
-      "title_da": "Ny unders?gelse viser, hvor nemt det er at lave falske n?genbilleder p? Telegram: 'Helt vildt, at de f?r lov til at slippe afsted med det her'",
-      "title_en": "New study shows how easy it is to fake nude photos on Telegram: 'Absolutely crazy that they're allowed to get away with this'",
-      "summary_da": "En ny rapport fra Digitalt Ansvar afd?kker, hvor let det er at fremstille falske n?genbilleder p? Telegram.",
-      "summary_en": "A new report from Digitalt Ansvar reveals how easy it is to produce fake nude photos on Telegram.",
-      "link": "https://www.dr.dk/event/porno/ny-undersoegelse-viser-hvor-nemt-det-er-lave-falske-noegenbilleder-paa-telegram-helt-vildt-de-faar",
-      "pubDate": "Sat, 19 Sep 2026 06:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "F? svaret: Hvilke job kommer AI til at spise?",
-      "title_en": "Get the answer: What jobs will AI eat?",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/penge/reels/faa-svaret-hvilke-job-kommer-ai-til-spise",
-      "pubDate": "Sat, 19 Sep 2026 05:52:19 GMT"
-    },
-    {
       "source": "The Copenhagen Post",
       "title_da": "Politisk satire: Fra Andersen til Orwell",
       "title_en": "Political satire: From Andersen to Orwell",
@@ -73,60 +127,6 @@
       "summary_en": "Denmark has not only H.C. Andersen?s interpretations of folk tales, but also a long tradition of satire against politicians and social conventions.",
       "link": "https://cphpost.dk/2026-09-19/art-culture/political-satire-from-andersen-to-orwell/",
       "pubDate": "Sat, 19 Sep 2026 04:00:00 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Ringbergs Lynanalyse: Ro om Gr?nland ? og s? lever Danmark med at Trump giver den gas i sin udl?gning",
-      "title_en": "Ringberg's Lightning Analysis: Calm about Greenland ? and then Denmark lives with Trump giving it the gas in his interpretation",
-      "summary_da": "For K?benhavn - og Nuuk - er det afg?rende, at Trump nu skriver under p?, at han ikke skal have Gr?nland.",
-      "summary_en": "For Copenhagen - and Nuuk - it is crucial that Trump now signs that he will not have Greenland.",
-      "link": "https://www.dr.dk/nyheder/indland/groenland/live-storpolitisk-drama-mellem-usa-danmark-og-groenland?focusId=12469255#liveblog-embed",
-      "pubDate": "Fri, 18 Sep 2026 23:36:10 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Trafikkaos i kommune: Nu er der millioner p? vej til s?tte skub i trafikken",
-      "title_en": "Traffic chaos in municipality: Now millions are on the way to boost traffic",
-      "summary_da": "Ny budgetaftale prioriterer b?de kollektiv trafik og vejforbedringer for at fors?ge at l?se en del af udfordringerne i trafikken.",
-      "summary_en": "The new budget agreement prioritizes both public transport and road improvements to try to solve some of the challenges in traffic.",
-      "link": "https://www.dr.dk/nyheder/indland/trafikkaos-i-kommune-nu-er-der-millioner-paa-vej-til-saette-skub-i-trafikken",
-      "pubDate": "Fri, 18 Sep 2026 19:21:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Niels Martin har stemt Venstre i 38 ?r, men nu har han fundet et nyt parti",
-      "title_en": "Niels Martin has voted Liberal for 38 years, but now he has found a new party",
-      "summary_da": "Venstre har mistet tre ud af ti v?lgere siden folketingsvalget i marts.",
-      "summary_en": "The Liberal Party has lost three out of ten voters since the general election in March.",
-      "link": "https://www.dr.dk/nyheder/indland/niels-martin-har-stemt-venstre-i-38-aar-men-nu-har-han-fundet-et-nyt-parti",
-      "pubDate": "Fri, 18 Sep 2026 19:01:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Snart kan b?dehammeren falde i popul?re feriebyer - men borgmester vil g? l?ngere",
-      "title_en": "The hammer of fines may soon fall in popular holiday towns - but the mayor wants to go further",
-      "summary_da": "St?rre b?der skal redde et sted som Ebeltoft fra at blive sp?gelsesby om vinteren.",
-      "summary_en": "Larger fines should save a place like Ebeltoft from becoming a ghost town in winter.",
-      "link": "https://www.dr.dk/nyheder/indland/snart-kan-boedehammeren-falde-i-populaere-feriebyer-men-borgmester-vil-gaa-laengere",
-      "pubDate": "Fri, 18 Sep 2026 18:31:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "F?r Forsvaret fanget f?r?",
-      "title_en": "Will the Defense Forces catch sheep?",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/faar-forsvaret-fanget-faar",
-      "pubDate": "Fri, 18 Sep 2026 18:30:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "'Sheriffer' k?mper om nordisk guld p? Amager",
-      "title_en": "'Sheriff' fights for Nordic gold on Amager",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/sheriffer-kaemper-om-nordisk-guld-paa-amager",
-      "pubDate": "Fri, 18 Sep 2026 17:14:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
