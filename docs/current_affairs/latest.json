@@ -1,7 +1,79 @@
 {
-  "date": "2026-09-26",
-  "generatedAt": "2026-09-26T06:42:04.805Z",
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T06:42:25.321Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "?n million fasaner s?ttes ud til jagt hvert ?r: Organisationer vil have det forbudt",
+      "title_en": "One million pheasants are released for hunting every year: Organizations want it banned",
+      "summary_da": "Danmarks Naturfredningsforening, Dyrenes Beskyttelse og Det Dyreetiske R?d vil have forbud mod opdr?t af fasaner, hvis form?let kun er at skyde dem ved jagts?sonens start 1. oktober. J?gerne mener, at b?de opdr?t og uds?tning kan forsvares.",
+      "summary_en": "The Danish Society for Nature Conservation, the Danish Society for Animal Protection and the Danish Council for Animal Ethics want to ban the breeding of pheasants if the only purpose is to shoot them at the start of the hunting season on October 1. The hunters believe that both breeding and release can be defended.",
+      "link": "https://www.dr.dk/nyheder/indland/en-million-fasaner-saettes-ud-til-jagt-hvert-aar-organisationer-vil-have-det-forbudt",
+      "pubDate": "Sun, 27 Sep 2026 05:25:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Betjente over hele landet f?r nu str?mpistoler",
+      "title_en": "Officers across the country are now getting stun guns",
+      "summary_da": "I mere end halvdelen af episoder med str?mpistoler kunne betjente n?jes med at tr?kke dem uden affyring.",
+      "summary_en": "In more than half of the incidents involving stun guns, officers were able to simply pull them without firing.",
+      "link": "https://www.dr.dk/nyheder/indland/betjente-over-hele-landet-faar-nu-stroempistoler",
+      "pubDate": "Sun, 27 Sep 2026 04:46:14 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Tre k?nguruer flygtede i Givskud - nu er to af dem d?de",
+      "title_en": "Three kangaroos escaped in Givskud - now two of them are dead",
+      "summary_da": "Den ene blev aflivet, mens den anden k?nguru d?de af stress.",
+      "summary_en": "One was euthanized, while the other kangaroo died of stress.",
+      "link": "https://www.dr.dk/nyheder/indland/tre-kaenguruer-flygtede-i-givskud-nu-er-af-dem-doede",
+      "pubDate": "Sat, 26 Sep 2026 19:30:37 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Hvorfor tisser is?r m?nd om natten?",
+      "title_en": "Why do men especially urinate at night?",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/hvorfor-tisser-isaer-maend-om-natten",
+      "pubDate": "Sat, 26 Sep 2026 19:23:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Gr?nt lys til radarproducent frustrerer naboer",
+      "title_en": "Green light for radar manufacturer frustrates neighbors",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/groent-lys-til-radarproducent-frustrerer-naboer",
+      "pubDate": "Sat, 26 Sep 2026 18:20:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Er der plads til ulven? Naboerne er uenige",
+      "title_en": "Is there room for the wolf? The neighbors disagree",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/regionale/nordjylland/reels/er-der-plads-til-ulven-naboerne-er-uenige",
+      "pubDate": "Sat, 26 Sep 2026 17:29:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Traktatt?mmeren fra Nordjylland",
+      "title_en": "The treaty tamer from North Jutland",
+      "summary_da": "Da forhandlingerne mellem USA, Gr?nland og Danmark begyndte, anede amerikanerne ikke, at en af Europas mest erfarne forhandlere, n?r det g?lder internationale aftaler, er dansk. Det ved USA i dag. Han hedder Jeppe Tranholm-Mikkelsen.",
+      "summary_en": "When negotiations between the United States, Greenland, and Denmark began, the Americans had no idea that one of Europe's most experienced negotiators when it comes to international agreements was Danish. The United States knows that today. His name is Jeppe Tranholm-Mikkelsen.",
+      "link": "https://www.dr.dk/nyheder/indland/groenland/traktattaemmeren-fra-nordjylland",
+      "pubDate": "Sat, 26 Sep 2026 16:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "N?r alkohol ?del?gger",
+      "title_en": "When alcohol destroys",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/naar-alkohol-oedelaegger",
+      "pubDate": "Sat, 26 Sep 2026 14:35:00 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "OpenAI advarer myndigheder om h?ndelser med AI-agenter",
@@ -64,78 +136,6 @@
       "summary_en": "During an operation at the end of August, the authorities found errors and illegalities in 26 out of 27 selected kiosks in Jutland. This was stated by the Ministry of Taxation and Growth in a press release. Illegal nicotine products, expired food items, and chocolate on which duties had not been paid were found in [?]",
       "link": "https://cphpost.dk/2026-09-26/news/round-up/authorities-find-fraud-and-errors-in-26-of-27-kiosks/",
       "pubDate": "Sat, 26 Sep 2026 06:19:04 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Esben er i semifinalen i verdenskendt fotokonkurrence ? se pletskuddet, der kostede ham kameraet",
-      "title_en": "Esben is in the semi-finals of a world-renowned photography competition ? see the spot shot that cost him the camera",
-      "summary_da": "For f?rste gang har en dansker fire billeder med i semifinalen i fotokonkurrencen The Illume, som er verdens mest anerkendte konkurrence for sports- og adventurebilleder.",
-      "summary_en": "For the first time, a Dane has four photos in the semi-finals of the photo competition The Illume, which is the world's most recognized competition for sports and adventure photos.",
-      "link": "https://www.dr.dk/nyheder/indland/esben-er-i-semifinalen-i-verdenskendt-fotokonkurrence-se-pletskuddet-der-kostede-ham-kameraet",
-      "pubDate": "Sat, 26 Sep 2026 06:10:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Trods stor protest fra lokale fik byr?d trumfet hotel med 117 v?relser og 143 boliger igennem: Nu er beslutningen blevet oph?vet",
-      "title_en": "Despite major protests from locals, the city council approved a 117-room and 143-unit hotel: Now the decision has been overturned.",
-      "summary_da": "Projektet har skabt store politiske uenigheder i byr?det, der kulminerede under kommunalvalget sidste ?r.",
-      "summary_en": "The project has created major political disagreements in the city council, culminating during the municipal elections last year.",
-      "link": "https://www.dr.dk/nyheder/indland/trods-stor-protest-fra-lokale-fik-byraad-trumfet-hotel-med-117-vaerelser-og-143-boliger-igennem-nu",
-      "pubDate": "Sat, 26 Sep 2026 05:45:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Skal ulven v?k? Sp?rgsm?let deler danskerne, men flere end f?r vil af med den",
-      "title_en": "Should the wolf go away? The question divides Danes, but more than ever want to get rid of it",
-      "summary_da": "Der er ikke plads til ulve i Danmark. Det mener flere danskere end tidligere",
-      "summary_en": "There is no room for wolves in Denmark. More Danes than ever believe this",
-      "link": "https://www.dr.dk/nyheder/indland/skal-ulven-vaek-spoergsmaalet-deler-danskerne-men-flere-end-foer-vil-af-med-den",
-      "pubDate": "Sat, 26 Sep 2026 04:33:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "EU hilser aftale mellem Gr?nland, Danmark og USA velkommen: Styrker sikkerheden",
-      "title_en": "EU welcomes agreement between Greenland, Denmark and the US: Strengthens security",
-      "summary_da": "EU-Kommissionens n?stformand har ramt nogle historiske dage til sit bes?g i Gr?nland.",
-      "summary_en": "The Vice-President of the European Commission has hit some historic days for his visit to Greenland.",
-      "link": "https://www.dr.dk/nyheder/indland/groenland/eu-hilser-aftale-mellem-groenland-danmark-og-usa-velkommen-styrker-sikkerheden",
-      "pubDate": "Fri, 25 Sep 2026 18:15:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "10-?rige drenge fandt taske med formodede tyvekoster i mose",
-      "title_en": "10-year-old boys found bag with suspected stolen goods in bog",
-      "summary_da": "For omkring et ?r siden fandt Gorm og Henry en taske med smykker og et kostbart ur i Nymosen i Vangede. Nu har de to drenge gjort et nyt opsigtsv?kkende fund samme sted og blev i dag h?dret af politiet.",
-      "summary_en": "About a year ago, Gorm and Henry found a bag of jewelry and an expensive watch in Nymosen in Vangede. Now the two boys have made a new sensational find in the same place and were honored by the police today.",
-      "link": "https://www.dr.dk/nyheder/indland/10-aarige-drenge-fandt-taske-med-formodede-tyvekoster-i-mose",
-      "pubDate": "Fri, 25 Sep 2026 18:02:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Mette Ehlers vidste aldrig, hvor hun havde sin mor.",
-      "title_en": "Mette Ehlers never knew where her mother was.",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/mette-ehlers-vidste-aldrig-hvor-hun-havde-sin-mor",
-      "pubDate": "Fri, 25 Sep 2026 17:47:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Overgangsalder p? jobbet: Salling Group uddanner cheferne i at tale om hedeture og s?vnl?se n?tter",
-      "title_en": "Menopause at work: Salling Group trains managers to talk about hot flashes and sleepless nights",
-      "summary_da": "En ?ndbar uniform eller senere m?detid er nogle af de v?rkt?jer, som kan fastholde kvinder i arbejde, selvom de d?jer med gener fra overgangsalder.",
-      "summary_en": "A breathable uniform or later meeting times are some of the tools that can keep women working, even if they suffer from menopause-related discomfort.",
-      "link": "https://www.dr.dk/nyheder/indland/overgangsalder-paa-jobbet-salling-group-uddanner-cheferne-i-tale-om-hedeture-og-soevnloese-naetter",
-      "pubDate": "Fri, 25 Sep 2026 17:20:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Svendebrev fejres med svendevogn i Svendborg: 'Det er fuldst?ndig fantastisk'",
-      "title_en": "Apprenticeship celebrated with an apprentice wagon in Svendborg: 'It's absolutely fantastic'",
-      "summary_da": "17 nyudkl?kkede t?mrersvende fejrer i dag deres svendebrev med en tur i Sydfyns f?rste svendevogn.",
-      "summary_en": "17 newly-minted carpenter apprentices are celebrating their apprenticeship certificate today with a ride in South Funen's first apprentice wagon.",
-      "link": "https://www.dr.dk/nyheder/regionale/fyn/svendebrev-fejres-med-svendevogn-i-svendborg-det-er-fuldstaendig-fantastisk",
-      "pubDate": "Fri, 25 Sep 2026 16:32:32 GMT"
     },
     {
       "source": "The Copenhagen Post",
