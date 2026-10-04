@@ -1,7 +1,88 @@
 {
-  "date": "2026-10-03",
-  "generatedAt": "2026-10-03T06:42:24.335Z",
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T06:42:04.701Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Solceller er popul?re: Vi g?r det for pengepungens skyld",
+      "title_en": "Solar cells are popular: We do it for the sake of our wallets",
+      "summary_da": "N?r energipriserne g?r op, fyldes ordreb?gerne hos de virksomheder, der lever af at s?tte solceller p? folks huse.",
+      "summary_en": "When energy prices go up, the order books of companies that make a living by installing solar panels on people's houses fill up.",
+      "link": "https://www.dr.dk/nyheder/indland/solceller-er-populaere-vi-goer-det-pengepungens-skyld",
+      "pubDate": "Sun, 04 Oct 2026 05:23:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "800.000 pendlere har penge til gode, og skatteministeren vil 'meget gerne af med dem'",
+      "title_en": "800,000 commuters owe money, and the tax minister 'would really like to get rid of them'",
+      "summary_da": "Hvis man nu og her vil have gavn af det forh?jede k?rselsfradrag, som regeringen vedtog i sommer, b?r man rette sin forskudsopg?relse, lyder opfordringen fra skatteminister, Jakob Engel-Schmidt (M).",
+      "summary_en": "If you want to benefit from the increased mileage deduction that the government adopted this summer, you should correct your advance tax return, says the call from Tax Minister Jakob Engel-Schmidt (M).",
+      "link": "https://www.dr.dk/nyheder/indland/800-000-pendlere-har-penge-til-gode-og-skatteministeren-vil-meget-gerne-af-med-dem",
+      "pubDate": "Sun, 04 Oct 2026 04:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Advokat raser over kommune i bet?ndt kolonihavesag: 'Deprimerende, aggressivt og usympatisk'",
+      "title_en": "Lawyer rages at municipality in heated allotment case: 'Depressing, aggressive and unsympathetic'",
+      "summary_da": "Advokat beklager sig over, at hans klienter bliver politianmeldt, mens de venter p? afg?relse i Landsretten.",
+      "summary_en": "Lawyer complains that his clients are being reported to the police while they await a decision in the High Court.",
+      "link": "https://www.dr.dk/nyheder/indland/advokat-raser-over-kommune-i-betaendt-kolonihavesag-deprimerende-aggressivt-og-usympatisk",
+      "pubDate": "Sat, 03 Oct 2026 18:12:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Musikanmelder: Syd For Solens pause kan betyde st?rkere musiknavne p? Roskilde Festival",
+      "title_en": "Music reviewer: Syd For Solens' break could mean stronger music names at Roskilde Festival",
+      "summary_da": "If?lge musikjournalist og anmelder tiltr?kker Syd For Solen og Roskilde Festival et ens publikum med aktuelle musiknavne, som taler ind i en tids?nd.",
+      "summary_en": "According to music journalist and reviewer, Syd For Solen and Roskilde Festival attract a similar audience with current music names that speak to a zeitgeist.",
+      "link": "https://www.dr.dk/nyheder/indland/musikanmelder-syd-solens-pause-kan-betyde-staerkere-musiknavne-paa-roskilde-festival",
+      "pubDate": "Sat, 03 Oct 2026 17:10:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "L?rke g?r udenom gader, hvor andre har oplevet overgreb",
+      "title_en": "Lark avoids streets where others have experienced abuse",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/laerke-gaar-udenom-gader-hvor-andre-har-oplevet-overgreb",
+      "pubDate": "Sat, 03 Oct 2026 17:07:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Se, hvem fik n?sten statsborgerskab? Muslimer, europ?ere eller unge f?dt i Danmark",
+      "title_en": "Look who almost got citizenship? Muslims, Europeans or young people born in Denmark",
+      "summary_da": "De var godkendt til statsborgerskab, men s? faldt loven bort. Nu venter de uden at kende de nye regler. Se, hvem de er.",
+      "summary_en": "They were approved for citizenship, but then the law was repealed. Now they are waiting without knowing the new rules. Look who they are.",
+      "link": "https://www.dr.dk/nyheder/indland/se-hvem-fik-naesten-statsborgerskab-muslimer-europaeere-eller-unge-foedt-i-danmark",
+      "pubDate": "Sat, 03 Oct 2026 16:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Menighedsr?d vil bevare gamle gravsten, fordi ellers ville det 'v?re ligesom at slette historien'",
+      "title_en": "Parish council wants to preserve old gravestones because otherwise it would be 'like erasing history'",
+      "summary_da": "Gamle gravsten fylder ved kirkediget ved H?jen Kirke. Nu vil menighedsr?det samle dem i et lapidarium.",
+      "summary_en": "Old gravestones fill the church embankment at H?jen Church. Now the parish council wants to collect them in a lapidarium.",
+      "link": "https://www.dr.dk/nyheder/indland/menighedsraad-vil-bevare-gamle-gravsten-fordi-ellers-ville-det-vaere-ligesom-slette-historien",
+      "pubDate": "Sat, 03 Oct 2026 15:48:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "'Det mest omtalte emne er afgifter': Landets st?rste elbilmesse st?r i skyggen af nye afgifter",
+      "title_en": "'The most talked about topic is taxes': The country's largest electric car fair is overshadowed by new taxes",
+      "summary_da": "De nye afgifter p? elbiler har f?rt til mange sp?rgsm?l fra g?sterne p? landets st?rste elbilmesse.",
+      "summary_en": "The new taxes on electric cars have led to many questions from guests at the country's largest electric car show.",
+      "link": "https://www.dr.dk/nyheder/indland/det-mest-omtalte-emne-er-afgifter-landets-stoerste-elbilmesse-staar-i-skyggen-af-nye-afgifter",
+      "pubDate": "Sat, 03 Oct 2026 15:35:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Ekspertindsigt: N?r en flytning til udlandet ?ndrer den m?de, par kommunikerer p?",
+      "title_en": "Expert Insights: When Moving Abroad Changes the Way Couples Communicate",
+      "summary_da": "At flytte til et andet land kan bringe par t?ttere sammen. Men det kan ogs? afsl?re spr?kker i forholdet, som var lettere at overse derhjemme. For internationale par kan r?dgivning hj?lpe dem med at forst?, hvad der har ?ndret sig, og finde tilbage til hinanden.",
+      "summary_en": "Relocating to another country can bring couples closer together. But it can also expose cracks in the relationship that were easier to overlook at home. For international couples, counselling can help them understand what has changed and find their way back to each other.",
+      "link": "https://cphpost.dk/2026-10-03/life-in-denmark/expert-insights-when-moving-abroad-changes-the-way-couples-communicate/",
+      "pubDate": "Sat, 03 Oct 2026 11:06:25 +0000"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "Letland stemmer i valg pr?get af droner og krig i Ukraine",
@@ -64,87 +145,6 @@
       "summary_en": "Diesel prices in Denmark have climbed to record levels. Now the G7 countries are releasing up to 100 million barrels of diesel and crude oil from emergency reserves in an attempt to ease pressure on global energy markets. Danish motorists could see some relief from record-high diesel prices after the G7 countries agreed to release [?]",
       "link": "https://cphpost.dk/2026-10-03/news/round-up/g7-releases-oil-reserves-could-it-bring-down-denmarks-record-high-diesel-prices/",
       "pubDate": "Sat, 03 Oct 2026 06:09:43 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Mist?nkt for VM-overfald d?mt i separat sag",
-      "title_en": "World Cup assault suspect convicted in separate case",
-      "summary_da": "I n?ste uge skal en 31-?rig mand fremstilles i retten i en sag om vold mod en svensk mand, der senere d?de, ved et storsk?rmsarrangement p? Islands Brygge. Det er dog ikke den eneste voldssag, som den 31-?rige er involveret i. Fredag ??blev han ved Retten i Svendborg id?mt tre [?]",
-      "summary_en": "Next week, a 31-year-old man is to appear in court in a case concerning violence against a Swedish man, who later died, at a big-screen event at Islands Brygge. However, that is not the only case of violence the 31-year-old is involved in. On Friday, at the Court in Svendborg, he was sentenced to three [?]",
-      "link": "https://cphpost.dk/2026-10-03/news/round-up/world-cup-assault-suspect-convicted-in-separate-case/",
-      "pubDate": "Sat, 03 Oct 2026 06:09:37 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "To menneskelignende robotter er flyttet ind p? Planetarium",
-      "title_en": "Two humanoid robots have moved into the Planetarium",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/menneskelignende-robotter-er-flyttet-ind-paa-planetarium",
-      "pubDate": "Sat, 03 Oct 2026 06:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Vejarbejde p? Vejlefjordbroen kan give k? hver dag i oktober",
-      "title_en": "Roadworks on the Vejlefjord Bridge could cause queues every day in October",
-      "summary_da": "Vejarbejde p? Vejlefjordbroen kan give flere kilometer k? i aftentimerne i hele oktober.",
-      "summary_en": "Roadworks on the Vejlefjord Bridge may cause several kilometers of queues in the evening hours throughout October.",
-      "link": "https://www.dr.dk/nyheder/indland/vejarbejde-paa-vejlefjordbroen-kan-give-koe-hver-dag-i-oktober",
-      "pubDate": "Sat, 03 Oct 2026 05:46:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Eksperter: Danmark bryder konventioner, hvis 231 bestemte b?rn ikke f?r statsborgerskab",
-      "title_en": "Experts: Denmark is breaking conventions if 231 specific children are not granted citizenship",
-      "summary_da": "B?rn har ret til at h?re til i et land, men det bryder Danmark, n?r statsborgerskab l?nge s?ttes p? pause, mener eksperter. Det rammer nemlig statsl?se b?rn, der er f?dt her.",
-      "summary_en": "Children have the right to belong to a country, but Denmark violates this when citizenship is put on hold for a long time, experts believe. This affects stateless children born here.",
-      "link": "https://www.dr.dk/nyheder/indland/eksperter-danmark-bryder-konventioner-hvis-231-bestemte-boern-ikke-faar-statsborgerskab",
-      "pubDate": "Sat, 03 Oct 2026 05:29:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Gr?nlandsk kommune stopper salg af alkohol",
-      "title_en": "Greenlandic municipality stops alcohol sales",
-      "summary_da": "Forbuddet sker for blandt andet at beskytte b?rnene, oplyser kommunen Kujalleq.",
-      "summary_en": "The ban is being implemented to protect children, among other things, according to the municipality of Kujalleq.",
-      "link": "https://www.dr.dk/nyheder/indland/groenland/groenlandsk-kommune-stopper-salg-af-alkohol",
-      "pubDate": "Fri, 02 Oct 2026 23:20:08 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Overfald p? kvindelige l?bere f?r Jacob til at samle bekymrede naboer til aftenture i skoven",
-      "title_en": "Attacks on female runners prompt Jacob to gather concerned neighbors for evening walks in the woods",
-      "summary_da": "Beboere vil g? ture i grupper ved Riis Skov i Aarhus og gribe ind, hvis de bliver vidne til overfald.",
-      "summary_en": "Residents will take walks in groups at Riis Skov in Aarhus and intervene if they witness assaults.",
-      "link": "https://www.dr.dk/nyheder/indland/overfald-paa-kvindelige-loebere-faar-jacob-til-samle-bekymrede-naboer-til-aftenture-i-skoven",
-      "pubDate": "Fri, 02 Oct 2026 19:12:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Knap en kvart million nordm?nd har tjekket, om de ufrivilligt er tilmeldt trossamfund",
-      "title_en": "Almost a quarter of a million Norwegians have checked whether they are involuntarily registered with a religious community",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/knap-en-kvart-million-nordmaend-har-tjekket-om-de-ufrivilligt-er-tilmeldt-trossamfund",
-      "pubDate": "Fri, 02 Oct 2026 18:12:34 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "'Jeg l?ber ikke den vej': Flere overfald g?r l?bere utrygge",
-      "title_en": "'I'm not running that way': More assaults make runners unsafe",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/jeg-loeber-ikke-den-vej-flere-overfald-goer-loebere-utrygge",
-      "pubDate": "Fri, 02 Oct 2026 18:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "81-?rige Oda vil v?re skoleven og sikre, at b?rnene f?r nok omsorg",
-      "title_en": "81-year-old Oda wants to be a school friend and ensure that the children get enough care",
-      "summary_da": "Skolens Venner oplever stor eftersp?rgsel p? at komme ud p? skolerne.",
-      "summary_en": "The Friends of the School are experiencing great demand to come out to schools.",
-      "link": "https://www.dr.dk/nyheder/indland/81-aarige-oda-vil-vaere-skoleven-og-sikre-boernene-faar-nok-omsorg",
-      "pubDate": "Fri, 02 Oct 2026 17:10:00 GMT"
     }
   ]
 }
