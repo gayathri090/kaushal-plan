@@ -1,78 +1,123 @@
 {
-  "date": "2026-10-04",
-  "generatedAt": "2026-10-04T06:42:04.701Z",
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T06:42:17.177Z",
   "items": [
     {
       "source": "DR Indland",
-      "title_da": "Solceller er popul?re: Vi g?r det for pengepungens skyld",
-      "title_en": "Solar cells are popular: We do it for the sake of our wallets",
-      "summary_da": "N?r energipriserne g?r op, fyldes ordreb?gerne hos de virksomheder, der lever af at s?tte solceller p? folks huse.",
-      "summary_en": "When energy prices go up, the order books of companies that make a living by installing solar panels on people's houses fill up.",
-      "link": "https://www.dr.dk/nyheder/indland/solceller-er-populaere-vi-goer-det-pengepungens-skyld",
-      "pubDate": "Sun, 04 Oct 2026 05:23:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "800.000 pendlere har penge til gode, og skatteministeren vil 'meget gerne af med dem'",
-      "title_en": "800,000 commuters owe money, and the tax minister 'would really like to get rid of them'",
-      "summary_da": "Hvis man nu og her vil have gavn af det forh?jede k?rselsfradrag, som regeringen vedtog i sommer, b?r man rette sin forskudsopg?relse, lyder opfordringen fra skatteminister, Jakob Engel-Schmidt (M).",
-      "summary_en": "If you want to benefit from the increased mileage deduction that the government adopted this summer, you should correct your advance tax return, says the call from Tax Minister Jakob Engel-Schmidt (M).",
-      "link": "https://www.dr.dk/nyheder/indland/800-000-pendlere-har-penge-til-gode-og-skatteministeren-vil-meget-gerne-af-med-dem",
-      "pubDate": "Sun, 04 Oct 2026 04:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Advokat raser over kommune i bet?ndt kolonihavesag: 'Deprimerende, aggressivt og usympatisk'",
-      "title_en": "Lawyer rages at municipality in heated allotment case: 'Depressing, aggressive and unsympathetic'",
-      "summary_da": "Advokat beklager sig over, at hans klienter bliver politianmeldt, mens de venter p? afg?relse i Landsretten.",
-      "summary_en": "Lawyer complains that his clients are being reported to the police while they await a decision in the High Court.",
-      "link": "https://www.dr.dk/nyheder/indland/advokat-raser-over-kommune-i-betaendt-kolonihavesag-deprimerende-aggressivt-og-usympatisk",
-      "pubDate": "Sat, 03 Oct 2026 18:12:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Musikanmelder: Syd For Solens pause kan betyde st?rkere musiknavne p? Roskilde Festival",
-      "title_en": "Music reviewer: Syd For Solens' break could mean stronger music names at Roskilde Festival",
-      "summary_da": "If?lge musikjournalist og anmelder tiltr?kker Syd For Solen og Roskilde Festival et ens publikum med aktuelle musiknavne, som taler ind i en tids?nd.",
-      "summary_en": "According to music journalist and reviewer, Syd For Solen and Roskilde Festival attract a similar audience with current music names that speak to a zeitgeist.",
-      "link": "https://www.dr.dk/nyheder/indland/musikanmelder-syd-solens-pause-kan-betyde-staerkere-musiknavne-paa-roskilde-festival",
-      "pubDate": "Sat, 03 Oct 2026 17:10:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "L?rke g?r udenom gader, hvor andre har oplevet overgreb",
-      "title_en": "Lark avoids streets where others have experienced abuse",
+      "title_da": "CPR-numre kompromitteret: Det ved vi",
+      "title_en": "CPR numbers compromised: We know that",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/laerke-gaar-udenom-gader-hvor-andre-har-oplevet-overgreb",
-      "pubDate": "Sat, 03 Oct 2026 17:07:00 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/live-uvedkommende-har-haft-adgang-til-millioner-af-cpr-numre?focusId=12577123#liveblog-embed",
+      "pubDate": "Mon, 05 Oct 2026 06:11:02 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Se, hvem fik n?sten statsborgerskab? Muslimer, europ?ere eller unge f?dt i Danmark",
-      "title_en": "Look who almost got citizenship? Muslims, Europeans or young people born in Denmark",
-      "summary_da": "De var godkendt til statsborgerskab, men s? faldt loven bort. Nu venter de uden at kende de nye regler. Se, hvem de er.",
-      "summary_en": "They were approved for citizenship, but then the law was repealed. Now they are waiting without knowing the new rules. Look who they are.",
-      "link": "https://www.dr.dk/nyheder/indland/se-hvem-fik-naesten-statsborgerskab-muslimer-europaeere-eller-unge-foedt-i-danmark",
-      "pubDate": "Sat, 03 Oct 2026 16:00:00 GMT"
+      "title_da": "LIVE Uvedkommende har haft adgang til millioner af CPR-numre",
+      "title_en": "LIVE Unauthorized person has had access to millions of CPR numbers",
+      "summary_da": "Ministeren kalder det 'en dybt alvorlig h?ndelse'.",
+      "summary_en": "The minister calls it 'a deeply serious incident'.",
+      "link": "https://www.dr.dk/nyheder/indland/live-uvedkommende-har-haft-adgang-til-millioner-af-cpr-numre",
+      "pubDate": "Mon, 05 Oct 2026 05:54:37 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Menighedsr?d vil bevare gamle gravsten, fordi ellers ville det 'v?re ligesom at slette historien'",
-      "title_en": "Parish council wants to preserve old gravestones because otherwise it would be 'like erasing history'",
-      "summary_da": "Gamle gravsten fylder ved kirkediget ved H?jen Kirke. Nu vil menighedsr?det samle dem i et lapidarium.",
-      "summary_en": "Old gravestones fill the church embankment at H?jen Church. Now the parish council wants to collect them in a lapidarium.",
-      "link": "https://www.dr.dk/nyheder/indland/menighedsraad-vil-bevare-gamle-gravsten-fordi-ellers-ville-det-vaere-ligesom-slette-historien",
-      "pubDate": "Sat, 03 Oct 2026 15:48:00 GMT"
+      "title_da": "Hvis du vil have lokalavisen, er du nu ogs? tvunget til at f? reklamer i postkassen",
+      "title_en": "If you want the local newspaper, you are now also forced to get advertisements in your mailbox",
+      "summary_da": "Det er for dyrt at levere lokalaviser, uden der ogs? f?lger en stak reklamer med, lyder det fra distributionsselskab.",
+      "summary_en": "It is too expensive to deliver local newspapers without also including a stack of advertisements, according to the distribution company.",
+      "link": "https://www.dr.dk/nyheder/indland/hvis-du-vil-have-lokalavisen-er-du-nu-ogsaa-tvunget-til-faa-reklamer-i-postkassen",
+      "pubDate": "Mon, 05 Oct 2026 05:13:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "'Det mest omtalte emne er afgifter': Landets st?rste elbilmesse st?r i skyggen af nye afgifter",
-      "title_en": "'The most talked about topic is taxes': The country's largest electric car fair is overshadowed by new taxes",
-      "summary_da": "De nye afgifter p? elbiler har f?rt til mange sp?rgsm?l fra g?sterne p? landets st?rste elbilmesse.",
-      "summary_en": "The new taxes on electric cars have led to many questions from guests at the country's largest electric car show.",
-      "link": "https://www.dr.dk/nyheder/indland/det-mest-omtalte-emne-er-afgifter-landets-stoerste-elbilmesse-staar-i-skyggen-af-nye-afgifter",
-      "pubDate": "Sat, 03 Oct 2026 15:35:00 GMT"
+      "title_da": "En af Danmarks mest trafikerede motorveje skal nu udvides",
+      "title_en": "One of Denmark's busiest motorways will now be expanded",
+      "summary_da": "Motorring 3 skal udvides p? st?rstedelen af str?kningen fra tre til fire spor. Samtidig vil man anl?gge st?jreducerende asfalt.",
+      "summary_en": "Motor Ring 3 will be expanded from three to four lanes on most of the route. At the same time, noise-reducing asphalt will be laid.",
+      "link": "https://www.dr.dk/nyheder/indland/en-af-danmarks-mest-trafikerede-motorveje-skal-nu-udvides",
+      "pubDate": "Mon, 05 Oct 2026 05:00:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Elcyklulykker n?r seks ?rs h?jdepunkt, importen n?rmer sig 100.000 i Danmark",
+      "title_en": "Electric bicycle injuries reach six-year high as imports approach 100,000 in Denmark",
+      "summary_da": "Antallet af elcyklister i Danmark n?ede sit h?jeste niveau i seks ?r, da importen af ??k?ret?jerne fortsatte med at stige. I 2025 blev 200 elcyklister kv?stet i trafikken, heraf 133 alvorligt kv?stede. Elleve cyklister d?de, if?lge tal fra Vejdirektoratet analyseret af forsikringsselskabet Alm. Brand. Elcykler kan n? [?]",
+      "summary_en": "Electric bicycle injuries in Denmark reached their highest level in six years as imports of the vehicles continued to rise. In 2025, 200 electric bicycle riders were injured in traffic, including 133 who were seriously injured. Eleven riders died, according to Danish Road Directorate figures analyzed by insurance company Alm. Brand. Electric bicycles can reach [?]",
+      "link": "https://cphpost.dk/2026-10-05/news/round-up/electric-bicycle-injuries-reach-six-year-high-as-imports-approach-100000-in-denmark/",
+      "pubDate": "Mon, 05 Oct 2026 04:15:24 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "De fleste danskere st?tter blokering af sociale medier for teenagere i nattetimerne",
+      "title_en": "Most Danes support blocking social media for teenagers during overnight hours",
+      "summary_da": "Et flertal af danskerne st?tter kravet om, at sociale medieplatforme skal blokere teenagere i alderen 15 til 17 ?r fra at se indhold mellem midnat og kl. 6, viser en ny unders?gelse. Voxmeter gennemf?rte afstemningen blandt 1.034 repr?sentative danske voksne for Digitalt Ansvar, en organisation, der fremmer ansvarlig brug af digital teknologi. I alt 62,3 procent var enige eller [?]",
+      "summary_en": "A majority of Danes support requiring social media platforms to block teenagers ages 15 to 17 from viewing content between midnight and 6 a.m., a new survey found. Voxmeter conducted the poll among 1,034 representative Danish adults for Digitalt Ansvar, an organization promoting responsible use of digital technology. A total of 62.3 percent agreed or [?]",
+      "link": "https://cphpost.dk/2026-10-05/news/round-up/most-danes-support-blocking-social-media-for-teenagers-during-overnight-hours/",
+      "pubDate": "Mon, 05 Oct 2026 04:15:17 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Den danske regering foresl?r en fire?rig plan p? 680 millioner kroner til demenspleje",
+      "title_en": "Danish government proposes 680 million DKK four-year plan for dementia care",
+      "summary_da": "Den danske regering ?nsker at afs?tte 680 millioner kroner over fire ?r til at forbedre st?tten til mennesker med demens og deres p?r?rende. Finansieringen vil blive inkluderet i n?ste ?rs forslag til finanslov, udtaler ?konomi- og indenrigsminister Pia Olsen Dyhr fra Socialistisk Folkeparti. Regeringen har ikke f?rdiggjort planens detaljer. Den vil [?]",
+      "summary_en": "Denmark?s government wants to allocate 680 million DKK over four years to improve support for people with dementia and their relatives. The funding will be included in next year?s proposed Finance Act, Economic and Interior Minister Pia Olsen Dyhr of the Socialist People?s Party said. The government has not completed the plan?s details. It will [?]",
+      "link": "https://cphpost.dk/2026-10-05/news/round-up/danish-government-proposes-680-million-dkk-four-year-plan-for-dementia-care/",
+      "pubDate": "Mon, 05 Oct 2026 04:15:11 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Rasmus H?jlund straffespark giver Danmark 1-0 Nations League-sejr over Wales",
+      "title_en": "Rasmus H?jlund penalty gives Denmark 1-0 Nations League win over Wales",
+      "summary_da": "Danmark sikrede sig en 1-0 udebanesejr over Wales i Nations League s?ndag, efter at Rasmus H?jlund scorede et straffespark i anden halvleg. Resultatet giver Danmark seks point ud af fire gruppekampe. Wales har tre point og en d?rligere indbyrdes rekord mod Danmark. Danmark har nu en st?rk chance for at ende mindst som nummer tre, mens andenpladsen [?]",
+      "summary_en": "Denmark earned a 1-0 away victory over Wales in the Nations League on Sunday after Rasmus H?jlund scored a second-half penalty. The result gives Denmark six points from four group matches. Wales has three points and a worse head-to-head record against Denmark. Denmark now has a strong chance of finishing at least third, while second [?]",
+      "link": "https://cphpost.dk/2026-10-05/news/round-up/rasmus-hojlund-penalty-gives-denmark-1-0-nations-league-win-over-wales/",
+      "pubDate": "Mon, 05 Oct 2026 04:15:04 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "\"Nogle gange f?r vi beskeden om, at vi skal d?mpe vores lys eller blive mindre, og s? f?r vi m?ske den lille smule accept\"",
+      "title_en": "?Sometimes we get the message that we need to dim our light or become smaller, and then maybe we?ll get that tiny sliver of acceptance?",
+      "summary_da": "Aisha Fukushima voksede op mellem USA og Japan og brugte ?r p? at navigere i andre menneskers fors?g p? at definere sin identitet. Efter at have flyttet til K?benhavn for omkring fem ?r siden, m?tte hun opbygge en f?lelse af f?llesskab igen fra bunden. S?dan gjorde hun.",
+      "summary_en": "Aisha Fukushima grew up between the United States and Japan and spent years navigating other people's attempts to define her identity. After moving to Copenhagen about five years ago, she had to build a sense of community again from scratch. This is how she did it.",
+      "link": "https://cphpost.dk/2026-10-05/life-in-denmark/sometimes-we-get-the-message-that-we-need-to-dim-our-light-or-become-smaller-and-then-maybe-well-get-that-tiny-sliver-of-acceptance/",
+      "pubDate": "Mon, 05 Oct 2026 04:00:00 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Ventetid i skilsmissesager kan bestemme, om barnet bor hos mor eller far",
+      "title_en": "Waiting period in divorce cases may determine whether the child lives with the mother or father",
+      "summary_da": "Advokater advarer om, at lange ventetider truer retssikkerheden og kan v?re med til at afg?re, hvor b?rnene bor efter en skilsmisse.",
+      "summary_en": "Lawyers warn that long waiting times threaten legal certainty and can help determine where children live after a divorce.",
+      "link": "https://www.dr.dk/nyheder/indland/ventetid-i-skilsmissesager-kan-bestemme-om-barnet-bor-hos-mor-eller-far",
+      "pubDate": "Mon, 05 Oct 2026 03:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Kongeparret er inviteret p? restaurant uden overenskomst: Politiker kalder det forkert",
+      "title_en": "The royal couple is invited to a restaurant without a collective agreement: Politician calls it wrong",
+      "summary_da": "Skive fejrer 700 ?rs-jubil?um i den kommende uge med kongeligt bes?g. Men en st?ende tapas kaster grus i maskineriet.",
+      "summary_en": "Skive celebrates its 700th anniversary next week with a royal visit. But a standing tapas party is throwing gravel into the machinery.",
+      "link": "https://www.dr.dk/nyheder/indland/kongeparret-er-inviteret-paa-restaurant-uden-overenskomst-politiker-kalder-det-forkert",
+      "pubDate": "Sun, 04 Oct 2026 17:49:53 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Desperat landsby tog utraditionel metode i brug. Nu har de fundet k?bmand",
+      "title_en": "Desperate village uses unconventional method. Now they've found a merchant",
+      "summary_da": "Den lille landsby ?ster T?rslev nord for Randers gik utraditionelt til v?rks, da de skulle finde en ny k?bmand. Det har nu b?ret frugt.",
+      "summary_en": "The small village of ?ster T?rslev north of Randers took an unconventional approach when they needed to find a new grocer. It has now borne fruit.",
+      "link": "https://www.dr.dk/nyheder/indland/desperat-landsby-tog-utraditionel-metode-i-brug-nu-har-de-fundet-koebmand",
+      "pubDate": "Sun, 04 Oct 2026 16:34:59 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Risikerer milliontab: Nabo til krudtfabrik rystet",
+      "title_en": "Risking millions in losses: Neighbor to gunpowder factory shaken",
+      "summary_da": "Boliger t?t p? nordjysk ammunitionsfabrik n?rmest us?lgelige - nu melder minister ud.",
+      "summary_en": "Homes close to North Jutland ammunition factory almost unsellable - now the minister announces.",
+      "link": "https://www.dr.dk/nyheder/indland/risikerer-milliontab-nabo-til-krudtfabrik-rystet",
+      "pubDate": "Sun, 04 Oct 2026 15:15:45 GMT"
     },
     {
       "source": "The Copenhagen Post",
@@ -100,51 +145,6 @@
       "summary_en": "A federal judge in the US on Friday issued a temporary injunction preventing President Donald Trump?s administration from constructing a border wall between the US and Mexico through Big Bend National Park in the state of Texas. The Reuters news agency reports this during the night before Saturday Danish time. The injunction is to remain [?]",
       "link": "https://cphpost.dk/2026-10-03/global/judge-blocks-border-wall-in-texas-national-park/",
       "pubDate": "Sat, 03 Oct 2026 06:16:19 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "New Yorks guvern?r lukker juridisk smuthul efter Cornell-sagen",
-      "title_en": "NY Gov to Close Legal Loophole After Cornell Case",
-      "summary_da": "Guvern?ren i den amerikanske stat New York, Kathy Hochul, udtalte fredag, at hun ?nsker at lukke et juridisk smuthul, der g?r det sv?rere at retsforf?lge voldt?gtssager, hvis ofrene frivilligt var berusede. Meddelelsen kommer efter, at en sag om en p?st?et gruppevoldt?gt p? Cornell University i New York har [?]",
-      "summary_en": "The governor of the US state of New York, Kathy Hochul, said on Friday that she wants to close a legal loophole that makes it harder to prosecute rape cases if the victims were voluntarily intoxicated. The announcement comes after a case concerning an alleged gang rape at Cornell University, located in New York, has [?]",
-      "link": "https://cphpost.dk/2026-10-03/global/ny-gov-to-close-legal-loophole-after-cornell-case/",
-      "pubDate": "Sat, 03 Oct 2026 06:16:14 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "To iranere sigtet for terrorplan mod j?der i Manchester",
-      "title_en": "Two Iranians charged in terror plot on Manchester Jews",
-      "summary_da": "Britisk politi har sigtet to iranske m?nd for at planl?gge terror mod j?der i Manchester-omr?det. Politiets antiterrorenhed oplyser dette i en pressemeddelelse. I forbindelse med terrorplanerne mener politiet, at de har v?ret i kontakt med en tredjepart, der muligvis befinder sig i Iran. If?lge politiet [?]",
-      "summary_en": "British police have charged two Iranian men with planning terror against Jews in the Manchester area. The police?s counter-terrorism unit states this in a press release. In connection with the terror plans, police believe they have been in contact with a third party who may be located in Iran. According to the police, the men [?]",
-      "link": "https://cphpost.dk/2026-10-03/global/two-iranians-charged-in-terror-plot-on-manchester-jews/",
-      "pubDate": "Sat, 03 Oct 2026 06:16:07 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Gr?nland kommune indf?rer midlertidigt alkoholforbud",
-      "title_en": "Greenland municipality imposes temporary alcohol ban",
-      "summary_da": "Den gr?nlandske regering, Naalakkersuisut, har indf?rt et midlertidigt forbud mod salg og udsk?nkning af alkohol i den sydgr?nlandske kommune Kujalleq. Det skriver Naalakkersuisut fredag, da forbuddet tr?dte i kraft, i en pressemeddelelse. Forbuddet kommer efter en henvendelse fra kommunalbestyrelsen i Kujalleq. ? Form?let med den midlertidige [?]",
-      "summary_en": "The Greenlandic government, Naalakkersuisut, has introduced a temporary ban on the sale and serving of alcohol in the southern Greenlandic municipality of Kujalleq. Naalakkersuisut writes this on Friday, when the ban took effect, in a press release. The ban comes following a request from the municipal council in Kujalleq. ? The purpose of the temporary [?]",
-      "link": "https://cphpost.dk/2026-10-03/news/round-up/greenland-municipality-imposes-temporary-alcohol-ban/",
-      "pubDate": "Sat, 03 Oct 2026 06:09:54 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Professor: Gammel IT g?r universiteterne til hackingm?l",
-      "title_en": "Professor: Old IT makes universities hacking targets",
-      "summary_da": "Danske universiteter opbevarer enorme m?ngder personoplysninger, mens nogle fortsat er afh?ngige af aldrende IT-systemer, der muligvis ikke lever op til moderne sikkerhedsstandarder, advarer en professor i cybersikkerhed efter det store angreb p? DTU. Gamle IT-systemer kombineret med store m?ngder f?lsomme personoplysninger g?r danske universiteter s?rligt s?rbare over for cyberangreb, if?lge Jens [?]",
-      "summary_en": "Danish universities hold vast amounts of personal data while some continue to rely on ageing IT systems that may not meet modern security standards, a cybersecurity professor warns following the major attack on DTU. Old IT systems combined with large amounts of sensitive personal data make Danish universities particularly vulnerable to cyberattacks, according to Jens [?]",
-      "link": "https://cphpost.dk/2026-10-03/news/round-up/professor-old-it-makes-universities-hacking-targets/",
-      "pubDate": "Sat, 03 Oct 2026 06:09:48 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "G7 frigiver oliereserver ? kan det bringe Danmarks rekordh?je dieselpriser ned?",
-      "title_en": "G7 releases oil reserves ? could it bring down Denmark?s record-high diesel prices?",
-      "summary_da": "Dieselpriserne i Danmark er steget til rekordniveauer. Nu frigiver G7-landene op til 100 millioner t?nder diesel og r?olie fra n?dreserver i et fors?g p? at lette presset p? de globale energimarkeder. Danske bilister kan opleve en vis lettelse fra rekordh?je dieselpriser, efter at G7-landene blev enige om at frigive [?]",
-      "summary_en": "Diesel prices in Denmark have climbed to record levels. Now the G7 countries are releasing up to 100 million barrels of diesel and crude oil from emergency reserves in an attempt to ease pressure on global energy markets. Danish motorists could see some relief from record-high diesel prices after the G7 countries agreed to release [?]",
-      "link": "https://cphpost.dk/2026-10-03/news/round-up/g7-releases-oil-reserves-could-it-bring-down-denmarks-record-high-diesel-prices/",
-      "pubDate": "Sat, 03 Oct 2026 06:09:43 +0000"
     }
   ]
 }
