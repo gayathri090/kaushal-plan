@@ -1,150 +1,150 @@
 {
-  "date": "2026-10-08",
-  "generatedAt": "2026-10-08T06:42:12.148Z",
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T06:42:12.840Z",
   "items": [
     {
       "source": "DR Indland",
-      "title_da": "Ekspert: 'September var den mest vanvittige m?ned i AI nogensinde'",
-      "title_en": "Expert: 'September was the craziest month in AI ever'",
-      "summary_da": "I l?bet af september har selvk?rende AI har angrebet virksomheder, mens techgiganter advarer om udviklingen. Filosof Jakob Lovas ser dog AI som vores bedste chance til en bedre verden.",
-      "summary_en": "During September, self-driving AI has attacked companies, while tech giants warn about the development. However, philosopher Jakob Lovas sees AI as our best chance for a better world.",
-      "link": "https://www.dr.dk/nyheder/indland/ekspert-september-var-den-mest-vanvittige-maaned-i-ai-nogensinde",
-      "pubDate": "Thu, 08 Oct 2026 06:27:00 GMT"
+      "title_da": "L?gens ord ramte Kamilla som en hammer",
+      "title_en": "The doctor's words hit Kamilla like a hammer.",
+      "summary_da": "Tusindvis af kvinder f?r diabetes, mens de er gravide, og mange tror, at risikoen for sygdommen er v?k, hvis alt er normalt, n?r de har f?dt. Nyt projekt minder kvinder om vigtig kontrol.",
+      "summary_en": "Thousands of women develop diabetes while pregnant, and many believe that the risk of the disease is gone if everything is normal after giving birth. New project reminds women of the importance of checking.",
+      "link": "https://www.dr.dk/nyheder/indland/laegens-ord-ramte-kamilla-som-en-hammer",
+      "pubDate": "Fri, 09 Oct 2026 05:49:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Hvor s?ren lagde du lige dine gamle skolekarakterer? Nu kan mange grave dem frem p? nettet",
-      "title_en": "Where the hell did you just put your old school grades? Now many people can dig them up online",
-      "summary_da": "Folkeskolekarakterer tilbage til 2002 er at finde p? nettet nu.",
-      "summary_en": "Elementary school grades back to 2002 can now be found online.",
-      "link": "https://www.dr.dk/nyheder/indland/hvor-soeren-lagde-du-lige-dine-gamle-skolekarakterer-nu-kan-mange-grave-dem-frem-paa-nettet",
-      "pubDate": "Thu, 08 Oct 2026 06:20:39 GMT"
+      "title_da": "Ny prognose: Ferietrafikken bliver ramt af brand",
+      "title_en": "New forecast: Holiday traffic will be hit by fire",
+      "summary_da": "En brand p? Vestfyn h?mmer togtrafikken p? tv?rs af landet, og der vil g? mange timer f?r togdriften er normal igen.",
+      "summary_en": "A fire on West Funen is hampering train traffic across the country, and it will be many hours before train operations are normal again.",
+      "link": "https://www.dr.dk/nyheder/seneste/brand-haemmer-togtrafikken-paa-tvaers-af-landet",
+      "pubDate": "Fri, 09 Oct 2026 04:53:24 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "USA suspenderer visumans?gninger til fagl?rte arbejdere fra Microsoft og andre virksomheder",
+      "title_en": "U.S. suspends skilled worker visa applications from Microsoft and other companies",
+      "summary_da": "Den amerikanske regering har suspenderet behandlingen af ??visumans?gninger til fagl?rte udenlandske arbejdere fra Microsoft og flere andre store teknologivirksomheder, meddelte vicepr?sident JD Vance torsdag. Ved en briefing i Det Hvide Hus beskyldte Vance Microsoft for at have afskediget 6.000 amerikanske medarbejdere, mens de ansatte 6.300 udenlandske arbejdere, if?lge AFP. \"Vores budskab til Microsoft er: I [?]",
+      "summary_en": "The U.S. government has suspended the processing of skilled foreign worker visa applications from Microsoft and several other major technology companies, Vice President JD Vance announced Thursday. Speaking at a White House briefing, Vance accused Microsoft of dismissing 6,000 American employees while hiring 6,300 foreign workers, according to AFP. ?Our message to Microsoft is: You [?]",
+      "link": "https://cphpost.dk/2026-10-09/global/u-s-suspends-skilled-worker-visa-applications-from-microsoft-and-other-companies/",
+      "pubDate": "Fri, 09 Oct 2026 04:16:21 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Hacker h?vder, at simpel adgangskode gav adgang til 8,8 millioner danske CPR-numre",
+      "title_en": "Hacker claims simple password allowed access to 8.8 million Danish CPR numbers",
+      "summary_da": "En anonym hacker har taget ansvar for at have adgang til n?sten 8,8 millioner danske CPR-numre og fort?ller avisen Politiken, at en svag adgangskode gjorde bruddet muligt. CPR-numre er personlige identifikationsnumre, der bruges i Danmarks nationale CPR-system til at identificere beboere og f? adgang til offentlige tjenester. Hackeren fortalte Politiken, at bruddet fandt sted i september [?]",
+      "summary_en": "An anonymous hacker has claimed responsibility for accessing nearly 8.8 million Danish CPR numbers, telling newspaper Politiken that a weak password made the breach possible. CPR numbers are personal identification numbers used in Denmark?s national Civil Registration System to identify residents and access public services. The hacker told Politiken that the breach occurred on September [?]",
+      "link": "https://cphpost.dk/2026-10-09/news/round-up/hacker-claims-simple-password-allowed-access-to-8-8-million-danish-cpr-numbers/",
+      "pubDate": "Fri, 09 Oct 2026 04:16:16 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Regeringen foresl?r strammere regler for seniorpension for at spare 800 millioner kroner ?rligt",
+      "title_en": "Danish government proposes tighter senior pension rules to save 800 million DKK annually",
+      "summary_da": "Den danske regering ?nsker at ?ndre, hvordan arbejdstagere kvalificerer sig til seniorpension, hvilket potentielt kan spare 800 millioner kroner ?rligt inden 2030, if?lge Jyllands-Posten. I ?jeblikket kan personer, hvis helbred begr?nser deres evne til at arbejde til 15 timer om ugen eller mindre, modtage en seniorpension i op til seks ?r, f?r de n?r folkepensionsalderen. Deres [?]",
+      "summary_en": "The Danish government wants to change how workers qualify for senior pensions, potentially saving 800 million DKK annually by 2030, according to Jyllands-Posten. Currently, people whose health limits their ability to work to 15 hours a week or less can receive a senior pension up to six years before reaching the state retirement age. Their [?]",
+      "link": "https://cphpost.dk/2026-10-09/news/round-up/danish-government-proposes-tighter-senior-pension-rules-to-save-800-million-dkk-annually/",
+      "pubDate": "Fri, 09 Oct 2026 04:16:11 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Storbritannien beholder diplomatisk mission i ?stjerusalem trods israelsk lukning",
+      "title_en": "Britain keeps diplomatic mission in East Jerusalem despite Israeli closure order",
+      "summary_da": "Storbritannien vil opretholde en diplomatisk tilstedev?relse i ?stjerusalem p? trods af en israelsk ordre om at lukke dets n?sten 200 ?r gamle konsulat, meddelte den britiske udenrigsminister Ed Miliband torsdag. Konsulatet, der h?ndterer britiske forbindelser med pal?stinensere i ?stjerusalem, Vestbredden og Gaza, havde f?et ordre om at lukke senest torsdag. Ordren fulgte Storbritanniens meddelelse i [?]",
+      "summary_en": "Britain will maintain a diplomatic presence in East Jerusalem despite an Israeli order to close its nearly 200-year-old consulate, British Foreign Secretary Ed Miliband announced Thursday. The consulate, which handles British relations with Palestinians in East Jerusalem, the West Bank and Gaza, had been ordered to close by Thursday. The order followed Britain?s announcement in [?]",
+      "link": "https://cphpost.dk/2026-10-09/global/britain-keeps-diplomatic-mission-in-east-jerusalem-despite-israeli-closure-order/",
+      "pubDate": "Fri, 09 Oct 2026 04:16:06 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Trump rapporterer om produktive Iran-forhandlinger og udelukker amerikanske angreb f?r midtvejsvalget",
+      "title_en": "Trump reports productive Iran talks and rules out U.S. strikes before midterm elections",
+      "summary_da": "Den amerikanske pr?sident Donald Trump udtalte torsdag, at Washington havde \"produktive samtaler\" med Iran og ikke ville iv?rks?tte angreb mod landet f?r midtvejsvalget den 3. november. Trump skrev p? sin Truth Social-platform, at han \"vil g?re det klart for alle\", at USA ikke ville angribe Iran \"p? noget tidspunkt f?r [?]",
+      "summary_en": "U.S. President Donald Trump said Thursday that Washington was holding ?productive talks? with Iran and would not launch attacks against the country before the November 3 midterm elections. Writing on his Truth Social platform, Trump said he ?will make it clear to everyone? that the United States would not attack Iran ?at any time before [?]",
+      "link": "https://cphpost.dk/2026-10-09/global/trump-reports-productive-iran-talks-and-rules-out-u-s-strikes-before-midterm-elections/",
+      "pubDate": "Fri, 09 Oct 2026 04:16:02 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "K?benhavns Universitet fusionerer og reorganiserer fakulteter fra 2028",
+      "title_en": "University of Copenhagen to merge and reorganize faculties from 2028",
+      "summary_da": "K?benhavns Universitet ?ndrer den m?de, dets akademiske institutter er organiseret p?, og flere fakulteter vil blive fusioneret eller opdelt i l?bet af de n?ste tre ?r. Universitetet annoncerede, at det teologiske fakultet og det humanistiske fakultet vil fusionere til ?t humanistisk-teologisk fakultet den 1. januar 2028. Det juridiske fakultet [?]",
+      "summary_en": "The University of Copenhagen is changing how its academic departments are organized, with several faculties set to merge or split over the next three years. The university announced that its Faculty of Theology and Faculty of Humanities will merge into a single Faculty of Humanities and Theology on January 1, 2028. The Faculty of Law [?]",
+      "link": "https://cphpost.dk/2026-10-09/news/round-up/university-of-copenhagen-to-merge-and-reorganize-faculties-from-2028/",
+      "pubDate": "Fri, 09 Oct 2026 04:15:57 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Den danske regering kritiseres for nedsk?ringer i studiest?tte, der rammer 18.000 familier.",
+      "title_en": "Danish government faces criticism over student grant cuts affecting 18,000 families",
+      "summary_da": "Omkring 18.000 danske familier, der modtog ?konomisk st?tte fra staten tidligere i ?r, kan miste studiest?tte til hjemmeboende unge voksne under et nyt forslag. Statsminister Mette Frederiksen fra Socialdemokraterne forsvarede de planlagte ?ndringer torsdag under ?bningsdebatten i Folketinget. \"Grundl?ggende set, som socialdemokrat, er mit synspunkt [?]",
+      "summary_en": "Around 18,000 Danish families that received government financial assistance earlier this year could lose student grants for young adults living at home under a new proposal. Prime Minister Mette Frederiksen of the Social Democrats defended the planned changes Thursday during the opening debate in the Folketing, Denmark?s parliament. ?Fundamentally, as a Social Democrat, my view [?]",
+      "link": "https://cphpost.dk/2026-10-09/news/round-up/danish-government-faces-criticism-over-student-grant-cuts-affecting-18000-families/",
+      "pubDate": "Fri, 09 Oct 2026 04:15:52 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Borgmesteren i Kyiv opfordrer beboere til at overveje midlertidigt at forlade landet, da russiske angreb intensiveres.",
+      "title_en": "Kyiv mayor urges residents to consider leaving temporarily as Russian attacks intensify",
+      "summary_da": "Borgmesteren i Kyiv, Vitali Klitschko, har advaret om, at de forv?rrede russiske angreb p? Ukraines hovedstad truer beboernes adgang til elektricitet og varme, efterh?nden som vinteren n?rmer sig. I et interview med AFP sagde Klitschko, at russiske angreb p? bygninger og kritisk infrastruktur har gjort dagligdagen stadig vanskeligere. \"Hver dag er der nye rapporter om ?delagte bygninger og om [...]",
+      "summary_en": "Kyiv Mayor Vitali Klitschko has warned that worsening Russian attacks on Ukraine?s capital are threatening residents? access to electricity and heating as winter approaches. In an interview with AFP, Klitschko said Russian strikes on buildings and critical infrastructure had made daily life increasingly difficult. ?Every day there are new reports of destroyed buildings and of [?]",
+      "link": "https://cphpost.dk/2026-10-09/global/kyiv-mayor-urges-residents-to-consider-leaving-temporarily-as-russian-attacks-intensify/",
+      "pubDate": "Fri, 09 Oct 2026 04:15:47 +0000"
     },
     {
       "source": "DR Indland",
-      "title_da": "Skal vi have lov til at overnatte overalt i naturen? Statsministerens ?nske deler vandene",
-      "title_en": "Should we be allowed to spend the night anywhere in nature? The Prime Minister's wish divides the waters",
-      "summary_da": "Mette Frederiksen foreslog i sin tale til folketingets ?bning at indf?re allemandsretten i den danske natur efter svensk og norsk forbillede.",
-      "summary_en": "In her speech at the opening of the Danish Parliament, Mette Frederiksen proposed introducing the right of access to Danish nature following the Swedish and Norwegian model.",
-      "link": "https://www.dr.dk/nyheder/indland/skal-vi-have-lov-til-overnatte-overalt-i-naturen-statsministerens-oenske-deler-vandene",
-      "pubDate": "Thu, 08 Oct 2026 06:12:00 GMT"
+      "title_da": "Ny udvikling i s?dskandale: Styrelse erkender mangelfuld kontrol med s?dbanker",
+      "title_en": "New development in sperm scandal: Board acknowledges inadequate control over sperm banks",
+      "summary_da": "Sundhedsminister er st?rkt utilfreds med styrelse og kr?ver nu for tredje gang en redeg?relse.",
+      "summary_en": "The Minister of Health is very dissatisfied with the board and is now demanding an explanation for the third time.",
+      "link": "https://www.dr.dk/nyheder/indland/ny-udvikling-i-saedskandale-styrelse-erkender-mangelfuld-kontrol-med-saedbanker",
+      "pubDate": "Fri, 09 Oct 2026 04:01:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "CPR-tyveri f?r hundredtusindvis af danskere til at oprette kreditadvarsel",
-      "title_en": "CPR theft causes hundreds of thousands of Danes to set up credit alerts",
-      "summary_da": "P? en uge er antallet af borgere med kreditadvarsel steget fra knap 250.000 til cirka 970.000.",
-      "summary_en": "In one week, the number of citizens with credit warnings has increased from almost 250,000 to approximately 970,000.",
-      "link": "https://www.dr.dk/nyheder/indland/stor-stigning-efter-cpr-laek-nu-har-naesten-en-million-danskere-oprettet-kreditadvarsel",
-      "pubDate": "Thu, 08 Oct 2026 06:06:21 GMT"
+      "title_da": "Malene br?d den onde cirkel: I Gr?nland har vi ikke v?ret gode nok til at tale om alkohol",
+      "title_en": "Malene broke the vicious circle: In Greenland, we haven't been good enough at talking about alcohol",
+      "summary_da": "Gr?nl?ndere og danskere drikker nogenlunde samme m?ngde alkohol. Alligevel skaber alkohol st?rre sociale problemer i Gr?nland.",
+      "summary_en": "Greenlanders and Danes drink roughly the same amount of alcohol. Yet alcohol causes major social problems in Greenland.",
+      "link": "https://www.dr.dk/nyheder/indland/groenland/malene-broed-den-onde-cirkel-i-groenland-har-vi-ikke-vaeret-gode-nok-til-tale-om-alkohol",
+      "pubDate": "Fri, 09 Oct 2026 02:50:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Dansk myndighed ignorerer slagtilbud p? nye fregatter: Det er en 'fuldst?ndig t?belig' situation",
-      "title_en": "Danish authority ignores bid for new frigates: It's a 'completely foolish' situation",
-      "summary_da": "Forsvarets indk?bsmyndighed vil ikke modtage tilbud fra verdens st?rste skibsbygger, selvom de kan bygge b?de billigst og hurtigst.",
-      "summary_en": "The Danish Defence Procurement Authority will not accept offers from the world's largest shipbuilder, even if they can build both the cheapest and fastest.",
-      "link": "https://www.dr.dk/nyheder/indland/dansk-myndighed-ignorerer-slagtilbud-paa-nye-fregatter-det-er-en-fuldstaendig-taabelig-situation",
-      "pubDate": "Thu, 08 Oct 2026 05:15:00 GMT"
+      "title_da": "Gr?nlands sundhedsminister t?ver med alkohol-stramninger",
+      "title_en": "Greenland's Minister of Health hesitates over alcohol restrictions",
+      "summary_da": "Behandlingstilbud efterlyser hurtig, konkret handling fra politikerne. Men dr?ftelser er n?dvendige for at sikre en balanceret politik, lyder det fra Sundhedsministeriet.",
+      "summary_en": "Treatment offers call for quick, concrete action from politicians. But discussions are necessary to ensure a balanced policy, says the Ministry of Health.",
+      "link": "https://www.dr.dk/nyheder/indland/groenland/groenlands-sundhedsminister-toever-med-alkohol-stramninger",
+      "pubDate": "Thu, 08 Oct 2026 20:53:25 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Kulturminister vil forbyde at dele AI-kopier af personer",
-      "title_en": "Minister of Culture wants to ban sharing AI copies of people",
-      "summary_da": "Et nyt lovforslag skal f? techgiganterne til hurtigt at fjerne ulovlige deepfakes.",
-      "summary_en": "A new bill aims to force tech giants to quickly remove illegal deepfakes.",
-      "link": "https://www.dr.dk/nyheder/indland/kulturminister-vil-forbyde-dele-ai-kopier-af-personer",
-      "pubDate": "Thu, 08 Oct 2026 04:54:34 GMT"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Mand id?mt et ?rs f?ngsel for overfald, der f?rte til svensk mands d?d",
-      "title_en": "Man sentenced to one year in prison for assault that led to Swedish man?s death",
-      "summary_da": "En domstol i K?benhavn har d?mt en 31-?rig mand for overfald p? en svensk politibetjent under en VM-screening i juni, hvorved offeret p?drog sig d?delige kv?stelser. K?benhavns Byret id?mte manden onsdag et ?rs f?ngsel og et et?rigt forbud mod at opholde sig i nattelivet. Han erkl?rede sig skyldig. Overfaldet fandt sted i juni [?]",
-      "summary_en": "A Copenhagen court has convicted a 31-year-old man of assaulting a Swedish police employee during a World Cup screening in June, leaving the victim with injuries that proved fatal. The Copenhagen District Court sentenced the man to one year in prison Wednesday and imposed a one-year nightlife ban. He pleaded guilty. The assault occurred June [?]",
-      "link": "https://cphpost.dk/2026-10-08/news/round-up/man-sentenced-to-one-year-in-prison-for-assault-that-led-to-swedish-mans-death/",
-      "pubDate": "Thu, 08 Oct 2026 04:25:20 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Stockholms ABBA-museum markerer 50-?rs jubil?um for 'Dancing Queen' med ny udstilling",
-      "title_en": "Stockholm?s ABBA museum marks 50 years of ?Dancing Queen? with new exhibition",
-      "summary_da": "En af den svenske popgruppe ABBAs mest kendte sange f?r sin egen udstilling i Stockholm, et halvt ?rhundrede efter udgivelsen i 1976. ABBA The Museum ?bner s?ndag en udstilling for at fejre 50-?rsdagen for ?Dancing Queen?, if?lge nyhedsbureauerne NTB og TT. Udstillingen vil unders?ge, hvordan sangen blev skabt, og [?]",
-      "summary_en": "One of Swedish pop group ABBA?s best-known songs is getting its own exhibition in Stockholm, half a century after its release in 1976. ABBA The Museum will open an exhibition Sunday celebrating the 50th anniversary of ?Dancing Queen,? according to news agencies NTB and TT. The exhibition will explore how the song was created and [?]",
-      "link": "https://cphpost.dk/2026-10-08/global/stockholms-abba-museum-marks-50-years-of-dancing-queen-with-new-exhibition/",
-      "pubDate": "Thu, 08 Oct 2026 04:25:14 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Danmark planl?gger to nye marine naturparker med en investering p? 67,8 millioner kroner",
-      "title_en": "Denmark plans two new marine nature parks with 67.8 million DKK investment",
-      "summary_da": "To omr?der i de danske farvande kan f? st?rre beskyttelse mod fiskeri og havbundsindvinding if?lge et forslag i regeringens finanslovforslag for 2027. Regeringen og Alternativet foresl?r at bruge 67,8 millioner kroner over tre ?r p? at etablere to marine naturparker. Omr?derne vil gennemg? aktiv naturgenopretning, hvilket kan omfatte opf?relse af [?]",
-      "summary_en": "Two areas of Danish waters could receive greater protection from fishing and seabed extraction under a proposal in the government?s 2027 finance bill. The government and Alternativet, the Alternative, propose spending 67.8 million DKK over three years to establish two marine nature national parks. The areas would undergo active nature restoration, which could include building [?]",
-      "link": "https://cphpost.dk/2026-10-08/news/round-up/denmark-plans-two-new-marine-nature-parks-with-67-8-million-dkk-investment/",
-      "pubDate": "Thu, 08 Oct 2026 04:25:09 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Maduro og kone st?r angiveligt over for nye amerikanske anklager for p?st?et tortur af amerikanere",
-      "title_en": "Maduro and wife reportedly face new U.S. charges over alleged torture of Americans",
-      "summary_da": "Amerikanske anklagere forbereder yderligere anklager mod den tidligere venezuelanske pr?sident Nicol?s Maduro og hans kone p? grund af p?stande om, at amerikanske statsborgere blev tortureret, mens de blev tilbageholdt i Venezuela. CNN rapporterede udviklingen med henvisning til flere unavngivne kilder, der er bekendt med efterforskningen. Reuters rapporterede ogs?, at nye anklager var forventet med henvisning til en unavngiven amerikansk embedsmand. If?lge CNN [?]",
-      "summary_en": "U.S. prosecutors are preparing additional charges against former Venezuelan President Nicol?s Maduro and his wife over allegations that American citizens were tortured while detained in Venezuela. CNN reported the development, citing several unnamed sources familiar with the investigation. Reuters also reported that new charges were expected, citing an unnamed U.S. official. According to CNN, prosecutors [?]",
-      "link": "https://cphpost.dk/2026-10-08/global/maduro-and-wife-reportedly-face-new-u-s-charges-over-alleged-torture-of-americans/",
-      "pubDate": "Thu, 08 Oct 2026 04:25:05 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Danmark foresl?r forbud mod deling af AI-genererede deepfakes uden samtykke",
-      "title_en": "Denmark proposes ban on sharing AI-generated deepfakes without consent",
-      "summary_da": "Danskerne kan f? st?rkere beskyttelse mod realistiske billeder, videoer og stemmeoptagelser genereret af kunstig intelligens under et nyt lovforslag, der blev fremsat torsdag. Kulturminister Zenia Stampe fra Radikale Venstre ?nsker at forhindre, at digitale efterligninger af folks udseende og stemmer, kendt som deepfakes, deles uden deres samtykke. \"Med kunstig intelligens kan du [...]",
-      "summary_en": "People in Denmark could gain stronger protection against realistic AI-generated images, videos and voice recordings under a new bill introduced Thursday. Culture Minister Zenia Stampe of Radikale Venstre, the Social Liberal Party, wants to prevent digital imitations of people?s appearance and voices, known as deepfakes, from being shared without their consent. ?With artificial intelligence, you [?]",
-      "link": "https://cphpost.dk/2026-10-08/news/round-up/denmark-proposes-ban-on-sharing-ai-generated-deepfakes-without-consent/",
-      "pubDate": "Thu, 08 Oct 2026 04:25:00 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Danmark udvider undtagelser fra nye kv?lstofregler for frugt- og gr?ntsagsavlere",
-      "title_en": "Denmark expands exemptions from new nitrogen rules for fruit and vegetable growers",
-      "summary_da": "Flere danske landm?nd vil f? midlertidige undtagelser fra nye g?dningsrestriktioner efter bekymringer om, at reglerne kan g?re det vanskeligere at dyrke visse frugter og gr?ntsager. Ministeriet for Natur og Dyrevelf?rd har annonceret, at afgr?der som meloner, rabarber, jordb?r, spisedruer og gr?skar vil v?re undtaget fra de nye kv?lstofregler i hele 2027. Tr?agtige planter [?]",
-      "summary_en": "More Danish farmers will receive temporary exemptions from new fertilizer restrictions after concerns that the rules could make growing certain fruits and vegetables more difficult. The Ministry of Nature and Animal Welfare announced that crops including melons, rhubarb, strawberries, table grapes and pumpkins will be exempt from the new nitrogen regulations throughout 2027. Woody plants [?]",
-      "link": "https://cphpost.dk/2026-10-08/news/round-up/denmark-expands-exemptions-from-new-nitrogen-rules-for-fruit-and-vegetable-growers/",
-      "pubDate": "Thu, 08 Oct 2026 04:24:55 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "EU-budgetforhandlinger g?r ind i en afg?rende fase, da Irland forbereder et revideret forslag",
-      "title_en": "EU budget talks enter key phase as Ireland prepares revised proposal",
-      "summary_da": "EU-landene vil l?rdag modtage et revideret forslag til blokkens budget for 2028-2034, i takt med at forhandlingerne n?rmer sig n?ste uges topm?de. Irland, der har EU-formandskabet, vil pr?sentere et nyt forhandlingsdokument med tal, der vil danne grundlag for samtaler mellem EU-lederne. \"Vi fors?ger at finde balancer i synspunkterne [...]",
-      "summary_en": "EU countries will receive a revised proposal for the bloc?s 2028-2034 budget Saturday as negotiations move closer to next week?s summit. Ireland, which holds the EU presidency, will present a new negotiating document containing figures that will form the basis for talks among EU leaders. ?We are trying to strike the balances in the views [?]",
-      "link": "https://cphpost.dk/2026-10-08/global/eu-budget-talks-enter-key-phase-as-ireland-prepares-revised-proposal/",
-      "pubDate": "Thu, 08 Oct 2026 04:24:50 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Danmark har brug for internationale arbejdstagere. Kan landets politik f? dem til at f?le sig velkomne?",
-      "title_en": "Denmark needs international workers. Can its politics make them feel welcome?",
-      "summary_da": "Danmark har brug for internationale arbejdere. Vil den socialdemokratisk-ledede regering give deres bidrag st?rre anerkendelse, selvom det g?r partiet mere udsat for angreb fra h?jrefl?jen?",
-      "summary_en": "Denmark needs international workers. Will its Social Democrat-led government give their contribution greater recognition, even if it leaves the party more exposed to attacks from the right?",
-      "link": "https://cphpost.dk/2026-10-08/news/politics/denmark-needs-international-workers-can-its-politics-make-them-feel-welcome/",
-      "pubDate": "Thu, 08 Oct 2026 04:00:00 +0000"
+      "title_da": "Det begyndte med en mudret vandpyt p? Fyn. Nu er video med hoppende b?rn set 20 millioner gange",
+      "title_en": "It started with a muddy puddle on Funen. Now a video of jumping children has been viewed 20 million times",
+      "summary_da": "En video med fynske b?rnehaveb?rn i regnvejrsleg er g?et viralt p? sociale medier.",
+      "summary_en": "A video of kindergarten children from Funen playing in the rain has gone viral on social media.",
+      "link": "https://www.dr.dk/nyheder/kultur/det-begyndte-med-en-mudret-vandpyt-paa-fyn-nu-er-video-med-hoppende-boern-set-20-millioner-gange",
+      "pubDate": "Thu, 08 Oct 2026 19:28:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Tidligere f?ngselsbetjent afsl?rer gensidig voldelig kultur",
-      "title_en": "Former prison officer reveals mutual violent culture",
-      "summary_da": "Der er flere indsatte end nogensinde og historisk f? ansatte i de danske f?ngsler. Tidligere f?ngselsbetjent fort?ller nu om et arbejdsliv, der endte med en PTSD-diagnose.",
-      "summary_en": "There are more inmates than ever and historically few employees in Danish prisons. A former prison officer now talks about a working life that ended with a PTSD diagnosis.",
-      "link": "https://www.dr.dk/nyheder/indland/tidligere-faengselsbetjent-afsloerer-gensidig-voldelig-kultur",
-      "pubDate": "Wed, 07 Oct 2026 19:53:00 GMT"
+      "title_da": "Er der h?b? Ja, siger eksperter: 'Jeg ville f?rst for alvor v?re bekymret, hvis det kun var i de store byer, man trivedes'",
+      "title_en": "Is there hope? Yes, experts say: 'I would only be seriously worried if it was only in the big cities that people thrived'",
+      "summary_da": "Kommunekasserne bl?der, n?r dem, der bidrager mest til kommunekassen, s?ger mod de st?rre byer. Men der er en modstr?m, og familien Berenthz er en del af den.",
+      "summary_en": "Municipal coffers are bleeding when those who contribute the most to the municipal treasury head for the larger cities. But there is a countercurrent, and the Berenthz family is part of it.",
+      "link": "https://www.dr.dk/nyheder/indland/er-der-haab-ja-siger-eksperter-jeg-ville-foerst-alvor-vaere-bekymret-hvis-det-kun-var-i-de-store",
+      "pubDate": "Thu, 08 Oct 2026 18:46:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "En septembernat reddede Rune og hans kollegaer 16 liv. Nu h?dres de",
-      "title_en": "One September night, Rune and his colleagues saved 16 lives. Now they are being honored",
-      "summary_da": "Hvad der startede som en brand i en skraldespand eskalerede en septembernat i 2025 til en livstruende situation. Nu modtager brandfolk s?rlig pris.",
-      "summary_en": "What started as a fire in a trash can escalated into a life-threatening situation one September night in 2025. Now firefighters are receiving a special award.",
-      "link": "https://www.dr.dk/nyheder/indland/en-septembernat-reddede-rune-og-hans-kollegaer-16-liv-nu-haedres-de",
-      "pubDate": "Wed, 07 Oct 2026 18:48:00 GMT"
+      "title_da": "Endelig plan for omstridte elmaster klar - Mette og Brian blev reddet p? m?lstregen",
+      "title_en": "Final plan for controversial electricity pylons ready - Mette and Brian were rescued at the finish line",
+      "summary_da": "Efter over et ?rs kamp for at f? ?ndret linjef?ringen slipper Mette og Brian Breitenstein nu for at opgive deres ejendom til h?jsp?ndingsmaster.",
+      "summary_en": "After over a year of fighting to change the line, Mette and Brian Breitenstein now do not have to give up their property to high-voltage pylons.",
+      "link": "https://www.dr.dk/nyheder/indland/endelig-plan-omstridte-elmaster-klar-mette-og-brian-blev-reddet-paa-maalstregen",
+      "pubDate": "Thu, 08 Oct 2026 18:02:00 GMT"
     }
   ]
 }
