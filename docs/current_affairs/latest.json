@@ -1,150 +1,150 @@
 {
-  "date": "2026-10-13",
-  "generatedAt": "2026-10-13T06:42:06.529Z",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T06:42:10.489Z",
   "items": [
     {
       "source": "DR Indland",
-      "title_da": "Har du brugt AI p? din svampejagt? Her er naturvejlederen og overl?gens bedste r?d til ikke at g? galt i byen",
-      "title_en": "Have you used AI on your mushroom hunt? Here's the best advice from the nature guide and the chief physician to avoid going wrong in the city",
-      "summary_da": "Giftlinjen har de seneste uger haft dobbelt s? mange 'svampesager' i forhold til de travleste uger sidste ?r.",
-      "summary_en": "The poison control center has had twice as many 'mushroom cases' in recent weeks compared to the busiest weeks last year.",
-      "link": "https://www.dr.dk/nyheder/indland/har-du-brugt-ai-paa-din-svampejagt-her-er-naturvejlederen-og-overlaegens-bedste-raad-til-ikke-gaa",
-      "pubDate": "Tue, 13 Oct 2026 06:12:00 GMT"
+      "title_da": "Nu begynder 'opsigtsv?kkende' retssag om Nord Stream-spr?ngninger",
+      "title_en": "'Spectacular' trial begins over Nord Stream blasts",
+      "summary_da": "En 50-?rig ukrainer er tiltalt for medvirken til et angreb p? civile objekter, for at have fremkaldt en spr?ngstofeksplosion og for ?del?ggelse af bygningsv?rker.",
+      "summary_en": "A 50-year-old Ukrainian man has been charged with complicity in an attack on civilian objects, causing an explosive device explosion and destroying buildings.",
+      "link": "https://www.dr.dk/nyheder/indland/nu-starter-opsigtsvaekkende-retssag-om-nord-stream-spraengninger",
+      "pubDate": "Wed, 14 Oct 2026 05:31:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Danske supermarkeder gennemg?r cyberrisici efter angreb p? franske dagligvarek?der",
+      "title_en": "Danish supermarkets review cyber risks after attacks on French grocery chains",
+      "summary_da": "En hackingh?ndelse, der p?virker k?lesystemer i hundredvis af franske butikker, har f?et Danmarks store dagligvareforhandlere til at understrege deres digitale sikkerhedsforanstaltninger. Angrebet ramte supermarkeder drevet af Intermarch? og Coop?rative U mandag, hvilket fik k?lemontrerne til at stige i temperatur. De ber?rte k?lesystemer blev leveret af den danske industrivirksomhed Danfoss. F?devareindustrien [?]",
+      "summary_en": "A hacking incident affecting refrigeration systems in hundreds of French stores has prompted Denmark?s major grocery retailers to emphasize their digital security measures. The attack struck supermarkets operated by Intermarch? and Coop?rative U on Monday, causing refrigerated display cases to increase their temperatures. The affected cooling systems were supplied by Danish industrial company Danfoss. Food [?]",
+      "link": "https://cphpost.dk/2026-10-14/business-education/business-business-education/danish-supermarkets-review-cyber-risks-after-attacks-on-french-grocery-chains/",
+      "pubDate": "Wed, 14 Oct 2026 04:28:29 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Kirsten Schwalbe bliver Danmarks ?ldste person nogensinde i en alder af 112 ?r.",
+      "title_en": "Kirsten Schwalbe becomes Denmark?s oldest person ever at 112",
+      "summary_da": "En kvinde fra Struer har sat en national rekord for levetid. Den n?ede onsdag 112 ?r og 218 dage og overgik dermed den tidligere rekord, der blev holdt af Karla Lindholm Jensen. Schwalbe slutter sig ogs? til listen over Europas 10 ?ldste nulevende personer. Verdens ?ldste nulevende person er briten Ethel Caterham, som er 117. Den tidligere danske rekord [?]",
+      "summary_en": "A woman from Struer has set a national longevity record, reaching 112 years and 218 days on Wednesday and surpassing the previous record held by Karla Lindholm Jensen. Schwalbe also joins the list of Europe?s 10 oldest living people. The world?s oldest living person is Britain?s Ethel Caterham, who is 117. The previous Danish record [?]",
+      "link": "https://cphpost.dk/2026-10-14/news/round-up/kirsten-schwalbe-becomes-denmarks-oldest-person-ever-at-112/",
+      "pubDate": "Wed, 14 Oct 2026 04:28:23 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Volvo tilbagekalder 234.000 elbiler p? grund af sikkerhedsproblemer med nakkest?tter",
+      "title_en": "Volvo recalls 234,000 electric cars over headrest safety concerns",
+      "summary_da": "If?lge Volvos danske afdeling er mere end 5.500 k?ret?jer i Danmark ber?rt af en global sikkerhedsforanstaltning, der involverer den svenske bilproducents EX30 elektriske SUV. Tilbagekaldelsen d?kker 234.000 biler p? verdensplan, herunder 5.542 EX30 og EX30 Cross Country-k?ret?jer i Danmark fra model?r 2024 til 2027. Volvo sagde, at problemet involverer puder, der er fastgjort til [?]",
+      "summary_en": "More than 5,500 vehicles in Denmark are affected by a global safety measure involving the Swedish automaker?s EX30 electric SUV, according to Volvo?s Danish division. The recall covers 234,000 cars worldwide, including 5,542 EX30 and EX30 Cross Country vehicles in Denmark from model years 2024 through 2027. Volvo said the problem involves cushions attached to [?]",
+      "link": "https://cphpost.dk/2026-10-14/global/volvo-recalls-234000-electric-cars-over-headrest-safety-concerns/",
+      "pubDate": "Wed, 14 Oct 2026 04:28:16 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Bank of America risikerer b?der p? 1,2 milliarder dollars for hvidvaskning af penge",
+      "title_en": "Bank of America faces 1.2 billion USD in fines over money laundering violations",
+      "summary_da": "Amerikanske myndigheder siger, at landets n?stst?rste bank undlod at rapportere mist?nkelige transaktioner for mere end 5 milliarder USD, herunder nogle relateret til nationale sikkerhedsproblemer. Finansministeriet annoncerede b?der p? over 1,2 milliarder USD, cirka 8 milliarder DKK, for p?st?et manglende overholdelse af reglerne om bek?mpelse af hvidvaskning af penge og sanktioner. If?lge embedsm?nd var nogle transaktioner [?]",
+      "summary_en": "U.S. authorities say the country?s second-largest bank failed to report more than 5 billion USD in suspicious transactions, including some linked to national security concerns. The Treasury Department announced penalties exceeding 1.2 billion USD, approximately 8 billion DKK, over alleged failures to comply with anti-money laundering and sanctions regulations. According to officials, some transactions were [?]",
+      "link": "https://cphpost.dk/2026-10-14/global/bank-of-america-faces-1-2-billion-usd-in-fines-over-money-laundering-violations/",
+      "pubDate": "Wed, 14 Oct 2026 04:28:01 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Regeringsparti foresl?r obligatoriske hjelme for elcykelryttere",
+      "title_en": "Government party proposes mandatory helmets for e-bike riders",
+      "summary_da": "Stigende antal alvorlige trafikskader har f?et Moderaterne til at kr?ve strengere sikkerhedsregler for elcyklister. Sten Larsen, partiets sundhedsordf?rer, udtalte til TV2 ?stjylland, at hjelm b?r g?res lovpligtigt for elcyklister. \"Elcykler er b?de tungere og hurtigere end almindelige cykler,\" sagde Larsen. Han [?]",
+      "summary_en": "Rising numbers of serious traffic injuries have prompted Moderaterne, the Moderates, to call for stricter safety rules for people using electric bicycles. Sten Larsen, the party?s health spokesperson, told regional broadcaster TV2 ?stjylland that helmets should become a legal requirement for e-bike riders. ?E-bikes are both heavier and faster than regular bicycles,? Larsen said. He [?]",
+      "link": "https://cphpost.dk/2026-10-14/news/round-up/government-party-proposes-mandatory-helmets-for-e-bike-riders/",
+      "pubDate": "Wed, 14 Oct 2026 04:27:55 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Ukrainsk mist?nkt stilles for retten i Tyskland for eksplosioner i Nord Stream-r?rledningen",
+      "title_en": "Ukrainian suspect goes on trial in Germany over Nord Stream pipeline explosions",
+      "summary_da": "En 50-?rig tidligere ukrainsk milit?rofficer, der er anklaget for at have ledet sabotageoperationen i ?sters?en i september 2022, skal onsdag fremstilles for en domstol i Hamborg. Retssagen, der forventes at vare flere m?neder, omhandler eksplosioner, der beskadigede gasr?rledningerne Nord Stream 1 og 2 n?r Bornholm. R?rledningerne var [?]",
+      "summary_en": "A 50-year-old former Ukrainian military officer accused of leading the September 2022 sabotage operation in the Baltic Sea is due to appear before a Hamburg court Wednesday. The trial, expected to last several months, concerns explosions that damaged the Nord Stream 1 and 2 gas pipelines near the Danish island of Bornholm. The pipelines were [?]",
+      "link": "https://cphpost.dk/2026-10-14/global/ukrainian-suspect-goes-on-trial-in-germany-over-nord-stream-pipeline-explosions/",
+      "pubDate": "Wed, 14 Oct 2026 04:27:49 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Venstre foresl?r at flytte dansk udviklingsbistand mod Nordafrika for at im?deg? migration",
+      "title_en": "Venstre suggests shifting Danish development aid toward North Africa to address migration",
+      "summary_da": "Danmark b?r fastholde sit nuv?rende budget for udviklingsbistand, men ?ndre, hvor pengene g?r hen, if?lge Jacob Jensen, udenrigsordf?rer for Venstre. Jensen fortalte Ritzau, at hans parti ?nsker at forts?tte med at bruge 0,7 procent af bruttonationalindkomsten p? udviklingsbistand ?rligt. Han ?nsker dog, at flere midler rettes mod fire eller [?]",
+      "summary_en": "Denmark should maintain its current foreign aid budget but change where the money goes, according to Jacob Jensen, foreign affairs spokesperson for Venstre, Denmark?s Liberal Party. Jensen told Ritzau that his party wants to continue spending 0.7 percent of gross national income on development aid annually. However, he wants more funding directed toward four or [?]",
+      "link": "https://cphpost.dk/2026-10-14/news/round-up/venstre-suggests-shifting-danish-development-aid-toward-north-africa-to-address-migration/",
+      "pubDate": "Wed, 14 Oct 2026 04:27:44 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "EU-ledere st?r over for pres for at forberede sig p? udvidelse i takt med at medlemskabsforhandlingerne skrider frem",
+      "title_en": "EU leaders face pressure to prepare for expansion as membership talks advance",
+      "summary_da": "Montenegro kan blive Den Europ?iske Unions 28. medlem i 2028 efter fremskridt i tiltr?delsesforhandlingerne, der har bragt landet t?ttere p? at blive medlem af blokken. Landet afsluttede tre forhandlingskapitler mandag, og arbejdet med at udarbejde en tiltr?delsestraktat er begyndt. Medlemskab kr?ver stadig godkendelse fra alle 27 eksisterende EU-lande. Ukraine, Moldova og [?]",
+      "summary_en": "Montenegro could become the European Union?s 28th member in 2028, following progress in accession negotiations that has brought the country closer to joining the bloc. The country closed three negotiating chapters Monday, and work has begun on drafting an accession treaty. Membership would still require approval from all 27 existing EU countries. Ukraine, Moldova and [?]",
+      "link": "https://cphpost.dk/2026-10-14/global/eu-leaders-face-pressure-to-prepare-for-expansion-as-membership-talks-advance/",
+      "pubDate": "Wed, 14 Oct 2026 04:27:38 +0000"
     },
     {
       "source": "DR Indland",
-      "title_da": "N?sten hver anden vil af med ell?behjul",
-      "title_en": "Almost every second person wants to get rid of electric scooters",
-      "summary_da": "En rundsp?rge, som Epinion har lavet for DR, viser, at 44 procent af danskerne vil forbyde k?rsel p? ell?behjul.",
-      "summary_en": "A survey conducted by Epinion for DR shows that 44 percent of Danes want to ban e-scooters.",
-      "link": "https://www.dr.dk/nyheder/indland/naesten-hver-anden-vil-af-med-populaere-loebehjul",
-      "pubDate": "Tue, 13 Oct 2026 04:55:00 GMT"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "DSB varsler l?ngere rejsetider mellem Odense og Fredericia",
-      "title_en": "DSB warns of longer travel times between Odense and Fredericia",
-      "summary_da": "Passagerer, der rejser med DSB, skal forvente l?ngere rejser mellem Odense og Fredericia frem til s?ndag den 18. oktober. Alle regionaltog p? ruten er blevet erstattet af togbusser, oplyste DSB mandag. Internationale tog og DSB's InterCity- og InterCityLyn-tjenester k?rer, men skal k?re med reducerede hastigheder langs dele af [?]",
-      "summary_en": "Passengers traveling with Denmark?s national rail operator DSB should expect longer journeys between Odense and Fredericia through Sunday, October 18. All regional trains on the route have been replaced by rail replacement buses, DSB said Monday. International trains and DSB?s InterCity and InterCityLyn services are operating but must travel at reduced speeds along parts of [?]",
-      "link": "https://cphpost.dk/2026-10-13/news/round-up/dsb-warns-of-longer-travel-times-between-odense-and-fredericia/",
-      "pubDate": "Tue, 13 Oct 2026 04:23:48 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Lejlighedspriserne i K?benhavn falder, mens Aarhus n?r nye h?jder",
-      "title_en": "Copenhagen apartment prices fall as Aarhus reaches new highs",
-      "summary_da": "Lejlighedspriserne i K?benhavn faldt for anden m?ned i tr?k i september, mens priserne i Aarhus steg kraftigt. Den gennemsnitlige salgspris for ejerlejligheder i K?benhavns Kommune faldt med 1,0 procent fra august til september, if?lge boligplatformen Boligsiden. Priserne faldt med 0,5 procent den foreg?ende m?ned. Bolig?konom hos Boligsiden, Birgit Daetz, sagde [?]",
-      "summary_en": "Apartment prices in Copenhagen fell for the second consecutive month in September, while prices in Aarhus rose sharply. The average sales price for owner-occupied apartments in Copenhagen Municipality declined by 1.0 percent from August to September, according to housing platform Boligsiden. Prices fell by 0.5 percent the previous month. Boligsiden housing economist Birgit Daetz said [?]",
-      "link": "https://cphpost.dk/2026-10-13/news/round-up/copenhagen-apartment-prices-fall-as-aarhus-reaches-new-highs/",
-      "pubDate": "Tue, 13 Oct 2026 04:23:42 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Mist?nkt hacker siger, at AI har skabt program, der blev brugt i dansk CPR-brud",
-      "title_en": "Suspected hacker says AI created program used in Danish CPR breach",
-      "summary_da": "Den formodede hacker bag tyveriet af n?sten 8,75 millioner danske CPR-numre siger, at kunstig intelligens skabte computerprogrammet, der blev brugt i angrebet. \"Enhver AI-model, der er lanceret inden for det seneste ?r eller deromkring, ville v?re i stand til at g?re det,\" fortalte den anonyme person til Politiken. To eksperter gennemgik programmet, som indeholder mere [?]",
-      "summary_en": "The suspected hacker behind the theft of nearly 8.75 million Danish CPR numbers says artificial intelligence created the computer program used in the attack. ?Any AI model launched within the past year or so would be able to do it,? the anonymous person told Danish newspaper Politiken. Two experts reviewed the program, which contains more [?]",
-      "link": "https://cphpost.dk/2026-10-13/news/round-up/suspected-hacker-says-ai-created-program-used-in-danish-cpr-breach/",
-      "pubDate": "Tue, 13 Oct 2026 04:23:37 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Gr?nlandsk opposition kr?ver folkeafstemning om ny amerikansk forsvarsaftale",
-      "title_en": "Greenland opposition seeks referendum on new US defence agreement",
-      "summary_da": "Gr?nlands oppositionsparti Naleraq har opfordret til en folkeafstemning om den nye sikkerheds- og forsvarsaftale mellem Gr?nland, Danmark og USA. Aftalen blev f?rstebehandlet mandag i Inatsisartut, Gr?nlands parlament. Formanden for Naleraq, Pele Broberg, sagde, at aftalen omdanner Gr?nlands strategiske betydning til rettigheder for USA uden at give sammenlignelige ?konomiske [?]",
-      "summary_en": "Greenland?s opposition party Naleraq has called for a referendum on the new security and defence agreement between Greenland, Denmark and the United States. The agreement received its first reading Monday in Inatsisartut, Greenland?s parliament. Naleraq chair Pele Broberg said the agreement converts Greenland?s strategic importance into rights for the United States without providing comparable economic [?]",
-      "link": "https://cphpost.dk/2026-10-13/news/round-up/greenland-opposition-seeks-referendum-on-new-us-defence-agreement/",
-      "pubDate": "Tue, 13 Oct 2026 04:23:30 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "En moderne tilgang til bryllupsfotografering set fra en erfaren LGBTQIA+ fotografs ?jne",
-      "title_en": "A modern approach to wedding photography through the eyes of an experienced LGBTQIA+ photographer",
-      "summary_da": "Gennem en empatidrevet tilgang guider Martina Lanotte queer par p? en naturlig m?de ind i deres bryllupsfotografering.",
-      "summary_en": "Through an empathy-driven approach, Martina Lanotte guides queer couples in a natural way into their wedding photo shoot session",
-      "link": "https://cphpost.dk/2026-10-13/life-in-denmark/a-modern-approach-to-wedding-photography-through-the-eyes-of-an-experienced-lgbtqia-photographer/",
-      "pubDate": "Tue, 13 Oct 2026 04:00:00 +0000"
+      "title_da": "Region i opr?b: Giv os minimum 30 millioner kroner. Ellers m? vi lukke busruter",
+      "title_en": "Region in call: Give us at least 30 million kroner. Otherwise we will have to close bus routes",
+      "summary_da": "Det er blandt andet de unge, som v?lger rattet fremfor buskortet, der presser den kollektive transport.",
+      "summary_en": "It is, among other things, the young people who choose the wheel over the bus pass who are putting pressure on public transport.",
+      "link": "https://www.dr.dk/nyheder/indland/region-i-opraab-giv-os-minimum-30-millioner-kroner-ellers-maa-vi-lukke-busruter",
+      "pubDate": "Wed, 14 Oct 2026 04:11:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Amnesty dybt bekymret over afvisning af LGBTQ+-lommebog",
-      "title_en": "Amnesty deeply concerned about rejection of LGBTQ+ wallet",
-      "summary_da": "Fire organisationer har sendt et brev til regionr?dsformand Bo Libergren (V). De er bekymrede over, at regionen har afvist en h?ndbog til sundhedspersonale.",
-      "summary_en": "Four organizations have sent a letter to regional council chairman Bo Libergren (V). They are concerned that the region has rejected a handbook for healthcare professionals.",
-      "link": "https://www.dr.dk/nyheder/indland/amnesty-dybt-bekymret-over-afvisning-af-lgbtq-lommebog",
-      "pubDate": "Mon, 12 Oct 2026 19:44:00 GMT"
+      "title_da": "LIVE Danmark, Gr?nland og USA har en aftale p? plads",
+      "title_en": "LIVE Denmark, Greenland and the USA have an agreement in place",
+      "summary_da": "F? seneste nyt om kampen om Gr?nlands fremtid her.",
+      "summary_en": "Get the latest news about the fight for Greenland's future here.",
+      "link": "https://www.dr.dk/nyheder/indland/groenland/live-danmark-groenland-og-usa-har-en-aftale-paa-plads",
+      "pubDate": "Wed, 14 Oct 2026 04:00:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Historisk debat i det gr?nlandske parlament: Her er tre punkter, der stadig skaber usikkerhed om USA-aftalen",
-      "title_en": "Historic debate in the Greenlandic parliament: Here are three points that still create uncertainty about the US agreement",
-      "summary_da": "I dag begyndte det gr?nlandske parlament Inatsisartut behandlingen af sikkerhedsaftalen med USA. P? trods af bred opbakning var der stadig usikkerhed om flere elementer.",
-      "summary_en": "Today, the Greenlandic parliament Inatsisartut began consideration of the security agreement with the U.S. Despite broad support, there was still uncertainty about several elements.",
-      "link": "https://www.dr.dk/nyheder/indland/groenland/historisk-debat-i-det-groenlandske-parlament-her-er-tre-punkter-der-stadig-skaber-usikkerhed-om-usa",
-      "pubDate": "Mon, 12 Oct 2026 19:15:29 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "K?mpe bunke affald smidt p? p-plads",
-      "title_en": "Huge pile of garbage dumped in parking lot",
+      "title_da": "Kirsten er den ?ldste dansker nogensinde",
+      "title_en": "Kirsten is the oldest Dane ever",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/kaempe-bunke-affald-smidt-paa-p-plads",
-      "pubDate": "Mon, 12 Oct 2026 19:03:00 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/reels/kirsten-bliver-den-aeldste-dansker-112-aar-og-218-dage",
+      "pubDate": "Wed, 14 Oct 2026 03:34:50 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Finn dr?mmer om spejle bagerst i klassen for at stoppe spil og online-shopping",
-      "title_en": "Finn dreams of mirrors at the back of the classroom to stop gambling and online shopping",
-      "summary_da": "L?rer Finn Rasmussen fra Rundh?jskolen i Aarhus mener, at computersk?rmene skaber for mange forstyrrelser for eleverne i skolen.",
-      "summary_en": "Teacher Finn Rasmussen from Rundh?jskolen in Aarhus believes that computer screens create too many distractions for students at school.",
-      "link": "https://www.dr.dk/nyheder/indland/finn-droemmer-om-spejle-bagest-i-klassen-stoppe-spil-og-online-shopping",
-      "pubDate": "Mon, 12 Oct 2026 18:50:00 GMT"
+      "title_da": "Aarhus Universitet retter fejl i beregning bag kv?lstofregulering",
+      "title_en": "Aarhus University corrects calculation errors behind nitrogen regulation",
+      "summary_da": "Beregning, som skulle bruges til at fastl?gge brakl?gningstidspunkt, indeholder fejl, erkender universitet.",
+      "summary_en": "The calculation that was supposed to be used to determine the fallowing date contains errors, the university acknowledges.",
+      "link": "https://www.dr.dk/nyheder/indland/aarhus-universitet-retter-fejl-i-beregning-bag-kvaelstofregulering",
+      "pubDate": "Tue, 13 Oct 2026 20:23:36 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Kom med ?Mir? i luften til flyvev?bnets 100-?rs jubil?um",
-      "title_en": "Join 'Mir' in the air for the Air Force's 100th anniversary",
+      "title_da": "DSB: 'Togene k?rer igen i morgen. Det forventer vi'",
+      "title_en": "DSB: 'Trains will run again tomorrow. We expect that'",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/kom-med-mir-i-luften-til-flyvevaabnets-100-aars-jubilaeum",
-      "pubDate": "Mon, 12 Oct 2026 17:58:00 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/reels/dsb-togene-koerer-igen-i-morgen-det-forventer-vi",
+      "pubDate": "Tue, 13 Oct 2026 18:58:26 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Se Forsvarets video fra omstridt h?ndelse ved Borris Skydeterr?n",
-      "title_en": "Watch the Defence Forces' video from the controversial incident at Borris Shooting Range",
+      "title_da": "Boligpriser falder: 'Det er markedet, der skal have pusten'",
+      "title_en": "House prices are falling: 'It's the market that needs to catch its breath'",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/se-forsvarets-video-fra-omstridt-haendelse-ved-borris-skydeterraen",
-      "pubDate": "Mon, 12 Oct 2026 17:35:54 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/reels/boligpriser-falder-det-er-markedet-der-skal-have-pusten",
+      "pubDate": "Tue, 13 Oct 2026 18:43:00 GMT"
     },
     {
-      "source": "The Copenhagen Post",
-      "title_da": "Museer og dyreparker er danskernes st?rste efter?rsferieaktiviteter",
-      "title_en": "Museums and animal parks are Danes? top autumn holiday activities",
-      "summary_da": "Museer og dyreparker er de mest popul?re attraktioner blandt danskere, der planl?gger aktiviteter i efter?rsferien. En ud af fem personer, der tilbringer ferien i Danmark, planl?gger at bes?ge et museum eller en dyrepark, if?lge en Norstat-unders?gelse foretaget for Dansk Erhverv, Dansk Erhverv og en st?rre erhvervsforening. Historiske attraktioner, [?]",
-      "summary_en": "Museums and animal parks are the most popular attractions among Danes planning activities during the autumn holiday. One in five people spending the holiday in Denmark plans to visit a museum or animal park, according to a Norstat survey conducted for Dansk Erhverv, the Danish Chamber of Commerce and a major business association. Historical attractions, [?]",
-      "link": "https://cphpost.dk/2026-10-12/news/round-up/museums-and-animal-parks-are-danes-top-autumn-holiday-activities/",
-      "pubDate": "Mon, 12 Oct 2026 13:52:41 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Antallet af f?rtidspensionister under 40 ?r falder for f?rste gang siden 2020",
-      "title_en": "Number of disability pensioners under 40 falls for first time since 2020",
-      "summary_da": "Antallet af personer under 40 ?r, der modtager f?rtidspension i Danmark, er faldet for f?rste gang i mere end seks ?r, if?lge tal fra Jobindsats.dk's besk?ftigelsesdatabase. I september modtog 43.229 personer i aldersgruppen f?rtidspension, 98 f?rre end i august. Det var det f?rste m?nedlige fald siden begyndelsen af ??[?]",
-      "summary_en": "The number of people under age 40 receiving disability pensions in Denmark has fallen for the first time in more than six years, according to figures from the Jobindsats.dk employment database. In September, 43,229 people in the age group received disability pensions, 98 fewer than in August. It was the first monthly decline since early [?]",
-      "link": "https://cphpost.dk/2026-10-12/news/round-up/number-of-disability-pensioners-under-40-falls-for-first-time-since-2020/",
-      "pubDate": "Mon, 12 Oct 2026 13:52:34 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Renovering af alle offentlige betonoverd?kninger kan koste op til 3 milliarder kroner",
-      "title_en": "Renovating all public concrete shelters could cost up to 3 billion DKK",
-      "summary_da": "Renovering og klarg?ring af Danmarks 1.694 offentlige betonskyttegrave kan koste mellem 2 og 3 milliarder kroner. Minister for offentlig sikkerhed og beredskab, Lisbeth Bech-Nielsen fra Socialistisk Folkeparti, gav estimatet i et svar til Folketinget if?lge bygge- og anl?gsbranchens publikation Licitationen. Estimatet er fortsat meget [?]",
-      "summary_en": "Renovating Denmark?s 1,694 public concrete trench shelters and preparing them for use could cost between 2 billion and 3 billion DKK. Public Security and Emergency Preparedness Minister Lisbeth Bech-Nielsen of the Socialist People?s Party provided the estimate in a response to the Folketing, Denmark?s parliament, according to construction trade publication Licitationen. The estimate remains highly [?]",
-      "link": "https://cphpost.dk/2026-10-12/news/round-up/renovating-all-public-concrete-shelters-could-cost-up-to-3-billion-dkk/",
-      "pubDate": "Mon, 12 Oct 2026 13:52:28 +0000"
+      "source": "DR Indland",
+      "title_da": "Hjortene skal skydes: Men nu siger j?gerne nej",
+      "title_en": "The deer are to be shot: But now the hunters say no",
+      "summary_da": "365 dage om ?ret er det tilladt at skyde sikahjorte, som efter heftig debat er erkl?ret invasive. Men det v?kker bekymring hos j?gerne.",
+      "summary_en": "It is permitted to shoot sika deer 365 days a year, which after heated debate have been declared invasive. But this raises concerns among hunters.",
+      "link": "https://www.dr.dk/nyheder/indland/hjortene-skal-skydes-men-nu-siger-jaegerne-nej",
+      "pubDate": "Tue, 13 Oct 2026 18:22:00 GMT"
     }
   ]
 }
