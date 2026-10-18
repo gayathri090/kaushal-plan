@@ -1,7 +1,97 @@
 {
-  "date": "2026-10-17",
-  "generatedAt": "2026-10-17T06:42:06.038Z",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T06:42:12.101Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Unge venter i timevis for at f? ?t glimt af dansk stjerne",
+      "title_en": "Young people wait for hours to catch a glimpse of the Danish star",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/unge-venter-i-timevis-faa-et-glimt-af-dansk-stjerne",
+      "pubDate": "Sun, 18 Oct 2026 06:03:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Danmark og Vietnam som 55-?rige: Fra udviklingssamarbejde til et gr?nt partnerskab",
+      "title_en": "Denmark and Vietnam at 55: From Development Cooperation to a Green Partnership",
+      "summary_da": "Danmark var engang en udviklingspartner for Vietnam. I dag bygger danske virksomheder fabrikker der.",
+      "summary_en": "Denmark was once a development partner for Vietnam. Today Danish companies build factories there.",
+      "link": "https://cphpost.dk/2026-10-18/global/denmark-and-vietnam-at-55-from-development-cooperation-to-a-green-partnership/",
+      "pubDate": "Sun, 18 Oct 2026 05:21:00 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Virksomheder p? stribe melder sig klar til at hj?lpe under kriser: 'Beredskab er blevet god branding'",
+      "title_en": "Companies in a row are ready to help during crises: 'Preparedness has become good branding'",
+      "summary_da": "Hj?lp fra private virksomheder er n?dvendigt, for det er en 'utopi' at tro, at myndighederne ville kunne klare en st?rre krise helt selv, siger ekspert.",
+      "summary_en": "Help from private companies is necessary, because it is a 'utopia' to believe that the authorities would be able to handle a major crisis all by themselves, says an expert.",
+      "link": "https://www.dr.dk/nyheder/indland/virksomheder-paa-stribe-melder-sig-klar-til-hjaelpe-under-kriser-beredskab-er-blevet-god-branding",
+      "pubDate": "Sun, 18 Oct 2026 04:43:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Forh?jet vandstand aflyser flere afgange til og fra ?r? s?ndag",
+      "title_en": "Increased water levels cancel several departures to and from ?r? on Sunday",
+      "summary_da": "?r?f?rgen m? s?ndag f?rst p? dagen blive i havn p? grund af forh?jet vandstand.",
+      "summary_en": "The ?r? ferry must remain in port early on Sunday due to elevated water levels.",
+      "link": "https://www.dr.dk/nyheder/indland/forhoejet-vandstand-aflyser-flere-afgange-til-og-fra-aeroe-soendag",
+      "pubDate": "Sat, 17 Oct 2026 18:55:08 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "To fotografer meldes sl?et med politistave under demonstration",
+      "title_en": "Two photographers reportedly beaten with police batons during demonstration",
+      "summary_da": "K?benhavns Politi vil hverken be- eller afkr?fte, at to fotografer er blevet sl?et.",
+      "summary_en": "Copenhagen Police will neither confirm nor deny that two photographers have been beaten.",
+      "link": "https://www.dr.dk/nyheder/indland/fotografer-meldes-slaaet-med-politistave-under-demonstration",
+      "pubDate": "Sat, 17 Oct 2026 18:45:29 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "AI er ved at stikke af, og der bliver skreget p? regulering: 'Vi har voldsomt travlt'",
+      "title_en": "AI is running away, and there is a cry for regulation: 'We are very busy'",
+      "summary_da": "Lige nu er der ingen global regulering p? AI-omr?det, men det ?nsker stadig flere at lave om p?.",
+      "summary_en": "Right now, there is no global regulation in the AI ??area, but more and more people want to change that.",
+      "link": "https://www.dr.dk/nyheder/indland/ai-er-ved-stikke-af-og-der-bliver-skreget-paa-regulering-vi-har-voldsomt-travlt",
+      "pubDate": "Sat, 17 Oct 2026 18:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Unesco g?r klinterne ber?mte: Nu kommer turister fra den anden side af kloden",
+      "title_en": "UNESCO makes the cliffs famous: Now tourists come from the other side of the globe",
+      "summary_da": "Turister vil finde fossiler og se verdensarv p? Fur og Mors.",
+      "summary_en": "Tourists will find fossils and see world heritage sites at Fur and Mors.",
+      "link": "https://www.dr.dk/nyheder/indland/unesco-goer-klinterne-beroemte-nu-kommer-turister-fra-den-anden-side-af-kloden",
+      "pubDate": "Sat, 17 Oct 2026 16:33:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Politi 'n?dsaget til at anvende magt': Otte personer er anholdt til demonstrationer i K?benhavn",
+      "title_en": "Police 'forced to use force': Eight people arrested at demonstrations in Copenhagen",
+      "summary_da": "L?rdag er politiet talst?rkt til stede i det indre K?benhavn for at holde demonstranter og moddemonstranter adskilt.",
+      "summary_en": "On Saturday, the police are present in large numbers in inner Copenhagen to keep demonstrators and counter-demonstrators separate.",
+      "link": "https://www.dr.dk/nyheder/indland/tre-maend-er-anholdt-til-demonstrationer-i-koebenhavn",
+      "pubDate": "Sat, 17 Oct 2026 15:14:16 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Naboer til ammunitionsfabrik inviteres til personlige m?der: 'Det er alt for sent'",
+      "title_en": "Neighbors of ammunition factory invited to personal meetings: 'It's far too late'",
+      "summary_da": "Bekymrede naboer til den kommende ammunitionsfabrik i Elling f?r nu en ekstra mulighed for at dele det, de har p? hjerte.",
+      "summary_en": "Concerned neighbors of the upcoming ammunition factory in Elling now have an extra opportunity to share what is on their minds.",
+      "link": "https://www.dr.dk/nyheder/indland/naboer-til-ammunitionsfabrik-inviteres-til-personlige-moeder-det-er-alt-sent",
+      "pubDate": "Sat, 17 Oct 2026 14:41:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Ekspertindsigt: M?d danskerne med vind i h?ret",
+      "title_en": "Expert Insights: Meet the Danes with wind in your hair",
+      "summary_da": "Frivilligt arbejde tilbyder en m?de at m?de danskere, udforske K?benhavn og ?ve dit dansk, skriver Vivienne McKee.",
+      "summary_en": "Volunteering offers a way to meet Danes, explore Copenhagen and practice your Danish, writes Vivienne McKee.",
+      "link": "https://cphpost.dk/2026-10-17/life-in-denmark/expert-insights-meet-the-danes-with-wind-in-your-hair/",
+      "pubDate": "Sat, 17 Oct 2026 08:14:31 +0000"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "Trumps talskvinde efter et par dage: Det var en ?re",
@@ -55,96 +145,6 @@
       "summary_en": "Ukraine is in contact with the Trump administration and expects to arrange a meeting within a short time. Ukraine?s president, Volodymyr Zelenskyy, says this at a press conference in connection with the EU summit in Brussels. Here, Zelenskyy was asked whether he has received criticism from some of the EU leaders for statements about US [?]",
       "link": "https://cphpost.dk/2026-10-17/global/zelensky-expects-us-meeting-after-blunt-trump-remarks/",
       "pubDate": "Sat, 17 Oct 2026 06:40:34 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Annika vinder en af ??Danmarks st?rste musikpriser",
-      "title_en": "Annika wins one of Denmark?s biggest music awards",
-      "summary_da": "Den 21-?rige sangerinde er g?et fra at poste klavervideoer p? TikTok til at blive en af ??Danmarks st?rste popstjerner. Fredag ??modtog hun hovedprisen ved DR?s ?rlige P3 Guld-musikprisuddeling. Den danske sangerinde Annika har vundet P3 Prisen, hovedprisen ved en af ??Danmarks mest fremtr?dende ?rlige musikbegivenheder, P3 Guld. [?]",
-      "summary_en": "The 21-year-old singer has gone from posting piano videos on TikTok to becoming one of Denmark?s biggest pop stars. On Friday, she received the top prize at DR?s annual P3 Guld music awards. Danish singer Annika has won P3 Prisen, the main award at one of Denmark?s most prominent annual music events, P3 Guld. The [?]",
-      "link": "https://cphpost.dk/2026-10-17/news/round-up/annika-wins-one-of-denmarks-biggest-music-awards/",
-      "pubDate": "Sat, 17 Oct 2026 06:31:34 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Trump: Gr?nland-aftalens st?rste ejendomsaftale nogensinde",
-      "title_en": "Trump: Greenland deal biggest real estate deal ever",
-      "summary_da": "Den amerikanske pr?sident siger, at han \"fik den for ingenting\" efter at have underskrevet en ny forsvarsaftale med Danmark og Gr?nland, der udvider den amerikanske milit?re tilstedev?relse p? ?en. Den amerikanske pr?sident Donald Trump har beskrevet en ny forsvars- og sikkerhedsaftale med Danmark og Gr?nland som potentielt \"den st?rste ejendomshandel, der nogensinde er blevet [...]",
-      "summary_en": "The US president says he ?got it for nothing? after signing a new defence agreement with Denmark and Greenland that expands the American military presence on the island. US President Donald Trump has described a new defence and security agreement with Denmark and Greenland as potentially ?the biggest real estate deal that has ever been [?]",
-      "link": "https://cphpost.dk/2026-10-17/news/round-up/trump-greenland-deal-biggest-real-estate-deal-ever/",
-      "pubDate": "Sat, 17 Oct 2026 06:31:28 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "19-?rig dansker giver Formel 1-verdensmester baghjul",
-      "title_en": "19-year-old Dane gives Formula 1 world champion a backseat",
-      "summary_da": "Simon Birch fra Ikast smadrede hele feltet - inklusive F1-verdensmester Max Verstappen - ved en GT-kvalifikation i Portugal i aftes.",
-      "summary_en": "Simon Birch from Ikast smashed the entire field - including F1 world champion Max Verstappen - in a GT qualifying in Portugal last night.",
-      "link": "https://www.dr.dk/nyheder/indland/19-aarig-dansker-giver-formel-1-verdensmester-baghjul",
-      "pubDate": "Sat, 17 Oct 2026 06:01:33 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Det Danske Folk holder ny demo i dag: 'Folk i uniform er ikke velkomne'",
-      "title_en": "The Danish People holds a new demo today: 'People in uniform are not welcome'",
-      "summary_da": "Sortkl?dte grupper bliver sendt v?k, siger talsperson.",
-      "summary_en": "Groups dressed in black are being sent away, says spokesperson.",
-      "link": "https://www.dr.dk/nyheder/indland/det-danske-folk-holder-ny-demo-i-dag-folk-i-uniform-er-ikke-velkomne",
-      "pubDate": "Sat, 17 Oct 2026 05:27:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Droner og menneskek?de jagter den forsvundne hund Manfred",
-      "title_en": "Drones and human chain hunt for missing dog Manfred",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/droner-og-menneskekaede-jagter-den-forsvundne-hund-manfred",
-      "pubDate": "Fri, 16 Oct 2026 19:55:45 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "DSB forventer mere sporarbejde til n?ste ?r",
-      "title_en": "DSB expects more track work next year",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/dsb-forventer-mere-sporarbejde-til-naeste-aar",
-      "pubDate": "Fri, 16 Oct 2026 19:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Sanger S?rens stemme sang Str?get op. Han blev 53 ?r",
-      "title_en": "Singer S?ren's voice sang Str?get. He turned 53.",
-      "summary_da": "Sanger S?ren, som i ?rtier har sunget p? Str?get i K?benhavn, er d?d 53 ?r gammel.",
-      "summary_en": "Singer S?ren, who has sung on Str?get in Copenhagen for decades, has died at the age of 53.",
-      "link": "https://www.dr.dk/nyheder/indland/sanger-soerens-stemme-sang-stroeget-op-han-blev-53-aar",
-      "pubDate": "Fri, 16 Oct 2026 18:16:46 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Claus var med til at redde Jakobs liv. I dag har han n?sten ingen m?n efter hjertestop",
-      "title_en": "Claus helped save Jakob's life. Today he has almost no injuries after the cardiac arrest.",
-      "summary_da": "Hjertel?bere kommer frem et minut hurtigere end for bare to ?r siden, viser nye tal.",
-      "summary_en": "Heart runners are coming out one minute faster than just two years ago, new figures show.",
-      "link": "https://www.dr.dk/nyheder/indland/claus-var-med-til-redde-jakobs-liv-i-dag-har-han-naesten-ingen-men-efter-hjertestop",
-      "pubDate": "Fri, 16 Oct 2026 18:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Red Barnet om groomingsag, der har ramt 68 b?rn: Et ufatteligt uhyggeligt f?nomen",
-      "title_en": "Save the Children on grooming case that has affected 68 children: An unimaginably creepy phenomenon",
-      "summary_da": "Red Barnet ser flere og flere sager, hvor voksne uds?tter b?rn og unge for overgreb via chats og sociale medier.",
-      "summary_en": "Save the Children is seeing more and more cases where adults expose children and young people to abuse via chats and social media.",
-      "link": "https://www.dr.dk/nyheder/indland/red-barnet-grooming-er-et-ufatteligt-uhyggeligt-faenomen",
-      "pubDate": "Fri, 16 Oct 2026 17:01:34 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Det fint do! L?geproblemet er ved at blive l?st",
-      "title_en": "That's great! The doctor problem is being solved.",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/det-fint-do-laegeproblemet-er-ved-blive-loest",
-      "pubDate": "Fri, 16 Oct 2026 16:43:00 GMT"
     }
   ]
 }
