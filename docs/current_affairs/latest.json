@@ -1,15 +1,123 @@
 {
-  "date": "2026-10-18",
-  "generatedAt": "2026-10-18T06:42:12.101Z",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T06:42:05.680Z",
   "items": [
     {
       "source": "DR Indland",
-      "title_da": "Unge venter i timevis for at f? ?t glimt af dansk stjerne",
-      "title_en": "Young people wait for hours to catch a glimpse of the Danish star",
+      "title_da": "For?ldre har ondt i maven: S? dyrt er det at have et barn i den gratis folkeskole",
+      "title_en": "Parents have a stomach ache: It's so expensive to have a child in free primary school",
+      "summary_da": "Det har konsekvenser for b?rnene at st? uden for f?llesskabet, n?r for?ldrene ikke kan betale, siger organisation.",
+      "summary_en": "It has consequences for the children to be outside the community when the parents cannot pay, says the organization.",
+      "link": "https://www.dr.dk/nyheder/indland/foraeldre-har-ondt-i-maven-saa-dyrt-er-det-have-et-barn-i-den-gratis-folkeskole",
+      "pubDate": "Mon, 19 Oct 2026 05:45:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Morgentrafikken ramt af flere uheld",
+      "title_en": "Morning traffic hit by several accidents",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/unge-venter-i-timevis-faa-et-glimt-af-dansk-stjerne",
-      "pubDate": "Sun, 18 Oct 2026 06:03:00 GMT"
+      "link": "https://www.dr.dk/trafik",
+      "pubDate": "Mon, 19 Oct 2026 05:40:08 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Danmark kontakter mere end 25 lande, der s?ger f?ngselspladser",
+      "title_en": "Denmark contacts more than 25 countries seeking prison spaces",
+      "summary_da": "Danmark har kontaktet mere end 25 europ?iske lande om potentiel leje af f?ngselspladser, da landets kriminalforsorg st?r over for rekordstor overbel?gning. \"F?ngselsv?senet er i en alvorlig situation,\" sagde justitsminister Nicolai Wammen fra Socialdemokraterne. \"Vi skal g?re alt, hvad vi kan, for at l?se kapacitetsudfordringerne i danske f?ngsler.\" Danmark [?]",
+      "summary_en": "Denmark has contacted more than 25 European countries about potentially renting prison spaces as its correctional system faces record overcrowding. ?The Danish Prison and Probation Service is in a serious situation,? Justice Minister Nicolai Wammen of the Social Democrats said. ?We must do everything we can to resolve the capacity challenges in Danish prisons.? Denmark [?]",
+      "link": "https://cphpost.dk/2026-10-19/news/round-up/denmark-contacts-more-than-25-countries-seeking-prison-spaces/",
+      "pubDate": "Mon, 19 Oct 2026 04:19:36 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Danmark afviser russisk forslag om aftale om maritim og luftsikkerhed",
+      "title_en": "Denmark rejects Russian proposal for maritime and air security agreement",
+      "summary_da": "Rusland har opfordret Danmark til at indg? en sikkerhedsaftale, der skal forhindre h?ndelser til s?s og i luften, rapporterede den danske tv-station TV 2. Den russiske ambassade i Danmark oplyste, at Rusland tidligere havde fremsat det samme forslag. \"I dag kan man kun konstatere, at Ruslands initiativ til deeskalering ikke er blevet m?dt med forst?else,\" sagde [?]",
+      "summary_en": "Russia has urged Denmark to enter into a security agreement intended to prevent incidents at sea and in the air, Danish broadcaster TV 2 reported. The Russian Embassy in Denmark said Russia had previously made the same proposal. ?Today, one can only note that Russia?s initiative for de-escalation has not been met with understanding,? the [?]",
+      "link": "https://cphpost.dk/2026-10-19/news/round-up/denmark-rejects-russian-proposal-for-maritime-and-air-security-agreement/",
+      "pubDate": "Mon, 19 Oct 2026 04:19:31 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Otte anholdt under demonstration og modprotester i K?benhavn",
+      "title_en": "Eight arrested during demonstration and counterprotests in Copenhagen",
+      "summary_da": "Otte personer blev l?rdag anholdt i forbindelse med en demonstration arrangeret af bev?gelsen Det Danske Folk i det centrale K?benhavn. Tre anholdelser fandt sted f?r demonstrationen begyndte klokken 14.00 p? Kongens Nytorv, oplyser vicepolitiinspekt?r Jakob Hansen fra K?benhavns Politi. To personer blev anholdt efter at have v?ret \"uenige om nogle ting\", mens en anden blev anholdt [?]",
+      "summary_en": "Eight people were arrested Saturday in connection with a demonstration organized by the movement Det Danske Folk in central Copenhagen. Three arrests occurred before the demonstration began at 2 p.m. in Kongens Nytorv, Copenhagen Police Deputy Inspector Jakob Hansen said. Two people were arrested after being ?in disagreement about some things,? while another was arrested [?]",
+      "link": "https://cphpost.dk/2026-10-19/news/round-up/eight-arrested-during-demonstration-and-counterprotests-in-copenhagen/",
+      "pubDate": "Mon, 19 Oct 2026 04:19:26 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Elektricitets andel af det danske energiforbrug stiger til 23,4 procent",
+      "title_en": "Electricity?s share of Danish energy use rises to 23.4 percent",
+      "summary_da": "Elektricitet udgjorde 23,4 procent af Danmarks samlede energiforbrug i 2025, en stigning p? 1,5 procentpoint fra ?ret f?r. Green Power Denmark, en brancheorganisation, der repr?senterer den danske energisektor, sagde, at stigningen prim?rt var drevet af elbiler og fjernvarmesektorens brug af elkedler og varmepumper. [?]",
+      "summary_en": "Electricity accounted for 23.4 percent of Denmark?s total energy consumption in 2025, an increase of 1.5 percentage points from the previous year. Green Power Denmark, an industry organization representing the Danish energy sector, said the increase was driven mainly by electric vehicles and the district heating sector?s use of electric boilers and heat pumps. The [?]",
+      "link": "https://cphpost.dk/2026-10-19/news/round-up/electricitys-share-of-danish-energy-use-rises-to-23-4-percent/",
+      "pubDate": "Mon, 19 Oct 2026 04:19:18 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Unge m?nds feed flyder over med kvindefjendsk indhold: De eksponeres n?sten dagligt",
+      "title_en": "Young men's feeds are overflowing with misogynistic content: They are exposed almost daily",
+      "summary_da": "Indhold fra den s?kaldte manosf?re har tidligere floreret i lukkede internetfora, men g?r nu sit indtog blandt helt almindelig unge danske m?nd og drenge, viser ny rapport.",
+      "summary_en": "Content from the so-called manosphere has previously flourished in closed internet forums, but is now making its way among ordinary young Danish men and boys, a new report shows.",
+      "link": "https://www.dr.dk/nyheder/indland/unge-maends-feed-flyder-over-med-kvindefjendsk-indhold-de-eksponeres-naesten-dagligt",
+      "pubDate": "Mon, 19 Oct 2026 04:00:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "\"Man forbinder punkterne bagefter, ikke p? forh?nd\": Hvordan en international fandt danske venner p? restauranter og en karrieremulighed gennem en gammel forbindelse",
+      "title_en": "?You connect the dots afterwards, not beforehand?: how an international found Danish friends in restaurants and a career opportunity through an old connection",
+      "summary_da": "Hun hadede chefen, der senere skulle bringe hende til Danmark, og fik danske venner ved at blive stamkunde p? restauranter. Ellen Lis lektie: de forbindelser, der ?ndrer dit liv, er ofte dem, du aldrig havde planlagt.",
+      "summary_en": "She hated the boss who would later bring her to Denmark and made Danish friends by becoming a regular at restaurants. Ellen Li?s lesson: the connections that change your life are often the ones you never planned.",
+      "link": "https://cphpost.dk/2026-10-19/business-education/career/you-connect-the-dots-afterwards-not-beforehand-how-an-international-found-danish-friends-in-restaurants-and-a-career-opportunity-through-an-old-connection/",
+      "pubDate": "Mon, 19 Oct 2026 04:00:00 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Analytiker: Gade kunne ikke v?re med p? Venstres rejse",
+      "title_en": "Analyst: Gade could not join the Liberal Party's journey",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/analytiker-gade-kunne-ikke-vaere-med-paa-venstres-rejse",
+      "pubDate": "Sun, 18 Oct 2026 19:17:20 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Wolt henviste til udelukkelsesordning: Misbruger kan stadig f? vodka bragt til d?ren",
+      "title_en": "Wolt referred to exclusion scheme: Addict can still have vodka delivered to the door",
+      "summary_da": "Selvom Anna har tilmeldt sig det udelukkelsessystem, som Wolt selv henviser til, kan hun stadig bestille vodka.",
+      "summary_en": "Even though Anna has signed up for the exclusion system that Wolt itself refers to, she can still order vodka.",
+      "link": "https://www.dr.dk/nyheder/indland/wolt-henviste-til-udelukkelsesordning-misbruger-kan-stadig-faa-vodka-bragt-til-doeren",
+      "pubDate": "Sun, 18 Oct 2026 18:41:01 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Betjent har sagt undskyld til Ekstra Bladet-fotograf, der blev ramt af politistav",
+      "title_en": "Officer apologizes to Ekstra Bladet photographer who was hit by police baton",
+      "summary_da": "To fotografer blev i g?r ramt af slag fra politiet under en demonstration. En m?tte p? skadestuen.",
+      "summary_en": "Two photographers were hit by police during a demonstration yesterday. One had to go to the emergency room.",
+      "link": "https://www.dr.dk/nyheder/indland/betjent-har-sagt-undskyld-til-ekstra-bladet-fotograf-der-blev-ramt-af-politistav",
+      "pubDate": "Sun, 18 Oct 2026 17:15:29 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Den ultimative Ikea-test?",
+      "title_en": "The ultimate Ikea test?",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/den-ultimative-ikea-test",
+      "pubDate": "Sun, 18 Oct 2026 15:37:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Indk?b af baconsten v?kker debat: 'Det er ikke noget, kommunen skal g?re'",
+      "title_en": "Purchase of bacon bricks sparks debate: 'It's not something the municipality should do'",
+      "summary_da": "Tre v?rker af kunstneren Kasper Hesselbjerg er blevet fokus for diskussion om kommunalt kunstindk?b.",
+      "summary_en": "Three works by artist Kasper Hesselbjerg have become the focus of discussion about municipal art purchases.",
+      "link": "https://www.dr.dk/nyheder/indland/indkoeb-af-baconsten-vaekker-debat-det-er-ikke-noget-kommunen-skal-goere",
+      "pubDate": "Sun, 18 Oct 2026 15:34:16 GMT"
     },
     {
       "source": "The Copenhagen Post",
@@ -19,69 +127,6 @@
       "summary_en": "Denmark was once a development partner for Vietnam. Today Danish companies build factories there.",
       "link": "https://cphpost.dk/2026-10-18/global/denmark-and-vietnam-at-55-from-development-cooperation-to-a-green-partnership/",
       "pubDate": "Sun, 18 Oct 2026 05:21:00 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Virksomheder p? stribe melder sig klar til at hj?lpe under kriser: 'Beredskab er blevet god branding'",
-      "title_en": "Companies in a row are ready to help during crises: 'Preparedness has become good branding'",
-      "summary_da": "Hj?lp fra private virksomheder er n?dvendigt, for det er en 'utopi' at tro, at myndighederne ville kunne klare en st?rre krise helt selv, siger ekspert.",
-      "summary_en": "Help from private companies is necessary, because it is a 'utopia' to believe that the authorities would be able to handle a major crisis all by themselves, says an expert.",
-      "link": "https://www.dr.dk/nyheder/indland/virksomheder-paa-stribe-melder-sig-klar-til-hjaelpe-under-kriser-beredskab-er-blevet-god-branding",
-      "pubDate": "Sun, 18 Oct 2026 04:43:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Forh?jet vandstand aflyser flere afgange til og fra ?r? s?ndag",
-      "title_en": "Increased water levels cancel several departures to and from ?r? on Sunday",
-      "summary_da": "?r?f?rgen m? s?ndag f?rst p? dagen blive i havn p? grund af forh?jet vandstand.",
-      "summary_en": "The ?r? ferry must remain in port early on Sunday due to elevated water levels.",
-      "link": "https://www.dr.dk/nyheder/indland/forhoejet-vandstand-aflyser-flere-afgange-til-og-fra-aeroe-soendag",
-      "pubDate": "Sat, 17 Oct 2026 18:55:08 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "To fotografer meldes sl?et med politistave under demonstration",
-      "title_en": "Two photographers reportedly beaten with police batons during demonstration",
-      "summary_da": "K?benhavns Politi vil hverken be- eller afkr?fte, at to fotografer er blevet sl?et.",
-      "summary_en": "Copenhagen Police will neither confirm nor deny that two photographers have been beaten.",
-      "link": "https://www.dr.dk/nyheder/indland/fotografer-meldes-slaaet-med-politistave-under-demonstration",
-      "pubDate": "Sat, 17 Oct 2026 18:45:29 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "AI er ved at stikke af, og der bliver skreget p? regulering: 'Vi har voldsomt travlt'",
-      "title_en": "AI is running away, and there is a cry for regulation: 'We are very busy'",
-      "summary_da": "Lige nu er der ingen global regulering p? AI-omr?det, men det ?nsker stadig flere at lave om p?.",
-      "summary_en": "Right now, there is no global regulation in the AI ??area, but more and more people want to change that.",
-      "link": "https://www.dr.dk/nyheder/indland/ai-er-ved-stikke-af-og-der-bliver-skreget-paa-regulering-vi-har-voldsomt-travlt",
-      "pubDate": "Sat, 17 Oct 2026 18:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Unesco g?r klinterne ber?mte: Nu kommer turister fra den anden side af kloden",
-      "title_en": "UNESCO makes the cliffs famous: Now tourists come from the other side of the globe",
-      "summary_da": "Turister vil finde fossiler og se verdensarv p? Fur og Mors.",
-      "summary_en": "Tourists will find fossils and see world heritage sites at Fur and Mors.",
-      "link": "https://www.dr.dk/nyheder/indland/unesco-goer-klinterne-beroemte-nu-kommer-turister-fra-den-anden-side-af-kloden",
-      "pubDate": "Sat, 17 Oct 2026 16:33:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Politi 'n?dsaget til at anvende magt': Otte personer er anholdt til demonstrationer i K?benhavn",
-      "title_en": "Police 'forced to use force': Eight people arrested at demonstrations in Copenhagen",
-      "summary_da": "L?rdag er politiet talst?rkt til stede i det indre K?benhavn for at holde demonstranter og moddemonstranter adskilt.",
-      "summary_en": "On Saturday, the police are present in large numbers in inner Copenhagen to keep demonstrators and counter-demonstrators separate.",
-      "link": "https://www.dr.dk/nyheder/indland/tre-maend-er-anholdt-til-demonstrationer-i-koebenhavn",
-      "pubDate": "Sat, 17 Oct 2026 15:14:16 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Naboer til ammunitionsfabrik inviteres til personlige m?der: 'Det er alt for sent'",
-      "title_en": "Neighbors of ammunition factory invited to personal meetings: 'It's far too late'",
-      "summary_da": "Bekymrede naboer til den kommende ammunitionsfabrik i Elling f?r nu en ekstra mulighed for at dele det, de har p? hjerte.",
-      "summary_en": "Concerned neighbors of the upcoming ammunition factory in Elling now have an extra opportunity to share what is on their minds.",
-      "link": "https://www.dr.dk/nyheder/indland/naboer-til-ammunitionsfabrik-inviteres-til-personlige-moeder-det-er-alt-sent",
-      "pubDate": "Sat, 17 Oct 2026 14:41:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
@@ -100,51 +145,6 @@
       "summary_en": "Katie Zacharia, who according to a number of media outlets is out as White House spokeswoman, thanks US President Donald Trump in a post on the social media platform X. ? It was an honor to work for him, Zacharia writes during the night before Saturday Danish time. Several media outlets ? including The New [?]",
       "link": "https://cphpost.dk/2026-10-17/global/trump-spokeswoman-after-a-few-days-it-was-an-honor/",
       "pubDate": "Sat, 17 Oct 2026 06:41:02 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Det amerikanske budgetunderskud n?r det h?jeste niveau i fem ?r",
-      "title_en": "US Budget Deficit Hits Five-Year High",
-      "summary_da": "I finans?ret 2026 havde USA et underskud p? de offentlige finanser p? n?sten 2.000 milliarder dollars ? det st?rste underskud i fem ?r. Det viser tal fra det amerikanske finansministerium fredag ??if?lge nyhedsbureauet Reuters. Finans?ret l?ber til slutningen af ??september. [?]",
-      "summary_en": "In the 2026 fiscal year, the US had a deficit in government finances of nearly 2,000 billion dollars ? the largest deficit in five years. This is shown by figures from the US Department of the Treasury on Friday, according to the news agency Reuters. The fiscal year runs until the end of September. The [?]",
-      "link": "https://cphpost.dk/2026-10-17/global/us-budget-deficit-hits-five-year-high/",
-      "pubDate": "Sat, 17 Oct 2026 06:40:56 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Trump suspenderer nogle sanktioner og toldsatser mod Rusland",
-      "title_en": "Trump suspends some sanctions and tariffs on Russia",
-      "summary_da": "Den amerikanske pr?sident, Donald Trump, har annonceret, at han suspenderer en r?kke sanktioner, restriktioner og toldsatser mod Rusland, f? dage f?r de skulle tr?de i kraft. Nyhedsbureauet Reuters skriver dette natten til l?rdag dansk tid. P? sin hjemmeside har Det Hvide Hus ogs? delt Trumps bekendtg?relse vedr?rende [?]",
-      "summary_en": "The US president, Donald Trump, has announced that he is suspending a series of sanctions, restrictions, and tariffs against Russia, a few days before they were due to take effect. The news agency Reuters writes this overnight into Saturday Danish time. On its website, the White House has also shared Trump?s executive order regarding the [?]",
-      "link": "https://cphpost.dk/2026-10-17/global/trump-suspends-some-sanctions-and-tariffs-on-russia/",
-      "pubDate": "Sat, 17 Oct 2026 06:40:51 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Medier: Indisk politi anholder grundl?gger af kakerlakbev?gelsen",
-      "title_en": "Media: Indian police arrest Cockroach Movement founder",
-      "summary_da": "Politiet i Indien har anholdt grundl?ggeren af ??kakerlakbev?gelsen, Abhijeet Dipke, rapporterer flere medier tidligt l?rdag if?lge nyhedsbureauet Reuters. Rapporterne kommer efter, at Dipke blev tilbageholdt fredag ??forud for en demonstration, hvor hundredvis af mennesker viftede med det indiske flag og kr?vede, at landets ?verste valgkommiss?r tr?der tilbage [?]",
-      "summary_en": "Police in India have arrested the founder of the Cockroach movement, Abhijeet Dipke, several media outlets report early Saturday according to the news agency Reuters. The reports come after Dipke was detained on Friday ahead of a demonstration where hundreds of people waved the Indian flag and demanded that the country?s chief election commissioner step [?]",
-      "link": "https://cphpost.dk/2026-10-17/global/media-indian-police-arrest-cockroach-movement-founder/",
-      "pubDate": "Sat, 17 Oct 2026 06:40:46 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Moldova ford?mmer Rusland efter fem droneangreb",
-      "title_en": "Moldova condemns Russia after five drone incursions",
-      "summary_da": "Moldova ford?mte fredag ??Rusland efter at fem droner, som moldoviske myndigheder identificerede som russiske, styrtede ned i landet p? mindre end 24 timer. Dette fremg?r af en erkl?ring fra landets udenrigsministerium. Moldovas pro-europ?iske regering h?ber, at landet bliver medlem af EU inden 2030. Den har distanceret sig fra [?]",
-      "summary_en": "Moldova on Friday condemned Russia after five drones, which Moldovan authorities identified as Russian, crashed in the country in less than 24 hours. This is stated in a statement from the country?s foreign ministry. Moldova?s pro-European government hopes that the country will become a member of the EU by 2030. It has distanced itself from [?]",
-      "link": "https://cphpost.dk/2026-10-17/global/moldova-condemns-russia-after-five-drone-incursions/",
-      "pubDate": "Sat, 17 Oct 2026 06:40:41 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Zelenskyj forventer m?de med USA efter Trumps direkte bem?rkninger",
-      "title_en": "Zelensky expects US meeting after blunt Trump remarks",
-      "summary_da": "Ukraine er i kontakt med Trump-administrationen og forventer at arrangere et m?de inden for kort tid. Ukraines pr?sident, Volodymyr Zelenskyj, siger dette p? en pressekonference i forbindelse med EU-topm?det i Bruxelles. Her blev Zelenskyj spurgt, om han har modtaget kritik fra nogle af EU-lederne for udtalelser om USA [?]",
-      "summary_en": "Ukraine is in contact with the Trump administration and expects to arrange a meeting within a short time. Ukraine?s president, Volodymyr Zelenskyy, says this at a press conference in connection with the EU summit in Brussels. Here, Zelenskyy was asked whether he has received criticism from some of the EU leaders for statements about US [?]",
-      "link": "https://cphpost.dk/2026-10-17/global/zelensky-expects-us-meeting-after-blunt-trump-remarks/",
-      "pubDate": "Sat, 17 Oct 2026 06:40:34 +0000"
     }
   ]
 }
