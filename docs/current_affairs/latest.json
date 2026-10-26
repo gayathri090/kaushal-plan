@@ -1,78 +1,123 @@
 {
-  "date": "2026-10-25",
-  "generatedAt": "2026-10-25T07:42:01.523Z",
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T07:42:12.355Z",
   "items": [
     {
       "source": "DR Indland",
-      "title_da": "'N?rmest mirakul?st': Dement far genkendte julesweater - nu vil han ikke g? i andet",
-      "title_en": "'Almost miraculous': Demented father recognized Christmas sweater - now he won't wear anything else",
-      "summary_da": "Sundhedsstyrelsen er overraskede over, hvor godt nye digitale v?rkt?jer fungerer for demensramte og deres p?r?rende.",
-      "summary_en": "The Danish Health Authority is surprised by how well new digital tools work for people with dementia and their relatives.",
-      "link": "https://www.dr.dk/nyheder/indland/naermest-mirakuloest-dement-far-genkendte-julesweater-nu-vil-han-ikke-gaa-i-andet",
-      "pubDate": "Sun, 25 Oct 2026 07:10:00 GMT"
+      "title_da": "Stop for flere og st?rre svinestalde tr?der formelt i kraft i dag",
+      "title_en": "Stop to more and larger pig farms formally enters into force today",
+      "summary_da": "Grisestop betyder ikke byggestop, s? man m? stadig gerne rive gamle stalde ned og bygge nye.",
+      "summary_en": "A pig ban does not mean a construction ban, so you can still demolish old barns and build new ones.",
+      "link": "https://www.dr.dk/nyheder/indland/stop-flere-og-stoerre-svinestalde-traeder-formelt-i-kraft-i-dag",
+      "pubDate": "Mon, 26 Oct 2026 07:31:48 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Hidtil fortrolige mails afsl?rer: K?benhavns metro kan ikke bruges som bombeskjul i dag",
-      "title_en": "Previously confidential emails reveal: Copenhagen's metro cannot be used as a bomb shelter today",
-      "summary_da": "Hvis K?benhavns metro i fremtiden skal bruges som beskyttelsesrum, skal der investeringer til, lyder det i hidtil fortrolige mails.",
-      "summary_en": "If Copenhagen's metro is to be used as a shelter in the future, investments will be needed, according to previously confidential emails.",
-      "link": "https://www.dr.dk/verificerer/hidtil-fortrolige-mails-afsloerer-koebenhavns-metro-kan-ikke-bruges-som-bombeskjul-i-dag",
-      "pubDate": "Sun, 25 Oct 2026 06:00:00 GMT"
+      "title_da": "- Folk g?r jo n?rmest og r?dner halvt op, inden de kommer til l?ge",
+      "title_en": "- People are almost half rotting away before they get to the doctor.",
+      "summary_da": "Hos Kirkens Korsh?r i Odense kommer l?gen til de s?rbare. - Det er godt og sgu ogs? n?dvendigt, siger Peder Pedersen, fast bruger af varmestuen. I dag beslutter Region Syddanmark, om projektet skal udvides.",
+      "summary_en": "At the Church's Red Cross in Odense, the doctor comes to the vulnerable. - It's good and also necessary, says Peder Pedersen, a regular user of the warm room. Today, the Region of Southern Denmark will decide whether the project should be expanded.",
+      "link": "https://www.dr.dk/nyheder/indland/folk-gaar-jo-naermest-og-raadner-halvt-op-inden-de-kommer-til-laege",
+      "pubDate": "Mon, 26 Oct 2026 07:00:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "P? Instagram er Mette kendt som Halloween Queen",
-      "title_en": "On Instagram, Mette is known as the Halloween Queen.",
+      "title_da": "By greb faklerne og demonstrerede mod mulig racistisk h?rv?rk",
+      "title_en": "City took up torches and demonstrated against possible racist vandalism",
+      "summary_da": "Tre erhvervsdrivende med indvandrerbaggrund har oplevet h?rv?rk i den sydjyske by R?dding.",
+      "summary_en": "Three business owners with an immigrant background have experienced vandalism in the southern Jutland town of R?dding.",
+      "link": "https://www.dr.dk/nyheder/indland/greb-faklerne-og-demonstrerede-mod-mulig-racistisk-haervaerk",
+      "pubDate": "Mon, 26 Oct 2026 06:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Proteinb?lgen vil ikke d?: Efter 10 ?r bliver skyr stadig revet ned af hylderne",
+      "title_en": "The protein wave won't die: After 10 years, skyr is still being torn off the shelves",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/paa-instagram-er-mette-kendt-som-halloween-queen",
-      "pubDate": "Sat, 24 Oct 2026 18:00:00 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/proteinboelgen-vil-ikke-doe-efter-10-aar-bliver-skyr-stadig-revet-ned-af-hylderne",
+      "pubDate": "Mon, 26 Oct 2026 06:20:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "For?ldre opfordres til at tjekke b?rns el-scootere efter sager om ulovlig k?rsel",
+      "title_en": "Parents urged to check children?s electric scooters after illegal riding cases",
+      "summary_da": "De danske trafiksikkerhedsmyndigheder opfordrer for?ldre til at kontrollere el-scootere, der bruges af deres b?rn, efter at politiet har stoppet mindre?rige og scootere, der er i stand til at overskride den lovlige hastighedsgr?nse betydeligt. Motorcyklister skal v?re mindst 15 ?r gamle for at bruge en el-scooter alene i trafikken. Scootere m? ikke k?re hurtigere end 20 kilometer pr. [?]",
+      "summary_en": "Danish road safety authorities are urging parents to check electric scooters used by their children after police stopped underage riders and scooters capable of greatly exceeding the legal speed limit. Riders must be at least 15 years old to use an electric scooter alone in traffic. Scooters may travel no faster than 20 kilometers per [?]",
+      "link": "https://cphpost.dk/2026-10-26/news/round-up/parents-urged-to-check-childrens-electric-scooters-after-illegal-riding-cases/",
+      "pubDate": "Mon, 26 Oct 2026 05:27:03 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Danmark afliver 27.000 kalkuner efter udbrud af fugleinfluenza p? Lolland",
+      "title_en": "Denmark to cull 27,000 turkeys after bird flu outbreak on Lolland",
+      "summary_da": "De danske myndigheder vil mandag aflive 27.000 kalkuner, efter at der blev p?vist h?jpatogen fugleinfluenza i en flok i Stokkemarke p? Lolland. Det er Danmarks andet bekr?ftede udbrud af den meget smitsomme sygdom inden for en uge, oplyser F?devarestyrelsen. Endnu et udbrud blev identificeret fredag ??i en flok i B?gelunde [?]",
+      "summary_en": "Danish authorities will cull 27,000 turkeys Monday after highly pathogenic avian influenza was detected in a flock in Stokkemarke on the island of Lolland. It is Denmark?s second confirmed outbreak of the highly contagious disease within one week, the Danish Veterinary and Food Administration said. Another outbreak was identified Friday in a flock in B?gelunde [?]",
+      "link": "https://cphpost.dk/2026-10-26/news/round-up/denmark-to-cull-27000-turkeys-after-bird-flu-outbreak-on-lolland/",
+      "pubDate": "Mon, 26 Oct 2026 05:26:59 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Danske myndigheder opfordrer virksomheder til at styrke beskyttelsen af ??personoplysninger",
+      "title_en": "Danish authorities urge companies to strengthen personal data protections",
+      "summary_da": "Styrelsen for Offentlig Beredskab har opfordret danske myndigheder og virksomheder til at reducere risikoen for, at personlige oplysninger systematisk hentes fra deres it-systemer. Advarslen f?lger flere st?rre h?ndelser, der involverer uautoriseret adgang til personoplysninger. Dansk Industri, DI og en st?rre brancheforening, udtalte, at r?det g?lder ud over systemer [?]",
+      "summary_en": "The Agency for Public Security has urged Danish authorities and companies to reduce the risk of personal information being systematically retrieved from their IT systems. The warning follows several major incidents involving unauthorized access to personal data. Dansk Industri, the Confederation of Danish Industry and a major business association, said the advice applies beyond systems [?]",
+      "link": "https://cphpost.dk/2026-10-26/news/round-up/danish-authorities-urge-companies-to-strengthen-personal-data-protections/",
+      "pubDate": "Mon, 26 Oct 2026 05:26:54 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Dronning Margrethe modtager medalje for 25 ?rs designarbejde i Tivoli",
+      "title_en": "Queen Margrethe receives medal for 25 years of design work at Tivoli",
+      "summary_da": "Dronning Margrethe har modtaget en 25-?rs jubil?umsmedalje som anerkendelse af sit arbejde som kostume- og scenograf for Tivoli i K?benhavn. Tivolis administrerende direkt?r Susanne M?rch Koch overrakte medaljen under en privat ceremoni p? Fredensborg Slot. \"Dronning Margrethe har haft en helt enest?ende betydning for Tivolis scenekunst,\" sagde Koch. Den tidligere danske monark [?]",
+      "summary_en": "Queen Margrethe has received a 25th anniversary medal recognizing her work as a costume and set designer for Copenhagen?s Tivoli Gardens. Tivoli chief executive Susanne M?rch Koch presented the medal during a private ceremony at Fredensborg Palace. ?Queen Margrethe has had a truly exceptional significance for Tivoli?s performing arts,? Koch said. The former Danish monarch [?]",
+      "link": "https://cphpost.dk/2026-10-26/news/round-up/queen-margrethe-receives-medal-for-25-years-of-design-work-at-tivoli/",
+      "pubDate": "Mon, 26 Oct 2026 05:26:48 +0000"
     },
     {
       "source": "DR Indland",
-      "title_da": "Kan du gennemskue en svindler? Tro om igen",
-      "title_en": "Can you spot a scammer? Think again",
+      "title_da": "Hospitalschefer skal st? skoleret efter fyring af kritiske overl?ger",
+      "title_en": "Hospital managers must be educated after firing critical senior doctors",
+      "summary_da": "Politikere vil blandt andet have svar p?, om patienter fortsat kan f? den rette behandling.",
+      "summary_en": "Politicians want answers, among other things, about whether patients can continue to receive the right treatment.",
+      "link": "https://www.dr.dk/nyheder/indland/hospitalschefer-skal-staa-skoleret-efter-fyring-af-kritiske-overlaeger",
+      "pubDate": "Mon, 26 Oct 2026 05:00:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "S?ger lys og k?rlighed i det Sydfynske ?hav",
+      "title_en": "Looking for light and love in the South Funen Archipelago",
+      "summary_da": "I l?bet af den f?rste vinter gav jeg efter og k?bte en flybillet til et badested i Thailand ? for at bryde de lange, m?rke m?neder. Jeg f?lte mig lidt som en taber, skriver Barbara Rijks.",
+      "summary_en": "During the first winter I caved in and bought a flight ticket to a beach resort in Thailand?to break the long, dark months. I felt a bit like a loser, writes Barbara Rijks",
+      "link": "https://cphpost.dk/2026-10-26/life-in-denmark/looking-for-light-and-love-in-the-south-funen-archipelago/",
+      "pubDate": "Mon, 26 Oct 2026 05:00:00 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Klar til krisen?: Her er tricks fra din bedstemors tid",
+      "title_en": "Ready for the crisis?: Here are tricks from your grandmother's time",
+      "summary_da": "Vi skal v?re beredt til en krise. Beredskabsstyrelsen har lavet en liste med de ting, vi skal have til at klare os selv i 72 timer. Men hvad gjorde man under anden verdenskrig?",
+      "summary_en": "We need to be prepared for a crisis. The Danish Emergency Management Agency has made a list of the things we need to be able to manage ourselves for 72 hours. But what did people do during World War II?",
+      "link": "https://www.dr.dk/nyheder/indland/klar-til-krisen-her-er-tricks-fra-din-bedstemors-tid",
+      "pubDate": "Sun, 25 Oct 2026 14:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Magisk terning giver demensramte lys i ?jnene",
+      "title_en": "Magic cube gives light to dementia sufferers",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/kan-du-gennemskue-en-svindler-tro-om-igen",
-      "pubDate": "Sat, 24 Oct 2026 17:00:00 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/reels/magisk-terning-giver-demensramte-lys-i-oejnene",
+      "pubDate": "Sun, 25 Oct 2026 13:30:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Plejehjem st?r til lukning: Nu vil borgerne selv overtage det",
-      "title_en": "Nursing home to close: Now residents want to take it over themselves",
-      "summary_da": "En initiativgruppe i Outrup er g?et sammen for at redde byens plejehjem.",
-      "summary_en": "An initiative group in Outrup has come together to save the town's nursing home.",
-      "link": "https://www.dr.dk/nyheder/indland/plejehjem-staar-til-lukning-nu-vil-borgerne-selv-overtage-det",
-      "pubDate": "Sat, 24 Oct 2026 17:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "K?benhavns Universitet f?r kritik for h?ndtering af cyberangreb",
-      "title_en": "University of Copenhagen criticized for handling cyberattacks",
-      "summary_da": "Forpersonen for Studenterr?det mener, at de studerende burde v?re blevet orienteret i bedre tid. En ekspert i cybersikkerhed stemmer i.",
-      "summary_en": "The head of the Student Council believes that students should have been informed in advance. A cybersecurity expert agrees.",
-      "link": "https://www.dr.dk/nyheder/indland/koebenhavns-universitet-faar-kritik-haandtering-af-cyberangreb",
-      "pubDate": "Sat, 24 Oct 2026 16:56:25 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Kraftigt stormvejr aflyser f?rger og risikerer at lukke broer",
-      "title_en": "Severe storms cancel ferries and risk closing bridges",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/trafik",
-      "pubDate": "Sat, 24 Oct 2026 16:26:55 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Mere end to k?n? Sygeplejerske og politiker uenige",
-      "title_en": "More than two genders? Nurse and politician disagree",
-      "summary_da": "Sundhedspersonale bad region om et st?ttev?rkt?j til m?det med LGBTQ+-personer. Resultatet er en lommebog, men den bruger 'woke-ideologisk' sprog, mener Venstre. Det har f?et en debat til blusse op.",
-      "summary_en": "Healthcare professionals asked the region for a support tool for meeting with LGBTQ+ people. The result is a pocketbook, but it uses 'woke-ideological' language, according to the Liberal Party. This has sparked a debate.",
-      "link": "https://www.dr.dk/nyheder/indland/mere-end-koen-sygeplejerske-og-politiker-uenige",
-      "pubDate": "Sat, 24 Oct 2026 16:00:00 GMT"
+      "title_da": "Det er p? tide, vi g?r os klar til en krise, siger beredskabsekspert. Hun ved ogs?, hvad der skal til, f?r du tager det seri?st",
+      "title_en": "It's time we get ready for a crisis, says emergency preparedness expert. She also knows what it takes before you take it seriously",
+      "summary_da": "Der er stadig mange danskere, der ikke er klar til tre d?gn p? helt egen h?nd.",
+      "summary_en": "There are still many Danes who are not ready for three days on their own.",
+      "link": "https://www.dr.dk/event/sammenomberedskab/det-er-paa-tide-vi-goer-os-klar-til-en-krise-siger-beredskabsekspert-hun-ved-ogsaa-hvad-der-skal",
+      "pubDate": "Sun, 25 Oct 2026 10:49:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
@@ -100,51 +145,6 @@
       "summary_en": "The expert group tasked with examining the possibilities for a screening model for citizenship applicants is facing further delays in its work. The Ministry of Immigration and Integration writes this in a press release. ? Due to the scope and complexity of the work, we cannot manage to deliver our recommendations around the turn of [?]",
       "link": "https://cphpost.dk/2026-10-24/news/round-up/denmark-delays-new-citizenship-screening-model-what-it-means-for-applicants/",
       "pubDate": "Sat, 24 Oct 2026 06:31:07 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Kraftig vind presser elpriserne ned i weekenden",
-      "title_en": "Strong winds push power prices down this weekend",
-      "summary_da": "Kraftig vind bringer us?dvanligt billig str?m til Danmark i weekenden. Elpriserne forventes at falde kraftigt i hele Danmark p? l?rdag, da kraftig vind ?ger produktionen fra landets vindm?ller. Hvis du har en variabel elkontrakt, kan l?rdag v?re en god dag til at k?re vaskemaskinen, oplade en elbil eller bruge [?]",
-      "summary_en": "Strong winds bring unusually cheap electricity to Denmark this weekend Electricity prices are expected to fall sharply across Denmark on Saturday as strong winds boost production from the country?s wind turbines. If you have a variable electricity contract, Saturday could be a good day to run the washing machine, charge an electric car or use [?]",
-      "link": "https://cphpost.dk/2026-10-24/news/round-up/strong-winds-push-power-prices-down-this-weekend/",
-      "pubDate": "Sat, 24 Oct 2026 06:31:01 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Data om 525.000 personer kompromitteret i cyberangreb p? KU",
-      "title_en": "Data on 525,000 people compromised in KU cyberattack",
-      "summary_da": "K?benhavns Universitet (KU) har v?ret udsat for et cyberangreb. Hackerne har f?et adgang til oplysninger om cirka 525.000 personer. Blandt disse er oplysninger som fulde navn, CPR-nummer, arbejdstelefonnummer, privat telefonnummer og privat e-mailadresse. Det oplyste universitetet i en pressemeddelelse fredag ??aften. H?ndelsen [?]",
-      "summary_en": "The University of Copenhagen (KU) has been subjected to a cyberattack. The hackers have gained access to information on approximately 525,000 individuals. Among this is information such as full name, CPR number, work telephone number, private telephone number, and private email address. The university stated this in a press release on Friday evening. The incident [?]",
-      "link": "https://cphpost.dk/2026-10-24/news/round-up/data-on-525000-people-compromised-in-ku-cyberattack/",
-      "pubDate": "Sat, 24 Oct 2026 06:30:52 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Hundredvis af passagerer ombooket efter lange k?er i K?benhavns Lufthavn",
-      "title_en": "Hundreds of passengers rebooked after long queues at Copenhagen Airport",
-      "summary_da": "Mindst 352 passagerer, der var booket p? SAS-flyvninger, er blevet ombooket, efter at lange k?er ved sikkerhedskontrollen i K?benhavns Lufthavn for?rsagede, at de missede deres afgange. \"Vi forst?r den frustration og ulempe, som situationen for?rsager, og deler vores passagerers frustration. Vi ved, at K?benhavns Lufthavn arbejder h?rdt p? at l?se problemet,\" sagde hun. [?]",
-      "summary_en": "At least 352 passengers booked on SAS flights have been rebooked after long queues at security control at Copenhagen Airport caused them to miss their departures. ?We understand the frustration and inconvenience that the situation causes, and share our passengers? frustration. We know that Copenhagen Airport is working hard to resolve the problem,? she said. [?]",
-      "link": "https://cphpost.dk/2026-10-23/news/round-up/hundreds-of-passengers-rebooked-after-long-queues-at-copenhagen-airport/",
-      "pubDate": "Fri, 23 Oct 2026 13:31:01 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Omkring 21.300 danske hjemmesider mangler PHP-sikkerhedsopdateringer",
-      "title_en": "Around 21,300 Danish websites lack PHP security updates",
-      "summary_da": "Omkring 21.300 danske hjemmesider er endnu ikke blevet opdateret efter opdagelsen af ??to sikkerhedss?rbarheder i PHP, et af verdens mest anvendte programmeringssprog til hjemmesider. Nye tal fra Dansk Industri viser, at omkring 3.300 hjemmesider kan modtage sikkerhedsopdateringen, men endnu ikke har installeret den. [?]",
-      "summary_en": "Around 21,300 Danish websites have not yet been updated following the discovery of two security vulnerabilities in PHP, one of the world?s most widely used programming languages for websites. New figures from the Confederation of Danish Industry (Dansk Industri) show that around 3,300 websites can receive the security update but have not yet installed it. [?]",
-      "link": "https://cphpost.dk/2026-10-23/news/round-up/around-21300-danish-websites-lack-php-security-updates/",
-      "pubDate": "Fri, 23 Oct 2026 13:30:55 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Jacob Harris f?r tre ?rs konkursforbud",
-      "title_en": "Jacob Harris receives three-year bankruptcy ban",
-      "summary_da": "Jacob Harris er blevet udelukket fra at lede eller sidde i bestyrelsen for et selskab i tre ?r efter en kendelse fra skifteretten i Roskilde fredag. TV 2 rapporterede afg?relsen med henvisning til bobestyrer og konkursadvokat Morten Bjerregaard. Forbuddet betyder ogs?, at Harris, et uafh?ngigt medlem af Folketinget, ikke kan eje [?]",
-      "summary_en": "Jacob Harris has been banned from managing or sitting on the board of a company for three years following a ruling by the probate court in Roskilde on Friday. TV 2 reported the decision, citing trustee and bankruptcy lawyer Morten Bjerregaard. The ban also means Harris, an independent member of the Danish parliament, cannot own [?]",
-      "link": "https://cphpost.dk/2026-10-23/news/round-up/jacob-harris-receives-three-year-bankruptcy-ban/",
-      "pubDate": "Fri, 23 Oct 2026 13:30:50 +0000"
     }
   ]
 }
