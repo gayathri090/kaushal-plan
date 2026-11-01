@@ -1,7 +1,79 @@
 {
-  "date": "2026-10-31",
-  "generatedAt": "2026-10-31T07:42:11.529Z",
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T07:42:13.607Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Efter alkoholforbud i Gr?nland: Flere vil stramme reglerne for danske unge",
+      "title_en": "After alcohol ban in Greenland: More people want to tighten the rules for Danish youth",
+      "summary_da": "I Danmark b?r al k?b og salg af alkohol til unge under 18 ?r forbydes, lyder det fra flere organisationer og en sociolog.",
+      "summary_en": "In Denmark, all purchases and sales of alcohol to young people under the age of 18 should be banned, according to several organizations and a sociologist.",
+      "link": "https://www.dr.dk/nyheder/indland/efter-alkoholforbud-i-groenland-flere-vil-stramme-reglerne-danske-unge",
+      "pubDate": "Sun, 01 Nov 2026 05:56:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Nogle l?ber t?r sidst p? m?neden ? stifterne sidst p? ?ret",
+      "title_en": "Some run out at the end of the month ? the founders at the end of the year",
+      "summary_da": "Pengekassen til pr?stel?nninger er tom, og derfor kan cirka 28 pr?stestillinger f?rst blive besat i det nye ?r, n?r kassen bliver fyldt igen.",
+      "summary_en": "The coffers for priest salaries are empty, and therefore approximately 28 priest positions can only be filled in the new year, when the coffers are filled again.",
+      "link": "https://www.dr.dk/nyheder/indland/nogle-loeber-toer-sidst-paa-maaneden-stifterne-sidst-paa-aaret",
+      "pubDate": "Sun, 01 Nov 2026 05:18:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "'En katastrofe i slowmotion': TV 2s h?ndtering af udsk?ldt program kritiseres",
+      "title_en": "'A disaster in slow motion': TV 2's handling of reviled program criticized",
+      "summary_da": "Det er en skam, at TV 2 ikke stiller op til interview og st?r p? m?l for programmet, mener Se & H?rs chefredakt?r Niels Pinborg.",
+      "summary_en": "It is a shame that TV 2 does not offer interviews and is not on target for the program, says Se & H?r's editor-in-chief Niels Pinborg.",
+      "link": "https://www.dr.dk/nyheder/indland/en-katastrofe-i-slowmotion-tv-2s-haandtering-af-udskaeldt-program-kritiseres",
+      "pubDate": "Sat, 31 Oct 2026 21:09:43 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "DR-reporter skr?mt fra vid og sans under reportage",
+      "title_en": "DR reporter scared out of his wits during report",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/dr-reporter-skraemt-fra-vid-og-sans-under-reportage",
+      "pubDate": "Sat, 31 Oct 2026 19:32:46 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Han l? nr. 1 i verden: Nu gi'r Kato sit livs mindste koncert",
+      "title_en": "He was number 1 in the world: Now Kato is giving the smallest concert of his life",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/han-laa-nr-1-i-verden-nu-gi-r-kato-sit-livs-mindste-koncert",
+      "pubDate": "Sat, 31 Oct 2026 18:17:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "De havde ingen at holde halloween med, nu samles fem landsbyer til k?mpe-fejring",
+      "title_en": "They had no one to celebrate Halloween with, now five villages are gathering for a huge celebration",
+      "summary_da": "P? tv?rs af landsbyer og forsamlingshuse laver fem landbyer i Skive Kommune arrangementer for omr?dets b?rn.",
+      "summary_en": "Across villages and community centers, five rural towns in Skive Municipality organize events for the area's children.",
+      "link": "https://www.dr.dk/nyheder/indland/de-havde-ingen-holde-halloween-med-nu-samles-fem-landsbyer-til-kaempe-fejring",
+      "pubDate": "Sat, 31 Oct 2026 17:32:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Halloween tog overh?nd for Thomas: I dag er det hele opmaganiseret",
+      "title_en": "Halloween got the better of Thomas: Today it's all organized",
+      "summary_da": "Thomas Kj?r brugte m?neder p? at lave ting til halloween, indtil det blev for meget.",
+      "summary_en": "Thomas Kj?r spent months making things for Halloween until it became too much.",
+      "link": "https://www.dr.dk/nyheder/indland/halloween-tog-overhaand-thomas-i-dag-er-det-hele-opmaganiseret",
+      "pubDate": "Sat, 31 Oct 2026 16:11:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Kollegaer i massevis reagerer p? Mylenbergs d?d: 'Troels var enest?ende'",
+      "title_en": "Colleagues react en masse to Mylenberg's death: 'Troels was unique'",
+      "summary_da": "Den afholdte journalist og tv-v?rts d?d har b?de f?et kollegaer og politiske kilder til at reagere.",
+      "summary_en": "The death of the beloved journalist and TV host has caused both colleagues and political sources to react.",
+      "link": "https://www.dr.dk/nyheder/indland/kollegaer-i-massevis-reagerer-paa-mylenbergs-doed-troels-var-enestaaende",
+      "pubDate": "Sat, 31 Oct 2026 15:04:04 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "FaceTime under k?rsel koster kvinde betinget fratagelse af k?rekort i Danmark",
@@ -37,78 +109,6 @@
       "summary_en": "Denmark misses pesticide target as concerns grow over groundwater Denmark?s pesticide load rose by 33 percent in a single year, new figures show. Part of the increase is linked to farmers stocking up on pesticides that can form the PFAS compound TFA and leach into groundwater. Denmark has missed a key target for reducing the [?]",
       "link": "https://cphpost.dk/2026-10-31/news/round-up/pesticide-load-rises-derailing-targets/",
       "pubDate": "Sat, 31 Oct 2026 07:16:20 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "S?stre st?r bag gyserhus: DR-reporter springer af skr?k",
-      "title_en": "Sisters are behind horror house: DR reporter jumps in fear",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/soestre-staar-bag-gyserhus-dr-reporter-springer-af-skraek",
-      "pubDate": "Sat, 31 Oct 2026 07:12:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Der er vendt op og ned p? d?gnets elpriser",
-      "title_en": "There has been a reversal in 24-hour electricity prices",
-      "summary_da": "Nu er str?mmen igen billigst om natten.",
-      "summary_en": "Now electricity is once again cheapest at night.",
-      "link": "https://www.dr.dk/nyheder/indland/der-er-vendt-op-og-ned-paa-doegnets-elpriser",
-      "pubDate": "Sat, 31 Oct 2026 06:27:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Temu rasler ned p? e-handelsliste efter nye toldregler",
-      "title_en": "Temu falls down the e-commerce list after new customs regulations",
-      "summary_da": "De nye toldregler betyder, at alle pakker med en v?rdi p? under 150 euro p?l?gges en told p? tre euro.",
-      "summary_en": "The new customs rules mean that all packages with a value of less than 150 euros will be subject to a customs duty of three euros.",
-      "link": "https://www.dr.dk/nyheder/indland/temu-rasler-ned-paa-e-handelsliste-efter-nye-toldregler",
-      "pubDate": "Sat, 31 Oct 2026 06:09:44 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Forbudt for b?rn? 'Der er en tendens til, at halloween bliver for meget og for voldsomt'",
-      "title_en": "Banned for children? 'Halloween tends to become too much and too violent'",
-      "summary_da": "Mens mange giver den gas med uhyggen til halloween, s? har en del b?rnehaver valgt den uhyggelige h?jtid fra.",
-      "summary_en": "While many people go all out with the spookiness of Halloween, some kindergartens have opted out of the spooky holiday.",
-      "link": "https://www.dr.dk/nyheder/indland/forbudt-boern-der-er-en-tendens-til-halloween-bliver-meget-og-voldsomt",
-      "pubDate": "Sat, 31 Oct 2026 05:45:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Omr?de i Greve afsp?rret efter spr?ngning af indgangsparti",
-      "title_en": "Area in Greve cordoned off after entrance area blown up",
-      "summary_da": "Midt- og Vestsj?llands Politi f?r assistance af eksterne eksperter efter spr?ngning. Ingen tilskadekomne.",
-      "summary_en": "Midt- and West Zealand Police receive assistance from external experts after explosion. No injuries.",
-      "link": "https://www.dr.dk/nyheder/indland/omraade-i-greve-afspaerret-efter-spraengning-af-indgangsparti",
-      "pubDate": "Sat, 31 Oct 2026 05:30:46 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Gr?nlandsk politi jubler over alkoholforbud, der har f?rt til halvering af anmeldelser",
-      "title_en": "Greenland police cheer over alcohol ban that has led to halving of reports",
-      "summary_da": "I begyndelsen af oktober indf?rte de gr?nlandske politikere et totalforbud imod salg af alkohol i det sydlige Gr?nland.",
-      "summary_en": "In early October, Greenlandic politicians introduced a total ban on the sale of alcohol in southern Greenland.",
-      "link": "https://www.dr.dk/nyheder/indland/groenland/groenlandsk-politi-jubler-over-alkoholforbud-der-har-foert-til-halvering-af-anmeldelser",
-      "pubDate": "Sat, 31 Oct 2026 05:18:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "'Det er s? m?rkeligt': Danske skoler ramt af mystiske AI-anmodninger",
-      "title_en": "'It's so strange': Danish schools hit by mysterious AI requests",
-      "summary_da": "Flere skoler har de seneste uger f?et en r?kke anmodninger om aktindsigter, som tilsyneladende er skabt af AI.",
-      "summary_en": "In recent weeks, several schools have received a number of requests for access to documents, which appear to have been created by AI.",
-      "link": "https://www.dr.dk/nyheder/indland/det-er-saa-maerkeligt-danske-skoler-ramt-af-mystiske-ai-anmodninger",
-      "pubDate": "Fri, 30 Oct 2026 21:00:16 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Kurs mod ?krise?: S?dan er det g?et s? galt i Venstre",
-      "title_en": "Heading towards 'crisis': This is how things have gone so wrong in the Liberal Party",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/kurs-mod-krise-saadan-et-det-gaaet-saa-galt-i-venstre",
-      "pubDate": "Fri, 30 Oct 2026 20:25:00 GMT"
     },
     {
       "source": "The Copenhagen Post",
