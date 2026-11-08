@@ -1,7 +1,79 @@
 {
-  "date": "2026-11-07",
-  "generatedAt": "2026-11-07T07:42:12.383Z",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T07:41:55.022Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Danskere tager sagen i egen h?nd: Laver et netv?rk til beskeder, der fungerer uden om mobilnettet",
+      "title_en": "Danes take matters into their own hands: Create a messaging network that works outside the mobile network",
+      "summary_da": "Med et nyt netv?rk, der fungerer via radiob?lger, kan en r?kke danskere stadig sende beskeder til hinanden - ogs? selvom vi st?r uden str?m, mobilnetv?rk og internet.",
+      "summary_en": "With a new network that works via radio waves, a number of Danes can still send messages to each other - even if we are without power, mobile networks and internet.",
+      "link": "https://www.dr.dk/nyheder/indland/danskere-tager-sagen-i-egen-haand-laver-et-netvaerk-til-beskeder-der-fungerer-uden-om-mobilnettet",
+      "pubDate": "Sun, 08 Nov 2026 06:42:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Kemo i tasken og hjem i sofaen: Flere behandles derhjemme",
+      "title_en": "Chemo in the bag and home on the couch: More people are being treated at home",
+      "summary_da": "De seneste ?r er flere behandlinger flyttet ud af hospitalerne og hjem til patienterne.",
+      "summary_en": "In recent years, more treatments have moved out of hospitals and into patients' homes.",
+      "link": "https://www.dr.dk/nyheder/indland/kemo-i-tasken-og-hjem-i-sofaen-flere-behandles-derhjemme",
+      "pubDate": "Sun, 08 Nov 2026 06:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "K?rt ned: Clark troede, han skulle d?",
+      "title_en": "Run down: Clark thought he was going to die",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/koert-ned-clark-troede-han-skulle-doe",
+      "pubDate": "Sat, 07 Nov 2026 20:38:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Ministre sl?r fast: Slut med 'usynlige' p-b?der",
+      "title_en": "Ministers confirm: No more 'invisible' parking fines",
+      "summary_da": "Motorstyrelsen har indsk?rpet over for p-selskaber, at de skal udstede fysiske b?der, f?r de m? sende digital opkr?vning.",
+      "summary_en": "The Danish Motor Vehicle Authority has made it clear to parking companies that they must issue physical fines before they are allowed to send digital collections.",
+      "link": "https://www.dr.dk/nyheder/politik/ministre-slaar-fast-slut-med-usynlige-p-boeder",
+      "pubDate": "Sat, 07 Nov 2026 19:13:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Josie er bekymret for sine ulvehunde: Nu f?r de veste p?",
+      "title_en": "Josie is worried about her wolfhounds: Now they are wearing vests",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/josie-er-bekymret-sine-ulvehunde-nu-faar-de-veste-paa",
+      "pubDate": "Sat, 07 Nov 2026 18:41:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Datacentre m?der modstand: 'H?ster data p? vores bekostning'",
+      "title_en": "Data centers face resistance: 'Harvesting data at our expense'",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/datacentre-moeder-modstand-hoester-data-paa-vores-bekostning",
+      "pubDate": "Sat, 07 Nov 2026 17:40:09 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Er du swiftie? Bevis det ? g?t b?gerne bag popikonets st?rste hits",
+      "title_en": "Are you a Swiftie? Prove it ? guess the books behind the pop icon's biggest hits",
+      "summary_da": "Der gemmer sig en lang r?kke referencer til litter?re v?rker bag de store f?lelser i Taylor Swifts sange.",
+      "summary_en": "There are a long list of references to literary works hidden behind the great emotions in Taylor Swift's songs.",
+      "link": "https://www.dr.dk/nyheder/indland/er-du-swiftie-bevis-det-gaet-boegerne-bag-popikonets-stoerste-hits",
+      "pubDate": "Sat, 07 Nov 2026 17:18:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "De blev egentlig afskaffet for 50 ?r siden, men nu s?ger dansk ? en ny 'lokal sherif'",
+      "title_en": "They were actually abolished 50 years ago, but now the Danish island is looking for a new 'local sheriff'",
+      "summary_da": "Sognefogeden gennem 44 ?r takker af p? Or?, og det s?rlige job er nu ledigt.",
+      "summary_en": "The parish bailiff for 44 years is retiring on Or?, and the special job is now vacant.",
+      "link": "https://www.dr.dk/nyheder/indland/de-blev-egentlig-afskaffet-50-aar-siden-men-nu-soeger-dansk-oe-en-ny-lokal-sherif",
+      "pubDate": "Sat, 07 Nov 2026 16:50:00 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "Demokratisk senatskandidat sags?ger valgn?vn i Alaska",
@@ -66,51 +138,6 @@
       "pubDate": "Sat, 07 Nov 2026 07:25:35 +0000"
     },
     {
-      "source": "DR Indland",
-      "title_da": "J-dag gav travlhed p? R?dhuspladsens mobile skadestue",
-      "title_en": "D-day brought hustle and bustle to the mobile emergency room at R?dhuspladsen",
-      "summary_da": "Det er s?rligt unge mennesker, som er kommet til skade i nat, hvor julebryggen kom ud.",
-      "summary_en": "It is especially young people who were injured last night when the Christmas brew came out.",
-      "link": "https://www.dr.dk/nyheder/indland/j-dag-gav-travlhed-paa-raadhuspladsens-mobile-skadestue",
-      "pubDate": "Sat, 07 Nov 2026 07:20:52 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "'Jeg troede, det var l?gn': Dieseltyve t?mmer Henriks tanke, og deres metoder overrasker ham",
-      "title_en": "'I thought it was a lie': Diesel thieves empty Henrik's mind, and their methods surprise him",
-      "summary_da": "Flere virksomheder har f?et stj?let diesel, efter priserne p? tankstationerne er eksploderet.",
-      "summary_en": "Several companies have had diesel stolen after prices at gas stations exploded.",
-      "link": "https://www.dr.dk/nyheder/indland/jeg-troede-det-var-loegn-dieseltyve-toemmer-henriks-tanke-og-deres-metoder-overrasker-ham",
-      "pubDate": "Sat, 07 Nov 2026 05:42:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "'M?rkelige' anmodninger rammer mange forsyningsselskaber: Branche frygter, det kan bruges til et cyberangreb",
-      "title_en": "'Strange' requests hit many utilities: Industry fears it could be used for a cyberattack",
-      "summary_da": "Aktindsigtsanmodninger, der ligner, de er skabt af AI, har ramt flere parter inden for kritisk infrastruktur.",
-      "summary_en": "Document access requests that appear to be generated by AI have affected several parties within critical infrastructure.",
-      "link": "https://www.dr.dk/nyheder/indland/maerkelige-anmodninger-rammer-mange-forsyningsselskaber-branche-frygter-det-kan-bruges-til-et",
-      "pubDate": "Fri, 06 Nov 2026 20:25:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Falske AI-billeder fors?ger at lokke turister til K?benhavn",
-      "title_en": "Fake AI images try to lure tourists to Copenhagen",
-      "summary_da": "En Instagram-profil har delt adskillige AI-genererede billeder af steder i K?benhavn, som f?r turister til fejlagtigt at tro, at byens omr?der ser anderledes ud, end de g?r i virkeligheden.",
-      "summary_en": "An Instagram profile has shared several AI-generated images of places in Copenhagen, which lead tourists to mistakenly believe that areas of the city look different than they do in reality.",
-      "link": "https://www.dr.dk/nyheder/indland/falske-ai-billeder-forsoeger-lokke-turister-til-koebenhavn",
-      "pubDate": "Fri, 06 Nov 2026 20:01:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Pas p?: 'Helt vildt' mange dyr bliver p?k?rt lige nu",
-      "title_en": "Beware: 'Absolutely crazy' many animals are being hit right now",
-      "summary_da": "Sidste ?r blev der anmeldt 12.253 p?k?rsler af dyr p? Dyrenes Beskyttelses Vagtcentral 1812. Igen i ?r forventes det, at vi sl?r alle tiders kedelige rekord i antallet af p?k?rsler i trafikken.",
-      "summary_en": "Last year, 12,253 animal collisions were reported to the Animal Protection Center 1812. Again this year, we are expected to break the all-time boring record in the number of collisions in traffic.",
-      "link": "https://www.dr.dk/nyheder/indland/pas-paa-helt-vildt-mange-dyr-bliver-paakoert-lige-nu",
-      "pubDate": "Fri, 06 Nov 2026 19:34:00 GMT"
-    },
-    {
       "source": "The Copenhagen Post",
       "title_da": "Ekspertindsigt: N?r to karrierer bliver til ?n: de skjulte udfordringer ved at v?re en efterladt ?gtef?lle i Danmark",
       "title_en": "Expert insights: When two careers become one: the hidden challenges of being a trailing spouse in Denmark",
@@ -118,33 +145,6 @@
       "summary_en": "About the author: Sidsel Byskov Hansen is the founder of Expat Counselling, specialising in psychological counselling and support for international individuals, couples and families in Denmark and worldwide. When an international professional accepts a position abroad, the decision is rarely made by one person alone. Behind many international relocations is a partner who also leaves [?]",
       "link": "https://cphpost.dk/2026-11-06/business-education/career/expert-insights-when-two-careers-become-one-the-idhden-challenges-of-being-a-trailing-spouse-in-denmark/",
       "pubDate": "Fri, 06 Nov 2026 19:19:58 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Michael blev mobbet: Nu fort?ller han sin historie i film",
-      "title_en": "Michael was bullied: Now he tells his story in film",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/kultur/reels/michael-blev-mobbet-nu-fortaeller-han-sin-historie-i-film",
-      "pubDate": "Fri, 06 Nov 2026 19:10:28 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Gl?delig jul og godt med Squash?",
-      "title_en": "Merry Christmas and happy Squash?",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/glaedelig-jul-og-godt-med-squash",
-      "pubDate": "Fri, 06 Nov 2026 17:45:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "International druk-trend spreder sig, og den er en 'supergod ide,' mener overl?ge",
-      "title_en": "International drinking trend is spreading, and it's a 'super good idea,' says chief physician",
-      "summary_da": "I dag er J-dag, men noget tyder p?, at drukkulturen i Danmark er under forandring.",
-      "summary_en": "Today is D-day, but there are signs that the drinking culture in Denmark is changing.",
-      "link": "https://www.dr.dk/nyheder/indland/international-druk-trend-spreder-sig-og-den-er-en-supergod-ide-mener-overlaege",
-      "pubDate": "Fri, 06 Nov 2026 16:58:00 GMT"
     }
   ]
 }
