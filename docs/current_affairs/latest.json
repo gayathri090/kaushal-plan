@@ -1,7 +1,79 @@
 {
-  "date": "2026-11-21",
-  "generatedAt": "2026-11-21T07:42:09.692Z",
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T07:42:11.452Z",
   "items": [
+    {
+      "source": "DR Indland",
+      "title_da": "Hunden Oscar fik angstmedicin. Og det er der flere hunde, der f?r",
+      "title_en": "Oscar the dog was given anxiety medication. And there are many other dogs who are given that.",
+      "summary_da": "Antallet af recepter er mere end tredoblet p? fem ?r.",
+      "summary_en": "The number of prescriptions has more than tripled in five years.",
+      "link": "https://www.dr.dk/nyheder/indland/hunden-oscar-fik-angstmedicin-og-det-er-der-flere-hunde-der-faar",
+      "pubDate": "Sun, 22 Nov 2026 07:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "To s?stre k?bte hus stort set samtidig til omtrent den samme pris: Nu vil prisforskellen overraske dig",
+      "title_en": "Two sisters bought a house at roughly the same time for about the same price: Now the price difference will surprise you",
+      "summary_da": "Det er historien om, hvordan ?n tilf?ldig beslutning for 25 ?r siden i dag giver dem vidt forskellige udgangspunkter.",
+      "summary_en": "It's the story of how one random decision 25 years ago gives them very different starting points today.",
+      "link": "https://www.dr.dk/nyheder/indland/soestre-koebte-hus-stort-set-samtidig-til-omtrent-den-samme-pris-nu-vil-prisforskellen-overraske-dig",
+      "pubDate": "Sun, 22 Nov 2026 07:05:07 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Tyv havde rodet Thits undert?j igennem",
+      "title_en": "Thief had rummaged through Thit's underwear",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/tyv-havde-rodet-thits-undertoej-igennem",
+      "pubDate": "Sun, 22 Nov 2026 07:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Private solceller kan udg?re et ?mt punkt i en tid pr?get af hackerangreb",
+      "title_en": "Private solar cells can be a sore point in an era marked by hacker attacks",
+      "summary_da": "Generelt er sikkerheden h?j i energisektoren, men landets mange sm? anl?g kan udg?re en risiko, lyder det fra Green Power Denmark.",
+      "summary_en": "In general, safety is high in the energy sector, but the country's many small plants can pose a risk, according to Green Power Denmark.",
+      "link": "https://www.dr.dk/nyheder/indland/private-solceller-kan-udgoere-et-oemt-punkt-i-en-tid-praeget-af-hackerangreb",
+      "pubDate": "Sun, 22 Nov 2026 06:30:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Politiet holder kortene t?t til kroppen om brand?rsag",
+      "title_en": "Police are keeping their cards close to their bodies regarding the cause of the fire",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/reels/politiet-holder-kortene-taet-til-kroppen-om-brandaarsag",
+      "pubDate": "Sun, 22 Nov 2026 05:27:06 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Politiet: Brand er under kontrol",
+      "title_en": "Police: Fire is under control",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/live-brand-i-superbrugsen-paa-fanoe?focusId=12890116#liveblog-embed",
+      "pubDate": "Sat, 21 Nov 2026 21:05:02 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Muligt LTF-samarbejde med Rusland overrasker tidligere bandemedlem",
+      "title_en": "Possible LTF collaboration with Russia surprises former gang member",
+      "summary_da": "B?de politi og PET sk?rper indsatsen mod LTF efter mistanke om, at to medlemmer var hyret af Rusland til likvidering.",
+      "summary_en": "Both the police and PET are stepping up efforts against LTF after suspicions that two members were hired by Russia for liquidation.",
+      "link": "https://www.dr.dk/nyheder/indland/muligt-ltf-samarbejde-med-rusland-overrasker-tidligere-bandemedlem",
+      "pubDate": "Sat, 21 Nov 2026 20:07:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "LIVE Brand i SuperBrugsen p? Fan?",
+      "title_en": "LIVE Fire in SuperBrugsen on Fan?",
+      "summary_da": "",
+      "summary_en": "",
+      "link": "https://www.dr.dk/nyheder/indland/live-brand-i-superbrugsen-paa-fanoe",
+      "pubDate": "Sat, 21 Nov 2026 18:20:36 GMT"
+    },
     {
       "source": "The Copenhagen Post",
       "title_da": "Kilder rapporterer om muligt hacking af vigtig FBI-database",
@@ -73,78 +145,6 @@
       "summary_en": "Danish accusations that the Russian intelligence service was behind a suspected assassination attempt are ?groundless? and without evidence. The Russian Embassy in Denmark writes this in a written response to Ritzau. ? In reality, the accusations against Russia are once again not substantiated by any evidence, apart from the Danish intelligence services? groundless and unverifiable [?]",
       "link": "https://cphpost.dk/2026-11-21/news/round-up/russian-embassy-calls-danish-plot-claims-baseless/",
       "pubDate": "Sat, 21 Nov 2026 07:30:55 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Trusler og h?rdt arbejdspres p? nyt sygehus",
-      "title_en": "Threats and heavy work pressure at new hospital",
-      "summary_da": "Det psykiske arbejdsmilj? p? Aalborg Universitetshospital skal nu unders?ges n?rmere.",
-      "summary_en": "The psychological working environment at Aalborg University Hospital must now be examined in more detail.",
-      "link": "https://www.dr.dk/nyheder/indland/trusler-og-haardt-arbejdspres-paa-nyt-sygehus",
-      "pubDate": "Sat, 21 Nov 2026 06:24:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "For f?rste gang tr?ner en dansk fregat i t?t samarbejde med droner",
-      "title_en": "For the first time, a Danish frigate trains in close cooperation with drones",
-      "summary_da": "Danmark kommer ?afgjort? til at investere i flere droner, siger forsvarsminister Jeppe Bruus (S).",
-      "summary_en": "Denmark will 'definitely' invest in more drones, says Minister of Defense Jeppe Bruus (S).",
-      "link": "https://www.dr.dk/nyheder/indland/foerste-gang-traener-en-dansk-fregat-i-taet-samarbejde-med-droner",
-      "pubDate": "Sat, 21 Nov 2026 06:02:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "18-?rig mand er d?d efter ATV-ulykke i Nordsj?lland",
-      "title_en": "18-year-old man dies after ATV accident in North Zealand",
-      "summary_da": "En anden ung mand er indlagt med alvorlige kv?stelser.",
-      "summary_en": "Another young man is hospitalized with serious injuries.",
-      "link": "https://www.dr.dk/nyheder/indland/18-aarig-mand-er-doed-efter-atv-ulykke-i-nordsjaelland",
-      "pubDate": "Sat, 21 Nov 2026 05:28:25 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "?steuropa-analytiker om drabsfors?g rettet mod rapper: Derfor bruger efterretningstjenesterne denne metode",
-      "title_en": "Eastern European analyst on attempted murder of rapper: Why intelligence services use this method",
-      "summary_da": "Det er ikke us?dvanligt, at efterretningstjenester hyrer kriminelle til at lave deres arbejde i andre lande.",
-      "summary_en": "It is not unusual for intelligence agencies to hire criminals to do their work in other countries.",
-      "link": "https://www.dr.dk/nyheder/indland/oesteuropa-analytiker-om-drabsforsoeg-rettet-mod-rapper-derfor-bruger-efterretningstjenesterne",
-      "pubDate": "Sat, 21 Nov 2026 05:10:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Sys Bjerre elsker hittet, alle danskere kan synge med p?",
-      "title_en": "Sys Bjerre loves the hit, all Danes can sing along",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/sys-bjerre-elsker-hittet-alle-danskere-kan-synge-med-paa",
-      "pubDate": "Sat, 21 Nov 2026 05:00:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Ruslands ambassade: Danmark freml?gger ingen beviser",
-      "title_en": "Russian Embassy: Denmark presents no evidence",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/live-sigtelse-rusland-hyrede-danskere-til-draebe-ukrainer-i-danmark?focusId=12880918#liveblog-embed",
-      "pubDate": "Fri, 20 Nov 2026 21:12:38 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Lille brugs i opr?b: K?b vores benzin, inden den bliver billigere",
-      "title_en": "Small utility in appeal: Buy our gasoline before it gets cheaper",
-      "summary_da": "En lille brugs frygter at tabe penge p? benzin, n?r afgifterne falder til december.",
-      "summary_en": "A small utility fears losing money on gasoline when taxes fall in December.",
-      "link": "https://www.dr.dk/nyheder/indland/lille-brugs-i-opraab-koeb-vores-benzin-inden-den-bliver-billigere",
-      "pubDate": "Fri, 20 Nov 2026 20:42:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Kristian blev genforenet med s?n efter Agger-program: 'Det var den bedste dag i mit liv'",
-      "title_en": "Kristian was reunited with son after Agger program: 'It was the best day of my life'",
-      "summary_da": "Kristians ?ldste s?ns rakte ud, efter han s? sin far i fjernsynet.",
-      "summary_en": "Kristian's eldest son reached out after he saw his father on television.",
-      "link": "https://www.dr.dk/nyheder/indland/kristian-blev-genforenet-med-soen-efter-agger-program-det-var-den-bedste-dag-i-mit-liv",
-      "pubDate": "Fri, 20 Nov 2026 20:19:00 GMT"
     }
   ]
 }
