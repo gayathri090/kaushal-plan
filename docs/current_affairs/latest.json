@@ -1,150 +1,150 @@
 {
-  "date": "2026-11-24",
-  "generatedAt": "2026-11-24T07:42:17.577Z",
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T07:42:17.375Z",
   "items": [
     {
       "source": "DR Indland",
-      "title_da": "Flere uheld giver problemer i morgentrafikken",
-      "title_en": "More accidents cause problems in morning traffic",
+      "title_da": "Nets med advarsel op til Black Friday",
+      "title_en": "Nets with warning ahead of Black Friday",
+      "summary_da": "Efter Black Friday registrerer betalingsvirksomheden omkring 15 procent flere kortreklamationer end normalt i Norden.",
+      "summary_en": "After Black Friday, the payment company registers around 15 percent more card complaints than usual in the Nordics.",
+      "link": "https://www.dr.dk/nyheder/indland/nets-med-advarsel-op-til-black-friday",
+      "pubDate": "Wed, 25 Nov 2026 07:29:06 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Nye retningslinjer for folkeskolen: Undervisningen b?r som udgangspunkt foreg? uden AI",
+      "title_en": "New guidelines for primary schools: Teaching should generally take place without AI",
+      "summary_da": "Der b?r tidligst undervises med generativ AI i udskolingen, lyder anbefalingen.",
+      "summary_en": "The recommendation is that generative AI should be taught at the earliest in secondary school.",
+      "link": "https://www.dr.dk/nyheder/indland/nye-retningslinjer-folkeskolen-undervisningen-boer-som-udgangspunkt-foregaa-uden-ai",
+      "pubDate": "Wed, 25 Nov 2026 07:07:11 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Niels fik bremset sin alzheimers sygdom - hans datter h?ber behandlingen indf?res i Danmark",
+      "title_en": "Niels managed to slow down his Alzheimer's disease - his daughter hopes the treatment will be introduced in Denmark",
+      "summary_da": "Onsdag forventes Medicinr?det at afg?re, om en behandling der kan bremse alzheimers i tidlige stadier, skal indf?res i Danmark.",
+      "summary_en": "On Wednesday, the Medical Council is expected to decide whether a treatment that can slow down Alzheimer's in the early stages should be introduced in Denmark.",
+      "link": "https://www.dr.dk/nyheder/indland/niels-fik-bremset-sin-alzheimers-sygdom-hans-datter-haaber-behandlingen-indfoeres-i-danmark",
+      "pubDate": "Wed, 25 Nov 2026 06:00:00 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Firma fik mere end 30 straksp?bud: Gik konkurs, da de skulle betale b?den",
+      "title_en": "Company received more than 30 injunctions: Went bankrupt when they had to pay the fine",
+      "summary_da": "Virksomheden Birkholms h?jtryksrensede asbesttage uden at f?lge reglerne. Firmaet har f?et 30 straksp?bud og en b?de p? 431.400 kroner, men s? gik det konkurs.",
+      "summary_en": "The company Birkholms high-pressure cleaned asbestos roofs without following the rules. The company has received 30 immediate orders and a fine of 431,400 kroner, but then it went bankrupt.",
+      "link": "https://www.dr.dk/nyheder/indland/ekspert-om-firmas-rensning-af-asbesttag-det-lander-jo-paa-jorden-i-tagrum-og-nede-hos-naboen",
+      "pubDate": "Wed, 25 Nov 2026 05:40:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Det svenske parlament skal stemme om Ulf Kristersson som statsminister",
+      "title_en": "Swedish parliament to vote on Ulf Kristersson as prime minister",
+      "summary_da": "Sveriges rigsdag skal mandag stemme om, hvorvidt Moderaternes leder Ulf Kristersson skal blive statsminister. Riksdagens formand Andreas Norl?n annoncerede afstemningen tirsdag, efter at Centerpartiet gen?bnede forhandlingerne med Kristersson. Det bliver Riksdagens tredje fors?g p? at godkende en statsminister efter valget i september. Hvis fire kandidater bliver afvist, skal Sverige [?]",
+      "summary_en": "Sweden?s parliament will vote Monday on whether Moderate Party leader Ulf Kristersson should become prime minister. Parliamentary Speaker Andreas Norl?n announced the vote Tuesday after the Center Party reopened negotiations with Kristersson. It will be the Riksdag?s third attempt to approve a prime minister following the September election. If four candidates are rejected, Sweden must [?]",
+      "link": "https://cphpost.dk/2026-11-25/global/swedish-parliament-to-vote-on-ulf-kristersson-as-prime-minister/",
+      "pubDate": "Wed, 25 Nov 2026 05:31:19 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Trump tildeler pr?sidentens frihedsmedalje til Rudy Giuliani",
+      "title_en": "Trump awards Presidential Medal of Freedom to Rudy Giuliani",
+      "summary_da": "Den amerikanske pr?sident Donald Trump overrakte tirsdag Presidential Medal of Freedom til den tidligere borgmester i New York, Rudy Giuliani, i Det Hvide Hus. Prisen er USA's h?jeste civile ?resbevisning. Giuliani fungerede som Trumps advokat under fors?gene p? at omst?de resultatet af pr?sidentvalget i 2020. Han var borgmester i New York [?]",
+      "summary_en": "US President Donald Trump presented the Presidential Medal of Freedom to former New York City Mayor Rudy Giuliani at the White House on Tuesday. The award is the United States? highest civilian honor. Giuliani served as Trump?s lawyer during efforts to overturn the result of the 2020 presidential election. He was mayor of New York [?]",
+      "link": "https://cphpost.dk/2026-11-25/global/trump-awards-presidential-medal-of-freedom-to-rudy-giuliani/",
+      "pubDate": "Wed, 25 Nov 2026 05:31:13 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Thomas Markle sigtet for besiddelse af materiale med seksuelt misbrug af b?rn",
+      "title_en": "Thomas Markle charged with possessing child sexual abuse material",
+      "summary_da": "Thomas Markle, far til Meghan, hertuginde af Sussex, er blevet anklaget ved en f?deral domstol i Los Angeles for to tilf?lde af besiddelse af materiale med seksuelt misbrug af b?rn. Markle blev anholdt i begyndelsen af ??november og forbliver varet?gtsf?ngslet i Florida, rapporterede Reuters. FBI-agenter fandt angiveligt materialet i opbevaringsenheder, som Markle havde lejet i [?]",
+      "summary_en": "Thomas Markle, the father of Meghan, Duchess of Sussex, has been charged in a Los Angeles federal court with two counts of possessing child sexual abuse material. Markle was arrested in early November and remains in custody in Florida, Reuters reported. FBI agents allegedly discovered the material in storage units that Markle had rented in [?]",
+      "link": "https://cphpost.dk/2026-11-25/global/thomas-markle-charged-with-possessing-child-sexual-abuse-material/",
+      "pubDate": "Wed, 25 Nov 2026 05:31:05 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Danske mediekoncerner vil tilbyde gratis adgang til nyheder til unge",
+      "title_en": "Danish media groups to offer free news access to young people",
+      "summary_da": "De danske medievirksomheder JFM og Berlingske Media vil i l?bet af 2027 fjerne betalingsmure for l?sere i alderen 15 til 23 ?r. Initiativet har til form?l at tiltr?kke yngre m?lgrupper og styrke deres interesse for professionel journalistik, oplyste virksomhederne til MediaWatch. Berlingske Medias administrerende direkt?r, Anders Krab-Johansen, sagde, at gratis adgang til nyheder kan st?tte unges demokratiske uddannelse og g?re [?]",
+      "summary_en": "Danish media companies JFM and Berlingske Media will remove paywalls for readers aged 15 to 23 during 2027. The initiative aims to attract younger audiences and strengthen their interest in professional journalism, the companies told MediaWatch. Berlingske Media chief executive Anders Krab-Johansen said free access to news could support young people?s democratic education and make [?]",
+      "link": "https://cphpost.dk/2026-11-25/news/round-up/danish-media-groups-to-offer-free-news-access-to-young-people/",
+      "pubDate": "Wed, 25 Nov 2026 05:30:56 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "T?nketank udfordrer forventede olieindt?gter fra Nords?en",
+      "title_en": "Think tank challenges projected North Sea oil revenue",
+      "summary_da": "Danmark kan tjene langt mindre end tidligere ansl?et ved at forl?nge olie- og gasproduktionen i Nords?en fra 2042 til 2050, if?lge den gr?nne t?nketank Concito. Den statsejede Nords?fond har ansl?et, at forl?ngelse af produktionslicenser kan generere mellem 26 milliarder og 48 milliarder kroner i yderligere statslige indt?gter. Concitos beregninger placerer potentialet [?]",
+      "summary_en": "Denmark may earn far less than previously estimated by extending North Sea oil and gas production from 2042 to 2050, according to green think tank Concito. The state-owned North Sea Fund has estimated that extending production licenses could generate between 26 billion and 48 billion DKK in additional government revenue. Concito?s calculations place the potential [?]",
+      "link": "https://cphpost.dk/2026-11-25/news/round-up/think-tank-challenges-projected-north-sea-oil-revenue/",
+      "pubDate": "Wed, 25 Nov 2026 05:30:50 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "Alternativet truer med at tr?kke regeringens st?tte tilbage p? grund af Frederiksens migrationssprog",
+      "title_en": "Alternative threatens to withdraw government support over Frederiksen?s migration language",
+      "summary_da": "Alternativet kunne stoppe med at st?tte Danmarks regering, hvis statsminister Mette Frederiksen forts?tter med at bruge udtrykket \"befolkningsudskiftning\". Partileder Franciska Rosenkilde sagde, at Frederiksens brug af sprog, der forbindes med den yderste h?jrefl?j, gjorde det stadig vanskeligere for Alternativet at forblive et st?tteparti. \"Hvis statsministeren v?lger at bruge disse meget h?jreekstreme ord [...]",
+      "summary_en": "The Alternative could stop supporting Denmark?s government if Prime Minister Mette Frederiksen continues using the term ?population replacement.? Party leader Franciska Rosenkilde said Frederiksen?s use of language associated with the far right made it increasingly difficult for the Alternative to remain a supporting party. ?If the prime minister chooses to use these very far-right words [?]",
+      "link": "https://cphpost.dk/2026-11-25/news/round-up/alternative-threatens-to-withdraw-government-support-over-frederiksens-migration-language/",
+      "pubDate": "Wed, 25 Nov 2026 05:30:38 +0000"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "EU opfordrer til udgiftstilbageholdenhed i takt med stigende underskud og g?ld",
+      "title_en": "EU urges spending restraint as deficits and debt rise",
+      "summary_da": "Europa-Kommissionen opfordrer medlemslandene til at begr?nse udgifterne og reducere g?lden, da de offentlige finanser forv?rres i store dele af Den Europ?iske Union. Advarslen blev udstedt onsdag, da Kommissionen pr?senterede det europ?iske semester, sin ?rlige gennemgang af medlemslandenes ?konomier og reformer. EU's ?konomikommiss?r Valdis Dombrovskis sagde, at krige i Ukraine og [?]",
+      "summary_en": "The European Commission is urging member countries to limit spending and reduce debt as public finances deteriorate across much of the European Union. The warning was issued Wednesday as the Commission presented the European Semester, its annual review of member states? economies and reforms. EU Economy Commissioner Valdis Dombrovskis said wars in Ukraine and the [?]",
+      "link": "https://cphpost.dk/2026-11-25/news/round-up/eu-urges-spending-restraint-as-deficits-and-debt-rise/",
+      "pubDate": "Wed, 25 Nov 2026 05:30:31 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Dansk svinegigant politianmeldt efter fund af plastik og metalclips i foderproduktion",
+      "title_en": "Danish pig giant reported to police after finding plastic and metal clips in feed production",
+      "summary_da": "If?lge Kohberg, der leverer br?d til Kj?r Knudsen, er det virksomhedens eget ansvar at sortere plastikposer og metalclips fra.",
+      "summary_en": "According to Kohberg, which supplies bread to Kj?r Knudsen, it is the company's own responsibility to sort out plastic bags and metal clips.",
+      "link": "https://www.dr.dk/nyheder/indland/dansk-svinegigant-politianmeldt-efter-fund-af-plastik-og-metalclips-i-foderproduktion",
+      "pubDate": "Wed, 25 Nov 2026 05:00:00 GMT"
+    },
+    {
+      "source": "The Copenhagen Post",
+      "title_da": "\"Vi b?r ikke tiltr?kke internationale medarbejdere bredt, n?r der ikke er job til dem, og mange virksomheder kun ans?tter dem, der taler dansk.\"",
+      "title_en": "?We should not attract internationals broadly when there are no jobs for them and many companies hire only those who speak Danish.?",
+      "summary_da": "Copenhagen Capacitys direkt?r for talenttiltr?kning kommenterer p? nogle af resultaterne i en rapport udgivet af organisationen og adresserer de udfordringer, som Danmark st?r over for, som har brug for internationale talenter, men ogs? har mange udenlandske statsborgere, der k?mper med at finde et job.",
+      "summary_en": "Copenhagen Capacity?s Director of Talent Attraction comments on some of the findings of a report published by the organisation and addresses the challenges facing Denmark, which needs international talent but also has many foreign residents struggling to find a job.",
+      "link": "https://cphpost.dk/2026-11-25/business-education/career/we-should-not-attract-internationals-broadly-when-there-are-jobs-for-them-and-many-companies-hire-only-who-speak-danish/",
+      "pubDate": "Wed, 25 Nov 2026 05:00:00 +0000"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Med mundbind, kampr?b og bannere: Naboer til K?benhavns Lufthavn demonstrerede med opr?b til lokalpolitikere",
+      "title_en": "With masks, battle cries and banners: Neighbors of Copenhagen Airport demonstrated with appeals to local politicians",
+      "summary_da": "Trods stor lokal modstand besluttede et flertal i kommunalbestyrelsen i T?rnby, at de vil give lufthavnen lov til at udvide et system, der kan f?re br?ndstof hen til 15 nye standpladser til fly.",
+      "summary_en": "Despite strong local opposition, a majority of the municipal council in T?rnby decided to allow the airport to expand a system that can carry fuel to 15 new aircraft stands.",
+      "link": "https://www.dr.dk/nyheder/indland/med-mundbind-kampraab-og-bannere-naboer-til-koebenhavns-lufthavn-demonstrerede-med-opraab-til",
+      "pubDate": "Tue, 24 Nov 2026 21:11:56 GMT"
+    },
+    {
+      "source": "DR Indland",
+      "title_da": "Alice og Anne Marie g?r til parkinson-boksning",
+      "title_en": "Alice and Anne Marie go to Parkinson's boxing",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/trafik",
-      "pubDate": "Tue, 24 Nov 2026 07:01:07 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/reels/alice-og-anne-marie-gaar-til-parkinson-boksning",
+      "pubDate": "Tue, 24 Nov 2026 20:30:00 GMT"
     },
     {
       "source": "DR Indland",
-      "title_da": "Minister: Regnefejl om kv?lstof forsinker ogs? spr?jteforbud",
-      "title_en": "Minister: Calculation error regarding nitrogen also delays spraying ban",
-      "summary_da": "Beregninger om kompensation til landm?nd er forsinkede. Minister fastholder, at lovforslag frems?ttes i ?r.",
-      "summary_en": "Calculations on compensation for farmers are delayed. Minister insists that a bill will be presented this year.",
-      "link": "https://www.dr.dk/nyheder/politik/minister-regnefejl-om-kvaelstof-forsinker-ogsaa-sproejteforbud",
-      "pubDate": "Tue, 24 Nov 2026 06:59:56 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "G?rsdagens bombetrusler 'vil vi se mere af', vurderer ekspert",
-      "title_en": "Yesterday's bomb threats 'we will see more of', expert assesses",
-      "summary_da": "Knap 300 danske skoler og institutioner modtog mandag en bombetrussel p? mail.",
-      "summary_en": "Almost 300 Danish schools and institutions received a bomb threat via email on Monday.",
-      "link": "https://www.dr.dk/nyheder/indland/gaarsdagens-bombetrusler-vil-vi-se-mere-af-vurderer-ekspert",
-      "pubDate": "Tue, 24 Nov 2026 06:23:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Borgmester lukker kommentarspor",
-      "title_en": "Mayor closes comment section",
+      "title_da": "'Det er et juleeventyr': 100 ?r gammelt fyrt?j fundet igen",
+      "title_en": "'It's a Christmas fairy tale': 100-year-old tinderbox found again",
       "summary_da": "",
       "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/borgmester-lukker-kommentarspor",
-      "pubDate": "Tue, 24 Nov 2026 06:03:00 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Klamydiasmitte falder for tredje ?r i tr?k",
-      "title_en": "Chlamydia infection decreases for the third year in a row",
-      "summary_da": "Antallet af p?viste tilf?lde af klamydia i Danmark er det laveste i 11 ?r, viser ny rapport.",
-      "summary_en": "The number of detected cases of chlamydia in Denmark is the lowest in 11 years, a new report shows.",
-      "link": "https://www.dr.dk/nyheder/indland/klamydiasmitte-falder-tredje-aar-i-traek",
-      "pubDate": "Tue, 24 Nov 2026 05:59:11 GMT"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Bokseholdet her er noget s?rligt: Nu str?mmer klubberne til",
-      "title_en": "The boxing team here is something special: Now the clubs are flocking to it",
-      "summary_da": "Flere bokseklubber tilbyder parkinson-boksning, hvor tr?ningen tilpasses sygdommen. Og det har givet uventet meget tilbage til klubberne selv.",
-      "summary_en": "Several boxing clubs offer Parkinson's boxing, where the training is adapted to the disease. And this has given the clubs themselves an unexpected boost.",
-      "link": "https://www.dr.dk/nyheder/indland/bokseholdet-her-er-noget-saerligt-nu-stroemmer-klubberne-til",
-      "pubDate": "Tue, 24 Nov 2026 05:42:00 GMT"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Trump kritiserer Californiens plan om at omst?de 548 d?dsdomme",
-      "title_en": "Trump criticizes California plan to commute 548 death sentences",
-      "summary_da": "Den amerikanske pr?sident Donald Trump sluttede sig mandag til familierne til mordofre i sin kritik af Californiens guvern?r Gavin Newsoms plan om at omdanne alle d?dsdomme i staten til livsvarigt f?ngsel. Newsom annoncerede tidligere p? m?neden, at ?ndringen ville p?virke 548 indsatte. Trump talte sammen med ofrenes p?r?rende i det amerikanske justitsministerium og anklagede Californiens regering og [?]",
-      "summary_en": "US President Donald Trump joined families of murder victims Monday in criticizing California Governor Gavin Newsom?s plan to commute every death sentence in the state to life imprisonment. Newsom announced earlier this month that the change would affect 548 inmates. Trump spoke alongside victims? relatives at the US Department of Justice, accusing California?s government and [?]",
-      "link": "https://cphpost.dk/2026-11-24/global/trump-criticizes-california-plan-to-commute-548-death-sentences/",
-      "pubDate": "Tue, 24 Nov 2026 05:27:02 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Tre s?rede efter maskeret indbrudstyv tr?ngte ind i det tyske Gr?nnes kontor",
-      "title_en": "Three injured after masked intruder enters German Greens office",
-      "summary_da": "Tre personer blev s?ret, efter at en ukendt person mandag tr?ngte ind p? et kontor tilh?rende Tysklands De Gr?nne Parti i byen Schwerte. Flere personer blev bragt til hospitalet, if?lge lokalt politi og tyske medier. Omst?ndighederne ved h?ndelsen og alvoren af ??skaderne var fortsat uklare tidligt tirsdag. Ingen anholdelser er [?]",
-      "summary_en": "Three people were injured after an unknown person entered an office belonging to Germany?s Green Party in the city of Schwerte on Monday. Several people were taken to a hospital, according to local police and German media. The circumstances of the incident and the severity of the injuries remained unclear early Tuesday. No arrests have [?]",
-      "link": "https://cphpost.dk/2026-11-24/global/three-injured-after-masked-intruder-enters-german-greens-office/",
-      "pubDate": "Tue, 24 Nov 2026 05:26:58 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Britisk premierminister siger, at en tilbagevenden til EU vil kr?ve en folkeafstemning",
-      "title_en": "British prime minister says EU return would require referendum",
-      "summary_da": "Storbritannien kunne ikke genindtr?de i Den Europ?iske Union uden at afholde endnu en folkeafstemning, sagde premierminister Andy Burnham mandag. Adspurgt i parlamentet, om det ville v?re ut?nkeligt at vende tilbage til EU uden en offentlig afstemning, svarede Burnham, at det ville det. Labour-lederen har for nylig udfordret synspunktet om, at Brexit er et lukket sp?rgsm?l, ved at rejse muligheden for [?]",
-      "summary_en": "Britain could not rejoin the European Union without holding another referendum, Prime Minister Andy Burnham said Monday. Asked in parliament whether returning to the EU without a public vote would be unthinkable, Burnham replied that it would. The Labour leader has recently challenged the view that Brexit is a closed issue by raising the possibility [?]",
-      "link": "https://cphpost.dk/2026-11-24/global/british-prime-minister-says-eu-return-would-require-referendum/",
-      "pubDate": "Tue, 24 Nov 2026 05:26:54 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Danmark ?bner forel?bige skatteans?ttelser for 2027 tidligere end planlagt",
-      "title_en": "Denmark opens 2027 preliminary tax assessments ahead of schedule",
-      "summary_da": "Skattestyrelsen ?bnede mandag aften adgangen til forel?bige skatteans?ttelser for 2027, en dag tidligere end planlagt. Omkring 5,5 millioner indbyggere kan nu gennemg? og korrigere de indkomst- og skatteoplysninger, der bruges til at beregne deres forventede betalinger n?ste ?r. Styrelsen advarede dog om, at deres hjemmeside, skat.dk, var ustabil kort efter adgangen [?]",
-      "summary_en": "The Danish Tax Agency opened access to preliminary tax assessments for 2027 on Monday evening, one day earlier than planned. Approximately 5.5 million residents can now review and correct the income and tax information used to calculate their expected payments next year. However, the agency warned that its website, skat.dk, was unstable shortly after access [?]",
-      "link": "https://cphpost.dk/2026-11-24/news/round-up/denmark-opens-2027-preliminary-tax-assessments-ahead-of-schedule/",
-      "pubDate": "Tue, 24 Nov 2026 05:26:49 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Danmark og Rwanda afviser direkte betalinger under planlagt asyltilbagesendelsesordning",
-      "title_en": "Denmark and Rwanda deny direct payments under planned asylum return scheme",
-      "summary_da": "Danmark og Rwanda underskrev mandag en bred partnerskabsaftale som grundlag for et planlagt center for modtagelse af afviste asylans?gere. Den danske udenrigsminister Lars L?kke Rasmussen og Rwandas udenrigsminister Olivier Nduhungirehe underskrev aftalen i K?benhavn. Danmark, Tyskland, Holland, ?strig og Gr?kenland forhandler med Rwanda om overf?rsel af afviste asylans?gere til [?]",
-      "summary_en": "Denmark and Rwanda signed a broad partnership agreement Monday as a foundation for a planned center receiving rejected asylum seekers. Danish Foreign Minister Lars L?kke Rasmussen and Rwandan Foreign Minister Olivier Nduhungirehe signed the agreement in Copenhagen. Denmark, Germany, the Netherlands, Austria and Greece are negotiating with Rwanda over transferring rejected asylum seekers to the [?]",
-      "link": "https://cphpost.dk/2026-11-24/news/round-up/denmark-and-rwanda-deny-direct-payments-under-planned-asylum-return-scheme/",
-      "pubDate": "Tue, 24 Nov 2026 05:26:44 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Danmark planl?gger st?rre gennemsigtighed i unders?gelser af milit?re missioner",
-      "title_en": "Denmark plans greater transparency in inquiries into military missions",
-      "summary_da": "Danske politikere ville ikke l?ngere kunne kr?ve godkendelse, f?r deres udtalelser til Folketingets Udenrigspolitiske Udvalg citeres i historiske unders?gelser af milit?re engagementer. Regeringspartierne foreslog ?ndringen gennem et ?ndringsforslag til et borgerinitiativ vedr?rende gennemsigtighed i en unders?gelse af Danmarks engagement i Afghanistan. De ?nsker, at ?ben adgang skal blive [?]",
-      "summary_en": "Danish politicians would no longer be able to demand approval before their statements to parliament?s Foreign Policy Committee are quoted in historical inquiries into military engagements. The government parties proposed the change through an amendment to a citizen initiative concerning transparency in an inquiry into Denmark?s involvement in Afghanistan. They want open access to become [?]",
-      "link": "https://cphpost.dk/2026-11-24/news/round-up/denmark-plans-greater-transparency-in-inquiries-into-military-missions/",
-      "pubDate": "Tue, 24 Nov 2026 05:26:39 +0000"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Klamydiatilf?lde fortsat h?je i Danmark trods fald blandt unge",
-      "title_en": "Chlamydia cases remain high in Denmark despite decline among young people",
-      "summary_da": "Klamydia er fortsat Danmarks mest almindelige seksuelt overf?rte infektion, selvom antallet af p?viste tilf?lde blandt unge er faldet siden 2022. Danmark registrerede 29.580 tilf?lde i 2025 sammenlignet med 29.946 ?ret f?r, if?lge en rapport fra organisationen for seksuel sundhed Sex & Samfund, der bruger data fra Statens Serum Institut. Personer i alderen 15 til 29 ?r tegnede sig for 82 [?]",
-      "summary_en": "Chlamydia remains Denmark?s most common sexually transmitted infection, although detected cases among young people have declined since 2022. Denmark recorded 29,580 cases in 2025, compared with 29,946 the previous year, according to a report from sexual health organization Sex & Samfund using data from Statens Serum Institut. People aged 15 to 29 accounted for 82 [?]",
-      "link": "https://cphpost.dk/2026-11-24/news/round-up/chlamydia-cases-remain-high-in-denmark-despite-decline-among-young-people/",
-      "pubDate": "Tue, 24 Nov 2026 05:26:34 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "Skoleleder forbereder sig p? at tale med b?rnene om g?rsdagens bombetrussel: 'Det er en del af vores hverdag lige nu'",
-      "title_en": "School principal prepares to talk to children about yesterday's bomb threat: 'It's part of our everyday lives right now'",
-      "summary_da": "Skoleleder har skrevet til for?ldrene om mandagens bombetrussel, og han er klar til at svare, hvis eleverne sp?rger.",
-      "summary_en": "The school principal has written to parents about Monday's bomb threat, and he is ready to answer if students ask.",
-      "link": "https://www.dr.dk/nyheder/indland/skoleleder-forbereder-sig-paa-tale-med-boernene-om-gaarsdagens-bombetrussel-det-er-en-del-af-vores",
-      "pubDate": "Tue, 24 Nov 2026 05:03:00 GMT"
-    },
-    {
-      "source": "The Copenhagen Post",
-      "title_da": "Hvad danskerne taler om: Mette Frederiksen kom med kontroversielle udtalelser, hvor hun sagde, at hun ?nsker, at Danmark skal bevare et etnisk dansk flertal, og at hun er imod \"storstilet befolkningsudskiftning\".",
-      "title_en": "What Danes are talking about: Mette Frederiksen made controversial statements, saying she wants Denmark to keep an ethnic Danish majority and opposes ?large-scale population replacement?",
-      "summary_da": "Frederiksen beskrev danskerne som \"en indf?dt stamme\" og sagde, at hun var imod et multikulturelt samfund, hvor kulturer stilles lige. Hendes bem?rkninger m?dte ros fra h?jreekstremister og kritik for at gentage sprogbrug forbundet med en racistisk konspirationsteori.",
-      "summary_en": "Frederiksen described Danes as ?an indigenous tribe? and said she opposed a multicultural society where cultures are placed on an equal footing. Her remarks drew praise from far-right figures and criticism for echoing language associated with a racist conspiracy theory.",
-      "link": "https://cphpost.dk/2026-11-24/news/politics/danish-pm-mette-frederiksen-made-controversial-statements-saying-she-wants-denmark-to-keep-an-ethnic-danish-majority-and-opposes-large-scale-population-replacement/",
-      "pubDate": "Tue, 24 Nov 2026 05:00:15 +0000"
-    },
-    {
-      "source": "DR Indland",
-      "title_da": "?n time, 13 bilister: Kom med Fyns Politi p? f?rdselskontrol",
-      "title_en": "One hour, 13 drivers: Join the Funen Police on a traffic check",
-      "summary_da": "",
-      "summary_en": "",
-      "link": "https://www.dr.dk/nyheder/indland/reels/en-time-13-bilister-kom-med-fyns-politi-paa-faerdselskontrol",
-      "pubDate": "Mon, 23 Nov 2026 20:15:00 GMT"
+      "link": "https://www.dr.dk/nyheder/indland/reels/det-er-et-juleeventyr-100-aar-gammelt-fyrtoej-fundet-igen",
+      "pubDate": "Tue, 24 Nov 2026 20:10:00 GMT"
     }
   ]
 }
